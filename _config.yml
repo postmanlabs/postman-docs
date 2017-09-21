@@ -5,6 +5,8 @@ defaults:
 
 permalink: /:categories/:title
 
+baseurl: /docs
+
 # Namespace for custom variables
 pm:
   root: "https://www.getpostman.com"
