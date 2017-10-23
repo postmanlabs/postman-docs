@@ -16,9 +16,9 @@ Postman provides a multi-window and multi-tab interface for you to work on APIs.
 
 The Postman sidebar lets you find and manage requests and collections. The sidebar is divided into two main tabs, for **[History](/docs/postman/sending_api_requests/history)** and **[Collections](/docs/postman/collections/creating_collections)**.
 
-The right edge can be dragged to resize the width of the sidebar.  The sidebar can also be minimized for smaller screens.
+You can drag the right edge of the sidebar to resize the width.  You can also mimimize the sidebar for smaller screens. Click the sidebar icon at the bottom of the screen to hide or show the sidebar.
 
-[![sidebar toggle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58460797.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58460797.png)
+[![sidebar toggle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusBar_1019.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusBar_1019.png)
 
 ### History tab
 
@@ -30,21 +30,24 @@ Create and manage collections from the **Collections** tab in the sidebar. Learn
 
 ### Header toolbar
 
-[![header toolbar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58462646.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58462646.png)
+[![header toolbar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)
 
 The topmost toolbar in Postman covers the following options:
 
-   *   Sidebar toggle icon - Show or hide the sidebar
-   *   **Runner** button - Open the [collection runner](/docs/postman/collection_runs/starting_a_collection_run)
-   *   **Import** button - Import Postman collections, environments, WADL, Swagger, RAML, or cURL into Postman using files, links or raw text
-   *   New window icon - Open a new Postman window
-   *   **Builder** and **Team Library** tabs - Switch context between the request builder and team library view
-   *   Interceptor/Proxy icon - Manage proxy or Interceptor settings
-   *   Sync status icon - See and update the status of your Postman account 
-   *   User dropdown - Manage collection links and your profile or log in to, or out of, your Postman account
-   *   Notifications icon - Receive notifications or broadcasts
-   *   Settings icon - Manage Postman app settings and find other support resources
-   *   Heart - Love Postman? Click on this button to share the love!
+   
+   *  **New button**: Create requests, collections, environments, documentation, mock servers, and monitors.
+   *  **Import button** - Import Postman collections, environments, WADL, Swagger, RAML, or cURL into Postman using files, links or raw text 
+ *    **Runner button** - Open the collection runner.
+ *    New window icon - Open a new Tab, Postman Window, or Runner Window.
+ *    **Builder and Team Library tabs** - Switch context between the request builder and team library view.
+ *    Interceptor/Proxy icon - Manage proxy or Interceptor settings
+ *    IN SYNC status icon - See and update the status of your Postman account 
+ *   Public API Library - Displays the Public API network.
+ *   Setting icon - Enables you to manage Postman settings, and access release notes, documentation, security policies and standards, support page, and Postman Twitter page.
+ *   Notifications icon - Receive notifications or broadcasts.
+ *   Heart - Love Postman? Click on this button to share the love!
+ *   User dropdown - Manage collection links and your profile or log in to, or out of, your Postman account.
+
 
 ### Builder
 
@@ -66,11 +69,11 @@ The Postman application menu bar provides access to additional features. Note th
 
 **Postman native app**:  displays more menu options making it easier to access specific Postman features.
 
-[![native app menu](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-02-at-3.43.45-PM.png)](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-02-at-3.43.45-PM.png)
+[![native app menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/menu_options_nativeApp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/menu_options_nativeApp.png)
 
 **Postman Chrome app**:  displays a few menu options restricted by the Chrome standard .
 
-[![chrome app menu](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-02-at-3.46.38-PM.png)](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-02-at-3.46.38-PM.png)
+[![chrome app menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/MenuOptions_chromeApps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/MenuOptions_chromeApps.png)
 
 ### Status bar
 
