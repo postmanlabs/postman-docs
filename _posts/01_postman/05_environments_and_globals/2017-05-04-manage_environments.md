@@ -33,14 +33,14 @@ You can create a new environment from the:
 [![manage environments icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environments_icon.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environments_icon.png)
 2. Select “Manage Environments”. 
 3. Click the **Add** button to create a new environment.
-4. In the Add Environment screen:
+4. In the 'Add Environment' screen:
    * Enter a name for the environment.
    * Add key/value pairs.
 5. Click the **Add** button.
 
 #### New button
 
-1. In the header toolbar, click the New button.
+1. In the header toolbar, click the **New** button.
 [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 The **Create New** screen appears.
 [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create_new_screen.png)
@@ -50,20 +50,20 @@ The **Create New** screen appears.
 2. Click Environment.
 3. Select “Manage Environments”. 
 4. Click the **Add** button to create a new environment.
-5. In the Add Environment screen:
+5. In the 'Add Environment' screen:
    * Enter a name for the environment.
    * Add key/value pairs.
 6. Click the **Add** button.
 
 #### Launch screen
 
-The **Create New** screen appears by default when you launch Postman. (At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the Create New screen to display each time you open Postman.
+The 'Create New' screen appears by default when you launch Postman. (At the bottom of the screen you can select ‘Show this window at launch’ to indicate whether you want the 'Create New' screen to display each time you open Postman.
 
 1. Open Postman.
-2. In the **Create New** screen, click Environment.
+2. In the 'Create New' screen, click Environment.
 3. Select “Manage Environments”. 
 4. Click the **Add** button to create a new environment.
-5. In the Add Environment screen:
+5. In the 'Add Environment' screen:
    * Enter a name for the environment.
    * Add key/value pairs.
 6. Click the **Add** button.
@@ -74,11 +74,11 @@ To manage an environment, you can share, duplicate, download, or delete it. You 
 
 [![manage icons](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environ_icons.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environ_icons.png)
 
-When you click the **Share** button, the 'Manage Environments' screen appears. From this screen you can create an environment template to share. In the Environment Templates view, add a name for the template, add key/values pairs, and click the Share button.
+When you click the **Share** button, the 'Manage Environments' screen appears. From this screen you can create an environment template to share. In the Environment Templates view, add a name for the template, add key-values pairs, and click the **Share** button.
 
 [![environ template](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environTemplate.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environTemplate.png)
 
-**Note**: It's a best practice to create a duplicate, remove any sensitive values like passwords and access tokens before downloading the copy to share with someone else.  When someone else imports the environment, or accesses the shared template, they can input their own personal information within their own version of the template.
+**Note**: It's best practice to create a duplicate, remove any sensitive values like passwords and access tokens before downloading the copy to share with someone else.  When someone else imports the environment, or accesses the shared template, they can input their own personal information within their own version of the template.
 
 
 ### **Select an active environment**
@@ -88,7 +88,7 @@ Click the dropdown in the upper right corner of the Postman app to select an act
 
 ### **Edit an active environment**
 
-Click the Quick Look icon in the upper right corner of the Postman app to display the environment and global variables. Click the **Edit** link to open a modal for editing keys and values.
+Click the 'Quick Look' icon in the upper right corner of the Postman app to display the environment and global variables. Click the **Edit** link to open a modal for editing keys and values.
 
 [![quick look icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/edit_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/edit_environ.png)
 
