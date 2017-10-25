@@ -12,13 +12,31 @@ Each environment is a set of key-value pairs, with the key as the variable name.
 
 > **Environment and global variables will always be stored as strings. If you’re storing objects/arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.**
 
-##### **What are environments?**
+### **What are environments?**
 
 While working with APIs, you will often need to have different setups. For example, your local machine, the development server, or the production API. Environments give you the ability to customize requests using variables. This way you can easily switch between different setups without changing your requests. You won’t have to worry about remembering all those values once they are in Postman. Environments can be downloaded and saved as JSON files and uploaded later.
 
-[![manage environments modal](https://www.getpostman.com/img/v1/docs/thumbs/28.png)](https://www.getpostman.com/img/v1/docs/source/28.png)
+[![manage environments modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environments_Screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environments_Screen.png)
 
-##### **Create a new environment**
+### **Create a new environment**
+
+You can create a new environment from the:
+* Manage Environments icon
+* New button
+* Launch screen
+
+#### Manage environments icon
+
+1. Click the Manage Environments icon in the upper right corner of the Postman app.
+[![manage environments icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environments_icon.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environments_icon.png)
+
+2. Select “Manage Environments”. 
+3. Click the Add button to create a new environment.
+
+
+
+
+
 
 Click the gear icon in the upper right corner of the Postman app and select "Manage Environments". Click the **Add** button to create a new environment.
 
