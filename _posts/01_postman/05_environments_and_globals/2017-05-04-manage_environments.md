@@ -68,10 +68,11 @@ The **Create New** screen appears by default when you launch Postman. (At the bo
 
 ### **Manage environments**
 
-Click the gear icon in the upper right corner of the Postman app and select "Manage Environments". In addition to creating and sharing an environment, you can also duplicate, export, and delete an environment. This is also where you can import an environment as a single JSON file.
+To manage an environment, you can share, duplicate, download, or delete it. 
 
-After you create an environment, you can manage it by adding key value pairs
+[![manage icons](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environ_icons.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environ_icons.png)
 
+You can also import an environment as a single JSON file.
 
 
 ### **Select an active environment**
