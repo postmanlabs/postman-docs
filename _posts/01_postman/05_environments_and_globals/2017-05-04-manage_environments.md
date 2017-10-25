@@ -40,7 +40,8 @@ You can create a new environment from the:
 
 #### New button
 
-1. In the header toolbar, click the **New** button.
+1.  In the header toolbar, click the **New** button.
+
 
 [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HeaderToolBar.png)
 
