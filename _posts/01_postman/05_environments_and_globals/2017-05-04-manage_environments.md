@@ -14,7 +14,11 @@ Each environment is a set of key-value pairs, with the key as the variable name.
 
 ### **What are environments?**
 
-While working with APIs, you will often need to have different setups. For example, your local machine, the development server, or the production API. Environments give you the ability to customize requests using variables. This way you can easily switch between different setups without changing your requests. You won’t have to worry about remembering all those values once they are in Postman. Environments can be downloaded and saved as JSON files and uploaded later.
+While working with APIs, you often need different setups. For example, your local machine, the development server, or the production API. 
+
+Environments enable you to customize requests using variables. This customization enables you to easily switch between different setups without changing your requests. 
+
+You won’t have to remember all those values once they are in Postman. You can download environments and save them as JSON files and upload them later.
 
 [![manage environments modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environments_Screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environments_Screen.png)
 
@@ -27,9 +31,8 @@ You can create a new environment from the:
 
 #### Manage environments icon
 
-1. Click the Manage Environments icon in the upper right corner of the Postman app.
+1. Click the 'Manage Environments' icon in the upper right corner of the Postman app.
 [![manage environments icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environments_icon.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environments_icon.png)
-
 2. Select “Manage Environments”. 
 3. Click the Add button to create a new environment.
 
@@ -38,7 +41,7 @@ You can create a new environment from the:
 
 
 
-Click the gear icon in the upper right corner of the Postman app and select "Manage Environments". Click the **Add** button to create a new environment.
+
 
 [![add new environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58756026.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58756026.png)
 
