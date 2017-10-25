@@ -76,6 +76,8 @@ To manage an environment, you can share, duplicate, download, or delete it. You 
 
 When you click the **Share** button, the 'Manage Environments' screen appears. From this screen you can create an environment template to share. In the Environment Templates view, add a name for the template, add key/values pairs, and click the Share button.
 
+[![environ template](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environTemplate.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environTemplate.png)
+
 **Note**: It's a best practice to create a duplicate, remove any sensitive values like passwords and access tokens before downloading the copy to share with someone else.  When someone else imports the environment, or accesses the shared template, they can input their own personal information within their own version of the template.
 
 
@@ -89,8 +91,6 @@ Click the dropdown in the upper right corner of the Postman app to select an act
 Click the Quick Look icon in the upper right corner of the Postman app to display the environment and global variables. Click the **Edit** link to open a modal for editing keys and values.
 
 [![quick look icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/edit_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/edit_environ.png)
-
-
 
 
 For Postman Pro and Enterprise users, learn how to [share environment templates](/docs/postman/team_library/sharing) with team members.
