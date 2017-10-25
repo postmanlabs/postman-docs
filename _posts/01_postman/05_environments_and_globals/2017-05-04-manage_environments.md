@@ -8,17 +8,15 @@ warning: false
 
 ---
 
-Each environment is a set of key-value pairs, with the key as the variable name. These can be edited using the [data editor](/docs/postman/launching_postman/navigating_postman).
-
-> **Environment and global variables will always be stored as strings. If you’re storing objects/arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.**
-
 ### **What are environments?**
 
 While working with APIs, you often need different setups. For example, your local machine, the development server, or the production API. 
 
-Environments enable you to customize requests using variables. This customization enables you to easily switch between different setups without changing your requests. 
+Environments enable you to customize requests using variables. This customization enables you to easily switch between different setups without changing your requests. You won’t have to remember all those values once they are in Postman. You can download environments and save them as JSON files and upload them later.
 
-You won’t have to remember all those values once they are in Postman. You can download environments and save them as JSON files and upload them later.
+Each environment is a set of key-value pairs, with the key as the variable name. 
+
+> **Environment and global variables will always be stored as strings. If you’re storing objects/arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.**
 
 [![manage environments modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environments_Screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environments_Screen.png)
 
