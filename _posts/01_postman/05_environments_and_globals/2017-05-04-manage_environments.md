@@ -70,11 +70,13 @@ The **Create New** screen appears by default when you launch Postman. (At the bo
 
 ### **Manage environments**
 
-To manage an environment, you can share, duplicate, download, or delete it. 
+To manage an environment, you can share, duplicate, download, or delete it. You can also import an environment as a single JSON file.
 
 [![manage icons](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environ_icons.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage_environ_icons.png)
 
-You can also import an environment as a single JSON file.
+When you click the **Share** button, the 'Manage Environments' screen appears. From this screen you can create an environment template to share. In the Environment Templates view, add a name for the template, add key/values pairs, and click the Share button.
+
+**Note**: It's a best practice to create a duplicate, remove any sensitive values like passwords and access tokens before downloading the copy to share with someone else.  When someone else imports the environment, or accesses the shared template, they can input their own personal information within their own version of the template.
 
 
 ### **Select an active environment**
@@ -88,12 +90,7 @@ Click the Quick Look icon in the upper right corner of the Postman app to displa
 
 [![quick look icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/edit_environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/edit_environ.png)
 
-### **Share an environment**
 
-Click the gear icon in the upper right corner of the Postman app and select "Manage Environments". Click the **Duplicate Environment** icon next to the environment you want to share.
 
-[![duplicate environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58787970.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58787970.png)
-
-It's a best practice to create a duplicate, remove any sensitive values like passwords and access tokens before downloading the copy to share with someone else.  When someone else imports the environment, or accesses the shared template, they can input their own personal information within their own version of the template.
 
 For Postman Pro and Enterprise users, learn how to [share environment templates](/docs/postman/team_library/sharing) with team members.
