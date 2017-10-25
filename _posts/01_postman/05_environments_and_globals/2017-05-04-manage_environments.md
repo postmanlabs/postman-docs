@@ -88,7 +88,8 @@ When you click the **Share** button, the 'Manage Environments' screen appears. F
 
 ### **Select an active environment**
 
-Click the dropdown in the upper right corner of the Postman app to select an active environment, or type in the environment name. Once you select an environment, you can access variables within the active environmental scope.  
+Click the dropdown in the upper right corner of the Postman app to select an active environment, or type in the environment name. Once you select an environment, you can access variables within the active environmental scope. 
+
 [![environments dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/active+environ.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/active+environ.png)
 
 ### **Edit an active environment**
