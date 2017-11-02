@@ -10,6 +10,8 @@ warning: false
 
 If you are using APIs to build client-side applications - mobile apps, websites or desktop applications - you might want to see the actual HTTP request traffic that is being sent and received in the application. In some cases, you might discover APIs that are not even documented. Postman gives you tools to see and capture this network traffic easily. You can use the built-in proxy in the Postman native apps or use the [Interceptor extension](/docs/postman/sending_api_requests/interceptor_extension) for the Postman Chrome app. 
 
+**Note:** for the Postman native apps, request captures over HTTPS will not work if the website has HSTS enabled. Most websites have this check in place.
+
 ### The Postman built-in proxy
 
 Postman has a proxy in the Postman app that captures the HTTP request.
