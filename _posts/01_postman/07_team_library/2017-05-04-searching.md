@@ -5,7 +5,9 @@ categories:
 title: "Searching"
 page_id: "searching"
 warning: false
----
+
+**(Will place the new FIND topic here until the replace feature is ready. "Might" have a separate topic for Find/Replace)**
+
 
 ### Filtering by name or description
 
