@@ -5,6 +5,7 @@ categories:
 title: "Searching"
 page_id: "searching"
 warning: false
+
 ---
 
 ### Filtering by name or description

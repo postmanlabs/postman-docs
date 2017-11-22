@@ -35,6 +35,8 @@ Select a frequency to run your monitor. Monitors can run as frequently as every 
 
 To [monitor resources in multiple regions](/docs/postman/monitors/intro_monitors#monitoring-resources-in-multiple-regions), select the regions to run your monitor from the [monitors page](https://monitor.getpostman.com){:target="_blank"}. When you specify a monitor to run in multiple regions, the monitor will run multiple times. This means that if there is a side effect from running the monitor, it will also happen multiple times.
 
+Postman Enterprise users interested in setting up dedicated IPs for their API monitoring should contact [{{site.pm.help_email}}](mailto:{{site.pm.help_email}}).
+
 ### Additional preferences
 
 | **Additional preferences** | **Description** |
