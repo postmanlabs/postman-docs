@@ -16,7 +16,7 @@ When you sign up for a free Postman account, you can:
    *   Easily work on multiple Postman instances from different machines.
    *   Create [collection links](/docs/postman/collections/sharing_collections) to send to other developers.
 
-Signing up is completely optional. Read our [EULA](https://www.getpostman.com/licenses/postman_base_app){:target="_blank"}, [security page](https://www.getpostman.com/security){:target="_blank"}, and [privacy page](https://www.getpostman.com/licenses/privacy){:target="_blank"} to know more.
+Signing up is completely optional. Read our [EULA](https://www.getpostman.com/licenses/postman_base_app){:target="_blank"}, [security page](https://www.getpostman.com/security){:target="_blank"}, and [privacy page](https://www.getpostman.com/licenses/privacy){:target="_blank"} to know more.
 
 ### Signing up for a Postman account
 
@@ -27,7 +27,7 @@ Signing up is completely optional. Read our [EULA](https://www.getpostman.com/li
     [![sign up with email or google](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signUp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signUp.png)  
 4. Confirm your email.
 
-Once you are logged in, you will see the **IN SYNC** icon at the top telling you that you are connected to our servers. Postman uses WebSockets for real-time [syncing](/docs/postman/launching_postman/syncing). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us){:target="_blank"}.
+Once you are logged in, you will see the **IN SYNC** icon at the top telling you that you are connected to our servers. Postman uses WebSockets for real-time [syncing](/docs/postman/launching_postman/syncing). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us){:target="_blank"}.
 
 [![sync icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)
 
@@ -72,7 +72,7 @@ To switch back to your previous account, click on the account user name in the d
 
 ### Security policies and standards
 
-Postman uses several technologies to ensure that your data is safe and secure. For more details, visit our [security page](https://www.getpostman.com/security){:target="_blank"}.
+Postman uses several technologies to ensure that your data is safe and secure. For more details, visit our [security page](https://www.getpostman.com/security){:target="_blank"}.
 
    *   Communication with Postman servers only happens through HTTPS and Secure WebSockets.
    *   Environment and global variables are encrypted so that only you can view them.
