@@ -16,8 +16,10 @@ A Postman account is required to activate your Postman Pro trial.
    *   Sign in to your Postman account from the Postman [home page](https://www.getpostman.com/){:target="_blank"}. 
    *   On the [dashboard page](https://app.getpostman.com/dashboard/team-plans){:target="_blank"}, click **Activate trial**.
         [![activate](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/activate_trial.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/activate_trial.png)  
-   *   The Postman dashboard{:target="_blank"} page reappears and indicates how many days you have in the Pro trial. You can setup a team, create collections, and download Mac, Windows, or Linux native Postman apps. 
+   *   The Postman dashboard{:target="_blank"} page indicates how many days you have in the Pro trial. You can setup a team, create collections, and download Mac, Windows, or Linux native Postman apps. 
         [![manage trial](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/activate_option_new_dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/activate_option_new_dashboard.png)
+
+You can also try the beta Pro dashboard by clicking the **Try the data dashboard** button.
 
 ### If you don't already have a Postman account
 
