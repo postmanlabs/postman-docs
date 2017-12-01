@@ -16,7 +16,8 @@ When you sign up for a free Postman account, you can:
    *   Easily work on multiple Postman instances from different machines.
    *   Create [collection links](/docs/postman/collections/sharing_collections) to send to other developers.
 
-Signing up is completely optional. Read our [EULA](https://www.getpostman.com/licenses/postman_base_app){:target="_blank"}, [security page](https://www.getpostman.com/security){:target="_blank"}, and [privacy page](https://www.getpostman.com/licenses/privacy){:target="_blank"} to know more.
+
+
 
 ### Signing up for a Postman account
 
@@ -27,7 +28,9 @@ Signing up is completely optional. Read our [EULA](https://www.getpostman.com/li
     [![sign up with email or google](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signUp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signUp.png)  
 4. Confirm your email.
 
+
 Once you are logged in, you will see the **IN SYNC** icon at the top telling you that you are connected to our servers. Postman uses WebSockets for real-time [syncing](/docs/postman/launching_postman/syncing). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us){:target="_blank"}.
+
 
 [![sync icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)
 
@@ -70,6 +73,7 @@ To switch back to your previous account, click on the account user name in the d
 
 [![webdashboard icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/switchProfiles_webDashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/switchProfiles_webDashboard.png)
 
+
 ### Switching between different accounts
 You can sign in to multiple accounts at the same time in the Postman app and the Postman web dashboard. After you sign in, you can switch between these accounts.
 
@@ -78,7 +82,6 @@ When you first open the Postman app, you can sign in as an existing user or crea
 
 If you bypass the initial sign-in option, you can click the Sign In button on the top right corner of your screen at any time.
 
-**(Insert Sign In graphic)**
 
 After you sign in, your profile image replaces the **Sign In button**. 
 
@@ -86,13 +89,11 @@ When you click on your profile image, a drop down menu lists all active signed-i
 
 To sign into another account, click the **Add A New Account** button at the bottom of the drop down menu.
 
-**(Insert Add a new account graphic)**
 
 After you sign in to another account, the drop down menu lists all your active signed-in accounts.
 
 To switch back to your previous account, click on the account user name in the drop down menu.
 
-**(Insert Multiple accounts graphic)**
 
 #### How to switch accounts in the Postman web view
 When you sign in to the Postman dashboard, you see your profile image on the top right hand corner of the screen.  
@@ -103,7 +104,6 @@ After you sign in to another account, the drop down menu lists all your active s
 
 To switch back to your previous account, click on the account user name in the drop down menu.
 
-**(Insert Multiple accounts web view graphic)** 
 
 ### Security policies and standards
 
@@ -124,4 +124,6 @@ You can recover your username or reset your password from the [**Sign In**](http
 2. In the **Trouble signing in?** page, enter your email address and click the **Submit** button.
    Check your email for instructions to recover your username or password.
    
+
 [![trouble_signIn page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signIn_trouble.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signIn_trouble.png)
+

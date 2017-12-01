@@ -100,6 +100,8 @@ When you specify a monitor to run in multiple regions, the monitor will run mult
 
 Postman Enterprise users interested in setting up dedicated IPs for their API monitoring should contact [{{site.pm.help_email}}](mailto:{{site.pm.help_email}}).
 
+Postman Enterprise users interested in setting up dedicated IPs for their API monitoring should contact [{{site.pm.help_email}}](mailto:{{site.pm.help_email}}).
+
 ### Additional preferences
 
 | **Additional preferences** | **Description** |
