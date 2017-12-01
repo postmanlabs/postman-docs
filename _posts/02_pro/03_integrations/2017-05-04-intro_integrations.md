@@ -35,4 +35,5 @@ To access Postman Pro integrations:
 
   The Integrations page lists of all the currently available integrations for Postman Pro users.
   <br>
+  <br>
 [![list of integrations](http://blog.getpostman.com/wp-content/uploads/2017/02/gif-highfps-1.gif)](http://blog.getpostman.com/wp-content/uploads/2017/02/gif-highfps-1.gif)
