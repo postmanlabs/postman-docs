@@ -33,6 +33,6 @@ To access Postman Pro integrations:
 
   [![integrations](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations.png)
 
-   The Integrations page lists of all the currently available integrations for Postman Pro users.
-
+  The Integrations page lists of all the currently available integrations for Postman Pro users.
+  <br>
 [![list of integrations](http://blog.getpostman.com/wp-content/uploads/2017/02/gif-highfps-1.gif)](http://blog.getpostman.com/wp-content/uploads/2017/02/gif-highfps-1.gif)
