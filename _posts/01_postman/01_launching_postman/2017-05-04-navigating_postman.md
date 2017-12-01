@@ -16,75 +16,82 @@ Postman provides a multi-window and multi-tab interface for you to work on APIs.
 
 The Postman sidebar lets you find and manage requests and collections. The sidebar is divided into two main tabs, for **[History](/docs/postman/sending_api_requests/history)** and **[Collections](/docs/postman/collections/creating_collections)**.
 
-The right edge can be dragged to resize the width of the sidebar.  The sidebar can also be minimized for smaller screens.
-
-[![sidebar toggle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58460797.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58460797.png)
+You can drag the right edge to resize the width of the sidebar. You can also minimize the sidebar for smaller screens. You can show or hide the sidebar in the Status bar.
 
 ### History tab
 
-Every request that you send inside the Postman app is saved in the **History** tab within the sidebar. Learn more about harnessing the power of your [history](/docs/postman/sending_api_requests/history).
+The Postman app saves every request that you send in the [History](/docs/postman/sending_api_requests/history) tab in the sidebar. 
 
 ### Collections tab
 
-Create and manage collections from the **Collections** tab in the sidebar. Learn more about [collections](/docs/postman/collections/creating_collections) and how they help bring your APIs to warp speed.
+This tab creates and manages collections from the **Collections** tab in the sidebar. Learn more about [collections](/docs/postman/collections/creating_collections) and how they accelerate the speed of your APIs.
 
 ### Header toolbar
 
-[![header toolbar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58462646.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58462646.png)
+[![header toolbar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)
 
-The topmost toolbar in Postman covers the following options:
-
-   *   Sidebar toggle icon - Show or hide the sidebar
-   *   **Runner** button - Open the [collection runner](/docs/postman/collection_runs/starting_a_collection_run)
-   *   **Import** button - Import Postman collections, environments, WADL, Swagger, RAML, or cURL into Postman using files, links or raw text
-   *   New window icon - Open a new Postman window
-   *   **Builder** and **Team Library** tabs - Switch context between the request builder and team library view
-   *   Interceptor/Proxy icon - Manage proxy or Interceptor settings
-   *   Sync status icon - See and update the status of your Postman account 
-   *   User dropdown - Manage collection links and your profile or log in to, or out of, your Postman account
-   *   Notifications icon - Receive notifications or broadcasts
-   *   Settings icon - Manage Postman app settings and find other support resources
+The header toolbar contains these options:
+   *   **New** button: Creates requests, collections, environments, documentation, mock servers, and monitors.
+    *  **Import** button - Imports Postman collections, environments, WADL, Swagger, RAML, or cURL into Postman using files, links or raw text.
+   *   **Runner** button - Opens the [collection runner.](/docs/postman/collection_runs/starting_a_collection_run)
+   *   New window icon - Opens a new 'Tab', 'Postman Window' or a 'Runner Window'.
+   *   **Builder** and **Team Library** tabs - Switches context between the request builder and team library view.
+   *   Interceptor/Proxy icon - Manages proxy or Interceptor settings.
+   *   IN SYNC status icon - Updates the status of your Postman account.
+   *   Public API Library - Displays the Public API network.
+   *   Settings icon - Manages Postman app settings and finds other support resources.
+   *   Notifications icon - Receives notifications or broadcasts.
    *   Heart - Love Postman? Click on this button to share the love!
+   *   User dropdown - Displays current user and provides these options: 'Profile', 'Account Settings', 'Notification Preferences', 'Active Sessions', and 'Add a new account'.
+
 
 ### Builder
 
 Postman gives you a tabbed layout for sending and managing API requests in the builder. The top half is the request builder and the bottom half is the response viewer.  
 
-   *   **Cookies** - The **MANAGE COOKIES** modal is accessed by the **Cookies** link on the far right beneath the **Save** button. This feature lets you manage cookies associated with the request. Learn more about [working with cookies](/docs/postman/sending_api_requests/cookies).
-   *   **Code** - The **GENERATE CODE SNIPPETS** modal is accessed by the **Code** link on the far right beneath the **Save** button. This feature lets you generate code snippets associated with the request in more than 20 languages.
+   *   **Cookies** - You can use the **Cookies** link on the far right beneath the **Save** button to access the **MANAGE COOKIES** modal. This feature lets you manage cookies associated with the request. Learn more about [working with cookies](/docs/postman/sending_api_requests/cookies).
+   *   **Code** - You can use the **Code** link on the far right beneath the **Save** button to access the **GENERATE CODE SNIPPETS** modal. This feature lets you generate code snippets associated with the request in more than 20 languages.
 
 ### Console
 
-To see what's going behind the scenes, there are two consoles available in Postman. Learn more about [troubleshooting with console logs](/docs/postman/sending_api_requests/debugging_and_logs).
+Two consoles are available in Postman to see what's going behind the scenes.
 
-   *   Postman console - Contains a running log of HTTP requests and responses. Log messages that come out of scripts (like in console.log). This feature is only available in Postman's native apps.
-   *   DevTools console - Where you can log diagnostic information during development.
+   *   Postman console - Contains a running log of HTTP requests and responses. You can log messages from scripts. For example you could log messages in a console.log. This feature is only available in Postman's native apps.
+   *   DevTools console - Provides diagnostic information during development. To learn how to access DevTools console logs, see [Debugging and logs](/docs/postman/sending_api_requests/debugging_and_logs).
+
+Learn more about [troubleshooting with console logs](/docs/postman/sending_api_requests/debugging_and_logs).
 
 ### Menu bar
 
 The Postman application menu bar provides access to additional features. Note that there are some key differences between the menu bar for Postman's native apps and Postman's Chrome app.
 
-**Postman native app**:  displays more menu options making it easier to access specific Postman features.
+**Postman native app**: Displays more menu options to access specific Postman features.
 
-[![native app menu](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-02-at-3.43.45-PM.png)](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-02-at-3.43.45-PM.png)
+[![native app menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/menu_options_nativeApp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/menu_options_nativeApp.png)
 
-**Postman Chrome app**:  displays a few menu options restricted by the Chrome standard .
+**[Postman Chrome app](http://blog.getpostman.com/2017/11/01/goodbye-postman-chrome-app/)**: Displays a few menu options restricted by the Chrome standard.
 
-[![chrome app menu](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-02-at-3.46.38-PM.png)](http://blog.getpostman.com/wp-content/uploads/2017/03/Screen-Shot-2017-03-02-at-3.46.38-PM.png)
+[![chrome app menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/MenuOptions_chromeApps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/MenuOptions_chromeApps.png)
 
 ### Status bar
 
-The status bar at the bottom of the Postman interface gives you a convenient way to open the [console](/docs/postman/launching_postman/navigating_postman#console), select either a single or two pane layout, open the [keyboard shortcuts](/docs/postman/launching_postman/navigating_postman#keyboard-shortcuts), and get Postman Help. 
+The status bar at the bottom of the Postman interface gives you a convenient way to:
+* Show or hide the sidebar
+* Search in collections, environments, and globals
+* Open the Postman [console](https://www.getpostman.com/docs/postman/launching_postman/navigating_postman#console)
+* Select either a single or two pane layout
+* Open the keyboard [shortcuts](https://www.getpostman.com/docs/postman/launching_postman/navigating_postman#keyboard-shortcuts)
+* Get help or provide feedback
 
-[![status bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusBar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusBar.png)
+[![status bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusBar_1019.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusBar_1019.png)
 
-When you click the Help & Feedback icon, you can summon a menu that provides access to the latest release notes, [documentation](/docs), [security](https://www.getpostman.com/security){:target="_blank"}, [support](https://www.getpostman.com/support){:target="_blank"}, and [social media](https://twitter.com/postmanclient){:target="_blank"}.
+When you click the Help & Feedback icon, you can summon a menu that provides access to the latest release notes, [documentation](/docs), [security,](https://www.getpostman.com/security) [support,](https://www.getpostman.com/support) and [social media.](https://twitter.com/postmanclient)
 
-[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/helpAndFeedback.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/helpAndFeedback.png)
+[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusbar_helpFeedbackMenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/statusbar_helpFeedbackMenu.png)
 
 ### Tabs and Windows
 
-Postman lets you use multi-tab and multi-window configurations. This allows you to work on multiple requests or even multiple collections together and simultaneously.
+Postman lets you use multi-tab and multi-window configurations to work on multiple requests or even multiple collections together and simultaneously.
 
 To open a new tab in Postman press the **+** icon in the builder or use the **CMD/CTRL + T** shortcut. From the menu bar, you can also select "New Tab" from the **File** menu to create a new tab.
 
@@ -92,41 +99,68 @@ By right clicking on a tab name, the menu allows you to duplicate or close tabs.
 
 ##### **Busy tabs**
 
-The idea behind busy tabs is to make sure people don't lose the request they've been working on, even if it isn't in a collection. When you're on a busy tab, opening a new request from the sidebar will open the request in a new tab. It does not replace or interfere with the request in the previous busy tab.
+Busy tabs ensures you don't lose the request you've been working on, even if it isn't in a collection. When you're on a busy tab and open a new request from the sidebar, it opens the request in a new tab and doesn't replace or interfere with the request in the previous busy tab.
 
-What makes a tab busy? Working on a tab moves the tab into a busy state. For example, receiving a response or making changes that are not yet saved (reflected by an orange dot on the tab) will all result in making a tab busy. 
+What makes a tab busy? When you work in a tab it becomes busy. For example, receiving a response or making changes that are not yet saved (reflected by an orange dot on the tab) creates a busy tab.
 
 ##### **Tab and sidebar behavior**
 
-By default, Postman assumes that you want to work on one collection request in one tab. When you open a request from the sidebar, Postman will open a new tab if an existing tab has unsaved changes, otherwise the request takes over the current tab. You can always open a request in a new tab. From the sidebar under the **Collections** tab, right click a request and select "Open in New Tab".
+By default, Postman assumes you want to work on one collection request in one tab. When you open a request from the sidebar, Postman opens a new tab if an existing tab has unsaved changes. If not, the request takes over the current tab. You can always open a request in a new tab. From the sidebar under the **Collections** tab, right click a request and select "Open in New Tab".
+
+##### **Tab menu**
+Postman offers several tab actions to help you manage your work.
+
+[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_menu.png)
+
+To access the **Tab** menu, click the three dots on the right side of a tab. A dropdown appears with options to manage your the tabs.
+
+* Duplicate Current Tab
+* Close Current Tab
+* Force Close Current Tab
+* Close All but Current Tab
+* Close All Tabs
+* Force Close All Tabs
+
+When you "Force Close Current Tab" or "Force Close All Tabs", the tab(s) close immediately without prompting you to save your work in the tab(s).
+
+When you "Close Current Tab", "Close All but Current Tab", or "Close All Tabs", a dialogue box appears with an option to save your work.
+
+[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_save4.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_save4.jpeg)
 
 ##### **Moving requests**
 
-Within the request builder, drag and drop tabs to reorder them as you see fit. Open a new request in a new tab, or in a new Postman window. Open multiple windows using the **New Window** icon in the header toolbar or the keyboard shortcut.
+Within the request builder, drag and drop tabs to reorder them as you see fit. Open a new request in a new tab, or in a new Postman window. Open multiple windows using the New Window icon in the header toolbar or the keyboard shortcut.
 
 ### Keyboard Shortcuts
 
-Keyboard usability is high on the priority list for any dev tool. For most developers, it’s a more efficient input method, requiring minimum movement and effort compared to a mouse or other pointing device. It also saves time, and for repetitive or well-frequented tasks, this can bring about a huge improvement in speed over the long run.
+Keyboard usability is a high priority for any development tool. For most developers, keyboard shortcuts are a more efficient input method that requires minimum movement and effort compared to navigating with a cursor. For repetitive or well-frequented tasks, keyboard shortcuts improve speed over the long run.
 
-When we approached assigning keyboard shortcuts in Postman, we broadly categorized them into three buckets based on their function: navigation, manipulation and global. Navigational shortcuts help you move around the interface, manipulation shortcuts allow you to manipulate the current selection and global shortcuts can be accessed from anywhere.
+Postman categories keyboard shortcuts as navigation, manipulation, and global.
+* Navigational shortcuts to move around the interface
+* Manipulation shortcuts to manipulate the current selection
+* Global shortcuts to access from anywhere
 
 ##### **Navigational Shortcuts**
 
-We want to make it easier for a user to navigate quickly between elements. Let’s take the simple example of opening and sending a series of saved requests. Without a shortcut, a user selecting a request in the sidebar would use their pointer every time to open it in a tab. With the **CMD/CTRL + ALT + 1** shortcut, you can now focus the sidebar from wherever you are in interface. You can then navigate to the desired request using the arrow keys. Combine this with **CMD/CTRL + Enter** to send a number of requests in the matter of a few seconds. 
+Postman designs navigational shortcuts to help you navigate quickly between elements. For example, suppose you want to open and send a series of saved requests without a keyboard shortcut. You would have to select a request in the sidebar with a pointer each time to open it in the tab.
+
+With a keyboard shortcut, such as **CMD/CTRL + ALT + 1**, you can focus the sidebar from wherever you are in interface. You can then navigate to the request you want with the arrow keys. And if you combine the **CMD/CTRL + ALT + 1** shortcut with the **CMD/CTRL + Enter** shortcut, you can send a number of requests in the matter of a few seconds.
 
 ##### **Manipulation Shortcuts**
 
-Manipulation shortcuts allow you to quickly work on your current selection and perform actions such as edit, delete and duplicate. Combined with navigational shortcuts, this makes creating and organizing collections in your sidebar a breeze. These shortcuts can also be used in other list views such as our new data editor.
+Manipulation shortcuts allow you to quickly work on your current selection and perform actions such as edit, delete and duplicate. You can combine navigational and manipulation shortcuts to create and organize collections in your sidebar easily. You can also use these shortcuts in other list views, such as the data editor.
 
 ##### **Global Shortcuts**
 
-Global shortcuts are used for important actions so that they can be accessed irrespective of the element in focus. Actions on your selected tab, like Save (**CMD/CTRL + S**), Save As (**CMD/CTRL + Shift + S**), and Send Request (**CMD/CTRL + Enter**) all follow this pattern. Global shortcuts can also be used to perform UI actions like toggling the sidebar **(CMD/CTRL + \)**, Jump to URL (**CMD/CTRL + L**), and Open Console (**CMD/CTRL + ALT + C**).
+You can use global shortcuts to perform actions regardless of the element in focus. Examples of such global actions include Save (**CMD/CTRL + S**), Save As (**CMD/CTRL + Shift + S**), and Send Request (**CMD/CTRL + Enter**)
+You can also use global shortcuts to perform user interface actions such as toggling the sidebar (**CMD/CTRL +** ),
+Jump to URL (**CMD/CTRL + L**), and Open Console (**CMD/CTRL + ALT + C**).
 
 ##### **View keyboard shortcuts for your OS**
 
-Different operating systems will have different shortcuts.  You can always view a complete list of your operating system's shortcuts under the **Shortcuts** tab in the **SETTINGS** modal.
+Different operating systems will have different shortcuts.  You can always view a complete list of your operating system's shortcuts when you click the **Keyboard Shortcuts** icon in the **Status bar**.
 
-[![shortcuts in settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59179733.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59179733.png)
+[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Keyboard_shortcuts.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Keyboard_shortcuts.png)
 
 ##### **Reference for all shortcuts**
 
@@ -134,6 +168,7 @@ Different operating systems will have different shortcuts.  You can always view
 | ---   |   ---     | ---   |
 | Open New Tab   |   ⌘ T     | Ctrl + T   |
 | Close Tab   |   ⌘ W     | Ctrl + W   |
+| Force Close Tab   |  Cmd + Alt + W     | Ctrl + Alt + W   |
 | Switch To Next Tab   |   ⇧ ⌘ ]     | Ctrl + Shift + ]   |
 | Switch To Previous Tab   |   ⇧ ⌘ [     | Ctrl + Shift + [   |
 | Switch To Tab at Position   |   ⌘ 1 through ⌘ 8     | Ctrl + 1 through Ctrl + 8   |
@@ -180,18 +215,21 @@ Different operating systems will have different shortcuts.  You can always view
 | Submit Modal   |   ⌘ ↵     | Ctrl + Enter   |
 | Open Shortcut Help   |   ⌘ /     | Ctrl + /   |
 
+### Mouse actions
+To close a tab, right click the tab to display the **Tab** menu, and click the **Close** button. Or click the **X** icon on the right side of the tab to close it.
+
+To force close a tab, press **ALT** and click the **X** icon on the right side of tab.
+
 
 ### Data editor
 
-Working with large amounts of data can be cumbersome and time consuming. Postman's data editor lets you view and manipulate data in a fast, effective, and elegant manner.
-
-Spreadsheet features are familiar to most people working with data, so we used them as inspiration for the design of the data editor.  
+Working with large amounts of data can be cumbersome and time consuming. Postman's data editor lets you view and manipulate data in a fast, effective, and elegant manner. Since most users use spreadsheets to work with data, we leveraged those spreadsheet features to design the data editor to make it a familiar experience.  
 
 ##### **Visual layout**
 
-We've configured the available horizontal and vertical space more effectively to optimize the data that can be displayed up front.
+We've configured the available horizontal and vertical space more effectively to optimize the data you can display up front.
 
-Relevant features will display for a specific row on hover. This reduces clutter in the interface and helps the user focus on the most relevant data.
+On hover, relevant features display for a specific row to reduce clutter in the interface and help you focus on the most relevant data.
 
 [![data editor layout](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162701.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162701.png)
 
@@ -222,13 +260,13 @@ Relevant features will display for a specific row on hover. This reduces clutte
 
 ##### **Support for bulk actions**
 
-You can select and copy multiple rows. Then go ahead and paste them in a different place (e.g. params) and check out what happens for yourself!
+You can select and copy multiple rows and then paste them in a different places (such as params).
 
 [![select and copy multiple rows](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162757.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162757.gif)  
 
 ##### **View information up front**
 
-We want to display the information you want to see up front. If you navigate to a place with a large amount of data, the UI element auto expands to show the complete information. This is implemented in the data editor as well as the URL bar.  
+You can display the information you want to see up front. If you navigate to a place with a large amount of data, the UI element auto expands to show the complete information in the data editor as well as the URL bar.  
 
 [![expand to show info](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162771.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162771.gif)
 
@@ -240,6 +278,6 @@ You can change the width of the key and value columns by dragging the boundary o
 
 ##### **Multiline support**
 
-The data editor supports sending multiline values. Pressing 'Enter' in a key or value field expands it and takes the cursor to a new line.
+The data editor supports sending multiline values. Press 'Enter' in a key or value field to expand it and move the cursor to a new line.
 
 [![sending multiline](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162801.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162801.gif)
