@@ -8,13 +8,13 @@ warning: false
 
 ---
 
-Each collection has a private and public documentation view, generated in real-time using the data synced to our servers. 
+Each collection has a private and public documentation view. Both views are generated in real-time using the data synced to our servers. 
 
 ### Viewing Private Documentation
 
-In order to view private documentation, which is only accessible to you and your Postman Pro or Enterprise team, click "View Docs" or "View in web" in the Postman app or in the [Postman web view](https://app.getpostman.com/dashboard/collections/team){:target="_blank"}. 
+To view private documentation, click "View Docs" or "View in web" in the Postman app or in the [Postman web view](https://app.getpostman.com/dashboard/collections/team){:target="_blank"}. **Note**: Private documentation accessible to you and your Postman Pro or Enterprise team,
 
-Private documentation is available to all Postman users. To view private documentation for a collection, make sure you’re signed in to the Postman app. When signed in, your username will be displayed in the top-right corner.
+Private documentation is available to all Postman users. To view private documentation for a collection, make sure you’re signed in to the Postman app. When signed in, your username appears in the top-right corner.
 
 [![username](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentationLoggedIn.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentationLoggedIn.png)
 
