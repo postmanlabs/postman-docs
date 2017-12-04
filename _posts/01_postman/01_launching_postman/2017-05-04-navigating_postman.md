@@ -38,7 +38,7 @@ The header toolbar contains these options:
    *   **New** button: Creates requests, collections, environments, documentation, mock servers, and monitors.
     *  **Import** button - Imports Postman collections, environments, WADL, Swagger, RAML, or cURL into Postman using files, links, or raw text.
    *   **Runner** button - Opens the [collection runner.](/docs/postman/collection_runs/starting_a_collection_run)
-   *   New window icon - Opens a new 'Tab', 'Postman Window' or a 'Runner Window'.
+   *   New window icon - Opens a new "Tab", "Postman Window" or a "Runner Window".
    *   **Builder** and **Team Library** tabs - Switches context between the request builder and team library view.
    *   Interceptor/Proxy icon - Manages proxy or Interceptor settings.
    *   IN SYNC status icon - Updates the status of your Postman account.
@@ -46,7 +46,7 @@ The header toolbar contains these options:
    *   Settings icon - Manages Postman app settings and finds other support resources.
    *   Notifications icon - Receives notifications or broadcasts.
    *   Heart - Love Postman? Click on this button to share the love!
-   *   User dropdown - Displays current user and provides these options: 'Profile', 'Account Settings', 'Notification Preferences', 'Active Sessions', and 'Add a new account'.
+   *   User dropdown - Displays current user and provides these options: "Profile", "Account Settings", "Notification Preferences", "Active Sessions", and "Add a new account".
 
 ### Builder
 
@@ -59,7 +59,7 @@ Postman gives you a tabbed layout to send and manage API requests in the builder
 
 Two consoles are available in Postman to see what's going on behind the scenes.
 
-   *   Postman console - Contains a running log of HTTP requests and responses. You can log messages from scripts. For example you could log messages in a console.log. **Note**: This feature is only available in Postman's native apps.
+   *   Postman console - Contains a running log of HTTP requests and responses. You can log messages from scripts. For example you could log messages in a console.log. <br>**Note**: This feature is only available in Postman's native apps.
    *   DevTools console - Provides diagnostic information during development. To learn how to access DevTools console logs, see [Debugging and logs](/docs/postman/sending_api_requests/debugging_and_logs).
 
 Learn more about [troubleshooting with console logs](/docs/postman/sending_api_requests/debugging_and_logs){:target="_blank"}.
@@ -104,11 +104,11 @@ When you right click a tab name, the menu allows you to duplicate or close tabs.
 
 Busy tabs ensure you don't lose your current request, even if it isn't in a collection. When you're on a busy tab and open a new request from the sidebar, Postman opens the request in a new tab and doesn't replace or interfere with the request in the previous busy tab.
 
-What makes a tab busy? When you work in a tab it becomes busy. For example, when you receive a response or make a change that's not yet saved (reflected by an orange dot on the tab), the tab becomes busy.
+What makes a tab busy? When you work in a tab it becomes busy. For example, when you receive a response or make a change that's not yet saved (reflected by an orange dot on the tab), the tab is busy.
 
 ##### **Tab and sidebar behavior**
 
-By default, Postman assumes you want to work on one collection request in one tab. When you open a request from the sidebar, Postman opens a new tab, if an existing tab has unsaved changes. If not, the request takes over the current tab. You can always open a request in a new tab. From the sidebar under the **Collections** tab, right click a request and select "Open in New Tab".
+By default, Postman assumes you want to work on one collection request in one tab. When you open a request from the sidebar, Postman opens a new tab when an existing tab has unsaved changes. If not, the request takes over the current tab. You can always open a request in a new tab. From the sidebar under the **Collections** tab, right click a request and select "Open in New Tab".
 
 ##### **Tab menu**
 Postman offers several tab actions to help you manage your work.
