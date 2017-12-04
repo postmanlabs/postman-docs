@@ -26,7 +26,7 @@ You also can click the Configured Integrations tab to set up other integrations,
 [![microsoft_conf](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow-confIntegr.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow-confIntegr.png)  
 
 
-### Add a team activity feed to Microsoft Flow
+#### Add a team activity feed to Microsoft Flow
 The activity feed is the place where you can see all the changes that are happening to your collections and within the team. It is the place where you can track any updates made to your APIs and monitor what all is happening within the team. Integrating with Flow gives you the freedom to connect email services like Outlook, Gmail or even the custom SMTP service, or you can use Twilio to get the feed as a text message.
 
 To add a team activity feed to Microsoft Flow:
@@ -34,13 +34,13 @@ To add a team activity feed to Microsoft Flow:
 1. Click the **Add Integration** button.
 2. **ADD REMAINING STEPS**.
 
-### Back up your Postman Collections in Microsoft Flow
+#### Back up your Postman Collections in Microsoft Flow
 Collections are a very important part of Postman so it is necessary to have a backup a backup of them. Microsoft Flow gives you the ability to connect your collection with a service like Box, which is a cloud based storage solution, or you can even connect to your custom DB2 instance and store your collections there.
 
 ### See collection activity feed in Microsoft Flow
 The activity feed is the place where you can see all the changes that are happening to your collections and within the team. It is the place where you can track any updates made to your APIs and monitor what all is happening within the team. Integrating with Flow gives you the freedom to connect email services like Outlook, Gmail or even the custom SMTP service, or you can use Twilio to get the feed as a text message.
 
-### Send monitor run results in Microsoft Flow
+#### Send monitor run results in Microsoft Flow
 Postman Monitors allows you to run your collections on a schedule without any manual intervention. With the Microsoft Flow integration, you have the freedom to use those results in whatever way possible and connect to any service available.
 
 To send monitor run results to Microsoft Flow:
@@ -57,7 +57,7 @@ And you're done! Your Integration has been setup successfully. So, now whenever 
 
 [![see notifications](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858362.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858362.png)
 
-### Get the Microsoft Flows webhook URL
+#### Get the Microsoft Flows webhook URL
 
 Log in to [Microsoft Flow](https://flow.microsoft.com/){:target="_blank"}, and go to `My Flows`. Select `Create from Blank` in the top-right corner. 
 
@@ -146,7 +146,7 @@ For different types of integrations, the JSON schema varies. Based on the type o
 
 [https://gist.github.com/ankitjaggi/e1677fd463df2d2142f138a0d44d630d](https://gist.github.com/ankitjaggi/e1677fd463df2d2142f138a0d44d630d){:target="_blank"}
 
-### Collection and Team Activity Feed
+##### Collection and Team Activity Feed
 
 ```
 {
@@ -197,7 +197,7 @@ For different types of integrations, the JSON schema varies. Based on the type o
 
 [https://gist.github.com/ankitjaggi/b4d90f72c9fdd41dd2e4e0421eca249f](https://gist.github.com/ankitjaggi/b4d90f72c9fdd41dd2e4e0421eca249f){:target="_blank"}
 
-### Backup Collections
+##### Backup Collections
 
 ```
 {
