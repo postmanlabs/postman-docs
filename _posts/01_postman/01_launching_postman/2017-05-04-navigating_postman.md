@@ -16,7 +16,7 @@ This interface design gives you as much space as possible for your APIs.
 
 ### Sidebar
 
-The Postman sidebar lets you find and manage requests and collections. The sidebar has two main tabs: **[History](/docs/postman/sending_api_requests/history){:target="_blank"}** and **[Collections](/docs/postman/collections/creating_collections)**.
+The Postman sidebar lets you find and manage requests and collections. The sidebar has two main tabs: **[History](/docs/postman/sending_api_requests/history){:target="_blank"}** and **[Collections](/docs/postman/collections/creating_collections){:target="_blank"}**.
 
 You can drag the right edge to resize the width of the sidebar. You can also minimize the sidebar for smaller screens, and show or hide the sidebar in the Status bar.
 
@@ -37,7 +37,7 @@ Learn more about [collections](/docs/postman/collections/creating_collections){:
 The header toolbar contains these options:
 * **New** button: Creates requests, collections, environments, documentation, mock servers, and monitors.
 *  **Import** button - Imports Postman collections, environments, WADL, Swagger, RAML, or cURL into Postman using files, links, or raw text.
-*   **Runner** button - Opens the [collection runner.](/docs/postman/collection_runs/starting_a_collection_run)
+*   **Runner** button - Opens the [collection runner.](/docs/postman/collection_runs/starting_a_collection_run){:target="_blank"}
 *   New window icon - Opens a new "Tab", "Postman Window" or a "Runner Window".
 *   **Builder** and **Team Library** tabs - Switches context between the request builder and team library view.
 *   Interceptor/Proxy icon - Manages proxy or Interceptor settings.
@@ -62,7 +62,7 @@ Two consoles are available in Postman to see what's going on behind the scenes.
    *   Postman console - Contains a running log of HTTP requests and responses. You can log messages from scripts. For example you could log messages in the console.log. <br>**Note**: This feature is only available in Postman's native apps.
    *   DevTools console - Provides diagnostic information during development. To learn how to access DevTools console logs, see [Debugging and logs](/docs/postman/sending_api_requests/debugging_and_logs).
 
-Learn more about [troubleshooting with console logs](/docs/postman/sending_api_requests/debugging_and_logs){:target="_blank"}.
+Learn more about [troubleshooting with console logs](/docs/postman/sending_api_requests/debugging_and_logs{:target="_blank"}.
 
 ### Menu bar
 
