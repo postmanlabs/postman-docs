@@ -150,7 +150,7 @@ Postman designs navigational shortcuts to help you navigate quickly between elem
 
 With a keyboard shortcut, such as **CMD/CTRL + ALT + 1**, you can focus the sidebar from wherever you are in interface. You can then navigate to the request you want with the arrow keys. And if you combine the **CMD/CTRL + ALT + 1** shortcut with the **CMD/CTRL + Enter** shortcut, you can send a number of requests quickly.
 
-#### Manipulation Shortcuts
+**Manipulation Shortcuts**
 
 Manipulation shortcuts allow you to quickly work on your current selection and perform actions such as edit, delete, and duplicate. You can combine navigational and manipulation shortcuts to create and organize collections in your sidebar easily. You can also use these shortcuts in other list views, such as the data editor.
 
@@ -245,6 +245,7 @@ On hover, relevant features display for a specific row to reduce clutter in the
 [![data editor layout](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162701.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162701.png)
 
 **Mulitple rows**
+
 Drag your mouse to select multiple rows.
 
 [![select multiple rows](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162713.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162713.gif)
