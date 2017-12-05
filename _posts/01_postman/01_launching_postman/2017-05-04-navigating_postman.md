@@ -111,6 +111,7 @@ What makes a tab busy? When you work in a tab it becomes busy. For example, when
 By default, Postman assumes you want to work on one collection request in one tab. When you open a request from the sidebar, Postman opens a new tab when an existing tab has unsaved changes. If not, the request takes over the current tab. You can always open a request in a new tab from the sidebar under the **Collections** tab. Right click a request and select "Open in New Tab".
 
 **Tab menu**
+
 Postman offers several tab actions to help you manage your work.
 
 [![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_menu.png)
