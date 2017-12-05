@@ -100,17 +100,17 @@ To open a new tab in Postman, press the **+** icon in the builder or use the 
 
 When you right click a tab name, the menu allows you to duplicate or close tabs.  If any tab has unsaved changes as you  attempt to close the tab, Postman prompts you to save your changes.
 
-##### Busy tabs
+#### Busy tabs
 
 Busy tabs ensure you don't lose your current request, even if it isn't in a collection. When you're in a busy tab and open a new request from the sidebar, Postman opens the request in a new tab and doesn't replace or interfere with the request in the previous busy tab.
 
 What makes a tab busy? When you work in a tab it becomes busy. For example, when you receive a response or make a change that's not yet saved (reflected by an orange dot on the tab), the tab is busy.
 
-##### Tab and sidebar behavior
+**Tab and sidebar behavior**
 
 By default, Postman assumes you want to work on one collection request in one tab. When you open a request from the sidebar, Postman opens a new tab when an existing tab has unsaved changes. If not, the request takes over the current tab. You can always open a request in a new tab from the sidebar under the **Collections** tab. Right click a request and select "Open in New Tab".
 
-##### Tab menu
+**Tab menu**
 Postman offers several tab actions to help you manage your work.
 
 [![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_menu.png)
@@ -130,7 +130,7 @@ When you "Close Current Tab", "Close All but Current Tab", or "Close All Tabs", 
 
 [![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_save4.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Tab_save4.jpeg)
 
-##### Moving requests
+**Moving requests**
 
 In the request builder, you can drag and drop tabs to reorder them, open a new request in a new tab, or in a new Postman window. You also can open multiple windows using the **New Window** icon in the header toolbar or the keyboard shortcut.
 
@@ -143,24 +143,24 @@ Postman categorizes keyboard shortcuts as navigation, manipulation, and global.
 * Manipulation shortcuts let you manipulate the current selection.
 * Global shortcuts let you access from anywhere.
 
-##### Navigational Shortcuts
+**Navigational Shortcuts**
 
 Postman designs navigational shortcuts to help you navigate quickly between elements. For example, suppose you want to open and send a series of saved requests without a keyboard shortcut. You would have to select a request in the sidebar with a pointer each time to open it in the tab.
 
 With a keyboard shortcut, such as **CMD/CTRL + ALT + 1**, you can focus the sidebar from wherever you are in interface. You can then navigate to the request you want with the arrow keys. And if you combine the **CMD/CTRL + ALT + 1** shortcut with the **CMD/CTRL + Enter** shortcut, you can send a number of requests quickly.
 
-##### Manipulation Shortcuts
+#### Manipulation Shortcuts
 
 Manipulation shortcuts allow you to quickly work on your current selection and perform actions such as edit, delete, and duplicate. You can combine navigational and manipulation shortcuts to create and organize collections in your sidebar easily. You can also use these shortcuts in other list views, such as the data editor.
 
-##### Global Shortcuts
+**Global Shortcuts**
 
 You can use global shortcuts to perform actions regardless of the element in focus. Examples of such global actions include "Save" (**CMD/CTRL + S**), "Save As" (**CMD/CTRL + Shift + S**), and "Send Request" (**CMD/CTRL + Enter**).
 
 You can also use global shortcuts to perform user interface actions such as "Toggle to Sidebar" (**CMD/CTRL +** ),
 "Jump to URL" (**CMD/CTRL + L**), and "Open Console" (**CMD/CTRL + ALT + C**).
 
-##### View keyboard shortcuts for your OS
+**View keyboard shortcuts for your OS**
 
 Different operating systems have different shortcuts.  
 
@@ -168,7 +168,7 @@ You can always view a complete list of your operating system's shortcuts when yo
 
 [![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Keyboard_shortcuts.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Keyboard_shortcuts.png)
 
-##### Reference for all shortcuts
+**Reference for all shortcuts**
 
 | TABS  |   macOS   | Windows / Linux shortcuts |
 | ---   |   ---     | ---   |
@@ -221,7 +221,9 @@ You can always view a complete list of your operating system's shortcuts when yo
 | Submit Modal   |   ⌘ ↵     | Ctrl + Enter   |
 | Open Shortcut Help   |   ⌘ /     | Ctrl + /   |
 
-##### Mouse actions
+
+**Mouse actions**
+
 To close a tab, right click the tab to display the **Tab** menu, and click the **Close** button. Or click the **X** icon on the right side of the tab to close it.
 
 To force close a tab, press **ALT** and click the **X** icon on the right side of the tab.
@@ -233,7 +235,7 @@ Working with large amounts of data can be cumbersome and time consuming. Postma
 
 **Note**: The UI images in this section do not reflect the current UI that features the [**New** button.](/docs/postman/launching_postman/newbutton){:target="_blank"}
 
-##### Visual layout
+**Visual layout**
 
 We've configured the available horizontal and vertical space more effectively to optimize the data you can display up front.
 
@@ -241,12 +243,12 @@ On hover, relevant features display for a specific row to reduce clutter in the
 
 [![data editor layout](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162701.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162701.png)
 
-##### Mulitple rows
+#### Mulitple rows
 Drag your mouse to select multiple rows.
 
 [![select multiple rows](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162713.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162713.gif)
 
-##### Keyboard shortcuts for the data editor
+#### Keyboard shortcuts for the data editor
 
 | Data editor  |   macOS   | Windows / Linux shortcuts |
 | ---   |   ---     | ---   |
@@ -267,25 +269,25 @@ Drag your mouse to select multiple rows.
 
 [![using shortcuts gif](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162742.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162742.gif)
 
-##### Bulk actions
+**Bulk actions**
 
 You can select and copy multiple rows and then paste them in a different places (such as 'params').
 
 [![select and copy multiple rows](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162757.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162757.gif)  
 
-##### Front view of information
+**Front view of information**
 
 You can display the information you want to see up front. If you navigate to a place with a large amount of data, the UI element auto expands to show the complete information in the data editor as well as the URL bar.  
 
 [![expand to show info](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162771.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162771.gif)
 
-##### Resizing columns
+**Resizing columns**
 
 You can change the width of the key and value columns when you drag the boundary on the right side of the ‘key’ column header.
 
 [![adjust column width](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162787.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162787.gif)
 
-##### Multiline support
+**Multiline support**
 
 The data editor supports sending multiline values. Press 'Enter' in a key or value field to expand it and move the cursor to a new line.
 
