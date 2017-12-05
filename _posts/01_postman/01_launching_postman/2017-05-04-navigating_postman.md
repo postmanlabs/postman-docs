@@ -100,7 +100,7 @@ To open a new tab in Postman, press the **+** icon in the builder or use the 
 
 When you right click a tab name, the menu allows you to duplicate or close tabs.  If any tab has unsaved changes as you  attempt to close the tab, Postman prompts you to save your changes.
 
-#### Busy tabs
+**Busy tabs**
 
 Busy tabs ensure you don't lose your current request, even if it isn't in a collection. When you're in a busy tab and open a new request from the sidebar, Postman opens the request in a new tab and doesn't replace or interfere with the request in the previous busy tab.
 
@@ -243,12 +243,12 @@ On hover, relevant features display for a specific row to reduce clutter in the
 
 [![data editor layout](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162701.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162701.png)
 
-#### Mulitple rows
+**Mulitple rows**
 Drag your mouse to select multiple rows.
 
 [![select multiple rows](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162713.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162713.gif)
 
-#### Keyboard shortcuts for the data editor
+**Keyboard shortcuts for the data editor**
 
 | Data editor  |   macOS   | Windows / Linux shortcuts |
 | ---   |   ---     | ---   |
