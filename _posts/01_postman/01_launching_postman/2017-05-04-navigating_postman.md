@@ -35,18 +35,18 @@ Learn more about [collections](/docs/postman/collections/creating_collections){:
 [![header toolbar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)
 
 The header toolbar contains these options:
-   *   **New** button: Creates requests, collections, environments, documentation, mock servers, and monitors.
-    *  **Import** button - Imports Postman collections, environments, WADL, Swagger, RAML, or cURL into Postman using files, links, or raw text.
-   *   **Runner** button - Opens the [collection runner.](/docs/postman/collection_runs/starting_a_collection_run)
-   *   New window icon - Opens a new "Tab", "Postman Window" or a "Runner Window".
-   *   **Builder** and **Team Library** tabs - Switches context between the request builder and team library view.
-   *   Interceptor/Proxy icon - Manages proxy or Interceptor settings.
-   *   IN SYNC status icon - Updates the status of your Postman account.
-   *   Public API Library - Displays the Public API network.
-   *   Settings icon - Manages Postman app settings and finds other support resources.
-   *   Notifications icon - Receives notifications or broadcasts.
-   *   Heart - Love Postman? Click on this button to share the love!
-   *   User dropdown - Displays current user and provides these options: "Profile", "Account Settings", "Notification Preferences", "Active Sessions", and "Add a new account".
+* **New** button: Creates requests, collections, environments, documentation, mock servers, and monitors.
+*  **Import** button - Imports Postman collections, environments, WADL, Swagger, RAML, or cURL into Postman using files, links, or raw text.
+*   **Runner** button - Opens the [collection runner.](/docs/postman/collection_runs/starting_a_collection_run)
+*   New window icon - Opens a new "Tab", "Postman Window" or a "Runner Window".
+*   **Builder** and **Team Library** tabs - Switches context between the request builder and team library view.
+*   Interceptor/Proxy icon - Manages proxy or Interceptor settings.
+*   IN SYNC status icon - Updates the status of your Postman account.
+*   Public API Library - Displays the Public API network.
+*   Settings icon - Manages Postman app settings and finds other support resources.
+*   Notifications icon - Receives notifications or broadcasts.
+*   Heart - Love Postman? Click on this button to share the love!
+*   User dropdown - Displays current user and provides these options: "Profile", "Account Settings", "Notification Preferences", "Active Sessions", and "Add a new account".
 
 ### Builder
 
@@ -59,7 +59,7 @@ Postman gives you a tabbed layout to send and manage API requests in the builder
 
 Two consoles are available in Postman to see what's going on behind the scenes.
 
-   *   Postman console - Contains a running log of HTTP requests and responses. You can log messages from scripts. For example you could log messages in a console.log. <br>**Note**: This feature is only available in Postman's native apps.
+   *   Postman console - Contains a running log of HTTP requests and responses. You can log messages from scripts. For example you could log messages in the console.log. <br>**Note**: This feature is only available in Postman's native apps.
    *   DevTools console - Provides diagnostic information during development. To learn how to access DevTools console logs, see [Debugging and logs](/docs/postman/sending_api_requests/debugging_and_logs).
 
 Learn more about [troubleshooting with console logs](/docs/postman/sending_api_requests/debugging_and_logs){:target="_blank"}.
@@ -72,7 +72,7 @@ The Postman application menu bar provides access to additional features. Note th
 
 [![native app menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/menu_options_nativeApp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/menu_options_nativeApp.png)
 
-**[Postman Chrome app](http://blog.getpostman.com/2017/11/01/goodbye-postman-chrome-app/){:target="_blank"}**: Displays a few menu options restricted by the Chrome standard.
+**[Postman Chrome app](http://blog.getpostman.com/2017/11/01/goodbye-postman-chrome-app/){:target="_blank"}**: Displays fewer menu options due to Chrome standard restrictions.
 
 [![chrome app menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/MenuOptions_chromeApps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/MenuOptions_chromeApps.png)
 
@@ -102,13 +102,13 @@ When you right click a tab name, the menu allows you to duplicate or close tabs.
 
 ##### **Busy tabs**
 
-Busy tabs ensure you don't lose your current request, even if it isn't in a collection. When you're on a busy tab and open a new request from the sidebar, Postman opens the request in a new tab and doesn't replace or interfere with the request in the previous busy tab.
+Busy tabs ensure you don't lose your current request, even if it isn't in a collection. When you're in a busy tab and open a new request from the sidebar, Postman opens the request in a new tab and doesn't replace or interfere with the request in the previous busy tab.
 
 What makes a tab busy? When you work in a tab it becomes busy. For example, when you receive a response or make a change that's not yet saved (reflected by an orange dot on the tab), the tab is busy.
 
 ##### **Tab and sidebar behavior**
 
-By default, Postman assumes you want to work on one collection request in one tab. When you open a request from the sidebar, Postman opens a new tab when an existing tab has unsaved changes. If not, the request takes over the current tab. You can always open a request in a new tab. From the sidebar under the **Collections** tab, right click a request and select "Open in New Tab".
+By default, Postman assumes you want to work on one collection request in one tab. When you open a request from the sidebar, Postman opens a new tab when an existing tab has unsaved changes. If not, the request takes over the current tab. You can always open a request in a new tab from the sidebar under the **Collections** tab. Right click a request and select "Open in New Tab".
 
 ##### **Tab menu**
 Postman offers several tab actions to help you manage your work.
@@ -221,17 +221,17 @@ You can always view a complete list of your operating system's shortcuts when yo
 | Submit Modal   |   ⌘ ↵     | Ctrl + Enter   |
 | Open Shortcut Help   |   ⌘ /     | Ctrl + /   |
 
-### Mouse actions
+##### Mouse actions
 To close a tab, right click the tab to display the **Tab** menu, and click the **Close** button. Or click the **X** icon on the right side of the tab to close it.
 
-To force close a tab, press **ALT** and click the **X** icon on the right side of tab.
+To force close a tab, press **ALT** and click the **X** icon on the right side of the tab.
 
 
 ### Data editor
 
 Working with large amounts of data can be cumbersome and time consuming. Postman's data editor lets you view and manipulate data in a fast, effective, and elegant manner. Since most users work with data in spreadsheets, we leveraged those features for the data editor design to make it a familiar experience. 
 
-**Note**: The UI images in this section do not reflect the current UI that features the **New** button.)
+**Note**: The UI images in this section do not reflect the current UI that features the [**New** button.](/docs/postman/launching_postman/newbutton){:target="_blank"}
 
 ##### **Visual layout**
 
@@ -241,7 +241,7 @@ On hover, relevant features display for a specific row to reduce clutter in the
 
 [![data editor layout](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162701.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162701.png)
 
-#### Mulitple rows
+##### Mulitple rows
 Drag your mouse to select multiple rows.
 
 [![select multiple rows](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162713.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162713.gif)
