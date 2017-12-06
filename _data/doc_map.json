@@ -43,7 +43,7 @@
             "external": false		
          },		
          {		
-	    "title": "New button",		
+	          "title": "New button",		
             "href": "/docs/postman/launching_postman/newbutton",
             "external": false
           }
