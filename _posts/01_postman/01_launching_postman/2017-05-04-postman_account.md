@@ -18,7 +18,6 @@ When you sign up for a free Postman account, you can:
 
 
 
-
 ### Signing up for a Postman account
 
 1. If you haven't already, [download](https://www.getpostman.com/apps){:target="_blank"} the Postman app.
@@ -30,7 +29,6 @@ When you sign up for a free Postman account, you can:
 
 
 Once you are logged in, you will see the **IN SYNC** icon at the top telling you that you are connected to our servers. Postman uses WebSockets for real-time [syncing](/docs/postman/launching_postman/syncing). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us){:target="_blank"}.
-
 
 [![sync icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/insync_postmanAcct.png)
 
@@ -103,6 +101,7 @@ To sign into another account, click the Add A New Account button at the bottom o
 After you sign in to another account, the drop down menu lists all your active signed-in accounts.
 
 To switch back to your previous account, click on the account user name in the drop down menu.
+
 
 
 ### Security policies and standards
