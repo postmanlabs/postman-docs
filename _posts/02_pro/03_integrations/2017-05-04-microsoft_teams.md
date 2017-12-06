@@ -13,13 +13,41 @@ Microsoft Teams is a chat-based workspace that is available for all Microsoft Of
 
 Currently, we have two ways in which this integration can be configured.
 
-### Postman monitor run results
+### Configuring Microsoft Teams
 
-You can set up [Postman Monitors](/docs/postman/monitors/intro_monitors) on your collections which run on the cloud at a scheduled interval. This integration allows you to get notifications about your monitor runs right in Microsoft Teams.
 
-### Postman team activity feed
+1. In the [Integrations](https://app.getpostman.com/dashboard/integrations){:target="_blank"} page, select Microsoft Teams from a list of Postman’s 3rd party Integrations for Postman Pro users.
 
-The Postman [activity feed](/docs/postman/team_library/activity_feed_and_restoring_collections) is the place where you can view all the things taking place within your team. You can monitor the API development within your team and keep track of all the changes. This integration keeps you updated of all the changes in Microsoft Teams itself, so you don't have to go back to Postman to see the team's activity feed.
+[![select ms_teams integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-msTeam.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-msTeam.png)
+
+
+
+#### Add a team activity feed to Microsoft Teams
+To add a team activity feed to Microsoft Teams:
+
+1. Click the Add Integration button.
+2. ADD REMAINING STEPS.
+
+
+[![ms_teams activityFeed](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msTeam-teamactivityfeed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msTeam-teamactivityfeed.png)
+
+
+
+[![ms_teams configInt](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msTeams-confIntegration.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msTeams-confIntegration.png)
+
+
+
+#### Send monitor run results in Microsoft Teams
+
+To send monitor run results to Microsoft Teams:
+
+1. Click the Add Integration button.
+2. In the Monitor Run Results page, select the monitor you want to send to Microsoft Teams, and enter the notification URL.
+3. Click the Add Integration button.
+
+[![ms_teams monRun](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msTeams-monRun.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msTeams-monRun.png)
+
+
 
 ### Get the Microsoft Teams webhook URL
 
@@ -42,6 +70,33 @@ Enter a name to identify this webhook later. You can also add an image which wil
 This will generate a webhook URL which can then be used to post messages to this channel. Copy this webhook and save it for later.
 
 [![generate webhook URL](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59032020.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59032020.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OLD STUFF
+
+### Postman monitor run results
+
+You can set up [Postman Monitors](/docs/postman/monitors/intro_monitors) on your collections which run on the cloud at a scheduled interval. This integration allows you to get notifications about your monitor runs right in Microsoft Teams.
+
+### Postman team activity feed
+
+The Postman [activity feed](/docs/postman/team_library/activity_feed_and_restoring_collections) is the place where you can view all the things taking place within your team. You can monitor the API development within your team and keep track of all the changes. This integration keeps you updated of all the changes in Microsoft Teams itself, so you don't have to go back to Postman to see the team's activity feed.
+
+
+
 
 ### Configure Postman
 
