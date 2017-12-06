@@ -40,14 +40,14 @@
           {
             "title": "Settings",
             "href": "/docs/postman/launching_postman/settings",
-             "external": false		
+            "external": false		
          },		
          {		
-	     "title": "New button",		
+	    "title": "New button",		
             "href": "/docs/postman/launching_postman/newbutton",
             "external": false
-          },
-          
+          }
+        ]
       {
         "title": "Sending API requests",
         "url_prefix": "sending_api_requests",
