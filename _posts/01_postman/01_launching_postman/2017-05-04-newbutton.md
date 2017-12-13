@@ -13,28 +13,15 @@ You can use the **New** button to initiate requests, collections, environments, 
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_homePage_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_homePage_blk.png)
 
-When you click the **New** button, the **Create New** modal appears.
+When you click the **New** button, the **Create New** tab appears as the default view. In addition to the **Create New** tab, there are two other tabs: Templates and API Network. For more information about the Templates and API Network tabs, see the Templates and API Network sections below.
 
-[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_createNewModal_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_createNewModal_blk.png)
+[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create-new-blk-121317.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create-new-blk-121317.png)
 
 In **BUILDING BLOCKS**, create a new request, collection, or environment.
 
 In **ADVANCED**, create a new monitor, documentation, and a mock server.
 
-You can select ‘Use a Template’ for templates that help you:
-* Check links 
-
-* Track Github issues
-
-* Verify non-MFA access to AWS accounts
-
-* Monitor status of URLS
-
-* Check DNS records
-
-* Use Postman Echos to test your REST client and make sample API calls
-
-Select 'Show this window on launch' if you want to display the **Create New** modal each time you open Postman.
+**Note**: At the bottom, you can select “Show this window at launch” to indicate whether you want the **Create New** tab to display each time you open Postman.
 
 **Note**: You can directly create a new feature when you click the down arrow at the right side of the **New** button.
 
@@ -99,6 +86,24 @@ A [mock server  ](/docs/postman/mock_servers/setting_up_mock)simulates each endp
 Postman creates a collection and adds [examples](/docs/postman/mock_servers/mocking_with_examples) for individual requests. Postman also provides a mock URL you can share with the public, such as with front-end developers. They can send a request to this URL, followed by an endpoint, to get the corresponding response.
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_mockServer_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_mockServer_blk.png)
+
+
+#### Templates tab
+
+You can select ‘Use a Template’ for templates that help you: check links, track Github issues, verify non-MFA access to AWS accounts, monitor status of URLs, check DNS records, use Postman Echo to test your REST client and make sample API calls, and monitor AWS ElasticBeanstalk environments. 
+
+You can view all the templates, or select to view them in a Developer or DevOps category.
+
+[![templates]()]()
+
+
+#### API Network tab
+
+The Postman API Network provides the most authentic and actionable directory of public APIs available. Every API listed in this network includes a complete Postman collection, created by the API's publisher, and specifically designed to onboard developers quickly and effectively.
+
+You can view all these APIs, or select to view them from these categories: Business Solutions, Marketing, Cloud, Communications, Data Management, Development, Mobile Services, E-Commerce, Financial Services, Food, Health Services, Payment Services, Productivity, Retail, Shipping Logistics, Social Media, and Travel.
+
+[![API_network]()]()
 
 
 
