@@ -89,6 +89,7 @@ Postman creates a collection and adds [examples](/docs/postman/mock_servers/mock
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_mockServer_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_mockServer_blk.png)
 
+## Template and API Network tabs
 
 ### Templates tab
 
