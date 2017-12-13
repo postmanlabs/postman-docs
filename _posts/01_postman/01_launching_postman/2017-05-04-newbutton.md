@@ -15,9 +15,11 @@ You can use the **New** button to initiate requests, collections, environments, 
 
 When you click the **New** button, the **Create New** tab appears as the default view. 
 
-In addition to the **Create New** tab, there are two other tabs: Templates and API Network. For more information about the Templates and API Network tabs, see the Templates and API Network sections below.
+In addition to the **Create New** tab, there are two other tabs: "Templates" and "API Network". For more information about these tabs, see the Templates and API Network sections below.
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create-new-blk-121317.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create-new-blk-121317.png)
+
+## Create New tab 
 
 In **BUILDING BLOCKS**, create a new request, collection, or environment.
 
@@ -93,7 +95,7 @@ Postman creates a collection and adds [examples](/docs/postman/mock_servers/mock
 
 ### Templates tab
 
-You can select ‘Use a Template’ for templates that help you: check links, track Github issues, verify non-MFA access to AWS accounts, monitor status of URLs, check DNS records, use Postman Echo to test your REST client and make sample API calls, and monitor AWS ElasticBeanstalk environments. 
+You can select ‘Template’ for templates that help you: check links, track Github issues, verify non-MFA access to AWS accounts, monitor status of URLs, check DNS records, use Postman Echo to test your REST client and make sample API calls, and monitor AWS ElasticBeanstalk environments. 
 
 You can view all the templates, or select to view them in a Developer or DevOps category.
 
@@ -105,22 +107,26 @@ To import a template:
 
 **Note**: The Link Checker template only provides required environmental variables. However, other templates might offer required and optional environmental variables.
 
-![link_checker_templates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/linkchecker-template.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/linkchecker-template.png)
+[![linkCheckertemplates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/linkchecker-template.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/linkchecker-template.png)
 
 <ol start="2">
-  <li>Click the <b>Use this template</b> button to summon the Customization options screen.</li>
+  <li>Click the <b>Use this template</b> button to summon the <b>Customization options</b> screen.</li>
 </ol>
 
-This screen lists what Postman created for you—collection, environment, and monitor. You can configure your own monitor settings in the "CONFIGURATION OPTIONS" section.
+This screen lists what Postman created for you—collection, environment, and monitor settings. You can configure your own monitor settings in the "CONFIGURATION OPTIONS" section.
 
 <ol start="3">
-  <li>If you want to figure your monitor, select how often you want the monitor run and enter the URL you want to monitor in "CONFIGURATION OPTIONS" section.</li>
+  <li>If you want to configure your monitor, select how often you want the monitor to run and enter the URL you want to monitor in "CONFIGURATION OPTIONS" section.</li>
   <li>Click the <b>Create</b> button.</li>
 </ol>
 
-The Link Checker template success screen displays what Postman created for you and suggests next steps you want to consider to maximize your template. Click the **Okay** button to exit the screen.
+The **Success** screen displays what Postman created for you and suggests next steps you might want to consider to maximize your template. 
 
-![link_checker_nextsteps](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/nextsteps-linkchecker.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/nextsteps-linkchecker.png)
+<ol start="5">
+  <li>Click the <b>Okay</b> button to exit the screen.</li>
+</ol>
+
+[![nextSteps](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/nextsteps-linkchecker.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/nextsteps-linkchecker.png)
 
 ### API Network tab
 
@@ -128,10 +134,19 @@ The Postman API Network provides the most authentic and actionable directory of 
 
 You can view all these APIs, or select to view them from these categories: Business Solutions, Marketing, Cloud, Communications, Data Management, Development, Mobile Services, E-Commerce, Financial Services, Food, Health Services, Payment Services, Productivity, Retail, Shipping Logistics, Social Media, and Travel.
 
-[![API_network]()]()
+After you select an API Network, you can import it into your collections.
 
+[![API_network](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork-tab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork-tab.png)
 
+To import an API in the API Network:
 
+1. Click an API in the API Network. In this example, we're using the AuthO API.
+
+[![API_networkExample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork_authO.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork_authO.png)
+
+<ol start="2">
+  <li>Click the <b>Run In Postman</b> button to import the API in your collections. When you check your collection, you can see the API you imported.</li>
+</ol>
 
 
 
