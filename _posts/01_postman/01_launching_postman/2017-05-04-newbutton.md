@@ -35,8 +35,9 @@ In **ADVANCED**, create a new monitor, documentation, and a mock server.
 ### Creating requests
 You can create any kind of [HTTP request.](/docs/postman/sending_api_requests/requests){:target="_blank"}
 
-1. To create a request, click ‘Request’ in the **New** button drop down menu and enter a title and description. 
-2. Select a collection and save the request in it. 
+1. In the header toolbar, click the **New** button.
+2. In the **Create New** tab, click "Request".
+3. Select a collection and save the request in it. 
 
 You can either create a new collection or select an existing one. After you save the request, you can add the URL, method, headers, and body to the request in the builder.
 
@@ -45,18 +46,34 @@ You can either create a new collection or select an existing one. After you save
 ### Creating collections
 A collection is a group of individual requests that you can organize into folders. 
 
-1. To create a collection, click ‘Collection’ in the **New** button drop down menu and enter a name and description for it. 
-2. After [creating the collection ](/docs/postman/collections/creating_collections){:target="_blank"}, you can [save requests to this collection](/docs/postman/collections/creating_collections){:target="_blank"} and add folders for [better organization.](/docs/postman/collections/managing_collections){:target="_blank"}
+1. In the header toolbar, click the **New** button.
+2. In the **Create New** tab, click "Request".
+3. In the **CREATE A NEW COLLECTION** modal:
+* Enter a name and optional description.
+* Select an authorization type.
+* Enter a pre-request script to execute before the collection runs.
+* Add a test to execute after the collection runs.
+* Add variables to the collection and its requests.
+4. Click the **Create** button.
 
-[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_collection_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_collection_blk.png)
+After creating the collection, you can save requests to the collection and add folders for better organization.
+
+[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-createcollectionmodal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-createcollectionmodal.png)
 
 ### Creating environments
 While working with APIs, you often need different setups, such as your local machine, the development server, or the production API. [Environments](/docs/postman/environments_and_globals/manage_environments){:target="_blank"} let you customize requests using variables. 
 
-1. To create an environment, click ‘Environment’ in the **New**  button drop down menu and enter a name for it. 
-2. Add the variables you want to save as key-value pairs.
+1. In the header toolbar, click the **New** button.
+2. In the **Create New** tab, click "Environment". 
+3. In the **MANAGE ENVIRONMENTS** modal, add the variables you want to save as key-value pairs.
+4. Click the **Add** button.
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_environment_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_environment_blk.png)
+
+If you've created other environments, the **MANAGE ENVIRONMENTS** modal appears again and displays them. You can share, edit download, or delete those environments. In addition, you can create global environments and download them as a JSON file, or import environment files from your computer.
+
+[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environments-secondWindow.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environments-secondWindow.png)
+
 
 ## ADVANCED
 ### Creating monitors
@@ -74,12 +91,30 @@ You receive notifications when either the response code doesn’t match or the r
 ### Creating documentation
 You can create [public or private documentation](/docs/postman/api_documentation/intro_to_api_documentation){:target="_blank"} and share it in a web page. Postman generates and hosts browser-based documentation for your collections automatically in real-time. 
 
-1. To create documentation, click ‘Documentation’ in the **New** button drop down menu and enter the request URLs with the methods you want to document. 
-2. Click ‘Next’ to enter the name for the APIs and a general description for your API. 
+<ol start="1">
+  <li>Click "API Documentation".</li>
+ <li>Select if you want to create documentation for a new API or an existing or team collection. If you create a new API to document, you must select a request method and enter the request URL, description, and status code. If you use an existing or team collection to document, you must select a collection from a list of existing or team collections.</li>
+ </ol>
 
-Postman creates a collection and generates documentation that you and your team can [ view.](/docs/postman/api_documentation/viewing_documentation){:target="_blank"}
+[![configure docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configure.png)
 
-[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_documentation_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_documentation_blk.png)
+<ol start="3">
+  <li>After you select or create the request you want to document, click the <b>Next</b> button.</li>
+  <li>In the <b>Configure documentation</b> tab, you must:</li>
+ </ol>
+
+* Enter the name of the documentation.
+* Add a description of the documentation. You can use markdown to add headings, lists, code snippets, and so on in your description.
+
+[![configureTab docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configureTab.png)
+
+ <ol start="5">
+  <li>Click the <b>Create</b> button.</li>
+   </ol>
+     
+In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your documentation.
+
+[![nextSteps docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-nextsteps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-nextsteps.png)
 
 ### Creating mock servers
 A [mock server  ](/docs/postman/mock_servers/setting_up_mock){:target="_blank"} simulates each endpoint in a Postman Collection. You can mock a request and response in Postman before you send the actual request or set up a single endpoint to return the response. 
