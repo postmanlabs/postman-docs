@@ -9,7 +9,9 @@ warning: false
 ---
 
 
-You can use the **New** button to initiate requests, collections, environments, monitors, documentation, and mock servers. The **New** button also provides access to templates and the API Network.
+You can use the **New** button to initiate requests [requests](#requests), collections, environments, monitors, documentation, and mock servers. 
+
+The **New** button also provides access to templates and the API Network.
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_homePage_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_homePage_blk.png)
 
@@ -32,7 +34,7 @@ In **ADVANCED**, create a new monitor, documentation, and a mock server.
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_menu_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_menu_blk.png)
 
 ## BUILDING BLOCKS
-### Creating requests
+<h3 id="requests">Creating requests</h3>
 You can create any kind of [HTTP request.](/docs/postman/sending_api_requests/requests){:target="_blank"}
 
 1. In the header toolbar, click the **New** button.
@@ -47,7 +49,7 @@ You can either create a new collection or select an existing one. After you save
 A collection is a group of individual requests that you can organize into folders. 
 
 1. In the header toolbar, click the **New** button.
-2. In the **Create New** tab, click "Request".
+2. In the **Create New** tab, click "Collection".
 3. In the **CREATE A NEW COLLECTION** modal:
 * Enter a name and optional description.
 * Select an authorization type.
@@ -171,7 +173,7 @@ In the **Next steps** tab, see a list of suggested next steps to maximize the ef
 
 You can select ‘Templates’ to help you: check links, track Github issues, verify non-MFA access to AWS accounts, monitor the status of URLs, check DNS records, use Postman Echo to test your REST client and make sample API calls, and monitor AWS ElasticBeanstalk environments. 
 
-You can view all the templates, or select to view them in a Developer or DevOps category.
+You can view all the templates, or select to view them in the "Developer" or "DevOps" category.
 
 [![templates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/templates-tab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/templates-tab.png)
 
@@ -187,7 +189,7 @@ To import a template:
   <li>Click the <b>Use this template</b> button to summon the <b>Customization options</b> screen.</li>
 </ol>
 
-This screen lists what Postman will create for you as part of this template and some configuration options available to you. The values you enter are saved as environment variables. Make sure you fill all the fields as these values might be crucial to the template working properly.
+This screen lists what Postman will create for you with this template and some configuration options available to you. Postman saves the values you enter as environment variables. Make sure you fill all the fields as these values might be crucial for the template to work properly.
 
 <ol start="3">
   <li>To configure your monitor, select how often you want the monitor to run and enter the URL you want to monitor in "CONFIGURATION OPTIONS" section.</li>
@@ -206,7 +208,7 @@ The **Success!** screen displays what Postman created for you and suggests next 
 
 The Postman API Network provides the most authentic and actionable directory of public APIs available. Every API listed in this network includes a complete Postman collection, created by the API's publisher. Postman specifically designed the API list to onboard developers quickly and effectively.
 
-On the left side of the screen, Postman groups the APIs categories such as Marketing, Financial Services, E-commerce, and son on. You can search these categories to find an API.
+On the left side of the screen, Postman groups the APIs categories such as Marketing, Financial Services, E-commerce, and so on. You can search these categories to find an API.
 
 After you select an API from the list, you can import it into your collections.
 
@@ -219,9 +221,9 @@ To import an API in the API Network:
 [![API_networkExample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork_authO.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork_authO.png)
 
 <ol start="2">
-  <li>Click the <b>Run In Postman</b> button to import the the API's collection. You can see the API you imported in the sidebar.</li>
+  <li>Click the <b>Run In Postman</b> button to import the the API's collection. You can see the API you imported in the [sidebar](https://www.getpostman.com/docs/postman/launching_postman/navigating_postman#sidebar){:target="_blank"}.</li>
 </ol>
 
-[![sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton-sidebar.png)
+[![sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton-sidebar2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton-sidebar2.png)
 
 
