@@ -162,7 +162,7 @@ A [mock server](/docs/postman/mock_servers/setting_up_mock){:target="_blank"} si
 * Select an environment (optional).
 * Indicate if you want to make this mock server private
 
-**Note**: The number of calls made to mock servers might be limited by your Postman account. Check your [usage limits](https://the.postman.co/usage){:target="_blank"}.
+**Note**: The number of calls made to mock servers might be limited by your Postman account. Check your [usage limits](https://orange-meadow-2701.postman.co/usage){:target="_blank"}.
      
  [![configTab mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png) 
      
