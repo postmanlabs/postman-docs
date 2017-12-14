@@ -28,7 +28,7 @@ In addition to the **Create New** tab, there are two other tabs: "Templates" and
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create-new-blk-121317.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create-new-blk-121317.png)
 
-## Create New tab 
+### Create New tab 
 
 In **BUILDING BLOCKS**, create a new request, collection, or environment.
 
@@ -40,8 +40,8 @@ In **ADVANCED**, create a new monitor, documentation, and a mock server.
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_menu_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_menu_blk.png)
 
-## BUILDING BLOCKS
-<h3 id="requests">Creating requests</h3>
+### BUILDING BLOCKS
+<h4 id="requests">Creating requests</h4>
 You can create any kind of [HTTP request.](/docs/postman/sending_api_requests/requests){:target="_blank"}
 
 1. In the header toolbar, click the **New** button.
@@ -53,7 +53,7 @@ You can either create a new collection or select an existing one. After you save
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_request_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_request_blk.png)
 
 <h3 id="collections">Creating collections</h3>
-A collection is a group of individual requests that you can organize into folders. 
+A [collection](docs/postman/collections/creating_collections){:target="_blank"} is a group of individual requests that you can organize into folders. 
 
 1. In the header toolbar, click the **New** button.
 2. In the **Create New** tab, click "Collection".
