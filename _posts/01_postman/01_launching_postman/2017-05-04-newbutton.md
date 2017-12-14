@@ -176,7 +176,7 @@ In the **Next steps** tab, see a list of suggested next steps to maximize the ef
 
 ### Template and API Network 
 
-<h4 id="requests">Templates</h4>
+<h4 id="templates">Templates</h4>
 
 You can select ‘Templates’ to help you: check links, track Github issues, verify non-MFA access to AWS accounts, monitor the status of URLs, check DNS records, use Postman Echo to test your REST client and make sample API calls, and monitor AWS ElasticBeanstalk environments. 
 
