@@ -70,7 +70,7 @@ While working with APIs, you often need different setups, such as your local mac
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_environment_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_environment_blk.png)
 
-If you've created other environments, the **MANAGE ENVIRONMENTS** modal appears again and displays them. You can share, edit download, or delete those environments. In addition, you can create global environments and download them as a JSON file, or import environment files from your computer.
+If you've created other environments, the **MANAGE ENVIRONMENTS** modal appears again and displays them. You can share, edit, download, or delete those environments. In addition, you can create global environments and download them as a JSON file, or import environment files from your computer.
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environments-secondWindow.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environments-secondWindow.png)
 
@@ -79,26 +79,45 @@ If you've created other environments, the **MANAGE ENVIRONMENTS** modal appears 
 ### Creating monitors
 A [monitor](/docs/postman/monitors/intro_monitors) runs a collection periodically to check its performance and response. You can [set a monitor](/docs/postman/monitors/setting_up_monitor) to run as frequently as every 5 minutes. 
 
-1. To create a monitor, click ‘Monitor’ in the **New** button drop down menu and enter the URLs you want to monitor, and indicate the response time and the response code. You can also select an existing collection to monitor all those requests. 
-2. Click ‘Next’ to enter the name of the monitor, how often you want the monitor to run, and the region you want to monitor.
+[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)
 
-Postman makes a collection of the URLs and adds a script that checks the response time and response code for each URL.
+**Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
-You receive notifications when either the response code doesn’t match or the response time falls below the expected values. You can also add the method, headers, and body to the individual URLs in the request builder, as well as add custom test scripts.
+1. In the header toolbar, click the **New** button.
+2. In the **Create New** tab, click “Monitor”.
+3. Select if you want to monitor a new API or an existing or team collection. If you create a new API to monitor, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection, you must select a collection from a list of existing or team collections.
 
-[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_monitor_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_monitor_blk.png)
+[![request monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)
+ 
+<ol start="4">
+  <li>After you select or create the request you want to monitor, click the <b>Next</b> button. </li>
+  <li>In the <b>Configuration</b> tab, you must:</li>
+</ol>
+
+  * Enter the name of the monitor
+  * Select an environment (optional).
+  * Set how frequently the monitor should run. 
+  * Select one or more regions of the world from where you want to monitor your results.
+    
+  [![configure monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)  
+ 
+ <ol start="6">
+  <li>Click the <b>Create</b>  button. </li>
+</ol>
+
+In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your monitor.
+    
+  [![next monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-next-steps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-next-steps.png)    
 
 ### Creating documentation
 You can create [public or private documentation](/docs/postman/api_documentation/intro_to_api_documentation){:target="_blank"} and share it in a web page. Postman generates and hosts browser-based documentation for your collections automatically in real-time. 
 
-<ol start="1">
-  <li>Click "API Documentation".</li>
- <li>Select if you want to create documentation for a new API or an existing or team collection. If you create a new API to document, you must select a request method and enter the request URL, description, and status code. If you use an existing or team collection to document, you must select a collection from a list of existing or team collections.</li>
- </ol>
-
+1. In the header toolbar, click the **New** button.
+2. In the **Create New** tab, click "API Documentation".
+3. Select if you want to create documentation for a new API or an existing or team collection. If you create a new API to document, you must select a request method and enter the request URL, description, and status code. If you use an existing or team collection to document, you must select a collection from a list of existing or team collections.
 [![configure docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configure.png)
 
-<ol start="3">
+<ol start="4">
   <li>After you select or create the request you want to document, click the <b>Next</b> button.</li>
   <li>In the <b>Configure documentation</b> tab, you must:</li>
  </ol>
@@ -108,7 +127,7 @@ You can create [public or private documentation](/docs/postman/api_documentation
 
 [![configureTab docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configureTab.png)
 
- <ol start="5">
+ <ol start="6">
   <li>Click the <b>Create</b> button.</li>
    </ol>
      
@@ -119,18 +138,38 @@ In the **Next steps** tab, see a list of suggested next steps to maximize the ef
 ### Creating mock servers
 A [mock server  ](/docs/postman/mock_servers/setting_up_mock){:target="_blank"} simulates each endpoint in a Postman Collection. You can mock a request and response in Postman before you send the actual request or set up a single endpoint to return the response. 
 
-1. To create a mock server, click ‘Mock Server’ in the **New** button drop down menu and enter the request endpoint and the expected response. 
-2. Then click ‘Next’ to enter the name of your APIs. You can indicate if you want this mock server to be private.
+1. In the header toolbar, click the **New** button.
+2. In the Create New tab, click “Mock Server”.
+3. Select if you want to mock a new API or an existing or team collection. If you create a new API to mock, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection to mock, you must select a collection from a list of existing or team collections. 
 
-Postman creates a collection and adds [examples](/docs/postman/mock_servers/mocking_with_examples){:target="_blank"} for individual requests. Postman also provides a mock URL you can share with the public, such as with front-end developers. They can send a request to this URL, followed by an endpoint, to get the corresponding response.
+[![config mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-config.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-config.png) 
 
-[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_mockServer_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_mockServer_blk.png)
+<ol start="4">
+  <li>After you select or create the request you want to mock, click the <b>Next</b> button.</li>
+  <li>In the <b>Configure mock server</b> tab, you must:</li>
+</ol>
+  
+* Enter the name of the mock
+* Select an environment (optional).
+* Indicate if you want to make this mock server private
+
+**Note**: The number of calls made to mock servers might be limited by your Postman account. Check your [usage limits](https://the.postman.co/usage){:target="_blank"}.
+     
+ [![configTab mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png) 
+     
+<ol start="6">
+  <li>Click the <b>Create</b> button.</li>
+</ol>
+
+In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your mock server.
+
+ [![next mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)  
 
 ## Template and API Network tabs
 
 ### Templates tab
 
-You can select ‘Template’ for templates that help you: check links, track Github issues, verify non-MFA access to AWS accounts, monitor status of URLs, check DNS records, use Postman Echo to test your REST client and make sample API calls, and monitor AWS ElasticBeanstalk environments. 
+You can select ‘Templates’ for templates that help you: check links, track Github issues, verify non-MFA access to AWS accounts, monitor status of URLs, check DNS records, use Postman Echo to test your REST client and make sample API calls, and monitor AWS ElasticBeanstalk environments. 
 
 You can view all the templates, or select to view them in a Developer or DevOps category.
 
