@@ -9,7 +9,14 @@ warning: false
 ---
 
 
-You can use the **New** button to initiate [requests](#requests), [collections](#collections), [environments](#environments), [monitors](#monitors), [documentation](#documentation), and [mock_servers](#mock_servers). 
+You can use the **New** button to initiate:
+
+* [Requests](#requests)
+* [Collections](#collections)
+* [Environments](#environments)
+* [Monitors](#monitors)
+* [Documentation](#documentation)
+* [Mock_servers](#mock_servers)
 
 The **New** button also provides access to [templates](#templates) and the [API_network](#API_network).
 
@@ -138,7 +145,7 @@ In the **Next steps** tab, see a list of suggested next steps to maximize the ef
 [![nextSteps docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-nextsteps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-nextsteps.png)
 
 <h3 id="mock_servers">Creating mock servers</h3>
-A [mock server  ](/docs/postman/mock_servers/setting_up_mock){:target="_blank"} simulates each endpoint in a Postman Collection. You can mock a request and response in Postman before you send the actual request or set up a single endpoint to return the response. 
+A [mock server](/docs/postman/mock_servers/setting_up_mock){:target="_blank"} simulates each endpoint in a Postman Collection. You can mock a request and response in Postman before you send the actual request or set up a single endpoint to return the response. 
 
 1. In the header toolbar, click the **New** button.
 2. In the **Create New** tab, click “Mock Server”.
