@@ -114,7 +114,7 @@ A [monitor](/docs/postman/monitors/intro_monitors) runs a collection periodicall
   <li>Click the <b>Create</b>  button. </li>
 </ol>
 
-In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your monitor.
+In the **Next steps** tab, see a list of suggested next steps to get the most out of your monitor.
     
   [![next monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-next-steps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-next-steps.png)    
 
@@ -140,7 +140,7 @@ You can create [public or private documentation](/docs/postman/api_documentation
   <li>Click the <b>Create</b> button.</li>
    </ol>
      
-In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your documentation.
+In the **Next steps** tab, see a list of suggested next steps to get the most out of your documentation.
 
 [![nextSteps docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-nextsteps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-nextsteps.png)
 
@@ -170,11 +170,11 @@ A [mock server](/docs/postman/mock_servers/setting_up_mock){:target="_blank"} si
   <li>Click the <b>Create</b> button.</li>
 </ol>
 
-In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your mock server.
+In the **Next steps** tab, see a list of suggested next steps to get the most out of your mock server.
 
  [![next mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)  
 
-### Template and API Network 
+### Template and API Network tabs
 
 <h4 id="templates">Templates</h4>
 
