@@ -176,7 +176,7 @@ In the **Next steps** tab, see a list of suggested next steps to maximize the ef
 
 ### Template and API Network tabs
 
-<h4> id="templates">Templates tab </h4>
+<h4 id="requests">Templates</h4>
 
 You can select ‘Templates’ to help you: check links, track Github issues, verify non-MFA access to AWS accounts, monitor the status of URLs, check DNS records, use Postman Echo to test your REST client and make sample API calls, and monitor AWS ElasticBeanstalk environments. 
 
@@ -231,7 +231,7 @@ To import an API in the API Network:
   <li>Click the <b>Run In Postman</b> button to import the the API's collection.</li>
 </ol>
 
-You can see the API you imported in the [sidebar](/docs/postman/launching_postman/navigating_postman#sidebar){:target="_blank"}
+You can see the API you imported in the [sidebar.](/docs/postman/launching_postman/navigating_postman#sidebar){:target="_blank"}
 
 [![sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton-sidebar2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton-sidebar2.png)
 
