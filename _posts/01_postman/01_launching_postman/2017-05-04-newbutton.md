@@ -28,7 +28,7 @@ In addition to the **Create New** tab, there are two other tabs: "Templates" and
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create-new-blk-121317.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create-new-blk-121317.png)
 
-### Create New tab 
+### Create New  
 
 In **BUILDING BLOCKS**, create a new request, collection, or environment.
 
@@ -174,7 +174,7 @@ In the **Next steps** tab, see a list of suggested next steps to maximize the ef
 
  [![next mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)  
 
-### Template and API Network tabs
+### Template and API Network 
 
 <h4 id="requests">Templates</h4>
 
@@ -211,7 +211,7 @@ The **Success!** screen displays what Postman created for you and suggests next 
 
 [![nextSteps](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/nextsteps-linkchecker.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/nextsteps-linkchecker.png)
 
-<h4 id="API_network">API Network tab </h4>
+<h4 id="API_network">API Network</h4>
 
 The [Postman API Network](https://www.getpostman.com/api-network/){:target="_blank"} provides the most authentic and actionable directory of public APIs available. Every API listed in this network includes a complete Postman collection, created by the API's publisher. Postman specifically designed the API list to onboard developers quickly and effectively.
 
