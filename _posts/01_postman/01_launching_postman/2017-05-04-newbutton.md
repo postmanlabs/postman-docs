@@ -52,8 +52,8 @@ You can either create a new collection or select an existing one. After you save
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_request_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_request_blk.png)
 
-<h3 id="collections">Creating collections</h3>
-A [collection](docs/postman/collections/creating_collections){:target="_blank"} is a group of individual requests that you can organize into folders. 
+<h4 id="collections">Creating collections</h4>
+A [collection](/docs/postman/collections/creating_collections){:target="_blank"} is a group of individual requests that you can organize into folders. 
 
 1. In the header toolbar, click the **New** button.
 2. In the **Create New** tab, click "Collection".
@@ -69,7 +69,7 @@ After creating the collection, you can save requests to the collection and add f
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-createcollectionmodal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-createcollectionmodal.png)
 
-<h3 id="environments">Creating environments</h3>
+<h4 id="environments">Creating environments</h4>
 While working with APIs, you often need different setups, such as your local machine, the development server, or the production API. [Environments](/docs/postman/environments_and_globals/manage_environments){:target="_blank"} let you customize requests using variables. 
 
 1. In the header toolbar, click the **New** button.
@@ -85,7 +85,7 @@ If you've created other environments, the **MANAGE ENVIRONMENTS** modal appears 
 
 
 ## ADVANCED
-<h3 id="monitors">Creating monitors</h3>
+<h4 id="monitors">Creating monitors</h4>
 A [monitor](/docs/postman/monitors/intro_monitors) runs a collection periodically to check its performance and response. You can [set a monitor](/docs/postman/monitors/setting_up_monitor) to run as frequently as every 5 minutes. 
 
 [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)
@@ -118,7 +118,7 @@ In the **Next steps** tab, see a list of suggested next steps to maximize the ef
     
   [![next monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-next-steps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-next-steps.png)    
 
-<h3 id="documentation">Creating documentation</h3>
+<h4 id="documentation">Creating documentation</h4>
 You can create [public or private documentation](/docs/postman/api_documentation/intro_to_api_documentation){:target="_blank"} and share it in a web page. Postman generates and hosts browser-based documentation for your collections automatically in real-time. 
 
 1. In the header toolbar, click the **New** button.
@@ -144,7 +144,7 @@ In the **Next steps** tab, see a list of suggested next steps to maximize the ef
 
 [![nextSteps docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-nextsteps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-nextsteps.png)
 
-<h3 id="mock_servers">Creating mock servers</h3>
+<h4 id="mock_servers">Creating mock servers</h4>
 A [mock server](/docs/postman/mock_servers/setting_up_mock){:target="_blank"} simulates each endpoint in a Postman Collection. You can mock a request and response in Postman before you send the actual request or set up a single endpoint to return the response. 
 
 1. In the header toolbar, click the **New** button.
@@ -176,7 +176,7 @@ In the **Next steps** tab, see a list of suggested next steps to maximize the ef
 
 ## Template and API Network tabs
 
-<h3 id="templates">Templates tab </h3>
+<h4>id="templates">Templates tab</h4>
 
 You can select ‘Templates’ to help you: check links, track Github issues, verify non-MFA access to AWS accounts, monitor the status of URLs, check DNS records, use Postman Echo to test your REST client and make sample API calls, and monitor AWS ElasticBeanstalk environments. 
 
@@ -211,7 +211,7 @@ The **Success!** screen displays what Postman created for you and suggests next 
 
 [![nextSteps](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/nextsteps-linkchecker.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/nextsteps-linkchecker.png)
 
-<h3 id="API_network">API Network tab </h3>
+<h4 id="API_network">API Network tab </h4>
 
 The Postman API Network provides the most authentic and actionable directory of public APIs available. Every API listed in this network includes a complete Postman collection, created by the API's publisher. Postman specifically designed the API list to onboard developers quickly and effectively.
 
