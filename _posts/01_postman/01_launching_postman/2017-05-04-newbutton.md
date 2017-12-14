@@ -9,7 +9,7 @@ warning: false
 ---
 
 
-You can use the **New** button to initiate requests, collections, environments, monitors, documentation, and mock servers.
+You can use the **New** button to initiate requests, collections, environments, monitors, documentation, and mock servers. The **New** button also provides access to templates and the API Network.
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_homePage_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_homePage_blk.png)
 
@@ -139,7 +139,7 @@ In the **Next steps** tab, see a list of suggested next steps to maximize the ef
 A [mock server  ](/docs/postman/mock_servers/setting_up_mock){:target="_blank"} simulates each endpoint in a Postman Collection. You can mock a request and response in Postman before you send the actual request or set up a single endpoint to return the response. 
 
 1. In the header toolbar, click the **New** button.
-2. In the Create New tab, click “Mock Server”.
+2. In the **Create New** tab, click “Mock Server”.
 3. Select if you want to mock a new API or an existing or team collection. If you create a new API to mock, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection to mock, you must select a collection from a list of existing or team collections. 
 
 [![config mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-config.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-config.png) 
@@ -169,7 +169,7 @@ In the **Next steps** tab, see a list of suggested next steps to maximize the ef
 
 ### Templates tab
 
-You can select ‘Templates’ for templates that help you: check links, track Github issues, verify non-MFA access to AWS accounts, monitor status of URLs, check DNS records, use Postman Echo to test your REST client and make sample API calls, and monitor AWS ElasticBeanstalk environments. 
+You can select ‘Templates’ to help you: check links, track Github issues, verify non-MFA access to AWS accounts, monitor the status of URLs, check DNS records, use Postman Echo to test your REST client and make sample API calls, and monitor AWS ElasticBeanstalk environments. 
 
 You can view all the templates, or select to view them in a Developer or DevOps category.
 
@@ -190,11 +190,11 @@ To import a template:
 This screen lists what Postman created for you—collection, environment, and monitor settings. You can configure your own monitor settings in the "CONFIGURATION OPTIONS" section.
 
 <ol start="3">
-  <li>If you want to configure your monitor, select how often you want the monitor to run and enter the URL you want to monitor in "CONFIGURATION OPTIONS" section.</li>
+  <li>To configure your monitor, select how often you want the monitor to run and enter the URL you want to monitor in "CONFIGURATION OPTIONS" section.</li>
   <li>Click the <b>Create</b> button.</li>
 </ol>
 
-The **Success** screen displays what Postman created for you and suggests next steps you might want to consider to maximize your template. 
+The **Success!** screen displays what Postman created for you and suggests next steps you might want to consider to maximize your template. 
 
 <ol start="5">
   <li>Click the <b>Okay</b> button to exit the screen.</li>
@@ -204,17 +204,17 @@ The **Success** screen displays what Postman created for you and suggests next s
 
 ### API Network tab
 
-The Postman API Network provides the most authentic and actionable directory of public APIs available. Every API listed in this network includes a complete Postman collection, created by the API's publisher, and specifically designed to onboard developers quickly and effectively.
+The Postman API Network provides the most authentic and actionable directory of public APIs available. Every API listed in this network includes a complete Postman collection, created by the API's publisher. Postman specifically designed the API list to onboard developers quickly and effectively.
 
 You can view all these APIs, or select to view them from these categories: Business Solutions, Marketing, Cloud, Communications, Data Management, Development, Mobile Services, E-Commerce, Financial Services, Food, Health Services, Payment Services, Productivity, Retail, Shipping Logistics, Social Media, and Travel.
 
-After you select an API Network, you can import it into your collections.
+After you select an API from the list, you can import it into your collections.
 
 [![API_network](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork-tab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork-tab.png)
 
 To import an API in the API Network:
 
-1. Click an API in the API Network. In this example, we're using the AuthO API.
+1. Click an API in the API Network list. In this example, we're using the AuthO API.
 
 [![API_networkExample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork_authO.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork_authO.png)
 
