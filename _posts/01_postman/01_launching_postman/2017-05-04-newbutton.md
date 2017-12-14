@@ -84,9 +84,9 @@ If you've created other environments, the **MANAGE ENVIRONMENTS** modal appears 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environments-secondWindow.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environments-secondWindow.png)
 
 
-## ADVANCED
+### ADVANCED
 <h4 id="monitors">Creating monitors</h4>
-A [monitor](/docs/postman/monitors/intro_monitors) runs a collection periodically to check its performance and response. You can [set a monitor](/docs/postman/monitors/setting_up_monitor) to run as frequently as every 5 minutes. 
+A [monitor](/docs/postman/monitors/intro_monitors) runs a collection periodically to check its performance and response. You can [set a monitor](/docs/postman/monitors/setting_up_monitor){:target="_blank"} to run as frequently as every 5 minutes. 
 
 [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)
 
@@ -174,9 +174,9 @@ In the **Next steps** tab, see a list of suggested next steps to maximize the ef
 
  [![next mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)  
 
-## Template and API Network tabs
+### Template and API Network tabs
 
-<h4>id="templates">Templates tab</h4>
+<h4> id="templates">Templates tab </h4>
 
 You can select ‘Templates’ to help you: check links, track Github issues, verify non-MFA access to AWS accounts, monitor the status of URLs, check DNS records, use Postman Echo to test your REST client and make sample API calls, and monitor AWS ElasticBeanstalk environments. 
 
@@ -213,7 +213,7 @@ The **Success!** screen displays what Postman created for you and suggests next 
 
 <h4 id="API_network">API Network tab </h4>
 
-The Postman API Network provides the most authentic and actionable directory of public APIs available. Every API listed in this network includes a complete Postman collection, created by the API's publisher. Postman specifically designed the API list to onboard developers quickly and effectively.
+The [Postman API Network](https://www.getpostman.com/api-network/){:target="_blank"} provides the most authentic and actionable directory of public APIs available. Every API listed in this network includes a complete Postman collection, created by the API's publisher. Postman specifically designed the API list to onboard developers quickly and effectively.
 
 On the left side of the screen, Postman groups the APIs categories such as Marketing, Financial Services, E-commerce, and so on. You can search these categories to find an API.
 
@@ -228,8 +228,10 @@ To import an API in the API Network:
 [![API_networkExample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork_authO.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork_authO.png)
 
 <ol start="2">
-  <li>Click the <b>Run In Postman</b> button to import the the API's collection. You can see the API you imported in the [sidebar](https://www.getpostman.com/docs/postman/launching_postman/navigating_postman#sidebar){:target="_blank"}.</li>
+  <li>Click the <b>Run In Postman</b> button to import the the API's collection.</li>
 </ol>
+
+You can see the API you imported in the [sidebar](/docs/postman/launching_postman/navigating_postman#sidebar){:target="_blank"}
 
 [![sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton-sidebar2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton-sidebar2.png)
 
