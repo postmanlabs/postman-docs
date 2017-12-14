@@ -179,7 +179,7 @@ To import a template:
 
 1. Click on the template you want. In this example we're using the "Link Checker" template.
 
-**Note**: The Link Checker template only provides required environmental variables. However, other templates might offer required and optional environmental variables.
+**Note**: Each template has a description that lists the values required to run the template. In this example, the Link Checker template requires a `start_url` and a `root_url`.
 
 [![linkCheckertemplates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/linkchecker-template.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/linkchecker-template.png)
 
@@ -187,14 +187,14 @@ To import a template:
   <li>Click the <b>Use this template</b> button to summon the <b>Customization options</b> screen.</li>
 </ol>
 
-This screen lists what Postman created for you—collection, environment, and monitor settings. You can configure your own monitor settings in the "CONFIGURATION OPTIONS" section.
+This screen lists what Postman will create for you as part of this template and some configuration options available to you. The values you enter are saved as environment variables. Make sure you fill all the fields as these values might be crucial to the template working properly.
 
 <ol start="3">
   <li>To configure your monitor, select how often you want the monitor to run and enter the URL you want to monitor in "CONFIGURATION OPTIONS" section.</li>
   <li>Click the <b>Create</b> button.</li>
 </ol>
 
-The **Success!** screen displays what Postman created for you and suggests next steps you might want to consider to maximize your template. 
+The **Success!** screen displays what Postman created for you and suggests next steps to consider to get the most out of the template.
 
 <ol start="5">
   <li>Click the <b>Okay</b> button to exit the screen.</li>
@@ -206,7 +206,7 @@ The **Success!** screen displays what Postman created for you and suggests next 
 
 The Postman API Network provides the most authentic and actionable directory of public APIs available. Every API listed in this network includes a complete Postman collection, created by the API's publisher. Postman specifically designed the API list to onboard developers quickly and effectively.
 
-You can view all these APIs, or select to view them from these categories: Business Solutions, Marketing, Cloud, Communications, Data Management, Development, Mobile Services, E-Commerce, Financial Services, Food, Health Services, Payment Services, Productivity, Retail, Shipping Logistics, Social Media, and Travel.
+On the left side of the screen, Postman groups the APIs categories such as Marketing, Financial Services, E-commerce, and son on. You can search these categories to find an API.
 
 After you select an API from the list, you can import it into your collections.
 
@@ -214,13 +214,14 @@ After you select an API from the list, you can import it into your collections.
 
 To import an API in the API Network:
 
-1. Click an API in the API Network list. In this example, we're using the AuthO API.
+1. Click an API in the API Network list. In this example, we're using the Auth0 API.
 
 [![API_networkExample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork_authO.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork_authO.png)
 
 <ol start="2">
-  <li>Click the <b>Run In Postman</b> button to import the API in your collections. When you check your collection, you can see the API you imported.</li>
+  <li>Click the <b>Run In Postman</b> button to import the the API's collection. You can see the API you imported in the sidebar.</li>
 </ol>
 
+[![sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton-sidebar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton-sidebar.png)
 
 
