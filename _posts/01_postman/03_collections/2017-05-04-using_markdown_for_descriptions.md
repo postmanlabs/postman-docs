@@ -14,7 +14,7 @@ Review [reference for using Markdown](https://documenter.getpostman.com/view/332
 Postman renders this markdown in the following places:
 
 In the request builder, the request description can be styled with markdown.  
-[![request description](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/spaceRequestDescription.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/spaceRequestDescription.png)
+[![request description](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/markdown-nasaRequestDescription.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/markdown-nasaRequestDescription.png)
 
 The collections details view can be styled with markdown in the descriptions for collections and folders.  
 [![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/spaceCollectionDetailsView.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/spaceCollectionDetailsView.png)
