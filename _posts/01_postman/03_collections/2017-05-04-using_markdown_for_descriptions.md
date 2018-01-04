@@ -28,7 +28,7 @@ The description column in the [data editor](/docs/postman/launching_postman/navi
 
 For example, specify if an element is required or optional, indicate the accepted data type, or use alternative terminology to provide additional clarification for developers who are working with your requests.
 
-[![data editor parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/data-editor-params.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/data-editor-params.png)
+[![data editor parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-data-editor-params.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-data-editor-params.png)
 
 For Postman users publishing internal or public API documentation, these descriptions are displayed in the [automatically generated documentation](/docs/postman/api_documentation/intro_to_api_documentation) for that collection.
 
