@@ -42,4 +42,4 @@ You can hide and show the value and description column in the data editor by cli
 
 *Note: Descriptions are metadata for a request and are **NOT** sent with your HTTP request. This reminder is displayed when you mouse over the title of the description column.*
 
-[![mouseover params](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mouseover-params.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mouseover-params.png)
+[![mouseover params](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-mouseover.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-mouseover.png)
