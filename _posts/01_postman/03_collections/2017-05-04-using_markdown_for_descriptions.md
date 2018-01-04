@@ -32,7 +32,7 @@ For example, specify if an element is required or optional, indicate the accepte
 
 For Postman users publishing internal or public API documentation, these descriptions are displayed in the [automatically generated documentation](/docs/postman/api_documentation/intro_to_api_documentation) for that collection.
 
-[![parameters in automatically generated docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auto-generated-docs-params.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auto-generated-docs-params.gif)
+[![parameters in automatically generated docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-auto-docs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-auto-docs.png)
 
 *Note: Descriptions for path variables and URL params are currently NOT shown in the documentation.*
 
