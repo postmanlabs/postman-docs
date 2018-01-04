@@ -11,7 +11,7 @@ Once you set up monitors, you can receive daily and weekly emails with a summary
 
 [![email summary of monitors](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-email-results1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-email-results1.png)
 
-You can also view more detailed results from your dashboard.
+You can also view more detailed results from your dashboard.??
 
 ### Monitors page
 
