@@ -9,7 +9,7 @@ warning: false
 
 Once you set up monitors, you can receive daily and weekly emails with a summary for all your monitors. These email notifications can be turned off in the settings. In addition, you will receive important notifications (both [in-app](/docs/postman/notifications) and email) in case a monitor fails.
 
-[![email summary of monitors](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59085644.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59085644.png)
+[![email summary of monitors](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-email-results1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-email-results1.png)
 
 You can also view more detailed results from your dashboard.
 
@@ -17,7 +17,7 @@ You can also view more detailed results from your dashboard.
 
 Sign in to the Postman web view, and head over to the [monitors page](https://monitor.getpostman.com/){:target="_blank"} which lists out all your monitors (both team and private). Select a timeframe for which you want to view the results of the monitor runs.
 
-[![monitors page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59042580.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59042580.png)
+[![monitors page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-results-page.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-results-page.png)
 
 You can view various stats for each of the monitors.
 
@@ -32,11 +32,11 @@ Click on any of the monitors to view more details about its performance and trou
 
 The main timeline shows all past runs of the monitor. Each bar signifies one run of the monitor - with red indicating failing tests. The graph in blue shows the total response time (of all the requests) over time. This is a great way of measuring performance improvements when you’ve made changes to your infrastructure.
 
-[![monitors timeline](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59042594.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59042594.png)
+[![monitors timeline](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-results-page.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-results-page.png)
 
 You can click on any of the runs from this graph to see its results in more details. 
 
-[![detailed view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorDropdownResults.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorDropdownResults.png)  
+[![detailed view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-results-graphDetails.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-results-graphDetails.png)  
 
 The results section shows request-level details: test results, response code, response time, and the response size. Additionally, you can filter by region if you set up [monitors in multiple regions](/docs/postman/monitors/intro_monitors#monitoring-resources-in-multiple-regions).
 
