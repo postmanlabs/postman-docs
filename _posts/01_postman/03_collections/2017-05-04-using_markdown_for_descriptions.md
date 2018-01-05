@@ -23,7 +23,7 @@ You can style the collections details view using markdown in the descriptions fo
 
 **Public or Internal API documentation**
 
-Public or internal [API documentation](/docs/postman/api_documentation/intro_to_api_documentation), can automatically generate API descriptions that you can style beautifully and precisely using markdown.  
+Public or internal [API documentation](/docs/postman/api_documentation/intro_to_api_documentation) can automatically generate API descriptions, which you can style beautifully and precisely using markdown.  
 [![automatically generated documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/markdown-auto-docs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/markdown-auto-docs.png)
 
 ### Descriptions for request attributes
