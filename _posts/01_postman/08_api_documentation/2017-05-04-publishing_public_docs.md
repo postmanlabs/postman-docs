@@ -13,15 +13,13 @@ Published documentation is a way of sharing your API documentation with the worl
 
 You can only publish documentation for collections that you created or for which you have write permissions. [Open the docs page](/docs/postman/api_documentation/viewing_documentation) for one of your collections. Click the **Publish** button at the top of the screen.
 
-[![publish button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59116421.png) ](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59116421.png)  
+[![publish button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-publish-button.png) ](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-publish-button.png)  
 
 If you are signed in to Postman, you can select a corresponding environment with which to publish the collection. Any references to variables like {% raw %}`{{url}}`{% endraw %} in the collection will be replaced with the correct value from the environment. 
 
-[![publish collection settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/publishCollectionSettings.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/publishCollectionSettings.png)
+The public URL field contains the URL that you can share with the outside world. For example, if you’re publishing your primary collection, you might want to select the “Production” environment, so that your documentation is immediately usable for new visitors. 
 
-The public URL field in the screenshot below contains the URL that you can share with the outside world. For example, if you’re publishing your primary collection, you might want to select the “Production” environment, so that your documentation is immediately usable for new visitors. 
-
-[![published collection settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/publishedCollection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/publishedCollection.png)
+[![public documentation link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)
 
 > **IMPORTANT:**  Any confidential info in your environment, such as **passwords and access tokens**, might be visible publicly. Ensure that all such information is removed from the environment before you publish documentation with an environment.
 
@@ -37,7 +35,7 @@ We’ve published documentation for this collection - check it out [here](https:
 
 Optionally, you can pick from a list of verified [custom domains](/docs/postman/api_documentation/adding_and_verifying_custom_domains) to host your API documentation. You’ll be able to view docs on your custom domain, as well as the Postman private documentation page. 
 
-[![custom domain](https://static.getpostman.com/postman-docs/40ce4cda-5788-4e18-9141-4391de078244.png)](https://static.getpostman.com/postman-docs/40ce4cda-5788-4e18-9141-4391de078244.png)
+[![custom domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-custom-domains.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-custom-domains.png)
 
 ### Custom styling options
 
@@ -45,6 +43,4 @@ Postman allows you to customize the appearance of your published documentation p
 
 You can update the custom styling options either before or after you publish your documentation. Click the **Show Custom Styling Options** link to expand the section and update your color palette.
 
-[![before publishing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/customStylingOptions.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/customStylingOptions.png)
-
-[![custom styling options](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59016798.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59016798.png)
+[![custom styling options](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-custom-styling.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-custom-styling.png)
