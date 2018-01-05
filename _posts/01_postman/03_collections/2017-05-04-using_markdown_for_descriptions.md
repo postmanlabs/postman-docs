@@ -34,7 +34,7 @@ For example, specify if an element is required or optional, indicate the accepte
 
 [![data editor parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-data-editor-params.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-data-editor-params.png)
 
-For Postman users publishing internal or public API documentation, these descriptions display in the [automatically generated documentation](/docs/postman/api_documentation/intro_to_api_documentation) for that collection.
+For Postman users who publish internal or public API documentation, these descriptions display in the [automatically generated documentation](/docs/postman/api_documentation/intro_to_api_documentation) for that collection.
 
 [![parameters in automatically generated docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-auto-docs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-auto-docs.png)
 
