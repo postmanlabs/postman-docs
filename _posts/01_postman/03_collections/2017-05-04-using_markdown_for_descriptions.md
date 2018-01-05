@@ -11,13 +11,17 @@ Postman supports [Markdown](/docs/postman/api_documentation/how_to_document_usi
 
 For more information about Markdown, review the [reference for using Markdown](https://documenter.getpostman.com/view/33232/markdown-in-api-documentation/JsGc){:target="_blank"} for API documentation. 
 
-Postman renders this markdown in these places:
+Postman renders this markdown in the request builder and in public or internal API documentation.
+
+**Request builder**
 
 In the request builder, you can style the request description using markdown.  
 [![request description](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/markdown-nasaRequestDescription2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/markdown-nasaRequestDescription2.png)
 
 You can style the collections details view usingh markdown in the descriptions for collections and folders.  
 [![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/markdown-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/markdown-collections.png)
+
+**Public or Internal API documentation**
 
 Public or internal [API documentation](/docs/postman/api_documentation/intro_to_api_documentation), can automatically generate API descriptions that you can style beautifully and precisely using markdown.  
 [![automatically generated documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/markdown-auto-docs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/markdown-auto-docs.png)
