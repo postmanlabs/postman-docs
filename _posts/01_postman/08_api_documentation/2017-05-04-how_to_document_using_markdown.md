@@ -14,4 +14,4 @@ Review [reference for using Markdown](https://documenter.getpostman.com/view/332
 
 Postman supports Markdown as a way to style text descriptions for requests, collections, and folders within collections. You can even embed screenshots and other images for more descriptive flair. Learn more about [where Postman renders Markdown](/docs/postman/collections/using_markdown_for_descriptions).
 
-[![example of markdown in collection description](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59188247.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59188247.png)
+[![example of markdown in collection description](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-markdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-markdown.png)
