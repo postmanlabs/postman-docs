@@ -38,12 +38,12 @@ For Postman users publishing internal or public API documentation, these descrip
 
 [![parameters in automatically generated docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-auto-docs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-auto-docs.png)
 
-*Note: Descriptions for path variables and URL params are currently NOT shown in the documentation.*
+**Note**: Descriptions for path variables and URL params are currently NOT shown in the documentation.
 
 To hide and show the value and description column in the data editor, click the ellipsis (...) in the top right corner of the editor, and uncheck the columns that you want to hide.
 
 [![uncheck parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-uncheck-params.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-uncheck-params.png)
 
-*Note: Descriptions are metadata for a request and are **NOT** sent with your HTTP request. This reminder displays when you mouse over the title of the description column.*
+**Note**: Descriptions are metadata for a request and are **NOT** sent with your HTTP request. This reminder displays when you mouse over the title of the description column.*
 
 [![mouseover params](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-mouseover.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-mouseover.png)
