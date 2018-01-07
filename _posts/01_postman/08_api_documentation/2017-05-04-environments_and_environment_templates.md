@@ -7,7 +7,9 @@ page_id: "environments_and_environment_templates"
 warning: false
 ---
 
-Your environments and environment templates are automatically synced too and are available through a dropdown in your API documentation. When viewing public or private documentation, selecting an environment will substitute those environment variable values into the relevant parts of the documentation. For example, if the selected environment has a `foo` variable with the value `bar`, then all occurrences of {{foo}} in the request will be replaced with `bar`. All environments are encrypted during storage, for more details, check the Data Security section of our [Security page](https://www.getpostman.com/security){:target="_blank"}.
+Your environments and environment templates are automatically synced too and are available through a dropdown in your API documentation. 
+
+When viewing public or private documentation, selecting an environment will substitute those environment variable values into the relevant parts of the documentation. For example, if the selected environment has a `foo` variable with the value `bar`, then all occurrences of {{foo}} in the request will be replaced with `bar`. All environments are encrypted during storage, for more details, check the Data Security section of our [Security page](https://www.getpostman.com/security){:target="_blank"}.
 
 ### Environments in private documentation
 
