@@ -19,7 +19,7 @@ Within the private documentation view, all of your environments and environment 
 
 ### Environments in public documentation
 
-[![environmnets dropdown for public documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59052121.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59052121.png)
+[![environmnets dropdown for public documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-environMenu010718.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-environMenu010718.png)
 
 If an environment template was selected while publishing documentation, this will be available to all documentation viewers.
 
