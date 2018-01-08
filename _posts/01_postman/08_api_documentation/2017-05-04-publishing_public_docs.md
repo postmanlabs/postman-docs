@@ -13,7 +13,7 @@ Published documentation is a way of sharing your API documentation with the worl
 
 You can only publish documentation for collections that you created or for which you have write permissions.
 
-In the documentation page, click the **Publish** button at the top of the screen.
+In your [collection's](/docs/postman/api_documentation/viewing_documentation){:target="_blank"} documentation page, click the **Publish** button at the top of the screen.
 
 [![publish button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-publish-button2.png) ](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-publish-button2.png)  
 
@@ -31,7 +31,9 @@ The public URL field contains the URL that you can share with the outside world.
 The public documentation link will always have the most up-to-date content! You don’t need to keep going through the Publish flow each time you want your docs to be updated.
 
 **Unpublishing documentation**
+
 In the Edit Published Collection page, click the **Unpublish Collection** button.
+
 For a collection that’s already been published, you’ll be able to view the public link or unpublish the collection. 
 
 [![publish or unpublish](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-unpublish2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-unpublish2.png)
