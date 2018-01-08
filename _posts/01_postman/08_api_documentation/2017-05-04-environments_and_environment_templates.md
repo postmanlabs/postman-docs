@@ -11,8 +11,7 @@ Your environments and environment templates are automatically synced too and are
 
 ### Environments in private documentation
 
-[![public documentation link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)
-
+[![public documentation link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-environment2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-environment2.png)
 
 Within the private documentation view, all of your environments and environment templates will be available to you along with environment templates shared in your Team Library.
 
