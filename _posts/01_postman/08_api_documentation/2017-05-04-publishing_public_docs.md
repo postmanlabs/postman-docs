@@ -17,7 +17,7 @@ In your [collection's](/docs/postman/api_documentation/viewing_documentation){:t
 
 [![publish button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-publish-button2.png) ](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-publish-button2.png)  
 
-The Edit Published Collection page appears.
+The **Edit Published Collection** page appears.
 
 [![public documentation link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)
 
@@ -32,7 +32,7 @@ The public documentation link will always have the most up-to-date content! You 
 
 **Unpublishing documentation**
 
-In the Edit Published Collection page, click the **Unpublish Collection** button.
+In the **Edit Published Collection** page, click the **Unpublish Collection** button at the bottom of the page.
 
 For a collection that’s already been published, you’ll be able to view the public link or unpublish the collection. 
 
