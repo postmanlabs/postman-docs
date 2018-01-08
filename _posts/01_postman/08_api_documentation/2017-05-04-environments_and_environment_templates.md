@@ -13,7 +13,7 @@ When viewing public or private documentation, selecting an environment will subs
 
 ### Environments in private documentation
 
-[![environments dropdown for private viewing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-environment.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-environment.png)
+[![environments dropdown for private viewing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-environment2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-environment2.png)
 
 Within the private documentation view, all of your environments and environment templates are available to you with environment templates shared in your Team Library.
 
