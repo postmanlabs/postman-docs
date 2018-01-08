@@ -7,23 +7,23 @@ page_id: "using_markdown_for_descriptions"
 warning: false
 ---
 
-Postman supports [markdown](/docs/postman/api_documentation/how_to_document_using_markdown) as a way to style text descriptions for requests, [collections](/docs/postman/collections/creating_collections), and [folders](/docs/postman/collections/managing_collections) in collections. You can also embed screenshots and other images for more descriptive flair.
+Postman supports [Markdown](/docs/postman/api_documentation/how_to_document_using_markdown) as a way to style text descriptions for requests, [collections](/docs/postman/collections/creating_collections), and [folders](/docs/postman/collections/managing_collections) in collections. You can also embed screenshots and other images for more descriptive flair.
 
-For more information about markdown, review the [reference for using Markdown](https://documenter.getpostman.com/view/33232/markdown-in-api-documentation/JsGc){:target="_blank"} for API documentation. 
+For more information about Markdown, review the [reference for using Markdown](https://documenter.getpostman.com/view/33232/markdown-in-api-documentation/JsGc){:target="_blank"} for API documentation. 
 
-Postman renders this markdown in the request builder and in public or internal API documentation.
+Postman renders this Markdown in the request builder and in public or internal API documentation.
 
 **Request builder**
 
-In the request builder, you can style the request description using markdown.  
+In the request builder, you can style the request description using Markdown.  
 [![request description](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/markdown-nasaRequestDescription2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/markdown-nasaRequestDescription2.png)
 
-You can style the collections details view using markdown in the descriptions for collections and folders.  
+You can style the collections details view using Markdown in the descriptions for collections and folders.  
 [![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/markdown-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/markdown-collections.png)
 
 **Public or Internal API documentation**
 
-Public or internal [API documentation](/docs/postman/api_documentation/intro_to_api_documentation) can automatically generate API descriptions, which you can style beautifully and precisely using markdown.  
+Public or internal [API documentation](/docs/postman/api_documentation/intro_to_api_documentation) can automatically generate API descriptions, which you can style beautifully and precisely using Markdown.  
 [![automatically generated documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/markdown-auto-docs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/markdown-auto-docs.png)
 
 ### Descriptions for request attributes
