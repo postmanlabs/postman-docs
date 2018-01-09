@@ -17,7 +17,7 @@ You can also view more detailed results from your dashboard.
 
 ### Monitors page
 
-Sign in to the Postman web view, and go to the [Monitors page](https://monitor.getpostman.com/){:target="_blank"}. This page lists all your monitors (both team and private). Select a timeframe for which you want to view the results of the monitor runs.
+Sign in to the Postman web view, and go to the [Monitors](https://monitor.getpostman.com/){:target="_blank"} page. This page lists all your monitors (both team and private). Select a timeframe for which you want to view the results of the monitor runs.
 
 [![monitors page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-results-page.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-results-page.png)
 
