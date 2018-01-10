@@ -15,7 +15,7 @@ You can use Postman Monitors for simple uptime monitoring to ensure your servers
 
 ##### **What restrictions apply?**
 
-Review [differences between monitors and the Postman app](/docs/postman/monitors/intro_monitors){:target="_blank"}.
+To learn what restrictions apply, see [Intro to Monitoring](/docs/postman/monitors/intro_monitors){:target="_blank"}.
 
 ##### **How many monitors can I create?**
 
