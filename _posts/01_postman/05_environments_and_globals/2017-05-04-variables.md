@@ -18,41 +18,61 @@ Variables allow you to reuse values in multiple places so you can keep your code
 
 Let's say you have 3 API endpoints that use the same domain - `your-domain.com`. You can save this domain as a variable and instead of repeating the value, you can use *`{% raw %}{{domain}}/endpoint1{% endraw %}`* and *`{% raw %}{{domain}}/endpoint2{% endraw %}`* in the request builder. Now, if your domain changes to `another-domain.com`, you just have to change this value once. 
 
-With Postman's scripting engine you can set variable values, copy data from one request and use it into another request, and more.
+With Postman's scripting engine you can set variable values, copy data from one request and use it in another request.
+
+  * Reuse values so you can keep your code DRY (Don’t Repeat Yourself)
+  * Configure your setup to accommodate different users or environments
+  * Extract data from responses and chain together requests in a collection
+  * And more!
 
 ### Variable scopes
 
 The following scopes are available to you:
 
   1.  Global
-  2.  Environment
-  3.  Local
-  4.  Data
-
+  1.  Collection
+  1.  Environment
+  1.  Local
+  1.  Data
+  
 Scopes can be viewed as different kinds of buckets in which values reside. If a variable is in two different scopes, the scope with a higher priority wins and the variable gets its value from there. Postman resolves scopes using this hierarchy progressing from broad to narrow scope. 
+
+[![nested variable scopes](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/scopes.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/scopes.png)
 
 If a variable from the currently active environment shares its name with a global variable, the environment variable will take priority. In other words, global variables are overridden by environment variables, which are overridden by [data variables](http://blog.getpostman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/){:target="_blank"} (only available in the [collection runner](/docs/postman/collection_runs/starting_a_collection_run)).
 
 ### Accessing variables in the request builder
 
-Variables can be used in the following form in the Postman user interface - {% raw %} `{{variableName}}` {% endraw %}. The string {% raw %} {{variableName}} {% endraw %} will be replaced with its corresponding value when Postman resolves the variable. For example, for an environment variable ‘url’ with the value ‘http://localhost’ , you will have to use {% raw %} `{{url}}` {% endraw %} in the request URL field. {% raw %}`{{url}}`{% endraw %} will be replaced by `http://localhost` when the request is sent.
+Variables can be used in the following form in the Postman user interface - {% raw %} `{{variableName}}` {% endraw %}. The string {% raw %} {{variableName}} {% endraw %} will be replaced with its corresponding value when Postman resolves the variable. For example, for an environment variable `url` with the value `http://localhost` , you will have to use {% raw %} `{{url}}` {% endraw %} in the request URL field. {% raw %}`{{url}}`{% endraw %} will be replaced by `http://localhost` when the request is sent.
 
 Since variables in the request builder are accessed using string substitution, they can be used everywhere in the request builder where you can add text. This includes the URL, URL parameters, headers, authorization, request body and header presets. Postman evaluates the variables according to scoping rules as discussed in the Variable Scopes section and sends them to the server.
+
+[![variables used in request builder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/var_request_builder.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/var_request_builder.png)
 
 ### Accessing variables through scripts
 
 Variables can also be used in pre-request and test scripts. Since these sections for scripts are written in JavaScript, you will initialize and retrieve these variables in a different manner. You can initialize variables in scripts and put them in a particular scope. 
 
-  1.  Defining a variable in a script: 
-        *  To set a variable in a script, use the `setEnvironmentVariable()` method or `setGlobalVariable()` method depending on the desired scope. The method requires the variable key and value as parameters to set the variable.  When you send the request, the script will be evaluated and the value will be stored as the variable.
+  1.  Defining an environment or global variable in a script: 
+        *  To set a variable in a script, use the `pm.environment.set()` method or `pm.global.set()` method depending on the desired scope. The method requires the variable key and value as parameters to set the variable.  When you send the request, the script will be evaluated and the value will be stored as the variable. Note that [defining a collection variable](/docs/postman/environments_and_globals/variables#defining-collection-variables) is a little different and can be done by editing the collection details.
   2.  Fetching a pre-defined variable: 
-        *  Once a variable has been set, use the `getEnvironmentVariable()` method or `getGlobalVariable()` method depending on the appropriate scope to fetch the variable. The method requires the variable name as a parameter to retrieve the stored value in a script.
+        *  Once a variable has been set, use the `pm.variables.get()` method or, alternatively, use the `pm.environment.get()` or `pm.global.get()` method depending on the appropriate scope to fetch the variable. The method requires the variable name as a parameter to retrieve the stored value in a script.
   3.  Setting a variable in a scope: 
-        *  Environment variables can be accessed with the corresponding environment template.  Global variables can be accessed broadly regardless of the selected environment.
+        *  Environment variables can be accessed with the corresponding environment template. Collection variables can be accessed from a request within the collection. Global variables can be accessed broadly regardless of the selected environment.
+
+[![variables used in script](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/var_scripts.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/var_scripts.png)
+
+### Defining collection variables
+
+Collection variables can be defined by editing the collection details. Click on the ellipses (...) next to the collection name, and select “Edit” to open the **EDIT COLLECTION** modal. Select the **Variables** tab to add and edit collection variables. You can also define collection variables when creating the collection.  
+
+[![edit collection variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/edit-collection-variable.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/edit-collection-variable.png)
 
 ### Logging variables
 
 Often while using variables in scripts, you will need to see the values they obtain. You can use the [Postman Console](/docs/postman/sending_api_requests/debugging_and_logs) to do this easily. From the application menu, select "View" and then "Show Postman Console".  To log the value of a variable, you can use `console.log(foo);` in your script. When you send a request, the script will be evaluated and the value of the variable will be logged in the Postman Console.
+
+[![variables logged](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/var_logging.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/var_logging.png)
 
 ### Data variables
 
@@ -62,13 +82,13 @@ The Collection Runner lets you import a CSV or a JSON file, and then use the v
 
 Variables inside the Postman UI are enclosed inside curly braces. For example, in the screenshot below, {% raw %}`{{username}}`{% endraw %} and {% raw %}`{{password}}`{% endraw %} inside URL parameters would be replaced by corresponding values from the data file:
 
-[![data variables in requests](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59165031.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59165031.png)
+[![data variables in requests](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/var_data_url.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/var_data_url.png)
 
 ##### **Data variables in pre-request and test scripts**
 
-Inside pre-request and test scripts, the special *`data`* object contains values loaded from the data file for a specific iteration. For example `data.username` or `data["username"]` would let you access the value of the username variable from a data file.
+Inside pre-request and test scripts, the `pm.iterationData.get("username")` method would let you access the value of the username variable from a data file, for example.
 
-[![data variables in scripts](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59165041.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59165041.png)
+[![data variables in scripts](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/var_data.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/var_data.png)
 
 Learn more about [working with data files](/docs/postman/collection_runs/working_with_data_files). 
 
@@ -79,6 +99,8 @@ Postman has a few dynamic variables which you can use in your requests. Dynamic
    *   {% raw %} `{{$guid}}`{% endraw %} : Adds a v4 style guid
    *   {% raw %} `{{$timestamp}}`{% endraw %}: Adds the current timestamp
    *   {% raw %} `{{$randomInt}}`{% endraw %}: Adds a random integer between 0 and 1000
+
+[![dynamic variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/var_dynamic.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/var_dynamic.png)
 
 ### Quick Look for variables
 

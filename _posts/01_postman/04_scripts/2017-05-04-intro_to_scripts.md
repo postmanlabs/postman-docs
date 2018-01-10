@@ -16,9 +16,35 @@ Postman contains a powerful runtime based on Node.js that allows you to add dyna
 
 [![test script](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/randomScripts2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/randomScripts2.png)
 
-The request execution flow for a single request in Postman looks like this:
+Users can add pre-request and test scripts to a collection, a folder, a request within a collection, or a request not saved to a collection. 
 
-[![diagram of workflow](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59184189.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59184189.png)
+### Execution order of scripts
+
+In Postman, the script execution order for a single request looks like this:
+
+  * A pre-request script associated with a request will execute before the request is sent
+  * A test script associated with a request will execute after the request is sent
+
+[![workflow for single request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/req-resp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/req-resp.png)
+
+For every request in a collection, scripts will execute in the following order:
+
+  * A pre-request script associated with a collection will run prior to every request in the collection.
+  * A pre-request script associated with a folder will run prior to every request in the folder. 
+  * A test script associated with a collection will run after every request in the collection.
+  * A test script associated with a folder will run after after request in the folder.
+
+[![workflow for request in collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/execOrder.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/execOrder.png)
+
+For every request in a collection, the scripts will always run according to the following hierarchy: collection-level script (if any), folder-level script (if any), request-level script (if any). Note that this order of execution applies to both pre-request and test scripts.
+
+For example, imagine you had the following collection structured with a single folder and 2 requests within the folder. 
+
+[![console log statement](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/console-log-statement.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/console-log-statement.png)
+
+If you created log statements in the pre-request and test script sections for the collection, folder, and requests, you would clearly see the execution order in the [Postman console](/docs/postman/sending_api_requests/debugging_and_logs#network-calls-with-postman-console).
+
+[![logs in console](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/logs-in-console.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/logs-in-console.png)
 
 ### How does this work
 

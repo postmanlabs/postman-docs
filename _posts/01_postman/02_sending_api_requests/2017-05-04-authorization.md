@@ -10,7 +10,8 @@ warning: false
 The authorization process verifies whether you have permission to access the data you want from the server. When you send a request, you often have to include parameters to ensure the request has permission to access and return the data you want. 
 Postman provides authorization types that make it easy for you to handle authentication protocols in Postman native apps.
 
-When you select 'Authorization' in the request builder, you see the **TYPE** drop down menu. 
+When you select "Authorization" in the request builder, you see the **TYPE** drop down menu. 
+* Inherit auth from parent
 * No Auth 
 * Bearer Token
 * Basic auth
@@ -24,9 +25,9 @@ When you select 'Authorization' in the request builder, you see the **TYPE** dro
 
 **Note**: NTLM and Bearer token are only available in Postman native apps. All other authorization types are available in Postman native apps and the Chrome app. Note that the [Postman Chrome app is being deprecated](http://blog.getpostman.com/2017/11/01/goodbye-postman-chrome-app/).
 
-[![auth menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_menu.png)
+[![auth menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/authorization-menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/authorization-menu.png)
 
-You can use environment variables with all authorization types. You can also use these authorization types with Newman.
+You can use environment, collection, or global variables with all authorization types. In addition to using these in the Postman app, you can also use these authorization types with Newman or Postman monitors.
 
 Postman does not save header data and query parameters to prevent sensitive data exposure, such as API keys, to the public.
 
@@ -35,6 +36,30 @@ If you want to inspect the authorization headers and parameters that Postman gen
  [![auth menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_RequestPreview.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth_RequestPreview.png)
 
 **Note**: You can inspect a raw dump of the entire request in the Postman console after you send it.
+
+### Inherit auth from parent
+
+#### Adding authorization to a collection or folder
+
+Suppose you [add a folder](/docs/postman/collections/managing_collections#adding-folders) to a collection. Under the **Authorization** tab, the default authorization type is set to “Inherit auth from parent”. 
+
+The “Inherit auth from parent” setting indicates that every request in this folder by default uses the authorization type from the parent. In this example, the collection is using “No Auth”, so the folder uses “No Auth”, meaning all requests in that folder will use “No Auth” .
+
+[![folder auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth-folder.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth-folder.png)
+
+What if you want to leave the parent collection authorization type as “No Auth”, but update this specific folder’s authorization helper? You can edit the folder details, select “Basic Auth” from the **TYPE** dropdown, and input your credentials. As a result, every request in this folder relies on “Basic Auth” while the rest of the requests in the parent collection still do not use any authorization.
+
+[![folder basic auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth-folder-basic.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth-folder-basic.png)
+
+Similarly, if you want to update the authorization for a single request in this folder, you can simply select a different authorization type for that request.
+
+If you have a group of requests that all require the same authorization, you can define the authorization for all requests in a collection or folder, or simply for every request individually. If you create a new collection or folder, every subsequent request in the parent element inherits the authorization definition, unless the user explicitly selects another type.
+
+To update the collection or folder authorization, click on the ellipses (...) next to the collection or folder name, and select “Edit” to open the modal. Select the **Authorization** tab to select an authorization type from the **TYPE** dropdown. You can also add collection authorization when initially creating the collection.  
+ 
+[![select folder basic auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth-select-folder-basic.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auth-select-folder-basic.png)
+ 
+For example, if you create a collection with "Basic Auth", every request within the collection will use the same authorization helper. If you want a specific request in the collection to use a different authorization, or no authorization at all, use the **TYPE** dropdown under the **Authorization** tab to define the authorization helper for the specific request.
  
 ### No Auth
 

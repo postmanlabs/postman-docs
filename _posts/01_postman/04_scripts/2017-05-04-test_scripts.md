@@ -69,3 +69,13 @@ While there are very few things to remember while writing tests, Postman tries t
 Postman runs tests every time you run a request. Of course, you can choose to not look at the test results!
 
 Results are displayed in a **Tests** tab under the response viewer. The tab header shows how many tests passed, and the test results are listed here. If the test evaluates to true, the test passed.
+
+### Adding a test script to a collection or folder
+
+Users can add test scripts to a collection, a folder, or a single request within a collection. A test script associated with a collection will run after every request in the collection. A test script associated with a folder will run after every request in the folder. This allows you to reuse commonly executed tests after every request.
+
+Collection and folder scripts can be updated in the collection or folder details respectively. Click on the ellipses (...) next to the collection or folder name, and select “Edit” to open the modal. Select the **Tests** tab to add and update the scripts. You can also add collection scripts when initially creating the collection. 
+ 
+[![test scripts for folder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/test-script-folder.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/test-script-folder.png)
+ 
+Read more about [the execution order of scripts](/docs/postman/scripts/intro_to_scripts#execution-order-of-scripts).

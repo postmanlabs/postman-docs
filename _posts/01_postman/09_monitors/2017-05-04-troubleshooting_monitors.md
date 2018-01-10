@@ -11,7 +11,7 @@ Monitors are kept in sync with your collections in the Postman app at all times.
 
 The best way to debug monitors is via the Postman console available on the monitors web view. Click on the failed monitor, and review the relevant logs under the **Console Log** tab. Check out some tips and tricks for [debugging in the console](/docs/postman/sending_api_requests/debugging_and_logs).
 
-[![debugging monitors in the console](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59015378.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59015378.png)
+[![debugging monitors in the console](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-debugging.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-debugging.png)
 
 When a monitor fails, a "_Need help debugging?_" popup will display on the Postman monitors web view. Whenever possible, these suggestions will include debugging tips that are specifically related to the error that occurred. For example, if the monitor failed because we were unable to contact the server, then the debugging tip will suggest ensuring that the server's IP address is correct, and that it's publicly available.  Or, if the monitor failed because of a missing variable, then the debugging tip will suggest verifying the monitor is using the correct environment, and that the variable exists in the environment.
 
