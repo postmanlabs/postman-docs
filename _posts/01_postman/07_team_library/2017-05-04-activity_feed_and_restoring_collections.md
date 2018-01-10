@@ -7,7 +7,7 @@ page_id: "activity_feed_and_restoring_collections"
 warning: false
 ---
 
-An activity feed is a list of events that displays updates to Postman data in an interactive interface. It's useful to keep track of changes to your private and team collections by different users across the team. 
+An activity feed is a list of events that displays updates to Postman data in an interactive interface. You can use the activity feed to keep track of changes to your private and team collections by different users across the team. 
 
 The activity feed also lets you rollback a collection and restore it to any previous point in time. 
 
