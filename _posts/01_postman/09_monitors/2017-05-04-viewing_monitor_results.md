@@ -11,6 +11,7 @@ You can set up monitors to send daily or weekly emails with a summary for all yo
 
 In addition, you can receive important notifications (both [in-app](/docs/postman/notifications){:target="_blank"} and email) if a monitor fails.
 
+
 [![email summary of monitors](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-email-results1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-email-results1.png)
 
 ### Monitors page
