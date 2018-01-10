@@ -16,9 +16,9 @@ Postman has always supported an open ecosystem. We work with industry leaders to
 
 ### What is an integration anyway?
 
-Organizations use the term "integration" inclusively, sometimes overly so. In fact, different teams in the same organization might use the term in different ways. 
+Organizations use the term integration inclusively, sometimes overly so. In fact, different teams in the same organization might use the term in different ways. 
 
-Postman views "integrations" as a way to share data or functionality between Postman and other tools that you might use for API development. When manually importing and exporting data from one application to another becomes a chore, an integration can help.
+Postman views integrations as a way to share data or functionality between Postman and other tools that you might use for API development. When manually importing and exporting data from one application to another becomes a chore, an integration can help.
 
 For example, suppose you use GitHub for your repository management and use Postman to develop and test your APIs. If you want to save your Postman Collections to a GitHub repository, you can use the [Postman to GitHub integration](https://the.postman.co/integrations/services/github){:target="_blank"} feature. 
 
