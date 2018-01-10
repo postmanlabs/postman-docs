@@ -47,7 +47,7 @@ The activity feed includes a list of changes to collections that you own and are
 
 The activity feed captures different updates that are made to collections. 
 
-These updates include CRUD (Create, Read, Update, Delete) operations such as collections, folders, and requests.
+These updates include CRUD (Create, Read, Update, Delete) operations on collections, folders, and requests.
 
 A consolidated update to a request as seen below provides a diffs view to pinpoint the exact changes. 
 
@@ -59,7 +59,9 @@ A consolidated update to a request as seen below provides a diffs view to pinpoi
 
 In the collection-level activity feed, Postman Pro and Enterprise users can restore their collections to a point in time.
 
-Hovering over the activity displays a **Restore** link. Click the **Restore** link to restore the collection to the point right _after_ this change was applied.
+Hovering over the activity displays a **Restore** link. 
+
+Click the **Restore** link to restore the collection to the point right _after_ this change was applied.
 
 [![hover to display restore link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/restore-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/restore-collections.png)
 
