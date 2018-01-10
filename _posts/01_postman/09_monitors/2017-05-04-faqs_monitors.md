@@ -23,7 +23,7 @@ There is no limit to the number of monitors you can create. You can have any num
 
 ##### **How long can a monitor run?**
 
-Monitors are currently limited to 5 minutes for each run. This includes all HTTP requests, responses, and test scripts.
+Monitors are currently limited to 5 minutes for each run. This limit applies to all HTTP requests, responses, and test scripts.
 
 ##### **How many HTTP requests can a monitor send?**
 
