@@ -47,16 +47,16 @@ Each collection can have different permissions. As a result, you can choose to h
 
 ##### **Can I delete a Monitor?**
 
-You can delete a monitor at any time. Once deleted, all run history for the monitor is deleted too. If you want _keep_ the history, then you should pause the monitor instead of deleting it.
+You can delete a monitor at any time. Once deleted, all run history for the monitor is deleted too. If you want to retain the history, then you should pause the monitor instead of deleting it.
 
 ##### **Where do Monitors run?**
 
-Monitors run on our cloud infrastructure, which is hosted by Amazon Web Services (AWS). More information about our cloud infrastructure is available at [our Security page](https://www.getpostman.com/security){:target="_blank"}.
+Monitors run on our cloud infrastructure, which is hosted by Amazon Web Services (AWS). More information about our cloud infrastructure is available at our [Security page](https://www.getpostman.com/security){:target="_blank"}.
 
 ##### **Can Monitors access private networks?**
 
-No. Monitors can only connect to URLs that are publicly-available on the Internet. You cannot monitor APIs running on private networks, VPNs, or corporate intranets.
+No. Monitors can only connect to URLs that are publicly-available on the Internet. You cannot monitor APIs that run on private networks, VPNs, or corporate intranets.
 
 ##### **Will Monitors impact my API performance?**
 
-You have full control over the behavior of your monitors. You determine which of your API endpoints are called, how many, and how often. In addition, we restrict each monitor’s total run-time to 5 minutes, to limit the number of requests it can perform.
+You have full control over the behavior of your monitors. No only can you determine which of your API endpoints are called, you can also determine how many and how often they are called. In addition, we restrict each monitor’s total run time to 5 minutes, to limit the number of requests it can perform.
