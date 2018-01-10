@@ -90,7 +90,7 @@ To add the first step, type `request` in the search bar, and select `Request / 
 
 For different types of integrations, the JSON schema varies. The following shows which schema to use for each one.
 
-##### Monitor Run Results
+##### **Monitor Run Results**
 
 ```
 {
@@ -165,7 +165,7 @@ For different types of integrations, the JSON schema varies. The following shows
 }
 ```
 
-##### Collection and Team Activity Feed
+##### **Collection and Team Activity Feed**
 
 ```
 {
@@ -214,7 +214,7 @@ For different types of integrations, the JSON schema varies. The following shows
 }
 ```
 
-##### Backup Collections
+##### **Backup Collections**
 
 ```
 {
