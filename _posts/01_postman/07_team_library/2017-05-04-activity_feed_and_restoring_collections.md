@@ -7,34 +7,33 @@ page_id: "activity_feed_and_restoring_collections"
 warning: false
 ---
 
-An activity feed is a list of events that displays updates to Postman data in an interactive interface. 
+An activity feed is a list of events that displays updates to Postman data in an interactive interface. It's useful to keep track of changes to your private and team collections by different users across the team. 
 
-It is useful to keep track of changes to your private and team collections by different users across the team. 
-
-The activity feed also lets you rollback a collection, and restore it to any previous point in time. 
+The activity feed also lets you rollback a collection and restore it to any previous point in time. 
 
 ### Types of activity feed
 
-Postman tracks changes to collections and team.
+Postman tracks changes to collections and teams.
 
-##### **Collection**
+##### **Collections**
 
-To review the activity feed at the collection level, expand the angle bracket (**>**) next to the collection name to open the collection details view. 
+To review the activity feed at the collection level, expand the angle bracket (**>**) next to the collection to view details.
 
-Under the **Activity** tab, review a chronological list of activities affecting the collection. 
+Under the **Activity** tab, review a chronological list of activities about the collection. 
 
-The activity feed displays who updated the collection, what the updates were, and when they were completed. Consecutive updates on the same session to the same entity are collated for readability.
+The activity feed displays who updated the collection, what the updates were, and when they were completed. 
+
+Consecutive updates on the same session to the same entity are collated for readability.
 
 [![activity feed for a collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamlib-activity-feed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamlib-activity-feed.png)
 
-##### **Team**
+##### **Teams**
 
 To review the activity feed at the Postman Pro or Enterprise team level, go to the **Activity Feed** tab in the **Team Library** view. 
 
-You can review a chronological list of activities affecting all collections shared with the team. Similar to the feed at the collection level, the team activity feed displays who updated the collection, what the updates were, and when they were completed.
+You can review a chronological list of activities about all collections shared with the team. Similar to the feed at the collection level, the team activity feed displays who updated the collection, what the updates were, and when they were completed.
 
 [![team library feed](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamlib-activity-feed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamlib-activity-feed.png)
-
 
 You can also review the activity feed from the Dashboard. Log in to the [Postman Website](https://app.getpostman.com){:target="_blank"} and click the **Dashboard** button. 
 
@@ -46,7 +45,7 @@ The activity feed includes a list of changes to collections that you own and are
 
 The activity feed captures different updates that are made to collections. 
 
-These updates include CRUD (Create, Read, Update, Delete) operations on collection, folders, and requests, among other activities.
+These updates include CRUD (Create, Read, Update, Delete) operations such as collections, folders, and requests.
 
 A consolidated update to a request as seen below provides a different (diffs) view to pinpoint the exact changes. 
 
