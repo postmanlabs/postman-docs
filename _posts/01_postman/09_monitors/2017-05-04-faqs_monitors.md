@@ -43,7 +43,7 @@ You can view the full console output for every monitor run, including any errors
 
 Monitors have the same permissions as Postman Collections. By default, your collections are private, so only you can see the collection and its monitors. If you share a collection, then other members of your Postman Pro or Enterprise team can see the collection and its monitors. If you grant ``View & Edit`` permissions, then your team members can add monitors to your collection.
 
-Each collection can have different permissions. As a result, you can choose to have some private monitors, some monitors shared, but view-only, and some monitors shared and editable.
+Each collection can have different permissions. As a result, you can choose to have some private monitors, some shared monitors that are view-only, and some monitors that are shared and editable.
 
 ##### **Can I delete a Monitor?**
 
