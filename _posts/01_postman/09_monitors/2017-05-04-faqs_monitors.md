@@ -29,25 +29,25 @@ Monitors are currently limited to 5 minutes for each run. This limit applies to
 
 There is no limit to the number of requests, although the total run-time cannot exceed 5 minutes.
 
-##### **How much data can a monitor send/receive?**
+##### **How much data can a monitor send or receive?**
 
-There is nearly no limit to the amount of data that can be sent or received per request. However, large requests or responses take longer to send and receive. As a result be sure that you can do everything within the 5-minute time limit.
+There is nearly no limit to the amount of data that can be sent or received per request. However, large requests or responses take longer to send and receive. As a result be sure that you can do everything within the 5 minute time limit.
 
 ##### **How do I troubleshoot problems?**
 
-You can view the full console output for every monitor run, including any errors that occurred. You can also use methods such as `console.log()`, `console.warn()`, etc. to output your own debugging information. Learn more about [troubleshooting monitors](/docs/postman/monitors/troubleshooting_monitors){:target="_blank"}.
+You can view the full console output for every monitor run, including any errors. You can also use methods, such as `console.log()`, `console.warn()`, and so on to output your own debugging information. To learn more about troubleshooting monitors, see [Troubleshooting monitors](/docs/postman/monitors/troubleshooting_monitors){:target="_blank"}.
 
 ### Security
 
 ##### **Who can see my Monitors?**
 
-Monitors have the same permissions as Postman Collections. By default, your collections are private, so only you can see the collection and its monitors. If you share a collection, then other members of your Postman Pro or Enterprise team will be able to see the collection and its monitors. If you grant ``View & Edit`` permissions, then your team members will also be able to add monitors to your collection.
+Monitors have the same permissions as Postman Collections. By default, your collections are private, so only you can see the collection and its monitors. If you share a collection, then other members of your Postman Pro or Enterprise team can see the collection and its monitors. If you grant ``View & Edit`` permissions, then your team members can add monitors to your collection.
 
-Each collection can have different permissions, so you can choose to have some private, some shared but view-only, and some shared and editable.
+Each collection can have different permissions. As a result, you can choose to have some private monitors, some monitors shared, but view-only, and some monitors shared and editable.
 
 ##### **Can I delete a Monitor?**
 
-Yes. You can delete a monitor at any time. Once deleted, all run history for the monitor is deleted as well. If you want _keep_ the history, then you should pause the monitor instead of deleting it.
+You can delete a monitor at any time. Once deleted, all run history for the monitor is deleted too. If you want _keep_ the history, then you should pause the monitor instead of deleting it.
 
 ##### **Where do Monitors run?**
 
