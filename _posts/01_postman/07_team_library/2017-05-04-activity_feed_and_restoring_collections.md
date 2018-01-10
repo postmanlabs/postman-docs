@@ -45,7 +45,7 @@ The activity feed includes a list of changes to collections that you own and are
 
 ### Breaking the event down
 
-The activity feed captures different updates that are made to collections. 
+The activity feed captures different updates to collections. 
 
 These updates include CRUD (Create, Read, Update, Delete) operations on collections, folders, and requests.
 
@@ -71,7 +71,7 @@ At the top of the activity feed a confirmation indicates the collection has been
 
 ### Connecting to Slack, HipChat and other platforms
 
-Postman Pro and Enterprise users can pipe the team's activity feed to a communication channel of your choosing with the following integrations:
+Postman Pro and Enterprise users can pipe the team's activity feed to a communication channel of your choice with the following integrations:
 
    *   [Postman Pro to Slack integration](/docs/pro/integrations/slack)
    *   [Postman Pro to HipChat integration](/docs/pro/integrations/hipchat)
