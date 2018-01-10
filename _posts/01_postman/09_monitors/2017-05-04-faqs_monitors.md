@@ -31,7 +31,7 @@ There is no limit to the number of requests, although the total run-time cannot 
 
 ##### **How much data can a monitor send or receive?**
 
-There is nearly no limit to the amount of data that can be sent or received per request. However, large requests or responses take longer to send and receive. As a result be sure that you can do everything within the 5 minute time limit.
+There is nearly no limit to the amount of data that can be sent or received per request. However, large requests or responses take longer to send and receive. As a result, be sure that you can do everything within the 5 minute time limit.
 
 ##### **How do I troubleshoot problems?**
 
