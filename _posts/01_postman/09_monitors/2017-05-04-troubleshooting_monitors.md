@@ -52,6 +52,7 @@ console.log(JSON.stringify(responseBody, null, 2));
 console.log(JSON.stringify(responseHeaders, null, 2));
 ```
 
+
 #### Uncaught errors
 
 *   Wrapping suspicious code in a ``try - catch`` block will also let the test and pre-request scripts in your collection run to completion, allowing you to see the entire picture.
