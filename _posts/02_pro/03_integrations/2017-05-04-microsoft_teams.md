@@ -35,8 +35,6 @@ To add a team activity feed to Microsoft Teams:
 
 [![ms_teams configInt](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msTeams-confIntegration.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msTeams-confIntegration.png)
 
-
-
 #### Send monitor run results in Microsoft Teams
 
 To send monitor run results to Microsoft Teams:
@@ -50,6 +48,7 @@ To send monitor run results to Microsoft Teams:
   <li>Click the <b>Add Integration</b> button to see your monitors in the "Configured Integrations" view. You can also clidk the "Advanced Options" link to indicate if you want notifications when all monitor runs are completed, or if you want notification for three monitor run failures and then the first successful monitor run/</li>
 </ol>
 
+[![ms_teams monRun](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/microsoft-teams-monitorruns.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/microsoft-teams-monitorruns.png)
 
 
 ### Get the Microsoft Teams webhook URL
