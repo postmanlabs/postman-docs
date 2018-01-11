@@ -21,24 +21,24 @@ The **Edit Published Collection** page appears.
 
 [![public documentation link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)
 
-If you are signed in to Postman, you can select a corresponding environment with which to publish the collection. Any references to variables like {% raw %}`{{url}}`{% endraw %} in the collection will be replaced with the correct value from the environment. 
+When signed in to Postman, you can select a [corresponding environment](/docs/postman/api_documentation/environments_and_environment_templates){:target="_blank"} to publish the collection. Any references to variables like {% raw %}`{{url}}`{% endraw %} in the collection will be replaced with the correct value from the environment. 
 
-The public URL field contains the URL that you can share with the outside world. For example, if you’re publishing your primary collection, you might want to select the “Production” environment, so that your documentation is immediately usable for new visitors. 
+The public URL field contains the URL to share with the outside world. For example, if you’re publishing your primary collection, you might want to select the “Production” environment, so your documentation is immediately usable for new visitors. 
 
 
-> **IMPORTANT:**  Any confidential info in your environment, such as **passwords and access tokens**, might be visible publicly. Ensure that all such information is removed from the environment before you publish documentation with an environment.
+> **IMPORTANT:**  Any confidential information in your environment, such as **passwords and access tokens**, might be publicly visible. Make sure to remove all such information from the environment before you publish documentation with an environment.
 
-The public documentation link will always have the most up-to-date content! You don’t need to keep going through the Publish flow each time you want your docs to be updated.
+The public documentation link always has the most up-to-date content. You don’t need to repeat the Publish flow each time you wantto update your documentation.
 
 **Unpublishing documentation**
 
 In the **Edit Published Collection** page, click the **Unpublish Collection** button at the bottom of the page.
 
-For a collection that’s already been published, you’ll be able to view the public link or unpublish the collection. 
+You’ll be able to view the public link or unpublish the collection for a collection that’s already been published,
 
 [![publish or unpublish](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-unpublish2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-unpublish2.png)
 
-We’ve published documentation for this collection - check it out [here](https://documenter.getpostman.com/view/583/coopers-meal-plan/4u2){:target="_blank"}.
+Here's an [example](https://documenter.getpostman.com/view/583/coopers-meal-plan/4u2){:target="_blank"} of a collection we've published.
 
 ### Custom domains
 
