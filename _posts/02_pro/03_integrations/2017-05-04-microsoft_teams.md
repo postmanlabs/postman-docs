@@ -21,16 +21,17 @@ Currently, we have two ways in which this integration can be configured.
 [![select ms_teams integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-msTeam.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-msTeam.png)
 
 
-
 #### Add a team activity feed to Microsoft Teams
 To add a team activity feed to Microsoft Teams:
 
-1. Click the Add Integration button.
-2. In the Team Activity Feed page, enter your team's activity feed to Microsoft Teams.
+1. Click the **Add Integration** button.
+2. In the **Team Activity Feed** page, enter your team's activity feed to Microsoft Teams.
 
 [![ms_teams activityFeed](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msTeam-teamactivityfeed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msTeam-teamactivityfeed.png)
 
-3. Click the Add Integration button to see your team's activity feed in the Configured Integrations view.
+<ol start="3">
+  <li>Click the <b>Add Integration</b> button to see your team's activity feed in the Configured Integrations view.</li>
+</ol>
 
 [![ms_teams configInt](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msTeams-confIntegration.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msTeams-confIntegration.png)
 
