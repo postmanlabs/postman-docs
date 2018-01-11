@@ -25,19 +25,14 @@ Currently, we offer two configurable options for this integration, Team Activity
 To add a team activity feed to Microsoft Teams:
 
 1. Click the **Add Integration** button.
-2. In the Team Activity Feed page, enter the URL of your team's activity feed to Microsoft Teams.
+2. In the **Team Activity Feed** page, enter the URL of your team's activity feed to Microsoft Teams.
 
 [![ms_teams activityFeed](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msTeam-teamactivityfeed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msTeam-teamactivityfeed.png)
-3. Click the **Add Integration** button to see
-
-
-[![ms_teams activityFeed](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msTeam-teamactivityfeed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msTeam-teamactivityfeed.png)
-
-
+<ol start="3">
+  <li>Click the **Add Integration** button to see you team's actitvity feed in the "Configured Integration" view.</li>
+</ol>
 
 [![ms_teams configInt](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msTeams-confIntegration.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msTeams-confIntegration.png)
-
-
 
 #### Send monitor run results in Microsoft Teams
 
