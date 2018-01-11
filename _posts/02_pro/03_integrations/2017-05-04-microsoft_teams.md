@@ -11,7 +11,7 @@ warning: false
 
 Microsoft Teams is a chat-based workspace that is available for all Microsoft Office 365 users. This integration allows you to get updates about your Postman team’s activity or Postman Monitor results in your Microsoft Team dashboard.
 
-Currently, we offer two configurable options for this integration, both of which are detailed below.
+Currently, we offer two configurable options for this integration, Team Activity and Monitor Run Results.
 
 ### Configuring Microsoft Teams
 
@@ -21,12 +21,14 @@ Currently, we offer two configurable options for this integration, both of which
 [![select ms_teams integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-msTeam.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-msTeam.png)
 
 
-
 #### Add a team activity feed to Microsoft Teams
 To add a team activity feed to Microsoft Teams:
 
-1. Click the Add Integration button.
-2. ADD REMAINING STEPS.
+1. Click the **Add Integration** button.
+2. In the Team Activity Feed page, enter the URL of your team's activity feed to Microsoft Teams.
+
+[![ms_teams activityFeed](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msTeam-teamactivityfeed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msTeam-teamactivityfeed.png)
+3. Click the **Add Integration** button to see
 
 
 [![ms_teams activityFeed](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msTeam-teamactivityfeed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msTeam-teamactivityfeed.png)
@@ -43,7 +45,9 @@ To send monitor run results to Microsoft Teams:
 
 1. Click the Add Integration button.
 2. In the Monitor Run Results page, select the monitor you want to send to Microsoft Teams, and enter the notification URL.
-3. Click the Add Integration button.
+<ol start="3">
+  <li>Click the <b>Add Integration</b> button.</li>
+</ol>
 
 [![ms_teams monRun](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msTeams-monRun.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msTeams-monRun.png)
 
