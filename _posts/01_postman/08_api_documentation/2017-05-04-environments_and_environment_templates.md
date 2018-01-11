@@ -7,17 +7,17 @@ page_id: "environments_and_environment_templates"
 warning: false
 ---
 
-Your environments and environment templates are automatically synced too and are available through a dropdown in your API documentation. 
+You can access environments and environment templates in your private and public API documentation. Selecting an environment in private or public documentation assigns those environment variables within the documentation. For example, if you select an environment that has a `foo`  variable with the value `bar`, then all occurrences of {{foo}} in the request will be replaced with `bar` within the documentation.
 
-When viewing public or private documentation, selecting an environment will substitute those environment variable values into the relevant parts of the documentation. For example, if the selected environment has a `foo` variable with the value `bar`, then all occurrences of {{foo}} in the request will be replaced with `bar`. All environments are encrypted during storage, for more details, check the Data Security section of our [Security page](https://www.getpostman.com/security){:target="_blank"}.
+Environments and environment templates are automatically synced. In addition, they are [encrypted during storage](https://www.getpostman.com/security){:target="_blank"}.
 
-### Environments in private documentation
+#### Environments in private documentation
+
+The image below shows the environments drop down menu in private API documentation. The dropdown menu contains all of your environments and environment templates.
 
 [![environments dropdown for private viewing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-environment2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-environment2.png)
 
-Within the private documentation view, all of your environments and environment templates are available to you with environment templates shared in your Team Library.
-
-### Environments in public documentation
+#### Environments in public documentation
 
 [![environmnets dropdown for public documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-environMenu010718.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-environMenu010718.png)
 
