@@ -55,7 +55,7 @@ The data file can also be a CSV. The example CSV looks like this:
     post, 4
 ```
 
-In typical CSV fashion, the first row represents all variable names, and subsequent rows represent values for these variables for each iteration. For iteration 1, `path` has value `post`, and `value` is `1`. For the second iteration, `path` is still `post`, but `value` is `1`.
+In typical CSV fashion, the first row represents all variable names, and subsequent rows represent values for these variables for each iteration. For iteration 1, `path` has value `post`, and `value` is `1`. For the second iteration, `path` is still `post`, but `value` is `2`.
 
 Do note that you can only use one data file for one run.
 

@@ -7,30 +7,43 @@ page_id: "troubleshooting_monitors"
 warning: false
 ---
 
-Monitors are kept in sync with your collections in the Postman app at all times. This means that you can debug in the app locally, while your monitors are updated on our servers, seamlessly.
+Postman always syncs your monitors with your collections in the Postman app. As a result, you can debug in the app locally, while your monitors are updated on our servers, seamlessly. 
 
-The best way to debug monitors is via the Postman console available on the monitors web view. Click on the failed monitor, and review the relevant logs under the **Console Log** tab. Check out some tips and tricks for [debugging in the console](/docs/postman/sending_api_requests/debugging_and_logs).
+#### Viewing failed monitors
 
-[![debugging monitors in the console](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59015378.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59015378.png)
+The Postman console in the [Monitors web view](https://the.postman.co/library/monitors){:target="_blank"} is the best way to debug monitors. 
 
-When a monitor fails, a "_Need help debugging?_" popup will display on the Postman monitors web view. Whenever possible, these suggestions will include debugging tips that are specifically related to the error that occurred. For example, if the monitor failed because we were unable to contact the server, then the debugging tip will suggest ensuring that the server's IP address is correct, and that it's publicly available.  Or, if the monitor failed because of a missing variable, then the debugging tip will suggest verifying the monitor is using the correct environment, and that the variable exists in the environment.
+You can click the failed monitor and review the relevant logs under the **Console Log** tab. 
 
-In addition to the above, here are some debugging tricks:
+[![failed monitors](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-failed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-failed.png)
 
-##### **Attempt local runs**
+For information about debugging in the console, see [Debugging and logs](/docs/postman/sending_api_requests/debugging_and_logs).
 
-*   Try running the failing monitor's collection with its environment within the Postman app or Newman, and see if it works correctly.
-*   If a local run passes, [ensure that sync is enabled](/docs/postman/launching_postman/syncing) within the toolbar header of the Postman app, so that any local changes are persisted.  
+When a monitor fails, a "Need help debugging?" popup displays in the Postman monitors web view. Whenever possible, these suggestions include debugging tips that are specifically related to the error. 
+
+For example, if the monitor failed because Postman was unable to contact the server, the debugging tip suggests you ensure the server's IP address is correct, and that it's publicly available.  If the monitor failed because of a missing variable, then the debugging tip suggests verifying if the monitor is using the correct environment, and that the variable exists in the environment.
+
+[![debugging monitors in the console](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-debugging.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-debugging.png)
+
+
+#### Debugging local run attempts
+
+*   Run the failing monitor's collection with its environment in the Postman app or Newman to see if it works correctly.
+*   If a local run passes, [ensure the sync is enabled](/docs/postman/launching_postman/syncing) in the toolbar header of the Postman app to persist any local changes.  
+    
     [![enable sync](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046115.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046115.png)
+    
 *   You can also force a sync from the **Sync** tab within the **SETTINGS** modal.  
+    
     [![force sync](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046046.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046046.png)
 
-##### **Variable issues**
+#### Debugging variable issues
 
-*   Ensure that the same environment is used across local runs and monitor runs. You can confirm this by adding ``console.log(environment);`` to your request scripts and comparing the results across monitoring and local runs.
-*   If your collection run depends on a global variable, change it to an environment variable. Global variables are not supported in monitors at this time.
+*   Ensure that the same environment is used across local runs and monitor runs. To confirm, add ``console.log(environment);`` to your request scripts and compare the results across monitoring and local runs.
 
-##### **Log relevant information**
+*   If your collection run depends on a saved global variable, change it to an environment variable. Saved global variables are not supported in monitors at this time.
+
+#### Logging relevant information
 
 *   Often, issues come from unexpected response bodies or header values. You can log these with the following:
 
@@ -39,6 +52,7 @@ console.log(JSON.stringify(responseBody, null, 2));
 console.log(JSON.stringify(responseHeaders, null, 2));
 ```
 
-##### **Uncaught errors**
+
+#### Uncaught errors
 
 *   Wrapping suspicious code in a ``try - catch`` block will also let the test and pre-request scripts in your collection run to completion, allowing you to see the entire picture.

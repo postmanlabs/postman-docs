@@ -109,7 +109,7 @@ http://127.0.0.1:5000, 1, 1, 123123123
 http://postman-echo.com, 2, 2, 899899
 ```
 
-Newman, by default, exits with a status code of 0 if everything runs well i.e. without any exceptions. Continuous integration tools respond to these exit codes and correspondingly pass or fail a build. You can use the ``--bail` `flag to tell Newman to halt on a test case error with a status code of 1 which can then be picked up by a CI tool or build system.
+Newman, by default, exits with a status code of 0 if everything runs well i.e. without any exceptions. Continuous integration tools respond to these exit codes and correspondingly pass or fail a build. You can use the `--bail` flag to tell Newman to halt on a test case error with a status code of 1 which can then be picked up by a CI tool or build system.
 
 ```bash
 $ newman run PostmanCollection.json -e environment.json --bail newman
