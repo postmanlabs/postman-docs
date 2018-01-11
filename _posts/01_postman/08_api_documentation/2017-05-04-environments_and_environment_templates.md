@@ -29,4 +29,3 @@ If your public documentation is published on a custom domain, only the environme
 
 [![environmnets dropdown for public documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-environMenu010718.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-environMenu010718.png)
 
-
