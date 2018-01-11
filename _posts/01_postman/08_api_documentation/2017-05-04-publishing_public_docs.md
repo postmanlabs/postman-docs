@@ -7,11 +7,11 @@ page_id: "publishing_public_docs"
 warning: false
 ---
 
-Published documentation is a way of sharing your API documentation with the world. If you’re able to view documentation for one of your collections, publishing docs are a click away! See examples and read more about [public API documentation](/docs/postman_for_publishers/public_api_docs).
+Published documentation enables you to share your [public API documentation](/docs/postman_for_publishers/public_api_docs){:target="_blank"} with the world. 
 
 ### Generating public documentation
 
-You can only publish documentation for collections that you created or for which you have write permissions.
+You can only publish documentation for collections that you've created or have write permissions.
 
 In your [collection's](/docs/postman/api_documentation/viewing_documentation){:target="_blank"} documentation page, click the **Publish** button at the top of the screen.
 
@@ -23,12 +23,12 @@ The **Edit Published Collection** page appears.
 
 When signed in to Postman, you can select a [corresponding environment](/docs/postman/api_documentation/environments_and_environment_templates){:target="_blank"} to publish the collection. Any references to variables like {% raw %}`{{url}}`{% endraw %} in the collection will be replaced with the correct value from the environment. 
 
-The public URL field contains the URL to share with the outside world. For example, if you’re publishing your primary collection, you might want to select the “Production” environment, so your documentation is immediately usable for new visitors. 
+The public URL field contains the URL to share with the outside world. For example, if you’re publishing your primary collection, you might want to select a “production” environment, so your documentation is immediately usable for new visitors. 
 
 
-> **IMPORTANT:**  Any confidential information in your environment, such as **passwords and access tokens**, might be publicly visible. Make sure to remove all such information from the environment before you publish documentation with an environment.
+> **IMPORTANT:**  Any confidential information in your environment, such as **passwords and access tokens**, might be publicly visible. Remove all such information from the environment before you publish documentation with an environment.
 
-The public documentation link always has the most up-to-date content. You don’t need to repeat the Publish flow each time you wantto update your documentation.
+The public documentation link always has the most up-to-date content. You don’t need to repeat the Publish flow each time you want to update your documentation.
 
 **Unpublishing documentation**
 
@@ -42,7 +42,7 @@ Here's an [example](https://documenter.getpostman.com/view/583/coopers-meal-plan
 
 ### Custom domains
 
-Optionally, you can pick from a list of verified [custom domains](/docs/postman/api_documentation/adding_and_verifying_custom_domains) to host your API documentation. You’ll be able to view docs on your custom domain, as well as the Postman private documentation page. 
+Optionally, you can pick from a list of verified [custom domains](/docs/postman/api_documentation/adding_and_verifying_custom_domains){:target="_blank"} to host your API documentation. You’ll be able to view docs on your custom domain, as well as the Postman private documentation page. 
 
 [![custom domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-custom-domains.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-custom-domains.png)
 
