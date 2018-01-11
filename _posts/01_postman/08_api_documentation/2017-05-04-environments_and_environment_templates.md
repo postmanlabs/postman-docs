@@ -13,7 +13,7 @@ Environments and environment templates are automatically synced. In addition, th
 
 #### Environments in private documentation
 
-The image below shows the environments drop down menu in private API documentation. The dropdown menu contains all of your environments and environment templates.
+The environments drop down menu contains all of your environments and environment templates. 
 
 [![environments dropdown for private viewing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-environment2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-environment2.png)
 
@@ -21,7 +21,7 @@ The image below shows the environments drop down menu in private API documentati
 
 An environment template you select while publishing documentation will be available to all documentation viewers.
 
-However, if your public documentation is published on a custom domain, only the environment template will be available in the published page, even if the user is signed into their Postman account.
+If your public documentation is published on a custom domain, only the environment template will be available in the published page, even if the user is signed into their Postman account.
 
 [![environmnets dropdown for public documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-environMenu010718.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-environMenu010718.png)
 
