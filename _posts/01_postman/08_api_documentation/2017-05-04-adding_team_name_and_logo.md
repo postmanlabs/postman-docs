@@ -42,4 +42,3 @@ To delete a logo, click the **Trash Can** logo.
 
 
 
-
