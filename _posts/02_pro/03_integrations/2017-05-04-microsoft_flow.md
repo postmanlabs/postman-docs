@@ -9,13 +9,13 @@ tags:
 warning: false
 ---
 
-Microsoft Flow enables you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It has over 140 services listed with predefined flows you can start using directly.
+Microsoft Flow enables you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It offers over 140 services with predefined flows available for easy implementation.
 
-You can configure Microsoft Flow with Postman to monitor run results, view a team's activity and team feed, and use a Microsoft Flow Webhook URL.
+You can configure Microsoft Flow with Postman to monitor run results, view team and collection-specific activity feeds, backup your Postman Collections, and use a Microsoft Flow Webhook URL.
 
 ### Congfiguring Microsoft Flow
 
-1. In the [Integrations](https://app.getpostman.com/dashboard/integrations){:target="_blank"} page, select Microsoft Flow from a list of Postman’s 3rd party Integrations for Postman Pro users.
+1. In the [Integrations](https://app.getpostman.com/dashboard/integrations){:target="_blank"} page, find Microsoft Flow from a list of Postman’s 3rd party Integrations for Postman Pro users.
 
 [![microsoft_flow](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow.png)  
 
@@ -27,7 +27,7 @@ You also can click the **Configured Integrations** tab to set up other integrati
 
 
 #### Add a team activity feed to Microsoft Flow
-The activity feed is the place where you can see all the changes that are happening to your collections and within the team. It is the place where you can track any updates made to your APIs and monitor what all is happening within the team. Integrating with Flow gives you the freedom to connect email services like Outlook, Gmail or even the custom SMTP service, or you can use Twilio to get the feed as a text message.
+The activity feed is where you can track changes made to your collections and within your team. Integrating with Flow gives you the freedom to connect email services like Outlook, Gmail, or a custom SMTP service. You also have the option to set up Twilio to text you when updates are made to your feed.
 
 To add a team activity feed to Microsoft Flow:
 
@@ -38,7 +38,7 @@ To add a team activity feed to Microsoft Flow:
 [![microsoft_team_activity](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-msFlow-teamactivityfeed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-msFlow-teamactivityfeed.png) 
 
 #### Back up your Postman Collections in Microsoft Flow
-Collections are a very important part of Postman so it is necessary to have a backup a backup of them. Microsoft Flow gives you the ability to connect your collection with a service like Box, which is a cloud based storage solution, or you can even connect to your custom DB2 instance and store your collections there.
+It’s important to back up your Postman Collections for safekeeping. Microsoft Flow helps you do this with services like Box (a cloud-based storage solution), but you can also use it to backup to your custom DB2 instance.
 
 To back up your Postman Collections in Microsoft Flow:
 
@@ -53,7 +53,7 @@ To back up your Postman Collections in Microsoft Flow:
 [![microsoft_flow_backup](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msFlow-backupcollections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integration-msFlow-backupcollections.png)
 
 #### See collection activity feed in Microsoft Flow
-The activity feed is the place where you can see all the changes that are happening to your collections and within the team. It is the place where you can track any updates made to your APIs and monitor what all is happening within the team. Integrating with Flow gives you the freedom to connect email services like Outlook, Gmail or even the custom SMTP service, or you can use Twilio to get the feed as a text message.
+The activity feed is where you can view all of the changes being made to your Postman Collection by your teammates. Integrating with Flow gives you the freedom to connect email services like Outlook, Gmail, or a custom SMTP service. You also have the option to set up Twilio to text you when updates are made to your feed.
 
 To see collection activity feed in Microsoft Flow:
 
@@ -61,8 +61,8 @@ To see collection activity feed in Microsoft Flow:
 2. In the **Team Activity Feed** page, enter the Webhook URL to send team updates to this specific URL.
 3. Click the **Add Integration** button.
 
-#### Send monitor run results in Microsoft Flow
-Postman Monitors allows you to run your collections on a schedule without any manual intervention. With the Microsoft Flow integration, you have the freedom to use those results in whatever way possible and connect to any service available.
+#### Send Monitor run results in Microsoft Flow
+Postman Monitors allows you to run your collections on a schedule without any manual intervention. With the Microsoft Flow integration, you can use those results by connecting to other available services.
 
 To send monitor run results to Microsoft Flow:
 
@@ -72,9 +72,9 @@ To send monitor run results to Microsoft Flow:
 
 [![microsoft_mon_runs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow-monitorrunresults1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow-monitorrunresults1.png) 
 
-You can also configure advanced options to alert you when a monitor run completes, or when three failures occur and the first monitor run completes successfully.
+You can also configure advanced options to alert you when a monitor run completes or when three failures occur and the first monitor run after those failures completes successfully.
 
-And you're done! Your Integration has been setup successfully. So, now whenever a monitor would run, you would get a notification something like this on your Flow mobile app.
+And you’re done! Your integration has been set up successfully. Now, whenever a monitor would run, you would get a notification something like this on your Flow mobile app.
 
 [![see notifications](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858362.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858362.png)
 
@@ -88,9 +88,9 @@ To add the first step, type `request` in the search bar, and select `Request / 
 
 [![select trigger](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858278.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858278.png)  
 
-For different types of integrations, the JSON schema varies. Based on the type of integration, the schemas are mentioned below.
+For different types of integrations, the JSON schema varies. The following shows which schema to use for each one.
 
-##### Monitor Run Results
+##### **Monitor Run Results**
 
 ```
 {
@@ -165,9 +165,7 @@ For different types of integrations, the JSON schema varies. Based on the type o
 }
 ```
 
-[https://gist.github.com/ankitjaggi/e1677fd463df2d2142f138a0d44d630d](https://gist.github.com/ankitjaggi/e1677fd463df2d2142f138a0d44d630d){:target="_blank"}
-
-##### Collection and Team Activity Feed
+##### **Collection and Team Activity Feed**
 
 ```
 {
@@ -216,9 +214,7 @@ For different types of integrations, the JSON schema varies. Based on the type o
 }
 ```
 
-[https://gist.github.com/ankitjaggi/b4d90f72c9fdd41dd2e4e0421eca249f](https://gist.github.com/ankitjaggi/b4d90f72c9fdd41dd2e4e0421eca249f){:target="_blank"}
-
-##### Backup Collections
+##### **Backup Collections**
 
 ```
 {
@@ -236,17 +232,15 @@ For different types of integrations, the JSON schema varies. Based on the type o
 }
 ```
 
-[https://gist.github.com/ankitjaggi/7ebe8208fe520739e3ab931ffc6c54a7](https://gist.github.com/ankitjaggi/7ebe8208fe520739e3ab931ffc6c54a7){:target="_blank"}
-
 [![request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858289.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858289.png)
 
-Once that is done, click on `New Step → Add an Action` and configure your specific service. For this demo, let's connect your Postman Monitor to the Microsoft Flow mobile app. So, on every Monitor Run, you will receive an in-app notification in the Microsoft Flow mobile app. Select `Notifications` from the list of services, and choose the `Send me a mobile notification` action.
+Once that is done, click on `New Step → Add an Action` and configure your specific service. For this demo, let's connect your Postman Monitor to the Microsoft Flow mobile app. So, on every Monitor run, you will receive an in-app notification in the Microsoft Flow mobile app. Select `Notifications` from the list of services and choose the `Send me a mobile notification` action.
 
 [![add action](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858298.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858298.png)
 
 [![notifications](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858309.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858309.png)  
 
-You can enter you own text that you want to be displayed and also use the content that will be sent by the Postman Monitors.
+You can customize the text notifications by choosing your wording and adding content derived from your Postman Monitor run results.
 
 [![enter text](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858318.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858318.png)  
 

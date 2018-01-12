@@ -11,9 +11,9 @@ Postman users with public documentation can publish documentation on their own c
 
 ### Add a custom domain
 
-In the Postman dashboard, select [Team Settings](https://app.getpostman.com/dashboard/teams/edit) in the Team tab.
+In the Postman dashboard, select [Team Settings](https://app.getpostman.com/dashboard/teams/edit){:target="_blank"} in the Team tab.
 
-[![edit view for team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-team-settings.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-team-settings.png)
+[![edit view for team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-team-settings2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-team-settings2.png)
 
 Scroll down to the "Custom Domains" section and click the **+ Add a new domain** button. 
 
@@ -55,7 +55,8 @@ For DNS records, verify ownership with the DNS web service provider. In a separa
 
 ### Publish a collection on the new custom domain
 
-After the domain is verified, you can use this domain to publicly serve your API documentation. If you have a demo Collection to publish, go to the Postman web view and publish your collection. You'll see a new option to select a custom domain.
+After the domain is verified, you can use this domain to publicly serve your API documentation. If you have a demo collection to publish, go to the Postman web view and publish your collection. You'll see a new option to select a custom domain.
+
 
 [![publish collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-publish-domain.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-publish-domain.png)
 
