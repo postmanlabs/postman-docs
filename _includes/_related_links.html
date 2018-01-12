@@ -55,7 +55,7 @@
 
         {% if hrefArray[nextIndex] %}
         <div class="doc-next-link clearfix visible-xs">
-            <a href="{{hrefArray[nextIndex]}}" {% if externalArray[nextIndex] == true %}target="_blank"{% endif %} class="col-xs-12 next-article pull-right">
+            <a href="{{newNextHref}}" {% if externalArray[nextIndex] == true %}target="_blank"{% endif %} class="col-xs-12 next-article pull-right">
                 {{titleArray[nextIndex]}}
             </a>
         </div>
