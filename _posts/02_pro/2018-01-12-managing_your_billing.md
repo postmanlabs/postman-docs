@@ -62,7 +62,7 @@ Your card is automatically charged monthly or annually, depending on your billin
 
 After payment, you’ll see a confirmation with the transaction ID. Use this ID for any communication with Postman. 
 
-REMEMBER: Your card will automatically be charged monthly/annually depending on your billing cycle. Other charges for your account, such as additional monitoring calls, will also be made to this card.
+**REMEMBER**: Your card will automatically be charged monthly/annually depending on your billing cycle. Other charges for your account, such as additional monitoring calls, will also be made to this card.
 After payment, you’ll see a confirmation with the transaction ID. Use this ID for any communication with us. If you purchased Pro as an administrator, you can also proceed to set up your team. If you purchased Pro as a billing user, your administrator will receive an email with an activation link. Clicking the activation link will take you to the sign up page, from where you can create a new account, or sign in with your existing account, to start setting up your team.
 
 
