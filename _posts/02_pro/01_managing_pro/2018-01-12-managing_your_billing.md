@@ -1,9 +1,11 @@
 ---
 categories:
-  - "postman"
-  - "managing_your_billing"
+  - "pro"
+  - "managing_pro"
 title: "Managing your billing"
 page_id: "managing_your_billing"
+tags: 
+  - "pro"
 warning: false
 ---
 

@@ -1,9 +1,11 @@
 ---
 categories:
-  - "postman"
-  - "purchasing_pro"
+  - "pro"
+  - "managing_pro"
 title: "Purchasing Postman Pro"
 page_id: "purchasing_postman_pro"
+tags: 
+  - "pro"
 warning: false
 ---
 

@@ -1,9 +1,11 @@
 ---
 categories:
-  - "postman"
-  - "upgrading_to_pro"
+  - "pro"
+  - "managing_pro"
 title: "Upgrading to Postman Pro from a trial team"
 page_id: "upgrading_to_pro"
+tags: 
+  - "pro"
 warning: false
 ---
 
