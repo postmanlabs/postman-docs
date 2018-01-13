@@ -32,7 +32,7 @@ Select either an administrator or billing user role.
 
 **Administrator**
   
-As an administrator, the purchase links to your Postman account, and you occupy a paid user slot in your team. Select this role if you plan to use Postman Pro.
+As an administrator, you and the purchase links to your Postman account occupy a paid user slot in your team. Select this role if you plan to use Postman Pro.
 
 **Billing user**
   
