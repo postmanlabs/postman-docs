@@ -24,7 +24,7 @@ In Style settings, you can upload your team logo. Hover over the Team Logo icon 
 
   [![style](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSetting-style.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamSetting-style.jpeg)
   
-## Billing Details
+### Billing Details
 
 In Billing Details settings, you can add or change the billing email address, the company name, address, and VAT ID information.
 
