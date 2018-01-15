@@ -9,7 +9,9 @@ tags:
 warning: false
 ---
 
-VictorOps is a real-time incident management platform that combines the power of people and data to embolden DevOps teams so they can handle incidents as they occur and prepare for the next one. This integration allows you to configure [Postman Monitors](/docs/postman/monitors/intro_monitors) to trigger incidents on VictorOps whenever it fails.
+VictorOps is a real-time incident management platform that combines the power of people and data to handle incidents as they occur and prepare for the next one. 
+
+This integration allows you to configure [Postman Monitors](/docs/postman/monitors/intro_monitors) to trigger incidents on VictorOps whenever it fails.
 
 ### Get the VictorOps API Key
 
@@ -39,21 +41,28 @@ You can enter your own key and select a team for which the key is applicable.
 
 ### Configuring Postman Monitors
 
-Log in to the Postman web view, and head to the [Postman Integrations page](https://app.getpostman.com/dashboard/integrations){:target="_blank"}. From the list of integrations, select the `VictorOps` integration.
 
-[![select integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58842600.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58842600.png)
+In the [Integrations](https://the.postman.co/integrations){:target="_blank"} page, find VictorOps from a list of Postman’s 3rd party Integrations for Postman Pro users.
 
-Click on the `Add` button.
+Click the **View Details** button to see information about VictorOps and how you can configure Postman monitors to trigger incidents on VictorOps.
 
-[![add integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58842634.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58842634.png)
+You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for VictorOps, or view all integrations.
 
-Select the monitor for which you want to be alerted. Enter the API Key you got from VictorOps.
+[![victorOps details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/victorOps-details-page.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/victorOps-details-page.png)
 
-[![enter key](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58842683.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58842683.png)
+Click the **Add Integration** button to display the "Send Monitor Run Results" modal.
 
-Additionally, you can also configure a routing key if you want to alert a specific team.
+[![victorOps mon run](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/victorOps-mon-run.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/victorOps-mon-run.png)
 
-[![configur routing key](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58842745.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58842745.png)
+In the **Send Monitor Run Results** page:
+
+* Select a monitor to send to VictorOps.
+* Enter the VictorOps API key.
+* Click "Advanced Options" if you want to add a VictorOps Routing Key.
+* Click the **Add Integration** button.
+
+You can send the results of multiple monitors to the same VictorOps collection.
+
 
 ### Incidents on VictorOps
 
