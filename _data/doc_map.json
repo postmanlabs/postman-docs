@@ -444,6 +444,18 @@
         "url_prefix": "notifications",
         "href":"/docs/postman/notifications",
         "external": false
+      },
+      {
+	"title": "Workspaces",
+	"url_prefix": "text_2",
+	"children": [
+	    {
+	        "title": "Intro to workspaces",
+		"href": "#",
+		"url_prefix": "test_1",
+		"external": false
+	    }
+	]
       }
     ]
   },
