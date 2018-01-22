@@ -452,9 +452,8 @@
 	    {
 	        "title": "Intro to workspaces",
 		"href": "/docs/postman/workspaces/intro_to_workspaces",
-		"url_prefix": "workspaces",
 		"external": false
-	    }
+	    },
 	]
       }
     ]
