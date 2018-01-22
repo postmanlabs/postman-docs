@@ -459,6 +459,11 @@
 		"href": "/docs/postman/workspaces/creating_workspaces",
 		"external": false
 	    },
+	    {
+	        "title": "Using workspaces",
+		"href": "/docs/postman/workspaces/using_workspaces",
+		"external": false
+	    },
 		
 	]
       }
