@@ -295,7 +295,7 @@ The properties inside the `pm.response.to.be` object allows you to easily assert
 
   Status code must be 400
 
-* `pm.response.to.be.unauthorised`
+* `pm.response.to.be.unauthorized`
 
   Status code must be 401
 
