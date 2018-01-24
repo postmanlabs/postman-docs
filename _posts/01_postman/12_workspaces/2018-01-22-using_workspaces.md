@@ -1,7 +1,7 @@
 ---
 categories:
   - "postman"
-  - "using_workspaces"
+  - "workspaces"
 title: "Using Workspaces"
 page_id: "using_workspaces"
 warning: false
