@@ -596,15 +596,15 @@
           }
         ]
       },
+ {
+   "title": "API search",
+   "url_prefix": "pro",
+    "children":[
       {
-       "title": "API search",
-       "url_prefix": "pro",
-       "children":[
-           {
-            "title": "Searching APIs",
-            "href": "/docs/pro/searching_apis",
-            "url_prefix": "searching_apis",
-            "external": false
+        "title": "Searching APIs",
+        "href": "/docs/pro/searching_apis",
+        "url_prefix": "searching_apis",
+        "external": false
        },	  
   {
     "title": "Postman Enterprise",
