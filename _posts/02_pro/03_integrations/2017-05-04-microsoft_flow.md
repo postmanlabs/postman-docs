@@ -15,7 +15,7 @@ You can configure Microsoft Flow with Postman to monitor run results, view team 
 
 ### Congfiguring Microsoft Flow
 
-1. In the [Integrations](https://app.getpostman.com/dashboard/integrations){:target="_blank"} page, find Microsoft Flow from a list of Postman’s 3rd party Integrations for Postman Pro users.
+1. In the [Integrations]({{site.pm.gs}}/dashboard/integrations){:target="_blank"} page, find Microsoft Flow from a list of Postman’s 3rd party Integrations for Postman Pro users.
 
 [![microsoft_flow](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow.png)  
 

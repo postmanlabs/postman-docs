@@ -26,7 +26,7 @@ A team’s shared collections can be viewed in the [team library](/docs/postman/
 
 Generate a shareable link for others to access your collections. This is not the recommended method for sharing collections.  Collection links reflect the collection as a snapshot in time, and must be updated to refresh the changes to the collection.
 
-You can manage a complete list of collection links from the [dashboard](https://app.getpostman.com/dashboard/collections/links){:target="_blank"}.
+You can manage a complete list of collection links from the [dashboard]({{site.pm.gs}}/dashboard/collections/links){:target="_blank"}.
 
 [![share collection with a link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58564829.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58564829.png)
 

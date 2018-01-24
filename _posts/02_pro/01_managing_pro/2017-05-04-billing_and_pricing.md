@@ -19,12 +19,12 @@ Postman Pro teams can choose between 2 billing cycles:
 
 ### Changing Billing Cycles / Team Size
 
-1.  Annual teams can only switch to the monthly plan and reduce their team size at the end of their current billing cycle. The number of days left for the current cycle are shown on the [billing page](https://app.getpostman.com/pay/billing){:target="_blank"}. Click the "Configure next cycle" link on the billing page to switch to the monthly plan / change team size for the next cycle. If you switch to the monthly plan, you'll be charged at $8/user/month after your billing cycle ends.
-2.  Monthly teams can switch to the annual plan at any time. Head to the [billing page](https://app.getpostman.com/pay/billing){:target="_blank"}, and click 'Change Plan' in the settings dropdown. Here, you can increase or decrease your team size, and change to the annual plan. Changes to the team size will take effect instantly, and your next invoice will be pro-rated. Changes to the billing cycle will take place after the current month ends, and you'll be charged $75/user, valid for the next one year.
+1.  Annual teams can only switch to the monthly plan and reduce their team size at the end of their current billing cycle. The number of days left for the current cycle are shown on the [billing page]({{site.pm.gs}}/pay/billing){:target="_blank"}. Click the "Configure next cycle" link on the billing page to switch to the monthly plan / change team size for the next cycle. If you switch to the monthly plan, you'll be charged at $8/user/month after your billing cycle ends.
+2.  Monthly teams can switch to the annual plan at any time. Head to the [billing page]({{site.pm.gs}}/pay/billing){:target="_blank"}, and click 'Change Plan' in the settings dropdown. Here, you can increase or decrease your team size, and change to the annual plan. Changes to the team size will take effect instantly, and your next invoice will be pro-rated. Changes to the billing cycle will take place after the current month ends, and you'll be charged $75/user, valid for the next one year.
 
 ### Adding Users to Annual teams
 
-Annual teams can increase their team size to invite more users at any time. Head to the [teams page](https://app.getpostman.com/dashboard/teams){:target="_blank"}, and click 'Add users'. If you have a saved card, you'll be able to select the number of paid slots you want to add, and have the changes take effect instantly. 
+Annual teams can increase their team size to invite more users at any time. Head to the [teams page]({{site.pm.gs}}/dashboard/teams){:target="_blank"}, and click 'Add users'. If you have a saved card, you'll be able to select the number of paid slots you want to add, and have the changes take effect instantly. 
 
   [![add users](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/addUsers.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/addUsers.jpg)
 

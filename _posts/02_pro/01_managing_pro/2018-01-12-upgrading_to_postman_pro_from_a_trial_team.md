@@ -11,7 +11,7 @@ warning: false
 
 After your Postman Pro trial ends, you can upgrade to a monthly or annual subscription. 
 
-To upgrade to a Postman Pro subscription, go to the [Billing Overview](https://the.postman.co/billing/overview){:target="_blank"} page and click the **Upgrade to Pro** button. 
+To upgrade to a Postman Pro subscription, go to the [Billing Overview]({{site.pm.gs}}/billing/overview){:target="_blank"} page and click the **Upgrade to Pro** button. 
 
 [![Upgrade to Pro](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/upgrade+to+pro.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/upgrade+to+pro.png)
 

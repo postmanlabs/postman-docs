@@ -9,7 +9,7 @@ tags:
 warning: false
 ---
 
-You can manage your billing from the [Billing Overview](https://the.postman.co/billing/overview){:target="_blank"} page. 
+You can manage your billing from the [Billing Overview]({{site.pm.gs}}/billing/overview){:target="_blank"} page. 
 
 [![manage billing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/billing-overview-page+.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/billing-overview-page+.png)
 

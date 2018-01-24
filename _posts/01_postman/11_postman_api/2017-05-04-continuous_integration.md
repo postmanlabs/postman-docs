@@ -14,7 +14,7 @@ Let's access collections using the Postman API to run inside your Continuous Int
 Before we get started:
 
 *   Ensure you have a CI system setup which can run shell commands and that you have access to modify the same.
-*   If you don't already have a [Postman API key](https://docs.api.getpostman.com/#authentication){:target="_blank"}, [get one now](https://app.getpostman.com/dashboard/integrations){:target="_blank"}.
+*   If you don't already have a [Postman API key](https://docs.api.getpostman.com/#authentication){:target="_blank"}, [get one now]({{site.pm.gs}}/dashboard/integrations){:target="_blank"}.
 *   Make sure you have a Postman Collection that tests your localhost server, and note the UID of the collection.
 
 ### Step 1: Install Node

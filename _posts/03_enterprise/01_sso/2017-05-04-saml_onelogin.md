@@ -22,8 +22,8 @@ warning: false
 3. Update the **Display Name**, and click **SAVE**.
    [![onelogin display name](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/onelogin_display.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/onelogin_display.png)
 
-4. Enter your Postman service provider details. These details can be found on the Postman [Edit Team Details page](https://app.getpostman.com/dashboard/teams/edit). For the SAML Encryption, download the `X.509 certificate` from the Postman Edit Team Details page as well. Click **SAVE** to proceed.
+4. Enter your Postman service provider details. These details can be found on the Postman [Edit Team Details page]({{site.pm.gs}}/dashboard/teams/edit). For the SAML Encryption, download the `X.509 certificate` from the Postman Edit Team Details page as well. Click **SAVE** to proceed.
    [![onelogin service provider](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/onelogin_service_provider.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/onelogin_service_provider.png)
 
-5. Copy the `Identity Provider Issuer URL`, `SAML 2.0 Endpoint (HTTP)`, and `X.509 Certificate` from here and update the SSO authentication method that you created at Postman [Edit Team Details page](https://app.getpostman.com/dashboard/teams/edit) within the **Onelogin Identity Provider Details** modal. For more details on this last step, review [setting up SSO in Postman](/docs/enterprise/sso/admin_sso). 
+5. Copy the `Identity Provider Issuer URL`, `SAML 2.0 Endpoint (HTTP)`, and `X.509 Certificate` from here and update the SSO authentication method that you created at Postman [Edit Team Details page]({{site.pm.gs}}/dashboard/teams/edit) within the **Onelogin Identity Provider Details** modal. For more details on this last step, review [setting up SSO in Postman](/docs/enterprise/sso/admin_sso). 
    [![onelogin identity provider](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/onelogin_identity_provider.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/onelogin_identity_provider.png)
