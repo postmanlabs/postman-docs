@@ -1,7 +1,7 @@
 ---
 categories:
   - "postman"
-  - "creating_workspaces"
+  - "workspaces"
 title: "Creating Workspaces"
 page_id: "creating_workspaces"
 warning: false
