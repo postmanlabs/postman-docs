@@ -9,13 +9,15 @@ warning: false
 
 ---
 
-API search lets you search not only across collections, but also across folders, requests, and responses. 
+API search lets you search not only across collections, but also across folders, requests, and responses. This improved search returns a richer set of results because it searches through all of your Postman data.
 
-This improved search functionality is available in the Postman Dashboard. If you search from within the app, you'll get results from your local app, which may not be synced to all of your Postman data, if you are not signed into Postman.  
+Currently you only can access this feature in the Postman Dashboard. If you search from within the app, you'll get results from your local app, which may not be synced to all of your Postman data, if you are not signed into Postman.  
 
-To access the Dashboard, go to the [Postman website](https://www.getpostman.com){:target="_blank"}.
+To use the new search:
 
-Click the **Dashboard** button. You’ll see the search bar at the top of the page. You must be signed in to your Postman account to see the **Dashboard** button.
+1. Go to the [Postman website](https://www.getpostman.com){:target="_blank"}.
+
+2. Click the **Dashboard** button. You’ll see the search bar at the top of the page. You must be signed in to your Postman account to see the **Dashboard** button.
 
 [![search bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-search-bar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-search-bar.png)
 
