@@ -463,8 +463,7 @@
 	        "title": "Using workspaces",
 		"href": "/docs/postman/workspaces/using_workspaces",
 		"external": false
-	    },
-		
+	    }	
 	]
       }
     ]
@@ -610,7 +609,9 @@
             "external": false
            }
 	]
-       },	        	      
+       }
+      ]
+  },
   {
     "title": "Postman Enterprise",
     "url_prefix": "enterprise",
