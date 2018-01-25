@@ -479,6 +479,10 @@
         "url_prefix": "what_is_pro",
         "external": false
       },
+	    
+        
+	    
+	    
       {
         "title": "Managing Postman Pro",
         "url_prefix": "managing_pro",
@@ -597,15 +601,16 @@
         ]
       },
       {
-       "title": "API search",
-       "url_prefix": "pro",
-       "children":[
-          {
-           "title": "Searching APIs",
-           "href": "/docs/pro/searching_apis",
-           "url_prefix": "searching_apis",
-           "external": false
-       },	  
+        "title": "API Search",
+        "url_prefix": "searching_APIs",
+	"children":[
+          { 
+            "title": "Searching APIs",
+            "href":"/docs/pro/integrations/searching_apis",
+            "external": false
+           }
+	]
+       },	        	      
   {
     "title": "Postman Enterprise",
     "url_prefix": "enterprise",
