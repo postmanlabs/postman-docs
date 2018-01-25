@@ -1,8 +1,8 @@
 ---
 
 categories:
-  - "postman"
   - "pro"
+  - "api_search"
 title: "Searching APIs"
 page_id: "searching_APIs"
 warning: false
