@@ -13,10 +13,11 @@ API search lets you search not only across collections, but also across folders,
 
 This improved search returns a richer set of results because it searches through all of your Postman data. Future iterations will search your environments, monitors, and mocks, and provide those results too.
 
-Postman’s new extensive search is available in the Postman Dashboard. If you search from within the app, you'll get results from your local app, which may not be synced to all of your Postman data, if you are not signed into Postman.  
+Postman’s new search functionality is available in the Postman Dashboard. If you search from within the app, you'll get results from your local app, which may not be synced to all of your Postman data, if you are not signed into Postman.  
 
-To access the Dashboard, go to the [Postman website](https://www.getpostman.com){:target="_blank"} and click the **Dashboard** button. You’ll see the search bar at the top of the page. 
-(You must be signed in to your Postman account to see the **Dashboard** button.)
+To access the Dashboard, go to the [Postman website](https://www.getpostman.com){:target="_blank"}.
+
+Click the **Dashboard** button. You’ll see the search bar at the top of the page. You must be signed in to your Postman account to see the **Dashboard** button.
 
 [![search bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-search-bar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-search-bar.png)
 
