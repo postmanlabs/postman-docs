@@ -477,11 +477,7 @@
         "href": "/docs/pro/what_is_pro",
         "url_prefix": "what_is_pro",
         "external": false
-      },
-	    
-        
-	    
-	    
+      },    
       {
         "title": "Managing Postman Pro",
         "url_prefix": "managing_pro",
@@ -605,7 +601,7 @@
 	"children":[
           { 
             "title": "Searching APIs",
-            "href":"/docs/pro/integrations/searching_apis",
+            "href":"/docs/pro/api_search/searching_apis",
             "external": false
            }
 	]
