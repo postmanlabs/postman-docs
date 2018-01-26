@@ -1,6 +1,6 @@
 [
   {
-    "title": "Postman",
+    "title": "Postman", 
     "url_prefix": "postman",
     "children": [
       {
@@ -444,6 +444,27 @@
         "url_prefix": "notifications",
         "href":"/docs/postman/notifications",
         "external": false
+      },
+      {
+	"title": "Workspaces",
+	"url_prefix": "workspaces",
+	"children": [
+	    {
+	        "title": "Intro to workspaces",
+		"href": "/docs/postman/workspaces/intro_to_workspaces",
+		"external": false
+	    },
+	    {
+	        "title": "Creating workspaces",
+		"href": "/docs/postman/workspaces/creating_workspaces",
+		"external": false
+	    },
+	    {
+	        "title": "Using workspaces",
+		"href": "/docs/postman/workspaces/using_workspaces",
+		"external": false
+	    }	
+	]
       }
     ]
   },
@@ -456,7 +477,7 @@
         "href": "/docs/pro/what_is_pro",
         "url_prefix": "what_is_pro",
         "external": false
-      },
+      },    
       {
         "title": "Managing Postman Pro",
         "url_prefix": "managing_pro",
@@ -573,8 +594,19 @@
             "external": false
           }
         ]
-      }
-    ]
+      },
+      {
+        "title": "API Search",
+        "url_prefix": "searching_APIs",
+	"children":[
+          { 
+            "title": "Searching APIs",
+            "href":"/docs/pro/api_search/searching_apis",
+            "external": false
+           }
+	]
+       }
+      ]
   },
   {
     "title": "Postman Enterprise",
@@ -703,4 +735,4 @@
       }
     ]
   }
-]
+] 
