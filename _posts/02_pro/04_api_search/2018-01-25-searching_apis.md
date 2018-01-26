@@ -13,6 +13,7 @@ API search lets you search not only across collections, but also across folders,
 
 Currently you only can access this feature in the Postman Dashboard. If you search from within the app, you'll get results from your local app, which may not be synced to all of your Postman data, if you are not signed into Postman.  
 
+
 To use the new search:
 
 1. Go to the [Postman website](https://www.getpostman.com){:target="_blank"}.
@@ -26,3 +27,4 @@ After you enter your search term, you’ll notice the variety of results that di
 [![search results](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/results-search-dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/results-search-dashboard.png)
 
 **Note**: Postman’s search results can sometimes lag behind the changes made to collections, folders, and requests. If you make a change in the app to an element, such as a collection, you might not see that change appear immediately in your search results. Wait a few minutes for the change to be reflected in search results.
+
