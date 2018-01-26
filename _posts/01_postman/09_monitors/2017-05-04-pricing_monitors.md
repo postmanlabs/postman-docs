@@ -49,4 +49,5 @@ Requests over the free request limit: 1,200,000 - 1,010,000 = 190,000
 
 ### Tracking Usage
 
-Team admins can use the "Track Usage" link on the monitor dashboard to check how many requests the team has made that month.
+To track usage, a team admin can click 'Resource Usage' in the Team dropdown menu in the Pro dashboard.
+[![resourceUsage](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitors-resourceUsage.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitors-resourceUsage.png)
