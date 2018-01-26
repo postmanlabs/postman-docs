@@ -12,7 +12,7 @@ warning: false
 
 Postman enables you to change your Pro (Annual) or Pro (Monthly) plan.
 
-To change your plan, go to the [Billing Overview]({{site.pm.gs}}/billing/overview){:target="_blank"} page. You will see different actions for changing your plan, depending on whether you’re on the Pro (Annual) or Pro (Monthly) plan.
+To change your plan, go to the [Billing Overview]({{site.pm.gs}}/pay/billing){:target="_blank"} page. You will see different actions for changing your plan, depending on whether you’re on the Pro (Annual) or Pro (Monthly) plan.
 
 ### Pro (Monthly)
 
@@ -57,7 +57,7 @@ If you’re on the annual Postman Pro subscription, you can:
 
 ### Adding user slots to your annual plan
 
-In the [Billing Overview]({{site.pm.gs}}/billing/overview){:target="_blank"} page, click the **Add User Slots** button to increase the size of our team
+In the [Billing Overview]({{site.pm.gs}}/pay/billing){:target="_blank"} page, click the **Add User Slots** button to increase the size of our team
 
 [![add slot](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/currentPlan-annual.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/currentPlan-annual.png)
 
