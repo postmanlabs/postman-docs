@@ -13,7 +13,6 @@ API search lets you search not only across collections, but also across folders,
 
 Currently you only can access this feature in the Postman Dashboard. If you search from within the app, you'll get results from your local app, which may not be synced to all of your Postman data, if you are not signed into Postman.  
 
-
 To use the new search:
 
 1. Go to the [Postman website](https://www.getpostman.com){:target="_blank"}.
