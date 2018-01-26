@@ -14,7 +14,7 @@ Postman provides a strong API development toolchain that integrates seamlessly 
 
 Postman has always supported an open ecosystem. We work with industry leaders to introduce new features and integrations that make API development easier and faster.
 
-### What is an integration anyway?
+### What is an integration?
 
 Organizations use the term "integration" inclusively, sometimes overly so. In fact, different teams in the same organization might use the term in different ways. 
 
