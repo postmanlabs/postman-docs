@@ -571,10 +571,19 @@
             "title": "VictorOps",
             "href":"/docs/pro/integrations/victorops",
             "external": false
-          }
-        ]
-      }
-    ]
+             },
+       {
+         "title": "API Search",
+         "url_prefix": "searching_APIs",
+ 	"children":[
+           { 
+            "title": "Searching APIs",
+            "href":"/docs/pro/api_search/searching_apis",
+           "external": false
+           }
+	]
+       }
+      ]
   },
   {
     "title": "Postman Enterprise",
