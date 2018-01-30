@@ -93,7 +93,7 @@ You can recover your username or reset your password from the [**Sign In**](http
 
 [![trouble_signIn page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signIn_trouble.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signIn_trouble.png)
 
-### Adding you profile image
+### Adding your profile image
 
 You can customize your Postman account with a profile picture, which will show your username throughout the Postman dashboard.
 
