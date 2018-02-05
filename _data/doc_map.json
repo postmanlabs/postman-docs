@@ -396,7 +396,7 @@
             "external": false
           }
         ]
-      },
+      }, 
       {
         "title": "Mock servers",
         "url_prefix": "mock_servers",
