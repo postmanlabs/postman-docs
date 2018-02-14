@@ -51,9 +51,9 @@ In the team Workspaces view, click the ***Ellipsis (...)*** button to:
 
 * [Manage members of your team Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
-* [Leave a team Workspace ](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
+* [Leave your team Workspace ](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
-* [Delete a team Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}. 
+* [Delete your team Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}. 
 
 
 ### Managing Workspace elements
