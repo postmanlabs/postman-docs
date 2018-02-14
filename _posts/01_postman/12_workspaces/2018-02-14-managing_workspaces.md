@@ -26,15 +26,15 @@ In this view, click the **Add to workspace** button to [add collections or envir
 
 Click the ***Ellipsis (...)*** button to:
 
-* [Share your personal Workspace with other users](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
+* [Share personal Workspaces with other users](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
-* [View details about your personal Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
+* [View details about personal Workspaces](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
-* [Rename your personal Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
+* [Rename personal Workspaces](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
-* [Edit the description of your personal Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
+* [Edit descriptions of personal Workspaces](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
-* [Delete your personal Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
+* [Delete personal Workspaces](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
 You can also click the **Create a new workplace** button to [create a new personal or team Workspace](/docs/postman/workspaces/creating_workspaces){:target="_blank"}.
 
@@ -43,17 +43,17 @@ You can also click the **Create a new workplace** button to [create a new person
 
 In the team Workspaces view, click the ***Ellipsis (...)*** button to:
 
-* [View details about your team Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
+* [View details about team Workspaces](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
-* [Rename your team Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
+* [Rename team Workspaces](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
-* [Edit the description of your team Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
+* [Edit descriptions of team Workspaces](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
-* [Manage members of your team Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
+* [Manage members of team Workspaces](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
-* [Leave your team Workspace ](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
+* [Leave team Workspaces ](/docs/postman/workspaces/using_workspaces){:target="_blank"}.
 
-* [Delete your team Workspace](/docs/postman/workspaces/using_workspaces){:target="_blank"}. 
+* [Delete team Workspaces](/docs/postman/workspaces/using_workspaces){:target="_blank"}. 
 
 
 ### Managing Workspace elements
