@@ -10,6 +10,9 @@ tags:
 warning: false
 ---
 
+                              **Team Library is only available for versions 5.0 and below.**
+
+
 Postman Pro and Enterprise users can use the Team Library to enhance collaboration among teammates. This feature enhances collaboration among teammates in several ways.
 
 * **Share collections**
