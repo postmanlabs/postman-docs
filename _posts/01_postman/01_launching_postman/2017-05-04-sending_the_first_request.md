@@ -12,7 +12,7 @@ Let's send our first API request! 
 *   Enter [`postman-echo.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722){:target="_blank"} into the URL field. 
 *   Hit the **Send** button to send your request, and you will see the server response at the bottom with some JSON data. Notice that Postman has added [`postman-echo.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722){:target="_blank"} under the **History** tab of the sidebar. 
 
-[![postman echo example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58460049.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58460049.png)
+[![postman echo example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-first-request.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-first-request.png)
 
 ### How does this work?
 
