@@ -7,6 +7,8 @@ page_id: "conflicts"
 warning: false
 ---
 
+ **NOTE**: **Team Library is only available for versions 5.0 and below.**
+
 Postman's conflict management allows you to work collaboratively even while you are offline. Your work will be safely synced when you come online without any accidental changes to your teammates' work. While syncing your changes, if you made a change that might overwrite your teammates' work, the **RESOLVE SYNC CONFLICTS** modal will prompt you to choose which conflicting version to keep.
 
 ### Example of managing conflicts
