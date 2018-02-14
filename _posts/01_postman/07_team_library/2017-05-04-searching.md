@@ -8,6 +8,10 @@ warning: false
 
 ---
 
+ **NOTE**: **Team Library is only available for versions 5.0 and below.**
+
+
+
 When you search in Postman, you can:
 * [Determine search settings](#determine) 
 * [Refine search expressions](#refine)
