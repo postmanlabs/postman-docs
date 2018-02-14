@@ -57,13 +57,6 @@ Two consoles are available in Postman to see what's going on behind the scenes.
 
 Learn more about [troubleshooting with console logs](/docs/postman/sending_api_requests/debugging_and_logs){:target="_blank"}.
 
-### Menu bar
-
-The Postman application menu bar provides access to additional features. 
-
-[![native app menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-menu-bar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-menu-bar.png)
-
-
 ### Status bar
 
 The status bar at the bottom of the Postman interface gives you a convenient way to:
