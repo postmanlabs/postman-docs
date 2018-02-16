@@ -25,13 +25,13 @@ Before we get into the details of mocking, let’s start with setting up some ba
   
   The resulting response can be seen on the right, and a record of this request will now be visible in your [history](/docs/postman/sending_api_requests/responses) on the left.
   
-  [![sending request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock1.png)
+  [![sending request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock1.png)
 
 ##### **Step 2: Saving the request (R1) to a collection (C1)**
   
   Hit the **Save** button to open the **SAVE REQUEST** modal. [Collections](/docs/postman/collections/creating_collections) are simply groups of requests that can be connected together to create APIs and workflows.
   
-  [![save request button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock2.png)
+  [![save request button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock2-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock2-1.png)
   
   You can save a request to an existing collection, or save it to a new collection.  Let's create our new collection called `C1`. 
   
@@ -39,21 +39,21 @@ Before we get into the details of mocking, let’s start with setting up some ba
   
   Collection `C1` will now be accessible in the **Collections** tab in the application. We can do all sorts of things within the collection details view: [viewing API documentation](/docs/postman/api_documentation/viewing_documentation), [mocking a collection](/docs/postman/mock_servers/setting_up_mock), [monitoring a collection](/docs/postman/monitors/setting_up_monitor), or [running the collection](/docs/postman/collection_runs/starting_a_collection_run).
 
-  [![collection tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock4.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock4.png)
+  [![collection tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock4.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock4.png)
   
 ##### **Step 3: Saving the request R1's response as an example (P1)**
 
   Now, let's save an example response from the request we just sent by hitting the **Save Response** button.
   
-  [![save response button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock5.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock5.png)
+  [![save response button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock5.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock5.png)
   
   This takes us to the **Examples** screen which can be used to save the request response as an example. Let's call this example `P1`.
   
-  [![examples screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock6.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock6.png)
+  [![examples screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock6.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock6.png)
   
   Enter a name for this example.  The request method, URL, and status code are crucial in determining which responses will be returned by the mock we will create. Verify these elements are all as desired, and hit the **Save Example** button. Hit the back arrow in the top left to return to the request builder, and we can now see the example we created in the top right, added to the request.
 
-  [![see example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock7.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock7.png)
+  [![see example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock7.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock7.png)
 
 ### Mocking with examples
 
@@ -65,7 +65,7 @@ In the previous steps, we prepared the collection, request, and example response
   
   From the Postman app, click on the right angle bracket (**>**) next to the collection you wish to mock to expand the collection details view. 
   
-  [![mock in collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock10.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock10.png)
+  [![mock in collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock10.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock10.png)
   
   Under the **Mocks** tab, click the **Add a mock** link to open the **MOCK COLLECTION** modal. Here, you can choose a corresponding environment to include in your mock. 
   
@@ -83,21 +83,21 @@ In the previous steps, we prepared the collection, request, and example response
   
   For private mocks, an additional step is required. Under the **Headers** tab of this new request, add the `x-api-key` header, with the value of your [Postman API key](https://app.getpostman.com/dashboard/integrations/pm_pro_api/list){:target="_blank"}.
   
-  [![send a request to mock server](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock8.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock8.png)
+  [![send a request to mock server](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock8.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock8.png)
   
   Sending a request to this mock endpoint with an undefined path returns an error. As you can see, there is no matching saved example with the path `''` and the request method `GET`. Responses returned by the mock service are entirely dependent on your saved examples and the included URL and request method type. 
   
-  [![mock request not found error](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock11.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock11.png)
+  [![mock request not found error](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock11.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock11.png)
   
   We do, however, have a saved example with the path `/get` and the request method `GET`. So sending a `GET` request to the URL `https://b75a340e-4268-4b20-8f5f-3cfc8f37cec6.mock.pstmn.io/get` will return the proper response we are looking for.
 
-  [![mock response](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock12.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock12.png)
+  [![mock response](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock12.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock12.png)
 
 ##### **Adding more examples**
   
   To further illustrate how responses from the mock service are entirely dependent on your saved examples, let's try adding another example to this collection. We'll repeat steps 1 to 3 of saving the request to a collection and saving the response as an example, with a new URL `https://postman-echo.com/test`.
   
-  [![second example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock13.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock13.png)
+  [![second example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock13.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock13.png)
 
   Sending a `GET` request to `https://postman-echo.com/test` returns a 404 error which we will then save as another example. Our collection `C1` now has two requests and two saved examples:
   
@@ -106,7 +106,7 @@ In the previous steps, we prepared the collection, request, and example response
   
   Mocking the `/test` mock path also gives us our expected 404 response.
   
-  [![404 example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock14.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anuhyaMock14.png)
+  [![404 example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock14.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock14.png)
 
   Your examples might vary depending on the URL endpoint, request method type, or status code. If you have multiple examples saved to the same mock, you can choose to save each example under a unique URL endpoint like we saw in this example with `/get` and `/test`. Alternatively, if you have saved examples with different response status codes, you can send an authenticated request to the mock endpoint along with the `x-mock-response-code` header specifying which specifies which integer response code your returned response should match.
   
