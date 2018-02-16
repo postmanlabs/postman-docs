@@ -10,13 +10,13 @@ warning: false
 
 With Postman you can write and run tests for each request using the JavaScript language.
 
-[![full tests](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/randomFullTests2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/randomFullTests2.png)
+[![full tests](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-randomFullTests2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-randomFullTests2.png)
 
 ### Writing Postman tests
 
 A Postman test is essentially JavaScript code executed after the request is sent, allowing access to the `pm.response` object. 
 
-[![pm.response](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/randomPmTest.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/randomPmTest.png)
+[![pm.response](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-randomPmTest.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-randomPmTest.png)
 
 Here are some examples:
 
@@ -60,7 +60,7 @@ Postman tests run in a sandboxed environment, which is separate from the executi
 
 While there are very few things to remember while writing tests, Postman tries to make the process easier by listing commonly used snippets next to the editor. You can select the snippet you want to add and the appropriate code will be added to the test editor. This is a great way to quickly build test cases.
 
-[![snippets](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/randomSnippets.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/randomSnippets.png)
+[![snippets](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-randomSnippets.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-randomSnippets.png)
 
 ### Viewing results
 
