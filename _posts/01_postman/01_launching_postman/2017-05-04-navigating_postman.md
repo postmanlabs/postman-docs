@@ -229,7 +229,7 @@ On hover, relevant features display for a specific row to reduce clutter in the
 
 Drag your mouse to select multiple rows.
 
-[![select multiple rows](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162713.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162713.gif)
+[![select multiple rows](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-selection-multiple-rows.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-selection-multiple-rows.gif)
 
 **Keyboard shortcuts for the data editor**
 
@@ -256,22 +256,22 @@ Drag your mouse to select multiple rows.
 
 You can select and copy multiple rows and then paste them in a different places (such as 'params').
 
-[![select and copy multiple rows](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162757.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162757.gif)  
+[![select and copy multiple rows](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-copy-paste-rows.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-copy-paste-rows.gif)  
 
 **Front view of information**
 
 You can display the information you want to see up front. If you navigate to a place with a large amount of data, the UI element auto expands to show the complete information in the data editor as well as the URL bar.  
 
-[![expand to show info](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162771.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162771.gif)
+[![expand to show info](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-front-view.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-front-view.gif)
 
 **Resizing columns**
 
 You can change the width of the key and value columns when you drag the boundary on the right side of the ‘key’ column header.
 
-[![adjust column width](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162787.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162787.gif)
+[![adjust column width](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-resize-columns.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-resize-columns.gif)
 
 **Multiline support**
 
 The data editor supports sending multiline values. Press 'Enter' in a key or value field to expand it and move the cursor to a new line.
 
-[![sending multiline](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162801.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59162801.gif)
+[![sending multiline](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-multiline-support.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-multiline-support.gif)
