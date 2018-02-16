@@ -67,7 +67,7 @@ Stay calm. Let’s review the logs in Travis CI. Newman ran our tests, we see th
 
 Let’s go back to our Postman collection and fix our `Updated in the last day` test.
 
-[![Postman test script](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-travis-postman-test.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-travis-postman-test.png)
+[![Postman test script](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-travis-postman-test2+copy.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-travis-postman-test2+copy.png)
 
 Once we fix the mistake in our test, let’s save the changes, update the repo with the latest collection file, and then trigger a Travis CI build once again by committing and pushing the change.  
 
