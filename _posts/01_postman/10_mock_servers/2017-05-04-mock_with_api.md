@@ -17,7 +17,7 @@ Navigate to every request in the Collection `testAPI` that you would like to i
 
 **Note**: In addition to mocking a collection with a saved response, you can also [mock a request and response using examples](/docs/postman/collections/examples).
 
-[![saved responses](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Set-up-mocking.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Set-up-mocking.png)
+[![saved responses](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Set-up-mocking50.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Set-up-mocking50.png)
 
 ### Retrieve information needed for mock creation
 
