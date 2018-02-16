@@ -37,7 +37,7 @@ You can create a new environment from the:
 
 1. Click the "Manage Environments" icon in the upper right corner of the Postman app.
 
-[![manage environments icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environ_icon_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environ_icon_menu.png)
+[![manage environments icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-environment65.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-environment65.png)
 
 <ol start="2">
   <li>Select “Manage Environments”.</li>
