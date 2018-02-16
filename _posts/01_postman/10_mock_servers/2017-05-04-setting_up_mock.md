@@ -33,7 +33,7 @@ Mocks are accessible to the public by default. If you create a mock and specify 
 
 1. In the header toolbar, click the **New** button.
 
-[![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)
+[![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HEADER+BAR.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/HEADER+BAR.png)
 
 The **Create New** tab appears.
 [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)
