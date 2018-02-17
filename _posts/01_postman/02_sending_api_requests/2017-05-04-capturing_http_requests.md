@@ -24,7 +24,7 @@ Postman has a proxy in the Postman app that captures the HTTP request.
 
 Similar to the [Interceptor Chrome extension](/docs/postman/sending_api_requests/interceptor_extension), the Postman app proxy also INTERCEPTS and captures your requests. In this scenario, the Postman app is the proxy, and you can inspect HTTP communication going out from your phone like in the following example, and log all network requests under the History tab of the sidebar.
 
-[![proxy logs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy.logs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy.logs.png)
+[![proxy logs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-proxy.logs1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-proxy.logs1.png)
 
 ### Using Postman's proxy example
 
