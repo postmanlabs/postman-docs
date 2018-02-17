@@ -83,7 +83,7 @@ In the previous steps, we prepared the collection, request, and example response
   
   For private mocks, an additional step is required. Under the **Headers** tab of this new request, add the `x-api-key` header, with the value of your [Postman API key](https://app.getpostman.com/dashboard/integrations/pm_pro_api/list){:target="_blank"}.
   
-  [![send a request to mock server](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock8.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock8.png)
+  [![send a request to mock server](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock8-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-anuhyaMock8-1.png)
   
   Sending a request to this mock endpoint with an undefined path returns an error. As you can see, there is no matching saved example with the path `''` and the request method `GET`. Responses returned by the mock service are entirely dependent on your saved examples and the included URL and request method type. 
   
