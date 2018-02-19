@@ -35,7 +35,7 @@ Here you'll learn how to perform actions on Workspaces and how to use Workspaces
 
 * [Adding collections and environments from another Workspace](#adding-collections-and-environments-from-another-workspace)  
 
-* [Publishing Workspaces](#publishing-workspaces)
+* [Publishing Collections](#publishing-collections)
 
 * [Removing elements from Workspaces](#removing-elements-from-workspaces)
 
@@ -216,7 +216,7 @@ In "Share this collection", select the Workspace of which you want to share this
 
 [![share elements-collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-collection.png)
 
-### Publishing Workspaces
+### Publishing Collections
 
 Postman enables you to [publish your collection](/docs/postman/api_documentation/intro_to_api_documentation){:target="_blank"} and make it availabe to anyone with the published link.
 
@@ -224,7 +224,7 @@ To publish a Workspace collection, go to the [Workspaces dashboard](https://app.
 
 In the Collections view, click the ***Ellipsis (...)*** button and select "Publish".
 
-[![pub workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
+[![pub collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
 
 In "Publish Collection", select the:
 
