@@ -43,7 +43,7 @@ Unlike the Postman native apps, the Postman Chrome app is not equipped to handle
 
 Make sure the Interceptor is enabled in the Postman header toolbar.
 
-[![interceptor icon](https://www.getpostman.com/img/v1/docs/interceptor_cookies/interceptor_cookies_1.png)](https://www.getpostman.com/img/v1/docs/interceptor_cookies/interceptor_cookies_1.png)
+[![interceptor icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-interceptor_cookies_1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-interceptor_cookies_1.png)
 
 Under the **Tests** tab, you can use the “responseCookies” object. This will return an array of cookie objects. To retrieve a particular name, use “postman.getResponseCookie(cookieName)”. This will return a single cookie object. Each cookie object will contain the following properties: domain, hostOnly, httpOnly, name, path, secure, session, storeId, value.
 
