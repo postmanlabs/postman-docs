@@ -35,7 +35,7 @@ Here you'll learn how to perform actions on Workspaces and how to use Workspaces
 
 * [Adding collections and environments from another Workspace](#adding-collections-and-environments-from-another-workspace)  
 
-* [Publishing Workspaces](#publishing-workspaces)
+* [Publishing collections](#publishing-collections)
 
 * [Removing elements from Workspaces](#removing-elements-from-workspaces)
 
@@ -216,7 +216,7 @@ In "Share this collection", select the Workspace of which you want to share this
 
 [![share elements-collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-elements-collection.png)
 
-### Publishing Workspaces
+### Publishing collections
 
 Postman enables you to [publish your collection](/docs/postman/api_documentation/intro_to_api_documentation){:target="_blank"} and make it availabe to anyone with the published link.
 
