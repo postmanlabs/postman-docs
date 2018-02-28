@@ -11,9 +11,9 @@ provides greater visibility and easier access to shared collections.
 
 In Workspaces you can [organize the collections](/docs/postman/team_library/setting_up_team_library){:target="_blank"} for 
 those two projects in separate Workspaces. In each Workspace you can [add or create collections], 
-and invite others to 
-collaborate. Members of those Workspaces can see when others add or change it. In addition a collection can exist in other 
-Workspaces at the same time. Any changes to these Workspace collections are visible everywhere they reside.
+and invite others to collaborate. Members of those Workspaces can see when others add or change it. In addition a collection can exist in other Workspaces at the same time. Any changes to these Workspace collections are visible everywhere they reside.
+
+[![workspace build view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-workspaces-build-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-workspaces-build-view.png)
 
 If you're a Postman Pro user and all the members of your team upgrade to version 6.0, and you haven't, how would your team 
 members access the collection? Fortunately Postman provides a workaround for you. When all members of a team are not using 
