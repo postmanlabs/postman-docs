@@ -7,7 +7,7 @@ warning: false
 In versions 5.5 and below, teams work collaboratively in a [Team Library](/docs/postman/team_library/setting_up_team_library){:target="_blank"}. 
 In a Team Library, you can share collections, environmental templates, view team updates, and subscribe to shared collections. 
 However, [Workspaces](/docs/postman/workspaces/intro_to_workspaces){:target="_blank"}, available in Postman version 6.0, 
-provides greater visibility and easier access to shared collections 
+provides greater visibility and easier access to shared collections. 
 
 In Workspaces you can [organize the collections](/docs/postman/team_library/setting_up_team_library){:target="_blank"} for 
 those two projects in separate Workspaces. In each Workspace you can [add or create collections], 
