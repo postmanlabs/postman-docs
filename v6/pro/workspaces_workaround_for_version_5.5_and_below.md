@@ -16,8 +16,12 @@ and invite others to collaborate. Members of those Workspaces can see when other
 [![workspace build view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-workspaces-build-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-workspaces-build-view.png)
 
 If you're a Postman Pro user and all the members of your team upgrade to version 6.0, and you haven't, how would your team 
-members access the collection? Fortunately Postman provides a workaround for you. When all members of a team are not using 
-Workspaces, all shared collections from a Team Library and Workspaces appear on a page that everyone on the team can see. 
+members access the collection? Fortunately Postman provides a workaround for you. 
+
+#### Workaround
+
+When all members of a team are not using Workspaces, all shared collections from a Team Library and Workspaces appear on a page that everyone on the team can see. 
+
 You or another team member can click the **Share** button next to the Team Library collection and add it to a Workspace.
 
 
