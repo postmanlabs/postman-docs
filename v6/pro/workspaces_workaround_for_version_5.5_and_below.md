@@ -20,6 +20,10 @@ members access the collection? Fortunately Postman provides a workaround for you
 Workspaces, all shared collections from a Team Library and Workspaces appear on a page that everyone on the team can see. 
 You or another team member can click the **Share** button next to the Team Library collection and add it to a Workspace.
 
+
+[![workspace share](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-workaround-pro.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-workaround-pro.png)
+
+
 Although this workaround is helpful, it's better to upgrade to Postman version 6.0 so the entire team can automatically 
 be in sync without this additional step.
 
