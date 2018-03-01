@@ -4,6 +4,11 @@ page_id: "workspaces_workaround_for_version_5.5_and_below"
 warning: false
 ---
 
+
+
+**(New title: Sharing collections in Workspaces for version 5)**
+
+
 In versions 5.5 and below, teams work collaboratively in a [Team Library](/docs/postman/team_library/setting_up_team_library){:target="_blank"}. 
 In a Team Library, you can share collections, environmental templates, view team updates, and subscribe to shared collections. 
 However, [Workspaces](/docs/postman/workspaces/intro_to_workspaces){:target="_blank"}, available in Postman version 6.0, 
