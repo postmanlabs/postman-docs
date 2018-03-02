@@ -469,13 +469,13 @@
     "href": "/docs/v6/postman/workspaces/using_workspaces",
     "external": false
       },
-    {
+      {
           "title": "Sharing collections in Workspaces for version 5",
      "href": "/docs/v6/postman/workspaces/sharing_collections_in_Workspaces_for_version_5",
      "external": false
-    }
-  ]
-      }, 
+      }
+   ]
+  }, 
       {
     "title": "Postman Pro",
     "url_prefix": "pro",
