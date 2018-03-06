@@ -31,7 +31,7 @@ An admin can modify the roles of other team members in the [Team page]({{site.pm
 	
   [![manage settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-managePermissions2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-managePermissions2.png)
 	
-When an admin clicks the *Manage Roles** button, a list of team members appears. The admin selects a user and clicks the button for the role. In the image below, the admin clicks the "Billing" button to assign that role to the user. Then the admin can click the **Done** button at the top of the page. 
+When an admin clicks the **Manage Roles** button, a list of team members appears. The admin selects a user and clicks the button for the role. In the image below, the admin would click the "Billing" button to assign that role to the user. Then the admin clicks the **Done** button at the top of the page to complete the process.
 
   [![manage settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-manageRoles.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-manageRoles.png)
 
