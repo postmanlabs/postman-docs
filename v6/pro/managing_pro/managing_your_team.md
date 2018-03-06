@@ -31,9 +31,9 @@ An admin can modify the roles of other team members in the [Team page]({{site.pm
 	
   [![manage settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-managePermissions2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-managePermissions2.png)
 	
-You'll be able to add or remove roles for any member by clicking on the role for that member. 
+When an admin clicks the *Manage Roles** button, a list of team members appears. The admin selects a user and clicks the button for the role. In the image below, the admin clicks the "Billing" button to assign that role to the user. Then the admin can click the **Done** button at the top of the page. 
 
-  [![manage settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/updateRole.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/updateRole.jpg)
+  [![manage settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-manageRoles.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-manageRoles.png)
 
 Keep in mind a few restrictions:
 
@@ -43,7 +43,9 @@ Keep in mind a few restrictions:
 
 ### Invites
 
-An invite is an invitation that you send to new people to add them to a team. These can only be managed by members with the admin role.
+An invite is an invitation you send to people you want to add to a team. Only admins can manage invites.
+
+
 
 **From the Postman app:** To invite people to join the team with a user role, click on "Invite Users" from the **Team Library** tab. You can also invite users when [setting up the team library](/docs/postman/team_library/setting_up_team_library).
 
