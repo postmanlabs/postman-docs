@@ -51,7 +51,7 @@ In the [Team page]({{site.pm.gs}}/dashboard/teams){:target="_blank"}, click the 
 
 Ener the email address of the user you want to invite, and then click the "Invite Users" button. Then click the **Invite Users** button to complete the process.
 
- [![invite users](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-invite-users2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-invite-users2.png)
+ [![invite users](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-invite-users3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-invite-users3.png)
 
 
 
