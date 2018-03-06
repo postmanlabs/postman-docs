@@ -45,11 +45,14 @@ Keep in mind a few restrictions:
 
 An invite is an invitation you send to people you want to add to a team. Only admins can manage invites.
 
-Inviting members to the team Workspaces
+#### Inviting members to team Workspaces
 
-### Inviting members to team Workspaces
+In the [Team page]({{site.pm.gs}}/dashboard/teams){:target="_blank"}, click the **Invite Users** button. 
 
-In the [Team page](https://app.getpostman.com/dashboard/teams){:target="_blank"} and select the "Team" view.
+Ener the email address of the user you want to invite, and then click the "Invite Users" button. Then click the **Invite Users** button to complete the process.
+
+
+ [![invite users](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-invite-users.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-invite-users.png)
 
 
 
