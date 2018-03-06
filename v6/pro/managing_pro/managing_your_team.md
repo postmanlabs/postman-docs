@@ -55,13 +55,6 @@ Ener the email address of the user you want to invite, and then click the "Invit
 
 
 
-[![edit descr2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)
-
-Click the ***Ellipsis (...)*** button and select "Manage Members".
-
-In "Edit workspace details", add or remove team members in the "Members" dropdown menu, and save your changes.
-
-[![edit descr team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-WS-details-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-WS-details-team.png)
 
 
 
@@ -80,17 +73,6 @@ In "Edit workspace details", add or remove team members in the "Members" dropdow
 
 
 
-
-
-When you need to manage the members of your team Workspace, go the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"} and select the "Team" view.
-
-[![edit descr2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)
-
-Click the ***Ellipsis (...)*** button and select "Manage Members".
-
-In "Edit workspace details", add or remove team members in the "Members" dropdown menu, and save your changes.
-
-[![edit descr team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-WS-details-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-WS-details-team.png)
 
 
 
