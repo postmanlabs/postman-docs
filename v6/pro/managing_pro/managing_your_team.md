@@ -29,7 +29,7 @@ By default, members who set up the team for themselves will be granted all three
 
 An admin can modify the roles of other team members in the [Team page]({{site.pm.gs}}/dashboard/teams){:target="_blank"}. 
 	
-  [![manage settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-managePermissions.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-managePermissions.png)
+  [![manage settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-managePermissions2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-managePermissions2.png)
 	
 You'll be able to add or remove roles for any member by clicking on the role for that member. 
 
