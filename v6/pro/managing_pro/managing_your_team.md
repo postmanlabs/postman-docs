@@ -55,42 +55,6 @@ Ener the email address of the user you want to invite, and then click the "Invit
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**For the user role:** To invite people to join the team with a user role, head to the [teams page]({{site.pm.gs}}/dashboard/teams){:target="_blank"}, and click on "Invite Users". Enter the email addresses of those you wish to invite, and hit "Send Invite(s)". 
-
-  [![invite users](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/inviteUsers.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/inviteUsers.jpg)
-
-These invites will be visible at the bottom of the member listing. If you don't have any paid slots left, you'll need to click "Add Users" and increase the team size before sending invites.
-
-  [![pending invite](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pendingInvite.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pendingInvite.jpg)
-
-
 **For admin or billing roles:** To invite people to join the team with an admin or billing role, head to the [teams page]({{site.pm.gs}}/dashboard/teams){:target="_blank"}, click the Settings icon, and select "Add Support Account". Enter the recipient's email address, choose which roles to assign, and hit "Send Invite(s)". These invites will be visible at the bottom of the member listing. 
 
   [![add support account](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/supportAccount.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/supportAccount.jpg)
