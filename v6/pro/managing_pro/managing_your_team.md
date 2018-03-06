@@ -27,9 +27,9 @@ By default, members who set up the team for themselves will be granted all three
 
 ### Managing roles
 
-Anyone with the admin role can modify roles of other members. Head to the [teams page]({{site.pm.gs}}/dashboard/teams){:target="_blank"}, click the Settings icon, and select "Manage permissions". 
+An admin can modify the roles of other team members in the [Team page]({{site.pm.gs}}/dashboard/teams){:target="_blank"}. 
 	
-  [![manage settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/managePermissions.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/managePermissions.jpg)
+  [![manage settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-managePermissions.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-managePermissions.png)
 	
 You'll be able to add or remove roles for any member by clicking on the role for that member. 
 
