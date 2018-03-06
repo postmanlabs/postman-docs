@@ -59,6 +59,4 @@ To revoke an invitations, click the "X" link next to each invite in the listing 
 
 ### Changing team size
 
-**For billing members**: If you're out of paid slots and need to invite more users, you'll need to click "Add Users" on the [teams page]({{site.pm.gs}}/dashboard/teams){:target="_blank"}. You'll need to have a saved card to add users. Annual teams will be billed a pro-rated amount for the number of days left in the billing cycle.
-
-  [![add users](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/addUsers.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/addUsers.jpg)
+If you're out of paid slots and need to invite more users, see "Changing your plan"(/docs/v6/pro/managing_pro/changing_your_plan){:target="_blank"}.
