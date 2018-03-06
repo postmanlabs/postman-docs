@@ -55,7 +55,7 @@ Ener the email address of the user you want to invite, and then click the "Invit
 
 #### Canceling invitations
 
-To revoke an invitations, click the "X" link next to each invite in the listing on the [teams page]({{site.pm.gs}}/dashboard/teams){:target="_blank"}. You can see how many available invites remain in the count displayed on the "Invite Users" button. The available invites will increase by 1 for every canceled invite for the user role.
+To revoke an invitations, click the "X" link next to each invittation. You can see how many available invitations remain. The available invitations will increase by 1 for every canceled invite for the user role.
 
 ### Changing team size
 
