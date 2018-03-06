@@ -59,4 +59,4 @@ To revoke an invitations, click the "X" link next to each invite in the listing 
 
 ### Changing team size
 
-If you're out of paid slots and need to invite more users, see "Changing your plan"(/docs/v6/pro/managing_pro/changing_your_plan){:target="_blank"}.
+If you're out of paid slots and need to invite more users, see [Changing your plan](/docs/v6/pro/managing_pro/changing_your_plan){:target="_blank"}.
