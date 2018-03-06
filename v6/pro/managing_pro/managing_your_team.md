@@ -45,8 +45,58 @@ Keep in mind a few restrictions:
 
 An invite is an invitation you send to people you want to add to a team. Only admins can manage invites.
 
-**Postman app:**
-To invite
+Inviting members to the team Workspaces
+
+### Inviting members to team Workspaces
+
+In the [Team page](https://app.getpostman.com/dashboard/teams){:target="_blank"} and select the "Team" view.
+
+
+
+[![edit descr2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)
+
+Click the ***Ellipsis (...)*** button and select "Manage Members".
+
+In "Edit workspace details", add or remove team members in the "Members" dropdown menu, and save your changes.
+
+[![edit descr team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-WS-details-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-WS-details-team.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+When you need to manage the members of your team Workspace, go the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"} and select the "Team" view.
+
+[![edit descr2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)
+
+Click the ***Ellipsis (...)*** button and select "Manage Members".
+
+In "Edit workspace details", add or remove team members in the "Members" dropdown menu, and save your changes.
+
+[![edit descr team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-WS-details-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-edit-WS-details-team.png)
+
+
+
+
+
+
+
+
 
 **For the user role:** To invite people to join the team with a user role, head to the [teams page]({{site.pm.gs}}/dashboard/teams){:target="_blank"}, and click on "Invite Users". Enter the email addresses of those you wish to invite, and hit "Send Invite(s)". 
 
