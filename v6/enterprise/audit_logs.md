@@ -19,10 +19,10 @@ Audit logs currently include events for team management, billing, and security. 
 Here's a list of events that are currently logged:
 
 
-| Action name  |   Human readable name        | Description         |
+| Action name  |   Human readable name        |     Description         |
 | ---   |   ---    ----------------  |
-|team.add_card  |Added Payment Method    | A new credit card was added to your team.                                          |team.delete_card  |Removed Payment method   |	A credit card was removed from the team. |
-|team.add_domain  |Added Domain   | A custom domain was added to your team. Custom domains can be used to publish documentation.  |
+|team.add_card  |Added Payment Method          | A new credit card was added to your team. |                                  |team.delete_card  |Removed Payment method     |	A credit card was removed from the team. |
+|team.add_domain  |Added Domain                | A custom domain was added to your team. Custom domains can be used to publish documentation.  |
 |team.delete_domain | Deleted Domain   | A custom domain was deleted from your team |
 |team.add_member   |Added Member  |A user joined your team.  |
 |team.cancel_invite   |Cancelled Invite     |An invitation for a user was cancelled. |
