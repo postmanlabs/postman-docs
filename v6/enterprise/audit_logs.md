@@ -34,7 +34,7 @@ Here's a list of events that are currently logged:
 |team.customauth.update  | Custom auth scheme updated    |An SSO scheme was updated.  |
 |team.decrease_size  | Decreased Team Size   |Extra licenses removed from the team.  |
 |team.increase_size  | Increased Team Size    |Additional licenses added to the team.  |
-|team.modify_future_plan  |Set Instructions For Next Billing Cycle   |Instructions for the next billing cycle were added.|
+|team.modify_future_plan  |Set Instructions For Next Billing Cycle   |[Instructions for the next billing cycle](https://www.getpostman.com/docs/pro/managing_pro/changing_your_plan#setting-instructions-for-the-next-billing-cycle){:target="_blank"} were added.|
 |team.name_updated|	Team name changed   |Team name changed.|
 |team.remove_member  |Removed Member   |Team member removed. |
 |team.retry_invoice_success  |Successfully Retried Invoice  |An invoice for your team was paid. |
