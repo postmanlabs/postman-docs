@@ -8,8 +8,8 @@ warning: false
 
 Audit logs is an Enterprise-only feature that lists important team events. An admin can review audit logs to determine:
 
-* When users were added to the team
-* When users received an invitation to a team 
+* When users were added to the team.
+* When users received an invitation to a team. 
 * Which user performed a specific action.
 
 Audit logs currently include events for team management, billing, and security. In the future, we'll enable events for publishing documentation, creating API keys and creating monitors.
