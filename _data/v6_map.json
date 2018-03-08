@@ -598,6 +598,12 @@
         "href":"/docs/v6/enterprise/intro_to_enterprise",
         "external": false
       },
+      {	    
+	"title": "Audit logs",
+	"href": "/docs/v6/enterprise/audit_logs",
+	"external": false 
+      },	      
+	    
       {
         "title": "Single sign-on (SSO)",
         "children": [

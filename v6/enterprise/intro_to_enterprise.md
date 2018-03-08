@@ -16,7 +16,7 @@ Postman’s vision is to help you build a super fast and smooth workflow for API
 
 Enterprise includes all the advanced capability of Postman Pro, plus features available only to Enterprise customers with solutions that satisfy each of the questions above. 
 
-*   Team [collaboration](/docs/postman/team_library/sharing) for the single source of truth about your API, or review historical versions and the latest updates.
+*   Team [collaboration](/docs/v6/postman/workspaces/creating_workspaces){:target="_blank"} for the single source of truth about your API, or review historical versions and the latest updates.
 *   API [documentation](/docs/postman/api_documentation/intro_to_api_documentation) to share public or private documentation, beautifully viewable via a web page.
 *   Powerful [mock servers](/docs/postman/mock_servers) to simulate the real API and decouple teams.
 *   Collection [monitoring](/docs/postman/monitors/intro_monitors) to check for the performance, uptime and correctness of your API.
