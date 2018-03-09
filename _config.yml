@@ -25,9 +25,9 @@ meta:
   tracker: "GTM-M42M5N"
 
 # HTTP-REFRESH meta tag for v1 redirects
-gems:
+plugins:
   - jekyll-redirect-from
-  - algoliasearch-jekyll
+  - jekyll-algolia
 
 exclude: [vendor]
 
@@ -141,4 +141,5 @@ algolia:
     - _posts/18_postman_pro_integrations/
     - _posts/01_postman/2017-05-04-mock_servers.md
     - _posts/03_enterprise/2017-05-04-apply_for_beta_access.md
+    - _site/v5/
 

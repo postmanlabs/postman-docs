@@ -3,14 +3,14 @@
 'use strict';
 /* global instantsearch */
 
-var search = instantsearch({
+const search = instantsearch({
     appId: 'SDZ6C0ROMM',
     apiKey: 'e83c353e0b538a05ad8ea1d70c32b0dd',
     indexName: 'blog',
     urlSync: true,
     searchFunction: function(helper) {
-        var searchResults = $('.search-results');
-        var statsCount = $('#stats');
+        let searchResults = $('.search-results');
+        let statsCount = $('#stats');
         if (helper.state.query === '') {
             searchResults.hide();
             statsCount.hide();
@@ -48,17 +48,17 @@ search.addWidget(
 {% endraw %}
 
 {% raw %}
-var hitTemplate =
+const hitTemplate =
     '<div class="hit">' +
         '<div class="infos">' +
             '<div class="hit-title"><strong><a href={{site.pm.root}}/docs{{url}}>{{title}}</strong></a></div>' +
-            '<div class="hit-excerpt">{{{_highlightResult.text.value}}}</div>'+
+            '<div class="hit-excerpt">{{{_highlightResult.html.value}}}</div>'+
         '</div>' +
     '</div>';
 {% endraw %}
 
 {% raw %}
-var noResultsTemplate = 'No results found matching <strong>{{query}}</strong>.';
+const noResultsTemplate = 'No results found matching <strong>{{query}}</strong>.';
 {% endraw %}
 
 search.addWidget(
@@ -76,17 +76,17 @@ search.addWidget(
     })
 );
 
-var container = document.querySelector('#pagination');
-var paginationWidget = instantsearch.widgets.pagination({
+const container = document.querySelector('#pagination');
+const paginationWidget = instantsearch.widgets.pagination({
     container: '#pagination',
     cssClasses: {
         root: ['pagination', 'search-results'],
         active: 'active'
     }
 });
-var oldRender = paginationWidget.render;
+const oldRender = paginationWidget.render;
 paginationWidget.render = function(params) {
-    var currentState = params.results;
+    let currentState = params.results;
     if(currentState.nbPages===0) container.style.display='none';
     else container.style.display = 'block';
     oldRender.apply(this, arguments);

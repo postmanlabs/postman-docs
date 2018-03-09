@@ -11,12 +11,11 @@
 
     <div class="pm-accordion-links" id="productAccordion">
         {% assign pageurl = page.url | split: '/' %}
-        {% assign product_prefix = pageurl[1] %}
-        {% assign category_prefix = pageurl[2] %}
-        {% assign urlArr = page.url | split:"/" %}
-        {% if urlArr[1] == 'v5' %}
+        {% assign product_prefix = pageurl[2] %}
+        {% assign category_prefix = pageurl[3] %}
+        {% if pageurl[1] == 'v5' %}
             {% assign products = site.data.v5_map %}
-        {% elsif urlArr[1] == 'v6' %}
+        {% elsif pageurl[1] == 'v6' %}
             {% assign products = site.data.v6_map %}
         {% else %}
             {% assign products = site.data.doc_map %}
