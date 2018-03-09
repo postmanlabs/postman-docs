@@ -717,6 +717,27 @@
         ]
       }
     ]
+  },
+  {
+    "title": "Videos",
+    "url_prefix": "videos",
+    "children": [
+      {
+        "title": "Videos",
+        "href":"/docs/v5/videos/",
+        "external": false
+      }
+    ]
+  },
+  {
+    "title": "Reference",
+    "url_prefix": "reference",
+    "children": [
+      {
+        "title": "Reference",
+        "href":"/docs/v5/reference/",
+        "external": false
+      }
+    ]
   }
 ]
-  

@@ -698,6 +698,27 @@
         ]
       }
     ]
-  } 
+  },
+  {
+    "title": "Videos",
+    "url_prefix": "videos",
+    "children": [
+      {
+        "title": "Videos",
+        "href":"/docs/v6/videos/",
+        "external": false
+      }
+    ]
+  },
+  {
+    "title": "Reference",
+    "url_prefix": "reference",
+    "children": [
+      {
+        "title": "Reference",
+        "href":"/docs/v6/reference/",
+        "external": false
+      }
+    ]
+  }
 ]
- 
