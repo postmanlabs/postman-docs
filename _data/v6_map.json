@@ -624,12 +624,12 @@
           },
 	  {
 	    "title": "Configuring Microsoft ADFS with Postman SSO",
-	    "href": "/docs/v6/enterprise/sso/microsoft_adfs.md",
+	    "href": "/docs/v6/enterprise/sso/microsoft_adfs.",
 	    "external": false
 	  },
 	  {
-	    "title": "Setting a Custom_SAML_in_Azure_AD",
-	    "href": "/docs/v6/enterprise/sso/saml_in_azure_ad.md",
+	    "title": "Setting a Custom SAML in Azure_AD",
+	    "href": "/docs/v6/enterprise/sso/saml_in_azure_ad",
 	    "external": false
 	  },
           {
