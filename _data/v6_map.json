@@ -628,6 +628,11 @@
             "external": false
           },
           {
+	    "title": "Configuring Microsoft ADFS with Postman SSO",
+	    "href": "/docs/v6/enterprise/sso/microsoft_adfs.md",
+	    "external": false
+	  },
+          {
             "title": "Setting up custom SAML in GSuite",
             "href": "/docs/v6/enterprise/sso/saml_gsuite",
             "external": false
