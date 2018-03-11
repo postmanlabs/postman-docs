@@ -628,7 +628,7 @@
 	    "external": false
 	  },
 	  {
-	    "title": "Setting a Custom SAML in Azure ",
+	    "title": "Setting a Custom SAML in Azure AD ",
 	    "href": "/docs/v6/enterprise/sso/saml_in_azure_ad",
 	    "external": false
 	  },
