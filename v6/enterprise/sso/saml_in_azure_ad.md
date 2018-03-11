@@ -1,12 +1,10 @@
 ---
-title: "Setting a Custom_SAML_in_Azure_AD"
+title: "Setting a Custom SAML in Azure AD"
 page_id: "saml_in_azure_ad"
 tags: 
   - "enterprise"
 warning: false
 ---
-
-
 
 To configure a custom SSO for your Postman Team, select AD FS as the Authentication Type. You can leave the Identity Provider Details empty for now.
 
