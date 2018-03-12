@@ -7,11 +7,9 @@ warning: false
 ---
 
 
-Postman supports single sign-on (SSO) logins through SAML 2.0 for Enterprise users.
-
 ### Prerequisites
 
-Before you configure Microsoft Active Directory Federation Services (AD FS) to work with Postman SSO, you must have:
+Before you configure Microsoft Active Directory Federation Services (AD FS) to work with Postman Single sign on (SSO), you must have:
 
 * An Active Directory instance where all users have an email address attribute.
 * A SSL certificate from the AD FS server.
@@ -47,7 +45,7 @@ To add a Relying Party Trust:
 
   On the Actions sidebar, click "Add Relying Party Trust" to start the configuration wizard for a new trust. 
 
-  Select the **Claims aware** button in the Welcome screen and click the **Start** button.
+  Click the **Claims aware** button in the Welcome screen and then click the **Start** button.
 
 [![relysing party trust](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Relying-Party-Trust.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Relying-Party-Trust.png)
 
@@ -55,7 +53,7 @@ To add a Relying Party Trust:
 
 [![select data source](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Enter-Data-About-Party-Manually.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Enter-Data-About-Party-Manually.jpeg)
 
-   Enter a Display name that you'll recognize later, and add optional notes.
+   Enter a Display name that you'll recognize later. You can optionaly add notes.
 
 [![display name](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-display-name.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-display-name.jpeg)
 
@@ -65,7 +63,7 @@ To add a Relying Party Trust:
 
    Check the box labeled "Enable Support" for the SAML 2.0 WebSSO protocol. 
 
-   Collect the service URL (ACS URL) from the [Team ](https://app.getpostman.com/dashboard/teams){:target="_blank"} page.
+   Collect the service URL (ACS URL) from the [Team](https://app.getpostman.com/dashboard/teams){:target="_blank"} page.
 
 [![acs url](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-ACS-URL.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-ACS-URL.jpeg)
 
@@ -79,7 +77,7 @@ To add a Relying Party Trust:
 
 In the next two screens, the wizard displays an overview of your settings. 
 
-In the final screen use the **Close** button to exit and open the "Claim Rules" editor.
+In the final screen, use the **Close** button to exit and open the "Claim Rules" editor.
 
 **Step 3** - Create claim rules.
 
@@ -101,7 +99,7 @@ Using the Active Directory as your attribute store, perform these actions:
     
 [![active directory](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Active-Directory.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Active-Directory.jpeg)
 
-   Click "Finish" to save the new rule.
+   Click the **Finish** button to save the new rule.
 
    Click "Add Rule" to create another new rule and select "Transform an Incoming Claim" as the template.
 
@@ -115,7 +113,7 @@ In the next screen perform these actions:
 
    In "Outgoing Name ID Format", select "Email". 
 
-   Use the default, "Pass through all claim values".
+  Note: Use the default setting: "Pass through all claim values".
 
 [![pass through claim values](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Pass-through-all-claim-values.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Pass-through-all-claim-values.jpeg)
 
