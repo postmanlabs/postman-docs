@@ -6,7 +6,7 @@ tags:
 warning: false
 ---
 
-The steps in this topic tells you how to configure a custom SAML application fin Azure AD.
+The steps in this topic tell you how to configure a custom SAML application fin Azure AD.
 
 
 ### Configuration
@@ -37,7 +37,9 @@ Configure the SAML integration. The table below describes the values of the fiel
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-configure-saml.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-configure-saml.png)
 
-| Field         | Value         |
+**Table: Field description for SAML integration**
+
+| **Field**          | **Value**         |
 | ------------- | ------------- |
 | Identifier | The Entity ID for your Postman custom SSO auth. You can find it in [Edit team details](https://app.getpostman.com/dashboard/teams){:target="_blank"}.   |
 | Reply URL | The ACS URL for your Postman custom SSO auth. You can find it in [Edit team details](https://app.getpostman.com/dashboard/teams){:target="_blank"}.  |
@@ -47,7 +49,9 @@ Download the "SAML Signing Certificate" (Base64 format) and click the **Save** b
 
 After the setup is complete, submit your Identity Provider details to Postman. For more information, see [Intro to SSO (https://elispostman.github.io/docs/v6/enterprise/sso/intro_sso){:target="_blank"} The table below describes the values of the fields in this configuration.
 
-| Field         | Value         |
+**Table: Field description for SAML Signing Certificate**
+
+| **Field**         | **Value**         |
 | ------------- | ------------- |
 | Identity Provider Issuer  | The SAML Entity ID of your Azure AD application.  |
 | Identity Provider SSO URL  | The SAML Single Sign-on Service URL of your Azure AD application.    |
