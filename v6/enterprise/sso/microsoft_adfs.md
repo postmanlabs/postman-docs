@@ -14,13 +14,13 @@ Postman supports single sign-on (SSO) logins through SAML 2.0 for Enterprise use
 Before you configure Microsoft Active Directory Federation Services (AD FS) to work with Postman SSO, you must have:
 
 * An Active Directory instance where all users have an email address attribute.
-
-* A server that runs Microsoft Server 2012 or 2008. This guide uses screenshots from Server 2012R2,
-but similar steps should be possible on other versions.
-
 * A SSL certificate from the AD FS server.
+* A server that runs Microsoft Server 2012 or 2008. **Note**: This guide uses screenshots from Server 2012R2,
+but similar steps should be possible in other versions.
 
-After you meet these basic requirements, install AD FS on your server. To configure and install AD FS, see [Deploy and configure AD FS](https://msdn.microsoft.com/en-us/library/gg188612.aspx){:target="_blank"} in the Microsoft Knowledge Base.
+After you meet these basic requirements, install AD FS on your server. 
+
+To configure and install AD FS, see [Deploy and configure AD FS](https://msdn.microsoft.com/en-us/library/gg188612.aspx){:target="_blank"} in the Microsoft Knowledge Base.
 
 ### Configuration
 
@@ -39,39 +39,39 @@ After creating the scheme, collect the values for these fields in [Edit team det
 
 **Step 2** - Add a Relying Party Trust.
 
-Relying Party Trust (RPT) defines the connection between AD FS and Postman.
+Relying Party Trust (RPT) defines the connection between AD FS and Postman. To add a Relying Party Trust: 
 
-Select the Relying Party Trusts folder from "AD FS Management".
+  Select the Relying Party Trusts folder from "AD FS Management".
 
-On the Actions sidebar, click "Add Relying Party Trust" to start the configuration wizard for a new trust. 
+  On the Actions sidebar, click "Add Relying Party Trust" to start the configuration wizard for a new trust. 
 
-Select the **Claims aware** button in the Welcome screen and click the **Start** button.
+  Select the **Claims aware** button in the Welcome screen and click the **Start** button.
 
 [![relysing party trust](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Relying-Party-Trust.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Relying-Party-Trust.png)
 
-In the Select Data Source screen, select the last option, "Enter Data About the Party Manually".
+   In the Select Data Source screen, select the last option, "Enter Data About the Party Manually".
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Enter-Data-About-Party-Manually.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Enter-Data-About-Party-Manually.jpeg)
 
-Enter a Display name that you'll recognize later, and add optional notes.
+   Enter a Display name that you'll recognize later, and add optional notes.
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-display-name.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-display-name.jpeg)
 
-Upload the encryption certificate in [Edit team details](https://app.getpostman.com/dashboard/teams){:target="_blank"} or use the default certificate settings.
+   Upload the encryption certificate in [Edit team details](https://app.getpostman.com/dashboard/teams){:target="_blank"} or use the default certificate settings.
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-configure-cert.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-configure-cert.jpeg)
 
-Check the box labeled "Enable Support" for the SAML 2.0 WebSSO protocol. 
+   Check the box labeled "Enable Support" for the SAML 2.0 WebSSO protocol. 
 
-Collect the service URL (ACS URL) from [Edit team details](https://app.getpostman.com/dashboard/teams){:target="_blank"}.
+   Collect the service URL (ACS URL) from [Edit team details](https://app.getpostman.com/dashboard/teams){:target="_blank"}.
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-ACS-URL.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-ACS-URL.jpeg)
 
-Add this Relying party trust identifier: https://identity.getpostman.com.
+   Add this Relying party trust identifier: https://identity.getpostman.com.
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Relying-party-trust-identifier.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Relying-party-trust-identifier.jpeg)
 
-Select "Permit everyone".
+   Select "Permit everyone".
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Permit-everyone.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Permit-everyone.jpeg)
 
@@ -85,44 +85,49 @@ After the relying party trust has been created, you can create the claim rules.
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-claim-rules.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-claim-rules.jpeg)
 
-To create a new rule, click "Add Rule". Then create a "Send LDAP Attributes as Claims" rule.
+To create a new rule:
+
+   Click "Add Rule". Then create a "Send LDAP Attributes as Claims" rule.
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Add-Rule.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Add-Rule.jpeg)
 
 Using the Active Directory as your attribute store, perform these actions: 
 
-    1. From the LDAP Attribute column, select E-Mail Addresses.
-    2. From the Outgoing Claim Type, select E-Mail Address.
+   In the LDAP Attribute column, select "E-Mail Addresses".
+    
+   In the Outgoing Claim Type, select "E-Mail Address".
     
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Active-Directory.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Active-Directory.jpeg)
 
-Click "Finish" to save the new rule.
+   Click "Finish" to save the new rule.
 
-Click "Add Rule" to create another new rule and select "Transform an Incoming Claim" as the template.
+   Click "Add Rule" to create another new rule and select "Transform an Incoming Claim" as the template.
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Transform-Incoming-Claim.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Transform-Incoming-Claim.jpeg)
 
-In the next screen:
+In the next screen perform these actions:
 
-    1. Select "E-mail Address" as the Incoming Claim Type.
-    2. For Outgoing Claim Type, select "Name ID". 
-    3. For Outgoing Name ID Format, select "Email". 
+   In "Incoming Claim Type", select "E-mail Address".
 
-Use the default, "Pass through all claim values".
+   In "Outgoing Claim Type", select "Name ID". 
+
+   In "Outgoing Name ID Format", select "Email". 
+
+   Use the default, "Pass through all claim values".
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Pass-through-all-claim-values.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Pass-through-all-claim-values.jpeg)
 
-Click the **Finish** button to create the claim rule.
+   Click the **Finish** button to create the claim rule.
 
-You should see two transform rules. You can confirm when you click "Edit Claim Issuance Policy".
+You should see two transform rules. Click "Edit Claim Issuance Policy" to confirm.
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Edit-Claim-Issuance-Policy.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Edit-Claim-Issuance-Policy.jpeg)
 
 **Step 4** - Adjusting the trust settings.
 
-To adjust the trust settings, select RPT and then select "Properties" in the Actions sidebar.
+To adjust the trust settings, select "RPT" and then select "Properties" in the Actions sidebar.
 
-In the Advanced tab, specify SHA-1 as the secure hash algorithm.
+In the Advanced tab, specify "SHA-1" as the secure hash algorithm.
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Adjusting-trust-settings.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Adjusting-trust-settings.jpeg)
 
