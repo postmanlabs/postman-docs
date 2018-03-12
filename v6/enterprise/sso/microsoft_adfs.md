@@ -30,7 +30,7 @@ Follow the steps below to configure Microsoft AD FS to work with Postman SSO.
 
 To create this scheme authentication, see [Single Sign-On for Admins](https://elispostman.github.io/docs/v6/enterprise/sso/admin_sso){:target="_blank"}.
 
-After creating the scheme, collect the values for these fields in [Edit team details](https://app.getpostman.com/dashboard/teams){:target="_blank"}.
+After creating the scheme, collect the values for these fields in the [ Team ](https://app.getpostman.com/dashboard/teams){:target="_blank"} page.
 
 | Fields   | AD FS equivalent |
 | ------------- | ------------- |
@@ -57,13 +57,13 @@ Relying Party Trust (RPT) defines the connection between AD FS and Postman. To a
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-display-name.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-display-name.jpeg)
 
-   Upload the encryption certificate in [Edit team details](https://app.getpostman.com/dashboard/teams){:target="_blank"} or use the default certificate settings.
+   Upload the encryption certificate in the [Team ](https://app.getpostman.com/dashboard/teams){:target="_blank"} page or use the default certificate settings.
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-configure-cert.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-configure-cert.jpeg)
 
    Check the box labeled "Enable Support" for the SAML 2.0 WebSSO protocol. 
 
-   Collect the service URL (ACS URL) from [Edit team details](https://app.getpostman.com/dashboard/teams){:target="_blank"}.
+   Collect the service URL (ACS URL) from the [Team ](https://app.getpostman.com/dashboard/teams){:target="_blank"} page.
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-ACS-URL.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-ACS-URL.jpeg)
 
@@ -137,7 +137,7 @@ After the setup, you must submit your Identity Provider's details to Postman.
 
 Download the FederationMetadata.xml. You can generally find this file at: https://<Federation Service name>/FederationMetadata/2007-06/FederationMetadata.xml
 
-Collect the Identity Provider Single Sign-On URL, Identity Provider Issuer, and X.509 Certificate from the metadata file and fill these values in [Edit team details](https://app.getpostman.com/dashboard/teams){:target="_blank"} in the AD FS Identity Provider Details dialog.
+Collect the Identity Provider Single Sign-On URL, Identity Provider Issuer, and X.509 Certificate from the metadata file and fill these values in the [Team ](https://app.getpostman.com/dashboard/teams){:target="_blank"} page in the AD FS Identity Provider Details dialog.
 
 
 

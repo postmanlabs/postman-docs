@@ -28,7 +28,7 @@ In the "Configure Single Sign-on" section, select "SAML-based Sign-on" in the "S
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-single-sign-on-saml.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-single-sign-on-saml.png)
 
-Configure the SAML integration.
+Configure the SAML integration. The table below describes the values of the fields in this configuration.
 
 [![API lifecycle](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-configure-saml.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-configure-saml.png)
 
@@ -38,7 +38,7 @@ Configure the SAML integration.
 | Reply URL | The ACS URL for your Postman custom SSO auth. You can find it in [Edit team details](https://app.getpostman.com/dashboard/teams){:target="_blank"}.  |
 | User Identifier  | Select user.mail from the dropdown  |
 
-Download the SAML Signing Certificate (Base64 format) and click the **Save** button.
+Download the "SAML Signing Certificate" (Base64 format) and click the **Save** button.
 
 After the setup is complete, submit your Identity Provider details to Postman. For more information, see [Intro to SSO (https://elispostman.github.io/docs/v6/enterprise/sso/intro_sso){:target="_blank"}
 
