@@ -1,5 +1,5 @@
 ---
-title: “ Monitoring static IPs”
+title: Monitoring static IPs
 page_id: “monitoring_static_IPs"
 tags: 
   - "enterprise"
