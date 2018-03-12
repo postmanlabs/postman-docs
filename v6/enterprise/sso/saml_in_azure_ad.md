@@ -6,7 +6,12 @@ tags:
 warning: false
 ---
 
-To configure a custom SSO for your Postman Team, select "AD FS" as the Authentication Type. Allow "Identity Provider Details" to remain empty for now.
+The steps in this topic tells you how to configure a custom SAML application fin Azure AD.
+
+
+### Configuration
+
+Select "AD FS" as the Authentication Type. Allow "Identity Provider Details" to remain empty for now.
 
 Sign in to the Azure management portal using your Azure Active Directory administrator account. 
 
@@ -40,7 +45,7 @@ Configure the SAML integration. The table below describes the values of the fiel
 
 Download the "SAML Signing Certificate" (Base64 format) and click the **Save** button.
 
-After the setup is complete, submit your Identity Provider details to Postman. For more information, see [Intro to SSO (https://elispostman.github.io/docs/v6/enterprise/sso/intro_sso){:target="_blank"}
+After the setup is complete, submit your Identity Provider details to Postman. For more information, see [Intro to SSO (https://elispostman.github.io/docs/v6/enterprise/sso/intro_sso){:target="_blank"} The table below describes the values of the fields in this configuration.
 
 | Field         | Value         |
 | ------------- | ------------- |
