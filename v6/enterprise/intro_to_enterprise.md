@@ -6,23 +6,29 @@ tags:
 warning: false
 ---
 
-Postman’s vision is to help you build a super fast and smooth workflow for API development keeping some key questions in mind:
+Postman helps Enterprise users build a fast, smooth API development workflow that monitors the health and status of APIs, produces quality documentation, connects to third party tools to enhance the API development workflow, and implements an agile process to test APIs.
 
-*   Where are my APIs and do I know how they are changing?
-*   Are they documented properly?
-*   How do I follow an agile process to test them?
-*   Are they working properly all the time?
-*   Can I connect all my tools with my API development workflow?
+Postman provides Enterprise users with:
 
-Enterprise includes all the advanced capability of Postman Pro, plus features available only to Enterprise customers with solutions that satisfy each of the questions above. 
+* Single Sign-On (SSO): Access to the the company’s Postman instance by using the customer’s existing identity management solution. Postman Enterprise currently supports multiple SSO providers – Okta, OneLogin, Duo, Ping Identity, AD FS, and GSuite. Postman provides SAML 2.0-compliant identity provider support. 
 
-*   Team [collaboration](/docs/v6/postman/workspaces/creating_workspaces){:target="_blank"} for the single source of truth about your API, or review historical versions and the latest updates.
-*   API [documentation](/docs/postman/api_documentation/intro_to_api_documentation) to share public or private documentation, beautifully viewable via a web page.
-*   Powerful [mock servers](/docs/postman/mock_servers) to simulate the real API and decouple teams.
-*   Collection [monitoring](/docs/postman/monitors/intro_monitors) to check for the performance, uptime and correctness of your API.
-*   [Out-of-the-box integrations](/docs/pro/integrations/intro_integrations) and the [Postman API](/docs/pro/pro_api/intro_api) to connect your different tools.
-*   [Dedicated IP addresses](/docs/postman/monitors/intro_monitors#monitoring-resources-in-multiple-regions) for API monitoring.
+* Audit logs: Ability to track activities within teams, particularly when collaborating on code. With Audit Logs, Postman Enterprise users can review every change, see who made it and when it was made in a user-friendly dashboard. 
 
-As an Enterprise customer, you’ll have exclusive access to single sign-on, priority support from our dedicated Enterprise Support Team, banded group pricing, and flexible billing. 
+* Extended support and billing: Dedicated support, onboarding and billing options for larger organizations with more structured policies around procurement, provisioning and ongoing customer success
 
-If you would like to learn more about Postman Enterprise, [connect with someone from Postman](http://pages.getpostman.com/Enterprise-Sales_Contact-Us.html){:target="_blank"}. 
+In addition to SSO, audit logs, and extended support and billing, the Enterprise plan shares Postman Pro features, such as:
+
+* Team [collaboration](/docs/v6/postman/workspaces/creating_workspaces){:target="_blank"} for the single source of truth about your API.  
+
+* API [documentation](/docs/postman/api_documentation/intro_to_api_documentation){:target="_blank"} to share public or private documentation in a web page.
+
+* [Mock servers](/docs/postman/mock_servers){:target="_blank"} to simulate the real API and decouple teams collection [monitoring](/docs/postman/monitors/intro_monitors) to check the performance of your API.
+
+* [Out-of-the-box integrations](/docs/pro/integrations/intro_integrations){:target="_blank"} and the [Postman API](/docs/pro/pro_api/intro_api){:target="_blank"} to connect your different tools.
+
+* [Dedicated IP addresses](/docs/postman/monitors/intro_monitors#monitoring-resources-in-multiple-regions){:target="_blank"} for API monitoring.
+
+
+Want to learn more about Postman Enterprise? Contact [Enterprise support](http://pages.getpostman.com/Enterprise-Sales_Contact-Us.html){:target="_blank"}. 
+
+
