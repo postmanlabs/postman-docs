@@ -53,7 +53,7 @@ To add a Relying Party Trust:
 
 [![select data source](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Enter-Data-About-Party-Manually.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Enter-Data-About-Party-Manually.jpeg)
 
-   Enter a Display name that you'll recognize later. You can optionaly add notes.
+   Enter a "Display Name" that you'll recognize later. You can optionaly add notes.
 
 [![display name](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-display-name.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-display-name.jpeg)
 
@@ -83,11 +83,11 @@ In the final screen, use the **Close** button to exit and open the "Claim Rules"
 
 After the relying party trust has been created, you can create the claim rules.
 
-[![claim rules(https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-claim-rules.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-claim-rules.jpeg)
+[![claim rules](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-claim-rules.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-claim-rules.jpeg)
 
 To create a new rule:
 
-   Click "Add Rule". Then create a "Send LDAP Attributes as Claims" rule.
+Click "Add Rule". Then create a "Send LDAP Attributes as Claims" rule.
 
 [![add rule](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Add-Rule.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Add-Rule.jpeg)
 
