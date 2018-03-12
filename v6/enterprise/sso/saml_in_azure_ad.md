@@ -1,5 +1,5 @@
 ---
-title: "Setting a Custom SAML in Azure AD"
+title: "Setting a custom SAML in Azure AD"
 page_id: "saml_in_azure_ad"
 tags: 
   - "enterprise"
@@ -41,13 +41,13 @@ Configure the SAML integration. The table below describes the values of the fiel
 
 | **Field**          | **Value**         |
 | ------------- | ------------- |
-| Identifier | The Entity ID for your Postman custom SSO auth. You can find it in [Edit team details](https://app.getpostman.com/dashboard/teams){:target="_blank"}.   |
-| Reply URL | The ACS URL for your Postman custom SSO auth. You can find it in [Edit team details](https://app.getpostman.com/dashboard/teams){:target="_blank"}.  |
+| Identifier | The Entity ID for your Postman custom SSO auth. You can find it in the [Team](https://app.getpostman.com/dashboard/teams){:target="_blank"} page.   |
+| Reply URL | The ACS URL for your Postman custom SSO auth. You can find it in the [Team](https://app.getpostman.com/dashboard/teams){:target="_blank"} page.  |
 | User Identifier  | Select user.mail from the dropdown  |
 
 Download the "SAML Signing Certificate" (Base64 format) and click the **Save** button.
 
-After the setup is complete, submit your Identity Provider details to Postman. For more information, see [Intro to SSO (https://elispostman.github.io/docs/v6/enterprise/sso/intro_sso){:target="_blank"} The table below describes the values of the fields in this configuration.
+After the setup is complete, submit your Identity Provider details to Postman. For more information, see [Intro to SSO] (https://elispostman.github.io/docs/v6/enterprise/sso/intro_sso){:target="_blank"} The table below describes the values of the fields in this configuration.
 
 **Table: Field description for SAML Signing Certificate**
 
