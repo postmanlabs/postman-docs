@@ -1,12 +1,12 @@
 ---
-title: "Single Sign-On for Admins"
+title: "Configuring SSO for a team"
 page_id: "admin_sso"
 tags: 
   - "enterprise"
 warning: false
 ---
 
-### Setting up SSO
+### Configuring SSO
 
 Only an Enterprise team administrator (admin) can configure single sign-on (SSO) for a Postman team.
 
