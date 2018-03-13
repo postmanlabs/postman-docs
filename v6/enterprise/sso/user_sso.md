@@ -1,21 +1,25 @@
 ---
-title: "Single Sign-On for Users"
+title: "Logging in to an SSO team"
 page_id: "user_sso"
 tags: 
   - "enterprise"
 warning: false
 ---
 
-Once a team admin has enabled single sign on (**SSO**) for Postman, user will log into Postman using configured Identity provider. There are two ways of doing this.
+After a team admin has enabled single sign on (**SSO**) for Postman, users can log in to Postman with a configured Identity provider in two ways:
 
-1.  User can ask team admin for the **Login URL** which is generated at the time of configuring the **SSO**. The **Login URL** will automatically redirect user to the configured Identity Provider.
+1.  Ask the team admin for the **Login URL** that was generated during the SSO configuration. The **Login URL** automatically redirects the user to the configured Identity Provider.
 
-2.  User can use **Sign in to Enterprise** button/hyperlink from Postman Web/ Postman App.  
+2.  Log in from the Postman app or Postman dashboard and perform these actions:
 
-    *  In Postman App, use the hyperlink at the top right while signing in. On clicking it, a new window will be opened within the app.  
+    * Click "Enterprise user? Sign in here".
 
-        [![sign in to enterprise](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59036606.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59036606.png)
-    *  In this step, enter **Team Domain** to continue. 
-        [![team domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59037264.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59037264.png)
-    *  Next, user will be redirected to the configured Identity Provider. Here, for example the **G-Suite** Login screen.  
-        [![G-Suite login](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59036889.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59036889.png)  
+    [![sign in to enterprise](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59036606.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59036606.png)
+   
+    * Enter the team domain to continue. 
+
+    [![team domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59037264.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59037264.png)
+    
+Postman redirects the user to the configured Identity Provider. Here, for example, the **G-Suite** Login screen.  
+
+[![G-Suite login](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59036889.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59036889.png)  
