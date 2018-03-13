@@ -22,7 +22,9 @@ In addition to SSO, audit logs, and extended support and billing, the Enterprise
 
 * Team [collaboration](/docs/v6/postman/workspaces/creating_workspaces){:target="_blank"} to keep data in sync for the team.
 
-* API [documentation](/docs/postman/api_documentation/intro_to_api_documentation){:target="_blank"} to share public or private documentation in a web page.
+* [API documentation](/docs/postman/api_documentation/intro_to_api_documentation){:target="_blank"} to share public or private documentation in a web page.
+
+* [Monitoring](/docs/postman/monitors/intro_monitors) to check the performance of your API. Postman monitoring lets you run a collection periodically to check for its performance and response. You can set up a monitor to run as frequently as 5 minutes 
 
 * [Mock servers](/docs/postman/mock_servers){:target="_blank"} to simulate the real API and decouple teams collection [monitoring](/docs/postman/monitors/intro_monitors) to check the performance of your API. Decoupling enables different members of your development team to work in parallel rather than having to wait on different pieces to be built before moving forward.
 
