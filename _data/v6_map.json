@@ -624,12 +624,12 @@
             "external": false
           },
           {
-            "title": "Single sign-on for users",
+            "title": "Logging in to an SSO team",
             "href": "/docs/v6/enterprise/sso/user_sso",
             "external": false
           },
           {
-            "title": "Single sign-on for admins",
+            "title": "Configuring SSO for a team",
             "href": "/docs/v6/enterprise/sso/admin_sso",
             "external": false
           },
