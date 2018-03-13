@@ -7,7 +7,7 @@ warning: false
 ---
 
 
-Static IPs are fixed IP addresses. Services with assigned static IP addresses use the same IP address to connect to the Internet. Companies often use fixed IP addresses to more easily connect to services over the Internet, or redirect domain names to their servers. 
+Static IPs are fixed IP addresses. Services with assigned static IP addresses use the same IP address to connect to the Internet. Companies often use fixed IP addresses to more easily connect to services over the Internet, or redirect domain names to their servers 
 
 By default, Postman Monitors access APIs from dynamic IP addresses. For Enterprise users who want to test APIs behind a whitelist restricted firewall, Postman provides the option to monitor APIs from a static IP address. 
 
