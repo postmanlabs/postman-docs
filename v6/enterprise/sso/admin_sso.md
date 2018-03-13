@@ -6,15 +6,17 @@ tags:
 warning: false
 ---
 
-### Configuring SSO
+### Configuring single sign on
 
 Only an Enterprise team administrator (admin) can configure single sign-on (SSO) for a Postman team.
 
 In [Team Settings](https://app.getpostman.com/dashboard/teams/edit){:target="_blank"} for an enterprise plan, scroll down and click the **Add a new authentication method** button.
 
-In the **ADD AUTENTICATION METHOD** modal, select the type and name of the authentication, and then click the **Proceed** button.
+In the **ADD AUTENTICATION METHOD** modal, select the authentication type. Enter an authentication name that is easily identifiable to your team. Then click the **Proceed** button.
 
 [![authentication method](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-authentication-method-2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-authentication-method-2.png)
+
+**Note**: Always check with your authentication provider dashboard or your IT support staff for the correct information to complete a modal. in the modal. 
 
 In the "Service Provider Details (Postman)", enter the ID for the Entity, and the URLs for the Login and ACS.
  
@@ -32,9 +34,9 @@ You can either click the **Configure Later** button to complete the configuratio
 
 ##### **Creating end user accounts**
 
-To add an end user, create an account for the user in the Identity Provider (IdP).
+You can create an account for a user in the Identity Provider (IdP).
 
-The first time a new user logs in to Postman through the IdP, a Postman account will be created under two conditions—the team has seats available and the "Allow Signups" box was checked during SSO configuration. 
+The first time a new user logs in to Postman through the IdP, a Postman account is created under two conditions—the team has seats available and the "Allow Signups" box was checked during SSO configuration. 
 
 The user will be automatically associated to the team with a **user** role and have access to team resources.
 
