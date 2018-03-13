@@ -1,6 +1,6 @@
 ---
-title: Monitoring static IPs
-page_id: “monitoring_static_IPs"
+title: Monitoring from static IPs
+page_id: “monitoring_from_static_IPs"
 tags: 
   - "enterprise"
 warning: false
