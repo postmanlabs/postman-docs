@@ -609,7 +609,7 @@
 	"external": false 
       },
       {
-	"title": "Running_monitors_from_static_IPs",
+	"title": "Running monitors from static IPs",
 	"href": "/docs/v6/enterprise/using_static_IPs_to_monitor",
 	"external": false
       },
