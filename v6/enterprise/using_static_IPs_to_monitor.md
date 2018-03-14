@@ -1,5 +1,5 @@
 ---
-title: Running Postman monitors using static IPs.
+title: Running Postman monitors using static IPs
 page_id: “using_static_IPs_to_monitor"
 tags: 
   - "enterprise"
