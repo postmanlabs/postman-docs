@@ -12,7 +12,7 @@ Postman provides Enterprise users with:
 
 * Single Sign-On (SSO): Access to the company’s Postman instance based on the customer’s existing identity management workflow. Postman Enterprise currently supports multiple SSO providers – Okta, OneLogin, Duo, Ping Identity, AD FS, and GSuite. Postman provides SAML 2.0-compliant identity provider support. 
 
-* Audit logs: Ability to track activities within teams, particularly when collaborating on code. Postman Enterprise users can use audit logs to review every change, see who made it, and when it was made. 
+* Audit logs: Ability to track activities within a team. Postman Enterprise users can use audit logs to review changes in team management, billing, and security settings.
 
 * Extended support and billing: Dedicated support, onboarding and billing options for larger organizations, and provisioning.
 
