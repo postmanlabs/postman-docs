@@ -633,7 +633,7 @@
             "external": false
           },
 	  {
-	    "title": "Configuring Microsoft ADFS with Postman SSO",
+	    "title": "Configuring Microsoft AD FS with Postman SSO",
 	    "href": "/docs/v6/enterprise/sso/microsoft_adfs",
 	    "external": false
 	  },
