@@ -9,7 +9,7 @@ warning: false
 
 ### Prerequisites
 
-Before you configure Microsoft Active Directory Federation Services (AD FS) to work with Postman Single sign on (SSO), you must have:
+Before you configure Microsoft Active Directory Federation Services (AD FS) to work with Postman Single sign-on (SSO), you must have:
 
 * An Active Directory instance where all users have an email address attribute.
 * A SSL certificate from the AD FS server.
