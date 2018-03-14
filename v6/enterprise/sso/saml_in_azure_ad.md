@@ -48,7 +48,7 @@ Configure the SAML integration. The table below describes the values of the fiel
 
 Download the "SAML Signing Certificate" (Base64 format) and click the **Save** button.
 
-After the setup is complete, submit your Identity Provider details to Postman. For more information, see [Intro to SSO] (https://elispostman.github.io/docs/v6/enterprise/sso/intro_sso){:target="_blank"} The table below describes the values of the fields in this configuration.
+After the setup is complete, submit your Identity Provider details to Postman. For more information, see [Intro to SSO](/docs/v6/enterprise/sso/intro_sso){:target="_blank"} The table below describes the values of the fields in this configuration.
 
 **Table: Field description for SAML Signing Certificate**
 
