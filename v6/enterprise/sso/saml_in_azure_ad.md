@@ -6,7 +6,7 @@ tags:
 warning: false
 ---
 
-The steps in this topic describe you how to configure a custom SAML application in Azure AD. 
+The steps in this topic describe how to configure a custom SAML application in Azure AD. 
 
 ### Configuration
 
