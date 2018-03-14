@@ -26,7 +26,7 @@ Follow the steps below to configure Microsoft AD FS to work with Postman SSO.
 
 **Step 1** - Create an AD FS authentication scheme in Postman.
 
-To create this scheme authentication, see [Single Sign-On for Admins](https://elispostman.github.io/docs/v6/enterprise/sso/admin_sso){:target="_blank"}.
+To create this scheme authentication, see [Configuring SSO for a team](https://elispostman.github.io/docs/v6/enterprise/sso/admin_sso){:target="_blank"}.
 
 After creating the scheme, collect the values for these fields in the [Team](https://app.getpostman.com/dashboard/teams){:target="_blank"} page.
 
@@ -113,7 +113,7 @@ In the next screen perform these actions:
 
    In "Outgoing Name ID Format", select "Email". 
 
-  Note: Use the default setting: "Pass through all claim values".
+  **Note**: Use the default setting: "Pass through all claim values".
 
 [![pass through claim values](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Pass-through-all-claim-values.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Pass-through-all-claim-values.jpeg)
 
@@ -137,7 +137,7 @@ After the setup, you must submit your Identity Provider's details to Postman.
 
 Download the FederationMetadata.xml. You can generally find this file at: https://<Federation Service name>/FederationMetadata/2007-06/FederationMetadata.xml
 
-Collect the Identity Provider Single Sign-On URL, Identity Provider Issuer, and X.509 Certificate from the metadata file and fill these values in the [Team ](https://app.getpostman.com/dashboard/teams){:target="_blank"} page in the AD FS Identity Provider Details dialog.
+Collect the Identity Provider Single Sign-On URL, Identity Provider Issuer, and X.509 Certificate from the metadata file and enter these values in the [Team ](https://app.getpostman.com/dashboard/teams){:target="_blank"} page in the AD FS Identity Provider Details dialog.
 
 
 

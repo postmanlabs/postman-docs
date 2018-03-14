@@ -6,18 +6,19 @@ tags:
 warning: false
 ---
 
-The steps in this topic tell you how to configure a custom SAML application in Azure AD.
-
+The steps in this topic describe you how to configure a custom SAML application in Azure AD. 
 
 ### Configuration
 
-* Select "AD FS" as the Authentication Type. Allow "Identity Provider Details" to remain empty for now.
+Before you set up a custom SAML application in Azure Active Directory (AD), you must [configure SSO in Postman](/docs/v6/enterprise/sso/admin_sso). Select "AD FS" as the "Authentication Type" and allow "Identity Provider Details" to remain empty for now.
 
-* Sign in to the Azure management portal using your Azure Active Directory administrator account. 
+[![ad fs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-authentication-Azure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-authentication-Azure.png)
 
-* Browse to the Azure Active Directory > [Directory] > Enterprise Applications, and select "New Application".
+Next, sign in to the Azure management portal using your Azure Active Directory administrator account. 
 
-* Select "Non-gallery application".
+Browse to the Azure Active Directory > [Directory] > Enterprise Applications, and select "New Application".
+
+Select "Non-gallery application".
 
 [![non gallery app](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-non-gallery-application.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-non-gallery-application.png)
 
