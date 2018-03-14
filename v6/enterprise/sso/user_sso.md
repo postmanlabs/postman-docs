@@ -6,7 +6,7 @@ tags:
 warning: false
 ---
 
-After a team admin has enabled single sign on (**SSO**) for Postman, users can log in to Postman with a configured Identity provider in two ways:
+After a team admin has enabled single sign-on (**SSO**) for Postman, users can log in to Postman with a configured Identity provider in two ways:
 
 1.  Ask the team admin for the **Login URL** that was generated during the SSO configuration. The **Login URL** automatically redirects the user to the configured Identity Provider.
 
