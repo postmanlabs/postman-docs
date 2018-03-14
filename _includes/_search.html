@@ -3,14 +3,14 @@
 'use strict';
 /* global instantsearch */
 
-const search = instantsearch({
+var search = instantsearch({
     appId: 'SDZ6C0ROMM',
     apiKey: 'e83c353e0b538a05ad8ea1d70c32b0dd',
     indexName: 'blog',
     urlSync: true,
     searchFunction: function(helper) {
-        let searchResults = $('.search-results');
-        let statsCount = $('#stats');
+        var searchResults = $('.search-results');
+        var statsCount = $('#stats');
         if (helper.state.query === '') {
             searchResults.hide();
             statsCount.hide();
@@ -48,7 +48,7 @@ search.addWidget(
 {% endraw %}
 
 {% raw %}
-const hitTemplate =
+var hitTemplate =
     '<div class="hit">' +
         '<div class="infos">' +
             '<div class="hit-title"><strong><a href={{site.pm.root}}/docs{{url}}>{{title}}</strong></a></div>' +
@@ -58,7 +58,7 @@ const hitTemplate =
 {% endraw %}
 
 {% raw %}
-const noResultsTemplate = 'No results found matching <strong>{{query}}</strong>.';
+var noResultsTemplate = 'No results found matching <strong>{{query}}</strong>.';
 {% endraw %}
 
 search.addWidget(
@@ -76,17 +76,17 @@ search.addWidget(
     })
 );
 
-const container = document.querySelector('#pagination');
-const paginationWidget = instantsearch.widgets.pagination({
+var container = document.querySelector('#pagination');
+var paginationWidget = instantsearch.widgets.pagination({
     container: '#pagination',
     cssClasses: {
         root: ['pagination', 'search-results'],
         active: 'active'
     }
 });
-const oldRender = paginationWidget.render;
+var oldRender = paginationWidget.render;
 paginationWidget.render = function(params) {
-    let currentState = params.results;
+    var currentState = params.results;
     if(currentState.nbPages===0) container.style.display='none';
     else container.style.display = 'block';
     oldRender.apply(this, arguments);
