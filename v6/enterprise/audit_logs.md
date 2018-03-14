@@ -26,7 +26,18 @@ In the [Audit Logs page](https://app.getpostman.com/dashboard/audit){:target="_b
 
 ### Logged Events
 
-The table below lists currently logged events.  
+The table below lists currently logged events. 
+
+| Action name  |   Description        |  
+| ---   |   ---    ----------------  |
+
+|tAdded Payment Method   |    A new credit card was added to the your team.       | 
+
+
+
+
+
+
 
 
 | Action name  |   Human readable name        |     Description         |
