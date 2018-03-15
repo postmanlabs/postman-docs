@@ -18,29 +18,27 @@ When the static IP option is enabled, Enterprise users can create a new monitor 
 
 In the Postman app, click the "Build" dropdown menu and select "Browse". 
 
-Choose the collection you want to monitor, click the **Ellipsis (...)** button, and select "Monitor Collection". <br/><br/>
+Choose the collection you want to monitor, click the **Ellipsis (...)** button, and select "Monitor Collection". 
 
-[![ellipsis menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-mock-collection2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-mock-collection2.png)<br/><br/>
+[![ellipsis menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-mock-collection2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-mock-collection2.png)
 
-In the **MONITOR COLLECTION** modal, [enter the name and select the environment of the monitor](https://elispostman.github.io/docs/v6/postman/monitors/setting_up_monitor){:target="_blank"}.  
+In the **MONITOR COLLECTION** modal, [enter the name and select the environment of the monitor](/docs/v6/postman/monitors/setting_up_monitor).  
 
-In "Regions", select "US (Static IP)" to monitor the collection from a static IP address. You can also [specify a monitor to run in one or more regions](https://elispostman.github.io/docs/v6/postman/monitors/setting_up_monitor){:target="_blank"}. 
+In "Regions", select "US (Static IP)" to monitor the collection from a static IP address. You can also [specify a monitor to run in one or more regions](/docs/v6/postman/monitors/setting_up_monitor). 
 
 Click the **Monitor this collection** button to complete the process.
 
-
-
 #### Changing an existing monitor to run from a static IP address
 
-In the Postman app, click the "Build" dropdown menu and select "Browse".<br/> <br/>
+In the Postman app, click the "Build" dropdown menu and select "Browse".
 
-[![build menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-build-menu1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-build-menu1.png)<br/>
+[![build menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-build-menu1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-build-menu1.png)
 
 At the top of the page, select "Monitors". 
 
 Choose the monitor and click the **Edit** button.
 
-In the **EDIT MONITOR** modal, select "US (Static IP)" in "Regions" and click the **Save Changes** button to complete the process.<br/> <br/>
+In the **EDIT MONITOR** modal, select "US (Static IP)" in "Regions" and click the **Save Changes** button to complete the process.
 
 [![static IP monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-select-staticIP2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-select-staticIP2.png)  
 

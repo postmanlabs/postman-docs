@@ -24,7 +24,7 @@ In the [Audit Logs](https://app.getpostman.com/dashboard/audit){:target="_blank"
 
 [![audit logs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-audit-logs-page.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-audit-logs-page.png)
 
-For more information about audit logs and how to set it up for your Postman Enterprise team, contact our [Enterprise support team(https://pages.getpostman.com/Enterprise-Sales_Contact-Us.html){:target="_blank"}.
+For more information about audit logs and how to set it up for your Postman Enterprise team, contact our [Enterprise support team](https://pages.getpostman.com/Enterprise-Sales_Contact-Us.html){:target="_blank"}.
 
 ### Logged Events
 

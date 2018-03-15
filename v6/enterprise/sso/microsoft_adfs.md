@@ -53,7 +53,7 @@ To add a Relying Party Trust:
 
 [![select data source](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Enter-Data-About-Party-Manually.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-Enter-Data-About-Party-Manually.jpeg)
 
-   Enter a "Display Name" that you'll recognize later. You can optionaly add notes.
+   Enter a "Display Name" that you'll recognize later. You can optionally add notes.
 
 [![display name](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-display-name.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-display-name.jpeg)
 
