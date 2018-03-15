@@ -6,7 +6,7 @@ tags:
 warning: false
 ---
 
-### Configuring single sign on
+### Configuring single sign-on
 
 Only an Enterprise team administrator (admin) can configure single sign-on (SSO) for a Postman team.
 
