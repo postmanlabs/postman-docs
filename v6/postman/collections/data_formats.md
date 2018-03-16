@@ -135,7 +135,7 @@ Postman lets you import WADL specs too. While all aspects are not supported yet,
 </application>
 ```
 
-Taken from [http://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-java.html](http://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-java.html){:target="_blank"}
+[Source](http://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-java.html){:target="_blank"}
 
 ### Validating Collection JSON files
 
