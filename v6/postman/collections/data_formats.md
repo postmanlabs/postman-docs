@@ -98,9 +98,10 @@ A Swagger API definition usually lives as a single file, so we only support impo
 
 ##### **Examples**
 
-  Swagger 2.0: [https://github.com/OAI/OpenAPI-Specification/tree/master/examples/v2.0](https://github.com/OAI/OpenAPI-Specification/tree/master/examples/v2.0){:target="_blank"}
-
-  Swagger 1.2: [https://github.com/OAI/OpenAPI-Specification/wiki/Hello-World-Sample](https://github.com/OAI/OpenAPI-Specification/wiki/Hello-World-Sample){:target="_blank"}
+  [Swagger 2.0](https://github.com/OAI/OpenAPI-Specification/tree/master/examples/v2.0){:target="_blank"} 
+  
+  [Swagger 1.2](https://github.com/OAI/OpenAPI-Specification/wiki/Hello-World-Sample){:target="_blank"}
+  
 
 ### Importing WADL
 
