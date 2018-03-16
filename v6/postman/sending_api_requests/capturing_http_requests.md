@@ -53,7 +53,7 @@ Set the proxy IP address of your device (an iPhone in this example) to the IP ad
 
 You are all set! Head over to the Postman app, and you will start seeing the network calls listed under the **History** tab of the sidebar. Open your device's web browser or your application and you will start seeing HTTP traffic passing through the app or the browser.
 
-[![requests under History tab]https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-postman-proxy-history-sidebar.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-postman-proxy-history-sidebar.jpg)
+[![requests under History tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-postman-proxy-history-sidebar.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-postman-proxy-history-sidebar.jpg)
 
 ### Connect to proxy for target devices
 
