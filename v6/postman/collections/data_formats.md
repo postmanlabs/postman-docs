@@ -141,7 +141,12 @@ Postman lets you import WADL specs too. While all aspects are not supported yet,
 
 To validate if a JSON file is in the correct collections format, you can use our [schema files for collections](http://schema.getpostman.com/){:target="_blank"}.
 
-* The schema file is located at [http://schema.getpostman.com/json/collection/v1.0.0/collection.json](http://schema.getpostman.com/json/collection/v1.0.0/collection.json){:target="_blank"}.
-* The associated documentation can be found at [http://schema.getpostman.com/json/collection/v1.0.0/docs/index.html](http://schema.getpostman.com/json/collection/v1.0.0/docs/index.html){:target="_blank"}.
-* Everything is neatly stored on GitHub [https://github.com/postmanlabs/schemas](https://github.com/postmanlabs/schemas){:target="_blank"}.
-* To see an example of data validation using our schema and [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid){:target="_blank"} (a validator), check out [this blog post](http://blog.getpostman.com/2015/07/02/introducing-postman-collection-format-schema/){:target="_blank"}.
+* [Schema file](http://schema.getpostman.com/json/collection/v1.0.0/collection.json){:target="_blank"}
+
+* [Associated documentation](http://schema.getpostman.com/json/collection/v1.0.0/docs/index.html){:target="_blank"} 
+
+*  [GitHub](https://github.com/postmanlabs/schemas){:target="_blank"} 
+
+* [Example of data validation using our schema](http://blog.getpostman.com/2015/07/02/introducing-postman-collection-format-schema/){:target="_blank"} and a [validator](https://github.com/mafintosh/is-my-json-valid){:target="_blank"}
+
+
