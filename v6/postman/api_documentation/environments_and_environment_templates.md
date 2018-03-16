@@ -14,7 +14,7 @@ Environments and environment templates are automatically synced. In addition, th
 
 The environments drop down menu contains all of your environments and environment templates. 
 
-All of your environments and environment templates will be available to you with environment templates that are shared in your Team Library.
+All of your environments and environment templates will be available to you with environment templates that are shared in your team Workspace.
 
 [![environments dropdown for private viewing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-private-environment2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-private-environment2.png)
 
