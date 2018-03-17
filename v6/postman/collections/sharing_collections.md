@@ -5,7 +5,7 @@ warning: false
 
 ---
 
-You must be signed in to your [Postman account](/docs/postman/launching_postman/postman_account) to upload or share a collection.  Click the **Ellipsis** (...) button next to the collection you wish to share. Select "Share" to open the **SHARE COLLECTION** modal which will contain most of ways that you can share a collection.
+You must be signed in to your [Postman account](/docs/postman/launching_postman/postman_account) to upload or share a collection.  Click the ellipses **(...)** button next to the collection you wish to share. Select "Share" to open the **SHARE COLLECTION** modal which will contain most of ways that you can share a collection.
 
 [![share collection from dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-sharing-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-sharing-collection.png)
 
