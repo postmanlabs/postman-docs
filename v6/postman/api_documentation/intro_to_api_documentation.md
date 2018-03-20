@@ -13,7 +13,7 @@ To [access the private view](/docs/postman/api_documentation/viewing_documentat
 
 When you [publish your documentation](/docs/postman/api_documentation/publishing_public_docs){:target="_blank"}, you can use the public link to view the documentation. The public link displays after you publish your documentation. The documentation is also accessible in the "Published" dropdown in the private documentation view.
 
-### Creating a documentation
+### Creating documentation
 
 You can create documentation from the:
 * **New** button 

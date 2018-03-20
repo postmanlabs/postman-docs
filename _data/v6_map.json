@@ -598,12 +598,7 @@
         "href":"/docs/v6/enterprise/intro_to_enterprise",
         "external": false
       },
-      {
-	"title": "Apply for beta access",
-	"href": "/docs/v6/enterprise/apply_for_beta_access",
-	"external": false
-       },
-       {	    
+      {	    
 	"title": "Audit logs",
 	"href": "/docs/v6/enterprise/audit_logs",
 	"external": false 
