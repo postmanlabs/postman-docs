@@ -24,6 +24,6 @@ Enterprise includes all the advanced capability of Postman Pro, plus features av
 *   [Out-of-the-box integrations](/docs/pro/integrations/intro_integrations) and the [Postman API](/docs/pro/pro_api/intro_api) to connect your different tools.
 *   [Dedicated IP addresses](/docs/postman/monitors/intro_monitors#monitoring-resources-in-multiple-regions) for API monitoring.
 
-As an Enterprise customer, you’ll have exclusive access to single sign-on, priority support from our dedicated Enterprise Support Team, banded group pricing, and flexible billing. 
+As an Enterprise customer, you’ll have exclusive access to single sign-on, priority support from our dedicated Enterprise Support Team, and flexible billing. 
 
 If you would like to learn more about Postman Enterprise, [connect with someone from Postman](http://pages.getpostman.com/Enterprise-Sales_Contact-Us.html){:target="_blank"}. 
