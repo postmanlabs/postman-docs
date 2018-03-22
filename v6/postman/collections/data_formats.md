@@ -78,6 +78,8 @@ A few commands which can be imported include:
 
 Download an example RAML file: [github-api-v3.raml](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/github-api-v3.raml)
 
+**Note**: Postman supports RAML 1.0.
+
 ### Importing Swagger
 
 A Swagger API definition usually lives as a single file, so we only support imports of single swagger files. If you have a lot of unrelated Swagger files in a folder, you can import those through the folder importer.
