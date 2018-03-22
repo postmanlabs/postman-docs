@@ -9,7 +9,7 @@ warning: false
 
 Postman's web [dashboard]({{site.pm.gs}}/dashboard/teams){:target="_blank"} provides a number of ways to manage your team.
 
-### Member roles 5555555
+### Member roles
 
 Everyone in your team is a **member**. Each member has certain **roles**, which let them perform sets of actions.
 
