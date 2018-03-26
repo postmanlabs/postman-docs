@@ -49,7 +49,7 @@ Your team also shares a similar challenge. If Neutrino level detection and Warp 
 
 Workspaces lets you organize your collections in two separate workspaces, Neutrino level detection and Warp drive navigation. In each workspace you can [add or create](/docs/postman/workspaces/creating_workspaces){:target="_blank"} collections, and invite others to collaborate. Each workspaces member can see when others add or change an element, such as an environment or monitor. Workspaces also reuse collections, so a collection can be part of Neutrino level detection and Warp drive navigation simultaneously, and any change made to the collection in any of these workspaces will reflect everywhere.
 
-Because workspaces provides greater visibility and easier acesss to shared collections, the API development workflow is much smoother, and greatly reduces mistakes that occur in collaborative efforts. 
+Because workspaces provides greater visibility and easier accesss to shared collections, the API development workflow is much smoother, and greatly reduces mistakes that occur in collaborative efforts. 
 
 [![WS-projects](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-team-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-team-view.png)
 
