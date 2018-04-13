@@ -35,7 +35,6 @@ To update an existing cookie, go to the domain from the domain list, and click t
 
 [![update cookie](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-cookies-4.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-cookies-4.png)
 
-###   
 **Adding Cookies through Set-Cookie header**
 
 You can also add/edit the cookies through the [Set-Cookie header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie){:target="_blank"} through the response.  
