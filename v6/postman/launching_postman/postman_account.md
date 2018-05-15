@@ -28,9 +28,9 @@ Sign up with your email address or your Google account.
 
 Confirm your email.
 
-Once you are logged in, you will see the **IN SYNC** icon at the top telling you that you are connected to our servers. Postman uses WebSockets for real-time [syncing](/docs/postman/launching_postman/syncing){:target="_blank"}. If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us){:target="_blank"}.
+Once you are logged in, you will see the **SYNC** icon in the header bar. When the icon is orange it indicates that you are connected to our servers and your work is backed up. Postman will inform you if the sync is interrupted and automatically try to re-establish the connection. Postman uses WebSockets for real-time [syncing](/docs/postman/launching_postman/syncing){:target="_blank"}. If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us){:target="_blank"}.
 
-[![header bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)
+[![header bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/postman+header+sync+5-10-18.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/postman+header+sync+5-10-18.png)
 
 ### Post Sign Up Configuration
 

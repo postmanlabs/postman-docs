@@ -63,11 +63,9 @@ Select this option to generate a shareable link for others to access your collec
 
 [![share get link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)
 
-**In the Build menu**
+**In the Browse view**
 
-In the Postman app, click the **Build** menu in the status bar at the bottom of the screen.
-
-Select "Browse", and then select a collection. 
+In the bottom bar, select "Browse", and then select a collection
 
 Click the **Share** button.
 

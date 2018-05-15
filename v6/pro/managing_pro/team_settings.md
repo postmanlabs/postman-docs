@@ -10,7 +10,7 @@ warning: false
 The Team Settings page lets you change your team name, team URL, team logo, and billing information. You also can add custom domains and manage your authentication method.  
 
 You can also access team settings in the app via the "Teams" dropdown menu in the upper right corner. 
-[![Teams](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+7.26.50+PM.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+7.26.50+PM.png)
+[![Teams](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamdropdown+new+with+logo.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamdropdown+new+with+logo.png)
 
 ### General
 

@@ -9,7 +9,13 @@ warning: false
 
 ### Native Apps
 
-Postman's native apps on MacOS & Windows will notify you whenever an update is available. To force a check, head over to the Update section of the Settings window. If an update is available, you can choose to start the download. You will be notified when the download is complete prompting you to restart the Postman app to apply the updates. If you're not ready to update yet, click **Remind me later** to prompt you again after the next app reload or launch.
+Postman's native apps will notify you whenever a major update is available. Other updates are indicated by an indicator that appears on the settings icon. If the indicator is red instead of orange, it indicates a failed update.
+
+[![settings update indicator](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/39862921-c290dbd0-5462-11e8-85a7-cfaf4141f0d3+(1).png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/39862921-c290dbd0-5462-11e8-85a7-cfaf4141f0d3+(1).png)
+
+
+ To force a check, head over to the Update section of the Settings window. If an update is available, you can choose to start the download. You will be notified when the download is complete prompting you to restart the Postman app to apply the updates. If you're not ready to update yet, click **Later** to auto update after the next app launch.
+
 
 [![updates in settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auto+update+enable.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auto+update+enable.png)
 

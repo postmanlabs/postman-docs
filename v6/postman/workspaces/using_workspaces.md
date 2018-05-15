@@ -191,11 +191,9 @@ In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_bl
 [![share collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-share-collection-dashboard.png)
 
 
-**In the Build menu**
+**In the browse view**
 
-In the Postman app, click the **Build** menu in the status bar at the bottom of the screen.
-
-Select "Browse", and then select a collection. 
+In the bottom bar, select "Browse", and then select a collection. 
 
 Click the **Share** button.
 
@@ -207,11 +205,7 @@ Click the **Share** button.
 
 #### Sharing environments in the app
 
-**In the Build menu**
-
-In the Postman app, click the **Build** menu in the status bar at the bottom of the screen.
-
-Select "Browse", and then select an environment. 
+In the bottom bar, select "Browse", and then select an environment. 
 
 Click the **Share** button.
 

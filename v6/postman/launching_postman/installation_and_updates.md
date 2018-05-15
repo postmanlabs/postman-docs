@@ -91,11 +91,12 @@ From the same area in Postman settings, you can initiate a bulk import from a Po
 
 ##### **Native app (Mac, Windows and Linux)**
 
-Postman's native apps will check for updates whenever the app reloads, or is launched. The app will display the changelog prompting you to update the app. 
+Postman's native apps will notify you whenever a major update is available. Other updates are indicated by an indicator that appears on the settings icon. If the indicator is red instead of orange, it indicates a failed update.
 
-[![changelog](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-updating-postman.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-updating-postman.png)
+[![settings update indicator](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/39862921-c290dbd0-5462-11e8-85a7-cfaf4141f0d3+(1).png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/39862921-c290dbd0-5462-11e8-85a7-cfaf4141f0d3+(1).png)
 
-Click **Update** to download the latest update. You will be notified when the download is complete prompting you to restart the Postman app to apply the updates. If you're not ready to update yet, click **Remind me later** to prompt you again after the next app reload or launch.
+
+Click **Update** to download the latest update. You will be notified when the download is complete prompting you to restart the Postman app to apply the updates. If you're not ready to update yet, click **Later** to auto update after the next app launch.
 
 You can also configure your preferences to enable automatic download for major updates under the **Update** tab within the **SETTINGS** modal. Postman automatically downloads minor updates and bug fixes.
 
