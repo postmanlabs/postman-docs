@@ -1,4 +1,5 @@
-<script type="text/javascript" src="{{site.pm.root}}/js/scripts.min.js?v={{site.time | date: '%s%N'}}"></script>
+<script type="text/javascript" src="{{site.pm.root}}/assets/vendor.js?v={{site.time | date: '%s%N'}}"></script>
+<script type="text/javascript" src="{{site.pm.root}}/assets/main.js?v={{site.time | date: '%s%N'}}"></script>
 
 <script type="text/javascript">
   var pm_app_url = "{{site.pm.gs}}";
@@ -21,6 +22,10 @@
    */
   $('body').on('click', '#menu-toggle', function () {
     $('body').toggleClass('nav-open');
+  });
+
+  $('body').on('click', '#menu-toggle-overlay', function () {
+    $('body').removeClass('nav-open');
   });
 
   /**

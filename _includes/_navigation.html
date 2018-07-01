@@ -1,12 +1,39 @@
 <div id="sidebar-toggleable">
-    <ul class="pm-sidebar-main-nav">
-        <li><a href="{{site.pm.root}}/">Home</a></li>
-        <li><a href="{{site.pm.root}}/products">Products</a></li>
-        <li><a href="{{site.pm.root}}/pricing">Pricing</a></li>
-        <li><a href="{{site.pm.root}}/docs/">Documentation</a></li>
-        <li><a href="{{site.pm.root}}/community">Community</a></li>
-        <li class="hide-if-signedin"><a href="{{site.pm.gs}}/signup?redirect=web">Sign In</a></li>
-        <li class="hide-if-signedout"><a href="{{site.pm.gs}}/">Dashboard</a></li>
-    </ul>
+  <ul class="pm-sidebar-main-nav">
+    <li>
+      {% include _version_selector.html %}
+    </li>
+    <li class='sidebar-menu-item'>
+      <a href="/">HOME</a>
+    </li>
+    <li class='sidebar-menu-item'>
+      <a href="/products">PRODUCT</a>
+    </li>
+    <li class='sidebar-menu-item'>
+      <input type='checkbox' id='solutions-submenu' class='submenu-input' />
+      <label for='solutions-submenu' class='submenu-label'>SOLUTIONS</label>
+      <ul class='sidebar-submenu'>
+        <li><a href='/publishers'>Publishers</a></li>
+        <li><a href='/devops'>DevOps</a></li>
+        <li><a href='/qa'>QA</a>
+        <li><a href='/front-end'>Front-end</a>
+        <li><a href='/back-end'>Back-end</a>
+      </ul>
+    </li>
+    <li class='sidebar-menu-item'>
+      <a href="/pricing">PLANS & PRICING</a>
+    </li>
+    <li class='sidebar-menu-item'>
+      <a href="/docs/" class="active">DOCS</a>
+    </li>
+    <li class='sidebar-menu-item'>
+      <a href="/api-network/">API NETWORK</a>
+    </li>
+    <li class="sidebar-menu-item hide-if-signedin">
+      <a href="{{site.pm.gs}}/signup?redirect=web">SIGN IN</a>
+    </li>
+    <li class="sidebar-menu-item hide-if-signedout">
+      <a href="{{site.pm.gs}}/">DASHBOARD</a>
+    </li>
+  </ul>
 </div>
-

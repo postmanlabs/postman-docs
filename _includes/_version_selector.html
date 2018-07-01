@@ -1,0 +1,7 @@
+<div class="version-selector">
+  <select onchange="location = this.options[this.selectedIndex].value;">
+    {% assign urlArr = page.url | split:"/" %}
+    <option {% if urlArr[1] == 'v5' %}selected="selected"{% endif %} value="/docs/v5/">Docs Version 5.x</option>
+    <option {% if urlArr[1] == 'v6' %}selected="selected"{% endif %} value="/docs/v6/">Docs Version 6.x</option>
+  </select>​
+</div>

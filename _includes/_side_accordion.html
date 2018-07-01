@@ -11,10 +11,17 @@
 
     <div class="pm-accordion-links" id="productAccordion">
         {% assign pageurl = page.url | split: '/' %}
-        {% assign product_prefix = pageurl[1] %}
-        {% assign category_prefix = pageurl[2] %}
+        {% assign product_prefix = pageurl[2] %}
+        {% assign category_prefix = pageurl[3] %}
+        {% if pageurl[1] == 'v5' %}
+            {% assign products = site.data.v5_map %}
+        {% elsif pageurl[1] == 'v6' %}
+            {% assign products = site.data.v6_map %}
+        {% else %}
+            {% assign products = site.data.doc_map %}
+        {% endif %}
 
-        {% for product in site.data.doc_map %}
+        {% for product in products %}
         {% assign product_index = forloop.index0 %}
 
         <div class="pm-accordion-product">

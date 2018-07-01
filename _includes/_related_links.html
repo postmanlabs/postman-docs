@@ -3,7 +3,14 @@
 {% assign hrefString = "" %}
 {% assign titleString = "" %}
 {% assign externalString = "" %}
-{% assign products = site.data.doc_map %}
+{% assign urlArr = page.url | split:"/" %}
+{% if urlArr[1] == 'v5' %}
+    {% assign products = site.data.v5_map %}
+{% elsif urlArr[1] == 'v6' %}
+    {% assign products = site.data.v6_map %}
+{% else %}
+    {% assign products = site.data.doc_map %}
+{% endif %}
 
 {% for product in products %}
     {% assign prodIndex = forloop.index0 %}
@@ -55,7 +62,7 @@
 
         {% if hrefArray[nextIndex] %}
         <div class="doc-next-link clearfix visible-xs">
-            <a href="{{hrefArray[nextIndex]}}" {% if externalArray[nextIndex] == true %}target="_blank"{% endif %} class="col-xs-12 next-article pull-right">
+            <a href="{{newNextHref}}" {% if externalArray[nextIndex] == true %}target="_blank"{% endif %} class="col-xs-12 next-article pull-right">
                 {{titleArray[nextIndex]}}
             </a>
         </div>

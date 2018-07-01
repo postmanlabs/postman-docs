@@ -1,0 +1,20 @@
+{% assign urlArr = page.url | split:"/" %}
+
+<h3>Popular Topics</h3>
+<ul id="popular-topics">
+	{% if urlArr[1] == 'v5' %}
+    <li><a href="/docs/v5/postman/launching_postman/installation_and_updates">Installing the native app</a></li>
+	  <li><a href="/docs/v5/postman/collection_runs/command_line_integration_with_newman">Newman - Running collections in the command line</a></li>
+	  <li><a href="/docs/v5/pro/what_is_pro">Level up with Postman Pro</a></li>
+	  <li><a href="/docs/v5/postman/collections/creating_collections">Getting started with collections</a></li>
+	  <li><a href="/docs/v5/postman/environments_and_globals/variables">Setting up an environment with variables</a></li>
+	  <li><a href="/docs/v5/postman/scripts/test_scripts">Writing tests</a></li>
+	{% else %}
+		<li><a href="/docs/v6/postman/launching_postman/installation_and_updates">Installing the native app</a></li>
+	  <li><a href="/docs/v6/postman/collection_runs/command_line_integration_with_newman">Newman - Running collections in the command line</a></li>
+	  <li><a href="/docs/v6/pro/what_is_pro">Level up with Postman Pro</a></li>
+	  <li><a href="/docs/v6/postman/collections/creating_collections">Getting started with collections</a></li>
+	  <li><a href="/docs/v6/postman/environments_and_globals/variables">Setting up an environment with variables</a></li>
+	  <li><a href="/docs/v6/postman/scripts/test_scripts">Writing tests</a></li>
+	{% endif %}
+</ul>

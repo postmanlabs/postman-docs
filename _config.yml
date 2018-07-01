@@ -5,6 +5,11 @@ defaults:
 
 permalink: /:categories/:title
 
+baseurl: /docs
+
+sass:
+    style: compressed
+
 # Namespace for custom variables
 pm:
   root: "https://www.getpostman.com"
@@ -20,9 +25,9 @@ meta:
   tracker: "GTM-M42M5N"
 
 # HTTP-REFRESH meta tag for v1 redirects
-gems:
+plugins:
   - jekyll-redirect-from
-  - algoliasearch-jekyll
+  - jekyll-algolia
 
 exclude: [vendor]
 
@@ -31,7 +36,7 @@ algolia:
   application_id: 'SDZ6C0ROMM'
   index_name: 'blog'
   read_only_api_key: 'e83c353e0b538a05ad8ea1d70c32b0dd'
-  excluded_files:
+  files_to_exclude:
     - 404.html
     - index.html
     - _site/account.html
@@ -136,4 +141,6 @@ algolia:
     - _posts/18_postman_pro_integrations/
     - _posts/01_postman/2017-05-04-mock_servers.md
     - _posts/03_enterprise/2017-05-04-apply_for_beta_access.md
+    - _site/v5/
+    - ./v5
 
