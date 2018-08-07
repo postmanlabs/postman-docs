@@ -20,14 +20,14 @@ Sessions in Postman brings a host of capabilities. Some of them are outlined bel
 
 As discussed, a Session is a local instance to a user in a workspace context wherein you can easily modify variables and Postman will not sync data to the servers keeping it strictly relevant to a local context. A Session in Postman holds the values of variables – environment, global, and collection. Simply put, Sessions comes in handy whenever a CRUD operation is involved. Sessions feature influences the following three aspects of Postman:
 
-•	Collection Variables
-•	Environment Variables
-•	Global Variables
+* Collection Variables
+* Environment Variables
+* Global Variables
 
 The next section outlines how you can assign current values to these variables using the Postman UI and get to your task while working with Collection variables, Environment variables and Global variables. You can assign a current value to your variables in the following ways:
 
-•	Editing Collection Variables
-•	Editing Environment and Global Variables
+* Editing Collection Variables
+* Editing Environment and Global Variables
 
 
 ##### **Editing Collection Variables** 
@@ -36,6 +36,7 @@ To assign a current value, click ellipses (…) in the sidebar and select Edit t
 
 Click Variables in the Edit Collection screen to bring up the following screen:
 
+https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/039dcf58-c066-11e6-916b-9e50c6b89f88.png
 
 The above interface enables you to specify a current value that is relevant to your local context only. However, Postman provides you an option to replace your initial value with the current value. As current values are never synced to the Postman’s servers, shared data like your ‘initial value’ remains always intact unless you choose to explicitly sync using the Persist option. 
 
@@ -59,15 +60,15 @@ Note: The Auto-Persist option does not work in the above context. For more infor
 
 The Sessions feature also enables you to assign current values to your variables – both environment and global. This section explains how you can assign current values to these variables.
 
-•	Edit Environment Variables
-•	Edit Global Variables
+* Edit Environment Variables
+* Edit Global Variables
 
 ###### **Editing Environment Variables**
 
 You can assign a current value to the environment variables by 
 
-•	Using Quick Editing option
-•	Editing the Manage Environments screen
+* Using Quick Editing option
+* Editing the Manage Environments screen
 
 Using Quick Editing Option
 
