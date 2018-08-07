@@ -10,10 +10,10 @@ Postman introduces Sessions with the prime objective of providing a more robust 
 
 Sessions in Postman brings a host of capabilities. Some of them are outlined below:
 
-•	You can change the values of variables in the Session the way you want without worrying about the sensitivity of the data as Postman by default does not sync the current values (values in the session) to the server
-•	You can change the initial value and the current value of a variable separately. Changing the initial value causes a change in the definition of the variable itself so a safer bet would be to tinker with the current value. You can always override/persist your current values of variables whenever necessary. 
-•	You can participate in a collaborative team workspace working with multiple people within the same collection/environment with your own values, IDs, passwords, access/secure tokens, and other private credentials. 
-•	Sessions offers developers a secure interface with tools, features and information they need to explore, test, and consume API information
+* You can change the values of variables in the Session the way you want without worrying about the sensitivity of the data as Postman by default does not sync the current values (values in the session) to the server
+* You can change the initial value and the current value of a variable separately. Changing the initial value causes a change in the definition of the variable itself so a safer bet would be to tinker with the current value. You can always override/persist your current values of variables whenever necessary. 
+* You can participate in a collaborative team workspace working with multiple people within the same collection/environment with your own values, IDs, passwords, access/secure tokens, and other private credentials. 
+* Sessions offers developers a secure interface with tools, features and information they need to explore, test, and consume API information
 
 
 ##### **Using Sessions**
@@ -52,7 +52,7 @@ You can see Token1, Token3, and Token5 populated with their current values in th
 
 To persist your current value with the initial value for the disabled tokens, point your cursor to the ellipses (…) and select Persist or Reset based on your need, as illustrated in the above screen. To delete the entire row, just click    . Reset All resets all the values.
 
-Note: The Auto-Persist option does not work in the above context. For more information on Auto-Persist option, refer to the section <section-name>. 
+**Note**: The Auto-Persist option does not work in the above context. For more information on Auto-Persist option, refer to the section <section-name>. 
 
 ##### **Editing Environment and Global Variables**
 
@@ -68,35 +68,46 @@ You can assign a current value to the environment variables by
 * Using Quick Editing option
 * Editing the Manage Environments screen
 
-Using Quick Editing Option
+**Using Quick Editing Option**
 
 To  quickly edit the environment variable, ensure your environment is selected in the following drop-down. 
 
+Click Quicklook to bring up the following screen:
 
-
-Click Quicklook   to bring up the following screen:
-
+https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Env_Var5.png
 
 Point your cursor to the current value of Token1 to enable the edit icon as shown below:
 
-Clicking edit icon   will make the current value field editable as follows:
+https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Env_Var3.png
+
+Clicking edit icon will make the current value field editable as follows:
+
+https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Env_Var4.png
 
 Enter your current value. 
 
 Editing Manage Environment screen
 
-Select the corresponding environment in the Postman main screen and click Quicklook   icon. The following screen appears:
+Select the corresponding environment in the Postman main screen and click Quicklook icon. The following screen appears:
 
+https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Env_Var5.png
 
 Click  button on top right corner (the  button at the bottom belongs to Global variables) to bring up the Manage Environment screen:
 
+https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env1.png
+
 Click the Current Value field and assign a value. 
 
-Editing Global Variables
+**Editing Global Variables**
 
 Click the gear icon   in the Postman main screen to go to the screen below: 
 
+https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env2.png
 
-Click Globals button to bring up the Manage Environments screen as illustrated below. Go ahead and assign a current value. 
+Click Globals button to bring up the Manage Environments screen as illustrated below. 
+
+https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env3.png
+
+Go ahead and assign a current value. 
 
 
