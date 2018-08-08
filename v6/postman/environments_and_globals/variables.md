@@ -130,6 +130,6 @@ Type an open curly bracket to bring up the autocomplete menu. For the pre-reques
 
 ##### **Variable highlighting and tooltip on hover**
 
-[![variable highlighting and tooltips]https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Autocomp_tooltips2.png)
+[![variable highlighting and tooltips](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Autocomp_tooltips2.png)
 
 Variables are highlighted in orange, with unresolved variables shown in red. Hovering over a variable shows its initial, and current value and the scope. If a variable is unresolved - i.e., no value in the current environment - the tooltip shows the appropriate feedback.
