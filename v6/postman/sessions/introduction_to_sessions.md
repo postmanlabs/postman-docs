@@ -85,17 +85,13 @@ Point your cursor to the current value of Token1 to enable the edit icon as show
 
 Clicking edit icon will make the current value field editable as follows:
 
-https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Env_Var4.png
-
 [![edit icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Env_Var4.png)
 
 Enter your current value. 
 
-Editing Manage Environment screen
+**Editing Manage Environment screen**
 
 Select the corresponding environment in the Postman main screen and click Quicklook icon. The following screen appears:
-
-https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Env_Var5.png
 
 [![edit environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Env_Var5.png)
 
