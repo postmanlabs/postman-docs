@@ -101,21 +101,19 @@ https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Env_Var
 
 Click  button on top right corner (the  button at the bottom belongs to Global variables) to bring up the Manage Environment screen:
 
-[![manage envrionment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env1.png)
+[![manage environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env1.png)
 
 Click the Current Value field and assign a value. 
 
 **Editing Global Variables**
 
-Click the gear icon   in the Postman main screen to go to the screen below: 
+Click the gear icon in the Postman main screen to go to the screen below: 
 
-[![manage envrionment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env2.png)
+[![manage environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env2.png)
 
 Click Globals button to bring up the Manage Environments screen as illustrated below. 
 
-https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env3.png
-
-[![manage envrionment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env3.png)
+[![manage environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env3.png)
 
 Go ahead and assign a current value. 
 
