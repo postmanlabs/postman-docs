@@ -36,19 +36,22 @@ To assign a current value, click ellipses (…) in the sidebar and select Edit t
 
 Click Variables in the Edit Collection screen to bring up the following screen:
 
-https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Collection_CurVal1.png
+[![edit collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Collection_CurVal1.png)
 
 The above interface enables you to specify a current value that is relevant to your local context only. However, Postman provides you an option to replace your initial value with the current value. As current values are never synced to the Postman’s servers, shared data like your ‘initial value’ remains always intact unless you choose to explicitly sync using the Persist option. 
 
 Let’s add another four variables Token2, Token3, Token4 and Token5, assign some current values to understand the behavior of variables and how they work in the overall Postman context. The variables and their assigned values now look like this:
 
-
-
+[![edit collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Collection_CurVal2.png)
 
 As you can see, the above interface contains five variables in total, with each having its current value. To persist your current value with the initial value, all you need to do is click Persist All. Clicking Persist All in the above screen results in populating the initial values with the current values for Token1, Token3, and Token5, as illustrated in the below screen.
 
+[![edit collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Collection_CurVal3.png)
+
+
 You can see Token1, Token3, and Token5 populated with their current values in the Initial value field. You can also see Token2 and Token4 are disabled tokens for which the Initial value field still has no value. It is because you will not be able to persist the current values even with Persist All option. 
 
+[](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Collection_CurVal3.png)
 
 To persist your current value with the initial value for the disabled tokens, point your cursor to the ellipses (…) and select Persist or Reset based on your need, as illustrated in the above screen. To delete the entire row, just click    . Reset All resets all the values.
 
@@ -74,15 +77,17 @@ To  quickly edit the environment variable, ensure your environment is selected i
 
 Click Quicklook to bring up the following screen:
 
-https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Env_Var5.png
+[![edit environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Env_Var5.png)
 
 Point your cursor to the current value of Token1 to enable the edit icon as shown below:
 
-https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Env_Var3.png
+[![edit icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Env_Var3.png)
 
 Clicking edit icon will make the current value field editable as follows:
 
 https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Env_Var4.png
+
+[![edit icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Env_Var4.png)
 
 Enter your current value. 
 
@@ -92,9 +97,11 @@ Select the corresponding environment in the Postman main screen and click Quickl
 
 https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Env_Var5.png
 
+[![edit environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Env_Var5.png)
+
 Click  button on top right corner (the  button at the bottom belongs to Global variables) to bring up the Manage Environment screen:
 
-https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env1.png
+[![manage envrionment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env1.png)
 
 Click the Current Value field and assign a value. 
 
@@ -102,11 +109,13 @@ Click the Current Value field and assign a value.
 
 Click the gear icon   in the Postman main screen to go to the screen below: 
 
-https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env2.png
+[![manage envrionment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env2.png)
 
 Click Globals button to bring up the Manage Environments screen as illustrated below. 
 
 https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env3.png
+
+[![manage envrionment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Manage_Env3.png)
 
 Go ahead and assign a current value. 
 
