@@ -8,7 +8,7 @@ _Note: The functionality described here is exclusive to Postman's native apps fo
 
 ### Global functions (pm.*)
 
-### require
+### require 
 
 **`require(moduleName:String):function → *`**
 
@@ -88,7 +88,7 @@ The `pm.sendRequest` function allows sending HTTP/HTTPS requests asynchronously.
 
 Some things to know about `pm.sendRequest()`:
 
-* The method accepts a collection SDK compliant request and a callback. The callback receives 2 arguments, an error (if any) and SDK compliant response.
+* The method accepts a collection SDK compliant request and a callback. The callback receives 2 arguments, an error (if any) and SDK compliant response. Click [Response JSON](http://www.postmanlabs.com/postman-collection/Request.html#~definition) to view more information.
 * It can be used in the pre-request or the test script.
 
 ```

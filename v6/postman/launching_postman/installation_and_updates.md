@@ -23,13 +23,34 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
 
 ##### **Windows installation**
 
-   *   Download the setup file
+   *   Download the setup file 
    *   Run the installer
+   
 
 ##### **Linux installation**
 
-   * Installation on Linux can vary between distributions. For installation on Ubuntu, download and unzip the file, then double click on Postman to open the app. 
+   * Installation on Linux can vary between distributions. For installation on Ubuntu, first download and unzip the file. And then create a desktop file by name postman.desktop. 
 
+   To create a desktop file, follow as illustrated below:
+
+   1. cat  > ~/.local/share/applications/postman.desktop
+      [Desktop Entry]<br>
+      Encoding=UTF-8<br>
+      Name=Postman<br>
+      Exec=postman<br>
+      Icon=/<Your_Install_Dir>/Postman/app/resources/app/assets/icon.png<br>
+      Terminal=false<br>
+      Type=Application<br>
+      Categories=Development;<br>
+
+   2. Check your desktop and double-click the Postman icon
+
+   **Note:** Ensure you specify the icon path as illustrated above. Postman introduced another folder 'app', one level up to the resources folder which did not exist earlier. 
+
+   If you are an Ubuntu 18 user, you must additionally install libconfig-2-4 package to ensure a smooth Postman run. This package, shipped by default until Ubuntu version 18 has been dropped, is mandatory for Postman run. Use the following command to install libconfig-2-4:
+
+   apt-get install libconfig-2-4
+  
 ### Postman Chrome app
 
 We recommend using the Postman native apps, but Postman is also available as a Chrome app. Read more about [why support for the Postman Chrome app is being deprecated](http://blog.getpostman.com/2017/03/14/going-native/).
@@ -38,7 +59,8 @@ The Postman Chrome app can only run on the Chrome browser. To use the Postman Ch
 
 If you already have Chrome installed, head over to [Postman’s page](https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop?hl=en){:target="_blank"} on the Chrome Web Store, and click ‘Add to Chrome’.
 
-The download should take a few minutes depending on your internet connection. Once you’ve downloaded the app, you can [launch Postman](/docs/v6/postman/launching_postman/installation_and_updates).
+The download should take a few minutes depending on your internet connection. Once you’ve downloaded the app, you can [launch Postman](https://www.getpostman.com/docs/v6/postman/launching_postman/installation_and_updates)
+.
 
 ### Differences between Chrome and native apps
 
@@ -60,7 +82,7 @@ The native apps are not restricted by the Chrome standards for the menu bar. Wit
 
 ##### **Restricted headers**
 
-The latest versions of the native apps let you send headers like Origin and User-Agent. These are [restricted](/docs/v6/postman/sending_api_requests/interceptor_extension) in the Chrome app. 
+The latest versions of the native apps let you send headers like Origin and User-Agent. These are [restricted](https://www.getpostman.com/docs/v6/postman/sending_api_requests/interceptor_extension#restricted-headers) in the Chrome app. 
 
 ##### **Don't follow redirects option**
 
@@ -68,7 +90,7 @@ This option exists in the native apps to prevent requests that return a 300-seri
 
 ##### **Postman console**
 
-The latest version of the native app also has a built-in [console](/docs/v6/postman/sending_api_requests/debugging_and_logs), which allows you to view the network request details for API calls.
+The latest version of the native app also has a built-in [console](https://www.getpostman.com/docs/v6/postman/sending_api_requests/debugging_and_logs#network-calls-with-postman-console), which allows you to view the network request details for API calls.
 
 ### **Migrating to the native app**
 

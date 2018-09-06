@@ -33,7 +33,7 @@ You can assign five types of variable scopes:
   
 You can view different kinds of buckets in which values reside. If a variable is in two different scopes, the scope with a higher priority wins and the variable gets its value from there. Postman resolves scopes using this hierarchy progressing from broad to narrow scope. 
 
-[![nested variable scopes](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/scopes.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/scopes.png)
+[![nested variable scopes](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Variables-Pic.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/scopes.png)
 
 If a variable from the currently active environment shares its name with a global variable, the environment variable will take priority. In other words, global variables are overridden by environment variables, which are overridden by [data variables](http://blog.getpostman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/){:target="_blank"} (only available in the [collection runner](/docs/v6/postman/collection_runs/starting_a_collection_run)).
 
