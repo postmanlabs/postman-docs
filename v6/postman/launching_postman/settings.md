@@ -19,11 +19,11 @@ Postman tries to minimize the number of settings you have to change, so we estab
    *   **SSL certificate verification** (native apps only): Prevents the app from checking validity of SSL certificates while making a request. 
    *   **Language detection:** Setting this to JSON will force a JSON rendering, irrespective of the response Content-Type header.
    *   **XHR Timeout in ms:** Set how long the app should wait for a response before saying that the server isn’t responding. A value of 0 indicates infinity - Postman will wait for a response forever.
-   *   **Automatically persist variable values:** Enabling this will persist the current value of variables to the initial value at the end of every request execution. For detailed information on how this feature works in tandem with another option, refer to the section [Keep Variable Values](/docs/v6/postman/collection_runs/using_environments_in_collection_runs){:target="_blank"} 
+   *   **Automatically persist variable values:** Enabling this will persist the current value of variables to the initial value at the end of every request execution. This option is by default off for new users. For old users upgrading to the newest versions, this option is turned on. These settings apply only when assigning current values using scripts, for instance pre-request or test scripts. For detailed information on how this feature works in tandem with another option, refer to the section [Keep Variable Values](/docs/v6/postman/collection_runs/using_environments_in_collection_runs){:target="_blank"} 
    *   **Editor Font Size:** Adjust the font size in pixels for the text that appears in Postman. Note that this setting impacts only the *Test Scripts, Pre-request Scripts, and Response Pretty View*
    *   **Two-pane view**: Toggle between showing the response below, or beside, the request.
    *   **Send no-cache header** (recommended): Sending a no-cache header makes sure you get the freshest response from your server.
-   *   **Send Postman Token header:** This is primarily used to bypass a bug in Chrome. If an XmlHttpRequest is pending and another request is sent with the same parameters then Chrome returns the same response for both of them. Sending a random token avoids this issue. This can also help you distinguish between request on the server side. 
+   *   **Send Postman Token header:** This is primarily used to bypass a bug in Chrome. If an XmlHttpRequest is pending and. another request is sent with the same parameters then Chrome returns the same response for both of them. Sending a random token avoids this issue. This can also help you distinguish between request on the server side. 
    *   **Retain headers when clicking on links:** If you click on a link in a response, Postman creates a new GET request with that URL. If you want to retain the headers that you set in the previous request set "ON" here. This is useful if you are accessing mainly protected resources.
    *   **Automatically follow redirects:** Prevent requests that return a 300-series response from being automatically redirected. 
    *   **Send anonymous usage data to Postman:** Option to disable sending basic anonymous usage data (button clicks and app events) to Postman. We use usage data to make Postman a better product.
@@ -63,11 +63,4 @@ Postman's native apps will notify you whenever a version update is available.  
 ### About
 
 This is where you can verify your current version of the Postman app. There are also some helpful support links to reference.
-
-##### **Auto-Persisting Variable Values**
-
-At Postman, we’ve always believed to empower users by giving total control in the way they want to use the tool. Using the auto persist feature in Postman Settings, you can choose to override your initial values with the current values automatically at the end of each request . To set this option On/Off, point to Settings button in the Postman’s main interface and select Settings to bring up the following screen: 
-
-[![autopersist values](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Auto-Persist1.png)
-
-In the Settings screen, click Automatically persist variable values option to turn on/off. This option is by default off for new users. For old users upgrading to the newest versions, this option is turned on. These settings apply only when assigning current values using scripts, for instance pre-request or test scripts.
+ 

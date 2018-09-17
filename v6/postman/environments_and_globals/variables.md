@@ -58,7 +58,7 @@ You can assign a current value when running your collection or a simple request 
   2.  Fetching a pre-defined variable: 
         *  Once a variable has been set, use the `pm.variables.get()` method or, alternatively, use the `pm.environment.get()` or `pm.globals.get()` method, depending on the appropriate scope to fetch the variable. The method requires the variable name as a parameter to retrieve the stored value in a script.
         
-        **Note**: When you specify a .get() method it always obtains the current value while .set() method modifies the current value. The way these variables work depends much on a setting in Postman ‘Automatically persist variable values’. (LINK  REQD)
+        **Note**: When you specify a .get() method it always obtains the current value while .set() method modifies the current value. The way these variables work depends much on a setting in Postman [Automatically persist variable values](/docs/v6/postman/launching_postman/settings){:target="_blank"}
         
   3.  Setting a variable in a scope: 
         *  Environment variables can be accessed with the corresponding environments. Collection variables can be accessed from a request within the collection. Global variables can be accessed broadly regardless of the selected environment.
