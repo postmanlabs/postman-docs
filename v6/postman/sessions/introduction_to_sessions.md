@@ -6,7 +6,7 @@ warning: false
 
 ### Introduction to Sessions
 
-Postman introduces Sessions with the prime objective of providing a more robust collaboration framework, increased flexibility in shared workspaces, an enriching user experience and a superior aspect of security. A Session in Postman is a transient layer that holds your variable values related to your current working instance by allowing you to work with certain variables that remain local to your individual scope. Sessions resolves few complications in relation to collaboration and teamwork due to sensitivity of data surrounding the variables.
+ A Session in Postman is a transient layer that holds your variable values related to your current working instance by allowing you to work with certain variables that remain local to your individual scope. Sessions resolves few complications in relation to collaboration and teamwork due to sensitivity of data surrounding the variables.
 
 Sessions in Postman brings a host of capabilities. Some of them are outlined below:
 
@@ -49,11 +49,11 @@ As you can see, the above interface contains five variables in total, with each 
 [![edit collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Collection_CurVal3.png)
 
 
-You can see Token1, Token3, and Token5 populated with their current values in the Initial value field. You can also see Token2 and Token4 are disabled tokens for which the Initial value field still has no value. It is because you will not be able to persist the current values even with Persist All option. 
+You can see Token1, Token3, and Token5 populated with their current values in the Initial value field. You can also see Token2 and Token4 are disabled variables for which the Initial value field still has no value. It is because you will not be able to persist the current values of disabled variables even with Persist All option. 
 
 [](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Collection_CurVal3.png)
 
-To persist your current value with the initial value for the disabled tokens, point your cursor to the ellipses (…) and select Persist or Reset based on your need, as illustrated in the above screen. To delete the entire row, just click    . Reset All resets all the values.
+To persist your current value with the initial value for the disabled variables, point your cursor to the ellipses (…) and select Persist or Reset based on your need, as illustrated in the above screen. To delete the entire row, just click    . Reset All resets all the values.
 
 **Note**: The Auto-Persist option does not work in the above context. For more information on Auto-Persist option, refer to the section [Auto persisting variable values](/docs/postman/launching_postman/settings)
 

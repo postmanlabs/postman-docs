@@ -52,12 +52,17 @@ By default, any variable changes in the environment (or globals) in the Collecti
 
 [![collection runner results](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58704076.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58704076.png)
 
-By default, `Persist Variables` is checked the first time you open the Collection Runner. If you do not want variables to be updated during the run, deselect the `Persist Variables` checkbox. 
+By default, `Keep Variable Values` is checked the first time you open the Collection Runner. If you do not want variables to be updated during the run, deselect the `Keep Variable Values` checkbox. 
 
 In this case, think of it as the Collection Runner saving the initial state of the environment (and globals), and restoring it after the run is complete. This action is useful when you reuse the same variables in your requests and want to run the same collection multiple times. It ensures the environment (and globals) state is not affected by a collection run.
 
-[![persist variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/runs_persist_variables.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/runs_persist_variables.png)
+[![keep variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/run_collection_run_keepvars.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/run_collection_run_keepvars.png)
 
+When you run a collection, Postman takes a layered approach in updating your current and initial values to protect your data. There are two options –  ‘Keep Values’ and ‘Automatically persist variable values’ that work in tandem with your variables to keep them the way you want. The behavior of these variables depends a lot on the way you set these two options in your settings. For a general understanding of inter-dependency of these settings, you may refer to the following flow chart. 
+
+[![keep vars](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Flow-Chart.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Flow-Chart.png)
+
+After running your collection, Postman first checks the setting ‘Keep Variable Values’. If it is off, it will stop. If it is on Postman updates your current values. Once Postman updates the current values, it will still check if Auto-Persist is on/off. If this option is off, Postman stops. If this option is ‘on’, it will update the initial values. 
 <br>
 <br>
 

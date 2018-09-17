@@ -51,16 +51,14 @@ Since variables in the request builder are accessed using string substitution, t
 
 ### Accessing variables through scripts
 
-You can also use variables in pre-request and test scripts. 
-
-Since these sections for scripts are written in JavaScript, you will initialize and retrieve these variables in a different manner. You can initialize variables in scripts and put them in a particular scope. 
+You can assign a current value when running your collection or a simple request and you also use variables in pre-request and test scripts. Since these sections for scripts are written in JavaScript, you will initialize and retrieve these variables in a different manner. You can initialize variables in scripts and put them in a particular scope. 
 
   1.  Defining an environment or global variable in a script: 
-        *  To set a variable in a script, use the `pm.environment.set()` method or `pm.globals.set()` method depending on the desired scope. The method requires the variable key and value as parameters to set the variable.  When you send the request, the script will be evaluated and the value will be stored as the variable. Note that [defining a collection variable](/docs/v6/postman/environments_and_globals/variables#defining-collection-variables) is a little different and can be done by editing the collection details.
+        *  To set a variable in a script, use the `pm.environment.set()` method or `pm.globals.set()` method depending on the desired scope. The method requires the variable key and value as parameters to set the variable. When you send the request, the script will be evaluated and the value will be stored as the variable. Note that [defining a collection variable](/docs/v6/postman/environments_and_globals/variables#defining-collection-variables) is a little different and can be done by editing the collection details.
   2.  Fetching a pre-defined variable: 
         *  Once a variable has been set, use the `pm.variables.get()` method or, alternatively, use the `pm.environment.get()` or `pm.globals.get()` method, depending on the appropriate scope to fetch the variable. The method requires the variable name as a parameter to retrieve the stored value in a script.
         
-        **Note**: When you specify a .get() method it always obtains the current value while .set() method modifies the current value. This depends on a setting in Postman ‘Automatically persist variable values’. 
+        **Note**: When you specify a .get() method it always obtains the current value while .set() method modifies the current value. The way these variables work depends much on a setting in Postman ‘Automatically persist variable values’. (LINK  REQD)
         
   3.  Setting a variable in a scope: 
         *  Environment variables can be accessed with the corresponding environments. Collection variables can be accessed from a request within the collection. Global variables can be accessed broadly regardless of the selected environment.
@@ -117,7 +115,7 @@ Quick Look is a quick preview feature that displays all your environment and glo
 
 Click the "eye" icon in the top right to toggle the display, or type the keyboard shortcut **(CMD/CTRL + ALT + E)**.
 
-[![quick look](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environ_quick-look_Updated.png)
+[![quick look](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environ_quick-look_Updated.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environ_quick-look_Updated.png)
 
 ### Autocomplete and tooltips for variables
 
@@ -125,12 +123,12 @@ Postman variables are very powerful, and two features - autocomplete and tool ti
 
 ##### **Autocomplete for variables**
 
-[![autocomplete for variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Autocomp_tooltips1.png)
+[![autocomplete for variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Autocomp_tooltips1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Autocomp_tooltips1.png)
 
 Type an open curly bracket to bring up the autocomplete menu. For the pre-request and test scripts section, which [uses the data editor](/docs/v6/postman/launching_postman/navigating_postman), entering the first letter of a variable triggers the autocomplete. The menu contains a list of all the variables in the current environment, followed by globals. Navigating through the list also shows the initial value, current value and scope for each variable, along with a feedback for overridden variables. The following screen displays selection of Token1 with its initial and current values and scope:
 
 ##### **Variable highlighting and tooltip on hover**
 
-[![variable highlighting and tooltips](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Autocomp_tooltips2.png)
+[![variable highlighting and tooltips](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Autocomp_tooltips2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Autocomp_tooltips2.png)
 
 Variables are highlighted in orange, with unresolved variables shown in red. Hovering over a variable shows its initial, and current value and the scope. If a variable is unresolved - i.e., no value in the current environment - the tooltip shows the appropriate feedback.
