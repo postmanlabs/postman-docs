@@ -36,13 +36,13 @@ To assign a current value, click ellipses (…) in the sidebar and select Edit t
 
 Click Variables in the Edit Collection screen to bring up the following screen:
 
-[![edit collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Collection_CurVal1.png)
+[![edit collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Collection_CurVal1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Collection_CurVal1.png)
 
 The above interface enables you to specify a current value that is relevant to your local context only. However, Postman provides you an option to replace your initial value with the current value. As current values are never synced to the Postman’s servers, shared data like your ‘initial value’ remains always intact unless you choose to explicitly sync using the Persist option. 
 
 Let’s add another four variables Token2, Token3, Token4 and Token5, assign some current values to understand the behavior of variables and how they work in the overall Postman context. The variables and their assigned values now look like this:
 
-[![edit collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Collection_CurVal2.png)
+[![edit collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Collection_CurVal2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Collection_CurVal2.png)
 
 As you can see, the above interface contains five variables in total, with each having its current value. To persist your current value with the initial value, all you need to do is click Persist All. Clicking Persist All in the above screen results in populating the initial values with the current values for Token1, Token3, and Token5, as illustrated in the below screen.
 
@@ -51,11 +51,11 @@ As you can see, the above interface contains five variables in total, with each 
 
 You can see Token1, Token3, and Token5 populated with their current values in the Initial value field. You can also see Token2 and Token4 are disabled variables for which the Initial value field still has no value. It is because you will not be able to persist the current values of disabled variables even with Persist All option. 
 
-[](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Collection_CurVal3.png)
+[![edit collection2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Collection_CurVal3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Edit_Collection_CurVal3.png)
 
-To persist your current value with the initial value for the disabled variables, point your cursor to the ellipses (…) and select Persist or Reset based on your need, as illustrated in the above screen. To delete the entire row, just click    . Reset All resets all the values.
+To persist your current value with the initial value for the disabled variables, point your cursor to the ellipses (…) and select Persist or Reset based on your need, as illustrated in the above screen. To delete the entire row, just click 'x'. Reset All resets all the values.
 
-**Note**: The Auto-Persist option does not work in the above context. For more information on Auto-Persist option, refer to the section [Auto persisting variable values](/docs/postman/launching_postman/settings)
+**Note**: The Auto-Persist option does not work in the above context. For more information on Auto-Persist option, refer to the section [Auto persisting variable values](/docs/v6/postman/launching_postman/settings){:target="_blank"} 
 
 ##### **Editing Environment and Global Variables**
 

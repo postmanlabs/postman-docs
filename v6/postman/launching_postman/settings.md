@@ -19,7 +19,7 @@ Postman tries to minimize the number of settings you have to change, so we estab
    *   **SSL certificate verification** (native apps only): Prevents the app from checking validity of SSL certificates while making a request. 
    *   **Language detection:** Setting this to JSON will force a JSON rendering, irrespective of the response Content-Type header.
    *   **XHR Timeout in ms:** Set how long the app should wait for a response before saying that the server isn’t responding. A value of 0 indicates infinity - Postman will wait for a response forever.
-   *   **Automatically persist variable values:** Enabling this will persist the current value of variables to the initial value at the end of every request execution. For detailed information on how this feature works in tandem with another option, refer to the section [Keep Variable Values](/docs/postman/collection_runs/using_environments_in_collection_runs)
+   *   **Automatically persist variable values:** Enabling this will persist the current value of variables to the initial value at the end of every request execution. For detailed information on how this feature works in tandem with another option, refer to the section [Keep Variable Values](/docs/v6/postman/collection_runs/using_environments_in_collection_runs){:target="_blank"} 
    *   **Editor Font Size:** Adjust the font size in pixels for the text that appears in Postman. Note that this setting impacts only the *Test Scripts, Pre-request Scripts, and Response Pretty View*
    *   **Two-pane view**: Toggle between showing the response below, or beside, the request.
    *   **Send no-cache header** (recommended): Sending a no-cache header makes sure you get the freshest response from your server.
