@@ -59,6 +59,7 @@ Since these sections for scripts are written in JavaScript, you will initialize 
         *  To set a variable in a script, use the `pm.environment.set()` method or `pm.globals.set()` method depending on the desired scope. The method requires the variable key and value as parameters to set the variable.  When you send the request, the script will be evaluated and the value will be stored as the variable. Note that [defining a collection variable](/docs/v6/postman/environments_and_globals/variables#defining-collection-variables) is a little different and can be done by editing the collection details.
   2.  Fetching a pre-defined variable: 
         *  Once a variable has been set, use the `pm.variables.get()` method or, alternatively, use the `pm.environment.get()` or `pm.globals.get()` method, depending on the appropriate scope to fetch the variable. The method requires the variable name as a parameter to retrieve the stored value in a script.
+        
         **Note**: When you specify a .get() method it always obtains the current value while .set() method modifies the current value. This depends on a setting in Postman ‘Automatically persist variable values’. 
         
   3.  Setting a variable in a scope: 

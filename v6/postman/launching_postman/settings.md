@@ -19,6 +19,7 @@ Postman tries to minimize the number of settings you have to change, so we estab
    *   **SSL certificate verification** (native apps only): Prevents the app from checking validity of SSL certificates while making a request. 
    *   **Language detection:** Setting this to JSON will force a JSON rendering, irrespective of the response Content-Type header.
    *   **XHR Timeout in ms:** Set how long the app should wait for a response before saying that the server isn’t responding. A value of 0 indicates infinity - Postman will wait for a response forever.
+   **Automatically persist variable values:** Enabling this will persist the current value of variables to the initial value at the end of every request execution. For detailed information on this feature, refer to the section [Autopersisting Variable Values]
    *   **Editor Font Size:** Adjust the font size in pixels for the text that appears in Postman. Note that this setting impacts only the *Test Scripts, Pre-request Scripts, and Response Pretty View*
    *   **Two-pane view**: Toggle between showing the response below, or beside, the request.
    *   **Send no-cache header** (recommended): Sending a no-cache header makes sure you get the freshest response from your server.
@@ -62,3 +63,11 @@ Postman's native apps will notify you whenever a version update is available.  
 ### About
 
 This is where you can verify your current version of the Postman app. There are also some helpful support links to reference.
+
+##### **Auto-Persisting Variable Values**
+
+At Postman, we’ve always believed to empower users by giving total control in the way they want to use the tool. Using the auto persist feature in Postman Settings, you can choose to override your initial values with the current values automatically at the end of each request . To set this option On/Off, point to Settings button in the Postman’s main interface and select Settings to bring up the following screen: 
+
+[![autopersist values](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Auto-Persist1.png)
+
+In the Settings screen, click Automatically persist variable values option to turn on/off. This option is by default off for new users. For old users upgrading to the newest versions, this option is turned on. These settings apply only when assigning current values using scripts, for instance pre-request or test scripts.
