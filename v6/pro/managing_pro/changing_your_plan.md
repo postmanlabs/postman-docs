@@ -20,9 +20,9 @@ If you’re on the annual subscription of Postman Pro, you can:
 
 ### Changing your plan
 
-Click the **Change Plan** button. 
+To change your plan, click ellipsis (...) adjacent to 'Add User Slots' button and select 'Change Plan' option, as illustrated below:
 
-[![change plan button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/currentPlan-monthly.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/currentPlan-monthly.png)
+[![change plan](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add-User-Slots.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add-User-Slots.png)
 
 You can change the billing cycle of your subscription and the size of your Pro team. Your team size cannot be less than the number of users already in your Pro team.
 
@@ -37,12 +37,6 @@ If you’ve opted to switch to an annual subscription, your saved credit card is
 If you’ve increased your team size, your next invoice includes the charge for new users for the remainder of the month (users added * number of days remaining till billing date /30 * cost of plan), with the charge for your new team size. 
 
 If you’ve decreased your team size, your next invoice reflects the new team size.
-
-### Canceling your plan
-
-Click the ellipses (...) next to the **Add User Slots** button, and then select “Cancel Plan”.
-
-In the Cancel Plan page, indicate why you want to cancel. Then click the **Cancel Current Plan** button, or even better, click the **I’ve changed my mind** button.
 
 ### Pro (Annual)
 
@@ -74,9 +68,11 @@ If you do not have a credit card on file, click the “Payment Methods” link i
 
 Click the ellipses (...) next to the **Add User Slots** button, and then select “Set instructions for the next billing cycle”.
 
-In the Instructions page, click the **Edit Standing Instructions** button.
+To change the cycle, click Edit Standing Instructions to view the following screen: 
 
-[![annual set instructions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-setInstructions-annual.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-setInstructions-annual.png)
+[![billing cycle2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Set-Bill-Cycle2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Set-Bill-Cycle2.png)
+
+Click the arrow highlighted in red to select your billing preference and proceed accordingly.
 
 In the dropdown menu, you can select “Continue on the same plan”, “Switch plan”, or “Cancel plan”.
 

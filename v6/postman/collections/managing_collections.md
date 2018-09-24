@@ -57,15 +57,23 @@ If you have a lot of collections, filter collections in the sidebar using the se
 
 ### Delete a collection
 
-Click the ellipsis (...)next to a collection, and select "Delete". If you didn't intend to delete the collection, you can click the **Undo** link in the notification that appears at the top of the Postman app.
+Click the ellipsis (...)next to a collection, and select "Delete". If you didn't intend to delete the collection, you can click the **Undo** link in the notification that appears at the top of the Postman app. 
 
 [![confirmation message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-delete-collections+copy.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-delete-collections+copy.png)
 
 ### Recover a collection
 
-Collections deleted within the past 90 days can be recovered via your [web dashboard](https://app.getpostman.com/){:target="_blank"} by clicking your avatar icon in the upper-right corner, then selecting `Trash` from the drop-down menu. Locate the desired collection, hover your cursor over its row, then click `Restore`. 
+Collections deleted can be recovered via your [web dashboard](https://app.getpostman.com/){:target="_blank"} by clicking your avatar icon in the upper-right corner, then selecting `Trash` from the drop-down menu. Locate the desired collection, hover your cursor over its row, then click `Restore`. 
 
-If the collection was deleted within the past 90 days and is not listed as recoverable, it is possible it was removed from a workspace rather than deleted. To check, navigate back to the main page of the web dashboard, then click `View all collections`. If listed, you can click on its share icon to move it back into a personal or shared workspace.
+**Note:** Postman offers different recovery plans for Free, Pro and Enterprise users. 
+
+* If you have a Postman Free license, you can recover your one-day old collections. 
+
+* If you have a Postman Pro license you get 15 days to recover your collections. 
+
+* If you have a Postman Enterprise license, you will get 30 days to recover your collections. 
+
+If your collection seems deleted and you are not able to recover from your deleted collections list, it is possible it is removed from a workspace rather than deleted. To check, navigate back to the main page of the web dashboard, then click `View all collections`. If listed, you can click on its share icon to move it back into a personal or shared workspace.
 
 If you'd like to revert your collection to a previous state, you can do so by leveraging the collection's in-app [activity feed](/docs/v6/postman/team_library/activity_feed_and_restoring_collections){:target="_blank"}.
 
