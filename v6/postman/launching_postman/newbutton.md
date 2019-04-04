@@ -15,7 +15,7 @@ You can use the **New** button to initiate:
 * [Documentation](#documentation)
 * [Mock_servers](#mock_servers)
 
-The **New** button also provides access to [templates](#templates) and the [API_network](#API_network).
+The **New** button also provides access to [templates](#templates) and the [API_network](#api_network).
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headerToolbar-blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headerToolbar-blk.png)
 
