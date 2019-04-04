@@ -25,7 +25,7 @@ Optionally, you can pick from a list of verified [custom domains](/docs/postman/
 [![custom domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-custom-domains.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-custom-domains.png)
 
 
-To share your API documentation with your users and the rest of the Postman community, select 'Add to API Network' radio button to allow others to discover your API through the [Postman API Network](/docs/v6/postman/launching_postman/newbutton#API-Network). To make your APIs part of the Postman [Templates](/docs/v6/postman/launching_postman/newbutton#templates), select the radio button 'Add to Postman Templates', as illustrated below.  
+To share your API documentation with your users and the rest of the Postman community, select 'Add to API Network' radio button to allow others to discover your API through the [Postman API Network](/docs/postman/launching_postman/newbutton#API-Network). To make your APIs part of the Postman [Templates](/docs/postman/launching_postman/newbutton#templates), select the radio button 'Add to Postman Templates', as illustrated below.  
 
 [![api network checkbox](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-checkbox.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network-checkbox.png)
 
