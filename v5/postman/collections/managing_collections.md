@@ -44,7 +44,7 @@ If you have a lot of collections, filter collections in the sidebar using the se
 
 ##### **Delete a collection**
 
-Click the ellipses (...)next to a collection, and select "Delete". If you didn't intend to delete the collection, you can click the **Undo** link in the notification that appears at the top of the Postman app.
+Click the ellipsis (...)next to a collection, and select "Delete". If you didn't intend to delete the collection, you can click the **Undo** link in the notification that appears at the top of the Postman app.
 
 [![confirmation message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154076.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154076.png)
 
@@ -72,7 +72,7 @@ Requests stored inside a collection can contain [scripts](/docs/postman/scripts/
 
 ### Adding folders
 
-Folders are a way to organize your API endpoints within a collection into intuitive and logical groups to mirror your workflow. Next to the collection to which you want to add a folder, click on the ellipses (...) and select "Add Folder".
+Folders are a way to organize your API endpoints within a collection into intuitive and logical groups to mirror your workflow. Next to the collection to which you want to add a folder, click on the ellipsis (...) and select "Add Folder".
 
 [![add folder from dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-addFolderDropdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-addFolderDropdown.png)
 
