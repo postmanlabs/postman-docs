@@ -9,7 +9,7 @@
 ### Project Structure
 
 There are 2 independent versions of docs currently in the project (v5 and v6)
-`www.getpostman/docs` is redirected to `www.getpostman/docs/v6/`
+`www.getpostman.com/docs` is redirected to `learning.getpostman.com/docs/`
 
 *To update v6 (same procedure to update v5):*
 
