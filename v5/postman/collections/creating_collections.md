@@ -161,7 +161,7 @@ The  **Create New** tab appears by default when you launch Postman.
 ### Duplicating an existing collection
 
 1.  In the sidebar, select "Collections".
-2. Click the ellipses (...) to expand the control dropdown.   
+2. Click the ellipsis (...) to expand the control dropdown.   
    
 [![collection ellipses](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)
 
