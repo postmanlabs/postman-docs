@@ -6,7 +6,7 @@ warning: false
 
 **NOTE**: **Team Library is only available for versions 5.0 and below.**
 
-An activity feed is a list of CUD (Create, Update, Delete) events that displays updates to a Postman collection in an interactive interface. You can use the activity feed to keep track of changes to your private and team collections by different users across the team. 
+A Changelog is a list of CUD (Create, Update, Delete) events that displays updates to a Postman collection in an interactive interface. You can use the activity feed to keep track of changes to your private and team collections by different users across the team. 
 
 The activity feed also lets you rollback a collection and restore it to any previous point in time. 
 
