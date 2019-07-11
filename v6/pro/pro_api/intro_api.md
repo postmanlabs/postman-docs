@@ -45,4 +45,4 @@ API access rate limits are applied at a per-key basis in unit time. Access to th
 
 ### Free API calls with your Postman account
 
-Your Postman account gives you a limited number of free Postman API calls per month. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com) itself or the [account usage page](https://go.pstmn.io/postman-account-limits).
+Your Postman account gives you a limited number of free Postman API calls per month. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com) itself or the [account usage page](https://go.pstmn.io/postman-account-limits). 
