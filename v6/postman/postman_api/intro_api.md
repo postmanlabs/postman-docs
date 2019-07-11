@@ -11,7 +11,7 @@ You can add new collections, update existing collections, update environments, o
 
 The easiest way to start with the API is to click the **Run in Postman** button at the top of the [Postman API documentation page](https://docs.api.getpostman.com/) and use the Postman app to send requests.
 
-### Postman API overview
+## Postman API overview
 
 You need to know three important points about the Postman API:
 
