@@ -125,8 +125,6 @@ After you login to your Okta account, perform the following steps:
 
 
 
-
-
     Navigate to your Okta account. Go to the **Sign On** tab and click **Edit**.  
 
      [![details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-New-Integ3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-New-Integ3.png)
