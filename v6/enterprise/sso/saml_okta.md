@@ -69,7 +69,7 @@ For the Encryption Certificate, upload the encryption file in the **Encryption C
   
 9. Move over to the **Sign On** tab, and click the **View Setup Instructions** button.
 
-[![okta sign on](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/okta_sign_on.png (https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/okta_sign_on.png)
+[![okta sign on](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/okta_sign_on.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/okta_sign_on.png)
 
 The **View Setup Instructions** screen comes populated with values that you should copy and paste in the **Identity Provider Details** section. 
 
