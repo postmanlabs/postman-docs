@@ -115,27 +115,15 @@ After you login to your Okta account, perform the following steps:
  
 
 4. Now, go to the Postman [Edit Team Details](https://go.postman.co/settings/team/general) page. To update the identity provider details, navigate to *Authentication -> <My_Okta_Integration_Name>* and click **Edit**. Next, click **Proceed**. Ensure, you are in the following screen after the completion of this step:
+[![details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-IDP-Details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-identity-provider-details.png)
+Now, download the encryption certificate by clicking **Download as file** link (shown in red circle). You will upload this later in the **Okta SAML** configuration section, which is explained below:
 
-    [![details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-IDP-Details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-identity-provider-details.png)
-
-    
-
-
-    Now, download the encryption certificate by clicking **Download as file** link (shown in red circle). You will upload this later in the **Okta SAML** configuration section, which is explained below.
-
-
-
-
-
-    Navigate to your Okta account. Go to the **Sign On** tab and click **Edit**.  
-
-     [![details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-New-Integ3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-New-Integ3.png)
-
-     The following screen opens:
-
-     [![details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-New-Integ4.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-New-Integ4.png)
-     
-     Click **Browse** and upload the encryption certificate. Click **Save**.
+Navigate to your Okta account. Go to the **Sign On** tab and click **Edit**.
+[![details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-New-Integ3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-New-Integ3.png)
+The following screen opens:
+[![details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-New-Integ4.png
+(https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-New-Integ4.png)
+Click **Browse** and upload the encryption certificate. Click **Save**.
 
  5. Move over to the **Sign On** tab, and click the **View Setup Instructions** button.
 
