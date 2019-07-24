@@ -77,7 +77,22 @@ This section describes the following topics:
 
 #### Adding a mock server
 
-You can link mock servers running on a collection to an API. In the **Develop** tab, click **Add a mock server**. The following screen opens:
+You can link mock servers running on a collection to an API. From the **Develop** tab, you can either create a new mock server or add an existing mock server. This section describes the following two topics:
+
+* [Create new mock server]()
+
+* [Add existing mock server]()
+
+
+
+
+
+
+
+
+
+
+The following screen opens:
 
 [![api add mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-AddMock1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-AddMock1.png)
 
