@@ -79,20 +79,34 @@ This section describes the following topics:
 
 You can link mock servers running on a collection to an API. From the **Develop** tab, you can either create a new mock server or add an existing mock server. This section describes the following two topics:
 
-* [Create new mock server]()
+* [Creating new mock server](#creating-new-mock-server)
 
-* [Add existing mock server]()
-
-
+* [Adding existing mock server](#adding-existing-mock-server)
 
 
+##### Creating new mock server
 
-
-
+From the **Develop** tab, click **Add Mock Server**. 
 
 
 
-The following screen opens:
+In the above screen, select **Create new mock server**. The following screen appears:
+
+
+
+
+
+
+
+
+##### Adding existing mock server
+
+From the **Develop** tab, click **Add Mock Server**. 
+
+
+
+In the above screen, select **Add existing mock server**. The following screen appears:
+
 
 [![api add mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-AddMock1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-AddMock1.png)
 
@@ -103,7 +117,6 @@ The mock server is now added to the API and appears as illustrated below:
 [![api add mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-AddMock1-VersionTag.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-AddMock1-VersionTag.png)
 
 To understand how versioning influences mock servers, refer to the section
-
 [Versioning an API](/docs/v6/postman/design_and_develop_apis/versioning_an_api).
 
 To add a mock server to a specific version of your collection, refer to the section [Setting up a mock server](/docs/v6/postman/mock_servers/setting_up_mock)
