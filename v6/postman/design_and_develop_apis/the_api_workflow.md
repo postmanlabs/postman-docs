@@ -88,10 +88,13 @@ You can link mock servers running on a collection to an API. From the **Develop*
 
 From the **Develop** tab, click **Add Mock Server**. 
 
-
+[![add existing mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Mock-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Mock-1.png)
 
 In the above screen, select **Create new mock server**. The following screen appears:
 
+[![add existing mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Mock-2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Mock-2.png)
+
+Click **Generate collection from schema** to create a mock server on the collection you generated from your schema. Specify a name in **Name your collection** field and click **Generate collection and continue**. 
 
 
 
@@ -103,7 +106,7 @@ In the above screen, select **Create new mock server**. The following screen app
 
 From the **Develop** tab, click **Add Mock Server**. 
 
-
+[![add existing mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Mock-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Mock-1.png)
 
 In the above screen, select **Add existing mock server**. The following screen appears:
 
