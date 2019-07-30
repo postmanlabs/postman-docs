@@ -69,13 +69,19 @@ You can link collections or your collection revisions to an API or specific vers
 
 ### Adding version tag to a collection
 
-To link a collection to an API version, navigate to the **Collections** tab in the sidebar, expand the arrow (&#9656;) to show the details view for the collection, go to the **Changelog** tab, select a collection that you want to tag and click **Add Version Tag**. From the list, select a corresponding API version. The following screen illustrates adding a version tag to an API:
+To link a collection to an API version, navigate to the **Collections** tab in the sidebar, expand the arrow (&#9656;) to show the details view for the collection, go to the **Changelog** tab, select a collection that you want to tag and click **Add Version Tag**. The following screen opens:
+
+ADD screen here....
+
+In the above screen, select an API, choose the version you want to tag to this collection and then link it as documentation, a test suite etc. 
+
+The following screen illustrates adding a version tag to an API:
 
 [![api link collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collections-vTag.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collections1.gif)
 
 You will also be able to add version tags to your collections from the Postman web dashboard. The following screen illustrates this:
 
-[![api link collections2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Version-to-Collection2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collections2.png)
+[![api link collections2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Version-to-Collection2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Version-to-Collection2.png)
 
 
 ### Updating version tags with API version changes
