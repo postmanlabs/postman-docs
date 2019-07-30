@@ -24,10 +24,10 @@ Postman redirects the user to the configured Identity Provider. Here, for exampl
 
 [![G-Suite login](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59036889.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59036889.png)  
 
-Once you login after a successful authorization, Postman will take you to its sign in screen again:
+Once you login after a successful authorization from your IDP, Postman will take you to the following screen:
 
 [![postma sign-in](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Postman_SignIn_Screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Postman_SignIn_Screen.png)
 
-Enter your Postman credentials again to login to Postman via your security provider. 
+Enter your Postman credentials to link your IDP account to with Postman credentials. 
 
-**Note:** First, Postman used your credentials to verify account ownership and link the Postman account to the account of your security provider, say for instance, Okta. Postman prompts you to sign in again to actually let you login securely through your security provider.
+**Note:** First, Postman used your credentials to verify account ownership and link the Postman account to the account of your IDP, say for instance, Okta. Postman prompts you to sign in again to actually let you login securely through your security provider.
