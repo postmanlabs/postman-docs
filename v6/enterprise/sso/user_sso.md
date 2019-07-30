@@ -23,3 +23,11 @@ After a team admin has enabled single sign-on (**SSO**) for Postman, users can 
 Postman redirects the user to the configured Identity Provider. Here, for example, the **G-Suite** Login screen.  
 
 [![G-Suite login](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59036889.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59036889.png)  
+
+Once you login after a successful authorization, Postman will take you to its sign in screen again:
+
+[![postma sign-in](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Postman_SignIn_Screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Postman_SignIn_Screen.png)
+
+Enter your Postman credentials again to login to Postman via your security provider. 
+
+**Note:** First, Postman used your credentials to verify account ownership and link the Postman account to the account of your security provider, say for instance, Okta. Postman prompts you to sign in again to actually let you login securely through your security provider.
