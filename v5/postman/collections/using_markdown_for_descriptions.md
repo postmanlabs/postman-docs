@@ -7,7 +7,7 @@ warning: false
 
 Postman supports [Markdown](/docs/postman/api_documentation/how_to_document_using_markdown) as a way to style text descriptions for [requests](/docs/postman/sending_api_requests/requests), [collections](/docs/postman/collections/creating_collections), and [folders](/docs/postman/collections/managing_collections) in collections. You can also embed screenshots and other images for more descriptive flair.
 
-For more information about Markdown, review the [reference for using Markdown](https://documenter.getpostman.com/view/33232/markdown-in-api-documentation/JsGc){:target="_blank"} for API documentation. 
+For more information about Markdown, review the [reference for using Markdown](https://documenter.getpostman.com/view/33232/markdown-in-api-documentation/JsGc) for API documentation. 
 
 Postman renders Markdown in your Workspace, and in public or internal API documentation.
 

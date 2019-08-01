@@ -13,7 +13,7 @@ The Run in Postman button imports and opens a collection of API endpoints direct
 
 To create the Run in Postman button, start in the Postman app. Make sure you are signed in to your Postman account, and that you have a collection to share.
 
-1.  Click on the ellipses **(...)** next to the collection you would like to embed and select "Share". 
+1.  Click on the ellipsis **(...)** next to the collection you would like to embed and select "Share". 
 
     [![share collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/shareCollectionDropdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/shareCollectionDropdown.png)
 

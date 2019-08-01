@@ -9,15 +9,15 @@ warning: false
 
 When you sign up for a free Postman account, you can:
 
-   *   [Sync](/docs/v6/postman/launching_postman/syncing){:target="_blank"} and back up your history, collections, environments, and header presets.
+   *   [Sync](/docs/v6/postman/launching_postman/syncing) and back up your history, collections, workspaces, environments, and header presets.
    *   Easily work on multiple Postman instances from different machines.
-   *   Create [collection links](/docs/v6/postman/collections/sharing_collections){:target="_blank"} to send to other developers.
+   *   Create [collection links](/docs/v6/postman/collections/sharing_collections) to send to other developers.
 
-Signing up is completely optional. Read our [EULA](https://www.getpostman.com/licenses/postman_base_app){:target="_blank"}, [security page](https://www.getpostman.com/security){:target="_blank"}, and [privacy page](https://www.getpostman.com/licenses/privacy){:target="_blank"} to learn more.
+Signing up is completely optional. Read our [EULA](https://www.getpostman.com/licenses/postman_base_app), [security page](https://www.getpostman.com/security), and [privacy page](https://www.getpostman.com/licenses/privacy) to learn more.
 
 ### Signing up for a Postman account
 
-If you haven't already, [download](https://www.getpostman.com/apps){:target="_blank"} the Postman app.
+If you haven't already, [download](https://www.getpostman.com/downloads/) the Postman app.
 
 Launch the app, and see a prompt to log in or sign up.
     [![log in page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59135838.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59135838.png)  
@@ -27,7 +27,7 @@ Sign up with your email address or your Google account.
 
 Confirm your email.
 
-Once you are logged in, you will see the **SYNC** icon in the header bar. When the icon is orange it indicates that you are connected to our servers and your work is backed up. Postman will inform you if the sync is interrupted and automatically try to re-establish the connection. Postman uses WebSockets for real-time [syncing](/docs/v6/postman/launching_postman/syncing){:target="_blank"}. If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us){:target="_blank"}.
+Once you are logged in, you will see the **SYNC** icon in the header bar. When the icon is orange it indicates that you are connected to our servers and your work is backed up. Postman will inform you if the sync is interrupted and automatically try to re-establish the connection. Postman uses WebSockets for real-time [syncing](/docs/v6/postman/launching_postman/syncing). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us).
 
 [![header bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/postman+header+sync+5-10-18.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/postman+header+sync+5-10-18.png)
 
@@ -62,7 +62,7 @@ To switch back to your previous account, click on the account user name in the d
 
 #### How to switch accounts in the Postman web view
 
-When you sign in to the [Dashboard]({{site.pm.gs}}/dashboard){:target="_blank"}, you see your profile image on the top right hand corner of the screen.  
+When you sign in to the [Dashboard](https://go.postman.co/me/collections), you see your profile image on the top right hand corner of the screen.  
 
 To sign in to another account, click the **Add a new account** button at the bottom of the drop down menu.
 
@@ -75,15 +75,14 @@ To switch back to your previous account, click on the account user name in the d
 
 ### Security policies and standards
 
-Postman uses several technologies to ensure that your data is safe and secure. For more details, visit our [security page](https://www.getpostman.com/security){:target="_blank"}.
+Postman uses several technologies to ensure that your data is safe and secure. For more details, visit our [security page](https://www.getpostman.com/security).
 
    *   Communication with Postman servers only happens through HTTPS and Secure WebSockets.
    *   Environment and global variables are encrypted so that only you can view them.
-   *   You can turn off sync any time and still use Postman.
 
 ### Forgot your username or password?
 
-You can recover your username or reset your password from the [**Sign In**](https://identity.getpostman.com/login){:target="_blank"} page. 
+You can recover your username or reset your password from the [**Sign In**](https://identity.getpostman.com/login)page. 
 
 In the Sign In page, click “Trouble signing in?”.
 
@@ -99,7 +98,7 @@ Check your email for instructions to recover your username or password.
 
 You can customize your Postman account with a profile picture that shows your username throughout the Postman dashboard.
 
-In [Postman web](https://www.getpostman.com/){:target="_blank"}, click the **Dashboard** button, and then click the "Settings" icon. You must be signed in to see the **Dashboard** button.
+In [Postman web](https://www.getpostman.com/), click the **Dashboard** button, and then click the "Settings" icon. You must be signed in to see the **Dashboard** button.
 
 [![settings icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/settings-icon.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/settings-icon.png)
 

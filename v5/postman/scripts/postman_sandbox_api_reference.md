@@ -14,18 +14,18 @@ _Note: The functionality described here is exclusive to Postman's native apps fo
 **`require(moduleName:String):function → *`**
 
 The `require` function allows you to use the sandbox built-in library modules. The list of available libraries are listed below. The list links to their corresponding documentation.
-1. [atob](https://www.npmjs.com/package/atob){:target="_blank"} → v2.0.3
-1. [btoa](https://www.npmjs.com/package/btoa){:target="_blank"} → v1.1.2
-1. [chai](http://chaijs.com/){:target="_blank"} → v3.5.0
-1. [cheerio](https://cheerio.js.org/){:target="_blank"} → v0.22.0
-1. [crypto-js](https://www.npmjs.com/package/crypto-js){:target="_blank"} → v3.1.9-1
-1. [csv-parse/lib/sync](http://csv.adaltas.com/parse){:target="_blank"} → 1.2.1
-1. [lodash](https://lodash.com/){:target="_blank"} → v4.17.4 (when used with require, the inbuilt `_` object is for v3.10.1)
-1. [moment](http://momentjs.com/docs/){:target="_blank"} → v2.18.1 (sans locales)
-1. [postman-collection](http://www.postmanlabs.com/postman-collection/){:target="_blank"} → v1.2.0
-1. [tv4](https://github.com/geraintluff/tv4){:target="_blank"} → v1.2.7
-1. [uuid](https://www.npmjs.com/package/uuid){:target="_blank"} → (the module loaded is a shim for original module)
-1. [xml2js](https://www.npmjs.com/package/xml2js){:target="_blank"} → 0.4.19
+1. [atob](https://www.npmjs.com/package/atob) → v2.0.3
+1. [btoa](https://www.npmjs.com/package/btoa) → v1.1.2
+1. [chai](http://chaijs.com/) → v3.5.0
+1. [cheerio](https://cheerio.js.org/) → v0.22.0
+1. [crypto-js](https://www.npmjs.com/package/crypto-js) → v3.1.9-1
+1. [csv-parse/lib/sync](http://csv.adaltas.com/parse) → 1.2.1
+1. [lodash](https://lodash.com/) → v4.17.4 (when used with require, the inbuilt `_` object is for v3.10.1)
+1. [moment](http://momentjs.com/docs/) → v2.18.1 (sans locales)
+1. [postman-collection](http://www.postmanlabs.com/postman-collection/) → v1.2.0
+1. [tv4](https://github.com/geraintluff/tv4) → v1.2.7
+1. [uuid](https://www.npmjs.com/package/uuid) → (the module loaded is a shim for original module)
+1. [xml2js](https://www.npmjs.com/package/xml2js) → 0.4.19
 
 A number of NodeJS modules are also available:
 1. path

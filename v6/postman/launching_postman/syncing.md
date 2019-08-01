@@ -22,16 +22,16 @@ These entities can sync with our server and be saved to the cloud:
    *   Environment variables
    *   Global variables
    *   Collection run results
+   *   Workspaces
+   *   History
 
 ### How do I Sync between computers?
 
-Install the [Postman app]({{site.pm.root}}/apps){:target="_blank"} and sign in with the same email address or username on all your devices. 
+Install the [Postman app](https://www.getpostman.com/downloads/) and sign in with the same email address or username on all your devices. 
 
 If you forget your username or password, you can recover your username and reset your password when you click the links near the signin prompt. 
 
-If you have sync enabled, all the data you now create (or have created in the past) syncs across all your devices.
-
-Postman automatically makes sure your data is the same no matter where you access it. No further settings are required.
+Once you log in to Postman app, your data gets synced across all devices. Postman automatically ensures your data is the same no matter from where you access. No further settings are required.
 
 **Note:** Postman restricts parallel usage to three apps per account.
 
@@ -56,10 +56,12 @@ Don’t worry, Postman restores all your data from the cloud when you sign in, a
 
 When you reload the app, Postman automatically retrieves the most recent and up-to-date version of your collections.
 
+**Note:** If you don't intend to sync, you must export your data and then signout. However, if you need to delete already synced data, then you must delete your account. Note that you must leave the team first in order for you to delete your account. If you are a member of a team, click [here](https://go.postman.co/team) to exit the team.  
+
 ### Deleting your Postman account
 
-If you have a Postman account, are not currently part of a paid Postman Pro or Enterprise team, and have never participated in a Postman Pro trial team, you can [delete your account]({{site.pm.gs}}/dashboard/profile){:target="_blank"}. 
+If you have a Postman account and are not part of a Postman team, you can [delete your account](https://go.postman.co/settings/me). 
 
-Otherwise, you can contact us at [{{site.pm.help_email}}](mailto:{{site.pm.help_email}}).
+Otherwise, you can contact us at [help@getpostman.com](mailto:help@getpostman.com).
 
 [![delete account](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-syncing-deleteAccount.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-syncing-deleteAccount.png)

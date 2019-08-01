@@ -9,7 +9,7 @@ tags:
 warning: false
 ---
 
-Postman's [native apps](http://www.getpostman.com/apps) provide a Cookie Manager that lets you edit cookies that are associated with each domain. To open the Cookie Manager, click the 'Manage Cookies' link under the 'Send' button.
+Postman's [native apps](http://www.getpostman.com/downloads/) provide a Cookie Manager that lets you edit cookies that are associated with each domain. To open the Cookie Manager, click the 'Manage Cookies' link under the 'Send' button.
 
 ![](https://cloud.githubusercontent.com/assets/681190/16948881/e45d4816-4dd4-11e6-96e6-daadd28929a8.png)
 

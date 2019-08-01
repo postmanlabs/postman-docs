@@ -18,7 +18,7 @@ You can create a monitor from the:
 
 You can create a monitor for an existing collection from the sidebar.
 
-1. In the Postman app, click on the ellipses (…) next to the collection you want to monitor. 
+1. In the Postman app, click on the ellipsis (…) next to the collection you want to monitor. 
 
 [![monitor dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_sidebar2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor_sidebar2.png)
 
@@ -102,7 +102,7 @@ The **Create New** tab appears by default when you launch Postman.
 
 ### Postman web
 
-1. Go to [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"} and click "Monitors" and click the **Monitor this collection** button.
+1. Go to [Workspaces dashboard](https://app.getpostman.com/dashboard) and click "Monitors" and click the **Monitor this collection** button.
 
 <ol start="2">
   <li>In the <b>Create Monitor</b> modal, select a collection, schedule the frequency of the run, enter a monitor name, select the environment, and select the regions of the world from where you want to monitor your results. For more information on how to schedule a monitor, see the "Monitoring schedule and region" section below.</li>
@@ -124,9 +124,9 @@ You must select the frequency of how often you want to run your monitor. Monitor
 
 When you specify a monitor to run in multiple regions, the monitor will run multiple times. As a result, if there is a side effect from running the monitor, it will also happen multiple times.
 
-Postman Enterprise users interested in setting up dedicated IPs for their API monitoring should contact [{{site.pm.help_email}}](mailto:{{site.pm.help_email}}).
+Postman Enterprise users interested in setting up dedicated IPs for their API monitoring should contact [help@getpostman.com](mailto:help@getpostman.com).
 
-Postman Enterprise users interested in setting up dedicated IPs for their API monitoring should contact [{{site.pm.help_email}}](mailto:{{site.pm.help_email}}).
+Postman Enterprise users interested in setting up dedicated IPs for their API monitoring should contact [help@getpostman.com](mailto:help@getpostman.com).
 
 ### Additional preferences
 

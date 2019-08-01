@@ -42,11 +42,11 @@ Note: jQuery support has been discontinued since version 4.6.0, in favour of [ch
 
 ### Dynamic variables
 
-Postman also has a few dynamic variables which you can use in your requests. This is primarily an experiment right now. More functions would be added soon. Note that dynamic variables cannot be used in the Sandbox. You can only use them in the `{%raw%}{{..}}{%endraw%}` format in the request URL / headers / body.
+Postman also has a few dynamic variables which you can use in your requests. This is primarily an experiment right now. More functions would be added soon. Note that dynamic variables cannot be used in the Sandbox. You can only use them in the `{{..}}` format in the request URL / headers / body.
 
-* `{%raw%}{{$guid}}{%endraw%}`: Adds a v4 style guid
-* `{%raw%}{{$timestamp}}{%endraw%}`: Adds the current timestamp.
-* `{%raw%}{{$randomInt}}{%endraw%}`: Adds a random integer between 0 and 1000
+* `{{$guid}}`: Adds a v4 style guid
+* `{{$timestamp}}`: Adds the current timestamp.
+* `{{$randomInt}}`: Adds a random integer between 0 and 1000
 
 ### Cookies
 

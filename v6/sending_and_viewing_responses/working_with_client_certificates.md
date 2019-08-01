@@ -10,7 +10,7 @@ tags:
 warning: false
 ---
 
-Postman's [native apps](http://www.getpostman.com/apps) provide a SSL Certificate Manager that lets you view / set client certificates on a per domain basis.
+Postman's [native apps](http://www.getpostman.com/downloads/) provide a SSL Certificate Manager that lets you view / set client certificates on a per domain basis.
 
 To open the Certificate Manager, click the wrench icon on the top right, choose `Settings` (or use the shortcut `Cmd/Ctrl + ,`), then switch over to the `Certificates` tab.
 

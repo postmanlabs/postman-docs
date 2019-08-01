@@ -17,7 +17,7 @@ There are 2 independent versions of docs currently in the project (v5 and v6)
 
 * Posts are maintained under `/v6`
 
-* The folder structure of /v6 is the URL strucure for posts. For example, `/v6/Do_what_ever/As_long_as/It_is_fun.md` is mapped to URL `www.getpostman/docs/v6/Do_what_ever/As_long_as/It_is_fun`
+* The folder structure of /v6 is the URL structure for posts. For example, `/v6/Do_what_ever/As_long_as/It_is_fun.md` is mapped to URL `www.getpostman/docs/v6/Do_what_ever/As_long_as/It_is_fun`
 
 * Popular Topics is maintained at `/_includes/_popular_topics.html`
 
@@ -25,4 +25,4 @@ There are 2 independent versions of docs currently in the project (v5 and v6)
 
 * Docs specific styling is maintained at `/_includes/_meta.html` (we currently hide the version selector via css, when the time comes, change the css in this _meta.html file to display the version selector.)
 
-This project does not have any hacky implementatoins, follows strictly the standard way of implementing pages and it is documented in [Jekyll's docs](https://jekyllrb.com/docs/home/)
+This project does not have any hacky implementations, follows strictly the standard way of implementing pages and it is documented in [Jekyll's docs](https://jekyllrb.com/docs/home/)

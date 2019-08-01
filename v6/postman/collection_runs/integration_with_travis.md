@@ -13,11 +13,11 @@ By committing early and often, the team avoids a ton of technical debt by allowi
 
 Every check-in triggers an automated build process that typically includes testing. And if your commit hasn’t broken anything, might include deployment too.
 
-In general, integrating your [Postman tests](/docs/v6/postman/scripts/test_scripts){:target="_blank"} with your favorite continuous integration service is the same process as if you’re [running on Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins){:target="_blank"}, Travis CI, AppVeyor, or any other build system. 
+In general, integrating your [Postman tests](/docs/v6/postman/scripts/test_scripts) with your favorite continuous integration service is the same process as if you’re [running on Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins), Travis CI, AppVeyor, or any other build system. 
 
-You will set up your CI configuration to run a shell command upon starting your build. The command is a [Newman script that runs your collection](/docs/v6/postman/collection_runs/command_line_integration_with_newman){:target="_blank"} with the tests, returning a pass or fail exit code that’s logged in your CI system.
+You will set up your CI configuration to run a shell command upon starting your build. The command is a [Newman script that runs your collection](/docs/v6/postman/collection_runs/command_line_integration_with_newman) with the tests, returning a pass or fail exit code that’s logged in your CI system.
 
-In this example, we’ll walk through how to integrate Postman with [Travis CI](https://travis-ci.org/){:target="_blank"}, a continuous integration service that builds and tests projects on GitHub. 
+In this example, we’ll walk through how to integrate Postman with [Travis CI](https://travis-ci.org/), a continuous integration service that builds and tests projects on GitHub. 
 
 Travis CI runs your tests every time you commit to your GitHub repo. Then it submits a pull request, or some other specified configuration.
 
@@ -34,15 +34,15 @@ Let's learn more about integration with Travis:
 
 1. **Select a Postman collection with tests**: For now, let’s assume you already have a Postman collection with tests. Download the sample collection and environment by clicking the Run in Postman button if you want to follow this example.
 2. **Set up a GitHub repository**: Travis CI is free for open source projects on GitHub. In this example, we keep our Postman tests in a public GitHub repo.
-3. **Set up Travis CI**: Follow the [Travis CI getting started guide](https://docs.travis-ci.com/user/getting-started){:target="_blank"} for the complete walk through. 
+3. **Set up Travis CI**: Follow the [Travis CI getting started guide](https://docs.travis-ci.com/user/getting-started) for the complete walk through. 
 
-   [Sign in to Travis CI](https://travis-ci.org/auth){:target="_blank"} with your GitHub account. 
+   [Sign in to Travis CI](https://travis-ci.org/auth) with your GitHub account. 
    
-   Go to your [profile page](https://travis-ci.org/profile){:target="_blank"} and enable Travis CI for the public GitHub repo we set up in the previous step.
+   Go to your [profile page](https://travis-ci.org/profile) and enable Travis CI for the public GitHub repo we set up in the previous step.
 
 ### Hooking up Postman to Travis CI
 
-1. [Export the Postman Collection as a JSON file](/docs/v6/postman/collections/data_formats#exporting-and-importing-postman-data){:target="_blank"} and move the file to your project directory. If you’re using an environment such as this example, [download the Postman environment as a JSON file](/docs/v6/postman/environments_and_globals/manage_environments#manage-environments{:target="_blank"} and move the file to your project directory as well. 
+1. [Export the Postman Collection as a JSON file](/docs/v6/postman/collections/data_formats#exporting-and-importing-postman-data) and move the file to your project directory. If you’re using an environment such as this example, [download the Postman environment as a JSON file](/docs/v6/postman/environments_and_globals/manage_environments#manage-environments) and move the file to your project directory as well. 
 
    In this example, we've moved both files into a directory called `tests` placed in the root of the project repository.
 
@@ -54,7 +54,7 @@ Let's learn more about integration with Travis:
 
    Remember to add and commit it to your repo. This file tells Travis CI the programming language for your project and how to  build it. 
 
-   Any step of the build [can be customized](https://docs.travis-ci.com/user/customizing-the-build){:target="_blank"}. These scripts will execute the next time you commit and push a change to your repo.
+   Any step of the build [can be customized](https://docs.travis-ci.com/user/customizing-the-build). These scripts will execute the next time you commit and push a change to your repo.
 
   [![tree view yml](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_tree_yml.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_tree_yml.png)
 
@@ -83,7 +83,7 @@ script:
 
    Travis CI is now set up to run your Postman tests every time you trigger a build, for example, by pushing a commit to your repo.
 
-   Let’s try it out. The Travis CI [build status page](https://travis-ci.org/){:target="_blank"} will show if the build passes or fails:
+   Let’s try it out. The Travis CI [build status page](https://travis-ci.org/) will show if the build passes or fails:
   
 [![travis fail](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_fail.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_fail.png)
 
@@ -106,14 +106,14 @@ script:
    
 For more information about collection runs, see:
 
-* [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run){:target="_blank"}
-* [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs){:target="_blank"}
-* [Working with data files](/docs/v6/postman/collection_runs/working_with_data_files){:target="_blank"}
-* [Running multiple iterations](/docs/v6/postman/collection_runs/running_multiple_iterations){:target="_blank"}
-* [Building workflows](/docs/v6/postman/collection_runs/building_workflows){:target="_blank"}
-* [Sharing a collection run](/docs/v6/postman/collection_runs/sharing_a_collection_run){:target="_blank"}
-* [Debugging a collection run](/docs/v6/postman/collection_runs/debugging_a_collection_run){:target="_blank"}
-* [Command line integration with Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman){:target="_blank"}
-* [Integration with Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins){:target="_blank"}
-* [Newman with Docker](/docs/v6/postman/collection_runs/newman_with_docker){:target="_blank"}
+* [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run)
+* [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs)
+* [Working with data files](/docs/v6/postman/collection_runs/working_with_data_files)
+* [Running multiple iterations](/docs/v6/postman/collection_runs/running_multiple_iterations)
+* [Building workflows](/docs/v6/postman/collection_runs/building_workflows)
+* [Sharing a collection run](/docs/v6/postman/collection_runs/sharing_a_collection_run)
+* [Debugging a collection run](/docs/v6/postman/collection_runs/debugging_a_collection_run)
+* [Command line integration with Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman)
+* [Integration with Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins)
+* [Newman with Docker](/docs/v6/postman/collection_runs/newman_with_docker)
 

@@ -8,7 +8,7 @@ warning: false
 
 A workspace is a _view_ of all the Postman things you've come to use: [collections](/docs/v6/postman/collections/intro_to_collections), [environments](/docs/v6/postman/environments_and_globals/intro_to_environments_and_globals), [mocks](/docs/v6/postman/mock_servers/intro_to_mock_servers), [monitors](/docs/v6/postman/monitors/intro_monitors), and more. Individuals can organize their work in personal workspaces and teams can collaborate in team workspaces.
 
-[![WS_mainScreen-basicMenu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-basicMenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-basicMenu.png)
+[![WS_mainScreen-basicMenu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_Mainscreen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_Mainscreen.png)
 
 Regardless of the type of workspace, you can share elements in multiple workspaces at the same time. Workspace elements include collections, monitors, mocks, environments, and integrations.
 
@@ -18,11 +18,13 @@ Personal workspaces are visible only to you. If you don't have a Postman account
 
 ### Team workspaces
 
-Team workspaces are available to [Postman Pro](/docs/v6/pro/what_is_pro) and [Postman Enterprise](/docs/v6/enterprise/intro_to_enterprise) teams. Every team has one default team workspace, and can create an unlimited number of workspaces.
+Team workspaces are available to Postman users. Every team has one default team workspace, and can create an unlimited number of workspaces.
 
-[![WS-mainScreen-teamMenu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)
 
-As a Postman Pro or Enterprise user, you can create team workspaces for ongoing development or short-term collaborations. You can share a collection to other workspaces. A Postman Collection shared with team members is visible to all members of your Postman team with a default read-only access. If you have the appropriate permissions for the collection, you can edit and update the collection in any workspace where it exists.
+[![WS-mainScreen-teamMenu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_Mainscreen3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_Mainscreen3.png)
+
+
+As a Postman user, you can create team workspaces for ongoing development or short-term collaborations. You can share a collection to other workspaces. A Postman Collection shared with team members is visible to all members of your Postman team with a default read-only access. If you have the appropriate permissions for the collection, you can edit and update the collection in any workspace where it exists.
 
 ### Private workspaces
 

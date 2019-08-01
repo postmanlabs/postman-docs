@@ -13,9 +13,9 @@ Setting up a GitLab integration requires you to get a GitLab Personal Access Tok
 
 ### Generating a GitLab Personal Access Token
 
-Log in to [GitLab](https://gitlab.com/){:target="_blank"}. 
+Log in to [GitLab](https://gitlab.com/). 
 
-If you don’t already have a Personal Access Token from GitLab, [generate a new one](https://gitlab.com/profile/personal_access_tokens){:target="_blank"}.  
+If you don’t already have a Personal Access Token from GitLab, [generate a new one](https://gitlab.com/profile/personal_access_tokens).  
 
 Save the generated token to use later.
 
@@ -26,7 +26,7 @@ Save the generated token to use later.
 <br>
 ### Configuring a backup for Postman Collections in GitLab
 
-1. In the [Integrations page]({{site.pm.gs}}/dashboard/integrations){:target="_blank"}, find GitLab from a list of Postman's 3rd party Integrations for Postman Pro users.
+1. In the [Integrations page](https://go.postman.co/workspaces), find GitLab from a list of Postman's 3rd party Integrations for Postman Pro users.
 
 [![select gitlab integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-gitlab1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-gitlab1.png)
 

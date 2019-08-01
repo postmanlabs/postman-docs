@@ -59,8 +59,8 @@ You are all set! Head over to the Postman app, and you will start seeing the net
 
 The broader development community has published some useful tutorials for setting up a proxy server on various operating systems.
 
-   *   [Windows](https://www.howtogeek.com/tips/how-to-set-your-proxy-settings-in-windows-8.1/){:target="_blank"}
-   *   [Linux](https://www.shellhacks.com/linux-proxy-server-settings-set-proxy-command-line/){:target="_blank"}
-   *   [macOS](https://support.apple.com/kb/PH18553?locale=en_US){:target="_blank"}
-   *   [Android](https://www.howtogeek.com/295048/how-to-configure-a-proxy-server-on-android/){:target="_blank"}
+   *   [Windows](https://www.howtogeek.com/tips/how-to-set-your-proxy-settings-in-windows-8.1/)
+   *   [Linux](https://www.shellhacks.com/linux-proxy-server-settings-set-proxy-command-line/)
+   *   [macOS](https://support.apple.com/kb/PH18553?locale=en_US)
+   *   [Android](https://www.howtogeek.com/295048/how-to-configure-a-proxy-server-on-android/)
 

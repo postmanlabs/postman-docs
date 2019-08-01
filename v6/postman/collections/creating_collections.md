@@ -164,17 +164,17 @@ In the sidebar, select "Collections".
 
 Click the ellipsis (...) to expand the control dropdown.   
    
-[![collection ellipses](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)
+[![collection ellipsis](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)
 
 Select "Duplicate" from the menu.
 
-Learn how to [share collections](/docs/v6/postman/collections/sharing_collections){:target="_blank"}, [import and export collections](/docs/v6/postman/collections/data_formats){:target="_blank"}, and [use other collection features](/docs/v6/postman/collections/managing_collections){:target="_blank"}.  
+Learn how to [share collections](/docs/v6/postman/collections/sharing_collections), [import and export collections](/docs/v6/postman/collections/data_formats), and [use other collection features](/docs/v6/postman/collections/managing_collections).  
 
 
 
 For more information on collections, see:
 
-* [Intro to collections](/docs/v6/postman/collections/intro_to_collections){:target="_blank"}
-* [Sharing collections](/docs/v6/postman/collections/sharing_collections){:target="_blank"}
-* [Managing collections](/docs/v6/postman/collections/managing_collections){:target="_blank"}
+* [Intro to collections](/docs/v6/postman/collections/intro_to_collections)
+* [Sharing collections](/docs/v6/postman/collections/sharing_collections)
+* [Managing collections](/docs/v6/postman/collections/managing_collections)
 

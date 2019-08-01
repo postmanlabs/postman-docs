@@ -23,7 +23,7 @@ The Postman Sandbox is a JavaScript execution environment that is available to y
 **Note**: According to W3C specifications, header names are case-insensitive.
 This method takes care of this. `postman.getResponseHeader("Content-type")` and `postman.getResponseHeader("content-Type")` will return the same value.
 
-Note: jQuery support has been discontinued since version 4.6.0, in favour of [cheerio][1]. Also, here, "native `vX.X.X`" indicates the version of the library on the native app, where as, "chrome `vX.X.X`" indicates the same for the chrome app.
+Note: jQuery support has been discontinued since version 4.6.0, in favor of [cheerio][1]. Also, here, "native `vX.X.X`" indicates the version of the library on the native app, where as, "chrome `vX.X.X`" indicates the same for the chrome app.
 
 ### Environment and global variables
 
@@ -41,11 +41,11 @@ Note: jQuery support has been discontinued since version 4.6.0, in favour of [ch
 
 ### Dynamic variables
 
-Postman also has a few dynamic variables which you can use in your requests. This is primarily an experiment right now. More functions would be added soon. Note that dynamic variables cannot be used in the Sandbox. You can only use them in the `{%raw%}{{..}}{%endraw%}` format in the request URL / headers / body.
+Postman also has a few dynamic variables which you can use in your requests. This is primarily an experiment right now. More functions would be added soon. Note that dynamic variables cannot be used in the Sandbox. You can only use them in the `{{..}}` format in the request URL / headers / body.
 
-* `{%raw%}{{$guid}}{%endraw%}`: Adds a v4 style guid
-* `{%raw%}{{$timestamp}}{%endraw%}`: Adds the current timestamp.
-* `{%raw%}{{$randomInt}}{%endraw%}`: Adds a random integer between 0 and 1000
+* `{{$guid}}`: Adds a v4 style guid
+* `{{$timestamp}}`: Adds the current timestamp.
+* `{{$randomInt}}`: Adds a random integer between 0 and 1000
 
 ### Cookies
 
@@ -80,7 +80,6 @@ If you're using [data files][8] in the Collection Runner or in Newman, you'll ha
 
 For examples on how to use the sandbox for a number of common use cases,
 check out the [examples page][9].
-
 
 [0]: https://lodash.com/
 [1]: https://cheerio.js.org/

@@ -7,25 +7,25 @@ warning: false
 
 ---
 
-The [Postman API](https://docs.api.getpostman.com/){:target="_blank"} has several endpoints to help you integrate Postman even more deeply with your development toolchain. You can add new collections, update existing collections, update environments, add and run monitors directly through the API. This API allows you to programmatically access data stored in your Postman Pro account with ease.
+The [Postman API](https://docs.api.getpostman.com/) has several endpoints to help you integrate Postman even more deeply with your development toolchain. You can add new collections, update existing collections, update environments, add and run monitors directly through the API. This API allows you to programmatically access data stored in your Postman Pro account with ease.
 
-The easiest way to get started with the API is to click the **Run in Postman** button at the top of the [Postman API documentation page](https://docs.api.getpostman.com/){:target="_blank"} and use the Postman app to send requests.
+The easiest way to get started with the API is to click the **Run in Postman** button at the top of the [Postman API documentation page](https://docs.api.getpostman.com/) and use the Postman app to send requests.
 
 ### Postman API overview
 
-1.  You need a valid API Key to send requests to the API endpoints. Postman Pro users can get a key from the [integrations dashboard](https://app.getpostman.com/dashboard/integrations){:target="_blank"}.
+1.  You need a valid API Key to send requests to the API endpoints. Postman Pro users can get a key from the [integrations dashboard](https://app.getpostman.com/dashboard/integrations).
 
 2.  The API is rate limited.
 
 3.  Using the API, you can add and update collections, environments, and users. Run monitors, create a mock server, and so much more.
 
-4.  Review more [documentation for the Postman API](https://docs.api.getpostman.com/){:target="_blank"}.
+4.  Review more [documentation for the Postman API](https://docs.api.getpostman.com/).
 
 ### Authentication
 
 An API Key is required to be sent as part of every request to the Postman API, in the form of an `X-Api-Key` request header.
 
-> **If you do not have an API Key, you can easily generate one by heading over to the [Postman Integrations Dashboard](https://app.getpostman.com/dashboard/integrations){:target="_blank"}, and click the "Get API Key" button.**
+> **If you do not have an API Key, you can easily generate one by heading over to the [Postman Integrations Dashboard](https://app.getpostman.com/dashboard/integrations), and click the "Get API Key" button.**
 
 [![get API key](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59190608.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59190608.jpg)
 

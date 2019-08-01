@@ -5,7 +5,7 @@ warning: false
 
 ---
 
-Postman apps go through extensive testing and beta builds before we ship. That said, there might be cases when the app crashes, or exhibits unexpected behavior. If you've been unable to [troubleshoot](/docs/postman/sending_api_requests/troubleshooting_api_requests) the issue on your own, you can file an issue in the [GitHub tracker](https://github.com/postmanlabs/postman-app-support/issues){:target="_blank"}, or visit our [support center]({{site.pm.support_center}}) if you wish to include confidential data. Including the app’s console logs in your report will provide some helpful data for troubleshooting. 
+Postman apps go through extensive testing and beta builds before we ship. That said, there might be cases when the app crashes, or exhibits unexpected behavior. If you've been unable to [troubleshoot](/docs/postman/sending_api_requests/troubleshooting_api_requests) the issue on your own, you can file an issue in the [GitHub tracker](https://github.com/postmanlabs/postman-app-support/issues), or visit our [support center](https://support.getpostman.com/hc) if you wish to include confidential data. Including the app’s console logs in your report will provide some helpful data for troubleshooting. 
 
 The Postman Console is analogous to a browser’s developer console, except that it’s tuned for API development. If an API or API test is not behaving as you expect, this would be the place where you will go to deep dive while debugging. As long as the console window is open, all your API activities will be logged here to see what’s going on under the hood. 
 

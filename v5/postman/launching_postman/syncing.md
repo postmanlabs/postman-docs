@@ -25,7 +25,7 @@ These entities can sync with our server and be saved to the cloud:
 
 ### How do I Sync between computers?
 
-Install the [Postman app]({{site.pm.root}}/apps){:target="_blank"} and sign in with the same email address or username on all your devices. 
+Install the [Postman app](https://www.getpostman.com/downloads/) and sign in with the same email address or username on all your devices. 
 
 If you forget your username or password, you can recover your username and reset your password when you click the links near the signin prompt. 
 
@@ -58,8 +58,8 @@ When you reload the app, Postman automatically retrieves the most recent and up-
 
 ### Deleting your Postman account
 
-If you have a Postman account, are not currently part of a paid Postman Pro or Enterprise team, and have never participated in a Postman Pro trial team, you can [delete your account]({{site.pm.gs}}/dashboard/profile){:target="_blank"}. 
+If you have a Postman account, are not currently part of a paid Postman Pro or Enterprise team, and have never participated in a Postman Pro trial team, you can [delete your account](https://go.postman.co/settings/me). 
 
-Otherwise, you can contact us at [{{site.pm.help_email}}](mailto:{{site.pm.help_email}}).
+Otherwise, you can contact us at [help@getpostman.com](mailto:help@getpostman.com).
 
 [![delete account](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/syncing-deleteAccount.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/syncing-deleteAccount.png)

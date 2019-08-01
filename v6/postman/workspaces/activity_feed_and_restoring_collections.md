@@ -20,21 +20,21 @@ To review the activity feed at the collection level in the Postman app, expand t
 
 The activity feed displays who updated the collection, what the updates were, and when they were completed. For Postman Pro and Enterprise users, diffs are generated and displayed within the activity feed. Consecutive updates on the same session to the same entity are collated for readability.
 
-[![activity feed for a collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamlib-activity-feed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/teamlib-activity-feed.png)
+[![activity feed for a collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/workspaces_activity.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/workspaces_activity.png)
 
-Similarly, you can also review a collection's activity feed from the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"} after selecting a workspace and a collection.
+Similarly, you can also review a collection's activity feed from the [Workspaces dashboard](https://app.getpostman.com/dashboard) after selecting a workspace and a collection.
 
 **Workspace activity feed**
 
 You can also review the activity feed at the workspace level in the Postman app. Go to the status bar at the bottom of the Postman app and toggle over to the “Browse” view. Under the **Activity** tab, you can review the events that occurred within the workspace.
 
-[![workspace activity feed](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/workspace-activity-feed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/workspace-activity-feed.png)
+[![workspace activity feed](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/workspaces_activity2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/workspaces_activity2.png)
 
-Similarly, you can also review the activity feed at the workspace level by selecting a workspace from the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}.
+Similarly, you can also review the activity feed at the workspace level by selecting a workspace from the [Workspaces dashboard](https://app.getpostman.com/dashboard).
 
 **Team activity feed**
 
-You can also review the activity feed at the Postman Pro or Enterprise team level. From the [Postman web view](https://app.getpostman.com){:target="_blank"}, click the Team dropdown and then click your team's name. Under the **Activity** tab, you can review the events that occurred within your team.
+You can also review the activity feed at the Postman Pro or Enterprise team level. From the [Postman web view](https://app.getpostman.com), click the Team dropdown and then click your team's name. Under the **Activity** tab, you can review the events that occurred within your team.
 
 **User activity feed**
 
@@ -68,6 +68,6 @@ At the top of the activity feed a confirmation indicates the collection has been
 
 Postman Pro and Enterprise users can pipe the team's activity feed to a communication channel of your choice with the following integrations:
 
-   *   [Postman Pro to Slack integration](/docs/v6/pro/integrations/slack){:target="_blank"}
-   *   [Postman Pro to HipChat integration](/docs/v6/pro/integrations/hipchat){:target="_blank"}
-   *   [Postman Pro to Microsoft Teams integration](/docs/v6/pro/integrations/microsoft_teams){:target="_blank"}  
+   *   [Postman Pro to Slack integration](/docs/v6/pro/integrations/slack)
+   *   [Postman Pro to HipChat integration](/docs/v6/pro/integrations/hipchat)
+   *   [Postman Pro to Microsoft Teams integration](/docs/v6/pro/integrations/microsoft_teams)  

@@ -30,6 +30,6 @@ You can use scripts to pass data between API requests and build workflows that m
 
 For more information on collections, see:
 
-* [Creating collections](/docs/v6/postman/collections/creating_collections){:target="_blank"}
-* [Sharing collections](/docs/v6/postman/collections/sharing_collections){:target="_blank"}
-* [Managing collections](/docs/v6/postman/collections/managing_collections){:target="_blank"}
+* [Creating collections](/docs/v6/postman/collections/creating_collections)
+* [Sharing collections](/docs/v6/postman/collections/sharing_collections)
+* [Managing collections](/docs/v6/postman/collections/managing_collections)

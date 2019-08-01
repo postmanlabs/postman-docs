@@ -13,7 +13,7 @@ This integration allows you to get real-time updates of what is happening in you
 
 ### Configuring Postman with HipChat
 
-1. In the [Integrations]({{site.pm.gs}}/dashboard/integrations){:target="_blank"} page, find HipChat from a list of Postman’s 3rd party Integrations for Postman Pro users.
+1. In the [Integrations](https://go.postman.co/workspaces) page, find HipChat from a list of Postman’s 3rd party Integrations for Postman Pro users.
 
 [![select hipchat integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-hipchat.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-hipchat.png)
 
@@ -56,7 +56,7 @@ You can also configure advanced options to alert you when a monitor run complete
 
 #### Get the HipChat Webhook URL
 
-1. Log in to [HipChat](https://www.hipchat.com/sign_in){:target="_blank"} and navigate to the room where you want Postman to     send you messages. 
+1. Log in to [HipChat](https://www.hipchat.com/sign_in) and navigate to the room where you want Postman to     send you messages. 
 
 2. Click the **Add Integration** button on the right sidebar.
 

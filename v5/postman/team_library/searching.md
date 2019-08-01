@@ -94,4 +94,4 @@ You can re-order collections in the Team Library by "Name", "Last Modified", "Ow
 
 <h3 id="search">Search with the Slack Bot</h3>
 
-You can integrate the Postman Pro Search Slack bot and get more detailed search results too. This feature will be available in the Team Library soon. Read more about the [Slack Bot](http://blog.getpostman.com/2015/09/24/api-integrations-using-postman-building-a-slack-channel-bot/){:target="_blank"}.
+You can integrate the Postman Pro Search Slack bot and get more detailed search results too. This feature will be available in the Team Library soon. Read more about the [Slack Bot](http://blog.getpostman.com/2015/09/24/api-integrations-using-postman-building-a-slack-channel-bot/).

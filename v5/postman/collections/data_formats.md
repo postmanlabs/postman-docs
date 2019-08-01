@@ -15,7 +15,7 @@ Postman can export and import the following formats as a file or generated URL.�
 
 [![export collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view.png)
 
-Postman can export collections in two formats - v1 and v2\. Both Collection v1 and v2 download as JSON files; v2 is more versatile and the most-used choice. Learn more about the [v1 and v2 formats](http://blog.getpostman.com/2015/06/05/travelogue-of-postman-collection-format-v2/){:target="_blank"}. 
+Postman can export collections in two formats - v1 and v2\. Both Collection v1 and v2 download as JSON files; v2 is more versatile and the most-used choice. Learn more about the [v1 and v2 formats](http://blog.getpostman.com/2015/06/05/travelogue-of-postman-collection-format-v2/). 
 
 [![select v1 or v2 format](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59163839.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59163839.png)
 
@@ -99,9 +99,9 @@ A Swagger API definition usually lives as a single file, so we only support impo
 
 ##### **Examples**
 
-  Swagger 2.0: [https://github.com/OAI/OpenAPI-Specification/tree/master/examples/v2.0](https://github.com/OAI/OpenAPI-Specification/tree/master/examples/v2.0){:target="_blank"}
+  Swagger 2.0: [https://github.com/OAI/OpenAPI-Specification/tree/master/examples/v2.0](https://github.com/OAI/OpenAPI-Specification/tree/master/examples/v2.0)
 
-  Swagger 1.2: [https://github.com/OAI/OpenAPI-Specification/wiki/Hello-World-Sample](https://github.com/OAI/OpenAPI-Specification/wiki/Hello-World-Sample){:target="_blank"}
+  Swagger 1.2: [https://github.com/OAI/OpenAPI-Specification/wiki/Hello-World-Sample](https://github.com/OAI/OpenAPI-Specification/wiki/Hello-World-Sample)
 
 ### Importing WADL
 
@@ -135,13 +135,13 @@ Postman lets you import WADL specs too. While all aspects are not supported yet,
 </application>
 ```
 
-Taken from [http://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-java.html](http://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-java.html){:target="_blank"}
+Taken from [http://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-java.html](http://www.nurkiewicz.com/2012/01/gentle-introduction-to-wadl-in-java.html)
 
 ### Validating Collection JSON files
 
-To validate if a JSON file is in the correct collections format, you can use our [schema files for collections](http://schema.getpostman.com/){:target="_blank"}.
+To validate if a JSON file is in the correct collections format, you can use our [schema files for collections](http://schema.getpostman.com/).
 
-* The schema file is located at [http://schema.getpostman.com/json/collection/v1.0.0/collection.json](http://schema.getpostman.com/json/collection/v1.0.0/collection.json){:target="_blank"}.
-* The associated documentation can be found at [http://schema.getpostman.com/json/collection/v1.0.0/docs/index.html](http://schema.getpostman.com/json/collection/v1.0.0/docs/index.html){:target="_blank"}.
-* Everything is neatly stored on GitHub [https://github.com/postmanlabs/schemas](https://github.com/postmanlabs/schemas){:target="_blank"}.
-* To see an example of data validation using our schema and [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid){:target="_blank"} (a validator), check out [this blog post](http://blog.getpostman.com/2015/07/02/introducing-postman-collection-format-schema/){:target="_blank"}.
+* The schema file is located at [http://schema.getpostman.com/json/collection/v1.0.0/collection.json](http://schema.getpostman.com/json/collection/v1.0.0/collection.json).
+* The associated documentation can be found at [http://schema.getpostman.com/json/collection/v1.0.0/docs/index.html](http://schema.getpostman.com/json/collection/v1.0.0/docs/index.html).
+* Everything is neatly stored on GitHub [https://github.com/postmanlabs/schemas](https://github.com/postmanlabs/schemas).
+* To see an example of data validation using our schema and [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid) (a validator), check out [this blog post](http://blog.getpostman.com/2015/07/02/introducing-postman-collection-format-schema/).

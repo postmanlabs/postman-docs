@@ -27,14 +27,14 @@ To establish an example during the earliest phase of API development:
 
 Often it's useful to mock and save a couple of example responses with a request, such as a status code, to make your API more understandable. 
 
-Let's say you want to build an API with an endpoint that does not yet exist, or your server isn’t ready. You can mock raw responses and save them. Then, you'll be able to generate a mock endpoint for each of them using [Postman's mock service](/docs/postman/mock_servers){:target="_blank"}. 
+Let's say you want to build an API with an endpoint that does not yet exist, or your server isn’t ready. You can mock raw responses and save them. Then, you'll be able to generate a mock endpoint for each of them using [Postman's mock service](/docs/postman/mock_servers). 
 
-Developers can make requests to the mock endpoint and start front-end development or [write tests](/docs/postman/scripts/test_scripts){:target="_blank"} based on the mock response returned from the mock endpoint. 
+Developers can make requests to the mock endpoint and start front-end development or [write tests](/docs/postman/scripts/test_scripts) based on the mock response returned from the mock endpoint. 
 
 
 ### Adding an example
 
-Suppose you are working on a request that is saved in a [collection](/docs/postman/collections/creating_collections){:target="_blank"}. You can add examples to this request with a new custom response or the response from the server.
+Suppose you are working on a request that is saved in a [collection](/docs/postman/collections/creating_collections). You can add examples to this request with a new custom response or the response from the server.
 
 [![start dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-add-examples.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-add-examples.png)
 
@@ -62,7 +62,7 @@ Click on the **Examples** dropdown in the upper right corner of the builder to a
 
 ### What happened to the 'Save Response' feature?
 
-[Saving responses](/docs/postman/sending_api_requests/responses){:target="_blank"} has been a Postman feature for a long time. Over time our users wanted to edit responses before saving them, and add new responses. We created Examples to provide that functionality.
+[Saving responses](/docs/postman/sending_api_requests/responses) has been a Postman feature for a long time. Over time our users wanted to edit responses before saving them, and add new responses. We created Examples to provide that functionality.
 
 You can save responses as before, but now you can edit them whenever you want. To access previously saved responses, click the **Examples** dropdown. 
 
@@ -70,7 +70,7 @@ You can save responses as before, but now you can edit them whenever you want. T
 
 ### How your examples appear in Postman documentation
 
-You can publish Postman [API documentation](/docs/postman/api_documentation/intro_to_api_documentation){:target="_blank"} to the web with a single click. Examples display in your API documentation and provide additional details and clarification for your API. 
+You can publish Postman [API documentation](/docs/postman/api_documentation/intro_to_api_documentation) to the web with a single click. Examples display in your API documentation and provide additional details and clarification for your API. 
 
 You can edit these examples with real-time updates to the documentation!
 

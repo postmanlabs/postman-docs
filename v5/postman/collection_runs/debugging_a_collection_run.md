@@ -7,11 +7,11 @@ warning: false
 
 Oftentimes, things don't go according to plan and your collection tests will fail even when you expect them all to pass. When this happens, there are two ways you can debug your requests.
 
-In this example, we're running the [Postman Echo collection](https://docs.postman-echo.com/){:target="_blank"}.
+In this example, we're running the [Postman Echo collection](https://docs.postman-echo.com/).
 
 [![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58531976.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58531976.png)
 
-In the `Delete Cookies` request, we expect a certain cookie to be returned by the server, and this is what the test checks as well. Postman Echo's [Cookies](https://docs.postman-echo.com/#37368024-f6a8-0f70-85fc-7e876cde9e33){:target="_blank"} endpoint returns whatever cookies are sent to it. It also sends a JSON representation of these in the response body. This is what we're using to check if a certain cookie was returned.
+In the `Delete Cookies` request, we expect a certain cookie to be returned by the server, and this is what the test checks as well. Postman Echo's [Cookies](https://docs.postman-echo.com/#37368024-f6a8-0f70-85fc-7e876cde9e33) endpoint returns whatever cookies are sent to it. It also sends a JSON representation of these in the response body. This is what we're using to check if a certain cookie was returned.
 
 As we can see, this test is failing. Let's investigate why.
 

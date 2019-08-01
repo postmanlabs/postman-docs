@@ -11,7 +11,7 @@ warning: false
 
 Only a team admin can configure SSO for a Postman Team.
 
-1.  Log in to Postman, and start on the [Postman Edit Team Details]({{site.pm.gs}}/dashboard/teams/edit) page. If the team is subscribed to an enterprise plan, the option to configure SSO will be displayed. 
+1.  Log in to Postman, and start on the [Postman Edit Team Details](https://go.postman.co/settings/team/general) page. If the team is subscribed to an enterprise plan, the option to configure SSO will be displayed. 
 
 [![edit team details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58241978.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58241978.png)  
 

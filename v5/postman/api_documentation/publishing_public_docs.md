@@ -5,13 +5,13 @@ warning: false
 
 ---
 
-Published documentation enables you to share your [public API documentation](/docs/postman_for_publishers/public_api_docs){:target="_blank"} with the world. 
+Published documentation enables you to share your [public API documentation](/docs/postman_for_publishers/public_api_docs) with the world. 
 
 ### Generating public documentation
 
 You can only publish documentation for collections that you've created or have write permissions.
 
-In your [collection's](/docs/postman/api_documentation/viewing_documentation){:target="_blank"} documentation page, click the **Publish** button at the top of the screen.
+In your [collection's](/docs/postman/api_documentation/viewing_documentation) documentation page, click the **Publish** button at the top of the screen.
 
 [![publish button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-publish-button2.png) ](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-publish-button2.png)  
 
@@ -19,11 +19,11 @@ The **Edit Published Collection** page appears.
 
 [![public documentation link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)
 
-When signed in to Postman, you can select a [corresponding environment](/docs/postman/api_documentation/environments_and_environment_templates){:target="_blank"} to publish the collection. Any references to variables like {% raw %}`{{url}}`{% endraw %} in the collection will be replaced with the correct value from the environment. 
+When signed in to Postman, you can select a [corresponding environment](/docs/postman/api_documentation/environments_and_environment_templates) to publish the collection. Any references to variables like `{{url}}` in the collection will be replaced with the correct value from the environment. 
 
 The public URL field contains the URL to share with the outside world. For example, if you’re publishing your primary collection, you might want to select a “production” environment, so your documentation is immediately usable for new visitors.
 
-Here's an [example](https://documenter.getpostman.com/view/583/coopers-meal-plan/4u2){:target="_blank"} of a collection we've published.
+Here's an [example](https://documenter.getpostman.com/view/583/coopers-meal-plan/4u2) of a collection we've published.
 
 
 > **IMPORTANT:**  Any confidential information in your environment, such as **passwords and access tokens**, might be publicly visible. Remove all such information from the environment before you publish documentation with an environment.
@@ -38,7 +38,7 @@ In the **Edit Published Collection** page, click the **Unpublish Collection** bu
 
 ### Custom domains
 
-Optionally, you can pick from a list of verified [custom domains](/docs/postman/api_documentation/adding_and_verifying_custom_domains){:target="_blank"} to host your API documentation. You’ll be able to view documentation on your custom domain, as well as the Postman private documentation page. 
+Optionally, you can pick from a list of verified [custom domains](/docs/postman/api_documentation/adding_and_verifying_custom_domains) to host your API documentation. You’ll be able to view documentation on your custom domain, as well as the Postman private documentation page. 
 
 [![custom domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-custom-domains.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-custom-domains.png)
 

@@ -14,7 +14,7 @@ Currently, we have two ways in which this integration can be configured.
 ### Configuring Microsoft Teams
 
 
-1. In the [Integrations]({{site.pm.gs}}/dashboard/integrations){:target="_blank"} page, find Microsoft Teams from a list of Postman’s 3rd party Integrations for Postman Pro users.
+1. In the [Integrations](https://go.postman.co/workspaces) page, find Microsoft Teams from a list of Postman’s 3rd party Integrations for Postman Pro users.
 
 [![select ms_teams integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-msTeam.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-msTeam.png)
 

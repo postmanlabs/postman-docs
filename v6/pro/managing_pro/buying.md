@@ -9,7 +9,7 @@ warning: false
 
 ### Buying for someone else
 
-*   Head to the [pricing page](https://www.getpostman.com/pricing){:target="_blank"} on the Postman website, and click "Buy Postman Pro".
+*   Head to the [pricing page](https://www.getpostman.com/pricing) on the Postman website, and click "Buy Postman Pro".
 
     [![buy pro](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pricing.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pricing.png)  
 
@@ -28,7 +28,7 @@ warning: false
 
 ##### **Not upgrading from a trial**
 
-*   Head to the [pricing page](https://www.getpostman.com/pricing){:target="_blank"} on the Postman website, and click "Buy Postman Pro".
+*   Head to the [pricing page](https://www.getpostman.com/pricing) on the Postman website, and click "Buy Postman Pro".
     
     [![buy pro](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pricing.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pricing.png)  
 
@@ -45,7 +45,7 @@ warning: false
 
 ##### **Upgrading from a trial team**
 
-*   Head to the [team plans page](https://app.getpostman.com/dashboard/team-plans){:target="_blank"}, and click "Upgrade to Pro".
+*   Head to the [team plans page](https://app.getpostman.com/dashboard/team-plans), and click "Upgrade to Pro".
     
     [![upgrade to pro](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59191884.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59191884.png)
 

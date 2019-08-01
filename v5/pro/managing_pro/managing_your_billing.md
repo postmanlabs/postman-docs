@@ -7,19 +7,19 @@ warning: false
 
 ---
 
-You can manage your billing from the [Billing Overview]({{site.pm.gs}}/pay/billing){:target="_blank"} page. 
+You can manage your billing from the [Billing Overview](https://go.postman.co/billing/overview) page. 
 
 [![manage billing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/billing-overview-page+.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/billing-overview-page+.png)
 
 
 From this page, you can:
 
-* [Change your plan (Pro Monthly)](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
-* [Add user slots to your plan (Pro Annual)](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
-* [Set instructions for next billing cycle](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
+* [Change your plan (Pro Monthly)](/docs/pro/managing_pro/changing_your_plan)
+* [Add user slots to your plan (Pro Annual)](/docs/pro/managing_pro/changing_your_plan)
+* [Set instructions for next billing cycle](/docs/pro/managing_pro/changing_your_plan)
 * [Set the monitoring block count](#set)
 * [Manage your invoices](#invoices)
-* [Cancel your plan](/docs/pro/managing_pro/changing_your_plan){:target="_blank"}
+* [Cancel your plan](/docs/pro/managing_pro/changing_your_plan)
 
 
 In this topic, we discuss how to set the monitoring block count, view your account history, and how to add your payment information.

@@ -38,8 +38,6 @@ Upon submit, APIMatic will convert the Collection's documentation to your format
 
 Check it out for yourself!  From now on, your Postman Collection will automatically save to your GitHub repo every day, in whatever API description format you selected.  API format compatibility is just moments away.
 
-hello
-
 [0]: https://app.getpostman.com/dashboard/integrations
 [1]: https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apimatic_directory.png
 [2]: https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apimatic_add.png

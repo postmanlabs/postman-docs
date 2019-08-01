@@ -36,7 +36,7 @@ You can review a chronological list of activities about all collections shared w
 
 You can also review the activity feed from the Dashboard. 
 
-In the [Postman website](https://www.getpostman.com/){:target="_blank"}, click the **Dashboard** button to open your [Workspace](https://app.getpostman.com){:target="_blank"}.
+In the [Postman website](https://www.getpostman.com/), click the **Dashboard** button to open your [Workspace](https://app.getpostman.com).
 
 To see the activity feed, click a collection. Then under the header bar, click "Activity".
 
@@ -74,6 +74,6 @@ At the top of the activity feed a confirmation indicates the collection has been
 
 Postman Pro and Enterprise users can pipe the team's activity feed to a communication channel of your choice with the following integrations:
 
-   *   [Postman Pro to Slack integration](/docs/v6/pro/integrations/slack){:target="_blank"}
-   *   [Postman Pro to HipChat integration](/docs/v6/pro/integrations/hipchat){:target="_blank"}
-   *   [Postman Pro to Microsoft Teams integration](/docs/v6/pro/integrations/microsoft_teams){:target="_blank"}  
+   *   [Postman Pro to Slack integration](/docs/v6/pro/integrations/slack)
+   *   [Postman Pro to HipChat integration](/docs/v6/pro/integrations/hipchat)
+   *   [Postman Pro to Microsoft Teams integration](/docs/v6/pro/integrations/microsoft_teams)  

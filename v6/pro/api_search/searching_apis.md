@@ -12,7 +12,7 @@ Currently you only can access this feature in the Postman Dashboard. If you sear
 
 To use the new search:
 
-1. Go to the [Postman website](https://www.getpostman.com){:target="_blank"}.
+1. Go to the [Postman website](https://www.getpostman.com).
 
 2. Click the **Dashboard** button. You’ll see the search bar at the top of the page. You must be signed in to your Postman account to see the **Dashboard** button.
 

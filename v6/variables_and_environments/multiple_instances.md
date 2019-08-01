@@ -11,7 +11,7 @@ You can use data variables in the [collection runner][0] to run a collection wit
 
 1\. To start, use variables in the requests of your collection.
 
-Variables inside the Postman UI are enclosed inside curly braces. For example, `{%raw%}{{username}}{%endraw%}` and `{%raw%}{{password}}{%endraw%}` inside URL parameters would be replaced by corresponding values from the data file.
+Variables inside the Postman UI are enclosed inside curly braces. For example, `{{username}}` and `{{password}}` inside URL parameters would be replaced by corresponding values from the data file.
 
 [![](https://www.getpostman.com/img/v1/docs/multiple_instances/multiple_instances_1.png)
 ][2]
@@ -54,4 +54,4 @@ Testing your API using the Collection Runner and data files would make it more r
 [4]: https://www.getpostman.com/img/v1/docs/multiple_instances/multiple_instances_3.png
 [5]: https://www.getpostman.com/img/v1/docs/multiple_instances/multiple_instances_4.png
 [6]: https://www.getpostman.com/img/v1/docs/multiple_instances/multiple_instances_5.png
-[7]: http://blog.getpostman.com/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/
+[7]: https://blog.getpostman.com/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/

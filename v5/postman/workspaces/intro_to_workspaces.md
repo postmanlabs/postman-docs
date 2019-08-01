@@ -16,14 +16,14 @@ Regardless of the type of Workspace, you can share elements in specific teams an
 
 **Personal Workspaces**
 
-Personal Workspaces are visible only to you. If you don't have a Postman account, you can have only one personal Workspace. If you do have an account, you can [create](/docs/postman/workspaces/creating_workspaces){:target="_blank"} an unlimited number of Workspaces.
+Personal Workspaces are visible only to you. If you don't have a Postman account, you can have only one personal Workspace. If you do have an account, you can [create](/docs/postman/workspaces/creating_workspaces) an unlimited number of Workspaces.
 
-You can remove and delete an element from a Workspace. When you [remove](/docs/postman/workspaces/using_workspaces){:target="_blank"} an element, it is no longer visible in that particular Workspace. However, you can still access that element in any other Workspace where it resides. When you [delete](/docs/postman/workspaces/using_workspaces){:target="_blank"} an element, you completely eliminate it from Postman. 
+You can remove and delete an element from a Workspace. When you [remove](/docs/postman/workspaces/using_workspaces) an element, it is no longer visible in that particular Workspace. However, you can still access that element in any other Workspace where it resides. When you [delete](/docs/postman/workspaces/using_workspaces) an element, you completely eliminate it from Postman. 
 
 
 **Team Workspaces**
 
-Team Workspaces are available to Postman Pro and Postman Enterprise teams. Every team has one default team Workspace, and can [create](/docs/postman/workspaces/creating_workspaces){:target="_blank"} an unlimited number of Workspaces. You can sync and share Postman environments directly in Workspaces, without the need of [environment templates](/docs/postman/api_documentation/environments_and_environment_templates){:target="_blank"}.
+Team Workspaces are available to Postman Pro and Postman Enterprise teams. Every team has one default team Workspace, and can [create](/docs/postman/workspaces/creating_workspaces) an unlimited number of Workspaces. You can sync and share Postman environments directly in Workspaces, without the need of [environment templates](/docs/postman/api_documentation/environments_and_environment_templates).
 
 [![WS-mainScreen-teamMenu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)
 
@@ -49,7 +49,7 @@ Then, new priorities arrive from your manager, and you need to shift your time a
 
 Your team also shares a similar challenge. If Neutrino level detection and Warp drive navigation have dozens of collections, it's difficult for your team to quickly identify your specific collections. Even if they subscribe to and favorite your collections, they can become lost in a long list of other collections in the sidebar.
 
-Workspaces lets you organize your collections in two separate workspaces, Neutrino level detection and Warp drive navigation. In each Workspace you can [add or create](/docs/postman/workspaces/creating_workspaces){:target="_blank"} collections, and invite others to collaborate. Each Workspaces member can see when others add or change an element, such as an environment or monitor. Workspaces also reuse collections, so a collection can be part of Neutrino level detection and Warp drive navigation simultaneously, and any change made to the collection in any of these Workspaces will reflect everywhere.
+Workspaces lets you organize your collections in two separate workspaces, Neutrino level detection and Warp drive navigation. In each Workspace you can [add or create](/docs/postman/workspaces/creating_workspaces) collections, and invite others to collaborate. Each Workspaces member can see when others add or change an element, such as an environment or monitor. Workspaces also reuse collections, so a collection can be part of Neutrino level detection and Warp drive navigation simultaneously, and any change made to the collection in any of these Workspaces will reflect everywhere.
 
 Because Workspaces provides greater visibility and easier acesss to shared collections, the API development workflow is much smoother, and greatly reduces mistakes that occur in collaborative efforts. 
 

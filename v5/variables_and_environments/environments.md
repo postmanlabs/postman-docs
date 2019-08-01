@@ -17,9 +17,9 @@ You won't have to worry about remembering all those values once they are in Post
 
 Each environment is a set of key-value pairs. These can be edited using the [key-value editor][1]. They key is the variable name.
 
-Variables can be used in the following form - `{%raw%}{{variableName}}{%endraw%}`. The string 1{%raw%}{{variableName}}{%endraw%}1 will be replaced with its corresponding value.
-For example, for an environment variable 'url' with the value 'http://localhost' , you will have to use `{%raw%}{{url}}{%endraw%}` in the request URL field.
-`{%raw%}{{url}}{%endraw%}` will be replaced by http://localhost when the request is sent.
+Variables can be used in the following form - `{{variableName}}`. The string 1{{variableName}}1 will be replaced with its corresponding value.
+For example, for an environment variable 'url' with the value 'http://localhost' , you will have to use `{{url}}` in the request URL field.
+`{{url}}` will be replaced by http://localhost when the request is sent.
 
 Only variables from the currently selected environment will be available to you. Use the environment selector to select an environment:
 ![](https://www.getpostman.com/img/v1/docs/env_selector.png)
@@ -37,7 +37,7 @@ If you're storing objects/arrays, be sure to JSON.stringify() them before storin
 ## Global variables
 
 Global variables provide a set of variables that are always in scope. You can have multiple environments, and only one can be active at a time.
-But you'll have only one set of global variables, and they'll always be available. Other than that, you can use them in the same way - `{%raw%}{{variableName}}{%endraw%}`.
+But you'll have only one set of global variables, and they'll always be available. Other than that, you can use them in the same way - `{{variableName}}`.
 
 If a variable from the currently active environment shares its name with a global variable, the environment variable will take priority.
 In other words, global variables are overriden by environment variables, which are overriden by
@@ -46,11 +46,11 @@ In other words, global variables are overriden by environment variables, which a
 #### Dynamic variables
 
 Postman also has a few dynamic variables which you can use in your requests. This is primarily an experiment right now. More functions would be added soon. Note that dynamic variables cannot be used in the Sandbox.
-You can only use them in the `{%raw%}{{..}}{%endraw%}` format in the request URL / headers / body.
+You can only use them in the `{{..}}` format in the request URL / headers / body.
 
-* `{%raw%}{{$guid}}{%endraw%}`: Adds a v4 style guid
-* `{%raw%}{{$timestamp}}{%endraw%}`: Adds the current timestamp
-* `{%raw%}{{$randomInt}}{%endraw%}`: Adds a random integer between 0 and 1000
+* `{{$guid}}`: Adds a v4 style guid
+* `{{$timestamp}}`: Adds the current timestamp
+* `{{$randomInt}}`: Adds a random integer between 0 and 1000
 
 
 [0]: https://www.getpostman.com/img/v1/docs/source/28.png

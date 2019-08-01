@@ -20,7 +20,7 @@ warning: false
 3. Fill in the required application details and continue to the next step.
    [![ping_details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ping_details)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ping_details)
 
-4. Download the **SAML metadata** file, and enter your Postman service provider details. These details can be found on the Postman [Edit Team Details page]({{site.pm.gs}}/dashboard/teams/edit). 
+4. Download the **SAML metadata** file, and enter your Postman service provider details. These details can be found on the Postman [Edit Team Details page](https://go.postman.co/settings/team/general). 
 
     | **Field** | **Value** |
     |---|---|
@@ -40,4 +40,4 @@ warning: false
 7. Once enabled, the status will show as **Active** for the application.
    [![ping active](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ping_active)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ping_active)
 
-7. Once the setup is completed, submit your Identity Provider's details to Postman. Copy the `Identity Provider Single Sign-On URL`, `Identity Provider Issuer`, and `X.509 Certificate` from the downloaded **SAML metadata** file and enter these values on the Postman [Edit Team Details page]({{site.pm.gs}}/dashboard/teams/edit) within the **Ping Identity Provider Details** modal. For more details on this last step, review [setting up SSO in Postman](/docs/enterprise/sso/admin_sso). 
+7. Once the setup is completed, submit your Identity Provider's details to Postman. Copy the `Identity Provider Single Sign-On URL`, `Identity Provider Issuer`, and `X.509 Certificate` from the downloaded **SAML metadata** file and enter these values on the Postman [Edit Team Details page](https://go.postman.co/settings/team/general) within the **Ping Identity Provider Details** modal. For more details on this last step, review [setting up SSO in Postman](/docs/enterprise/sso/admin_sso). 

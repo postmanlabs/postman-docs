@@ -11,12 +11,12 @@ You can use the Postman Pro to APIMATIC Integration to back up your Postman Coll
 
 This integration allows APIMATIC to convert your Postman Collections into any major API description format, and save the resulting file into your designated GitHub repository. <br> 
 
-If you don't already have a [GitHub account](https://github.com/){:target="_blank"}, you'll need to create one.
+If you don't already have a [GitHub account](https://github.com/), you'll need to create one.
 
 
 ### Configuring APIMATIC Integration
 
-1. In the [Integrations page]({{site.pm.gs}}/dashboard/integrations){:target="_blank"}, find APIMATIC in the list of Postman’s 3rd party Integrations for Postman Pro users.
+1. In the [Integrations page](https://go.postman.co/workspaces), find APIMATIC in the list of Postman’s 3rd party Integrations for Postman Pro users.
 
 [![select apimatic](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_APImatic.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_APImatic.png)
 

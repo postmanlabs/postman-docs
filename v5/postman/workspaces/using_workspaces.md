@@ -48,7 +48,7 @@ Here you'll learn how to perform actions on Workspaces and how to use Workspaces
 
 You can add collections or environments from one Workspace to another personal or team Workspace. 
 
-In the [Workplaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a Workspace and click the **Add to workspace** button. The personal Workspaces view appears by default. Click "Team" to add collections or environments to team Workspaces.
+In the [Workplaces dashboard](https://app.getpostman.com/dashboard), select a Workspace and click the **Add to workspace** button. The personal Workspaces view appears by default. Click "Team" to add collections or environments to team Workspaces.
 
 [![add to workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
 
@@ -64,7 +64,7 @@ Click the **Add to this Workspace** button. The element(s) appear in your list o
 
 When you remove a Workspace, it is no longer visible in that particular Workspace. The element is still available in any other Workspace where it exists. 
 
-You can remove an element from a Workspace in the Postman app sidebar, or in the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}.
+You can remove an element from a Workspace in the Postman app sidebar, or in the [Workspaces dashboard](https://app.getpostman.com/dashboard).
 
 #### Removing collections from a Workspace in the sidebar
 
@@ -76,7 +76,7 @@ Click "Remove from Workspace". The collection is no longer visible in the Worksp
 
 #### Removing elements from a Workspace in the dashboard
 
-In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, click an element. In this example, we click "Collections".
+In the [Workspaces dashboard](https://app.getpostman.com/dashboard), click an element. In this example, we click "Collections".
 
 Click the ***Ellipsis (...)*** button in the element you want to remove and select "Remove from workspace". The Workspace is no longer visible in the Workspace.
 
@@ -86,7 +86,7 @@ Click the ***Ellipsis (...)*** button in the element you want to remove and sele
 
 When you delete an element, you erase its existence in Postman. 
 
-To delete a Workspace, go to the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"} and select a Workspace. In this example, we select a team Workspace to delete.
+To delete a Workspace, go to the [Workspaces dashboard](https://app.getpostman.com/dashboard) and select a Workspace. In this example, we select a team Workspace to delete.
 
 Click the ***Ellipsis (...)*** button for the element you want to delete and select "Delete".
 
@@ -120,7 +120,7 @@ In the confirmation message, click the **Start Building** button to complete the
 
 Postman lets you share your personal Workspaces with other users.
 
-In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a personal Workspace you want to share. Next, click the ***Ellipsis (...)*** button and select "Share".
+In the [Workspaces dashboard](https://app.getpostman.com/dashboard), select a personal Workspace you want to share. Next, click the ***Ellipsis (...)*** button and select "Share".
 
 [![](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
 
@@ -132,7 +132,7 @@ Click the **Share this workplace** button.  Your shared Workspace appears in tea
 
 ### Sharing collections in Workspaces
 
-Postman enables you to share your collections in Workspaces from the Postman app and the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}. 
+Postman enables you to share your collections in Workspaces from the Postman app and the [Workspaces dashboard](https://app.getpostman.com/dashboard). 
 
 **Sharing collections in the sidebar**
 
@@ -150,7 +150,7 @@ Select this option to add a collection to a team Workspace. The collection is vi
 
 **Sharing collections with the Embed or Run In Postman button**
 
-Select this option to embed a **[Run in Postman](/docs/postman_for_publishers/run_button/creating_run_button){:target="_blank"}** button in your collection for your API documentation, website, or Github readme. 
+Select this option to embed a **[Run in Postman](/docs/postman_for_publishers/run_button/creating_run_button)** button in your collection for your API documentation, website, or Github readme. 
 
 The **Run in Postman** button lets anyone import and run this collection with one click. When you click the **Generate Code** button, you get a link that you can use for a dynamic or static button. You can also select the environment you want for the generated code.
 
@@ -160,7 +160,7 @@ The **Run in Postman** button shares the collection directly from Postman, so th
 
 **Sharing collections with a link**
 
-Select this option to generate a shareable link for others to access your collections. You can manage a complete list of your collection links from your [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}.
+Select this option to generate a shareable link for others to access your collections. You can manage a complete list of your collection links from your [Workspaces dashboard](https://app.getpostman.com/dashboard).
 
 [![share get link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-getLink-collections.png)
 
@@ -168,7 +168,7 @@ Select this option to generate a shareable link for others to access your collec
 
 You can view the details of your personal or team Workspaces.
 
-In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a personal or team Workspace.
+In the [Workspaces dashboard](https://app.getpostman.com/dashboard), select a personal or team Workspace.
 
 [![view details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)
 
@@ -188,7 +188,7 @@ To view the details of your team Workspaces, select "View Details" from the ***E
 
 You can rename your personal or team Workspaces.
 
-In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a personal or team Workspace and click the ***Ellipsis (...)*** button. 
+In the [Workspaces dashboard](https://app.getpostman.com/dashboard), select a personal or team Workspace and click the ***Ellipsis (...)*** button. 
 
 #### Renaming personal Workspaces 
 
@@ -216,9 +216,9 @@ In "Share this collection", select the Workspace of which you want to share this
 
 ### Publishing Workspaces
 
-Postman enables you to [publish your collection](/docs/postman/api_documentation/intro_to_api_documentation){:target="_blank"} and make it availabe to anyone with the published link.
+Postman enables you to [publish your collection](/docs/postman/api_documentation/intro_to_api_documentation) and make it availabe to anyone with the published link.
 
-To publish a Workspace collection, go to the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"} and click a personal or team Workspace.
+To publish a Workspace collection, go to the [Workspaces dashboard](https://app.getpostman.com/dashboard) and click a personal or team Workspace.
 
 In the Collections view, click the ***Ellipsis (...)*** button and select "Publish".
 
@@ -254,7 +254,7 @@ In "Delete Workspace", click the **Leave workspace** button.  You can no longer 
 
 You can edit descriptions for personal and team Workspaces. In this example, we use a personal Workspace.
 
-In the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}, select a Workspace, click the ***Ellipsis (...)*** button, and select "Edit Description".
+In the [Workspaces dashboard](https://app.getpostman.com/dashboard), select a Workspace, click the ***Ellipsis (...)*** button, and select "Edit Description".
 
 [![edit descr1](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
 
@@ -265,7 +265,7 @@ In "Edit workspace details", enter a new description in the "Summary" text box a
 
 ### Managing members of team Workspaces
 
-When you need to manage the members of your team Workspace, go the [Workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"} and select the "Team" view.
+When you need to manage the members of your team Workspace, go the [Workspaces dashboard](https://app.getpostman.com/dashboard) and select the "Team" view.
 
 [![edit descr2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-team.png)
 

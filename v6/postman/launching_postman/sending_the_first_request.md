@@ -18,31 +18,31 @@ As you can see in the image below, when you enter a request in Postman and click
 
 Now let's send our first API request! 
 
-Enter [`postman-echo.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722){:target="_blank"} into the URL field. 
+Enter [`postman-echo.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) into the URL field. 
 
 Click the **Send** button to send your request.  Note the JSON data response from the server. 
 
 [![request response](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Request-repsonse.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Request-repsonse.png)
 
-Notice that Postman adds [`postman-echo.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722){:target="_blank"} under the History tab of the sidebar. You can click the **Save** button to save a request to use later.
+Notice that Postman adds [`postman-echo.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) under the History tab of the sidebar. You can click the **Save** button to save a request to use later.
 
-[![postman echo example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-first-request.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-first-request.png)
+[![postman echo example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SaveRequest.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SaveRequest.png)
 
 
 ### Postman Echo
 
-[`postman-echo.com`](https://docs.postman-echo.com/){:target="_blank"} is a sample API that Postman hosts for you to experiment with various types of requests. It returns the data that you send in the request as part of its response.
+[`postman-echo.com`](https://docs.postman-echo.com/) is a sample API that Postman hosts for you to experiment with various types of requests. It returns the data that you send in the request as part of its response.
 
-To learn more about Postman Echo, see the [documentation for this sample API](https://docs.postman-echo.com/){:target="_blank"}.
+To learn more about Postman Echo, see the [documentation for this sample API](https://docs.postman-echo.com/).
 
 
 For more information about requests, see:
 
-* [Requests](/docs/v6/postman/sending_api_requests/requests){:target="_blank"}
-* [Requests History](/docs/v6/sending_and_viewing_responses/history){:target="_blank"}
-* [Troubleshooting API requests](/docs/v6/postman/sending_api_requests/troubleshooting_api_requests){:target="_blank"}
-* [Capturing HTTP requests](/docs/v6/postman/sending_api_requests/capturing_http_requests){:target="_blank"}
-* [Making SOAP requests](/docs/v6/sending_and_viewing_responses/soap_requests){:target="_blank"}
+* [Requests](/docs/v6/postman/sending_api_requests/requests)
+* [Requests History](/docs/v6/sending_and_viewing_responses/history)
+* [Troubleshooting API requests](/docs/v6/postman/sending_api_requests/troubleshooting_api_requests)
+* [Capturing HTTP requests](/docs/v6/postman/sending_api_requests/capturing_http_requests)
+* [Making SOAP requests](/docs/v6/sending_and_viewing_responses/soap_requests)
 
 
 

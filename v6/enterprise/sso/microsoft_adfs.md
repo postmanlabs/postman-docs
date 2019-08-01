@@ -18,7 +18,7 @@ but similar steps should be possible in other versions.
 
 After you meet these basic requirements, install AD FS on your server. 
 
-To configure and install AD FS, see [Deploy and configure AD FS](https://msdn.microsoft.com/en-us/library/gg188612.aspx){:target="_blank"} in the Microsoft Knowledge Base.
+To configure and install AD FS, see [Deploy and configure AD FS](https://msdn.microsoft.com/en-us/library/gg188612.aspx) in the Microsoft Knowledge Base.
 
 ### Configuration
 
@@ -28,7 +28,7 @@ Follow the steps below to configure Microsoft AD FS to work with Postman SSO.
 
 To create this scheme authentication, see [Configuring SSO for a team](/docs/v6/enterprise/sso/admin_sso).
 
-After creating the scheme, collect the values for these fields in the [Team](https://app.getpostman.com/dashboard/teams){:target="_blank"} page.
+After creating the scheme, collect the values for these fields in the [Team](https://app.getpostman.com/dashboard/teams) page.
 
 | Fields   | AD FS equivalent |
 | ------------- | ------------- |
@@ -57,13 +57,13 @@ To add a Relying Party Trust:
 
 [![display name](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-display-name.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-display-name.jpeg)
 
-   Upload the encryption certificate in the [Team](https://app.getpostman.com/dashboard/teams){:target="_blank"} page or use the default certificate settings.
+   Upload the encryption certificate in the [Team](https://app.getpostman.com/dashboard/teams) page or use the default certificate settings.
 
 [![encryption cert](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-configure-cert.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-configure-cert.jpeg)
 
    Check the box labeled "Enable Support" for the SAML 2.0 WebSSO protocol. 
 
-   Collect the service URL (ACS URL) from the [Team](https://app.getpostman.com/dashboard/teams){:target="_blank"} page.
+   Collect the service URL (ACS URL) from the [Team](https://app.getpostman.com/dashboard/teams) page.
 
 [![acs url](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-ACS-URL.jpeg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-ACS-URL.jpeg)
 
@@ -137,7 +137,7 @@ After the setup, you must submit your Identity Provider's details to Postman.
 
 Download the FederationMetadata.xml. You can generally find this file at: `https://<Federation Service name>/FederationMetadata/2007-06/FederationMetadata.xml`
 
-Collect the Identity Provider Single Sign-On URL, Identity Provider Issuer, and X.509 Certificate from the metadata file and enter these values in the [Team](https://app.getpostman.com/dashboard/teams){:target="_blank"} page in the AD FS Identity Provider Details dialog.
+Collect the Identity Provider Single Sign-On URL, Identity Provider Issuer, and X.509 Certificate from the metadata file and enter these values in the [Team](https://app.getpostman.com/dashboard/teams) page in the AD FS Identity Provider Details dialog.
 
 
 

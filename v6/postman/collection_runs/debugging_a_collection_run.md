@@ -11,10 +11,9 @@ When failure occurs, you can debug your requests in two ways:
 * [Debugging using the Request and Response body](#debugging-using-the-request-and-response-body)
 * [Debugging using the Postman Console](#debugging-using-the-postman-console)
 
+Let's explore debugging request in an example using the [Postman Echo collection](https://docs.postman-echo.com/).
 
-Let's explore debugging request in an example using the [Postman Echo collection](https://docs.postman-echo.com/){:target="_blank"}.
-
-To add Postman Echo to your Postman builder view, go to [Postman Echo](https://docs.postman-echo.com/){:target="_blank"}. 
+To add Postman Echo to your Postman builder view, go to [Postman Echo](https://docs.postman-echo.com/). 
 
 Click the **Run in Postman** button on the top right side of the screen. The Postman Echo collection appears in the sidebar of your Postman builder.
 
@@ -26,7 +25,7 @@ In the Collection Runner, select "Postman Echo" and click the **Run Postman Echo
 
 In the `Delete Cookies` request, we expect a certain cookie to be returned by the server.
 
-Postman Echo's [Cookies](https://docs.postman-echo.com/#37368024-f6a8-0f70-85fc-7e876cde9e33){:target="_blank"} endpoint returns whatever cookies are sent to it. It also sends a JSON representation of these in the response body. We're using this to check if a certain cookie was returned.
+Postman Echo's [Cookies](https://docs.postman-echo.com/#37368024-f6a8-0f70-85fc-7e876cde9e33)endpoint returns whatever cookies are sent to it. It also sends a JSON representation of these in the response body. We're using this to check if a certain cookie was returned.
 
 As you can see, this test is failing. Let's investigate why.
 
@@ -45,13 +44,13 @@ Moreover, when we expand the `Response Headers` section, we see that the cookie 
 
 Note that only response bodies less than 300KBs are attempted to be displayed. Your response headers and bodies are never synced for security reasons. 
 
-You can control which bodies show up in this tooltip by using the `Log responses` dropdown when [starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run){:target="_blank"}.
+You can control which bodies show up in this tooltip by using the `Log responses` dropdown when [starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run).
 
 ### Debugging using the Postman Console
 
 Debugging using the Postman Console requires you to have the console open before you start your run. 
 
-For more information about the Postman Console, see [Debugging and logs](/docs/v6/postman/sending_api_requests/debugging_and_logs){:target="_blank"}.
+For more information about the Postman Console, see [Debugging and logs](/docs/v6/postman/sending_api_requests/debugging_and_logs).
 
 [![postman console view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532402.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532402.png)
 
@@ -64,16 +63,16 @@ Any `console.log` you have in your test scripts also appears here, so you can lo
 <br>
 For more information about collection runs, see:
 
-* [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run){:target="_blank"}
-* [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs){:target="_blank"}
-* [Working with data files](/docs/v6/postman/collection_runs/working_with_data_files){:target="_blank"}
-* [Running multiple iterations](/docs/v6/postman/collection_runs/running_multiple_iterations){:target="_blank"}
-* [Building workflows](/docs/v6/postman/collection_runs/building_workflows){:target="_blank"}
-* [Sharing a collection run](/docs/v6/postman/collection_runs/sharing_a_collection_run){:target="_blank"}
-* [Command line integration with Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman){:target="_blank"}
-* [Integration with Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins){:target="_blank"}
-* [Integration with Travis CI](/docs/v6/postman/collection_runs/integration_with_travis){:target="_blank"}
-* [Newman with Docker](/docs/v6/postman/collection_runs/newman_with_docker){:target="_blank"}
+* [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run)
+* [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs)
+* [Working with data files](/docs/v6/postman/collection_runs/working_with_data_files)
+* [Running multiple iterations](/docs/v6/postman/collection_runs/running_multiple_iterations)
+* [Building workflows](/docs/v6/postman/collection_runs/building_workflows)
+* [Sharing a collection run](/docs/v6/postman/collection_runs/sharing_a_collection_run)
+* [Command line integration with Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman)
+* [Integration with Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins)
+* [Integration with Travis CI](/docs/v6/postman/collection_runs/integration_with_travis)
+* [Newman with Docker](/docs/v6/postman/collection_runs/newman_with_docker)
 
 
 

@@ -39,7 +39,7 @@ Variables can be used almost everywhere in Postman. They are available inside:
 * Raw body content
 * Helper fields
 
-To use a variable you need to enclose the variable name with double curly braces -- `{%raw%}{{my_variable_name}}{%endraw%}`.
+To use a variable you need to enclose the variable name with double curly braces -- `{{my_variable_name}}`.
 [![](https://www.getpostman.com/img/v1/docs/test_multi_environments/test_multi_environments_4.png)][3]
 
 4\. Now select an environment from the environment selection dropdown.
@@ -58,4 +58,4 @@ To see some examples of testing in multiple environments and other use cases for
 [1]: https://www.getpostman.com/img/v1/docs/test_multi_environments/test_multi_environments_2.png
 [2]: https://www.getpostman.com/img/v1/docs/test_multi_environments/test_multi_environments_3.png
 [3]: https://www.getpostman.com/img/v1/docs/test_multi_environments/test_multi_environments_4.png
-[4]: http://blog.getpostman.com/2014/02/20/using-variables-inside-postman-and-collection-runner/
+[4]: https://blog.getpostman.com/2014/02/20/using-variables-inside-postman-and-collection-runner/

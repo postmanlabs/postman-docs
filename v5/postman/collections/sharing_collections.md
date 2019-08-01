@@ -5,7 +5,7 @@ warning: false
 
 ---
 
-You must be signed in to your [Postman account](/docs/postman/launching_postman/postman_account) to upload or share a collection.  Click on the ellipses (**...**) next to the collection you wish to share. Select "Share" to open the **SHARE COLLECTION** modal which will contain most of ways that you can share a collection.
+You must be signed in to your [Postman account](/docs/postman/launching_postman/postman_account) to upload or share a collection.  Click on the ellipsis (**...**) next to the collection you wish to share. Select "Share" to open the **SHARE COLLECTION** modal which will contain most of ways that you can share a collection.
 
 [![share collection from dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-sharing-collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-sharing-collection.png)
 
@@ -23,7 +23,7 @@ A team’s shared collections can be viewed in the [team library](/docs/postman/
 
 Generate a shareable link for others to access your collections. This is not the recommended method for sharing collections.  Collection links reflect the collection as a snapshot in time, and must be updated to refresh the changes to the collection.
 
-You can manage a complete list of collection links from the [dashboard]({{site.pm.gs}}/dashboard/collections/links){:target="_blank"}.
+You can manage a complete list of collection links from the [dashboard](https://go.postman.co/me/collections).
 
 [![share collection with a link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58564829.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58564829.png)
 
@@ -37,4 +37,4 @@ Under the **Embed Button** tab of the **SHARE COLLECTION** modal, you can create
 
 Collections can be downloaded as a JSON file which you can share with others, with or without signing in through your Postman account. You can share collections anonymously, but it is strongly recommended to sign in to your Postman account when uploading collections. This will let you update your existing collection, make it public, or delete it later.
 
-Learn more about [exporting and importing collections](/docs/postman/collections/data_formats), and the differences between collection formats [v1 and v2](http://blog.getpostman.com/2015/06/05/travelogue-of-postman-collection-format-v2/){:target="_blank"}.
+Learn more about [exporting and importing collections](/docs/postman/collections/data_formats), and the differences between collection formats [v1 and v2](http://blog.getpostman.com/2015/06/05/travelogue-of-postman-collection-format-v2/).

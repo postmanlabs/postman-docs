@@ -3,3 +3,4 @@ node_modules/
 _site/
 .idea/
 npm-debug.log
+.jekyll-metadata

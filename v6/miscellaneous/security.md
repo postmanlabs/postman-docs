@@ -7,7 +7,7 @@ tags:
 warning: false
 ---
 
-Security is one of the biggest considerations in everything we do. If you have any questions after reading this, or encounter any issues, please contact us at [{{site.pm.security_email}}][0].
+Security is one of the biggest considerations in everything we do. If you have any questions after reading this, or encounter any issues, please contact us at [security@getpostman.com][0].
 
 ### SSL & Secure Websockets
 
@@ -29,10 +29,10 @@ We will soon offer support for client-side encryption, using a passphrase that y
 
 ### Contact Us
 
-If you've found a vulnerability in our service or website, or want additional information regarding how we manage security, please send an email to [{{site.pm.security_email}}][0]. We will review it and respond to you within 24 hours.
+If you've found a vulnerability in our service or website, or want additional information regarding how we manage security, please send an email to [security@getpostman.com][0]. We will review it and respond to you within 24 hours.
 
 
-[0]: mailto:{{site.pm.security_email}}
+[0]: mailto:security@getpostman.com
 [1]: http://aws.amazon.com/security/
 [2]: http://aws.amazon.com/security/security-resources/
 [3]: https://www.getpostman.com/docs/environments

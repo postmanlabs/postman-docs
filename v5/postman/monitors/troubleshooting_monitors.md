@@ -9,7 +9,7 @@ Postman always syncs your monitors with your collections in the Postman app. As 
 
 #### Viewing failed monitors
 
-The Postman console in the [Monitors web view](https://monitor.getpostman.com){:target="_blank"} is the best way to debug monitors. 
+The Postman console in the [Monitors web view](https://monitor.getpostman.com) is the best way to debug monitors. 
 
 You can click the failed monitor and review the relevant logs under the **Console Log** tab. 
 

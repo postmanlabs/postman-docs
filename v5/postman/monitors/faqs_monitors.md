@@ -9,11 +9,11 @@ warning: false
 
 ##### **What can I test with Monitors?**
 
-You can use Postman Monitors for simple uptime monitoring to ensure your servers are online or for performance monitoring to ensure your servers are responding promptly. You also can write detailed [test suites](/docs/postman/scripts/test_scripts){:target="_blank"} to check monitors for proper behavior, business logic, error handling, and so on.
+You can use Postman Monitors for simple uptime monitoring to ensure your servers are online or for performance monitoring to ensure your servers are responding promptly. You also can write detailed [test suites](/docs/postman/scripts/test_scripts) to check monitors for proper behavior, business logic, error handling, and so on.
 
 ##### **What restrictions apply?**
 
-To learn what restrictions apply, see [Intro to Monitoring](/docs/postman/monitors/intro_monitors){:target="_blank"}.
+To learn what restrictions apply, see [Intro to Monitoring](/docs/postman/monitors/intro_monitors).
 
 ##### **How many monitors can I create?**
 
@@ -33,7 +33,7 @@ There is nearly no limit to the amount of data that can be sent or received per 
 
 ##### **How do I troubleshoot problems?**
 
-You can view the full console output for every monitor run, including any errors. You can also use methods, such as `console.log()`, `console.warn()`, and so on to output your own debugging information. To learn more about troubleshooting monitors, see [Troubleshooting monitors](/docs/postman/monitors/troubleshooting_monitors){:target="_blank"}.
+You can view the full console output for every monitor run, including any errors. You can also use methods, such as `console.log()`, `console.warn()`, and so on to output your own debugging information. To learn more about troubleshooting monitors, see [Troubleshooting monitors](/docs/postman/monitors/troubleshooting_monitors).
 
 ### Security
 
@@ -49,7 +49,7 @@ You can delete a monitor at any time. Once deleted, all run history for the moni
 
 ##### **Where do Monitors run?**
 
-Monitors run on our cloud infrastructure, which is hosted by Amazon Web Services (AWS). More information about our cloud infrastructure is available at our [Security page](https://www.getpostman.com/security){:target="_blank"}.
+Monitors run on our cloud infrastructure, which is hosted by Amazon Web Services (AWS). More information about our cloud infrastructure is available at our [Security page](https://www.getpostman.com/security).
 
 ##### **Can Monitors access private networks?**
 

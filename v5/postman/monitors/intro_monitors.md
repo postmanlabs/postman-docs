@@ -20,7 +20,7 @@ There are a few minor differences between running collections in a Postman monit
 ##### **Variables**
 
    *   Can't import existing global variables, but you can create new ones during a monitor run.
-   *   Global and environment variables are not persisted. If you require persisting environment variables, we recommend adding a call to update the environment variable using the [Postman API](/docs/pro/pro_api/intro_api). The following is an [example of how to update the environment variable](https://documenter.getpostman.com/view/218543/lunch-picker/6fWy4Ao#fe7e2416-4af9-fffc-02af-b8fc2c58a181){:target="_blank"} in this manner.
+   *   Global and environment variables are not persisted. If you require persisting environment variables, we recommend adding a call to update the environment variable using the [Postman API](/docs/pro/pro_api/intro_api). The following is an [example of how to update the environment variable](https://documenter.getpostman.com/view/218543/lunch-picker/6fWy4Ao#fe7e2416-4af9-fffc-02af-b8fc2c58a181) in this manner.
 
    [![persist env in monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorPersistEnv.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorPersistEnv.png)
 
@@ -46,7 +46,7 @@ There are a few minor differences between running collections in a Postman monit
 ##### **Multi-region Monitoring**
 
    *   Monitors allow you to run collections in specified geographic regions
-   *   Can only specify multi-region monitoring from the [monitoring page](https://monitor.getpostman.com){:target="_blank"}
+   *   Can only specify multi-region monitoring from the [monitoring page](https://monitor.getpostman.com)
 
 ##### **Data Files**
 
@@ -62,9 +62,9 @@ There are a few minor differences between running collections in a Postman monit
 
 Monitoring resources across multiple regions provides useful information about the status and response time for your endpoints. If you’ve implemented a solution by setting up multiple servers running on multiple continents, then you want to make sure your endpoints are healthy and that none of your users are experiencing unusual delays.
 
-Postman supports monitoring in 6 geographic regions around the world. If you’re interested in a region that’s not listed in the Postman interface, contact us at [{{site.pm.help_email}}](mailto:{{site.pm.help_email}}) or through the chat box on the [monitors page](https://monitor.getpostman.com){:target="_blank"}.
+Postman supports monitoring in 6 geographic regions around the world. If you’re interested in a region that’s not listed in the Postman interface, contact us at [help@getpostman.com](mailto:help@getpostman.com) or through the chat box on the [monitors page](https://monitor.getpostman.com).
 
-For Postman Enterprise users, there is an additional option available to establish dedicated IP addresses for whitelisting and source logging to address security requirements for their team. For example, by setting up a static IP address for API monitoring, you can whitelist the dedicated IPs with your incoming servers to ensure they will accept requests from those IP addresses. Postman Enterprise users interested in setting up static IPs for their API monitoring should contact [{{site.pm.help_email}}](mailto:{{site.pm.help_email}}).
+For Postman Enterprise users, there is an additional option available to establish dedicated IP addresses for whitelisting and source logging to address security requirements for their team. For example, by setting up a static IP address for API monitoring, you can whitelist the dedicated IPs with your incoming servers to ensure they will accept requests from those IP addresses. Postman Enterprise users interested in setting up static IPs for their API monitoring should contact [help@getpostman.com](mailto:help@getpostman.com).
 
 ### Pricing for monitoring
 

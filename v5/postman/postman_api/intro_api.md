@@ -5,30 +5,30 @@ warning: false
 
 ---
 
-The [Postman API](https://docs.api.getpostman.com/){:target="_blank"} has several endpoints to help you integrate Postman  with your development toolchain. 
+The [Postman API](https://docs.api.getpostman.com/) has several endpoints to help you integrate Postman  with your development toolchain. 
 
 You can add new collections, update existing collections, update environments, or add and run monitors directly through the API. This API enables you to programmatically access your data stored in your Postman account with ease.
 
-The easiest way to start with the API is to click the **Run in Postman** button at the top of the [Postman API documentation page](https://docs.api.getpostman.com/){:target="_blank"} and use the Postman app to send requests.
+The easiest way to start with the API is to click the **Run in Postman** button at the top of the [Postman API documentation page](https://docs.api.getpostman.com/) and use the Postman app to send requests.
 
 ### Postman API overview
 
 You need to know three important points about the Postman API:
 
-1.  You need a valid API Key to send requests to the API endpoints. Postman users can get a key in the [Integrations](https://app.getpostman.com/dashboard/integrations){:target="_blank"} page.
+1.  You need a valid API Key to send requests to the API endpoints. Postman users can get a key in the [Integrations](https://app.getpostman.com/dashboard/integrations) page.
 
 2.  The API is rate limited.
 
 3.  Using the API, you can add and update collections, environments, and users. You can also run monitors, create a mock server, and so much more.
 
-For more information, see the [Postman API documentation](https://docs.api.getpostman.com/){:target="_blank"}.
+For more information, see the [Postman API documentation](https://docs.api.getpostman.com/).
 
 
 ### Authentication
 
 An API Key is required to be sent with every request to the Postman API as an `X-Api-Key` request header.
 
-> **If you do not have an API Key, you can easily generate one in the [Postman Integrations Dashboard](https://app.getpostman.com/dashboard/integrations){:target="_blank"}, and click the "Get API Key" button.**
+> **If you do not have an API Key, you can easily generate one in the [Postman Integrations Dashboard](https://app.getpostman.com/dashboard/integrations), and click the "Get API Key" button.**
 
 [![get API key](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/postmanAPI-apiKey.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/postmanAPI-apiKey.png)
 
@@ -50,4 +50,4 @@ Access to the API using a key is limited to **60 requests per minute**. In addi
 
 ### Free API calls with your Postman account
 
-Your Postman account gives you a limited number of free Postman API calls per month. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com) itself or the [account usage page](https://go.pstmn.io/postman-account-limits){:target="_blank"}.
+Your Postman account gives you a limited number of free Postman API calls per month. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com) itself or the [account usage page](https://go.pstmn.io/postman-account-limits).

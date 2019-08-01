@@ -26,11 +26,11 @@ There is no need to install or configure a proxy. There are no code changes requ
 Here how to get started:
 
    *   Install Postman from the Chrome Web Store, if you don’t have it already.
-   *   Install the [Interceptor extension](https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo/support?hl=en){:target="_blank"}.
+   *   Install the [Interceptor extension](https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo/support?hl=en).
    *   Open Postman, and click on the Interceptor icon in the toolbar to switch the toggle to “on”.
    *   Browse your app or your website and monitor the requests as they stream in.
 
-**Note on security:** The only entity that the Interceptor communicates with is Postman which then saves it to your history. We have open-sourced Interceptor and you can find the code on [Github](https://github.com/a85/PostmanInterceptor){:target="_blank"}. Postman saves all your data locally inside IndexedDB.
+**Note on security:** The only entity that the Interceptor communicates with is Postman which then saves it to your history. We have open-sourced Interceptor and you can find the code on [Github](https://github.com/a85/PostmanInterceptor). Postman saves all your data locally inside IndexedDB.
 
 ### Capturing cookies
 
@@ -80,7 +80,7 @@ However sending these restricted headers is easy. Follow the steps below:
 
 [![interceptor icon](https://www.getpostman.com/img/v1/docs/thumbs/32.png)](https://www.getpostman.com/img/v1/docs/source/32.png)
 
-   *   Install the Interceptor extension either by clicking on the Interceptor icon in the Postman toolbar or through the [Chrome Web Store](https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo){:target="_blank"}.
+   *   Install the Interceptor extension either by clicking on the Interceptor icon in the Postman toolbar or through the [Chrome Web Store](https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo).
    *   Once it’s installed, click on the icon again in the Postman app and toggle it on.
 
 That’s it! You can now send requests which use these headers.

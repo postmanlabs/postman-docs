@@ -11,7 +11,7 @@ Newman is a command line Collection Runner for Postman. It allows you to run and
 
 Newman maintains feature parity with Postman and allows you to run collections the way they are executed inside the collection runner in the Postman app.
 
-Newman resides in the [NPM registry](https://www.npmjs.org/package/newman){:target="_blank"} and on [GitHub](https://github.com/postmanlabs/newman){:target="_blank"}.
+Newman resides in the [NPM registry](https://www.npmjs.org/package/newman) and on [GitHub](https://github.com/postmanlabs/newman).
 
 [![newman gif](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newman.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newman.gif)
 
@@ -29,7 +29,7 @@ We'll cover these topics to learn command line integration with Newman:
 
 Newman is built on Node.js. To run Newman, make sure you have Node.js installed. 
 
-You can [download and install](http://nodejs.org/download/){:target="_blank"} Node.js on Linux, Windows, and Mac OSX.
+You can [download and install](http://nodejs.org/download/) Node.js on Linux, Windows, and Mac OSX.
 
 After you install Node.js, Newman is just a command away. Install Newman from npm globally on your system, which allows you to run it from anywhere.
 
@@ -39,15 +39,15 @@ $ npm install -g newman
 
 The easiest way to run Newman is to run it with a collection. You can run any collection file from your file system. 
 
-To learn how to export collections to share as a file, see the [collection documentation](/docs/v6/postman/collections/sharing_collections){:target="_blank"}.
+To learn how to export collections to share as a file, see the [collection documentation](/docs/v6/postman/collections/sharing_collections).
 
 ```bash
 $ newman run mycollection.json
 ```
 
-You can also pass a collection as a URL. For more information, see the [documentation for collections](/docs/v6/postman/collections/sharing_collections){:target="_blank"} to learn how to share a file as a URL. 
+You can also pass a collection as a URL. For more information, see the [documentation for collections](/docs/v6/postman/collections/sharing_collections) to learn how to share a file as a URL. 
 
-Your collection probably uses environment variables. To provide an accompanying set of environment variables, [export the template](/docs/v6/postman/environments_and_globals/manage_environments){:target="_blank"} from Postman and run them with the `-e` flag.
+Your collection probably uses environment variables. To provide an accompanying set of environment variables, [export the template](/docs/v6/postman/environments_and_globals/manage_environments) from Postman and run them with the `-e` flag.
 
 ```bash
 $ newman run https://www.getpostman.com/collections/cb208e7e64056f5294e5 -e dev_environment.json
@@ -175,7 +175,7 @@ The results of all tests and requests can be exported into a file and later impo
 $ newman run mycollection.json --reporters cli,json --reporter-json-export outputfile.json
 ```
 
-**Note:** Newman allows you to use all [libraries and objects](/docs/v6/postman/scripts/postman_sandbox){:target="_blank"} that Postman supports to run tests and pre-request scripts.
+**Note:** Newman allows you to use all [libraries and objects](/docs/v6/postman/scripts/postman_sandbox) that Postman supports to run tests and pre-request scripts.
 
 ### File uploads
 
@@ -276,7 +276,7 @@ function (emitter, reporterOptions, collectionRunOptions) {
 Scoped reporter package names like `@myorg/newman-reporter-<name>` are also supported. You can find working reporter examples  in [working reporter examples][8].
 
 #### Using custom reporters
-In order to use the custom reporter, it will have to be installed first. For instance, to use the [Newman teamcity reporter][9]{:target="_blank"}:
+In order to use the custom reporter, it will have to be installed first. For instance, to use the [Newman teamcity reporter][9]:
 
 Install the reporter package. 
 ```
@@ -316,7 +316,7 @@ newman.run({
 
 In both cases above, the reporter options are optional.
 
-For the complete list of details, see the [Newman README](https://github.com/postmanlabs/newman){:target="_blank"}.
+For the complete list of details, see the [Newman README](https://github.com/postmanlabs/newman).
 
 [0]: https://www.npmjs.org/package/newman
 [1]: https://github.com/postmanlabs/newman
@@ -334,14 +334,14 @@ For the complete list of details, see the [Newman README](https://github.com/po
 
 For more information about collection runs, see:
 
-* [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run){:target="_blank"}
-* [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs){:target="_blank"}
-* [Working with data files](/docs/v6/postman/collection_runs/working_with_data_files){:target="_blank"}
-* [Running multiple iterations](/docs/v6/postman/collection_runs/running_multiple_iterations){:target="_blank"}
-* [Building workflows](/docs/v6/postman/collection_runs/building_workflows){:target="_blank"}
-* [Sharing a collection run](/docs/v6/postman/collection_runs/sharing_a_collection_run){:target="_blank"}
-* [Debugging a collection run](/docs/v6/postman/collection_runs/debugging_a_collection_run){:target="_blank"}
-* [Integration with Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins){:target="_blank"}
-* [Integration with Travis CI](/docs/v6/postman/collection_runs/integration_with_travis){:target="_blank"}
-* [Newman with Docker](/docs/v6/postman/collection_runs/newman_with_docker){:target="_blank"}
+* [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run)
+* [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs)
+* [Working with data files](/docs/v6/postman/collection_runs/working_with_data_files)
+* [Running multiple iterations](/docs/v6/postman/collection_runs/running_multiple_iterations)
+* [Building workflows](/docs/v6/postman/collection_runs/building_workflows)
+* [Sharing a collection run](/docs/v6/postman/collection_runs/sharing_a_collection_run)
+* [Debugging a collection run](/docs/v6/postman/collection_runs/debugging_a_collection_run)
+* [Integration with Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins)
+* [Integration with Travis CI](/docs/v6/postman/collection_runs/integration_with_travis)
+* [Newman with Docker](/docs/v6/postman/collection_runs/newman_with_docker)
 

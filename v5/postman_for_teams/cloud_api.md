@@ -69,7 +69,7 @@ Every user is permitted to create upto 10 keys. To increase this limit, please c
 
 ### Getting Help
 
-For help regarding accessing the Postman API, feel free to discuss it in the `#cloudapi` channel of our [Slack Community][5] ([get invite][6]). You can also drop in a line at [{{site.pm.help_email}}](mailto:{{site.pm.help_email}}).
+For help regarding accessing the Postman API, feel free to discuss it in the `#cloudapi` channel of our [Slack Community][5] ([get invite][6]). You can also drop in a line at [help@getpostman.com](mailto:help@getpostman.com).
 In the event you receive a `503` response from our servers, it implies that we have hit an unexpected spike in API access traffic and would usually be operational within the next 5 minutes. If the outage persists, or your receive any other form of `5XX` error, kindly let us know.
 
 ### API Reference

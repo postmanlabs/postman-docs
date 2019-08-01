@@ -17,7 +17,7 @@ After you set up the integration, you can view real-time alerts based on the res
 
 ### Retrieving the BigPanda API key
 
-1. Log in to your [BigPanda](https://bigpanda.io/){:target="_blank"} account and select "Integrations" in the header toolbar, then click the **New Integration** button.
+1. Log in to your [BigPanda](https://bigpanda.io/) account and select "Integrations" in the header toolbar, then click the **New Integration** button.
 
 [![bigpanda integrations](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/bigPanda-integrations.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/bigPanda-integrations.png)
 
@@ -45,7 +45,7 @@ The generated App Key displays.
 ### Configuring Postman monitors
 
 
-1. In the **[Integrations]({{site.pm.gs}}/dashboard/integrations){:target="_blank"}** page, find BigPanda from a list of Postman's 3rd party Integrations for Postman Pro users.
+1. In the **[Integrations](https://go.postman.co/workspaces)** page, find BigPanda from a list of Postman's 3rd party Integrations for Postman Pro users.
 
 2. Click the **View Details** button to see information about BigPanda and how it can provide real-time alerting based on the results of your Postman monitors. 
 

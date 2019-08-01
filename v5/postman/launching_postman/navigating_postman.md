@@ -13,19 +13,19 @@ This interface design gives you as much space as possible for your APIs.
 
 ### Sidebar
 
-The Postman sidebar lets you find and manage requests and collections. The sidebar has two main tabs: **[History](/docs/postman/sending_api_requests/history){:target="_blank"}** and **[Collections](/docs/postman/collections/creating_collections){:target="_blank"}**.
+The Postman sidebar lets you find and manage requests and collections. The sidebar has two main tabs: **[History](/docs/postman/sending_api_requests/history)** and **[Collections](/docs/postman/collections/creating_collections)**.
 
 You can drag the right edge to resize the width of the sidebar. You can also minimize the sidebar for smaller screens, and show or hide the sidebar in the Status bar.
 
 ### History tab
 
-The Postman app saves every request you send in the [History](/docs/postman/sending_api_requests/history){:target="_blank"} tab in the sidebar. 
+The Postman app saves every request you send in the [History](/docs/postman/sending_api_requests/history) tab in the sidebar. 
 
 ### Collections tab
 
 This tab creates and manages collections from the **Collections** tab in the sidebar. 
 
-Learn more about [collections](/docs/postman/collections/creating_collections){:target="_blank"} and how they accelerate the speed of your APIs.
+Learn more about [collections](/docs/postman/collections/creating_collections) and how they accelerate the speed of your APIs.
 
 ### Header toolbar
 
@@ -34,9 +34,9 @@ Learn more about [collections](/docs/postman/collections/creating_collections){:
 The header toolbar contains these options:
 * **New** button: Creates requests, collections, environments, documentation, mock servers, and monitors.
 *  **Import** button - Imports Postman collections, environments, WADL, Swagger, RAML, or cURL into Postman using files, links, or raw text.
-*   **Runner** button - Opens the [collection runner.](/docs/postman/collection_runs/starting_a_collection_run){:target="_blank"}
+*   **Runner** button - Opens the [collection runner.](/docs/postman/collection_runs/starting_a_collection_run)
 *   **New window** icon - Opens a new "Tab", "Postman Window" or a "Runner Window".
-*   **Workspaces** menu - Opens the Workspaces menu where you can view [personal and team Workspaces](/docs/postman/workspaces/intro_to_workspaces){:target="_blank"}, and create and manage Workspaces.
+*   **Workspaces** menu - Opens the Workspaces menu where you can view [personal and team Workspaces](/docs/postman/workspaces/intro_to_workspaces), and create and manage Workspaces.
 *   **Interceptor/Proxy** icon - Manages proxy or Interceptor settings.
 *   **IN SYNC status** icon - Updates the status of your Postman account.
 *   **Public API Library** - Displays the Public API network.
@@ -50,23 +50,23 @@ The header toolbar contains these options:
 Two consoles are available in Postman to see what's going on behind the scenes.
 
    *   Postman console - Contains a running log of HTTP requests and responses. You can log messages from scripts. For example you could log messages in the console.log. <br>**Note**: This feature is only available in Postman's native apps.
-   *   DevTools console - Provides diagnostic information during development. To learn how to access DevTools console logs, see [Debugging and logs](/docs/postman/sending_api_requests/debugging_and_logs){:target="_blank"}.
+   *   DevTools console - Provides diagnostic information during development. To learn how to access DevTools console logs, see [Debugging and logs](/docs/postman/sending_api_requests/debugging_and_logs).
 
-Learn more about [troubleshooting with console logs](/docs/postman/sending_api_requests/debugging_and_logs){:target="_blank"}.
+Learn more about [troubleshooting with console logs](/docs/postman/sending_api_requests/debugging_and_logs).
 
 ### Status bar
 
 The status bar at the bottom of the Postman interface gives you a convenient way to:
 * Show or hide the sidebar.
 * Search in collections, environments, and globals.
-* Open the Postman [console.](https://www.getpostman.com/docs/postman/launching_postman/navigating_postman#console){:target="_blank"}
+* Open the Postman [console.](https://www.getpostman.com/docs/postman/launching_postman/navigating_postman#console)
 * Select either a single or two pane layout.
-* Open the keyboard [shortcuts.](https://www.getpostman.com/docs/postman/launching_postman/navigating_postman#keyboard-shortcuts){:target="_blank"}
+* Open the keyboard [shortcuts.](https://www.getpostman.com/docs/postman/launching_postman/navigating_postman#keyboard-shortcuts)
 * Get help or provide feedback.
 
 [![status bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-status-bar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-status-bar.png)
 
-When you click the **Help & Feedback** icon, you can summon a menu that provides access to the latest release notes, [documentation](/docs){:target="_blank"}, [security,](https://www.getpostman.com/security){:target="_blank"} [support,](https://www.getpostman.com/support){:target="_blank"} and [social media.](https://twitter.com/postmanclient){:target="_blank"}
+When you click the **Help & Feedback** icon, you can summon a menu that provides access to the latest release notes, [documentation](/docs), [security,](https://www.getpostman.com/security) [support,](https://www.getpostman.com/support) and [social media.](https://twitter.com/postmanclient)
 
 [![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-statusbar-helpFeedbackMenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-statusbar-helpFeedbackMenu.png)
 
@@ -212,7 +212,7 @@ To force close a tab, press **ALT** and click the **X** icon on the right side o
 
 Working with large amounts of data can be cumbersome and time consuming. Postman's data editor lets you view and manipulate data in a fast, effective, and elegant manner. Since most users work with data in spreadsheets, we leveraged those features for the data editor design to make it a familiar experience. 
 
-**Note**: The UI images in this section do not reflect the current UI that features the [**New** button.](/docs/postman/launching_postman/newbutton){:target="_blank"}
+**Note**: The UI images in this section do not reflect the current UI that features the [**New** button.](/docs/postman/launching_postman/newbutton)
 
 **Visual layout**
 

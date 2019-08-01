@@ -13,13 +13,15 @@ Postman Pro and Enterprise users have access to a Team Library which lets you co
 
 Your Team Library should be the single source of truth about your APIs. It will let you see the state of your APIs in real time, or review historical versions and the latest updates.
 
+**Note:** If you'd like to know more about workspaces, refer to the chapter [Introduction to Workspaces](/docs/postman/workspaces/intro_to_workspaces/). 
+
 [![team library](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59167045.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59167045.png)
 
 The Team Library allows team members to subscribe to shared collections. When someone subscribes to a collection, they get a synced copy of this collection in their Postman app. If they have edit permissions for the collection, they can make changes which will be reflected in everyone else's collection copy too. Changes made to shared collections are visible under the [Activity Feed](/docs/v6/postman/team_library/activity_feed_and_restoring_collections).
 
 Shared environments work slightly differently. Through a shared environment, you can create and share a snapshot of a local environment. Users may have different environment variable values, so updates to these values are not synced between shared environments.
 
-There are a number of enhancements coming up soon on [Postman's product roadmap](https://trello.com/b/4N7PnHAz/postman-roadmap-for-developers){:target="_blank"} that will impact workflows for teams wishing to 'sync' updates to their shared environment. In the meantime, here are some workarounds that rely on collections as the single source of truth for your APIs:
+There are a number of enhancements coming up soon on [Postman's product roadmap](https://trello.com/b/4N7PnHAz/postman-roadmap-for-developers) that will impact workflows for teams wishing to 'sync' updates to their shared environment. In the meantime, here are some workarounds that rely on collections as the single source of truth for your APIs:
 
 1. Run a pre-request script to validate the correctness of required environment keys and values. If any are missing, stop the workflow and throw an error.
 2. Set environment variables in the first request of the collection, or a pre-request script.

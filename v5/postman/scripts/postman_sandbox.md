@@ -10,17 +10,17 @@ The Postman Sandbox is a JavaScript execution environment that is available to y
 
 ### Commonly used libraries and utilities
 
-*   [Lodash](https://lodash.com/){:target="_blank"}: JS utility library
-*   [cheerio](https://cheerio.js.org/){:target="_blank"}: A fast, lean implementation of the core jQuery API (available in versions 4.6.0 and up)
-*   [BackboneJS](http://backbonejs.org/){:target="_blank"} **Deprecated**: Provides simple models, views, and collections. This will be removed in future versions of the sandbox.
-*   [SugarJS](http://sugarjs.com/){:target="_blank"} **Deprecated**: Extends native JS objects with useful methods. This will be removed in future versions of the sandbox.
-*   [tv4 JSON schema validator](https://github.com/geraintluff/tv4){:target="_blank"}: Validates JSON objects against v4 of the json-schema draft
-*   [CryptoJS](https://code.google.com/p/crypto-js/){:target="_blank"}: standard and secure cryptographic algorithms. Supported algorithms: AES, DES, EvpKDF, HMAC-MD5, HMAC-SHA1/3/256/512, MD5, PBKDF2, Rabbit, SHA1/3/224/256/512, TripleDES
+*   [Lodash](https://lodash.com/): JS utility library
+*   [cheerio](https://cheerio.js.org/): A fast, lean implementation of the core jQuery API (available in versions 4.6.0 and up)
+*   [BackboneJS](http://backbonejs.org/) **Deprecated**: Provides simple models, views, and collections. This will be removed in future versions of the sandbox.
+*   [SugarJS](http://sugarjs.com/) **Deprecated**: Extends native JS objects with useful methods. This will be removed in future versions of the sandbox.
+*   [tv4 JSON schema validator](https://github.com/geraintluff/tv4): Validates JSON objects against v4 of the json-schema draft
+*   [CryptoJS](https://code.google.com/p/crypto-js/): standard and secure cryptographic algorithms. Supported algorithms: AES, DES, EvpKDF, HMAC-MD5, HMAC-SHA1/3/256/512, MD5, PBKDF2, Rabbit, SHA1/3/224/256/512, TripleDES
 *   `xml2Json(xmlString)`: This function behaves the same in Newman and Postman
 *   `xmlToJson(xmlString)` **Deprecated**: This function does NOT behave the same in Newman and Postman
 *   `postman.getResponseHeader(headerName)` Test-only: returns the response header with name “headerName”, if it exists. Returns null if no such header exists. **Note**: According to W3C specifications, header names are case-insensitive. This method takes care of this. `postman.getResponseHeader("Content-type")` and `postman.getResponseHeader("content-Type")` will return the same value.
 
-Note: jQuery support has been discontinued since version 4.6.0, in favor of [cheerio](https://cheerio.js.org/){:target="_blank"}.
+Note: jQuery support has been discontinued since version 4.6.0, in favor of [cheerio](https://cheerio.js.org/).
 
 ### Environment and global variables
 
@@ -37,16 +37,16 @@ Note: jQuery support has been discontinued since version 4.6.0, in favor of [ch
 
 ### Dynamic variables
 
-Postman also has a few dynamic variables which you can use in your requests. This is primarily an experiment right now. More functions would be added soon. Note that dynamic variables cannot be used in the Sandbox. You can only use them in the {% raw %}`{{..}}`{% endraw %} format in the request URL / headers / body.
+Postman also has a few dynamic variables which you can use in your requests. This is primarily an experiment right now. More functions would be added soon. Note that dynamic variables cannot be used in the Sandbox. You can only use them in the `{{..}}` format in the request URL / headers / body.
 
-*   {% raw %}`{{$guid}}`{% endraw %}: Adds a v4 style guid
-*   {% raw %}`{{$timestamp}}`{% endraw %}: Adds the current timestamp.
-*   {% raw %}`{{$randomInt}}`{% endraw %}: Adds a random integer between 0 and 1000
+*   `{{$guid}}`: Adds a v4 style guid
+*   `{{$timestamp}}`: Adds the current timestamp.
+*   `{{$randomInt}}`: Adds a random integer between 0 and 1000
 
 ### Cookies
 
 *   `responseCookies {array}` Postman-only: Gets all cookies set for the domain. You will need to enable the [Interceptor](/docs/postman/sending_api_requests/interceptor_extension) for this to work.
-*   `postman.getResponseCookie(cookieName)` Postman-only: Gets the response cookie with the given name. You will need to enable the interceptor for this to work. Check out the [blog post](http://blog.getpostman.com/index.php/2014/11/28/using-the-interceptor-to-read-and-write-cookies/){:target="_blank"}.
+*   `postman.getResponseCookie(cookieName)` Postman-only: Gets the response cookie with the given name. You will need to enable the interceptor for this to work. Check out the [blog post](http://blog.getpostman.com/index.php/2014/11/28/using-the-interceptor-to-read-and-write-cookies/).
 
 ### Request/response related properties
 
@@ -69,7 +69,7 @@ Postman also has a few dynamic variables which you can use in your requests. Thi
 
 ### Data files
 
-If you’re using [data files](http://blog.getpostman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/){:target="_blank"} in the Collection Runner or in Newman, you’ll have access to a `data` object, which is a dictionary of data values in the current test run.
+If you’re using [data files](http://blog.getpostman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/) in the Collection Runner or in Newman, you’ll have access to a `data` object, which is a dictionary of data values in the current test run.
 
 ### pm.* APIs
 

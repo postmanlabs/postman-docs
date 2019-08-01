@@ -51,7 +51,8 @@ Response code tests can be done by checking the value of `responseCode.code` wit
 tests['Request resulted in 200 OK'] = responseCode.code === 200;
 ```
 <br>
-##### **Monitoring latency**
+
+##### Monitoring latency
 
 As an alternative to request timeouts, website response latency can be monitored by comparing values of the `responseTime` variable within test scripts.
 

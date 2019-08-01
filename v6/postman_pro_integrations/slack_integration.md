@@ -7,17 +7,17 @@ tags:
 warning: false
 ---
 
-**Connect to receive notifications from Postman**
+## Postman Pro to Slack Integration
 
-In the Postman Pro to Slack Integration, there are 3 ways to connect.
+In the Postman Pro to Slack Integration, there are 3 ways to connect to receive notifications from Postman.
 
-**Team Activity Feed**
+### Team Activity Feed
 
 The [Postman Team Activity Feed][0] is a real-time feed showing the creates, updates, subscriptions, and deletes performed across the shared Postman Collections in your team.
 
 Using the Postman Pro to Slack Integration, you can pipe your team’s Activity Feed to a Slack channel of your choosing. This can help, for example, with tracking progress of a particular Postman Collection, or seeing development momentum within your team environment.
 
-**Postman Search**
+### Postman Search
 
 This element of the Postman Pro to Slack Integration enables you to easily search across the names and descriptions of your shared Postman Collections, folders, requests, and responses, and then display results in any of your team or personal Slack channels.
 
@@ -25,13 +25,13 @@ After enabling this integration, a new slash command, `/postman`, will find its 
 
 This is super useful when searching for particular requests, or trying to point a colleague to a set of Collections related to your current discussion.
 
-**Monitor Results**
+### Monitor Results
 
 Postman Monitors enable you to set up recurring runs of your Postman Collections at scheduled intervals. By using Postman Monitors, you can ensure that your systems are stable and your APIs are working as they should.
 
 The Postman Monitor to Slack connection allows you to pipe any set of Monitoring run results to a pre-configured Slack channel. This provides extra visibility on your Monitor run results, right in Slack. Plus, you can add further Slack alerting and notifications, based on Monitor run results.
 
-**Add the Slack Integration**
+### Add the Slack Integration
 
 From the [Integrations page][1], select the Slack Integration:
 
@@ -47,7 +47,7 @@ Authenticate with Slack and if prompted, choose a Slack channel to post results 
 
 And you’re done!
 
-[0]: http://blog.getpostman.com/2016/10/27/new-more-useful-activity-feed-in-postman-collections/
+[0]: https://blog.getpostman.com/2016/10/27/new-more-useful-activity-feed-in-postman-collections/
 [1]: https://app.getpostman.com/dashboard/integrations
 [2]: https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/slackINT.png
 [3]: https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/slack_add.png

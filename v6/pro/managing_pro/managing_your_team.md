@@ -7,7 +7,7 @@ warning: false
 
 ---
 
-Postman's web [dashboard](https://app.getpostman.com/dashboard/teams){:target="_blank"} provides a number of ways to manage your team.
+Postman's web [dashboard](https://app.getpostman.com/dashboard/teams) provides a number of ways to manage your team.
 
 ### Member roles 
 
@@ -17,11 +17,11 @@ Postman supports 3 member roles:
 
 | Roles in Postman |   Permitted actions  |
 | ---   |   ---     |
-| **Admin**   |    Send out team invites  <br>  Update team member roles  <br>  Remove users from the team |
-| **Billing**   |   View payments  <br>  Retry failed payments  <br>  View invoices  <br>  Update card details  <br>  Change billing email  <br>  Cancel and update the team's plan  |
-| **User**   |    Use Postman Pro  <br>  Collaborate on collections  <br>  Publish documentation  <br>  Set up monitors for collections  <br>  Use the Postman API  |
+| **Admin**   |    Create and delete invitations  <br>  Edit team information and logo <br>  Remove users from the team <br> Manage team roles (except billing) <br> Manage custom domains <br> Manage authentication methods <br> View monitoring usage data for all monitors created by the team <br> View team audit logs <br> Create and manage payment links <br> Use a purchase key|
+| **Billing**   |   Create and manage payment links <br>  Use a purchase key <br>  Manage billing details <br>  Manage payment and payment methods <br>  Cancel and change team plan <br>  Assign billing role  |
+| **Developer**   |  View all published collections in the team <br> View collections, environments, mock servers, and monitors visible to the team  <br>  View and create team workspaces <br> View team activity feed <br>  View team's custom domanins and use them to publish documentation up monitors for collections <br>   |
 
-Teams are only charged for user roles. If your team size is 10, you can have up to 10 members with the user role. Any of these 10 members can have admin or billing roles as well. 
+Teams are only charged for developer roles. If your team size is 10, you can have up to 10 members with the developer role. Any of these 10 members can have admin or billing roles as well. 
 
 Each team can have up to 2 support accounts (only have admin or billing rights, and are not paid for).
 
@@ -29,9 +29,9 @@ By default, members who set up the team for themselves will be granted all three
 
 ### Managing roles
 
-An admin can modify the roles of other team members in the [Team page]({{site.pm.gs}}/dashboard/teams){:target="_blank"}. 
+An admin can modify the roles of other team members (except billing) in the [Team page](https://go.postman.co/team). 
 	
-  [![manage settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-managePermissions2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-managePermissions2.png)
+  [![manage settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/New_InviteUsers.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/New_InviteUsers.png)
 	
 When an admin clicks the **Manage Roles** button, a list of team members appears. The admin selects a user and clicks the button for the new role. In the image below, the admin would click the **Billing** button to assign that role to the user. Then the admin clicks the **Done** button on the top of the page to complete the process.
 
@@ -48,7 +48,7 @@ Keep in mind a few restrictions:
 An invite is an invitation you send to people you want to add to a team. Only admins can manage invites.
 
 #### Inviting members to a team in Dashboard
-In the [Team page]({{site.pm.gs}}/dashboard/teams){:target="_blank"}, click the **Invite Users** button. 
+In the [Team page](https://go.postman.co/team), click the **Invite Users** button. 
 
 Enter the email address of the user you want to invite, and click the **Invite Users** to complete the process.
 
@@ -75,4 +75,4 @@ To revoke an invitation, click the "X" link next to each invitation. You can see
 
 ### Changing team size
 
-If you have no more paid slots and need to invite more users, see [Changing your plan](/docs/v6/pro/managing_pro/changing_your_plan){:target="_blank"}.
+If you have no more paid slots and need to invite more users, see [Changing your plan](/docs/v6/pro/managing_pro/changing_your_plan).

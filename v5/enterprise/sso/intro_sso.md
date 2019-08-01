@@ -28,12 +28,12 @@ An example of SSO is Google's implementation of login for their products, such a
 
 ### Identity Providers Supported
 
-*   [Okta](https://www.okta.com/){:target="_blank"}
-*   [OneLogin](https://www.onelogin.com/){:target="_blank"}
-*   [Duo](https://duo.com/){:target="_blank"}
-*   [Ping Identity](https://www.pingidentity.com/){:target="_blank"}
-*   [AD FS](https://technet.microsoft.com/en-us/library/cc755226(v=ws.11).aspx){:target="_blank"}
-*   [GSuite](https://gsuite.google.com/products/admin/){:target="_blank"}
+*   [Okta](https://www.okta.com/)
+*   [OneLogin](https://www.onelogin.com/)
+*   [Duo](https://duo.com/)
+*   [Ping Identity](https://www.pingidentity.com/)
+*   [AD FS](https://technet.microsoft.com/en-us/library/cc755226(v=ws.11).aspx)
+*   [GSuite](https://gsuite.google.com/products/admin/)
 *   Custom SAML
 
 ### SSO setup for SAML 2.0 compliant IdPs

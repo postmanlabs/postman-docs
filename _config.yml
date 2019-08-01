@@ -14,8 +14,8 @@ sass:
 pm:
   root: "https://www.getpostman.com"
   gs: "https://app.getpostman.com"
-  blog: "http://blog.getpostman.com"
-  support_center: "https://support.getpostman.com/hc"
+  blog: "https://blog.getpostman.com"
+  support_center: "https://www.getpostman.com/support"
   help_email: "help@getpostman.com"
   enterprise_email: "enterprise@getpostman.com"
   security_email: "security@getpostman.com"

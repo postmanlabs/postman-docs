@@ -7,7 +7,7 @@ warning: false
 
 ### Developer experience with Run in Postman
 
-API publishers will display the Run in Postman button in the API reference and the API documentation. Below is an example of the button. Check out [other examples](https://www.getpostman.com/integrations/run-button){:target="_blank"}.
+API publishers will display the Run in Postman button in the API reference and the API documentation. Below is an example of the button. Check out [other examples](https://www.getpostman.com/integrations/run-button).
 
  [![example run in postman](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59131401.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59131401.png)  
 

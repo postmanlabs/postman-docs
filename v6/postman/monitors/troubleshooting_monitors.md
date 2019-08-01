@@ -8,7 +8,7 @@ Postman always syncs your monitors with your collections in the Postman app. As 
 
 #### Viewing failed monitors
 
-The Postman console in the [Monitors web view](https://monitor.getpostman.com){:target="_blank"} is the best way to debug monitors. 
+The Postman console in the [Monitors web view](https://monitor.getpostman.com) is the best way to debug monitors. 
 
 You can click the failed monitor and review the relevant logs under the **Console Log** tab. 
 
@@ -28,7 +28,7 @@ For example, if the monitor failed because Postman was unable to contact the ser
 *   Run the failing monitor's collection with its environment in the Postman app or Newman to see if it works correctly.
 *   If a local run passes, [ensure the sync is enabled](/docs/postman/launching_postman/syncing) in the toolbar header of the Postman app to persist any local changes.  
     
-    [![enable sync](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-insync.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-insync.png)
+    [![enable sync](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Header_Toolbar_New_Sync.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Header_Toolbar_New_Sync.png)
     
 *   You can also force a sync from the **Sync** tab within the **SETTINGS** modal.  
     

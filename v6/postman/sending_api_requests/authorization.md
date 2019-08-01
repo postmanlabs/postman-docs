@@ -20,7 +20,7 @@ When you select "Authorization" in the request builder, you see the **TYPE** dro
 * NTLM Authentication [Beta]
 
 
-**Note**: NTLM and Bearer token are only available in Postman native apps. All other authorization types are available in Postman native apps and the Chrome app. Note that the [Postman Chrome app is being deprecated](http://blog.getpostman.com/2017/11/01/goodbye-postman-chrome-app/).
+**Note**: NTLM and Bearer token are only available in Postman native apps ([download native app](https://www.getpostman.com/downloads/)). All other authorization types are available in Postman native apps and the Chrome app. Note that the [Postman Chrome app is being deprecated](https://blog.getpostman.com/2017/11/01/goodbye-postman-chrome-app/).
 
 [![auth menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-menu.png)
 
@@ -34,9 +34,9 @@ If you want to inspect the authorization headers and parameters that Postman gen
 
 **Note**: You can inspect a raw dump of the entire request in the Postman console after you send it.
 
-### Inherit auth from parent
+## Inherit auth from parent
 
-#### Adding authorization to a collection or folder
+### Adding authorization to a collection or folder
 
 Suppose you [add a folder](/docs/postman/collections/managing_collections#adding-folders) to a collection. Under the **Authorization** tab, the default authorization type is set to “Inherit auth from parent”. 
 
@@ -52,17 +52,17 @@ Similarly, if you want to update the authorization for a single request in this 
 
 If you have a group of requests that all require the same authorization, you can define the authorization for all requests in a collection or folder, or simply for every request individually. If you create a new collection or folder, every subsequent request in the parent element inherits the authorization definition, unless the user explicitly selects another type.
 
-To update the collection or folder authorization, click on the ellipses (...) next to the collection or folder name, and select “Edit” to open the modal. Select the **Authorization** tab to select an authorization type from the **TYPE** dropdown. You can also add collection authorization when initially creating the collection.  
+To update the collection or folder authorization, click on the ellipsis (...) next to the collection or folder name, and select “Edit” to open the modal. Select the **Authorization** tab to select an authorization type from the **TYPE** dropdown. You can also add collection authorization when initially creating the collection.  
 
 [![select folder basic auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-select-folder-basic.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-select-folder-basic.png)
  
 For example, if you create a collection with "Basic Auth", every request within the collection will use the same authorization helper. If you want a specific request in the collection to use a different authorization, or no authorization at all, use the **TYPE** dropdown under the **Authorization** tab to define the authorization helper for the specific request.
  
-### No Auth
+## No Auth
 
 By default "No Auth" appears first on the drop down menu list. Use "No Auth" when you don’t need an authorization parameter to send a request. 
   
-### Bearer Token
+## Bearer Token
 
 A bearer token is a security token. Any user with a bearer token can use it to access data resources without using a cryptographic key. 
 
@@ -74,7 +74,7 @@ To use a bearer token:
 
 [![bearer auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-BearerToken.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-BearerToken.png)
 
-### Basic Auth
+## Basic Auth
 
 Basic Auth is an authorization type that requires a verified username and password to access a data resource. 
 
@@ -87,7 +87,7 @@ To use Basic Auth:
 [![basic auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-Basic.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-Basic.png)
 
 
-### Digest Auth
+## Digest Auth
 
 In a digest authentication flow, the client sends a request to a server, which sends back nonce and realm values for the client to authenticate. The client sends back a hashed username and password with the nonce and realm. The server then sends back the requested data.
 
@@ -114,7 +114,7 @@ This table describes the advanced parameters for Digest Auth. Advanced configura
 | Client Nonce  | An opaque quoted string valued provided by the client and used by both client and server to avoid chosen plaintext attacks to provide mutual authentication and to provide some message integrity protection. The count must be specified if a qop directive is sent, and must not be specified if the server did not send a qop directive in the www-Authenticate response header.  |
 | Opaque | This is a string of data specified by the server in the www-Authenticate response header and should be used here unchanged with URLs in the same protection space. We recommend this string be base64 encoded data. |
 
-### **OAuth 1.0**
+## **OAuth 1.0**
 
 OAuth 1.0 is an authorization type that enables you to approve an application that contacts another application for you without exposing your password. 
 
@@ -144,7 +144,7 @@ This table describes the parameters for OAuth 1.0 authorization.
 
 **Note**: Some implementations of OAuth 1.0 require empty parameters to be added to the signature. You can select "Add empty parameters to signature" to add empty parameters.
 
-### OAuth 2.0
+## OAuth 2.0
 
 OAuth 2.0 is an authorization type that enables you to approve an application that contacts another application for you without exposing your password. 
 
@@ -181,7 +181,7 @@ You can click "Manage Tokens" in the list to view more details about each token 
 
 **Note**: Deleting a token does not revoke the access token. Only the server that issues the token can revoke it.
 
-### Hawk authentication
+## Hawk authentication
 
 Hawk authentication enables you to make authenticated requests with partial cryptographic verification of the request. 
  
@@ -213,7 +213,7 @@ This table describes the advanced parameters for Hawk Authentication. Advanced c
 
 **Note**: Advanced configuration settings are optional. Postman auto generates values for some fields if left blank.
 
-### Amazon Web Services (AWS) authentication
+## Amazon Web Services (AWS) authentication
 
 AWS is the authorization workflow for Amazon Work Services requests. AWS users must use a custom HTTP scheme based on a keyed-HMAC (Hash Message Authentication Code) for authentication. Postman supports this scheme.
 
@@ -237,7 +237,7 @@ This table describes the advanced parameters for AWS Authentication. Advanced co
 | Service Name| The service receiving the request.|
 | Session Token |Required only when using temporary security credentials.|
 
-### NTLM authentication
+## NTLM authentication
 
 Windows Challenge/Response (NTLM) is the authorization flow for the Windows operating system and for stand-alone systems.
 By default, Postman extracts values from the received response, adds it to the request, and retries it. Postman gives you the option to disable this default behavior.

@@ -5,15 +5,15 @@ warning: false
 
 ---
 
-You can set up monitors to send daily or weekly emails with a summary for all your monitors. You can [turn off email notifications](/docs/postman/monitors/setting_up_monitor){:target="_blank"} in the settings. 
+You can set up monitors to send daily or weekly emails with a summary for all your monitors. You can [turn off email notifications](/docs/postman/monitors/setting_up_monitor) in the settings. 
 
-In addition, you can receive important notifications (both [in-app](/docs/postman/notifications){:target="_blank"} and email) if a monitor fails.
+In addition, you can receive important notifications (both [in-app](/docs/postman/notifications) and email) if a monitor fails.
 
 [![email summary of monitors](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-email-results1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-email-results1.png)
 
 ### Monitors page
 
-The [Monitors](https://monitor.getpostman.com/){:target="_blank"} page lists all your monitors (both team and private). 
+The [Monitors](https://monitor.getpostman.com/) page lists all your monitors (both team and private). 
 
 [![monitors page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-results-page.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitoring-results-page.png)
 
@@ -35,7 +35,7 @@ These visuals are a great way to measure performance improvements when you’ve 
 
 [![monitor perf](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-perf-page.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-perf-page.png)
 
-The results section shows request-level details: test results, response code, response time, and the response size. Additionally, you can filter by region if you set up [monitors in multiple regions](/docs/postman/monitors/intro_monitors#monitoring-resources-in-multiple-regions){:target="_blank"}.
+The results section shows request-level details: test results, response code, response time, and the response size. Additionally, you can filter by region if you set up [monitors in multiple regions](/docs/postman/monitors/intro_monitors#monitoring-resources-in-multiple-regions).
 
 [![monitor perf](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-results.png)](
 https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-results.png)
@@ -44,4 +44,4 @@ You can also view the log when you click the **Console Log** tab.
 
 [![view logs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59042622.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59042622.png)
 
-The console log prints a detailed log of run events and 'console.log' statements that ran as part of your pre-request and test scripts. You can use them to [diagnose failures](/docs/postman/monitors/troubleshooting_monitors){:target="_blank"}.
+The console log prints a detailed log of run events and 'console.log' statements that ran as part of your pre-request and test scripts. You can use them to [diagnose failures](/docs/postman/monitors/troubleshooting_monitors).

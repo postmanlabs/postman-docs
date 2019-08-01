@@ -33,16 +33,16 @@ warning: false
 
 *   Postman "How To" Playlist (2017)
 
-    * [Intro to Postman & Postman Collections](https://www.youtube.com/watch?v=ptvV_Fc3hd8&list=PLM-7VG-sgbtCJYpjQfmLCcJZ6Yd74oytQ&index=1){:target="_blank"}
-    * [How to use global variables in Postman](https://www.youtube.com/watch?v=TU1i1CgjVR8&list=PLM-7VG-sgbtCJYpjQfmLCcJZ6Yd74oytQ&index=2){:target="_blank"} 
-    * [How to add tests to a Postman Collection](https://www.youtube.com/watch?v=ElJBJIeJ90o&list=PLM-7VG-sgbtCJYpjQfmLCcJZ6Yd74oytQ&index=3){:target="_blank"} 
-    * [How to use code snippets in postman](https://www.youtube.com/watch?v=fhfuQGvLPj0&list=PLM-7VG-sgbtCJYpjQfmLCcJZ6Yd74oytQ&index=4){:target="_blank"} 
-    * [How to use Environments in Postman](https://www.youtube.com/watch?v=wArvaHYdw2I&list=PLM-7VG-sgbtCJYpjQfmLCcJZ6Yd74oytQ&index=5){:target="_blank"}
-    * [How to add an environment variable using code snippets](https://www.youtube.com/watch?v=jzJT_o3_t1Q&list=PLM-7VG-sgbtCJYpjQfmLCcJZ6Yd74oytQ&index=6){:target="_blank"} 
-    * [How to use the Postman collection Runner](https://www.youtube.com/watch?v=6XjOtI-FPHg&list=PLM-7VG-sgbtCJYpjQfmLCcJZ6Yd74oytQ&index=7){:target="_blank"}
+    * [Intro to Postman & Postman Collections](https://www.youtube.com/watch?v=ptvV_Fc3hd8&list=PLM-7VG-sgbtCJYpjQfmLCcJZ6Yd74oytQ&index=1)
+    * [How to use global variables in Postman](https://www.youtube.com/watch?v=TU1i1CgjVR8&list=PLM-7VG-sgbtCJYpjQfmLCcJZ6Yd74oytQ&index=2) 
+    * [How to add tests to a Postman Collection](https://www.youtube.com/watch?v=ElJBJIeJ90o&list=PLM-7VG-sgbtCJYpjQfmLCcJZ6Yd74oytQ&index=3) 
+    * [How to use code snippets in postman](https://www.youtube.com/watch?v=fhfuQGvLPj0&list=PLM-7VG-sgbtCJYpjQfmLCcJZ6Yd74oytQ&index=4) 
+    * [How to use Environments in Postman](https://www.youtube.com/watch?v=wArvaHYdw2I&list=PLM-7VG-sgbtCJYpjQfmLCcJZ6Yd74oytQ&index=5)
+    * [How to add an environment variable using code snippets](https://www.youtube.com/watch?v=jzJT_o3_t1Q&list=PLM-7VG-sgbtCJYpjQfmLCcJZ6Yd74oytQ&index=6) 
+    * [How to use the Postman collection Runner](https://www.youtube.com/watch?v=6XjOtI-FPHg&list=PLM-7VG-sgbtCJYpjQfmLCcJZ6Yd74oytQ&index=7)
 
 *   Postman Pro Playlist (2017)
 
-    * [Intro to Postman Pro - Collaboration](https://www.youtube.com/watch?v=1_7IVWySh2A&index=1&list=PLM-7VG-sgbtCr3URSt3ySIs_nyW9niiyn){:target="_blank"} 
-    * [Intro to Postman Pro - Document & Publish](https://www.youtube.com/watch?v=ERk8RkfqxM4&list=PLM-7VG-sgbtCr3URSt3ySIs_nyW9niiyn&index=2){:target="_blank"} 
-    * [Intro to Postman Pro - Monitoring](https://www.youtube.com/watch?v=xiRx81jlYOQ&t=3s&list=PLM-7VG-sgbtCr3URSt3ySIs_nyW9niiyn&index=3){:target="_blank"}
+    * [Intro to Postman Pro - Collaboration](https://www.youtube.com/watch?v=1_7IVWySh2A&index=1&list=PLM-7VG-sgbtCr3URSt3ySIs_nyW9niiyn) 
+    * [Intro to Postman Pro - Document & Publish](https://www.youtube.com/watch?v=ERk8RkfqxM4&list=PLM-7VG-sgbtCr3URSt3ySIs_nyW9niiyn&index=2) 
+    * [Intro to Postman Pro - Monitoring](https://www.youtube.com/watch?v=xiRx81jlYOQ&t=3s&list=PLM-7VG-sgbtCr3URSt3ySIs_nyW9niiyn&index=3)

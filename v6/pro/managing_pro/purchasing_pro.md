@@ -4,6 +4,10 @@ page_id: "purchasing_postman_pro"
 tags: 
   - "pro"
 warning: false
+redirect_from:
+  - /v6/pro/managing_pro/activating_trial
+  - /v6/pro/managing_pro/upgrading_to_postman_pro_from_a_trial_team
+
 ---
 
 Purchasing a Postman Pro subscription requires you to:
@@ -11,7 +15,7 @@ Purchasing a Postman Pro subscription requires you to:
 * Configure your plan
 * Choose your role
 
-To purchase a Postman Pro subscription, go to the [Pricing](https://www.getpostman.com/pricing){:target="_blank"} page and click the **Buy Postman Pro** button.
+To purchase a Postman Pro subscription, go to the [Pricing](https://www.getpostman.com/pricing) page and click the **Buy Postman Pro** button.
 [![Pricing page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/purchasingpro1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/purchasingpro1.png)
 
 ### Configure your plan

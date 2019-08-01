@@ -17,15 +17,15 @@ Organizations use the term "integration" inclusively, sometimes overly so. In fa
 
 Postman views "integrations" as a way to share data or functionality between Postman and other tools that you might use for API development. When manually importing and exporting data from one application to another becomes a chore, an integration can help.
 
-For example, suppose you use GitHub for your repository management and use Postman to develop and test your APIs. If you want to save your Postman Collections to a GitHub repository, you can use the [Postman to GitHub integration]({{site.pm.gs}}/integrations/services/github){:target="_blank"} feature. 
+For example, suppose you use GitHub for your repository management and use Postman to develop and test your APIs. If you want to save your Postman Collections to a GitHub repository, you can use the [Postman to GitHub integration](https://go.postman.co/workspaces) feature. 
 
 ### Postman Pro integrations
 
-Postman Pro users can currently access over a dozen of the most requested 3rd party integrations in the [Postman Integrations directory]({{site.pm.gs}}/dashboard/integrations), with more being released every month. 
+Postman Pro users can currently access over a dozen of the most requested 3rd party integrations in the [Postman Integrations directory](https://go.postman.co/workspaces), with more being released every month. 
 
-You can access Postman Pro integrations in the [Dashboard.]({{site.pm.gs}}/dashboard?){:target="_blank"} 
+You can access Postman Pro integrations in the [Dashboard.](https://go.postman.co/workspaces) 
 
-In the Dashboard page, click ["Integrations"]({{site.pm.gs}}/dashboard/integrations){:target="_blank"}.
+In the Dashboard page, click ["Integrations"](https://go.postman.co/workspaces).
 
   [![integrations](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations.png)
 

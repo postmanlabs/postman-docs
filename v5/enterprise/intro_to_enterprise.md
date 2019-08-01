@@ -26,4 +26,4 @@ Enterprise includes all the advanced capability of Postman Pro, plus features av
 
 As an Enterprise customer, you’ll have exclusive access to single sign-on, priority support from our dedicated Enterprise Support Team, and flexible billing. 
 
-If you would like to learn more about Postman Enterprise, [connect with someone from Postman](http://pages.getpostman.com/Enterprise-Sales_Contact-Us.html){:target="_blank"}. 
+If you would like to learn more about Postman Enterprise, [connect with someone from Postman](http://pages.getpostman.com/Enterprise-Sales_Contact-Us.html). 

@@ -42,13 +42,13 @@ Configure the SAML integration. The table below describes the values of the fiel
 
 | **Field**          | **Value**         |
 | ------------- | ------------- |
-| Identifier | The Entity ID for your Postman custom SSO auth. You can find it in the [Team](https://app.getpostman.com/dashboard/teams){:target="_blank"} page.   |
-| Reply URL | The ACS URL for your Postman custom SSO auth. You can find it in the [Team](https://app.getpostman.com/dashboard/teams){:target="_blank"} page.  |
+| Identifier | The Entity ID for your Postman custom SSO auth. You can find it in the [Team](https://app.getpostman.com/dashboard/teams) page.   |
+| Reply URL | The ACS URL for your Postman custom SSO auth. You can find it in the [Team](https://app.getpostman.com/dashboard/teams) page.  |
 | User Identifier  | Select user.mail from the dropdown  |
 
 Download the "SAML Signing Certificate" (Base64 format) and click the **Save** button.
 
-After the setup is complete, submit your Identity Provider details to Postman. For more information, see [Intro to SSO](/docs/v6/enterprise/sso/intro_sso){:target="_blank"} The table below describes the values of the fields in this configuration.
+After the setup is complete, submit your Identity Provider details to Postman. For more information, see [Intro to SSO](/docs/v6/enterprise/sso/intro_sso) The table below describes the values of the fields in this configuration.
 
 **Table: Field description for SAML Signing Certificate**
 

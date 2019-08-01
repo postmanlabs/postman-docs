@@ -7,7 +7,7 @@ tags:
 
 ---
 
-Postman contains a full-featured [testing sandbox](/docs/v6/postman/scripts/postman_sandbox){:target="_blank"} that lets you write and execute JavaScript based tests for your API. You can then hook up Postman with your build system using [Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman){:target="_blank"}, the command line collection runner for Postman. 
+Postman contains a full-featured [testing sandbox](/docs/v6/postman/scripts/postman_sandbox) that lets you write and execute JavaScript based tests for your API. You can then hook up Postman with your build system using [Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman), the command line collection runner for Postman. 
 
 Newman allows you to run and test a Postman Collection. Newman and Jenkins are a perfect match. Let's review these topics to set up this operation. 
 
@@ -23,9 +23,9 @@ Newman allows you to run and test a Postman Collection. Newman and Jenkins are a
 
 ### Installation
 
-[Install Jenkins](https://jenkins.io/doc/book/installing/#debian-ubuntu){:target="_blank"}.
+[Install Jenkins](https://jenkins.io/doc/book/installing/#debian-ubuntu).
 
-Install NodeJS and npm. Newman is written in NodeJS and we distribute the official copy through npm. Install [nodejs and npm for Linux](https://docs.npmjs.com/getting-started/installing-node){:target="_blank"}.
+Install NodeJS and npm. Newman is written in NodeJS and we distribute the official copy through npm. Install [nodejs and npm for Linux](https://docs.npmjs.com/getting-started/installing-node).
 
 Install Newman globally, to set up Newman as a command line tool in Ubuntu.
 
@@ -113,13 +113,13 @@ You can use a wide variety of other configurations to make your collection more 
 
 For more information about collection runs, see:
 
-* [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run){:target="_blank"}
-* [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs){:target="_blank"}
-* [Working with data files](/docs/v6/postman/collection_runs/working_with_data_files){:target="_blank"}
-* [Running multiple iterations](/docs/v6/postman/collection_runs/running_multiple_iterations){:target="_blank"}
-* [Building workflows](/docs/v6/postman/collection_runs/building_workflows){:target="_blank"}
-* [Sharing a collection run](/docs/v6/postman/collection_runs/sharing_a_collection_run){:target="_blank"}
-* [Debugging a collection run](/docs/v6/postman/collection_runs/debugging_a_collection_run){:target="_blank"}
-* [Command line integration with Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman){:target="_blank"}
-* [Integration with Travis CI](/docs/v6/postman/collection_runs/integration_with_travis){:target="_blank"}
-* [Newman with Docker](/docs/v6/postman/collection_runs/newman_with_docker){:target="_blank"}
+* [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run)
+* [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs)
+* [Working with data files](/docs/v6/postman/collection_runs/working_with_data_files)
+* [Running multiple iterations](/docs/v6/postman/collection_runs/running_multiple_iterations)
+* [Building workflows](/docs/v6/postman/collection_runs/building_workflows)
+* [Sharing a collection run](/docs/v6/postman/collection_runs/sharing_a_collection_run)
+* [Debugging a collection run](/docs/v6/postman/collection_runs/debugging_a_collection_run)
+
+* [Integration with Travis CI](/docs/v6/postman/collection_runs/integration_with_travis)
+* [Newman with Docker](/docs/v6/postman/collection_runs/newman_with_docker)

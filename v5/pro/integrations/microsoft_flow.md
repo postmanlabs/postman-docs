@@ -13,7 +13,7 @@ You can configure Microsoft Flow with Postman to monitor run results, view team 
 
 ### Congfiguring Microsoft Flow
 
-1. In the [Integrations]({{site.pm.gs}}/dashboard/integrations){:target="_blank"} page, find Microsoft Flow from a list of Postman’s 3rd party Integrations for Postman Pro users.
+1. In the [Integrations](https://go.postman.co/workspaces) page, find Microsoft Flow from a list of Postman’s 3rd party Integrations for Postman Pro users.
 
 [![microsoft_flow](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-microsoftFlow.png)  
 
@@ -78,7 +78,7 @@ And you’re done! Your integration has been set up successfully. Now, whenever 
 
 #### Get the Microsoft Flows webhook URL
 
-Log in to [Microsoft Flow](https://flow.microsoft.com/){:target="_blank"}, and go to `My Flows`. Select `Create from Blank` in the top-right corner. 
+Log in to [Microsoft Flow](https://flow.microsoft.com/), and go to `My Flows`. Select `Create from Blank` in the top-right corner. 
 
 [![create connector](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858272.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58858272.png)  
 

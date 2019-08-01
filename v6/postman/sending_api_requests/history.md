@@ -5,13 +5,13 @@ warning: false
 
 ---
 
-Postman stores all requests you send in the "History" view in left sidebar. You can use history to experiment with variations of requests quickly without wasting time building a request from scratch. You can also load a previous request by clicking on the request name.
+Postman stores all requests you send in the "History" view in the left sidebar. You can also choose to save the responses you get when you send your requests. You can use history to experiment with variations of requests quickly without wasting time building a request from scratch. You can also load a previous request by clicking on the request name.
 
-If you create an account and sign in to Postman, your history will be synced with our server, backed up in realtime, and retrievable across your devices. 
+If you create an account and sign in to Postman, your history will be synced with our server, backed up in real-time, and retrievable across your devices. 
 
-If you sign out of your Postman account, and then log back in, the last 10 requests will remain in your history. Postman Pro and Enterprise users will have access to the last 100 requests.  The same policy holds for collection runs. Remember that you can always save as many requests in [collections](/docs/postman/collections/creating_collections) as you want.
+**Note:** If you'd like to save responses to your requests in the history, you must turn on the setting 'Save Responses' under the History tab in the left sidebar, as illustrated in the screen below. 
 
-[![history sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-history.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-history.png)
+[![History Updated ](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/History_Response_New.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/History_Response_New.png)
 
 ### Sidebar History tab
 
@@ -21,7 +21,7 @@ Click on a request in this tab to load the exact request configuration in the bu
 
 ##### **Find requests**
 
-The requests are ordered by time, with the most recent requests displayed at the top. Postman avoids duplicating GET requests with the same URL in the history. If your request history becomes large, filter requests in the sidebar using the search input field. Postman matches the request URL in your history with the search term.
+The requests are ordered by time, with the most recent requests displayed at the top. If your request history becomes large, filter requests in the sidebar using the search input field. Postman matches the request URL in your history with the search term.
 
 ##### **Multi-selecting requests**
 

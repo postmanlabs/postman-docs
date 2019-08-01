@@ -13,62 +13,51 @@ Let’s walk through an example.
 * [Working with the sample files](#working-with-the-sample-files)
 
 
-
 ### Getting started
 
-Before we begin, download the collection and data files we'll use in this example.
+Before we begin, download the following collection and data files we'll use in this example.
 
    *   [Collection.json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58533790.json)
    *   [JSON](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702589.json)
    *   [CSV](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702574.csv)
+
+#### Importing sample collection files
+
+To import the collection files in Postman, click the **Import** button in the header bar. In the **IMPORT** modal, select the sample files to upload. You can only import collection and environment files. We'll use data files like .JSON and .CSV for analysis. 
+
+**Note:** You cannot import data files; you can only select them at the start of a collection run.
+
+[![import sample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Import_Screen_with_OpenAPI.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Import_Screen_with_OpenAPI.png)
+
+You should see your collection with a request you just imported in the sidebar as shown in the image below.
    
-#### Importing sample files
+[![post request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg13.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg13.png)
 
-To import the files in Postman, click the **Import** button in the header bar. In the **IMPORT** modal, select the sample files to upload.
+#### Importing sample data files
 
-[![import sample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/import+modal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/import+modal.png)
+To select data files, you should go to the collection runner. To learn more about running collections and how to get to the Collection Runner screen, see [Intro to Collection Runs](/docs/v6/postman/collection_runs/intro_to_collection_runs)
 
-You should see "Post Request" and "Using data files" in the sidebar as shown in the image below.
-   
-[![post request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-1.png)
+Once you get to the Collection Runner screen, the screen appears as illustrated below:
+
+[![import data file](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runner_Import_Data1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runner_Import_Data1.png)
+
+See the red-circled highlighted area in the above screen. Use this option to select your data files. 
 
 ### Working with the sample files
 
 Here, we have a simple collection with a single POST request. If you open up this request, you'll see two variables used in the request, `path` (in the URL) & `value` in the request body. 
 
-Use these variables in the same way as environment variables. We'll supply the value to these variables using the JSON and CSV files.
+Use these variables in the same way as environment variables. We'll supply the value to these variables using the environment and data variables.
 
 When you open the test script, you'll see we're using some variables in the test script -`data` specifically, which isn't defined in the script itself. 
 
-The Postman Sandbox initializes the data variable from the JSON and CSV files that we'll select in the collection run.
+The Postman Sandbox initializes the data variable from the CSV files that we'll select in the collection run.
 
-[![using the data variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-files-2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-working-with-data-files-2.png)
+[![using the data variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg18.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg18.png)
 
-Let's investigate the data files first. We currently support JSON and CSV files.
+Let's investigate the data files first. We currently support JSON and CSV files. This examples talks only about .CSV data file.
 
-Here's the JSON data file:
-
-```json
-    [{
-      "path": "post",
-      "value": "1"
-    }, {
-      "path": "post",
-      "value": "2"
-    }, {
-      "path": "post",
-      "value": "3"
-    }, {
-      "path": "post",
-      "value": "4"
-    }]
-```
-
-The JSON file contains an array of objects. Each object represents the variable values for one iteration. Each member of this object represents a variable. 
-
-In this way, in the first iteration, the variable called `path` has the value `post`, and the variable `value` has the value `1`. Similarly, in the second iteration, `path` is still `post` and `value` is `2`. In this example, the variable `path` does not change its value over iterations, but `value` does. This is totally up to you.
-
-The data file can also be a CSV. Here's the JSON data file:
+Here's the CSV data file:
 
 ```
     path, value
@@ -86,15 +75,15 @@ Now that you understand how to construct data files, let's supply this data file
 
 Click "Select File" in the Runner, and select one of these files. You can also preview what values each variable has in each iteration by clicking "Preview" next to the file name.
 
-[![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702694.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702694.png)             
+[![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg19.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg19.png)             
 
 [![preview data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58703253.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58703253.png)
 
 Let's run our collection now. You'll see that all tests pass now. 
 
-If you open up the request debug tooltip, and expand "Request Body", you'll see that the variable `{% raw %}{{value}}{% endraw %}` was replaced by the value, as dictated by the data file. 
+If you open up the request debug tooltip, and expand "Request Body", you'll see that the variable `{{value}}` was replaced by the value, as dictated by the data file. 
 
-Read more about [debugging requests](/docs/v6/postman/collection_runs/debugging_a_collection_run){:target="_blank"}. In fact, for different iterations, this value is different. This way, we've thrown different kinds of data to our API and have ensured that it works correctly for each case.
+Read more about [debugging requests](/docs/v6/postman/collection_runs/debugging_a_collection_run). In fact, for different iterations, this value is different. This way, we've thrown different kinds of data to our API and have ensured that it works correctly for each case.
 
 [![request debug tooltip](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702708.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702708.png)
 
@@ -111,15 +100,15 @@ You can use data variables in all places and in the exact way you can use enviro
 
 For more information about collection runs, see:
 
-* [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run){:target="_blank"}
-* [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs){:target="_blank"}
-* [Running multiple iterations](/docs/v6/postman/collection_runs/running_multiple_iterations){:target="_blank"}
-* [Building workflows](/docs/v6/postman/collection_runs/building_workflows){:target="_blank"}
-* [Sharing a collection run](/docs/v6/postman/collection_runs/sharing_a_collection_run){:target="_blank"}
-* [Debugging a collection run](/docs/v6/postman/collection_runs/debugging_a_collection_run){:target="_blank"}
-* [Command line integration with Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman){:target="_blank"}
-* [Integration with Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins){:target="_blank"}
-* [Integration with Travis CI](/docs/v6/postman/collection_runs/integration_with_travis){:target="_blank"}
-* [Newman with Docker](/docs/v6/postman/collection_runs/newman_with_docker){:target="_blank"}
+* [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run)
+* [Using environments in collection runs](/docs/v6/postman/collection_runs/using_environments_in_collection_runs)
+* [Running multiple iterations](/docs/v6/postman/collection_runs/running_multiple_iterations)
+* [Building workflows](/docs/v6/postman/collection_runs/building_workflows)
+* [Sharing a collection run](/docs/v6/postman/collection_runs/sharing_a_collection_run)
+* [Debugging a collection run](/docs/v6/postman/collection_runs/debugging_a_collection_run)
+* [Command line integration with Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman)
+* [Integration with Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins)
+* [Integration with Travis CI](/docs/v6/postman/collection_runs/integration_with_travis)
+* [Newman with Docker](/docs/v6/postman/collection_runs/newman_with_docker)
 
 

@@ -22,13 +22,13 @@ warning: false
 4. Click "SETUP MY OWN CUSTOM APP".
    [![gsuite setup](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/gsuite_setup.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/gsuite_setup.png)
 
-5. Collect the `Identity Provider Single Sign-On URL`, `Identity Provider Issuer` and `X.509 Certificate` from this window, and enter these values into your Postman [Edit Team Details page]({{site.pm.gs}}/dashboard/teams/edit) within the **GSuite Identity Provider Details** modal.
+5. Collect the `Identity Provider Single Sign-On URL`, `Identity Provider Issuer` and `X.509 Certificate` from this window, and enter these values into your Postman [Edit Team Details page](https://go.postman.co/settings/team/general) within the **GSuite Identity Provider Details** modal.
    [![gsuite google IdP](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/gsuite_google_IdP.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/gsuite_google_IdP.png)
 
 6. Enter an application name (e.g. Postman SAML App) and fill out any other optional fields.
    [![gsuite basic info](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/gsuite_basic_info.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/gsuite_basic_info.png)
 
-7. Enter the Postman service provider details which can be found on the Postman [Edit Team Details page]({{site.pm.gs}}/dashboard/teams/edit) within the **GSuite Identity Provider Details** modal. For more details on this last step, review [setting up SSO in Postman](/docs/enterprise/sso/admin_sso). 
+7. Enter the Postman service provider details which can be found on the Postman [Edit Team Details page](https://go.postman.co/settings/team/general) within the **GSuite Identity Provider Details** modal. For more details on this last step, review [setting up SSO in Postman](/docs/enterprise/sso/admin_sso). 
    [![gsuite service provider](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/gsuite_service_provider.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/gsuite_service_provider.png)
  
  | **Field** | **Value** |

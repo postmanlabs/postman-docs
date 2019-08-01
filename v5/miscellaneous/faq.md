@@ -31,7 +31,7 @@ Any changes to your data will also be synced in real time.
 
 If you or your organization have a requirement to prevent your data from being synced to our Cloud, you have the option to disable Sync at any time. Just head to the Sync tab in Postman's Settings menu, then click 'Disable Sync'. Please note that you will need to manually back up your data if you have Sync disabled.
 
-If you need your data to be removed from our servers, you can file a ticket via our [support center]({{site.pm.support_center}}) - please include your username/email associated with your account.
+If you need your data to be removed from our servers, you can file a ticket via our [support center](https://support.getpostman.com/hc) - please include your username/email associated with your account.
 
 ### Newman
 
@@ -70,4 +70,4 @@ We offer native apps for Mac and Windows (available [here][18]). You can downloa
 [14]: http://blog.getpostman.com/2014/01/27/enabling-chrome-developer-tools-inside-postman/
 [16]: https://www.getpostman.com/support
 [17]: https://github.com/postmanlabs/newman/issues
-[18]: https://www.getpostman.com/apps
+[18]: https://www.getpostman.com/downloads/
