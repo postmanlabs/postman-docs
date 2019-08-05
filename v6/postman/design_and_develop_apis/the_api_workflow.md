@@ -38,9 +38,12 @@ Click **Generate Collection** to generate a collection from this schema. The col
 
 This is a powerful feature that will let you jump-start your API workflow by creating collections from a schema. You can start by creating a schema or an API in Postman (sort of API-first development approach), and then start generating collections from the schema. It is so much easier for you to start working with your Schemas in Postman and use it for different workflows (like mocking, documentation, testing and monitoring).
 
- The **Generate Collections** button generates a collection which adheres to your schema and puts it in your workspace sidebar. Postman not only lets you generate a collection but it enables you to add documentation to it, you can attach test suites, and you can even use it to collaborate on something without affecting the source of truth which is the API schema.
+ The **Generate Collections** button generates a collection which adheres to your schema and puts it in your workspace sidebar. Postman not only lets you generate a collection but it also enables you to add the collection as documentation, a test suite, and an integration or a contract test - all in one go. Once you click the **Generate Collections** button, the following screen appears:
 
-This means you don't need to import your collection file again and again to generate collections. People who have repetitive workflows can import their schemas in Postman and can generate collections on the run.
+ Generate collections modal.....
+
+
+ People who have repetitive workflows can import their schemas in Postman and can generate collections on the run.
 
 ### Importing a file
 
@@ -131,7 +134,7 @@ In the above screen, select a corresponding collection from the list with the do
 
 To understand how versioning influences documentation, refer to the section [Versioning an API](/docs/postman/design_and_develop_apis/versioning_an_api/).
 
-To learn more about generating and viewing version-specific documentation, refer to the section [Publishing version-specific documentaion](/docs/postman/api_documentation/publishing_public_docs/).
+To learn more about generating and viewing version-specific documentation, refer to the section [Publishing version-specific documentation](/docs/postman/api_documentation/publishing_public_docs/).
 
 ## Adding an environment
 
