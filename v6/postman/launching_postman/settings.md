@@ -27,7 +27,7 @@ Postman tries to minimize the number of settings you have to change, so we estab
    However, delimiting the working directory can have some unintended security issues as follows:
    1. It is against the general principle of security to give system-wide access to a program as it exposes a user's system to all types of threats.
    2. To further elaborate on the above statement, restricting the working directory would prevent safety issues arising when files obtained from external/anonymous sources are used. For example, a collection that the user has obtained from the internet. The user may or may not have proper information about the collection and as such may not understand if the collection serves some other hidden function.
-   3. While Postman can take absolute file paths for its use, such absolute paths when shared may break the workflow for the user it is shared to.
+   3. Absolute file path can also be given to postman, but when sharing it may not work for the user it is shared to as absolute paths can vary between systems.
     
    To learn more about this feature, refer to the section [form-data](/docs/postman/sending_api_requests/requests/#form-data)
    * **Allow reading files outside working directory:** Set this option to ON if you want Postman to read files from outside the Postman working directory. Postman also persists your file paths in form-data request and binary file bodies. To learn more about this feature, refer to the section [form-data](/docs/postman/sending_api_requests/requests/#form-data).
