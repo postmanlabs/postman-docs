@@ -181,9 +181,41 @@ In the above screen, select a corresponding collection from the list and click *
 
 ## Observing an API
 
-You can link your monitors running on collections in your current workspace with an API.
+You can link your monitors running on collections in your current workspace with an API. From the **Observe** tab, you can either create a new monitor or add an existing monitor. This section describes the following two topics:
+
+* [Creating a new monitor](#creating-a-new-monitor)
+
+* [Adding an existing monitor](#adding-an-existing-monitor)
+
+
+
+#### Creating new monitor
+
+From the **Observe** tab, click **Create new Monitor**. The following screen opens:
+
+
+Create new monitor screen.
+
+Under **Select requests to monitor** tab, specify the name of the collection on which you want to create a monitor.
+
+
+You can also create a new monitor on an existing collection. To do this, choose an existing collection under the **Use an existing collection** tab and select a collection. 
+
+Screen here
+
+
+Click **Select collection and continue** button. 
+
+#### Adding an existing monitor
+
+You can also add an existing monitor to the API. 
 
 In the **Observe** tab, click **Add a monitor**. The following screen opens:
+
+
+Add monitor screen ......
+
+Under **Select a monitor from this workspace**, choose the monitor from the workspace and click **Add Monitor**.
 
 [![api add monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Monitor1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Monitor1.png)
 
