@@ -196,7 +196,7 @@ From the **Observe** tab, click **Create new Monitor**. The following screen ope
 
 Create new monitor screen.
 
-Under **Select requests to monitor** tab, specify the name of the collection on which you want to create a monitor.
+Under **Select requests to monitor**, specify the name of the collection on which you want to create a monitor.
 
 
 You can also create a new monitor on an existing collection. To do this, choose an existing collection under the **Use an existing collection** tab and select a collection. 
