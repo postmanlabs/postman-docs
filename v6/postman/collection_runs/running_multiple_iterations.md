@@ -46,9 +46,9 @@ Iterations in the collection runner are 1-indexed with the first iteration begin
 
 Note that this is different than the iteration count accessible programmatically in the [Postman sandbox](/docs/v6/postman/scripts/postman_sandbox_api_reference), which is 0-indexed with the first iteration beginning with a count of zero.
 
-## Customizing iteration data
+## Programmatically customize iteration data
 
-The data for a particular iteration can be accessed by `pm.iterationData` object, which provides a number of methods to access and manipulate the data related to that iteration. Following is a list of methods:
+The data for a particular iteration can be accessed by `pm.iterationData` object, which provides a number of methods to programmatically access and manipulate the data related to that iteration. Following is a list of methods:
 
 `addLayer(list: VariableList)`: Add a list of variables to iteration data.
 
@@ -74,6 +74,8 @@ Get variables from an object, if successful returns an object containing the var
 `variables()`: Returns an object containing variables and their descriptions.
 
 `static isVariableScope(obj: any)`: checks if the specified iteration data object exists.
+
+For usage of the above methods, see: [pm.iterationData](/Users/postman/postman-docs/v6/postman/scripts/postman_sandbox_api_reference.md)
 
 ---
 For more information about collection runs, see:
