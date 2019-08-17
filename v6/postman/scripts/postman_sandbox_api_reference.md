@@ -213,6 +213,32 @@ The `iterationData` object contains data from the data file provided during a co
 * `pm.iterationData.get(variableName:String):function → *`
 * `pm.iterationData.toObject():function → Object`
 
+* `pm.iterationData.addLayer(list: VariableList):function → void`: Add a list of variables to iteration data.
+
+* `pm.iterationData.clear():function → void`: Clears the iteration data.
+
+`pm.iterationData.get(key: string)`: Get the value of a variable.
+
+`pm.iterationData.has(variableName: string)`: Checks if variable with the specified name exists in iteration data.
+
+`pm.iterationData.set(key: string, value: any, type: string)`: Set the name,value and type of a variable.
+
+`pm.iterationData.syncVariablesFrom(obj: {[key: string]: VariableDefinition}, track?: boolean, prune?: boolean)`:
+Get variables from an object, if successful returns an object containing the variables otherwise it returns undefind.
+
+`pm.iterationData.syncVariablesTo(obj?: {[key: string]: VariableDefinition})`: Set the iteration data value (variable name and its definition) to an object. Returns the object with values set.
+
+`pm.iterationData.toJSON()`: Convert the iteration data to JSON.
+
+`pm.iterationData.toObject(excludeDisabled: boolean, caseSensitive: boolean)`: Convert the iteration data to a plain javascript object.
+
+`pm.iterationData.unset(key: string)`: Unsets the value of a variable.
+
+`pm.iterationData.variables()`: Returns an object containing variables and their descriptions.
+
+`static pm.iterationData.isVariableScope(obj: any)`: checks if the specified iteration data object exists.
+
+
 ### pm.cookies
 
 `pm.cookies:` [Read more about CookieList](http://www.postmanlabs.com/postman-collection/CookieList.html)

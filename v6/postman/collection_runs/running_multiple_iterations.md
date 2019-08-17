@@ -9,7 +9,7 @@ This topic describes how to run multiple iterations of a Collection. It also des
 * [Switching between iterations](#switching-between-iterations)
 * [Using green and red filters](#using-green-and-red-filters)
 * [Debugging with multiple iterations](#debugging-with-multiple-iterations)
-* [Customizing iteration data](#customizing-iteration-data)
+* [Programmatically customize iteration data](#programmatically-customize-iteration-data)
 
 Before we start, download the [collection. json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59037885.json) file we'll use to explain multiple iterations.
 
