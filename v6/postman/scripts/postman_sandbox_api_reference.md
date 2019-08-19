@@ -210,18 +210,29 @@ The response details are stored in the following format:
 
 The `iterationData` object contains data from the data file provided during a collection run.
 
-* `pm.iterationData.get(variableName:String):function → *`
-* `pm.iterationData.toObject():function → Object`
-* `pm.iterationData.addLayer(list: VariableList):function → void`
-* `pm.iterationData.clear():function → void`
-* `pm.iterationData.has(variableName: string):function → boolean`
-* `pm.iterationData.set(key: string, value: any, type: string):function → void`
-* `pm.iterationData.syncVariablesFrom(object: {[key: string]: VariableDefinition}, track?: boolean, prune?: boolean):function → Object | Undefined`
-* `pm.iterationData.syncVariablesTo(object?: {[key: string]: VariableDefinition}):function → Object`
-* `pm.iterationData.toJSON():function → *`
-* `pm.iterationData.unset(key: string):function → void`
-* `pm.iterationData.variables():function → Object`
-* `pm.iterationData.static isVariableScope(object: any):function → boolean`
+* `pm.iterationData.get(variableName:String):function → *`: Returns a variable from the interation data with the specified name.
+
+* `pm.iterationData.toObject():function → Object`: Returns the iteration data as an object.
+
+* `pm.iterationData.addLayer(list: VariableList):function → void`: Add a list of variables to iteration data.
+
+* `pm.iterationData.clear():function → void`: Clear all the data.
+
+* `pm.iterationData.has(variableName: string):function → boolean`: Checks if a variable with the specified name exists in iteration data.
+
+* `pm.iterationData.set(key: string, value: any, type: string):function → void`: Sets a variable, assigns it a value and type as specified.
+
+* `pm.iterationData.syncVariablesFrom(object: {[key: string]: VariableDefinition}, track?: boolean, prune?: boolean):function → Object | Undefined`: Get variables from an object with the name specified.
+
+* `pm.iterationData.syncVariablesTo(object?: {[key: string]: VariableDefinition}):function → Object`: Saves the variables to an object with the name specified.
+
+* `pm.iterationData.toJSON():function → *`: Converts the iterationData object to JSON format.
+
+* `pm.iterationData.unset(key: string):function → void`: Unassign the value given to a specified variable.
+
+* `pm.iterationData.variables():function → Object`: Returns all the variables from the iterationData object.
+
+* `static pm.iterationData.isVariableScope(object: any):function → boolean`: Check if a specific variable is in scope.
   
 ### pm.cookies
 
