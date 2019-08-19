@@ -224,13 +224,13 @@ The `iterationData` object contains data from the data file provided during a co
 
 * `pm.iterationData.syncVariablesFrom(object: {[key: string]: VariableDefinition}, track?: boolean, prune?: boolean):function → Object | Undefined`: Get variables from an object with the name specified.
 
-* `pm.iterationData.syncVariablesTo(object?: {[key: string]: VariableDefinition}):function → Object`: Saves the variables to an object with the name specified.
+* `pm.iterationData.syncVariablesTo(object?: {[key: string]: VariableDefinition}):function → Object`: Save the variables to an object with the name specified.
 
 * `pm.iterationData.toJSON():function → *`: Converts the iterationData object to JSON format.
 
 * `pm.iterationData.unset(key: string):function → void`: Unassign the value given to a specified variable.
 
-* `pm.iterationData.variables():function → Object`: Returns all the variables from the iterationData object.
+* `pm.iterationData.variables():function → Object`: Return all the variables from the iterationData object.
 
 * `static pm.iterationData.isVariableScope(object: any):function → boolean`: Check if a specific variable is in scope.
   
@@ -260,7 +260,7 @@ The `cookies` object contains a list of cookies that are associated with the dom
 
 * `jar.set(URL:String, cookie name:String, cookie value:String, callback(error, cookie)):Function → Object`
 
-   Set a cookie using cookie name and value. One can also directly set the cookie by assinging cookie value to the     cookie name within this function.
+   Set a cookie using cookie name and value. One can also directly set the cookie by assinging cookie value to the cookie name within this function.
 
   * `jar.set(URL:String, { name:String, value:String, httpOnly:Bool }, callback(error, cookie)):Function → Object`
 
