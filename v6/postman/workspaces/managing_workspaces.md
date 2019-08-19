@@ -6,13 +6,13 @@ warning: false
 
 You can manage workspaces and the Postman elements associated with a workspace, like [collections](/docs/v6/postman/collections/intro_to_collections), [environments](/docs/v6/postman/environments_and_globals/intro_to_environments_and_globals), [mocks](/docs/v6/postman/mock_servers/intro_to_mock_servers), [monitors](/docs/v6/postman/monitors/intro_monitors), and more. You can perform such tasks as editing names and descriptions, viewing details, or creating elements for workspaces.
 
-In the Postman app, click the workspace that displays in the header bar. 
+In the Postman app, click the workspace that displays in the header bar.
 
 [![all workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/test-all-workspaces.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/test-all-workspaces.png)
 
 Click "All workspaces" to display the [Workspaces dashboard](https://app.getpostman.com/dashboard) in your web browser.
 
-### Managing personal workspaces
+## Managing personal workspaces
 
 From the [Workspaces dashboard](https://app.getpostman.com/dashboard) under the **Personal** tab, click the **Add to workspace** button to [add collections or environments from another workspace](/docs/postman/workspaces/using_workspaces) to the selected workspace. You can also perform this action in the team workspace view.
 
@@ -28,7 +28,7 @@ Click the ellipsis **(...)** to [manage your personal workspaces](/docs/v6/postm
 
 You can also click the **Create a new workspace** button to [create a new personal or team workspace](/docs/v6/postman/workspaces/creating_workspaces).
 
-### Managing team workspaces
+## Managing team workspaces
 
 From the [Workspaces dashboard](https://app.getpostman.com/dashboard), you can manage your team workspaces under the **Team** tab.
 
@@ -43,7 +43,7 @@ Click the ellipsis **(...)** to [manage your team workspaces](/docs/v6/postman/w
 * Leave team workspaces
 * Delete team workspaces
 
-### Managing workspace elements
+## Managing workspace elements
 
 When you click a personal or team workspace, you can see all the elements and activity belonging to the workspace.  
 
@@ -53,27 +53,26 @@ If you click the ellipsis **(...)**, you can remove any element from the workspa
 
 [![workspace elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspace_Dashboard_Mainscreen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspace_Dashboard_Mainscreen.png)
 
-
-**Collections**
+### Collections
 
 [Add an existing collection to this workspace](/docs/v6/postman/workspaces/using_workspaces) or [create a new collection](/docs/v6/postman/workspaces/creating_workspaces). You can share a collection to multiple workspaces.
 
-**Environments**
+### Environments
 
 Add an existing environment to this workspace or [create a new environment](/docs/v6/postman/environments_and_globals/manage_environments). You can share an environment to multiple workspaces.
 
-**Monitors**
+### Monitors
 
 [Create a monitor](/docs/v6/postman/monitors/setting_up_monitor) to track the performance of your APIs in a workspace. A monitor created within a workspace cannot be shared to other workspaces. If you want to create a monitor with a collection that is shared in multiple workspaces, a new monitor must be created in each of the other workspaces.
 
-**Mocks**
+### Mocks
 
 [Create a mock server](/docs/v6/postman/mock_servers/setting_up_mock) to simulate a server response. A mock created within a workspace cannot be shared to other workspaces. If you want to create a mock with a collection that is shared in multiple workspaces, a new mock must be created in each of the other workspaces.
 
-**Integrations**
+### Integrations
 
 View a list of current integrations or create a new one. Postman has [third party integrations](/docs/v6/pro/integrations/intro_integrations) available to help you integrate with your existing workflow and tools. Integrations created within a workspace cannot be shared to other workspaces. If you want to create an integration with a collection that is shared in multiple workspaces, a new integration must be created in each of the other workspaces.
 
-**Activity** 
+### Activity
 
 View a [list of activities](/docs/v6/postman/workspaces/activity_feed_and_restoring_collections) for this workspace.
