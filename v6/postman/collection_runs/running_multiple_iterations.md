@@ -48,34 +48,9 @@ Note that this is different than the iteration count accessible programmatically
 
 ## Programmatically customize iteration data
 
-The data for a particular iteration can be accessed by `pm.iterationData` object, which provides a number of methods to programmatically access and manipulate the data related to that iteration. Following is a list of methods:
+The data for a particular iteration can be accessed by `pm.iterationData` object, which provides a number of methods to programmatically access and manipulate the data that is provided to that collection run using the data file option.
 
-`addLayer(list: VariableList)`: Add a list of variables to iteration data.
-
-`clear()`: Clears the iteration data.
-
-`get(key: string)`: Get the value of a variable.
-
-`has(variableName: string)`: Checks if variable with the specified name exists in iteration data.
-
-`set(key: string, value: any, type: string)`: Set the name,value and type of a variable.
-
-`syncVariablesFrom(obj: {[key: string]: VariableDefinition}, track?: boolean, prune?: boolean)`:
-Get variables from an object, if successful returns an object containing the variables otherwise it returns undefind.
-
-`syncVariablesTo(obj?: {[key: string]: VariableDefinition})`: Set the iteration data value (variable name and its definition) to an object. Returns the object with values set.
-
-`toJSON()`: Convert the iteration data to JSON.
-
-`toObject(excludeDisabled: boolean, caseSensitive: boolean)`: Convert the iteration data to a plain javascript object.
-
-`unset(key: string)`: Unsets the value of a variable.
-
-`variables()`: Returns an object containing variables and their descriptions.
-
-`static isVariableScope(obj: any)`: checks if the specified iteration data object exists.
-
-For usage of the above methods, see: [pm.iterationData](/Users/postman/postman-docs/v6/postman/scripts/postman_sandbox_api_reference.md)
+For a list of methods provided by the iterationData object, see: [pm.iterationData](/Users/postman/postman-docs/v6/postman/scripts/postman_sandbox_api_reference.md)
 
 ---
 For more information about collection runs, see:
