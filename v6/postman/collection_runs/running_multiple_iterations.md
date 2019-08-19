@@ -48,9 +48,9 @@ Note that this is different than the iteration count accessible programmatically
 
 ## Programmatically customize iteration data
 
-To provide data for a collection run, the Collection runner provides a "Data file" option. However if one wants to access and manipulate that data as the collection runs, it must be done programmatically. This can be done by the `pm.iterationData` object, which provides several methods to programmatically access and manipulate the data, allowing the access of iteration data during a collection run.
+To provide data for a collection run, the Collection runner provides a "Data file" option. However, if you want to access and manipulate that data in the collection runs, you will need to it programmatically through scripts. This can be done by the `pm.iterationData` object, which provides several methods to programmatically access and manipulate the data, allowing the access of iteration data during a collection run.
 
-For a list of methods provided by the iterationData object, see: [pm.iterationData](docs/v6/postman/scripts/postman_sandbox_api_reference.md)
+For a list of methods provided by the iterationData object, see: [pm.iterationData](/docs/v6/postman/scripts/postman_sandbox_api_reference)
 
 ---
 For more information about collection runs, see:
