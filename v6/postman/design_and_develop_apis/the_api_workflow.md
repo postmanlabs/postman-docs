@@ -38,12 +38,11 @@ Click **Generate Collection** to generate a collection from this schema. The col
 
 This is a powerful feature that will let you jump-start your API workflow by creating collections from a schema. You can start by creating a schema or an API in Postman (sort of API-first development approach), and then start generating collections from the schema. It is so much easier for you to start working with your Schemas in Postman and use it for different workflows (like mocking, documentation, testing and monitoring).
 
- The **Generate Collections** button generates a collection which adheres to your schema and puts it in your workspace sidebar. Postman not only lets you generate a collection but it also enables you to add the collection as documentation, a test suite, and an integration or a contract test - all in one go. Once you click the **Generate Collections** button, the following screen appears:
+The **Generate Collections** button generates a collection which adheres to your schema and puts it in your workspace sidebar. Postman not only lets you generate a collection but it also enables you to add the collection as documentation, a test suite, and an integration or a contract test - all in one go. Once you click the **Generate Collections** button, the following screen appears:
 
- Generate collections modal.....
+Generate collections modal.....
 
-
- People who have repetitive workflows can import their schemas in Postman and can generate collections on the run.
+People who have repetitive workflows can import their schemas in Postman and can generate collections on the run.
 
 ### Importing a file
 
@@ -96,14 +95,6 @@ In the above screen, select **Create new mock server**. The following screen app
 [![add existing mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Mock-2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Mock-2.png)
 
 Click **Generate collection from schema** to create a mock server on the collection you generated from your schema. Specify a name in **Name your collection** field and click **Generate collection and continue**. 
-
-From the **Develop** tab, click **Add Mock Server**. 
-
-[![add existing mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Mock-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Mock-1.png)
-
-From the **Develop** tab, click **Add Mock Server**.
-
-In the above screen, select **Create new mock server**. The following screen appears:
 
 #### Adding existing mock server
 
