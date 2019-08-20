@@ -4,7 +4,7 @@ page_id: "debugging_a_collection_run"
 warning: false
 ---
 
-Sometimes your Collection tests fail—even when you expect them all to pass. 
+Sometimes your Collection tests fail—even when you expect them all to pass.
 
 When failure occurs, you can debug your requests in two ways:
 
@@ -13,7 +13,7 @@ When failure occurs, you can debug your requests in two ways:
 
 Let's explore debugging request in an example using the [Postman Echo collection](https://docs.postman-echo.com/).
 
-To add Postman Echo to your Postman builder view, go to [Postman Echo](https://docs.postman-echo.com/). 
+To add Postman Echo to your Postman builder view, go to [Postman Echo](https://docs.postman-echo.com/).
 
 Click the **Run in Postman** button on the top right side of the screen. The Postman Echo collection appears in the sidebar of your Postman builder.
 
@@ -29,26 +29,26 @@ Postman Echo's [Cookies](https://docs.postman-echo.com/#37368024-f6a8-0f70-85fc-
 
 As you can see, this test is failing. Let's investigate why.
 
-### Debugging using the Request and Response body
+## Debugging using the Request and Response body
 
 [![tooltip for request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532000.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532000.png)
 [![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532254.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532254.png)
 
-As the test says, we're expecting a cookie named `foo1` to be returned as part of the response. 
+As the test says, we're expecting a cookie named `foo1` to be returned as part of the response.
 
-If you click on any request name in your collection run, you'll notice a tooltip appear. This tooltip has useful information about to your request, information you might need to figure out what went wrong. 
+If you click on any request name in your collection run, you'll notice a tooltip appear. This tooltip has useful information about to your request, information you might need to figure out what went wrong.
 
 Expanding the `Response Body` section, we can see clearly that the response does not contain the cookie we expect.
 
 Moreover, when we expand the `Response Headers` section, we see that the cookie was not sent at all. We infer something must be wrong with the way Postman Echo handles cookies. We can now go ahead and patch this up in our API and try again.
 
-Note that only response bodies less than 300KBs are attempted to be displayed. Your response headers and bodies are never synced for security reasons. 
+Note that only response bodies less than 300KBs are attempted to be displayed. Your response headers and bodies are never synced for security reasons.
 
 You can control which bodies show up in this tooltip by using the `Log responses` dropdown when [starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run).
 
-### Debugging using the Postman Console
+## Debugging using the Postman Console
 
-Debugging using the Postman Console requires you to have the console open before you start your run. 
+Debugging using the Postman Console requires you to have the console open before you start your run.
 
 For more information about the Postman Console, see [Debugging and logs](/docs/v6/postman/sending_api_requests/debugging_and_logs).
 
@@ -58,9 +58,9 @@ The Postman Console records all requests and displays them in a list.
 
 Let's find the request that's causing problems here and expand its response headers. Here too, we see that the Postman Echo endpoint did not return a cookie, and indicates why our test is failing. We can then infer that the endpoint is misbehaving and needs to be reviewed.
 
-Any `console.log` you have in your test scripts also appears here, so you can log in the console if you're debugging a complex test script. 
-<br>
-<br>
+Any `console.log` you have in your test scripts also appears here, so you can log in the console if you're debugging a complex test script.
+
+---
 For more information about collection runs, see:
 
 * [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run)
@@ -73,6 +73,3 @@ For more information about collection runs, see:
 * [Integration with Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins)
 * [Integration with Travis CI](/docs/v6/postman/collection_runs/integration_with_travis)
 * [Newman with Docker](/docs/v6/postman/collection_runs/newman_with_docker)
-
-
-

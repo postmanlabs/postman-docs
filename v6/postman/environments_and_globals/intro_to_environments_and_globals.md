@@ -5,17 +5,17 @@ warning: false
 
 ---
 
-### What are environments and globals?
+## What are environments and globals?
 
 To understand environments and globals, you must first understand how variables work in Postman.
 
-**Variables**
+### Variables
 
-Developers know that variables are static identifiers used to store dynamic values. The information the variables represent can change, but the operations on the variables remain the same. This is true for Variables in Postman too. 
+Developers know that variables are static identifiers used to store dynamic values. The information the variables represent can change, but the operations on the variables remain the same. This is true for Variables in Postman too.
 
 You can reuse variable values in multiple places. If you change the value, each instance of the variable changes accordingly, reducing the need for repetitive modifications and likelihood of an error.
 
-Let’s say you have three API endpoints that use the same domain - `your-domain.com`. You can save this domain as a variable and instead of repeating the value, you can use `{{domain}}/endpoint1` and `{{domain}}/endpoint2` in the request builder. Now, if your domain changes to `another-domain.com`, you only have to change this value once. 
+Let’s say you have three API endpoints that use the same domain - `your-domain.com`. You can save this domain as a variable and instead of repeating the value, you can use `{{domain}}/endpoint1` and `{{domain}}/endpoint2` in the request builder. Now, if your domain changes to `another-domain.com`, you only have to change this value once.
 
 With Postman’s scripting engine you can set variable values, copy data from one request, and use it in another request.
 
@@ -29,7 +29,7 @@ To learn how to use variables in Postman, see [Variables](/docs/v6/postman/envir
 
 Now that we know how variables work in Postman, let's discuss environments and globals.
 
-**Environments**
+### Environments
 
 An environment is a set of key-value pairs. The key represents the name of the variable. You can use a [data editor](/docs/v6/postman/launching_postman/navigating_postman#data-editor) to modify the key and value components of an environment.
 
@@ -39,25 +39,21 @@ You won’t have to remember all those values once assigned in Postman. You can 
 
 You can create, share, duplicate, export, and delete an environment. You can also import an environment as a single JSON file.
 
-**Note**: Environment and global variables are always stored as strings. If you’re storing objects or arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.
+**Note:** Environment and global variables are always stored as strings. If you’re storing objects or arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.
 
 To learn how to create, share, and manage an environment, see [Manage environments](/docs/v6/postman/environments_and_globals/manage_environments).
 
-**Globals**
+### Globals
 
 Global variables provide a set of variables that are always available to you in all scopes. You can have multiple environments, but only one can be active at a time with one set of global variables, which are always available.
 
-**Note**: Environment and global variables are always be stored as strings. If you’re storing objects or arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.
+**Note:** Environment and global variables are always be stored as strings. If you’re storing objects or arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.
 
 To learn how to manage and view global variables, see [Manage globals](/docs/v6/postman/environments_and_globals/manage_globals).
-<br>
-<br>
+
+---
 For more information about environments and globals, see:
 
 * [Manage environments](/docs/v6/postman/environments_and_globals/manage_environments)
 * [Manage globals](/docs/v6/postman/environments_and_globals/manage_globals)
 * [Variables](/docs/v6/postman/environments_and_globals/variables)
-
-
-
-

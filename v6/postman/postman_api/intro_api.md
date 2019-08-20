@@ -5,24 +5,23 @@ warning: false
 
 ---
 
-The [Postman API](https://docs.api.getpostman.com/) has several endpoints to help you integrate Postman  with your development toolchain. 
+The [Postman API](https://docs.api.getpostman.com/) has several endpoints to help you integrate Postman  with your development toolchain.
 
 You can add new collections, update existing collections, update environments, or add and run monitors directly through the API. This API enables you to programmatically access your data stored in your Postman account with ease.
 
 The easiest way to start with the API is to click the **Run in Postman** button at the top of the [Postman API documentation page](https://docs.api.getpostman.com/) and use the Postman app to send requests.
 
-### Postman API overview
+## Postman API overview
 
 You need to know three important points about the Postman API:
 
-1.  You need a valid API Key to send requests to the API endpoints. Postman users can get a key in the [Integrations](https://app.getpostman.com/dashboard/integrations) page.
+1. You need a valid API Key to send requests to the API endpoints. Postman users can get a key in the [Integrations](https://app.getpostman.com/dashboard/integrations) page.
 
-2.  The API is rate limited.
+1. The API is rate limited.
 
-3.  Using the API, you can add and update collections, environments, and users. You can also run monitors, create a mock server, and so much more.
+1. Using the API, you can add and update collections, environments, and users. You can also run monitors, create a mock server, and so much more.
 
 For more information, see the [Postman API documentation](https://docs.api.getpostman.com/).
-
 
 ### Authentication
 
@@ -38,7 +37,7 @@ For ease of use inside Postman, you could store your API key in an [environment
 
 ### Rate Limits
 
-API access rate limits are applied at a per-key basis in unit time. 
+API access rate limits are applied at a per-key basis in unit time.
 
 Access to the API using a key is limited to **60 requests per minute**. In addition, every API response is accompanied by the following set of headers to identify the status of your consumption.
 

@@ -2,11 +2,11 @@
 
 [Setting up your GitHub Pages site locally with Jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
 
-### Build your Jekyll site locally
+## Build your Jekyll site locally
 
-    $ bundle exec jekyll serve
-    
-### Project Structure
+    bundle exec jekyll serve
+
+## Project Structure
 
 There are 2 independent versions of docs currently in the project (v5 and v6)
 `www.getpostman/docs` is redirected to `www.getpostman/docs/v6/`

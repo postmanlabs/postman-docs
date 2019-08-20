@@ -5,12 +5,46 @@ warning: false
 
 ---
 
-### What is Interceptor
+## What is Interceptor
+
+Postman Interceptor is a Chrome extension that functions as a proxy to capture HTTP or HTTPS requests and sync cookies. It can capture network requests directly from Chrome and save them to Postman’s history or a collection. If you are using the Postman Chrome app, refer to the section [Using the Interceptor with Postman's Chrome app](#using-the-interceptor-with-postman's-chrome-app)
 
 
-**Note:** Interceptor feature is supported only in our Postman Chrome Apps and is not available in Postman Desktop Apps at the moment. Please let us know [here](https://github.com/postmanlabs/postman-app-support/issues/1667) if you'd like this feature to be made available in our Desktop Apps. 
+### Using the Interceptor with Postman's native app 
 
-Postman Interceptor is a Chrome extension that functions as a proxy to capture HTTP or HTTPS requests. It can capture network requests directly from Chrome and save them to Postman’s history. This means you can debug your web apps APIs in real time! 
+You can sync cookies from your browser and capture requests. You will need to install the interceptor bridge in order for you to capture cookies. To accomplish this, you need to:
+
+1. Install the [Interceptor bridge](#installing-the-interceptor-bridge/). 
+
+2. Ensure your Postman Interceptor version is v0.2.26 or above, which you can download from [here](https://go.pstmn.io/interceptor-download). 
+
+3. Make sure the *Interceptor connected* status is green. 
+
+You can now go ahead and capture requests from Chrome or your browser and capture cookies from any domain to use in your requests with the Interceptor extension.
+
+To learn more about sending requests, refer to the section [Capturing HTTP Requests](/docs/postman/sending_api_requests/capturing_http_requests).
+
+To learn more about syncing cookies, refer to [Syncing cookies](#syncing-cookies)
+
+#### Installing the Interceptor Bridge:
+
+Download the Interceptor bridge for the corresponding OS by clicking the respective link below:
+
+* [OSX](https://go.pstmn.io/interceptor-bridge-macos)
+* [Windows](https://go.pstmn.io/interceptor-bridge-windows)
+* [Linux](https://go.pstmn.io/interceptor-bridge-linux)
+
+1. Run the install script from the OS-specific Interceptor Bridge package. Do not change the location of the com.postman.postmanapp.json file after executing the install script. Depending on your OS, you might need to double-click or execute the installer script via a shell. If you are on MacOS/Windows, you might see a security warning.
+
+2. Restart Chrome (only required for Windows)
+
+3. Update the Postman Interceptor Extension to v0.2.26 or above (chrome://extensions/ > enable Developer Mode > Update).
+
+4. Update Postman to v7.2.1 or above.
+
+### Using the Interceptor with Postman's Chrome app
+
+Postman Interceptor functions as a proxy to capture HTTP or HTTPS requests.  
 
 In this example:
 
@@ -35,9 +69,18 @@ Here how to get started:
 
 **Note on security:** The only entity that the Interceptor communicates with is Postman which then saves it to your history. We have open-sourced Interceptor and you can find the code on [Github](https://github.com/a85/PostmanInterceptor). Postman saves all your data locally inside IndexedDB.
 
-### Capturing cookies
+### Syncing cookies
 
-Unlike the Postman native apps, the Postman Chrome app is not equipped to handle cookies by itself. You can use the Interceptor extension to overcome this. With the Interceptor on, you can retrieve cookies set on a particular domain and include cookies while sending requests.
+ You can use the Interceptor extension to capture cookies. With the Interceptor on, you can retrieve cookies set on a particular domain and include cookies while sending requests. Ensure you set the **Capture cookies** setting to *ON*. The following screen also illustrates this while showing you how to add and remove domains to capture cookies:
+
+[![interceptor on](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-1.gif)
+
+Whenever you add a domain, Postman will sync all cookies for that domain from the browser. Entering “facebook.com”, for example will sync cookies for facebook and all its subdomains (m.facebook.com). The Interceptor integration keeps cookies for a fixed set of domains in sync from the browser to Postman (cookie updates from the browser sync to Postman, not vice versa). This will let you use any authentication sessions in your browser to make API calls in Postman. However, you will not be able to save them to Postman’s history.
+
+Subsequent updates (on the cookie’s value or other properties) and deletions will be synced as well. Click ‘x’ next to the domain to remove it from the synced set. This will only prevent future cookie updates from being synced - it won’t delete the cookies that have already been synced to Postman.
+
+To learn more about how to manage cookies, refer to the section [Cookies](/docs/postman/sending_api_requests/cookies)
+
 
 ### Retrieving cookies
 
@@ -79,11 +122,13 @@ Unfortunately some headers are restricted by Chrome and the XMLHttpRequest speci
    *   User-Agent
    *   Via
 
-However sending these restricted headers is easy. Follow the steps below:
+However, sending these restricted headers is easy. Follow the steps below:
 
 [![interceptor icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-interceptor.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-interceptor.png)
 
-   *   Install the Interceptor extension either by clicking on the Interceptor icon in the Postman toolbar or through the [Chrome Web Store](https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo).
-   *   Once it’s installed, click on the icon again in the Postman app and toggle it on.
+   * Install the Interceptor extension either by clicking on the Interceptor icon in the Postman toolbar or through the [Chrome Web Store](https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo).
+   * Once it’s installed, click on the icon again in the Postman app and toggle it on.
 
 That’s it! You can now send requests which use these headers.
+
+

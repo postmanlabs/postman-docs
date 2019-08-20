@@ -5,7 +5,7 @@ warning: false
 
 ---
 
-Collections are groups of requests that can be run together as a series of requests, against a corresponding environment. 
+Collections are groups of requests that can be run together as a series of requests, against a corresponding environment.
 
 Running a collection is useful when you want to automate API testing. When you run a collection, you send all requests in your collection one after another.
 
@@ -23,8 +23,7 @@ To run collections, you can use:
 
 * [Postman Monitors](/docs/v6/postman/monitors/intro_monitors) to run collections in scheduled intervals.
 
-<br>
-
+---
 For more information about collection runs, see:
 
 * [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run)
@@ -38,12 +37,3 @@ For more information about collection runs, see:
 * [Integration with Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins)
 * [Integration with Travis CI](/docs/v6/postman/collection_runs/integration_with_travis)
 * [Newman with Docker](/docs/v6/postman/collection_runs/newman_with_docker)
-
-
-
-
-
-
-
-
-

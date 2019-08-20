@@ -4,7 +4,7 @@ page_id: "sending_the_first_request"
 warning: false
 ---
 
-An API request lets you contact a server with API endpoints that you want to reach and perform some action. Those actions are HTTP methods. 
+An API request lets you contact a server with API endpoints that you want to reach and perform some action. Those actions are HTTP methods.
 
 The most common methods are GET, POST, PUT, and DELETE. The names of the methods are self-explanatory. For example GET enables you to retrieve data from a server. POST enables you to add data to an existing file or resource in a server. PUT lets you replace an existing file or resource in a server. And DELETE lets you delete data from a server.
 
@@ -14,13 +14,13 @@ As you can see in the image below, when you enter a request in Postman and click
 
 [![request and response illustration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anatomy-of-a-request.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anatomy-of-a-request.png)
 
-### Sending a request
+## Sending a request
 
-Now let's send our first API request! 
+Now let's send our first API request!
 
-Enter [`postman-echo.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) into the URL field. 
+Enter [`postman-echo.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) into the URL field.
 
-Click the **Send** button to send your request.  Note the JSON data response from the server. 
+Click the **Send** button to send your request.  Note the JSON data response from the server.
 
 [![request response](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Request-repsonse.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Request-repsonse.png)
 
@@ -28,14 +28,13 @@ Notice that Postman adds [`postman-echo.com/get`](https://docs.postman-echo.com/
 
 [![postman echo example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SaveRequest.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SaveRequest.png)
 
-
-### Postman Echo
+## Postman Echo
 
 [`postman-echo.com`](https://docs.postman-echo.com/) is a sample API that Postman hosts for you to experiment with various types of requests. It returns the data that you send in the request as part of its response.
 
 To learn more about Postman Echo, see the [documentation for this sample API](https://docs.postman-echo.com/).
 
-
+---
 For more information about requests, see:
 
 * [Requests](/docs/v6/postman/sending_api_requests/requests)
@@ -43,6 +42,3 @@ For more information about requests, see:
 * [Troubleshooting API requests](/docs/v6/postman/sending_api_requests/troubleshooting_api_requests)
 * [Capturing HTTP requests](/docs/v6/postman/sending_api_requests/capturing_http_requests)
 * [Making SOAP requests](/docs/v6/sending_and_viewing_responses/soap_requests)
-
-
-

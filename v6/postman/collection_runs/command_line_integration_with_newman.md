@@ -24,10 +24,9 @@ We'll cover these topics to learn command line integration with Newman:
 * [Library](#library)
 * [Custom reporters](#custom-reporters)
 
+## Getting Started
 
-### Getting Started 
-
-Newman is built on Node.js. To run Newman, make sure you have Node.js installed. 
+Newman is built on Node.js. To run Newman, make sure you have Node.js installed.
 
 You can [download and install](http://nodejs.org/download/) Node.js on Linux, Windows, and Mac OSX.
 
@@ -37,7 +36,7 @@ After you install Node.js, Newman is just a command away. Install Newman from np
 $ npm install -g newman
 ```
 
-The easiest way to run Newman is to run it with a collection. You can run any collection file from your file system. 
+The easiest way to run Newman is to run it with a collection. You can run any collection file from your file system.
 
 To learn how to export collections to share as a file, see the [collection documentation](/docs/v6/postman/collections/sharing_collections).
 
@@ -45,7 +44,7 @@ To learn how to export collections to share as a file, see the [collection docu
 $ newman run mycollection.json
 ```
 
-You can also pass a collection as a URL. For more information, see the [documentation for collections](/docs/v6/postman/collections/sharing_collections) to learn how to share a file as a URL. 
+You can also pass a collection as a URL. For more information, see the [documentation for collections](/docs/v6/postman/collections/sharing_collections) to learn how to share a file as a URL.
 
 Your collection probably uses environment variables. To provide an accompanying set of environment variables, [export the template](/docs/v6/postman/environments_and_globals/manage_environments) from Postman and run them with the `-e` flag.
 
@@ -53,7 +52,7 @@ Your collection probably uses environment variables. To provide an accompanying 
 $ newman run https://www.getpostman.com/collections/cb208e7e64056f5294e5 -e dev_environment.json
 ```
 
-### Options
+## Options
 
 Newman provides a rich set of options to customize a run. You can retrieve a list of options by running it with the ``-h`` flag.
 
@@ -87,13 +86,14 @@ Misc.:
 -x, --suppress-exit-code        Continue running tests even after a failure, but exit with code=0
 --ignore-redirects              Disable automatic following of 3XX responses
 ```
+
 Use the ``-n`` option to set the number of iterations to run the collection.
 
 ```bash
 $ newman run mycollection.json -n 10  # runs the collection 10 times
 ```
 
-To provide a different set of data, such as variables for each iteration, you can use the ``-d`` to specify a JSON or CSV file. 
+To provide a different set of data, such as variables for each iteration, you can use the ``-d`` to specify a JSON or CSV file.
 
 For example, a data file such as the one shown below runs _2_ iterations, with each iteration using a set of variables.
 
@@ -118,15 +118,15 @@ $ newman run mycollection.json -d data.json
 
 Here's an example of the CSV file for the above set of variables:
 
-```
+```bash
 url, user_id, id, token_id
 http://127.0.0.1:5000, 1, 1, 123123123
 http://postman-echo.com, 2, 2, 899899
 ```
 
-Newman, by default, exits with a status code of 0 if everything runs well, such as without any exceptions. 
+Newman, by default, exits with a status code of 0 if everything runs well, such as without any exceptions.
 
-Continuous integration tools respond to these exit codes and correspondingly pass or fail a build. 
+Continuous integration tools respond to these exit codes and correspondingly pass or fail a build.
 
 You can use the `--bail` flag to tell Newman to halt on a test case error with a status code of 1, which can then be picked up by a CI tool or build system.
 
@@ -134,7 +134,7 @@ You can use the `--bail` flag to tell Newman to halt on a test case error with a
 $ newman run PostmanCollection.json -e environment.json --bail newman
 ```
 
-### Example collection with failing tests
+## Example collection with failing tests
 
 ```bash
 → Status Code Test
@@ -181,53 +181,53 @@ $ newman run mycollection.json --reporters cli,json --reporter-json-export outpu
 
 Newman also supports file uploads. For this to work correctly, upload the file in the relative location specified in the collection. For instance, review this collection:
 
-```json 
+```json
 {
-	"variables": [],
-	"info": {
-		"name": "file-upload",
-		"_postman_id": "9dbfcf22-fdf4-f328-e440-95dbd8e4cfbb",
-		"description": "A set of `POST` requests to upload files as form data fields",
-		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
-	},
-	"item": [
-		{
-			"name": "Form data upload",
-			"event": [
-				{
-					"listen": "test",
-					"script": {
-						"type": "text/javascript",
-						"exec": [
-							"var response = JSON.parse(responseBody).files[\"sample-file.txt\"];",
-							"",
-							"tests[\"Status code is 200\"] = responseCode.code === 200;",
-							"tests[\"File was uploaded correctly\"] = /^data:application\\/octet-stream;base64/.test(response);",
-							""
-						]
-					}
-				}
-			],
-			"request": {
-				"url": "https://echo.getpostman.com/post",
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "formdata",
-					"formdata": [
-						{
-							"key": "file",
-							"type": "file",
-							"enabled": true,
-							"src": "sample-file.txt"
-						}
-					]
-				},
-				"description": "Uploads a file as a form data field to `https://echo.getpostman.com/post` via a `POST` request."
-			},
-			"response": []
-		}
-	]
+    "variables": [],
+    "info": {
+        "name": "file-upload",
+        "_postman_id": "9dbfcf22-fdf4-f328-e440-95dbd8e4cfbb",
+        "description": "A set of `POST` requests to upload files as form data fields",
+        "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Form data upload",
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "type": "text/javascript",
+                        "exec": [
+                            "var response = JSON.parse(responseBody).files[\"sample-file.txt\"];",
+                            "",
+                            "tests[\"Status code is 200\"] = responseCode.code === 200;",
+                            "tests[\"File was uploaded correctly\"] = /^data:application\\/octet-stream;base64/.test(response);",
+                            ""
+                        ]
+                    }
+                }
+            ],
+            "request": {
+                "url": "https://echo.getpostman.com/post",
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "formdata",
+                    "formdata": [
+                        {
+                            "key": "file",
+                            "type": "file",
+                            "enabled": true,
+                            "src": "sample-file.txt"
+                        }
+                    ]
+                },
+                "description": "Uploads a file as a form data field to `https://echo.getpostman.com/post` via a `POST` request."
+            },
+            "response": []
+        }
+    ]
 }
 ```
 
@@ -237,7 +237,7 @@ The file ``sample-file.txt`` must be present in the same directory as the colle
 $ newman run file-upload.postman_collection.json
 ```
 
-### Library
+## Library
 
 Newman has been built as a library from the ground up. It can be extended and used in various ways. You can use it as follows in your Node.js code:
 
@@ -249,20 +249,24 @@ newman.run({
     collection: require('./sample-collection.json'),
     reporters: 'cli'
 }, function (err) {
-	if (err) { throw err; }
+    if (err) { throw err; }
     console.log('collection run complete!');
 });
 ```
 
-### Custom reporters
-Custom reporters come in handy when one would want to generate collection run reports that cater to very specific use cases.
-For instance, logging out the response body when a request (or it's tests) fail, and so on. 
+## Custom reporters
 
-#### Building custom reporters
+Custom reporters come in handy when one would want to generate collection run reports that cater to very specific use cases.
+For instance, logging out the response body when a request (or it's tests) fail, and so on.
+
+## Building custom reporters
 
 A custom reporter is a Node module with a name of the form `newman-reporter-<name>`. To create a custom reporter:
+
 1. Navigate to a directory of your choice, and create a blank npm package with `npm init`.
+
 2. Add an `index.js` file, that exports a function of the following form:
+
 ```javascript
 function (emitter, reporterOptions, collectionRunOptions) {
   // emitter is is an event emitter that triggers the following events: https://github.com/postmanlabs/newman#newmanrunevents
@@ -275,11 +279,13 @@ function (emitter, reporterOptions, collectionRunOptions) {
 
 Scoped reporter package names like `@myorg/newman-reporter-<name>` are also supported. You can find working reporter examples  in [working reporter examples][8].
 
-#### Using custom reporters
+## Using custom reporters
+
 In order to use the custom reporter, it will have to be installed first. For instance, to use the [Newman teamcity reporter][9]:
 
-Install the reporter package. 
-```
+Install the reporter package.
+
+```bash
 npm install newman-reporter-teamcity
 ```
 
@@ -292,12 +298,14 @@ Use the installed reporter, either via the CLI, or programmatically. Here, the `
 Scoped reporter packages must be specified with the scope prefix. For instance, if your package name is `@myorg/newman-reporter-name`, you must specify the reporter with `@myorg/name`.
 
 CLI:
-```
+
+```bash
 newman run /path/to/collection.json -r myreporter --reporter-myreporter-<option-name> <option-value> # The option is optional
 ```
 
 Programmatically:
-```javascript
+
+```js
 var newman = require('newman');
 
 newman.run({
@@ -329,9 +337,7 @@ For the complete list of details, see the [Newman README](https://github.com/po
 [8]: https://github.com/postmanlabs/newman/tree/develop/lib/reporters
 [9]: https://www.npmjs.com/package/newman-reporter-teamcity
 
-<br>
-<br>
-
+---
 For more information about collection runs, see:
 
 * [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run)
@@ -344,4 +350,3 @@ For more information about collection runs, see:
 * [Integration with Jenkins](/docs/v6/postman/collection_runs/integration_with_jenkins)
 * [Integration with Travis CI](/docs/v6/postman/collection_runs/integration_with_travis)
 * [Newman with Docker](/docs/v6/postman/collection_runs/newman_with_docker)
-

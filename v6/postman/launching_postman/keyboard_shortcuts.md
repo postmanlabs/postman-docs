@@ -8,21 +8,22 @@ warning: false
 Keyboard usability is a high priority for any development tool. For most developers, keyboard shortcuts are a more efficient input method that requires minimum movement and effort as compared to navigating with a cursor. For repetitive or frequent tasks, keyboard shortcuts improve speed over the long run.
 
 Postman categorizes keyboard shortcuts as navigation, manipulation, and global.
+
 * Navigational shortcuts let you move around the interface.
 * Manipulation shortcuts let you manipulate the current selection.
 * Global shortcuts let you access from anywhere.
 
-### Navigational Shortcuts
+## Navigational Shortcuts
 
 Postman designs navigational shortcuts to help you navigate quickly between elements. For example, suppose you want to open and send a series of saved requests without a keyboard shortcut. You would have to select a request in the sidebar with a pointer each time to open it in the tab.
 
 With a keyboard shortcut, such as **CMD/CTRL + ALT + 1**, you can focus the sidebar from wherever you are in interface. You can then navigate to the request you want with the arrow keys. And if you combine the **CMD/CTRL + ALT + 1** shortcut with the **CMD/CTRL + Enter** shortcut, you can send a number of requests quickly.
 
-### Manipulation Shortcuts
+## Manipulation Shortcuts
 
 Manipulation shortcuts allow you to quickly work on your current selection and perform actions such as edit, delete, and duplicate. You can combine navigational and manipulation shortcuts to create and organize collections in your sidebar easily. You can also use these shortcuts in other list views, such as the data editor.
 
-### Global Shortcuts
+## Global Shortcuts
 
 You can use global shortcuts to perform actions regardless of the element in focus. Examples of such global actions include "Save" (**CMD/CTRL + S**), "Save As" (**CMD/CTRL + Shift + S**), and "Send Request" (**CMD/CTRL + Enter**).
 
@@ -124,4 +125,3 @@ You can always view a complete list of your operating system's shortcuts when yo
 | Paste  |   ⌘ V     | Ctrl + V  |
 | Delete - can multiselect and delete rows   |   ⌫     | Del  |
 | Deselect rows  |   ⎋    | Esc  |
-

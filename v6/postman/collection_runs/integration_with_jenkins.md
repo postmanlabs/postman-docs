@@ -7,9 +7,9 @@ tags:
 
 ---
 
-Postman contains a full-featured [testing sandbox](/docs/v6/postman/scripts/postman_sandbox) that lets you write and execute JavaScript based tests for your API. You can then hook up Postman with your build system using [Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman), the command line collection runner for Postman. 
+Postman contains a full-featured [testing sandbox](/docs/v6/postman/scripts/postman_sandbox) that lets you write and execute JavaScript based tests for your API. You can then hook up Postman with your build system using [Newman](/docs/v6/postman/collection_runs/command_line_integration_with_newman), the command line collection runner for Postman.
 
-Newman allows you to run and test a Postman Collection. Newman and Jenkins are a perfect match. Let's review these topics to set up this operation. 
+Newman allows you to run and test a Postman Collection. Newman and Jenkins are a perfect match. Let's review these topics to set up this operation.
 
 * [Installation](#installation)
 * [Run a collection in Postman](#run-a-collection-in-postman)
@@ -18,10 +18,9 @@ Newman allows you to run and test a Postman Collection. Newman and Jenkins are a
 * [Troubleshooting](#troubleshooting)
 * [Configure frequency of runs](#configure-frequency-of-runs)
 
+**Note:** We are using Ubuntu as a target OS as in most cases your CI server would be running on a remote Linux machine.
 
-**Note**: We are using Ubuntu as a target OS as in most cases your CI server would be running on a remote Linux machine.
-
-### Installation
+## Installation
 
 [Install Jenkins](https://jenkins.io/doc/book/installing/#debian-ubuntu).
 
@@ -33,7 +32,7 @@ Install Newman globally, to set up Newman as a command line tool in Ubuntu.
 $ npm install -g newman
 ```
 
-### Run a collection in Postman
+## Run a collection in Postman
 
 We assume you already have a Postman Collection with some tests. Run the collection in the Postman app. Here's an example of the output in Postman’s collection runner.
 
@@ -41,13 +40,13 @@ We assume you already have a Postman Collection with some tests. Run the collect
 
 Some of the tests are failing intentionally in the screenshot so we can show you the instructions for troubleshooting.
 
-### Run a collection using Newman
+## Run a collection using Newman
 
 Run this collection inside Newman, using the command below. If everything is set up nicely, you should see the output below.
 
 [![terminal output from collection run](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_2.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_2.png)
 
-### Set up Jenkins
+## Set up Jenkins
 
 Jenkins exposes an interface at `http://localhost:8080`.
 
@@ -73,7 +72,7 @@ Click the **Save** button to finish creating the project.
 
 [![source code management](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_6.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_6.png)
 
-### Troubleshooting
+## Troubleshooting
 
 Run this build test manually by clicking on the “Build Now” link in the sidebar.
 
@@ -97,20 +96,19 @@ You can move on once you see green pass icons for all your tests like the screen
 
 Jenkins indicates that the build succeeded with a blue ball.
 
-### Configure frequency of runs
+## Configure frequency of runs
 
 To set up the frequency with which Jenkins runs Newman, click on “Configure project” in the main project window and then scroll down.=. The syntax for setting the frequency is `H/(30) * * * *`.
 
 [![build triggers](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_12.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_12.png)
 
-**Note**: 30 can be replaced with another number.
+**Note:** 30 can be replaced with another number.
 
 Jenkins will now run Newman at your desired frequency and will tell you whether the build failed or succeeded. In a bigger setup, Newman will be part of your build process and probably not the entire process. You can set up notifications and customize Jenkins as per your needs.
 
 You can use a wide variety of other configurations to make your collection more dynamic.
-<br>
-<br>
 
+---
 For more information about collection runs, see:
 
 * [Starting a collection run](/docs/v6/postman/collection_runs/starting_a_collection_run)

@@ -68,6 +68,11 @@ Languages supported:
 
 After adding a schema, you can develop your API by using version tagging to link an element like mock servers, documentation, or environments to a specific version of your API.
 
+
+## Developing an API
+
+After adding a schema, you can develop your API by using version tagging to link an element like mock servers, documentation, or environments to a specific version of your API.
+
 **Note:** When you add documentation, test suites, mocks, monitors, environments, etc., only the elements in the current workspace will be visible. If they are already linked to an API, they will not be shown here.
 
 This section describes the following topics:
@@ -171,13 +176,11 @@ If you're writing tests to ensure your APIs are working according to their speci
 In the above screen, select a corresponding collection from the list and click **Add Contract Test**. The contract tests attached to the collection are now added to the API. Only available collections will be shown in this list.
 
 ## Observing an API
-
 You can link your monitors running on collections in your current workspace with an API. From the **Observe** tab, you can either create a new monitor or add an existing monitor. This section describes the following two topics:
 
 * [Creating a new monitor](#creating-a-new-monitor)
 
 * [Adding an existing monitor](#adding-an-existing-monitor)
-
 
 
 #### Creating new monitor
@@ -214,6 +217,7 @@ In the above screen, select a corresponding monitor from the list and click **Ad
 
 To add a monitor to a specific version of your collection, refer to the section [Setting up monitors](/docs/postman/monitors/setting_up_monitor/).
 
+---
 For more information on APIs, see:
 
 * [Sharing an API](/docs/v6/postman/design_and_develop_apis/sharing_apis)

@@ -18,25 +18,24 @@ To get the latest version of the Postman app, go to the [download page](https:/
 ### macOS installation
 
 Once you’ve downloaded and unzipped the app, double click on Postman. You will be prompted to move file into the "Applications" folder. Click "Move to Applications Folder" to ensure future updates can be installed correctly. The app will open after the prompt.
-   
+
 ![Move to Applications Folder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Download_MoveFolder.png "Move to Applications Folder")
 
 ### Windows installation
 
-   *   Download the setup file 
-   *   Run the installer
+* Download the setup file
+* Run the installer
 
 ### Linux installation
 
   For installation on Linux, perform the following steps:
-   
-   1. First download and unzip the file 
-   
-   2. And then create a desktop file by name Postman.desktop. Create the ```Postman.desktop``` file in the following location:<br/>
 
-      ``` ~/.local/share/applications/Postman.desktop```
-    
-  Use the content below in the above file:
+1. First download and unzip the file
+1. And then create a desktop file by name Postman.desktop. Create the ```Postman.desktop``` file in the following location:
+
+      ```~/.local/share/applications/Postman.desktop```
+
+Use the content below in the above file:
 
     [Desktop Entry]
     Encoding=UTF-8
@@ -46,15 +45,16 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
     Terminal=false
     Type=Application
     Categories=Development;
-     
+
    Once the ```Postman.desktop``` file is created, the Postman app can be opened using application launchers. You can check your desktop and double-click the Postman icon.
 
-   **Note:** 
+   **Note:**
+
    1. Avoid starting Postman using ```sudo``` command, this will create permission issues on the files created by Postman.
 
-   2. Make sure you have read/write permission for ```~/.config``` folder where Postman stores the information
+   1. Make sure you have read/write permission for ```~/.config``` folder where Postman stores the information
 
-   3. If you are an Ubuntu 18 user, you must additionally install libgconf-2-4 package to ensure a smooth Postman run. This package, shipped by default until Ubuntu version 18, has been dropped, and is mandatory for Postman to run. Use the following command to install ```libgconf-2-4```:
+   1. If you are an Ubuntu 18 user, you must additionally install libgconf-2-4 package to ensure a smooth Postman run. This package, shipped by default until Ubuntu version 18, has been dropped, and is mandatory for Postman to run. Use the following command to install ```libgconf-2-4```:
 
     apt-get install libgconf-2-4
   
@@ -63,7 +63,7 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
    This section describes the additional software and infrastructure you'll need to run Postman. Please review this info before installing Postman. You should only use Postman with a supported platform. Any platforms and versions not listed on this page are unsupported, which means we don't test, fix bugs or provide assistance.
 
 ### macOS
-   
+
    The minimum version supported is macOS 10.9.
 
 ### Windows
@@ -73,7 +73,7 @@ Once you’ve downloaded and unzipped the app, double click on Postman. You will
    Both ```ia32 (x86) and x64 (amd64)``` installers are provided for Windows. Note that the ARM version of Windows is not supported.
 
 ### Linux
-   
+
    Postman supports the following Linux distributions:
 
 * Ubuntu 12.04 and later
@@ -115,7 +115,7 @@ The native apps are not restricted by the Chrome standards for the menu bar. Wit
 
 #### Restricted headers
 
-The latest versions of the native apps let you send headers like ```Origin``` and ```User-Agent```. These are [restricted](/docs/postman/sending_api_requests/interceptor_extension/#restricted-headers) in the Chrome app. 
+The latest versions of the native apps let you send headers like ```Origin``` and ```User-Agent```. These are [restricted](/docs/postman/sending_api_requests/interceptor_extension/#restricted-headers) in the Chrome app.
 
 #### Don't follow redirects option
 
@@ -159,10 +159,9 @@ You can also configure your preferences to enable automatic download for major u
 
 Some users may encounter issues updating in the Windows version of Postman 6.1. To resolve you must set the environmental variable `POSTMAN_DISABLE_GPU=true`. In order to do this, follow these steps:
 
-1. Open `Advanced system settings` 
-2. Navigate to `Environment Variables` 
-3. Add a new system variable and save by click 'OK'.
-
+1. Open `Advanced system settings`
+1. Navigate to `Environment Variables`
+1. Add a new system variable and save by click 'OK'.
 
 [![step 1](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Troubleshootwindows6.1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Troubleshootwindows6.1.png)
 
@@ -170,11 +169,6 @@ Some users may encounter issues updating in the Windows version of Postman 6.1. 
 
 [![step 3](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Troubleshootwindows6.1+(1).png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Troubleshootwindows6.1+(1).png)
 
-
 ## Postman Chrome App
 
 Postman's Chrome app has been deprecated. Although you can still use it, new features and bug fixes are being released exclusively in our native apps. We recommend you [download the free native Postman app](https://www.getpostman.com/downloads/) available for Mac, Windows, and Linux operating systems.
-
-
-
- 

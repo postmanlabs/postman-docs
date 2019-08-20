@@ -19,13 +19,11 @@ You can then access the **timestampHeader** variable in the header data editor
 
 Pre-request scripts are written in JavaScript, and the syntax is similar to the [test scripts](/docs/postman/scripts/test_scripts) except that the response object is not present.
 
-### Adding a pre-request script to a collection or folder
+## Adding a pre-request script to a collection or folder
 
 You can add pre-request scripts to a collection, a folder, or a single request within a collection. A pre-request script associated with a collection runs prior to every request in the collection. A pre-request script associated with a folder runs prior to every request in the folder. This allows you to reuse commonly executed code prior to every request.
 
-
 Collection and folder scripts can be updated in the collection or folder details respectively. Click on the ellipsis (...) next to the collection or folder name, and select “Edit” to open the modal. Select the **Pre-request Scripts** tab to add and update the scripts. You can also add collection scripts when initially creating the collection.  
-
 
 [![pre-request script for folder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script5.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script5.png)
 

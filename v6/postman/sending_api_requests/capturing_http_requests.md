@@ -5,11 +5,17 @@ warning: false
 
 ---
 
-If you are using APIs to build client-side applications - mobile apps, websites or desktop applications - you might want to see the actual HTTP request traffic that is being sent and received in the application. In some cases, you might discover APIs that are not even documented. Postman gives you tools to see and capture this network traffic easily. You can use the built-in proxy in the Postman native apps or use the [Interceptor extension](/docs/postman/sending_api_requests/interceptor_extension/) for the Postman Chrome app. 
+If you are using APIs to build client-side applications - mobile apps, websites or desktop applications - you might want to see the actual HTTP request traffic that is being sent and received in the application. In some cases, you might discover APIs that are not even documented. Postman gives you tools to see and capture this network traffic easily. You can use the built-in proxy in the Postman native apps or use the [Interceptor extension](/docs/postman/sending_api_requests/interceptor_extension) for the Postman app. 
 
-**Note:** for the Postman native apps, request captures over HTTPS will not work if the website has HSTS enabled. Most websites have this check in place.
+**Note:** For the Postman native apps, request captures over HTTPS will not work if the website has HSTS enabled. Most websites have this check in place.
 
-## The Postman built-in proxy
+You can capture the HTTP requests using the following two ways:
+
+* [Using the Postman built-in proxy](#using-the-postman-built-in-proxy) 
+
+* [Using the Interceptor](#using-the-interceptor)
+
+### Using the Postman built-in proxy
 
 Postman has a proxy in the Postman app that captures the HTTP request.
 
@@ -35,7 +41,7 @@ Open the **PROXY SETTINGS** modal in the Postman app (MacOS) by clicking the ico
 
 Keep a note of the port mentioned in the proxy settings. In this case, let's keep it at the default port ``5555``. Set the target to "History". This will cause all your requests to be captured and stored in the History sidebar panel.
 
-[![proxy settings modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-postman-proxy-settings.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-postman-proxy-settings.jpg)
+[![proxy settings modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-Proxy1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-Proxy1.png)
 
 ### Step 2: Note your computer's IP address
 
@@ -63,4 +69,14 @@ The broader development community has published some useful tutorials for settin
    *   [Linux](https://www.shellhacks.com/linux-proxy-server-settings-set-proxy-command-line/)
    *   [macOS](https://support.apple.com/en-gb/guide/mac-help/mchlp2591/mac)
    *   [Android](https://www.howtogeek.com/295048/how-to-configure-a-proxy-server-on-android/)
+
+
+### Using the Interceptor 
+
+You can capture the HTTP requests using the Postman Interceptor, and save them to History or a collection. The following screen illustrates this:
+
+[![request capture interceptor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-with-filters3.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-with-filters3.gif)
+
+You can save your request to **History**, add additional filters to the URL and even filter the requests for specific methods. The above screen specifies *Spotify* in the **URL** field and *Post* method in the **Methods** field. In this case, Postman looks for any URL containing *Spotify* string with a *Post* method and will save it to the History tab. You can also add the requests you capture to the **History** tab or any collection. 
+
 

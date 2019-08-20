@@ -23,7 +23,7 @@ In addition to the **Create New** tab, there are two other tabs: "Templates" and
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-createNew-newbutton-blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-createNew-newbutton-blk.png)
 
-### Create New
+## Create New
 
 You can create a new _Request, Collection, Environment, API Documentation, Mock Server, and Monitor_ using the **New** button. Alternatively, you can also directly create these when you click the down arrow at the right side of the **New** button, as illustrated below:
 
@@ -37,19 +37,19 @@ At the bottom of this window, you can select “Show this window at launch” to
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-new-button-menu-blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-new-button-menu-blk.png)
 
-### Create a request
+## Create a request
 
 Under **BUILDING BLOCKS**, you can create any kind of [HTTP request](/docs/postman/sending_api_requests/requests/).
 
 1. In the header toolbar, click the **New** button.
-2. In the **Create New** tab, click "Request".
-3. Save the request to an existing collection, or create a new one.
+1. In the **Create New** tab, click "Request".
+1. Save the request to an existing collection, or create a new one.
 
 After you save the request to a collection, you can add the URL, method, headers, and body to the request in the builder.
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_request_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_request_blk.png)
 
-### Create a collection
+## Create a collection
 
 Under **BUILDING BLOCKS**, you can create a [collection](/docs/postman/collections/creating_collections/).
 
@@ -69,7 +69,7 @@ After creating the collection, you can save more requests to the collection and 
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-createcollection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-createcollection.png)
 
-### Create an environment
+## Create an environment
 
 Under **BUILDING BLOCKS**, you can create an [environment](/docs/postman/environments_and_globals/manage_environments/). Environments are a portable scope for variables. While working with APIs, you often need different setups, such as your local machine, the development server, or the production API.
 
@@ -84,7 +84,7 @@ If you've created other environments, the **MANAGE ENVIRONMENTS** screen appears
 
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environments-secondWindow2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environments-secondWindow2.png)
 
-### Create a monitor
+## Create a monitor
 
 Under **ADVANCED**, you can create a [monitor](/docs/postman/monitors/intro_monitors/) to run a collection periodically to check its performance and response. You can [set a monitor](/docs/postman/monitors/setting_up_monitor/) to run as frequently as every 5 minutes.
 
@@ -108,7 +108,7 @@ In the **Next steps** tab, see a list of suggested next steps to get the most ou
 
 [![next monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-next-steps1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-next-steps1.png)
 
-### Create documentation
+## Create documentation
 
 Under **ADVANCED**, you can create [public or private documentation](/docs/postman/api_documentation/intro_to_api_documentation/) and share it in a web page. Postman generates browser-based documentation for your collections, that can be updated automatically in real-time.
 
@@ -128,7 +128,7 @@ In the **Next steps** tab, see a list of suggested next steps to get the most ou
 
 [![nextSteps docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-documentation-nextsteps-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-documentation-nextsteps-1.png)
 
-### Create a mock server
+## Create a mock server
 
 A [mock server](/docs/postman/mock_servers/setting_up_mock/) simulates each endpoint in a Postman Collection. You can mock a request and response in Postman before you send the actual request or set up a single endpoint to return the response.
 
@@ -150,7 +150,7 @@ In the **Next steps** tab, see a list of suggested next steps to get the most ou
 
 [![next mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-next-steps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-next-steps.png)
 
-### Templates
+## Templates
 
 Under the **Templates** tab, there are a variety of collection templates available to help you check links, track GitHub issues, verify non-MFA access to AWS accounts, monitor the status of URLs, check DNS records, use Postman Echo to test your REST client and make sample API calls, monitor AWS ElasticBeanstalk environments, and more.
 
@@ -168,7 +168,7 @@ To import a template:
 1. Click the **Create** button. The **Success!** screen displays what Postman created for you and suggests next steps to consider to get the most out of the template.
 1. Click the **Okay** button to exit the screen.
 
-### API Network
+## API Network
 
 The [Postman API Network](https://www.getpostman.com/api-network/) provides the most authentic and actionable directory of public APIs available. Every API listed in this network includes a complete Postman collection, created by the API's publisher. Postman specifically designed the API list to onboard developers quickly and effectively.
 

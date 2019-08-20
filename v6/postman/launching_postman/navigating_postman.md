@@ -5,7 +5,7 @@ warning: false
 
 ---
 
-Postman provides a multi-window and multi-tab interface for you to work on APIs. This interface design gives you as much space as possible for your APIs. 
+Postman provides a multi-window and multi-tab interface for you to work on APIs. This interface design gives you as much space as possible for your APIs.
 
 [![general layout](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046674.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59046674.jpg)
 
@@ -17,11 +17,11 @@ You can drag the right edge to resize the width of the sidebar. You can also min
 
 ## History tab
 
-The Postman app saves every request you send in the [History](/docs/postman/sending_api_requests/history/) tab in the sidebar. 
+The Postman app saves every request you send in the [History](/docs/postman/sending_api_requests/history/) tab in the sidebar.
 
 ## Collections tab
 
-This tab creates and manages collections from the **Collections** tab in the sidebar. 
+This tab creates and manages collections from the **Collections** tab in the sidebar.
 
 Learn more about [collections](/docs/postman/collections/creating_collections/) and how they accelerate the speed of your APIs.
 
@@ -30,30 +30,35 @@ Learn more about [collections](/docs/postman/collections/creating_collections/) 
 [![header toolbar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)
 
 The header toolbar contains these options:
-*  **New** button: Creates requests, collections, environments, documentation, mock servers, and monitors.
-*  **Import** button - Imports Postman collections, environments, WADL, Swagger, RAML, or cURL into Postman using files, links, or raw text.
-*  **Runner** button - Opens the [collection runner.](/docs/postman/collection_runs/starting_a_collection_run/)
-*  **New window** icon - Opens a new "Tab", "Postman Window" or a "Runner Window".
-*  **Workspaces** menu - Opens the Workspaces menu where you can view [personal and team Workspaces](/docs/postman/workspaces/intro_to_workspaces/), and create and manage Workspaces.
-*  **Interceptor/Proxy** icon - Manages proxy or Interceptor settings.
-*  **IN SYNC status** icon - Updates the status of your Postman account.
-*  **Settings** icon - Manages Postman app settings and finds other support resources.
-*  **Notifications** icon - Receives notifications or broadcasts.
-*  **Heart** - Love Postman? Click on this button to share the love!
-*  **User** dropdown - Displays current user and provides these options: "Profile", "Account Settings", "Notification Preferences", "Active Sessions", and "Add a new account".
+
+* **New** button: Creates requests, collections, environments, documentation, mock servers, and monitors.
+* **Import** button - Imports Postman collections, environments, WADL, Swagger, RAML, or cURL into Postman using files, links, or raw text.
+* **Runner** button - Opens the [collection runner.](/docs/postman/collection_runs/starting_a_collection_run/)
+* **New window** icon - Opens a new "Tab", "Postman Window" or a "Runner Window".
+* **Workspaces** menu - Opens the Workspaces menu where you can view [personal and team Workspaces](/docs/postman/workspaces/intro_to_workspaces/), and create and manage Workspaces.
+* **Interceptor/Proxy** icon - Manages proxy or Interceptor settings.
+* **IN SYNC status** icon - Updates the status of your Postman account.
+* **Settings** icon - Manages Postman app settings and finds other support resources.
+* **Notifications** icon - Receives notifications or broadcasts.
+* **Heart** - Love Postman? Click on this button to share the love!
+* **User** dropdown - Displays current user and provides these options: "Profile", "Account Settings", "Notification Preferences", "Active Sessions", and "Add a new account".
 
 ## Console
 
 Two consoles are available in Postman to see what's going on behind the scenes.
 
-*   Postman console - Contains a running log of HTTP requests and responses. You can log messages from scripts. For example you could log messages in the console.log. <br>**Note**: This feature is only available in Postman's native apps.
-*   DevTools console - Provides diagnostic information during development. To learn how to access DevTools console logs, see [Debugging and logs](/docs/postman/sending_api_requests/debugging_and_logs/).
+* Postman console - Contains a running log of HTTP requests and responses. You can log messages from scripts. For example you could log messages in the console.log.
+
+    **Note:** This feature is only available in Postman's native apps.
+
+* DevTools console - Provides diagnostic information during development. To learn how to access DevTools console logs, see [Debugging and logs](/docs/postman/sending_api_requests/debugging_and_logs/).
 
 Learn more about [troubleshooting with console logs](/docs/postman/sending_api_requests/debugging_and_logs/).
 
 ## Status bar
 
 The status bar at the bottom of the Postman interface gives you a convenient way to:
+
 * Show or hide the sidebar.
 * Search in collections, environments, and globals.
 * Open the Postman [console.](/docs/postman/launching_postman/navigating_postman/#console)
@@ -116,10 +121,9 @@ To close a tab, right click the tab to display the **Tab** menu, and click the *
 
 To force close a tab, press **ALT** and click the **X** icon on the right side of the tab.
 
-
 ## Data editor
 
-Working with large amounts of data can be cumbersome and time consuming. Postman's data editor lets you view and manipulate data in a fast, effective, and elegant manner. Since most users work with data in spreadsheets, we leveraged those features for the data editor design to make it a familiar experience. 
+Working with large amounts of data can be cumbersome and time consuming. Postman's data editor lets you view and manipulate data in a fast, effective, and elegant manner. Since most users work with data in spreadsheets, we leveraged those features for the data editor design to make it a familiar experience.
 
 **Note**: The UI images in this section do not reflect the current UI that features the [**New** button.](/docs/postman/launching_postman/newbutton)
 
@@ -133,13 +137,11 @@ On hover, relevant features display for a specific row to reduce clutter in the
 
 You can use the [keyboard shortcuts](/docs/postman/launching_postman/keyboard_shortcuts#data-editor) to navigate the data editor.
 
-
 ### Mulitple rows
 
 Drag your mouse to select multiple rows.
 
 [![select multiple rows](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-selection-multiple-rows.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-selection-multiple-rows.gif)
-
 
 ### Bulk actions
 

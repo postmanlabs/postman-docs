@@ -12,14 +12,13 @@ This topic describes how to use Newman with Docker in these platforms:
 * [macOS and Ubuntu](#mac-and-ubuntu)
 * [Windows](#windows)
 
-
 ## macOS and Ubuntu
 
 Follow these steps to use [Newman](https://github.com/postmanlabs/newman) with [Docker](https://www.docker.com/):
 
-1\. In the [Docker Hub](https://hub.docker.com/r/postman/newman_ubuntu1404/), download your copy. 
+1\. In the [Docker Hub](https://hub.docker.com/r/postman/newman_ubuntu1404/), download your copy.
 
-2\. Ensure you have Docker installed and running in your system. Docker has extensive installation guidelines for popular operating systems. Choose your operating system and follow the instructions. 
+2\. Ensure you have Docker installed and running in your system. Docker has extensive installation guidelines for popular operating systems. Choose your operating system and follow the instructions.
 
 To test your Docker installation, execute this command to ensure it runs without errors:
 
@@ -46,9 +45,8 @@ The entry point to the Docker image is Newman. So you can use all Newman command
 ## Windows
 
 Check our [blog post](https://blog.getpostman.com/2015/08/07/using-the-newman-docker-image-in-windows/) on how to run Newman in Docker for Windows.
-<br>
-<br>
 
+---
 For more information on collection runs, see:
 
 * [Starting a collection run](/docs/postman/collection_runs/starting_a_collection_run/)
