@@ -317,6 +317,7 @@ For CSV files, the top row needs to contain variable names.
 ```
 
 This can be combined with `.a` to check if the target is empty but has a `type`, say for example an `array` or an `object`.
+
 Example:
 
 ```javascript
