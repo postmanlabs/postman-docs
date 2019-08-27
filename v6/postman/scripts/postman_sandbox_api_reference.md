@@ -321,7 +321,7 @@ The `cookies` object contains a list of cookies that are associated with the dom
 
   This function is useful to deal with assertions of data from a `response` or `variables`.
 
-  Note that while some of the below example functions have other alternatives (see the documentation at: [ChaiJS expect BDD library](http://chaijs.com/api/bdd/)), it is recommended to use the functions specified below unless you really need the alternatives.
+  Note that this list is not exhaustive and that while some of the below example functions have other alternatives, it is recommended to use the functions specified below unless you really need the alternatives. (For the complete reference, see the documentation at: [ChaiJS expect BDD library](http://chaijs.com/api/bdd/))
 
   **Assert if the target is ```String```:**
   
