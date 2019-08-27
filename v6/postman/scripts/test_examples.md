@@ -233,7 +233,7 @@ For CSV files, the top row needs to contain variable names.
 ### Assert if substring exists in target
   
   ```javascript
-    pm.test("Checki if pattern is in target string",function () {
+    pm.test("Check if pattern is in target string",function () {
         pm.expect('foobar').to.have.string('bar');
     });
   ```
@@ -242,7 +242,7 @@ For CSV files, the top row needs to contain variable names.
 
   ```javascript
     const TEN = 10;
-    pm.test('check if number is equal to 10', function () {
+    pm.test('Check if number is equal to 10', function () {
         pm.expect(TEN).to.equal(10);
     });
   ```
@@ -263,7 +263,7 @@ For CSV files, the top row needs to contain variable names.
 ### Assert the value of response
 
   ```javascript
-    pm.test("response value check", function () {
+    pm.test("Check response value", function () {
         var jsonData = pm.response.json();
         pm.expect(jsonData.value).to.eql(100);
     });
@@ -272,7 +272,7 @@ For CSV files, the top row needs to contain variable names.
 ### Assert the current environment
 
   ```javascript
-    pm.test("environment to be production", function () {
+    pm.test("Check if environment is production", function () {
         pm.expect(pm.environment.get('env')).to.equal('production');
     });
   ```
