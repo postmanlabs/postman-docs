@@ -226,7 +226,7 @@ For CSV files, the top row needs to contain variable names.
 
 ## Assertion library examples
 
-  Folowing is a list of some of the most common assertion tests used in the Postman test scripts.
+  Following is a list of some of the most common assertion tests used in the Postman test scripts.
 
   Note that this list is not exhaustive. For the complete reference, see the documentation at: [ChaiJS expect BDD library](http://chaijs.com/api/bdd/))
 
