@@ -319,7 +319,7 @@ The `cookies` object contains a list of cookies that are associated with the dom
 
   `pm.expect` is a generic assertion function. Underlying this is the [ChaiJS expect BDD library](http://chaijs.com/api/bdd/). Using this library, it is easy to write tests where the syntax becomes readable.
 
-  This function is useful to deal with assertions of data from a `response` or `variables`. For assertion test examples using `pm.expect`, check out [Assertion library examples](/docs/postman/scripts/test_examples#assertion-library-examples).
+  This function is useful to deal with assertions of data from a `response` or `variables`. For assertion test examples using `pm.expect`, check out [Assertion library examples](/docs/v6/postman/scripts/test_examples#assertion-library-examples)
 
 ### Response Assertion API available in the test scripts
 
