@@ -250,7 +250,7 @@ For CSV files, the top row needs to contain variable names.
 ### Loose comparison
 
   ```javascript
-    pm.test("Our JSON is loosely equal to the provided Json", function () {
+    pm.test("Our JSON is loosely equal to the provided JSON", function () {
      pm.expect(data1).to.deep.equal(data2);
     });
   ```
@@ -322,14 +322,14 @@ Example:
 
 ```javascript
     pm.test("Check if array is empty.", function () {
-     pm.expectexpect([]).to.be.an('array').that.is.empty;
+     pm.expect([]).to.be.an('array').that.is.empty;
     });
 ```
 
 ### Assert that the target contains the keys passed
 
 ```javascript
-    pm.test("Check if object contains all keys.", function () {
+    pm.test("Check if object contains all provided keys.", function () {
      pm.expect({a: 1, b: 2}).to.have.all.keys('a', 'b');
     });
 ```
