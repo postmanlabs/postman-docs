@@ -32,15 +32,13 @@ The schema editor provides you options to beautify the content, wrap text, copy 
 
 [![api schema add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Schema-Editor2.png)
 
-Click **Generate Collection** to generate a collection from this schema. The collection will not automatically link to an API. You will need to link the collection explicitly to an API or a specific API version using a version tag.
-
 #### Generating a collection from a schema
 
 This is a powerful feature that will let you jump-start your API workflow by creating collections from a schema. You can start by creating a schema or an API in Postman (sort of API-first development approach), and then start generating collections from the schema. It is so much easier for you to start working with your Schemas in Postman and use it for different workflows (like mocking, documentation, testing and monitoring).
 
 The **Generate Collections** button generates a collection which adheres to your schema and puts it in your workspace sidebar. Postman not only lets you generate a collection but it also enables you to add the collection as documentation, a test suite, and an integration or a contract test - all in one go. Once you click the **Generate Collections** button, the following screen appears:
 
-Generate collections modal.....
+[![add existing mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-dev/Generate_Collection_Schema1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-dev/Generate_Collection_Schema1.png)
 
 People who have repetitive workflows can import their schemas in Postman and can generate collections on the run.
 
@@ -55,19 +53,16 @@ Schema formats currently supported in Postman:
 * OpenAPI 1.0
 * RAML 0.8
 * RAML 1.0
+* GraphQL
 
 Languages supported:
 
 * JSON
 * YAML
 * XML
+* GraphQL SDL
 
 **Note:** Multi-file variants of schemas are currently not supported.
-
-## Developing an API
-
-After adding a schema, you can develop your API by using version tagging to link an element like mock servers, documentation, or environments to a specific version of your API.
-
 
 ## Developing an API
 
@@ -86,12 +81,11 @@ This section describes the following topics:
 You can link mock servers running on a collection to an API. From the **Develop** tab, you can either create a new mock server or add an existing mock server. This section describes the following two topics:
 
 * [Creating new mock server](#creating-new-mock-server)
-
 * [Adding existing mock server](#adding-existing-mock-server)
 
 #### Creating new mock server
 
-From the **Develop** tab, click **Add Mock Server**. 
+From the **Develop** tab, click **Add Mock Server**.
 
 [![add existing mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Mock-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Mock-1.png)
 
@@ -99,7 +93,7 @@ In the above screen, select **Create new mock server**. The following screen app
 
 [![add existing mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Mock-2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Mock-2.png)
 
-Click **Generate collection from schema** to create a mock server on the collection you generated from your schema. Specify a name in **Name your collection** field and click **Generate collection and continue**. 
+Click **Generate collection from schema** to create a mock server on the collection you generated from your schema. Specify a name in **Name your collection** field and click **Generate collection and continue**.
 
 #### Adding existing mock server
 
@@ -176,40 +170,31 @@ If you're writing tests to ensure your APIs are working according to their speci
 In the above screen, select a corresponding collection from the list and click **Add Contract Test**. The contract tests attached to the collection are now added to the API. Only available collections will be shown in this list.
 
 ## Observing an API
+
 You can link your monitors running on collections in your current workspace with an API. From the **Observe** tab, you can either create a new monitor or add an existing monitor. This section describes the following two topics:
 
 * [Creating a new monitor](#creating-a-new-monitor)
-
 * [Adding an existing monitor](#adding-an-existing-monitor)
 
+### Creating new monitor
 
-#### Creating new monitor
+From the **Observe** tab, click **Create new monitor**. The following screen opens:
 
-From the **Observe** tab, click **Create new Monitor**. The following screen opens:
+[![Create new monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-dev/Create_New_Monitor1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-dev/Create_New_Monitor1.png)
 
+Under **Select requests to monitor**, specify a name in **Name your collection** field and click **Generate collection and continue**.
 
-Create new monitor screen.
+You can also create a new monitor on an existing collection. To do this, choose an existing collection under the **Use an existing collection** tab and select a collection.
 
-Under **Select requests to monitor**, specify the name of the collection on which you want to create a monitor.
+[![Create new monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-dev/Create_Monitor_Existing_Collection.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-dev/Create_Monitor_Existing_Collection.png)
 
-
-You can also create a new monitor on an existing collection. To do this, choose an existing collection under the **Use an existing collection** tab and select a collection. 
-
-Screen here
-
-
-Click **Select collection and continue** button. 
+Click **Select collection and continue** button.
 
 #### Adding an existing monitor
 
-You can also add an existing monitor to the API. 
+You can also add an existing monitor to the API.
 
-In the **Observe** tab, click **Add a monitor**. The following screen opens:
-
-
-Add monitor screen ......
-
-Under **Select a monitor from this workspace**, choose the monitor from the workspace and click **Add Monitor**.
+In the **Observe** tab, click **Add a monitor** and select **Add existing monitor**.
 
 [![api add monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Monitor1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Monitor1.png)
 
