@@ -30,4 +30,4 @@ Once you login after a successful authorization from your IDP, Postman will take
 
 Enter your Postman credentials to link your IDP account to with Postman credentials. 
 
-**Note:** First, Postman used your credentials to verify account ownership and link the Postman account to the account of your IDP, say for instance, Okta. Postman prompts you to sign in again to actually let you login securely through your security provider.
+**Note:** Postman first uses your credentials to verify the account ownership and then links your Postman account to your IDP account, say for instance, Okta. To let you login to this secured account, Postman prompts you to sign in again. 
