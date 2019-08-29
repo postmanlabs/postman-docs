@@ -210,9 +210,30 @@ The response details are stored in the following format:
 
 The `iterationData` object contains data from the data file provided during a collection run.
 
-* `pm.iterationData.get(variableName:String):function → *`
-* `pm.iterationData.toObject():function → Object`
+* `pm.iterationData.get(variableName:String):function → *`: Returns a variable from the interation data with the specified name.
 
+* `pm.iterationData.toObject():function → Object`: Returns the iteration data as an object.
+
+* `pm.iterationData.addLayer(list: VariableList):function → void`: Add a list of variables to iteration data.
+
+* `pm.iterationData.clear():function → void`: Clear all the data.
+
+* `pm.iterationData.has(variableName: string):function → boolean`: Checks if a variable with the specified name exists in iteration data.
+
+* `pm.iterationData.set(key: string, value: any, type: string):function → void`: Sets a variable, assigns it a value and type as specified.
+
+* `pm.iterationData.syncVariablesFrom(object: {[key: string]: VariableDefinition}, track?: boolean, prune?: boolean):function → Object | Undefined`: Get variables from an object with the name specified.
+
+* `pm.iterationData.syncVariablesTo(object?: {[key: string]: VariableDefinition}):function → Object`: Save the variables to an object with the name specified.
+
+* `pm.iterationData.toJSON():function → *`: Converts the iterationData object to JSON format.
+
+* `pm.iterationData.unset(key: string):function → void`: Unassign the value given to a specified variable.
+
+* `pm.iterationData.variables():function → Object`: Return all the variables from the iterationData object.
+
+* `static pm.iterationData.isVariableScope(object: any):function → boolean`: Check if a specific variable is in scope.
+  
 ### pm.cookies
 
 `pm.cookies:` [Read more about CookieList](http://www.postmanlabs.com/postman-collection/CookieList.html)
@@ -239,7 +260,7 @@ The `cookies` object contains a list of cookies that are associated with the dom
 
 * `jar.set(URL:String, cookie name:String, cookie value:String, callback(error, cookie)):Function → Object`
 
-   Set a cookie using cookie name and value. One can also directly set the cookie by assinging cookie value to the     cookie name within this function.
+   Set a cookie using cookie name and value. One can also directly set the cookie by assinging cookie value to the cookie name within this function.
 
   * `jar.set(URL:String, { name:String, value:String, httpOnly:Bool }, callback(error, cookie)):Function → Object`
 
@@ -298,20 +319,7 @@ The `cookies` object contains a list of cookies that are associated with the dom
 
   `pm.expect` is a generic assertion function. Underlying this is the [ChaiJS expect BDD library](http://chaijs.com/api/bdd/). Using this library, it is easy to write tests where the syntax becomes readable.
 
-  This function is useful to deal with assertions of data from a `response` or `variables`.
-
-  ```javascript
-    pm.test("response value check", function () {
-        var jsonData = pm.response.json();
-        pm.expect(jsonData.value).to.eql(100);
-    });
-  ```
-
-  ```javascript
-    pm.test('environment to be production', function () {
-        pm.expect(pm.environment.get('env')).to.equal('production');
-    });
-  ```
+  This function is useful to deal with assertions of data from a `response` or `variables`. For assertion test examples using `pm.expect`, check out [Assertion library examples](/docs/postman/scripts/test_examples#assertion-library-examples)
 
 ### Response Assertion API available in the test scripts
 

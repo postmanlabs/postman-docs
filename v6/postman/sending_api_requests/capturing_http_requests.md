@@ -5,17 +5,16 @@ warning: false
 
 ---
 
-If you are using APIs to build client-side applications - mobile apps, websites or desktop applications - you might want to see the actual HTTP request traffic that is being sent and received in the application. In some cases, you might discover APIs that are not even documented. Postman gives you tools to see and capture this network traffic easily. You can use the built-in proxy in the Postman native apps or use the [Interceptor extension](/docs/postman/sending_api_requests/interceptor_extension) for the Postman app. 
+If you are using APIs to build client-side applications - mobile apps, websites or desktop applications - you might want to see the actual HTTP request traffic that is being sent and received in the application. In some cases, you might discover APIs that are not even documented. Postman gives you tools to see and capture this network traffic easily. You can use the built-in proxy in the Postman native apps or use the [Interceptor extension](/docs/postman/sending_api_requests/interceptor_extension/) for the Postman app. 
 
 **Note:** For the Postman native apps, request captures over HTTPS will not work if the website has HSTS enabled. Most websites have this check in place.
 
 You can capture the HTTP requests using the following two ways:
 
-* [Using the Postman built-in proxy](#using-the-postman-built-in-proxy) 
-
+* [Using the Postman built-in proxy](#using-the-postman-built-in-proxy)
 * [Using the Interceptor](#using-the-interceptor)
 
-### Using the Postman built-in proxy
+## Using the Postman built-in proxy
 
 Postman has a proxy in the Postman app that captures the HTTP request.
 
@@ -51,7 +50,7 @@ On OS X, the computer's IP address can be found in _System Preferences > Networ
 
 ### Step 3: Configure HTTP proxy on your mobile device
 
-Open the wireless settings of your mobile device and update the configuration of the wireless connection to use HTTP Proxy. Set the IP address with the IP you retrieved from your computer in the second step. Set the port with the port you established in Postman in **Step 1**. 
+Open the wireless settings of your mobile device and update the configuration of the wireless connection to use HTTP Proxy. Set the IP address with the IP you retrieved from your computer in the second step. Set the port with the port you established in Postman in **Step 1**.
 
 [![wireless settings on mobile device](https://blog.getpostman.com/wp-content/uploads/2016/06/ios-http-proxy-settings.png)](https://blog.getpostman.com/wp-content/uploads/2016/06/ios-http-proxy-settings.png)
 
@@ -65,18 +64,15 @@ You are all set! Head over to the Postman app, and you will start seeing the net
 
 The broader development community has published some useful tutorials for setting up a proxy server on various operating systems.
 
-   *   [Windows](https://www.howtogeek.com/tips/how-to-set-your-proxy-settings-in-windows-8.1/)
-   *   [Linux](https://www.shellhacks.com/linux-proxy-server-settings-set-proxy-command-line/)
-   *   [macOS](https://support.apple.com/en-gb/guide/mac-help/mchlp2591/mac)
-   *   [Android](https://www.howtogeek.com/295048/how-to-configure-a-proxy-server-on-android/)
+* [Windows](https://www.howtogeek.com/tips/how-to-set-your-proxy-settings-in-windows-8.1/)
+* [Linux](https://www.shellhacks.com/linux-proxy-server-settings-set-proxy-command-line/)
+* [macOS](https://support.apple.com/en-gb/guide/mac-help/mchlp2591/mac)
+* [Android](https://www.howtogeek.com/295048/how-to-configure-a-proxy-server-on-android/)
 
-
-### Using the Interceptor 
+## Using the Interceptor
 
 You can capture the HTTP requests using the Postman Interceptor, and save them to History or a collection. The following screen illustrates this:
 
 [![request capture interceptor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-with-filters3.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-with-filters3.gif)
 
-You can save your request to **History**, add additional filters to the URL and even filter the requests for specific methods. The above screen specifies *Spotify* in the **URL** field and *Post* method in the **Methods** field. In this case, Postman looks for any URL containing *Spotify* string with a *Post* method and will save it to the History tab. You can also add the requests you capture to the **History** tab or any collection. 
-
-
+You can save your request to **History**, add additional filters to the URL and even filter the requests for specific methods. The above screen specifies *Spotify* in the **URL** field and *Post* method in the **Methods** field. In this case, Postman looks for any URL containing *Spotify* string with a *Post* method and will save it to the History tab. You can also add the requests you capture to the **History** tab or any collection.

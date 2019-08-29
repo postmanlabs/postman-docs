@@ -15,7 +15,7 @@ You can click the failed monitor and review the relevant logs under the **Consol
 
 [![failed monitors](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-failed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-failed.png)
 
-For information about debugging in the console, see [Debugging and logs](/docs/postman/sending_api_requests/debugging_and_logs).
+For information about debugging in the console, see [Debugging and logs](/docs/postman/sending_api_requests/debugging_and_logs/).
 
 When a monitor fails, a "Need help debugging?" popup displays in the Postman monitors web view. Whenever possible, these suggestions include debugging tips that are specifically related to the error. 
 
@@ -27,7 +27,7 @@ For example, if the monitor failed because Postman was unable to contact the ser
 #### Debugging local run attempts
 
 *   Run the failing monitor's collection with its environment in the Postman app or Newman to see if it works correctly.
-*   If a local run passes, [ensure the sync is enabled](/docs/postman/launching_postman/syncing) in the toolbar header of the Postman app to persist any local changes.  
+*   If a local run passes, [ensure the sync is enabled](/docs/postman/launching_postman/syncing/) in the toolbar header of the Postman app to persist any local changes.  
     
     [![enable sync](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-insync.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-insync.png)
     

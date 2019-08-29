@@ -5,15 +5,15 @@ warning: false
 
 ---
 
-You can [mock a collection](/docs/postman/mock_servers/setting_up_mock) directly from the Postman app. Additionally, you can create a mock using the Postman API. Let’s walk through this step by step.
+You can [mock a collection](/docs/postman/mock_servers/setting_up_mock/) directly from the Postman app. Additionally, you can create a mock using the Postman API. Let’s walk through this step by step.
 
 ### Set up a collection for mocking
 
 In this example, we have a Collection `testAPI` with corresponding environment `testAPIEnv`.  Let's set up a mock service to enable your front-end team to simulate each endpoint in `testAPI` and view the various responses.
 
-Navigate to every request in the Collection `testAPI` that you would like to include in this simulation, and [save responses](/docs/postman/sending_api_requests/responses) with details about the response body, header or status codes that you would like to see returned by that endpoint. In this example, we will save 2 responses with status codes of 200 and 401 for this particular request.  Once you save the desired responses, the Collection is ready for mocking.
+Navigate to every request in the Collection `testAPI` that you would like to include in this simulation, and [save responses](/docs/postman/sending_api_requests/responses/) with details about the response body, header or status codes that you would like to see returned by that endpoint. In this example, we will save 2 responses with status codes of 200 and 401 for this particular request.  Once you save the desired responses, the Collection is ready for mocking.
 
-**Note**: In addition to mocking a collection with a saved response, you can also [mock a request and response using examples](/docs/postman/collections/examples).
+**Note**: In addition to mocking a collection with a saved response, you can also [mock a request and response using examples](/docs/postman/collections/examples/).
 
 [![saved responses](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-PM-API67.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mock-PM-API67.png)
 
@@ -62,10 +62,10 @@ https://{{mockId}}.mock.pstmn.io/{{mockPath}}
 
    *   Requests made to a private mock require one mandatory header, `x-api-key`, which is your Postman API key for authentication. Don't have a Postman API key? [Create one here](https://app.getpostman.com/dashboard/integrations/pm_pro_api/list). The default public mocks do not require this header.
    *   Mock requests also accept another optional header, `x-mock-response-code`, which specifies which integer response code your returned response should match.  For example, 500 will return only a 500 response. If this header is not provided, the closest match of any response code will be returned.
-   *   Similarly, other optional headers like `x-mock-response-name` or `x-mock-response-id` allow you further specify the exact response you want by the name or by the uid of the saved example respectively. You can get the example response uid by using the Postman API to [GET a Single Collection](https://docs.api.getpostman.com/#647806d5-492a-eded-1df6-6529b5dc685c) and searching for your example in the response. The uid has the syntax `<user_id>-<response_id>`. Without these optional headers, the mock will follow a [matching algorithm](/docs/postman/mock_servers/matching_algorithm) to decide which example to return.
+   *   Similarly, other optional headers like `x-mock-response-name` or `x-mock-response-id` allow you further specify the exact response you want by the name or by the uid of the saved example respectively. You can get the example response uid by using the Postman API to [GET a Single Collection](https://docs.api.getpostman.com/#647806d5-492a-eded-1df6-6529b5dc685c) and searching for your example in the response. The uid has the syntax `<user_id>-<response_id>`. Without these optional headers, the mock will follow a [matching algorithm](/docs/postman/mock_servers/matching_algorithm/) to decide which example to return.
 
 [![request headers](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-run-mock40.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-run-mock40.png)
 
 ### Mock requests and responses with examples
 
-In the previous example, we used a saved response to mock our collection. You can also [mock a request and response using examples](/docs/postman/collections/examples) in Postman before sending the actual request or setting up a single endpoint to return the response. With examples, you can mock raw responses and save them. Then, you’ll be able to generate a mock endpoint for each of them using Postman’s mock service. 
+In the previous example, we used a saved response to mock our collection. You can also [mock a request and response using examples](/docs/postman/collections/examples/) in Postman before sending the actual request or setting up a single endpoint to return the response. With examples, you can mock raw responses and save them. Then, you’ll be able to generate a mock endpoint for each of them using Postman’s mock service. 

@@ -27,4 +27,4 @@ Some salient points about `postman.setNextRequest()`:
 2.  It can be used in the pre-request or the test script. In case of more than one assignment, the last set value is considered.
 3.  If `postman.setNextRequest()` is absent in a request, the collection runner defaults to linear execution and moves to the next request
 
-For more information about control flow, read about [building workflows](/docs/postman/collection_runs/building_workflows).
+For more information about control flow, read about [building workflows](/docs/postman/collection_runs/building_workflows/).

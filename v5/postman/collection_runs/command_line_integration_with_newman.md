@@ -25,13 +25,13 @@ Once Node.js is installed, Newman is just a command away. Install Newman from np
 $ npm install -g newman
 ```
 
-The easiest way to run Newman is to run it with a collection. You can run any collection file from your file system. Refer to the [collection documentation](/docs/postman/collections/sharing_collections) to learn how to export collections to share as a file.
+The easiest way to run Newman is to run it with a collection. You can run any collection file from your file system. Refer to the [collection documentation](/docs/postman/collections/sharing_collections/) to learn how to export collections to share as a file.
 
 ```bash
 $ newman run mycollection.json
 ```
 
-You can also pass a collection as a URL. Refer to the [collection documentation](/docs/postman/collections/sharing_collections) to learn how to share a file as a URL. Your collection probably uses environment variables. To provide an accompanying set of environment variables, [export the template](/docs/postman/environments_and_globals/manage_environments) from Postman and run them with the `-e` flag.
+You can also pass a collection as a URL. Refer to the [collection documentation](/docs/postman/collections/sharing_collections/) to learn how to share a file as a URL. Your collection probably uses environment variables. To provide an accompanying set of environment variables, [export the template](/docs/postman/environments_and_globals/manage_environments/) from Postman and run them with the `-e` flag.
 
 ```bash
 $ newman run https://www.getpostman.com/collections/cb208e7e64056f5294e5 -e dev_environment.json
@@ -153,7 +153,7 @@ The results of all tests and requests can be exported into a file and later impo
 $ newman run mycollection.json --reporters cli,json --reporter-json-export outputfile.json
 ```
 
-**Note:** Newman allows you to use all [libraries and objects](/docs/postman/scripts/postman_sandbox) that Postman supports to run tests and pre-request scripts.
+**Note:** Newman allows you to use all [libraries and objects](/docs/postman/scripts/postman_sandbox/) that Postman supports to run tests and pre-request scripts.
 
 ### File uploads
 

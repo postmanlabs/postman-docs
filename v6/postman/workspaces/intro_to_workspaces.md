@@ -6,7 +6,7 @@ warning: false
 
 ## What is a workspace?
 
-A workspace is a _view_ of all the Postman things you've come to use: [collections](/docs/v6/postman/collections/intro_to_collections), [environments](/docs/v6/postman/environments_and_globals/intro_to_environments_and_globals), [mocks](/docs/v6/postman/mock_servers/intro_to_mock_servers), [monitors](/docs/v6/postman/monitors/intro_monitors), and more. Individuals can organize their work in personal workspaces and teams can collaborate in team workspaces.
+A workspace is a _view_ of all the Postman things you've come to use: [collections](/docs/postman/collections/intro_to_collections/), [environments](/docs/postman/environments_and_globals/intro_to_environments_and_globals/), [mocks](/docs/postman/mock_servers/intro_to_mock_servers/), [monitors](/docs/postman/monitors/intro_monitors/), and more. Individuals can organize their work in personal workspaces and teams can collaborate in team workspaces.
 
 [![WS_mainScreen-basicMenu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_Mainscreen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_Mainscreen.png)
 
@@ -14,7 +14,7 @@ Regardless of the type of workspace, you can share elements in multiple workspac
 
 ## Personal workspaces
 
-Personal workspaces are visible only to you. If you don't have a Postman account, you can have only one personal workspace. If you do have an account, you can [create an unlimited number of workspaces](/docs/v6/postman/workspaces/creating_workspaces).
+Personal workspaces are visible only to you. If you don't have a Postman account, you can have only one personal workspace. If you do have an account, you can [create an unlimited number of workspaces](/docs/postman/workspaces/creating_workspaces/).
 
 ## Team workspaces
 

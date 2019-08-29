@@ -34,6 +34,6 @@ You can use scripts to pass data between API requests and build workflows that m
 ---
 For more information on collections, see:
 
-* [Creating collections](/docs/v6/postman/collections/creating_collections)
-* [Sharing collections](/docs/v6/postman/collections/sharing_collections)
-* [Managing collections](/docs/v6/postman/collections/managing_collections)
+* [Creating collections](/docs/postman/collections/creating_collections/)
+* [Sharing collections](/docs/postman/collections/sharing_collections/)
+* [Managing collections](/docs/postman/collections/managing_collections/)

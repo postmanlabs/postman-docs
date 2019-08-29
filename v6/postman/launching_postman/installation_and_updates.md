@@ -155,7 +155,24 @@ You can also configure your preferences to enable automatic download for major u
 
 [![set automatic updates in settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auto+update+enable.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auto+update+enable.png)
 
-### Troubleshooting Postman Updates
+## Troubleshooting Postman Installation & Updates
+
+### "Windows protected your PC" warning
+
+[![windows smartscreen warning](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/windows-certificate-issue/cert1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/windows-certificate-issue/cert1.png)
+
+This warning is expected while installing Postman v7.6.0 and above. Please following the steps below to install the application if you get this warning:
+
+1. Click on "More info"
+2. Click on "Run anyway"
+
+[![step 1](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/windows-certificate-issue/cert2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/windows-certificate-issue/cert2.png)
+
+[![step 2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/windows-certificate-issue/cert3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/windows-certificate-issue/cert3.png)
+
+For more details on why this warning is shown by Windows Operating System, please refer [this post](https://community.getpostman.com/t/windows-protected-your-pc-warning-while-installing-postman-for-windows/7474) on our community forum.
+
+### Blank screen or window after launching the app
 
 Some users may encounter issues updating in the Windows version of Postman 6.1. To resolve you must set the environmental variable `POSTMAN_DISABLE_GPU=true`. In order to do this, follow these steps:
 

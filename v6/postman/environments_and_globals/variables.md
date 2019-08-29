@@ -45,7 +45,7 @@ The string `{{variableName}}` will be replaced with its current value when Postm
 
 For example, for an environment variable `url` with the current value `http://localhost`, you will have to use `{{url}}` in the request URL field. `{{url}}` will be replaced by `http://localhost` when the request is sent.
 
-Since variables in the request builder are accessed using string substitution, they can be used everywhere in the request builder where you can add text. This includes the URL, URL parameters, headers, authorization, request body and header presets. Postman evaluates the variables according to scoping rules as discussed in the [Variable Scopes](/docs/v6/postman/environments_and_globals/variables#variable-scopes) section and sends them to the server.
+Since variables in the request builder are accessed using string substitution, they can be used everywhere in the request builder where you can add text. This includes the URL, URL parameters, headers, authorization, request body and header presets. Postman evaluates the variables according to scoping rules as discussed in the [Variable Scopes](/docs/postman/environments_and_globals/variables/) section and sends them to the server.
 
 [![variables used in request builder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals1.png)
 
@@ -107,7 +107,7 @@ Dynamic variables cannot be used in the Sandbox. You can only use them in the `
 * `{{$timestamp}}`: Adds the current timestamp
 * `{{$randomInt}}`: Adds a random integer between 0 and 1000
 
-   For a complete list of dynamic variables, refer to the section [Dynamic Variables List](/docs/v6/postman/scripts/postman_sandbox_api_reference/#dynamic-variables).
+   For a complete list of dynamic variables, refer to the section [Dynamic Variables List](/docs/postman/scripts/postman_sandbox_api_reference//#dynamic-variables).
 
 [![dynamic variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals5.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals5.png)
 

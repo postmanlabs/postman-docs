@@ -54,7 +54,7 @@ You can see Token1, Token3, and Token5 populated with their current values in th
 
 To persist your current value with the initial value for the disabled variables, point your cursor to the ellipsis (…) and select Persist or Reset based on your need, as illustrated in the above screen. To delete the entire row, just click 'x'. Reset All resets all the values.
 
-**Note**: The Auto-Persist option does not work in the above context. For more information on Auto-Persist option, refer to the section [Auto persisting variable values](/docs/v6/postman/launching_postman/settings)
+**Note**: The Auto-Persist option does not work in the above context. For more information on Auto-Persist option, refer to the section [Auto persisting variable values](/docs/postman/launching_postman/settings/)
 
 ### Editing Environment and Global Variables
 

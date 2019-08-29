@@ -20,7 +20,7 @@ Expand the right angle bracket (**>**) to show the details view for the collecti
 
 ##### **Create a new collection**
 
-Click the "new collection" icon on the top right, or [save a current request to a new collection](/docs/postman/collections/creating_collections).
+Click the "new collection" icon on the top right, or [save a current request to a new collection](/docs/postman/collections/creating_collections/).
 
 [![new collection icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154223.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154223.png)
 
@@ -50,7 +50,7 @@ Click the ellipsis (...)next to a collection, and select "Delete". If you didn't
 
 ##### **Share a collection** 
 
-Learn more about [sharing collections](/docs/postman/collections/sharing_collections).
+Learn more about [sharing collections](/docs/postman/collections/sharing_collections/).
 
 ### Other collection features
 
@@ -60,15 +60,15 @@ Within a collection or folder, you can reorder requests using drag and drop. You
 
 ##### **Save responses** 
 
-Requests can also store [sample responses](/docs/postman/sending_api_requests/responses) when saved in a collection.
+Requests can also store [sample responses](/docs/postman/sending_api_requests/responses/) when saved in a collection.
 
 ##### **Use examples** 
 
-With [examples](/docs/postman/collections/examples), you can mock raw responses and save them to a collection. Then, you’ll be able to generate a mock endpoint for each of them using Postman’s [mock service](/docs/postman/mock_servers). 
+With [examples](/docs/postman/collections/examples/), you can mock raw responses and save them to a collection. Then, you’ll be able to generate a mock endpoint for each of them using Postman’s [mock service](/docs/postman/mock_servers/intro_to_mock_servers/). 
 
 ##### **Add scripts**
 
-Requests stored inside a collection can contain [scripts](/docs/postman/scripts/intro_to_scripts) to add dynamic behavior to the collection.
+Requests stored inside a collection can contain [scripts](/docs/postman/scripts/intro_to_scripts/) to add dynamic behavior to the collection.
 
 ### Adding folders
 

@@ -4,7 +4,7 @@ page_id: "viewing_monitor_results"
 warning: false
 ---
 
-You can set up monitors to send daily or weekly emails with a summary for all your monitors. You can [turn off email notifications](/docs/postman/monitors/setting_up_monitor) in the settings.
+You can set up monitors to send daily or weekly emails with a summary for all your monitors. You can [turn off email notifications](/docs/postman/monitors/setting_up_monitor/) in the settings.
 
 In addition, you can receive important notifications (both [in-app](/docs/postman/notifications) and email) if a monitor fails.
 
@@ -34,7 +34,7 @@ These visuals are a great way to measure performance improvements when you’ve 
 
 [![monitor perf](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-perf-page-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-perf-page-1.png)
 
-The results section shows request-level details: test results, response code, response time, and the response size. Additionally, you can filter by region if you set up [monitors in multiple regions](/docs/postman/monitors/intro_monitors#monitoring-resources-in-multiple-regions).
+The results section shows request-level details: test results, response code, response time, and the response size. Additionally, you can filter by region if you set up [monitors in multiple regions](/docs/postman/monitors/intro_monitors/#monitoring-resources-in-multiple-regions).
 
 [![monitor perf](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-results-1.png)](
 https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-monitor-results-1.png)

@@ -36,7 +36,7 @@ The Postman Chrome app can only run on the Chrome browser.  To use the Postman 
 
 If you already have Chrome installed, head over to [Postman’s page](https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop?hl=en) on the Chrome Web Store, and click ‘Add to Chrome’.
 
-The download should take a few minutes depending on your internet connection. Once you’ve downloaded the app, you can [launch Postman](/docs/postman/launching_postman/installation_and_updates).
+The download should take a few minutes depending on your internet connection. Once you’ve downloaded the app, you can [launch Postman](/docs/postman/launching_postman/installation_and_updates/).
 
 ### Differences between Chrome and native apps
 
@@ -46,11 +46,11 @@ A few features exclusive to the native apps are listed here:
 
 ##### **Cookies**
 
-The native apps let you work with [cookies](/docs/postman/sending_api_requests/cookies) directly. Unlike the Chrome app, no separate extension ([Interceptor](/docs/postman/sending_api_requests/interceptor_extension)) is needed.
+The native apps let you work with [cookies](/docs/postman/sending_api_requests/cookies/) directly. Unlike the Chrome app, no separate extension ([Interceptor](/docs/postman/sending_api_requests/interceptor_extension/)) is needed.
 
 ##### **Built-in proxy**
 
-The native apps come with a built-in proxy that you can use to [capture network traffic](/docs/postman/sending_api_requests/capturing_http_requests).
+The native apps come with a built-in proxy that you can use to [capture network traffic](/docs/postman/sending_api_requests/capturing_http_requests/).
 
 ##### **Menu bar**
 
@@ -58,7 +58,7 @@ The native apps are not restricted by the Chrome standards for the menu bar.  W
 
 ##### **Restricted headers**
 
-The latest versions of the native apps let you send headers like Origin and User-Agent. These are [restricted](/docs/postman/sending_api_requests/interceptor_extension) in the Chrome app. 
+The latest versions of the native apps let you send headers like Origin and User-Agent. These are [restricted](/docs/postman/sending_api_requests/interceptor_extension/) in the Chrome app. 
 
 ##### **Don't follow redirects option**
 
@@ -66,7 +66,7 @@ This option exists in the native apps to prevent requests that return a 300-seri
 
 ##### **Postman console**
 
-The latest version of the native app also has a built-in [console](/docs/postman/sending_api_requests/debugging_and_logs), which allows you to view the network request details for API calls.
+The latest version of the native app also has a built-in [console](/docs/postman/sending_api_requests/debugging_and_logs/), which allows you to view the network request details for API calls.
 
 ### **Migrating to the native app**
 

@@ -11,6 +11,6 @@ warning: false
 *   [Newman changelog](https://github.com/postmanlabs/newman/blob/develop/CHANGELOG.md#newman-changelog)
 *   [Collection v2 Format](http://schema.getpostman.com/)
 *   [Collection SDK (API Reference)](http://www.postmanlabs.com/postman-collection/)
-*   [Postman settings](/docs/postman/launching_postman/settings)
-*   [Keyboard shortcuts](/docs/postman/launching_postman/settings)
+*   [Postman settings](/docs/postman/launching_postman/settings/)
+*   [Keyboard shortcuts](/docs/postman/launching_postman/settings/)
 *   [Markdown reference](https://documenter.getpostman.com/view/33232/markdown-in-api-documentation/JsGc)

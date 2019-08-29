@@ -224,6 +224,202 @@ For CSV files, the top row needs to contain variable names.
 
 ---
 
+## Assertion library examples
+
+  Following is a list of some of the most common assertion tests used in the Postman test scripts.
+
+  Note that this list is not exhaustive. For the complete reference, see the documentation at: [ChaiJS expect BDD library](http://chaijs.com/api/bdd/)
+
+### Assert if substring exists in target
+  
+  ```javascript
+    pm.test("Check if pattern is in target string",function () {
+        pm.expect('foobar').to.have.string('bar');
+    });
+  ```
+
+### Strict Comparison
+
+  ```javascript
+    const TEN = 10;
+    pm.test('Check if number is equal to 10', function () {
+        pm.expect(TEN).to.equal(10);
+    });
+  ```
+
+### Loose comparison
+
+  ```javascript
+    pm.test("Our JSON is loosely equal to the provided JSON", function () {
+     pm.expect(data1).to.deep.equal(data2);
+    });
+  ```
+
+**Note:**
+
+1. `.deep` causes all `.equal`, `.include`, `.members`, `.keys`, and `.property` assertions that follow in the chain to use deep equality(loose equality) instead of strict (===) equality.
+2. While the `.eql` also compares loosely, `.deep.equal` causes deep equality comparisons to also be used for any other assertions that follow in the chain while `.eql` does not.
+
+### Assert the value of response
+
+  ```javascript
+    pm.test("Check response value", function () {
+        var jsonData = pm.response.json();
+        pm.expect(jsonData.value).to.eql(100);
+    });
+  ```
+
+### Assert the current environment
+
+  ```javascript
+    pm.test("Check if environment is production", function () {
+        pm.expect(pm.environment.get('env')).to.equal('production');
+    });
+  ```
+
+### Assert the type of the target is equal to the given string `type`
+
+```javascript
+    pm.test("Check if target is string", function () {
+     pm.expect('Postman').to.be.a('string');
+    });
+```
+
+```javascript
+    pm.test("Check if target is an object", function () {
+     pm.expect({a: 1}).to.be.an('object');
+    });
+```
+
+```javascript
+    pm.test("Check if target is undefined", function () {
+     pm.expect(undefined).to.be.an('undefined');
+    });
+```
+
+**Note:**
+
+1. It’s often best to use `.a` to check a target’s `type` before making more assertions on the same target.
+2. Types are case insensitive.
+
+### Assert if the target is empty
+
+```javascript
+    pm.test("Check if array is empty", function () {
+     expect([]).to.be.empty;
+    });
+```
+
+```javascript
+    pm.test("Check if string is empty", function () {
+     pm.expect('').to.be.empty;
+    });
+```
+
+This can be combined with `.a` to check if the target is empty but has a `type`, say for example an `array` or an `object`.
+
+Example:
+
+```javascript
+    pm.test("Check if array is empty", function () {
+     pm.expect([]).to.be.an('array').that.is.empty;
+    });
+```
+
+### Assert that the target contains the keys passed
+
+```javascript
+    pm.test("Check if object contains all provided keys", function () {
+     pm.expect({a: 1, b: 2}).to.have.all.keys('a', 'b');
+    });
+```
+
+```javascript
+    pm.test("Checking if object contains any ONE of the keys", function () {
+     pm.expect({a: 1, b: 2}).to.have.any.keys('a', 'b');
+    });
+```
+
+```javascript
+    pm.test("Check if object contains any NONE of the provided keys", function () {
+     pm.expect({a: 1, b: 2}).to.not.have.any.keys('c', 'd');
+    });
+```
+
+### Assert that the target contains said property
+
+```javascript
+    pm.test("Check if object contains the property", function () {
+     pm.expect({a: 1}).to.have.property('a');
+    });
+```
+
+**Note:**
+
+1. Target can be an `object`, `set`, `array` or `map`.
+2. If `.keys` is run without `.all` or `.any`, the expression defaults to `.all`.
+3. As `.keys` does different things based on the target’s `type`, it’s recommended to check the target’s `type` before using `.keys` using `.a`.
+
+```javascript
+    pm.test("Check if object contains all the keys", function () {
+     pm.expect({a: 1, b: 2}).to.be.an('object').that.has.all.keys('a', 'b');
+    });
+```
+
+### Assert the length of target
+
+```javascript
+    pm.test("Check the length of the target", function () {
+     pm.expect('foo').to.have.lengthOf(3);
+    });
+```
+
+```javascript
+    pm.test("Check the size of the target", function () {
+     pm.expect([1, 2, 3]).to.have.lengthOf(2);
+    });
+```
+
+### Assert that the target array has the same members as the given array set
+
+```javascript
+    pm.test("Check if the target has same members as the array set", function () {
+     pm.expect([1, 2, 3]).to.have.members([2, 1, 3]);
+    });
+```
+
+**Note:**
+
+1. By default, `.members` makes strict comparison.
+2. The order of members is irrelevant.
+
+### Assert that the target contains the provided item
+
+```javascript
+    pm.test("Check if the target array includes the number provided", function () {
+     pm.expect([1, 2, 3]).to.include(2);
+    });
+```
+
+```javascript
+    pm.test("Check if the target object includes the properties provided", function () {
+     pm.expect({a: 1, b: 2, c: 3}).to.include({a: 1, b: 2});
+    });
+```
+
+**Note:**
+It is advised to first assert the type of target, as `.include` operates on various types. Hence it is advised
+to chain `.a` when using `.include`.
+
+**Example:**
+
+```javascript
+    pm.test("Check if the target is an array that includes the number specified", function () {
+     pm.expect([1, 2, 3]).to.be.an('array').that.includes(2);
+    });
+```
+---
+
 ## Older style of writing Postman tests (deprecated)
 
 > **Note: This section refers to deprecated script syntax used in older versions of Postman. If you are writing scripts now, please use the syntax mentioned above.**

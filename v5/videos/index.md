@@ -9,16 +9,16 @@ warning: false
 
 * Getting Started
 
-    *   moving around in Postman - [Navigating Postman](/docs/postman/launching_postman/navigating_postman)  
-    *   making a request in Postman - [Requests](/docs/postman/sending_api_requests/requests)
+    *   moving around in Postman - [Navigating Postman](/docs/postman/launching_postman/navigating_postman/)  
+    *   making a request in Postman - [Requests](/docs/postman/sending_api_requests/requests/)
     *   managing and sharing Postman Collections
-    *   Postman tests - [Test script](/docs/postman/scripts/test_scripts)
+    *   Postman tests - [Test script](/docs/postman/scripts/test_scripts/)
 
 * Digging Deeper
 
-    *   using environments and variables in Postman - [Environments and globals](/docs/postman/environments_and_globals/manage_environments)
-    *   workflow automation - [Branching and looping](/docs/postman/scripts/branching_and_looping), [Monitors](/docs/postman/monitors/intro_monitors)  
-    *   using cookies and authentication helpers in Postman - [Cookies](/docs/postman/sending_api_requests/cookies), [Authorization](/docs/postman/sending_api_requests/authorization)
+    *   using environments and variables in Postman - [Environments and globals](/docs/postman/environments_and_globals/manage_environments/)
+    *   workflow automation - [Branching and looping](/docs/postman/scripts/branching_and_looping), [Monitors](/docs/postman/monitors/intro_monitors/)  
+    *   using cookies and authentication helpers in Postman - [Cookies](/docs/postman/sending_api_requests/cookies/), [Authorization](/docs/postman/sending_api_requests/authorization)
 
 * Advanced
 

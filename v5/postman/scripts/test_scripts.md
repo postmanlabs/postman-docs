@@ -45,13 +45,13 @@ pm.test("response must be valid and have a body", function () {
 });
 ```
 
-You can add as many tests as needed, depending on how many things you want to test for. Check out some [examples](/docs/postman/scripts/test_examples) of Postman tests.
+You can add as many tests as needed, depending on how many things you want to test for. Check out some [examples](/docs/postman/scripts/test_examples/) of Postman tests.
 
 Tests are saved as part of collection requests. This is perfect for both back-end and front-end developers to ensure that everything is working properly with the API. No more squinting through code trying to figure out what went wrong!
 
 ### Sandbox
 
-Postman tests run in a sandboxed environment, which is separate from the execution environment of the app. To check what is available in the test script sandbox, take a look at the [Sandbox documentation](/docs/postman/scripts/postman_sandbox).
+Postman tests run in a sandboxed environment, which is separate from the execution environment of the app. To check what is available in the test script sandbox, take a look at the [Sandbox documentation](/docs/postman/scripts/postman_sandbox/).
 
 ### Snippets
 
@@ -75,4 +75,4 @@ Collection and folder scripts can be updated in the collection or folder details
  
 [![test scripts for folder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/test-script-folder.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/test-script-folder.png)
  
-Read more about [the execution order of scripts](/docs/postman/scripts/intro_to_scripts#execution-order-of-scripts).
+Read more about [the execution order of scripts](/docs/postman/scripts/intro_to_scripts/#execution-order-of-scripts).

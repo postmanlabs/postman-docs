@@ -22,9 +22,9 @@ Choose the collection you want to monitor, click the ellipsis **(...)** icon, an
 
 [![ellipsis menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-mock-collection2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-mock-collection2.png)
 
-In the **MONITOR COLLECTION** modal, [enter the name and select the environment of the monitor](/docs/v6/postman/monitors/setting_up_monitor).  
+In the **MONITOR COLLECTION** modal, [enter the name and select the environment of the monitor](/docs/postman/monitors/setting_up_monitor/).  
 
-In "Regions", select "US (Static IP)" to monitor the collection from a static IP address. You can also [specify a monitor to run in one or more regions](/docs/v6/postman/monitors/setting_up_monitor). 
+In "Regions", select "US (Static IP)" to monitor the collection from a static IP address. You can also [specify a monitor to run in one or more regions](/docs/postman/monitors/setting_up_monitor/). 
 
 Click the **Monitor this collection** button to complete the process.
 

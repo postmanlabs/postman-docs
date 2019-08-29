@@ -85,12 +85,12 @@ You will be able to perform all these user actions even from the dashboard, as i
 
 ## Commenting on APIs
 
-You can comment on your APIs the same way as you do on your collections. For more information on this, refer to [Commenting on Collections](/docs/v6/postman/collections/commenting_on_collections)
+You can comment on your APIs the same way as you do on your collections. For more information on this, refer to [Commenting on Collections](/docs/postman/collections/commenting_on_collections/)
 
 ---
 For more information on APIs, see:
 
-- [Sharing an API](/docs/v6/postman/design_and_develop_apis/sharing_apis)
-- [Managing API workflow](/docs/v6/postman/design_and_develop_apis/the_api_workflow)
-- [Versioning an API](/docs/v6/postman/design_and_develop_apis/versioning_an_api)
-- [Introduction to APIs](/docs/v6/postman/design_and_develop_apis/introduction_to_apis)
+- [Sharing an API](/docs/postman/design_and_develop_apis/sharing_apis/)
+- [Managing API workflow](/docs/postman/design_and_develop_apis/the_api_workflow/)
+- [Versioning an API](/docs/postman/design_and_develop_apis/versioning_an_api/)
+- [Introduction to APIs](/docs/postman/design_and_develop_apis/introduction_to_apis/)

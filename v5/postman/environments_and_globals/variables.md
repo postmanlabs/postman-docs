@@ -36,7 +36,7 @@ Scopes can be viewed as different kinds of buckets in which values reside. If a 
 
 [![nested variable scopes](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/scopes.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/scopes.png)
 
-If a variable from the currently active environment shares its name with a global variable, the environment variable will take priority. In other words, global variables are overridden by environment variables, which are overridden by [data variables](http://blog.getpostman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/) (only available in the [collection runner](/docs/postman/collection_runs/starting_a_collection_run)).
+If a variable from the currently active environment shares its name with a global variable, the environment variable will take priority. In other words, global variables are overridden by environment variables, which are overridden by [data variables](http://blog.getpostman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/) (only available in the [collection runner](/docs/postman/collection_runs/starting_a_collection_run/)).
 
 ### Accessing variables in the request builder
 
@@ -51,7 +51,7 @@ Since variables in the request builder are accessed using string substitution, t
 Variables can also be used in pre-request and test scripts. Since these sections for scripts are written in JavaScript, you will initialize and retrieve these variables in a different manner. You can initialize variables in scripts and put them in a particular scope. 
 
   1.  Defining an environment or global variable in a script: 
-        *  To set a variable in a script, use the `pm.environment.set()` method or `pm.globals.set()` method depending on the desired scope. The method requires the variable key and value as parameters to set the variable.  When you send the request, the script will be evaluated and the value will be stored as the variable. Note that [defining a collection variable](/docs/postman/environments_and_globals/variables#defining-collection-variables) is a little different and can be done by editing the collection details.
+        *  To set a variable in a script, use the `pm.environment.set()` method or `pm.globals.set()` method depending on the desired scope. The method requires the variable key and value as parameters to set the variable.  When you send the request, the script will be evaluated and the value will be stored as the variable. Note that [defining a collection variable](/docs/postman/environments_and_globals/variables/#defining-collection-variables) is a little different and can be done by editing the collection details.
   2.  Fetching a pre-defined variable: 
         *  Once a variable has been set, use the `pm.variables.get()` method or, alternatively, use the `pm.environment.get()` or `pm.globals.get()` method depending on the appropriate scope to fetch the variable. The method requires the variable name as a parameter to retrieve the stored value in a script.
   3.  Setting a variable in a scope: 
@@ -67,7 +67,7 @@ Collection variables can be defined by editing the collection details. Click on 
 
 ### Logging variables
 
-Often while using variables in scripts, you will need to see the values they obtain. You can use the [Postman Console](/docs/postman/sending_api_requests/debugging_and_logs) to do this easily. From the application menu, select "View" and then "Show Postman Console".  To log the value of a variable, you can use `console.log(foo);` in your script. When you send a request, the script will be evaluated and the value of the variable will be logged in the Postman Console.
+Often while using variables in scripts, you will need to see the values they obtain. You can use the [Postman Console](/docs/postman/sending_api_requests/debugging_and_logs/) to do this easily. From the application menu, select "View" and then "Show Postman Console".  To log the value of a variable, you can use `console.log(foo);` in your script. When you send a request, the script will be evaluated and the value of the variable will be logged in the Postman Console.
 
 [![variables logged](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/var_logging.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/var_logging.png)
 
@@ -87,7 +87,7 @@ Inside pre-request and test scripts, the `pm.iterationData.get("username")` me
 
 [![data variables in scripts](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-data.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-var-data.png)
 
-Learn more about [working with data files](/docs/postman/collection_runs/working_with_data_files). 
+Learn more about [working with data files](/docs/postman/collection_runs/working_with_data_files/). 
 
 ### Dynamic variables
 
@@ -113,7 +113,7 @@ Postman variables are very powerful, and two features - autocomplete and tool ti
 
 [![autocomplete for variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-autocomplete.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-autocomplete.gif)  
 
-Type an open curly bracket to bring up the autocomplete menu. For the pre-request and test scripts section, which [uses the data editor](/docs/postman/launching_postman/navigating_postman), entering the first letter of a variable triggers the autocomplete. The menu contains a list of all the variables in the current environment, followed by globals. Navigating through the list also shows the current value and scope for each variable, along with a feedback for overridden variables. 
+Type an open curly bracket to bring up the autocomplete menu. For the pre-request and test scripts section, which [uses the data editor](/docs/postman/launching_postman/navigating_postman/), entering the first letter of a variable triggers the autocomplete. The menu contains a list of all the variables in the current environment, followed by globals. Navigating through the list also shows the current value and scope for each variable, along with a feedback for overridden variables. 
 
 ##### **Variable highlighting and tooltip on hover**
 

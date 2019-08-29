@@ -10,10 +10,10 @@ You can create a mock in several ways:
 
 * Using the **New** button
 * From the Launch screen
-* In the [Postman app using Examples](/docs/v6/postman/mock_servers/mocking_with_examples)
-* Using the [Postman API](/docs/v6/postman/mock_servers/mock_with_api)
+* In the [Postman app using Examples](/docs/postman/mock_servers/mocking_with_examples/)
+* Using the [Postman API](/docs/postman/mock_servers/mock_with_api/)
 
-This topic only covers how to create a mock with the **New** button and the Launch screen. To learn how to create a mock with the [Postman app](/docs/v6/postman/mock_servers/mocking_with_examples) or the [Postman API](/docs/v6/postman/mock_servers/mock_with_api), click the corresponding link for detailed information.
+This topic only covers how to create a mock with the **New** button and the Launch screen. To learn how to create a mock with the [Postman app](/docs/postman/mock_servers/mocking_with_examples/) or the [Postman API](/docs/postman/mock_servers/mock_with_api/), click the corresponding link for detailed information.
 
 ## New button
 
@@ -66,7 +66,7 @@ Follow the steps in the previous **New** button section.
 
 ## Using HTTP access control for a mock
 
-In addition to using the [Postman app](/docs/v6/postman/mock_servers/mocking_with_examples) to make requests to mock endpoints, you also can make those requests in a browser.
+In addition to using the [Postman app](/docs/postman/mock_servers/mocking_with_examples/) to make requests to mock endpoints, you also can make those requests in a browser.
 
 A web browser makes a cross-origin HTTP request when it requests a resource from a domain, protocol, or port that's different from its own.
 
@@ -84,7 +84,7 @@ You can check your usage limits in the [Postman API](https://docs.api.getpostman
 
 For more information about mock servers, see:
 
-* [Intro to mock servers](/docs/v6/postman/mock_servers/intro_to_mock_servers)
-* [Mocking with examples](/docs/v6/postman/mock_servers/mocking_with_examples)
-* [Mocking with the Postman API](/docs/v6/postman/mock_servers/mock_with_api)
-* [Matching algorithm (for mocks)](/docs/v6/postman/mock_servers/matching_algorithm)
+* [Intro to mock servers](/docs/postman/mock_servers/intro_to_mock_servers/)
+* [Mocking with examples](/docs/postman/mock_servers/mocking_with_examples/)
+* [Mocking with the Postman API](/docs/postman/mock_servers/mock_with_api/)
+* [Matching algorithm (for mocks)](/docs/postman/mock_servers/matching_algorithm/)

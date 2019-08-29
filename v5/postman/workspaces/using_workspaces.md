@@ -150,7 +150,7 @@ Select this option to add a collection to a team Workspace. The collection is vi
 
 **Sharing collections with the Embed or Run In Postman button**
 
-Select this option to embed a **[Run in Postman](/docs/postman_for_publishers/run_button/creating_run_button)** button in your collection for your API documentation, website, or Github readme. 
+Select this option to embed a **[Run in Postman](/docs/postman_for_publishers/run_button/creating_run_button/)** button in your collection for your API documentation, website, or Github readme. 
 
 The **Run in Postman** button lets anyone import and run this collection with one click. When you click the **Generate Code** button, you get a link that you can use for a dynamic or static button. You can also select the environment you want for the generated code.
 

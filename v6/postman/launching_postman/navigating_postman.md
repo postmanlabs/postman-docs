@@ -63,7 +63,7 @@ The status bar at the bottom of the Postman interface gives you a convenient way
 * Search in collections, environments, and globals.
 * Open the Postman [console.](/docs/postman/launching_postman/navigating_postman/#console)
 * Select either a single or two pane layout.
-* Open the [keyboard shortcuts.](/docs/postman/launching_postman/keyboard_shortcuts)
+* Open the [keyboard shortcuts.](/docs/postman/launching_postman/keyboard_shortcuts/)
 * Get help or provide feedback.
 
 [![status bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Postman_Main_UI.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Postman_Main_UI.png)
@@ -113,7 +113,7 @@ When you "Close Current Tab", "Close All but Current Tab", or "Close All Tabs", 
 
 ### Moving requests
 
-In the request builder, you can drag and drop tabs to reorder them, open a new request in a new tab, or in a new Postman window. You also can open multiple windows using the **New Window** icon in the header toolbar or the [keyboard shortcut](/docs/postman/launching_postman/keyboard_shortcuts).
+In the request builder, you can drag and drop tabs to reorder them, open a new request in a new tab, or in a new Postman window. You also can open multiple windows using the **New Window** icon in the header toolbar or the [keyboard shortcut](/docs/postman/launching_postman/keyboard_shortcuts/).
 
 ### Mouse actions
 
@@ -125,7 +125,7 @@ To force close a tab, press **ALT** and click the **X** icon on the right side o
 
 Working with large amounts of data can be cumbersome and time consuming. Postman's data editor lets you view and manipulate data in a fast, effective, and elegant manner. Since most users work with data in spreadsheets, we leveraged those features for the data editor design to make it a familiar experience.
 
-**Note**: The UI images in this section do not reflect the current UI that features the [**New** button.](/docs/postman/launching_postman/newbutton)
+**Note**: The UI images in this section do not reflect the current UI that features the [**New** button.](/docs/postman/launching_postman/newbutton/)
 
 ### Visual layout
 
@@ -135,7 +135,7 @@ On hover, relevant features display for a specific row to reduce clutter in the
 
 [![data editor layout](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-visual-layout.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-visual-layout.png)
 
-You can use the [keyboard shortcuts](/docs/postman/launching_postman/keyboard_shortcuts#data-editor) to navigate the data editor.
+You can use the [keyboard shortcuts](/docs/postman/launching_postman/keyboard_shortcuts/#data-editor) to navigate the data editor.
 
 ### Mulitple rows
 

@@ -12,7 +12,7 @@ Before sending an actual request, front-end developers can create a mock server 
 
 ## Why use mock servers
 
-Creating a [mock example](/docs/v6/postman/collections/examples) during the earliest phase of API development fosters clear communication among team members and aligns their expectations.
+Creating a [mock example](/docs/postman/collections/examples/) during the earliest phase of API development fosters clear communication among team members and aligns their expectations.
 
 As a result, all teams in the development process can work in parallel; and dependent teams experience fewer delays.
 
@@ -24,7 +24,7 @@ Postman lets you create two types of mock servers: private and public.
 
 Private mock servers require users to add a Postman API key in the request header `x-api-key`, like: `x-api-key:<your postman API key>`.
 
-If you create a private mock server, users can [share the underlying collection](/docs/v6/postman/workspaces/using_workspaces#sharing-collections-and-environments-in-workspaces) with the team or specific team members, and provide permissions to edit or view. Your team members can use their Postman API keys to consume the mock. Team members can use the mock if they have permissions to access the underlying collection.
+If you create a private mock server, users can [share the underlying collection](/docs/postman/workspaces/using_workspaces#sharing-collections-and-environments-in-workspaces) with the team or specific team members, and provide permissions to edit or view. Your team members can use their Postman API keys to consume the mock. Team members can use the mock if they have permissions to access the underlying collection.
 
 ### Public mock servers
 
@@ -34,7 +34,7 @@ Mock servers are public by default. Public mock servers are accessible to anyone
 
 For more information about mock servers, see:
 
-* [Setting up a mock server](/docs/v6/postman/mock_servers/setting_up_mock)
-* [Mocking with examples](/docs/v6/postman/mock_servers/mocking_with_examples)
-* [Mocking with the Postman API](/docs/v6/postman/mock_servers/mock_with_api)
-* [Matching algorithm (for mocks)](/docs/v6/postman/mock_servers/matching_algorithm)
+* [Setting up a mock server](/docs/postman/mock_servers/setting_up_mock/)
+* [Mocking with examples](/docs/postman/mock_servers/mocking_with_examples/)
+* [Mocking with the Postman API](/docs/postman/mock_servers/mock_with_api/)
+* [Matching algorithm (for mocks)](/docs/postman/mock_servers/matching_algorithm/)

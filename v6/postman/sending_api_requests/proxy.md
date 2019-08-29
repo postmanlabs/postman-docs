@@ -7,7 +7,7 @@ warning: false
 
 A proxy server acts as a security barrier between your internal network and the Internet, keeping others on the Internet from accessing information on your internal network.
 
-### What is a proxy?
+## What is a proxy?
 
 In basic web speak, a client makes a request to the server, and the server sends back a response.
 
@@ -21,13 +21,10 @@ The proxy can reside on your local machine, somewhere in your network, or at any
 
 Similar to the way parents might speak to each other through a child, the child is a proxy relaying all communications between the 2 parents.
 
-> **Parent 1**:  _Ask your father if he can pick you up after school._
-
-> **Timmy**:  _Can you pick me up after school._
-
-> **Parent 2**:  _Yeah._
-
-> **Timmy**:  _Dad says yeah._
+>**Parent 1**:  _Ask your father if he can pick you up after school._
+>>**Timmy**:  _Can you pick me up after school._
+>>>**Parent 2**:  _Yeah._
+>>>>**Timmy**:  _Dad says yeah._
 
 In this analogy, the child forwards the information on behalf of each parent. Besides just relaying information, [proxies can do much more](https://en.wikipedia.org/wiki/Proxy_server).
 
@@ -38,11 +35,11 @@ In this analogy, the child forwards the information on behalf of each parent. Be
 * Security from direct attacks
 * DevOps load balancing
 
-A proxy acts like a go-between to perform various functions. Postman has a [built-in web proxy to capture API requests](/docs/postman/sending_api_requests/capturing_http_requests), the [Postman Interceptor to intercept network traffic](/docs/postman/sending_api_requests/interceptor_extension), and proxy settings to direct API requests.
+A proxy acts like a go-between to perform various functions. Postman has a [built-in web proxy to capture API requests](/docs/postman/sending_api_requests/capturing_http_requests/), the [Postman Interceptor to intercept network traffic](/docs/postman/sending_api_requests/interceptor_extension/), and proxy settings to direct API requests.
 
 ### Configuring proxy settings
 
-This article describes how to configure the proxy settings in Postman to direct all requests made in the Postman app to route through a proxy server. This is different from [capturing network traffic](/docs/postman/sending_api_requests/capturing_http_requests) with the built-in proxy which allows Postman to intercept network traffic. 
+This article describes how to configure the proxy settings in Postman to direct all requests made in the Postman app to route through a proxy server. This is different from [capturing network traffic](/docs/postman/sending_api_requests/capturing_http_requests/) with the built-in proxy which allows Postman to intercept network traffic. 
 
 Postman's native apps for Mac, Windows, and Linux support configuring proxies. You can either specify to use a **custom proxy** or to use the **system proxy** defined in the operating system.
 
@@ -82,8 +79,8 @@ If all of your applications need to use the same proxy, you might have a default
 
 System proxy settings are enabled by default. Any request made through Postman will go through the system proxy.
 
-You can turn this setting on and off using the toggle switch. When turned off, all the requests are made directly. However, regardless of the proxy setting in the app, Postman will still use the system proxy if there is an environment variable set. 
+You can turn this setting on and off using the toggle switch. When turned off, all the requests are made directly. However, regardless of the proxy setting in the app, Postman will still use the system proxy if there is an environment variable set.
 
 [![system proxy](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy_system.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy_system.png)
 
-**NOTE:** If the **System Proxy** and the **Custom Proxy** are both turned on, then the **Custom Proxy** will take precedence.
+**Note:** If the **System Proxy** and the **Custom Proxy** are both turned on, then the **Custom Proxy** will take precedence.

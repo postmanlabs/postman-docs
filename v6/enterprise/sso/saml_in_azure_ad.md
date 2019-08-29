@@ -10,7 +10,7 @@ The steps in this topic describe how to configure a custom SAML application in A
 
 ### Configuration
 
-Before you set up a custom SAML application in Azure Active Directory (AD), you must [configure SSO in Postman](/docs/v6/enterprise/sso/admin_sso). Select "AD FS" as the "Authentication Type" and allow "Identity Provider Details" to remain empty for now.
+Before you set up a custom SAML application in Azure Active Directory (AD), you must [configure SSO in Postman](/docs/postman_enterprise/sso/admin_sso/). Select "AD FS" as the "Authentication Type" and allow "Identity Provider Details" to remain empty for now.
 
 [![ad fs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-authentication-Azure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-authentication-Azure.png)
 
@@ -48,7 +48,7 @@ Configure the SAML integration. The table below describes the values of the fiel
 
 Download the "SAML Signing Certificate" (Base64 format) and click the **Save** button.
 
-After the setup is complete, submit your Identity Provider details to Postman. For more information, see [Intro to SSO](/docs/v6/enterprise/sso/intro_sso) The table below describes the values of the fields in this configuration.
+After the setup is complete, submit your Identity Provider details to Postman. For more information, see [Intro to SSO](/docs/postman_enterprise/sso/intro_sso/) The table below describes the values of the fields in this configuration.
 
 **Table: Field description for SAML Signing Certificate**
 

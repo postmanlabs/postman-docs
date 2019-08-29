@@ -13,7 +13,7 @@ Postman generates and hosts browser-based API documentation for your collections
 
 ### Postman app
 
-To [access the private view](/docs/v6/postman/api_documentation/viewing_documentation) of your team documentation, go to the sidebar in the Postman app and click the **>** icon in the collection you want to view. Then click "View in web" to view the documentation for the collection.
+To [access the private view](/docs/postman/api_documentation/viewing_documentation/) of your team documentation, go to the sidebar in the Postman app and click the **>** icon in the collection you want to view. Then click "View in web" to view the documentation for the collection.
 
 [![view doc sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/view-web-documentation.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/view-web-documentation.png)
 
@@ -31,7 +31,7 @@ Click a collection name to view the documentation.
 
 ## Public documentation view
 
-After you [publish your documentation](/docs/v6/postman/api_documentation/publishing_public_docs), you can use the public link to view the documentation.
+After you [publish your documentation](/docs/postman/api_documentation/publishing_public_docs/), you can use the public link to view the documentation.
 
 The public link displays after you publish your documentation. A link to this published documentation is also accessible in the "Published" dropdown from the private documentation view.
 
@@ -39,10 +39,10 @@ The public link displays after you publish your documentation. A link to this pu
 
 You can create documentation in a few different ways:
 
-* Using the [**New** button](/docs/v6/postman/launching_postman/newbutton#create-documentation)
+* Using the [**New** button](/docs/postman/launching_postman/newbutton/)
 
 * Using the Postman app launch screen following similar steps as the **New** button
-* From an existing collection by [viewing the private version of the docs](/docs/v6/postman/api_documentation/viewing_documentation) or [publishing public docs](/docs/v6/postman/api_documentation/publishing_public_docs)
+* From an existing collection by [viewing the private version of the docs](/docs/postman/api_documentation/viewing_documentation/) or [publishing public docs](/docs/postman/api_documentation/publishing_public_docs/)
 
 ## What gets automatically generated?
 
@@ -54,7 +54,7 @@ Documentation for your API includes:
 
 Postman uses ordered requests and folders to organize documentation in sections to reflect the structure of your collection.
 
-You can customize descriptions using [Markdown](/docs/v6/postman/api_documentation/how_to_document_using_markdown) styling with embedded graphics to complement your documentation.
+You can customize descriptions using [Markdown](/docs/postman/api_documentation/how_to_document_using_markdown/) styling with embedded graphics to complement your documentation.
 
 Postman supports GitHub-flavored Markdown so you can include tables. When including block elements, make sure you leave an empty line before and after to avoid any rendering issues.
 
@@ -79,7 +79,7 @@ The links are generated using IDs for the requests, folders and responses. If yo
 
 You can post comments on your API documentation to share information with your colleagues. You can save interactions with your teammates, add information that does not fit anywhere else, and can have discussions and more.
 
-You can post comments on your documentation by navigating to the documentation section from the Postman App. To learn more about accessing the documentation section, see [viewing documentation](/docs/v6/postman/api_documentation/viewing_documentation#viewing-private-documentation).
+You can post comments on your documentation by navigating to the documentation section from the Postman App. To learn more about accessing the documentation section, see [viewing documentation](/docs/postman/api_documentation/viewing_documentation/).
 
 Once you access the documentation section, the comments section appears, as shown below:
 

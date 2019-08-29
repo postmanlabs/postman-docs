@@ -75,4 +75,4 @@ To revoke an invitation, click the "X" link next to each invitation. You can see
 
 ### Changing team size
 
-If you have no more paid slots and need to invite more users, see [Changing your plan](/docs/v6/pro/managing_pro/changing_your_plan).
+If you have no more paid slots and need to invite more users, see [Changing your plan](/docs/postman_pro/managing_postman_pro/changing_your_plan/).

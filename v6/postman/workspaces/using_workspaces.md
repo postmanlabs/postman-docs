@@ -96,7 +96,7 @@ From the "All Workspaces" view of the [Workspaces dashboard](https://app.getpost
 
 [![share personal workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_Dashboard_Share.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_Dashboard_Share.png)
 
-In "Share a personal workspace", search for existing team members with whom you want to share the workspace, or select them from the "Members" dropdown menu. If you are an Admin, adding users outside the team will invite them to join the team. Postman Enterprise users can check the box to limit the visibility of this workspace to invited members to make a [private workspace](/docs/v6/postman/workspaces/intro_to_workspaces#private-workspaces).
+In "Share a personal workspace", search for existing team members with whom you want to share the workspace, or select them from the "Members" dropdown menu. If you are an Admin, adding users outside the team will invite them to join the team. Postman Enterprise users can check the box to limit the visibility of this workspace to invited members to make a [private workspace](/docs/postman/workspaces/intro_to_workspaces/#private-workspaces).
 
 [![share personal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_Share_Invite_Dialog.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_Share_Invite_Dialog.png)
 
@@ -106,7 +106,7 @@ Click the **Share this workspace** button. Your shared workspace will now appear
 
 You can share collections, environments, and other Postman elements in workspaces so that your teammates can view or edit them. Sharing an element in a workspace is the same as [adding an element to a workspace](#adding-elements-to-another-workspace) when you add the element to a team workspace.
 
-If you add an element to a team workspace, the collection will be visible to others on the team. Postman Enterprise users can create [private workspaces](/docs/v6/postman/workspaces/intro_to_workspaces#private-workspaces) to limit the visibility of a workspace to only invited team members.
+If you add an element to a team workspace, the collection will be visible to others on the team. Postman Enterprise users can create [private workspaces](/docs/postman/workspaces/intro_to_workspaces/#private-workspaces) to limit the visibility of a workspace to only invited team members.
 
 Select this option to add a collection to another workspace. If added to a team workspace, the collection will be visible to others on the team.
 

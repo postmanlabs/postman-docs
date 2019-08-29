@@ -46,7 +46,7 @@ For full list of available dynamic variables, see the [Postman Sandbox API Refer
 
 ## Cookies
 
-* `responseCookies {array}` Postman-only: Gets all cookies set for the domain. You will need to enable the [Interceptor](/docs/postman/sending_api_requests/interceptor_extension) for this to work.
+* `responseCookies {array}` Postman-only: Gets all cookies set for the domain. You will need to enable the [Interceptor](/docs/postman/sending_api_requests/interceptor_extension/) for this to work.
 * `postman.getResponseCookie(cookieName)` Postman-only: Gets the response cookie with the given name. You will need to enable the interceptor for this to work. Check out the [blog post](https://blog.getpostman.com/2014/11/28/using-the-interceptor-to-read-and-write-cookies/).
 
 ## Request/response related properties

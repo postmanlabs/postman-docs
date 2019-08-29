@@ -39,7 +39,8 @@ In **ADVANCED**, create a new monitor, documentation, and a mock server.
 
 ### BUILDING BLOCKS
 <h4 id="requests">Creating requests</h4>
-You can create any kind of [HTTP request.](/docs/postman/sending_api_requests/requests)
+You can create any kind of [HTTP request.](/docs/postman/sending_api_requests/requests/
+)
 
 1. In the header toolbar, click the **New** button.
 2. In the **Create New** tab, click "Request".
@@ -50,7 +51,7 @@ You can either create a new collection or select an existing one. After you save
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_request_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_request_blk.png)
 
 <h4 id="collections">Creating collections</h4>
-A [collection](/docs/postman/collections/creating_collections) is a group of individual requests that you can organize into folders. 
+A [collection](/docs/postman/collections/creating_collections/) is a group of individual requests that you can organize into folders. 
 
 1. In the header toolbar, click the **New** button.
 2. In the **Create New** tab, click "Collection".
@@ -67,7 +68,7 @@ After creating the collection, you can save requests to the collection and add f
 [![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-createcollectionmodal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-createcollectionmodal.png)
 
 <h4 id="environments">Creating environments</h4>
-While working with APIs, you often need different setups, such as your local machine, the development server, or the production API. [Environments](/docs/postman/environments_and_globals/manage_environments) let you customize requests using variables. 
+While working with APIs, you often need different setups, such as your local machine, the development server, or the production API. [Environments](/docs/postman/environments_and_globals/manage_environments/) let you customize requests using variables. 
 
 1. In the header toolbar, click the **New** button.
 2. In the **Create New** tab, click "Environment". 
@@ -83,7 +84,7 @@ If you've created other environments, the **MANAGE ENVIRONMENTS** modal appears 
 
 ### ADVANCED
 <h4 id="monitors">Creating monitors</h4>
-A [monitor](/docs/postman/monitors/intro_monitors) runs a collection periodically to check its performance and response. You can [set a monitor](/docs/postman/monitors/setting_up_monitor) to run as frequently as every 5 minutes. 
+A [monitor](/docs/postman/monitors/intro_monitors/) runs a collection periodically to check its performance and response. You can [set a monitor](/docs/postman/monitors/setting_up_monitor/) to run as frequently as every 5 minutes. 
 
 [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)
 
@@ -142,7 +143,7 @@ In the **Next steps** tab, see a list of suggested next steps to get the most ou
 [![nextSteps docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-nextsteps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-nextsteps.png)
 
 <h4 id="mock_servers">Creating mock servers</h4>
-A [mock server](/docs/postman/mock_servers/setting_up_mock) simulates each endpoint in a Postman Collection. You can mock a request and response in Postman before you send the actual request or set up a single endpoint to return the response. 
+A [mock server](/docs/postman/mock_servers/setting_up_mock/) simulates each endpoint in a Postman Collection. You can mock a request and response in Postman before you send the actual request or set up a single endpoint to return the response. 
 
 1. In the header toolbar, click the **New** button.
 2. In the **Create New** tab, click “Mock Server”.
@@ -228,7 +229,7 @@ To import an API in the API Network:
   <li>Click the <b>Run In Postman</b> button to import the the API's collection.</li>
 </ol>
 
-You can see the API you imported in the [sidebar.](/docs/postman/launching_postman/navigating_postman#sidebar)
+You can see the API you imported in the [sidebar.](/docs/postman/launching_postman/navigating_postman/#sidebar)
 
 [![sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton-sidebar2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton-sidebar2.png)
 

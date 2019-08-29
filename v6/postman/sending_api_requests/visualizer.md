@@ -5,7 +5,7 @@ page_id: "visualizer"
 
 `Status: In Canary`
 
-Postman provides a programmable way to visually represent [HTTP responses](/docs/postman/sending_api_requests/responses) in the "Visualizer" tab inside the response body area. Visualizers open up a whole new way to look at response body beyond the Pretty, Raw and Preview options in Postman.
+Postman provides a programmable way to visually represent [HTTP responses](/docs/postman/sending_api_requests/responses/) in the "Visualizer" tab inside the response body area. Visualizers open up a whole new way to look at response body beyond the Pretty, Raw and Preview options in Postman.
 
 Visualizers let you focus on the data that matters in an HTTP response. Think of Visualizers as a tool to build a domain-specific representation of API responses. You can use Visualizers to model and show the part of the response data that are relevant for those business use cases, instead of having to look at the raw response data.
 
@@ -15,7 +15,7 @@ Visualizers let you focus on the data that matters in an HTTP response. Think of
 
 Let's say you have an HTTP endpoint that responds with tabular data. This might be CSV or an array of objects in JSON. This data is better understood by putting it in a table view, rather than looking at an array of objects.
 
-Typically, if you need to visualize this data, you would copy it into a spreadsheet or use another request in Postman to push the data to an external spreadsheet API. With Visualizers, you can now render that data as a table and see it right inside Postman, in the context of the current request. Once you [share that collection](/docs/postman/collections/sharing_collections) with your team, they will be able to see the same visualization without having to move out of Postman.
+Typically, if you need to visualize this data, you would copy it into a spreadsheet or use another request in Postman to push the data to an external spreadsheet API. With Visualizers, you can now render that data as a table and see it right inside Postman, in the context of the current request. Once you [share that collection](/docs/postman/collections/sharing_collections/) with your team, they will be able to see the same visualization without having to move out of Postman.
 
 [![Visualizer table rendering](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/visualizer_table.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/visualizer_table.png)
 
@@ -27,7 +27,7 @@ These are a few teasers to give you an idea of what you can do with Visualizers.
 
 ## Using Visualizers
 
-Visualizers are written as [scripts](/docs/postman/scripts/intro_to_scripts) in the Pre-request Script or Tests tab in your requests using the `pm.visualizer.set()` method.
+Visualizers are written as [scripts](/docs/postman/scripts/intro_to_scripts/) in the Pre-request Script or Tests tab in your requests using the `pm.visualizer.set()` method.
 
 The first argument for `pm.visualizer.set()` is a [Handlebars](https://handlebarsjs.com/) template string. The second argument is data that you can inject into the template. Let's see how you can build a Handlebars template and pass data to it using the `pm.visualizer.set()` method.
 

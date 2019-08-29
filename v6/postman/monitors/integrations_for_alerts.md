@@ -13,7 +13,7 @@ Postman Monitors enable you to set up recurring runs of your Postman Collections
 
 So how do they work? Webhooks will POST data to a URL when certain events are triggered. That data will then be accessible inside your collection in the [globals object](/docs/postman/environments_and_globals/manage_globals). You can then parse that data and use it in any way possible. Essentially, webhooks are the same as monitors but without a schedule. So, you can debug your webhooks in the same way as you [debug a monitor](/docs/postman/monitors/troubleshooting_monitors).
 
-Currently, webhooks on a particular collection can only be created using the Postman API. In order to create a webhook, you can refer to the [Postman API](/docs/postman/postman_api/intro_api).
+Currently, webhooks on a particular collection can only be created using the Postman API. In order to create a webhook, you can refer to the [Postman API](/docs/postman/postman_api/intro_api/).
 
 ### Accessing the request body in scripts
 

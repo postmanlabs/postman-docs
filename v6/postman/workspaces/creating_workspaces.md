@@ -13,13 +13,13 @@ Click the workspace dropdown menu that displays in the header bar. For example, 
 
  [![create new menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_1.png)
 
-To create a personal workspace, verify the workspace enter the name and description of the workspace. Click the **Create Workspace** button. At this time, you can [create a new collection](/docs/v6/postman/collections/creating_collections) within your new workspace. You can also share existing collections from other workspaces to this newly created one.
+To create a personal workspace, verify the workspace enter the name and description of the workspace. Click the **Create Workspace** button. At this time, you can [create a new collection](/docs/postman/collections/creating_collections/) within your new workspace. You can also share existing collections from other workspaces to this newly created one.
 
 [![create new personal workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_CreateNew1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspaces_CreateNew1.png)
 
 To create a team workspace, enter the name and description of the workspace. Toggle the workspace type over to "Team" to reveal additional options to invite members to your workspace. Add members to this workspace by entering their email address or username of existing users. If you are an Admin, any email addresses not associated with current team members will be invited to join the team.
 
-Postman Enterprise users can check the box to limit the visibility of this workspace to invited members to make a [private workspace](/docs/v6/postman/workspaces/intro_to_workspaces#private-workspaces).
+Postman Enterprise users can check the box to limit the visibility of this workspace to invited members to make a [private workspace](/docs/postman/workspaces/intro_to_workspaces/#private-workspaces).
 
 Click the **Create Workspace** button to finish creating your workspace.
 

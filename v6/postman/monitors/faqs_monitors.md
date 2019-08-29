@@ -8,11 +8,11 @@ warning: false
 
 ### What can I test with Monitors?
 
-You can use Postman Monitors for simple uptime monitoring to ensure your servers are online or for performance monitoring to ensure your servers are responding promptly. You also can write detailed [test suites](/docs/postman/scripts/test_scripts) to check monitors for proper behavior, business logic, error handling, and so on.
+You can use Postman Monitors for simple uptime monitoring to ensure your servers are online or for performance monitoring to ensure your servers are responding promptly. You also can write detailed [test suites](/docs/postman/scripts/test_scripts/) to check monitors for proper behavior, business logic, error handling, and so on.
 
 ### What restrictions apply?
 
-To learn what restrictions apply, see [Intro to Monitoring](/docs/postman/monitors/intro_monitors).
+To learn what restrictions apply, see [Intro to Monitoring](/docs/postman/monitors/intro_monitors/).
 
 ### How many monitors can I create?
 

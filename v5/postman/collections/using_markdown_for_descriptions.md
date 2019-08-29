@@ -5,7 +5,7 @@ warning: false
 
 ---
 
-Postman supports [Markdown](/docs/postman/api_documentation/how_to_document_using_markdown) as a way to style text descriptions for [requests](/docs/postman/sending_api_requests/requests), [collections](/docs/postman/collections/creating_collections), and [folders](/docs/postman/collections/managing_collections) in collections. You can also embed screenshots and other images for more descriptive flair.
+Postman supports [Markdown](/docs/postman/api_documentation/how_to_document_using_markdown/) as a way to style text descriptions for [requests](/docs/postman/sending_api_requests/requests/), [collections](/docs/postman/collections/creating_collections/), and [folders](/docs/postman/collections/managing_collections/) in collections. You can also embed screenshots and other images for more descriptive flair.
 
 For more information about Markdown, review the [reference for using Markdown](https://documenter.getpostman.com/view/33232/markdown-in-api-documentation/JsGc) for API documentation. 
 
@@ -26,7 +26,7 @@ Public or internal [API documentation](/docs/postman/api_documentation/intro_to_
 
 ### Descriptions for request attributes
 
-The description column in the [data editor](/docs/postman/launching_postman/navigating_postman) makes your requests easier to understand. You can add comments and details for each of your query parameters, path variables, headers, and body (form-data and urlencoded) in the Postman app.
+The description column in the [data editor](/docs/postman/launching_postman/navigating_postman/) makes your requests easier to understand. You can add comments and details for each of your query parameters, path variables, headers, and body (form-data and urlencoded) in the Postman app.
 
 For example, specify if an element is required or optional, indicate the accepted data type, or use alternative terminology to provide additional clarification for developers who work with your requests.
 
