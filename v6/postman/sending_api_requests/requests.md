@@ -144,3 +144,24 @@ Authoring and sending a GraphQL query in Postman is simple. The following screen
 [![binary data](https://assets.postman.com/postman-docs/GraphQL-Body.png)](https://assets.postman.com/postman-docs/GraphQL-Body.png)
 
 To send a GraphQL query, ensure you're present in the *Body* tab and then select **GraphQL** (shown above in red circle). Enter your GraphQL query in the *Query* section and send your request. The GraphQL body type provides a rich user interface for authoring and sending requests. The Editor enables you to author both queries and variables separately, as illustrated in the above screen. Refer to the [Using GraphQL](/docs/postman/sending_api_requests/graphql/) section for more information on GraphQL and how to enable **Autocomplete** feature powered by Postman API schemas.
+
+## Request Configuration
+
+Postman allows specific configurations for individual requests via the request configuration tab. It provides a number of settings that enable the user to send requests to non-standard API or requests that need logic not present in the request sending algorithm by selecting them from a set of options for every request.
+
+The request configuration tab appears in the request editor bar.
+
+
+
+Following is a list of options provided by request config tab:
+
+| Setting                                    | Description                              |
+|--------------------------------------------|------------------------------------------|
+|Automatically follow redirects              | Choose whether or not to let requests that return a 300-series response to be automatically redirected.                 |
+|Remove referrer header on redirect          | Remove the referrer header when a redirect happens.   |
+|Preserve authorization header on redirect   | Retain authorization header when a redirect happens to a different hostname.                                    |
+|Follow original HTTP Method                 | Turn it on to redirect with the original HTTP method instead of the default behavior of redirecting with GET.            |
+|Use server cipher suite during handshake    | Use the server's cipher suite order instead of the client's during handshake.                                   |
+|Protocols disabled during handshake         | Specify the SSL and TLS protocol versions to be disabled during handshake. All other protocols will be enabled.         |
+|Cipher suite selection                      | Order of cipher suites that the SSL server profile uses to establish a secure connection.                           |
+|Maximum number of redirects                 | Set a limit on the maximum number of redirects to follow.   |
