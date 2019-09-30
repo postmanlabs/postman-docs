@@ -9,7 +9,7 @@ warning: false
 
 API publishers will display the Run in Postman button in the API reference and the API documentation. Below is an example of the button. Check out [other examples](https://www.getpostman.com/integrations/run-button).
 
- [![example run in postman](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59131401.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59131401.png)  
+ [![example run in postman](https://assets.postman.com/postman-docs/59131401.png)](https://assets.postman.com/postman-docs/59131401.png)  
 
 When they click the Run in Postman button, they will see some options to import the shared collection. The options will display in a modal if you implemented the button using JavaScript, or a new page if you implemented the button using a static image.
 

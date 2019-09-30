@@ -18,7 +18,7 @@ Log in to your VictorOps account and go to the `Settings` tab. On the `Settings`
 
 From the list of integrations, select the `REST Generic` Integration.
 
-[![VictorOps REST](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/victor_REST.png)][1]
+[![VictorOps REST](https://assets.postman.com/postman-docs/victor_REST.png)][1]
 
 If the integration is not already enabled, click the `Enable Integration` button. 
 
@@ -26,7 +26,7 @@ If the integration is not already enabled, click the `Enable Integration` button
 
 If the integration is enabled, you will see a URL which contains the API Key.
 
-[![VictorOps API key](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/victor_API.png)][3]
+[![VictorOps API key](https://assets.postman.com/postman-docs/victor_API.png)][3]
 
 Copy the API Key and save it for later. You can also provide routing keys if you are using teams within VictorOps. Routing keys allow the creation of incidents to be directed towards a specific team, so that they get notified about a particular failure. To get the routing key, click on the `Alert Behavior` dropdown and select `Route Keys`.
 
@@ -61,9 +61,9 @@ An incident on VictorOps consists of the basic information of which monitor fail
 [![VictorOps alerts]()][11]
 
 [0]: t
-[1]: https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/victor_REST.png
+[1]: https://assets.postman.com/postman-docs/victor_REST.png
 [2]: t
-[3]: https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/victor_API.png
+[3]: https://assets.postman.com/postman-docs/victor_API.png
 [4]: t
 [5]: t
 [6]: https://app.getpostman.com/dashboard/integrations

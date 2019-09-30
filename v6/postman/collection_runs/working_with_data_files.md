@@ -16,9 +16,9 @@ Let’s walk through an example.
 
 Before we begin, download the following collection and data files we'll use in this example.
 
-* [Collection.json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58533790.json)
-* [JSON](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702589.json)
-* [CSV](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58702574.csv)
+* [Collection.json](https://assets.postman.com/postman-docs/58533790.json)
+* [JSON](https://assets.postman.com/postman-docs/58702589.json)
+* [CSV](https://assets.postman.com/postman-docs/58702574.csv)
 
 ### Importing sample collection files
 
@@ -26,11 +26,11 @@ To import the collection files in Postman, click the **Import** button in the he
 
 **Note:** You cannot import data files; you can only select them at the start of a collection run.
 
-[![import sample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/working_with_datafiles/import_sample.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/working_with_datafiles/import_sample.png)
+[![import sample](https://assets.postman.com/postman-docs/working_with_datafiles/import_sample.png)](https://assets.postman.com/postman-docs/working_with_datafiles/import_sample.png)
 
 You should see your collection with a request you just imported in the sidebar as shown in the image below.
 
-[![post request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/working_with_datafiles/post_request.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/working_with_datafiles/post_request.png)
+[![post request](https://assets.postman.com/postman-docs/working_with_datafiles/post_request.png)](https://assets.postman.com/postman-docs/working_with_datafiles/post_request.png)
 
 ### Importing sample data files
 
@@ -38,7 +38,7 @@ To select data files, you should go to the collection runner. To learn more abou
 
 Once you get to the Collection Runner screen, the screen appears as illustrated below:
 
-[![import data file](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/working_with_datafiles/collection_runner_open.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/working_with_datafiles/collection_runner_open.png)
+[![import data file](https://assets.postman.com/postman-docs/working_with_datafiles/collection_runner_open.png)](https://assets.postman.com/postman-docs/working_with_datafiles/collection_runner_open.png)
 
 See the red-circled highlighted area in the above screen. Use this option to select your data files.
 
@@ -52,7 +52,7 @@ When you open the test script, you'll see we're using some variables in the test
 
 The Postman Sandbox initializes the data variable from the CSV files that we'll select in the collection run.
 
-[![using the data variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/working_with_datafiles/using_the_data_variable.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/working_with_datafiles/using_the_data_variable.png)
+[![using the data variable](https://assets.postman.com/postman-docs/working_with_datafiles/using_the_data_variable.png)](https://assets.postman.com/postman-docs/working_with_datafiles/using_the_data_variable.png)
 
 Let's investigate the data files first. We currently support JSON and CSV files. This examples talks only about .CSV data file.
 
@@ -74,9 +74,9 @@ Now that you understand how to construct data files, let's supply this data file
 
 Click "Select File" in the Runner, and select one of these files. You can also preview what values each variable has in each iteration by clicking "Preview" next to the file name.
 
-[![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/working_with_datafiles/collection_runner_view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/working_with_data_files/collection_runner_view.png)
+[![collection runner view](https://assets.postman.com/postman-docs/working_with_datafiles/collection_runner_view.png)](https://assets.postman.com/postman-docs/working_with_data_files/collection_runner_view.png)
 
-[![preview data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/working_with_datafiles/preview_data.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/working_with_data_files/preview_data.png)
+[![preview data](https://assets.postman.com/postman-docs/working_with_datafiles/preview_data.png)](https://assets.postman.com/postman-docs/working_with_data_files/preview_data.png)
 
 Let's run our collection now. You'll see that all tests pass now.
 
@@ -84,7 +84,7 @@ If you open up the request debug tooltip, and expand "Request Body", you'll see 
 
 Read more about [debugging requests](/docs/postman/collection_runs/debugging_a_collection_run/). In fact, for different iterations, this value is different. This way, we've thrown different kinds of data to our API and have ensured that it works correctly for each case.
 
-[![request debug tooltip](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/working_with_datafiles/request_debug_tooltip.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/working_with_datafiles/request_debug_tooltip.png)
+[![request debug tooltip](https://assets.postman.com/postman-docs/working_with_datafiles/request_debug_tooltip.png)](https://assets.postman.com/postman-docs/working_with_datafiles/request_debug_tooltip.png)
 
 Let's also take a look at our test scripts once again. The variable `data` is a predefined variable that gets the values from the data file.
 

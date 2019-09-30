@@ -21,11 +21,11 @@ This topic covers:
 
 In the Postman app, select an API in the sidebar and click the ellipsis (...). Select **Share API**. The **Share API** screen appears, as illustrated below:  
 
-[![api share sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Share1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Share1.png)
+[![api share sidebar](https://assets.postman.com/postman-docs/API-Share1.png)](https://assets.postman.com/postman-docs/API-Share1.png)
 
 You share the API with a workspace and then assign roles to specific members in the workspace. Search for the workspace name in the top search bar and select the corresponding workspace and click **Save and Continue**. Your API is now shared in the selected workspace.
 
-[![api manage roles](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Manage-Roles.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Manage-Roles.png)
+[![api manage roles](https://assets.postman.com/postman-docs/API-Manage-Roles.png)](https://assets.postman.com/postman-docs/API-Manage-Roles.png)
 
 In the above screen, you can manage the roles and permissions of that specific member. You can either assign an *Editor* role or a *Viewer* role. Click **Save Roles**.
 
@@ -33,7 +33,7 @@ In the above screen, you can manage the roles and permissions of that specific m
 
 In the [workspaces dashboard](https://app.getpostman.com/dashboard), click the **Share** button next to the API. The **Share API** button is shown in the below screen as indicated by the red arrow. The procedure, after clicking **Share API** is the same as the process within app. Refer to the section above **Sharing APIs in the app** for further information.
 
-[![api share dashboard](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Share2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Share2.png)
+[![api share dashboard](https://assets.postman.com/postman-docs/API-Share2.png)](https://assets.postman.com/postman-docs/API-Share2.png)
 
 ___
 For more information on APIs, see:

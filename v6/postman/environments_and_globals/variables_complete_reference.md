@@ -128,7 +128,7 @@ pm.globals.set("key", "value");
 
 The following image depicts the way variables work in Postman.
 
-[![variables scope pictorially](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Variables-Chart.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ariables-Chart.png)
+[![variables scope pictorially](https://assets.postman.com/postman-docs/Variables-Chart.png)](https://assets.postman.com/postman-docs/ariables-Chart.png)
 
 As you can see in the above illustration, you can't set data and collection variables. You can only get data variables using a data file from the Runner while collection variables can be set from the Postman UI. You can also see that ```pm.variables.get ()``` is going through all the layers. If a same variable exists in an environment and global scope, you can access using ```pm.environment.get ()``` and ```pm.global.get ()``` respectively. If you use ```pm.variables.get ()```, you will only get the one that has the highest precedence - which is environment. If you have the same variable in an environment, global, and collections scope, then you can directly access global and environment variable but you can't access a collection variable. If you use ```pm.variables.get ()```, Postman will fetch the environment variable as it has higher precedence than collections.
 
@@ -136,7 +136,7 @@ As you can see in the above illustration, you can't set data and collection vari
 
 As Postman provides five set of variable scopes, everything works based on precedence. If a variable is in two different scopes, the scope with a higher priority takes precedence. Postman resolves scopes using the following hierarchy, progressing from broad to narrow scope. Look at the following image.
 
-[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Variables-Pic.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Variables-Pic.png)
+[![collection details view](https://assets.postman.com/postman-docs/Variables-Pic.png)](https://assets.postman.com/postman-docs/Variables-Pic.png)
 
 From the above image, it’s clear that the variable with the narrowest scope always takes precedence. There could be a number of scenarios when working with variables. Let’s look at a scenario that has two variables with the same name at different scopes.
 
@@ -146,6 +146,6 @@ We have a variable my_data declared as a local and a global variable respectivel
 
 Let’s consider an example that has three collections C1, C2, and C3 and three environments E1 (Dev), E2 (Staging), and E3 (Prod). We have three different URLs for three different environments. Each collection has a timeout variable – 10 for C1, 20 for C2, and 30 for C3. The number of attempts to retry is 3 for all collections in all environments, let’s say whenever a test case fails.
 
-[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Variables-Example1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Variables-Example1.png)
+[![collection details view](https://assets.postman.com/postman-docs/Variables-Example1.png)](https://assets.postman.com/postman-docs/Variables-Example1.png)
 
 As the above image illustrates, each environment has a different url. So, an environment variable for url is created. The timeout variable is different for each collection so for three collections three different collection variables are created. Each time a test case fails, a ‘retry’ could be performed three times across collections and environments. So, a global variable is created for retry.

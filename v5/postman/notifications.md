@@ -5,9 +5,9 @@ warning: false
 
 ---
 
-The Postman app notifies you in case of some important events. These notifications can be accessed by clicking on the [![notification icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59084883.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59084883.png) icon in header bar.
+The Postman app notifies you in case of some important events. These notifications can be accessed by clicking on the [![notification icon](https://assets.postman.com/postman-docs/59084883.png)](https://assets.postman.com/postman-docs/59084883.png) icon in header bar.
 
-[![view notifications](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-notifications2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-notifications2.png)
+[![view notifications](https://assets.postman.com/postman-docs/WS-notifications2.png)](https://assets.postman.com/postman-docs/WS-notifications2.png)
 
 You will get notified in case of the following events:
 

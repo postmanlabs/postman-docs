@@ -182,11 +182,14 @@ The `request` object inside `pm` is a representation of the request for which th
 
 `request` contains information stored in the following structure:
 
-* `pm.request.url:`[`Url`](http://www.postmanlabs.com/postman-collection/Url.html)
-* `pm.request.headers:`[`HeaderList`](http://www.postmanlabs.com/postman-collection/HeaderList.html)
-* `pm.request.headers.add(headerName:String):function`
-* `pm.request.headers.delete(headerName:String):function`
-* `pm.request.headers.upsert({ key: headerName:String, value: headerValue:String}):function)`
+* `pm.request.url:`[`Url`](http://www.postmanlabs.com/postman-collection/Url.html): Contains the URL to which the request
+is made.
+* `pm.request.headers:`[`HeaderList`](http://www.postmanlabs.com/postman-collection/HeaderList.html): Contains the list of
+headers for the current request.
+* `pm.request.headers.add(headerName:String):function`: Adds a header with the specified name for the current request.
+* `pm.request.headers.delete(headerName:String):function`: Deletes the header with the specified name for the current request.
+* `pm.request.headers.upsert({ key: headerName:String, value: headerValue:String}):function)`: Inserts a header name and header value as given to the list of headers for the current request (if the header does not exist, otherwise the already
+existing header is updated to the new value).
 
 > **The following items are ONLY available in the test scripts.**
 

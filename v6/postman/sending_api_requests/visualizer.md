@@ -15,11 +15,11 @@ Let's say you have an HTTP endpoint that responds with tabular data. This might 
 
 Typically, if you need to visualize this data, you would copy it into a spreadsheet or use another request in Postman to push the data to an external spreadsheet API. With Visualizers, you can now render that data as a table and see it right inside Postman, in the context of the current request. Once you [share that collection](/docs/postman/collections/sharing_collections/) with your team, they will be able to see the same visualization without having to move out of Postman.
 
-[![Visualizer table rendering](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/visualizer_table.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/visualizer_table.png)
+[![Visualizer table rendering](https://assets.postman.com/postman-docs/visualizer_table.png)](https://assets.postman.com/postman-docs/visualizer_table.png)
 
 But then, real-life API responses often tend to be more sophisticated than simple tabular data. Your API might respond with a JSON or GraphQL payload that lists certain events happening over time. For example, this can be air pollution data in a city over the last month. Such kind of multi-series data is difficult to understand when you look at the raw data itself. You can build a chart that renders that data into a time series. You can even make the visualization interactive to drill-down into the data.
 
-[![Visualizer bar chart rendering](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/visualizer_barchart.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/visualizer_barchart.png)
+[![Visualizer bar chart rendering](https://assets.postman.com/postman-docs/visualizer_barchart.png)](https://assets.postman.com/postman-docs/visualizer_barchart.png)
 
 These are a few teasers to give you an idea of what you can do with Visualizers. Let's take a quick look at how you can implement Visualizers.
 

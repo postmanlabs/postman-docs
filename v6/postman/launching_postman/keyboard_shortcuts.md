@@ -36,7 +36,7 @@ Different operating systems have different shortcuts.  
 
 You can always view a complete list of your operating system's shortcuts when you click the **Keyboard Shortcuts** icon in the **Status bar**.
 
-[![help icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-keyboard-shortcuts2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-keyboard-shortcuts2.png)
+[![help icon](https://assets.postman.com/postman-docs/WS-keyboard-shortcuts2.png)](https://assets.postman.com/postman-docs/WS-keyboard-shortcuts2.png)
 
 ## Reference for all shortcuts
 

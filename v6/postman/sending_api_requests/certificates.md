@@ -9,7 +9,7 @@ Postman’s native apps provide a way to view and set SSL certificates on a pe
 
 To manage your client certificates, click the wrench icon on the right side of the header toolbar, choose "Settings", and select the **Certificates** tab.
 
-[![certificates tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-certificates.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-certificates.png)
+[![certificates tab](https://assets.postman.com/postman-docs/WS-certificates.png)](https://assets.postman.com/postman-docs/WS-certificates.png)
 
 ## Adding a Client Certificate
 

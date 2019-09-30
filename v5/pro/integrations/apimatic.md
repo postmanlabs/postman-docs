@@ -18,7 +18,7 @@ If you don't already have a [GitHub account](https://github.com/), you'll need t
 
 1. In the [Integrations page](https://go.postman.co/workspaces), find APIMATIC in the list of Postman’s 3rd party Integrations for Postman Pro users.
 
-[![select apimatic](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_APImatic.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_APImatic.png)
+[![select apimatic](https://assets.postman.com/postman-docs/integrations_APImatic.png)](https://assets.postman.com/postman-docs/integrations_APImatic.png)
 
 <ol start="2">
   <li>Click the <b>View Details</b> button to see information about APIMATIC and how the Postman to APIMATIC integration converts, formats, and saves your Postman collections to Github. 
@@ -27,14 +27,14 @@ If you don't already have a [GitHub account](https://github.com/), you'll need t
 
 You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for APIMATIC, or view all integrations.
 
-[![configured integrations](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-apimatic-conf-integr.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-apimatic-conf-integr.png)
+[![configured integrations](https://assets.postman.com/postman-docs/integrations-apimatic-conf-integr.png)](https://assets.postman.com/postman-docs/integrations-apimatic-conf-integr.png)
 
 <ol start="3">
   <li>Click the <b>Add Integration</b> button to authorize a periodic backup of your collection to your Github repository. 
 </li>
 </ol>
 
-[![backup_github](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_APImatic_backup_Github2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_APImatic_backup_Github2.png)
+[![backup_github](https://assets.postman.com/postman-docs/integrations_APImatic_backup_Github2.png)](https://assets.postman.com/postman-docs/integrations_APImatic_backup_Github2.png)
 
 **Note**: If you are not signed in to Github, a Github login box appears. Enter your Github username and password, and click the **Sign in** button.
 
@@ -43,7 +43,7 @@ You also can click the **Configured Integrations** tab to set up other integrati
 </li>
 </ol>
 
-[![github apimatic](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-github-authorized1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-github-authorized1.png)
+[![github apimatic](https://assets.postman.com/postman-docs/integrations-github-authorized1.png)](https://assets.postman.com/postman-docs/integrations-github-authorized1.png)
 
 <ol start="5">
   <li>To back up a collection periodically to a Github repository: 

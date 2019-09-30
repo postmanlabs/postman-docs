@@ -19,17 +19,17 @@ This topic covers:
 ## Workspaces
 
 In your Workspace, you can use Markdown to style the request description  
-[![request description](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-markdown-NSFrequestDescription.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-markdown-NSFrequestDescription.png)
+[![request description](https://assets.postman.com/postman-docs/WS-markdown-NSFrequestDescription.png)](https://assets.postman.com/postman-docs/WS-markdown-NSFrequestDescription.png)
 
 You can use Markdown to style descriptions for collections and folders.
-[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-markdown-descrptions-folders.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-markdown-descrptions-folders.png)
+[![collection details view](https://assets.postman.com/postman-docs/WS-markdown-descrptions-folders.png)](https://assets.postman.com/postman-docs/WS-markdown-descrptions-folders.png)
 
 ## Public or internal API documentation
 
 Public or internal [API documentation](/docs/postman/api_documentation/intro_to_api_documentation/) can automatically generate API descriptions.
 
 You can use Markdown to style those descriptions.
-[![automatically generated documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-markdown-auto-docs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-markdown-auto-docs.png)
+[![automatically generated documentation](https://assets.postman.com/postman-docs/WS-markdown-auto-docs.png)](https://assets.postman.com/postman-docs/WS-markdown-auto-docs.png)
 
 ## Descriptions for request attributes
 
@@ -37,16 +37,16 @@ The description column in the [data editor](/docs/postman/launching_postman/navi
 
 For example, specify if an element is required or optional, indicate the accepted data type, or use alternative terminology to provide additional clarification for developers who work with your requests.
 
-[![data editor parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-data-editor-params.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-data-editor-params.png)
+[![data editor parameters](https://assets.postman.com/postman-docs/WS-collections-data-editor-params.png)](https://assets.postman.com/postman-docs/WS-collections-data-editor-params.png)
 
 For Postman users who publish internal or public API documentation, these descriptions display in the [automatically generated documentation](/docs/postman/api_documentation/intro_to_api_documentation/) for that collection.
 
-[![parameters in automatically generated docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-auto-docs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-auto-docs.png)
+[![parameters in automatically generated docs](https://assets.postman.com/postman-docs/WS-collections-auto-docs.png)](https://assets.postman.com/postman-docs/WS-collections-auto-docs.png)
 
 **Note:** Descriptions for path variables and URL params are currently NOT shown in the documentation.
 
 To hide and show the value and description column in the data editor, click the ellipsis (...) in the top right corner of the editor, and uncheck the columns that you want to hide.
 
-[![uncheck parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-uncheck-params.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-uncheck-params.png)
+[![uncheck parameters](https://assets.postman.com/postman-docs/WS-collections-uncheck-params.png)](https://assets.postman.com/postman-docs/WS-collections-uncheck-params.png)
 
 **Note:** Descriptions are metadata for a request and are **NOT** sent with your HTTP request. This reminder displays when you mouse over the title of the description column.

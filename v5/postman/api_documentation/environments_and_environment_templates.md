@@ -17,7 +17,7 @@ The environments drop down menu contains all of your environments and environmen
 
 All of your environments and environment templates will be available to you with environment templates that are shared in your Team Library.
 
-[![environments dropdown for private viewing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-environment2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-private-environment2.png)
+[![environments dropdown for private viewing](https://assets.postman.com/postman-docs/docs-private-environment2.png)](https://assets.postman.com/postman-docs/docs-private-environment2.png)
 
 #### Environments in public documentation
 
@@ -25,5 +25,5 @@ An environment template you select while publishing documentation will be availa
 
 If your public documentation is published on a custom domain, only the environment template will be available in the published page, even if the user is signed into their Postman account.
 
-[![environmnets dropdown for public documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-environMenu010718.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-environMenu010718.png)
+[![environmnets dropdown for public documentation](https://assets.postman.com/postman-docs/docs-public-environMenu010718.png)](https://assets.postman.com/postman-docs/docs-public-environMenu010718.png)
 

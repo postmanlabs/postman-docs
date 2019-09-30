@@ -18,11 +18,11 @@ Audit logs currently include events for team management, billing, and security. 
 
 In your [Enterprise workspace](https://app.getpostman.com/dashboard), click the Settings icon, and select "Audit logs".
 
-[![audit logs menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-audit-logs-menu2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-audit-logs-menu2.png)
+[![audit logs menu](https://assets.postman.com/postman-docs/ENT-audit-logs-menu2.png)](https://assets.postman.com/postman-docs/ENT-audit-logs-menu2.png)
 
 In the [Audit Logs](https://app.getpostman.com/dashboard/audit) page, you see information categorized as USER, EVENT NAME, EVENT DESCRIPTION, and DATE.
 
-[![audit logs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-audit-logs-page.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-audit-logs-page.png)
+[![audit logs](https://assets.postman.com/postman-docs/ENT-audit-logs-page.png)](https://assets.postman.com/postman-docs/ENT-audit-logs-page.png)
 
 For more information about audit logs and how to set it up for your Postman Enterprise team, contact our [Enterprise support team](https://pages.getpostman.com/Enterprise-Sales_Contact-Us.html).
 

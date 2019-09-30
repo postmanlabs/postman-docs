@@ -16,7 +16,7 @@ The environments drop down menu contains all of your local and shared environmen
 
 All of your local and shared environments will be available to you in your team workspace.
 
-[![environments dropdown for private viewing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-private-environment2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-private-environment2.png)
+[![environments dropdown for private viewing](https://assets.postman.com/postman-docs/WS-docs-private-environment2.png)](https://assets.postman.com/postman-docs/WS-docs-private-environment2.png)
 
 ## Environments in public documentation
 
@@ -24,4 +24,4 @@ An environment that you select while publishing documentation will be available 
 
 If your public documentation is published on a custom domain, only the selected environment will be available in the published page, even if the user is signed into their Postman account.
 
-[![environments dropdown for public documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-public-environMenu010718.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-public-environMenu010718.png)
+[![environments dropdown for public documentation](https://assets.postman.com/postman-docs/WS-docs-public-environMenu010718.png)](https://assets.postman.com/postman-docs/WS-docs-public-environMenu010718.png)

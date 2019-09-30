@@ -14,7 +14,7 @@ While you are offline, Bob is online and renames the collection to "Team API" an
 
 When you're online and sync your changes, Postman detects a conflicting change to the same data. Postman will display the **RESOLVE SYNC CONFLICTS** modal. You can review the conflicting versions and choose which version to keep and which to discard.
 
-[![resolve sync conflicts modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59029599.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59029599.png)
+[![resolve sync conflicts modal](https://assets.postman.com/postman-docs/59029599.png)](https://assets.postman.com/postman-docs/59029599.png)
 
 In the **RESOLVE SYNC CONFLICTS** modal, "Local Value" is the version currently on your local app and "Server Value" shows the version synced to Postman.
 

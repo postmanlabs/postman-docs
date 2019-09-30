@@ -11,13 +11,13 @@ warning: false
 ## Setting up a custom SAML application in Duo
 
 1. Head over to the applications page from the Duo dashboard. Click the **Protect an Application** button.
-     [![duo dashboard](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duo_dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duo_dashboard.png)  
+     [![duo dashboard](https://assets.postman.com/postman-docs/duo_dashboard.png)](https://assets.postman.com/postman-docs/duo_dashboard.png)  
 
 1. Search for "SAML - Service Provider" and click on the **Protect this Application** link.
-     [![duo protect](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duo_protect.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duo_protect.png)
+     [![duo protect](https://assets.postman.com/postman-docs/duo_protect.png)](https://assets.postman.com/postman-docs/duo_protect.png)
 
 1. Enter `Postman` as the service provider. The service provider details can be found on the Postman [Edit Team Details page](https://go.postman.co/settings/team/general). Other fields can either be left blank or set to the default value.
-     [![duo provider](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duo_provider.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duo_provider.png)
+     [![duo provider](https://assets.postman.com/postman-docs/duo_provider.png)](https://assets.postman.com/postman-docs/duo_provider.png)
 
      | **Field** | **Value** |
      |---|---|
@@ -27,10 +27,10 @@ warning: false
      | NameID format | EmailAddress |
 
 1. After configuring the service provider details, click the **Save Configuration** button.
-     [![duo save](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duo_save.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duo_save.png)
+     [![duo save](https://assets.postman.com/postman-docs/duo_save.png)](https://assets.postman.com/postman-docs/duo_save.png)
 
 1. Download the configuration file.
-     [![duo download](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duo_download.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duo_download.png)
+     [![duo download](https://assets.postman.com/postman-docs/duo_download.png)](https://assets.postman.com/postman-docs/duo_download.png)
 
 1. Duo requires your cloud application to be added to the Duo Access Gateway. Refer to this [guide for setting this up](https://duo.com/docs/dag-generic).
 

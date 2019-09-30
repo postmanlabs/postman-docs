@@ -20,7 +20,7 @@ To review the activity feed at the collection level in the Postman app, expand t
 
 The activity feed displays who updated the collection, what the updates were, and when they were completed. For Postman Pro and Enterprise users, diffs are generated and displayed within the activity feed. Consecutive updates on the same session to the same entity are collated for readability.
 
-[![activity feed for a collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/workspaces_activity.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/workspaces_activity.png)
+[![activity feed for a collection](https://assets.postman.com/postman-docs/workspaces_activity.png)](https://assets.postman.com/postman-docs/workspaces_activity.png)
 
 Similarly, you can also review a collection's activity feed from the [Workspaces dashboard](https://app.getpostman.com/dashboard) after selecting a workspace and a collection.
 
@@ -28,7 +28,7 @@ Similarly, you can also review a collection's activity feed from the [Workspaces
 
 You can also review the activity feed at the workspace level in the Postman app. Go to the status bar at the bottom of the Postman app and toggle over to the “Browse” view. Under the **Activity** tab, you can review the events that occurred within the workspace.
 
-[![workspace activity feed](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/workspaces_activity2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/workspaces_activity2.png)
+[![workspace activity feed](https://assets.postman.com/postman-docs/workspaces_activity2.png)](https://assets.postman.com/postman-docs/workspaces_activity2.png)
 
 Similarly, you can also review the activity feed at the workspace level by selecting a workspace from the [Workspaces dashboard](https://app.getpostman.com/dashboard).
 
@@ -48,7 +48,7 @@ These updates include CUD (Create, Update, Delete) operations on workspaces, col
 
 Postman Pro and Enterprise users can view diffs. Other users can track the "who" and "when" in the activity feeds, but not the "what" at this level of detail.
 
-[![updates for CUD activities](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/event-breakdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/event-breakdown.png)
+[![updates for CUD activities](https://assets.postman.com/postman-docs/event-breakdown.png)](https://assets.postman.com/postman-docs/event-breakdown.png)
 
 ## Restoring collections
 
@@ -58,11 +58,11 @@ Hovering over the activity displays a **Restore** link.
 
 Click the **Restore** link to restore the collection to the point right _after_ this change was applied.
 
-[![hover to display restore link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/restore-collections.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/restore-collections.png)
+[![hover to display restore link](https://assets.postman.com/postman-docs/restore-collections.png)](https://assets.postman.com/postman-docs/restore-collections.png)
 
 At the top of the activity feed a confirmation indicates the collection has been restored.
 
-[![restore confirmation message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58927426.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58927426.png)
+[![restore confirmation message](https://assets.postman.com/postman-docs/58927426.png)](https://assets.postman.com/postman-docs/58927426.png)
 
 ## Connecting to Slack, HipChat and other platforms
 

@@ -23,7 +23,7 @@ When you select "Authorization" in the request builder, you see the **TYPE** dro
 
 **Note:** NTLM and Bearer token are only available in Postman native apps ([download native app](https://www.getpostman.com/downloads/)). All other authorization types are available in Postman native apps and the Chrome app. Note that the [Postman Chrome app is being deprecated](https://blog.getpostman.com/2017/11/01/goodbye-postman-chrome-app/).
 
-[![auth menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-menu.png)
+[![auth menu](https://assets.postman.com/postman-docs/WS-auth-menu.png)](https://assets.postman.com/postman-docs/WS-auth-menu.png)
 
 You can use environment, collection, or global variables with all authorization types. In addition to using these in the Postman app, you can also use these authorization types with Newman or Postman monitors.
 
@@ -31,7 +31,7 @@ Postman does not save header data and query parameters to prevent sensitive data
 
 If you want to inspect the authorization headers and parameters that Postman generates, click the **Preview Request** button.
 
- [![auth menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-preview-request.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-preview-request.png)
+ [![auth menu](https://assets.postman.com/postman-docs/WS-preview-request.png)](https://assets.postman.com/postman-docs/WS-preview-request.png)
 
 **Note:** You can inspect a raw dump of the entire request in the Postman console after you send it.
 
@@ -43,11 +43,11 @@ Suppose you [add a folder](/docs/postman/collections/managing_collections#adding
 
 The “Inherit auth from parent” setting indicates that every request in this folder by default uses the authorization type from the parent. In this example, the collection is using “No Auth”, so the folder uses “No Auth”, meaning all requests in that folder will use “No Auth”.
 
-[![folder auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-auth-folder.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-add-auth-folder.png)
+[![folder auth](https://assets.postman.com/postman-docs/WS-add-auth-folder.png)](https://assets.postman.com/postman-docs/WS-add-auth-folder.png)
 
 What if you want to leave the parent collection authorization type as “No Auth”, but update this specific folder’s authorization helper? You can edit the folder details, select “Basic Auth” from the **TYPE** dropdown, and input your credentials. As a result, every request in this folder relies on “Basic Auth” while the rest of the requests in the parent collection still do not use any authorization.
 
-[![folder basic auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-folder-edit.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-folder-edit.png)
+[![folder basic auth](https://assets.postman.com/postman-docs/WS-folder-edit.png)](https://assets.postman.com/postman-docs/WS-folder-edit.png)
 
 Similarly, if you want to update the authorization for a single request in this folder, you can simply select a different authorization type for that request.
 
@@ -55,7 +55,7 @@ If you have a group of requests that all require the same authorization, you can
 
 To update the collection or folder authorization, click on the ellipsis (...) next to the collection or folder name, and select “Edit” to open the modal. Select the **Authorization** tab to select an authorization type from the **TYPE** dropdown. You can also add collection authorization when initially creating the collection.  
 
-[![select folder basic auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-select-folder-basic.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-select-folder-basic.png)
+[![select folder basic auth](https://assets.postman.com/postman-docs/WS-auth-select-folder-basic.png)](https://assets.postman.com/postman-docs/WS-auth-select-folder-basic.png)
 
 For example, if you create a collection with "Basic Auth", every request within the collection will use the same authorization helper. If you want a specific request in the collection to use a different authorization, or no authorization at all, use the **TYPE** dropdown under the **Authorization** tab to define the authorization helper for the specific request.
 
@@ -73,7 +73,7 @@ To use a bearer token:
 1. To set the authorization parameters for a request, enter the value of the token.
 1. Click the **Send** button.
 
-[![bearer auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-BearerToken.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-BearerToken.png)
+[![bearer auth](https://assets.postman.com/postman-docs/WS-auth-BearerToken.png)](https://assets.postman.com/postman-docs/WS-auth-BearerToken.png)
 
 ## Basic Auth
 
@@ -85,7 +85,7 @@ To use Basic Auth:
 1. To set the authorization parameters for a request, enter your username and password.
 1. Click the **Send** button.
 
-[![basic auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-Basic.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-Basic.png)
+[![basic auth](https://assets.postman.com/postman-docs/WS-auth-Basic.png)](https://assets.postman.com/postman-docs/WS-auth-Basic.png)
 
 ## Digest Auth
 
@@ -102,7 +102,7 @@ To use digest auth:
 1. To set the authorization parameters for a request, enter your username and password. (You can also set advanced digest auth parameters.)
 1. Click the **Send** button.
 
-[![digest_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-Digest+copy.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-Digest+copy.png)
+[![digest_auth](https://assets.postman.com/postman-docs/WS-auth-Digest+copy.png)](https://assets.postman.com/postman-docs/WS-auth-Digest+copy.png)
 
 This table describes the advanced parameters for Digest Auth. Advanced configuration settings are optional. Postman automatically generates values for some fields if left blank.
 
@@ -129,7 +129,7 @@ When you select "Request Body/Request URL", Postman checks if the request method
 
 1. To set the authorization parameters for a request, enter the "Consumer Key", "Consumer Secret", "Access Token", and "Token Secret". You can also set advanced digest OAuth 1.0 parameters.
 
-[![oauth1_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-OAuth1_0.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-OAuth1_0.png)
+[![oauth1_auth](https://assets.postman.com/postman-docs/WS-auth-OAuth1_0.png)](https://assets.postman.com/postman-docs/WS-auth-OAuth1_0.png)
 
 This table describes the parameters for OAuth 1.0 authorization.
 
@@ -160,7 +160,7 @@ To use the OAuth 2.0 authorization:
    * In the "Access Token" field, enter a token, or an environment defined variable, and click the **Send** button.
    * In the "Available Tokens" drop down menu, select an existing token and click the **Send** button.
 
-[![oauth2_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-OAuth2_0.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-OAuth2_0.png)
+[![oauth2_auth](https://assets.postman.com/postman-docs/WS-auth-OAuth2_0.png)](https://assets.postman.com/postman-docs/WS-auth-OAuth2_0.png)
 
 This table describes the parameters in the **GET NEW ACCESS TOKEN** screen.
 
@@ -177,11 +177,11 @@ This table describes the parameters in the **GET NEW ACCESS TOKEN** screen.
 | State |An opaque value that prevents cross-site request forgery. |
 | Client Authentication |A drop down menu where you can either send a Basic Auth request in the header, or send client credentials in the request body. **Note**: After upgrading to a new version, change the value in this drop down menu to avoid problems with client authentication. |
 
-[![getrequesttokens_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-get-access-token.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-get-access-token.png)
+[![getrequesttokens_auth](https://assets.postman.com/postman-docs/WS-get-access-token.png)](https://assets.postman.com/postman-docs/WS-get-access-token.png)
 
 You can click "Manage Tokens" in the list to view more details about each token and delete any one of them. If there are no tokens in the list, the user needs to click the **Get New Access Token** button to generate a token that Postman adds to the list.
 
-[![managetokens_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-access-token.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-access-token.png)
+[![managetokens_auth](https://assets.postman.com/postman-docs/WS-manage-access-token.png)](https://assets.postman.com/postman-docs/WS-manage-access-token.png)
 
 **Note:** Deleting a token does not revoke the access token. Only the server that issues the token can revoke it.
 
@@ -195,7 +195,7 @@ To use Hawk authentication:
 1. To set the authorization parameters for a request, enter the "Hawk Auth ID", "Hawk Auth Key", and "Algorithm values". You can also set advanced Hawk authentication parameters.
 1. Click the **Send** button.
 
-[![hawk_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-Hawk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-Hawk.png)
+[![hawk_auth](https://assets.postman.com/postman-docs/WS-auth-Hawk.png)](https://assets.postman.com/postman-docs/WS-auth-Hawk.png)
 
 This table describes the parameters for Hawk Authentication.
 
@@ -233,7 +233,7 @@ To use AWS authentication:
 1. To set the authorization parameters for a request, enter the values for the access and secret keys. You can also set advanced AWS authentication parameters.
 1. Click the **Send** button.
 
-[![aws_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-AWS-Signature.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-AWS-Signature.png)
+[![aws_auth](https://assets.postman.com/postman-docs/WS-auth-AWS-Signature.png)](https://assets.postman.com/postman-docs/WS-auth-AWS-Signature.png)
 
 This table describes the advanced parameters for AWS Authentication. Advanced configuration settings are optional. Postman automatically generates values for some fields if left blank.
 
@@ -261,4 +261,4 @@ This table describes the advanced parameters for NTLM Authentication. Advanced c
 | Domain | The domain or host to authenticate against.|
 | Workstation| The hostname of the PC.|
 
-[![ntlm_auth](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-NTLM.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-auth-NTLM.png)
+[![ntlm_auth](https://assets.postman.com/postman-docs/WS-auth-NTLM.png)](https://assets.postman.com/postman-docs/WS-auth-NTLM.png)

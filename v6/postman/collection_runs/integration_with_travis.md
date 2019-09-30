@@ -21,7 +21,7 @@ In this example, we’ll walk through how to integrate Postman with [Travis CI](
 
 Travis CI runs your tests every time you commit to your GitHub repo. Then it submits a pull request, or some other specified configuration.
 
-[![travis workflow](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_workflow.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_workflow.png)
+[![travis workflow](https://assets.postman.com/postman-docs/travis_workflow.png)](https://assets.postman.com/postman-docs/travis_workflow.png)
 
 Let's learn more about integration with Travis:
 
@@ -48,7 +48,7 @@ Let's learn more about integration with Travis:
 
     Remember to add and commit these two files to your repo.
 
-    [![tree view tests directory](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_tree.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_tree.png)
+    [![tree view tests directory](https://assets.postman.com/postman-docs/travis_tree.png)](https://assets.postman.com/postman-docs/travis_tree.png)
   
 1. Create a new file called `.travis.yml` and move it to the root of your project repository.
 
@@ -56,7 +56,7 @@ Let's learn more about integration with Travis:
 
     Any step of the build [can be customized](https://docs.travis-ci.com/user/customizing-the-build). These scripts will execute the next time you commit and push a change to your repo.
 
-    [![tree view yml](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_tree_yml.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_tree_yml.png)
+    [![tree view yml](https://assets.postman.com/postman-docs/travis_tree_yml.png)](https://assets.postman.com/postman-docs/travis_tree_yml.png)
 
 1. In the `.travis.yml` file, add a command to `install` Newman in the CI environment, and then add a `script` telling Newman to run the Postman tests (which we've placed in the `tests` directory).
   
@@ -85,21 +85,21 @@ Travis CI is now set up to run your Postman tests every time you trigger a build
 
 Let’s try it out. The Travis CI [build status page](https://travis-ci.org/) will show if the build passes or fails:
   
-[![travis fail](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_fail.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_fail.png)
+[![travis fail](https://assets.postman.com/postman-docs/travis_fail.png)](https://assets.postman.com/postman-docs/travis_fail.png)
 
    Travis CI is running our Newman command, but we see a failed exit code (1). Boo.
 
    Stay calm. Let’s review the logs in Travis CI. Newman ran our tests, we see the first and second tests passed, but the last test `Updated in the last day` failed.
 
-[![travis log fail](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_log_fail.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_log_fail.png)
+[![travis log fail](https://assets.postman.com/postman-docs/travis_log_fail.png)](https://assets.postman.com/postman-docs/travis_log_fail.png)
 
    Let’s go back to our Postman collection and fix our `Updated in the last day` test.
 
-[![PM test script](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-get-information95.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-get-information95.png)
+[![PM test script](https://assets.postman.com/postman-docs/WS-get-information95.png)](https://assets.postman.com/postman-docs/WS-get-information95.png)
 
    Once we fix the mistake in our test, let’s save the changes, update the repo with the latest collection file, and then trigger a Travis CI build once again by committing and pushing the change.  
 
-[![travis log success](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_log_success.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/travis_log_success.png)
+[![travis log success](https://assets.postman.com/postman-docs/travis_log_success.png)](https://assets.postman.com/postman-docs/travis_log_success.png)
 
  And it's working! All our tests passed and the command exited with a successful exit code (0).
 

@@ -26,7 +26,7 @@ You can create a new collection from the:
 
 In the sidebar, select "Collections" and click the "Collections" icon.
 
-  [![new collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections_icon1.png)
+  [![new collection](https://assets.postman.com/postman-docs/collections_icon1.png)](https://assets.postman.com/postman-docs/collections_icon1.png)
 
 In the **CREATE A NEW COLLECTION** modal:
 
@@ -42,11 +42,11 @@ Click the **Create** button.
 
 In the header toolbar, click the **New** button.
 
- [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headerToolbar-blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headerToolbar-blk.png)
+ [![new button](https://assets.postman.com/postman-docs/WS-headerToolbar-blk.png)](https://assets.postman.com/postman-docs/WS-headerToolbar-blk.png)
 
 The Create New tab appears.
 
- [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collection-create-new-screenXX-p2+copy.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collection-create-new-screenXX-p2+copy.png)
+ [![create screen](https://assets.postman.com/postman-docs/WS-collection-create-new-screenXX-p2+copy.png)](https://assets.postman.com/postman-docs/WS-collection-create-new-screenXX-p2+copy.png)
 
 In the Create New tab, click "Collection".
 
@@ -144,7 +144,7 @@ In the **SAVE REQUEST** modal, enter a title and description, select a collectio
 
 Click the **Save** button.
 
-[![save collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/history_icon2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/history_icon2.png)
+[![save collection](https://assets.postman.com/postman-docs/history_icon2.png)](https://assets.postman.com/postman-docs/history_icon2.png)
 
 ### Multiple requests
 
@@ -160,7 +160,7 @@ In the sidebar, select "Collections".
 
 Click the ellipsis (...) to expand the control dropdown.
 
-[![collection ellipsis](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/duplicate_collection1.png)
+[![collection ellipsis](https://assets.postman.com/postman-docs/duplicate_collection1.png)](https://assets.postman.com/postman-docs/duplicate_collection1.png)
 
 Select "Duplicate" from the menu.
 

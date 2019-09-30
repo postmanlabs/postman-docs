@@ -9,7 +9,7 @@ warning: false
 
 A Postman Collection lets you group individual requests together. You can organize these requests into folders.
 
-[![sample collection Echo](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Collection_headers.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-Collection_headers.png)
+[![sample collection Echo](https://assets.postman.com/postman-docs/WS-Collection_headers.png)](https://assets.postman.com/postman-docs/WS-Collection_headers.png)
 
 ## Why create collections?
 

@@ -11,11 +11,11 @@ The response also contains the HTTP specification default description. However, 
 
 ## Saving responses
 
-[![save response button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58538745.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58538745.png)
+[![save response button](https://assets.postman.com/postman-docs/58538745.png)](https://assets.postman.com/postman-docs/58538745.png)
 
 If a request has been saved in a collection, you can save responses for that request. Once the response has been returned, click the **Save Response** button. Enter a name to call your saved response. All responses saved for a request will be available as an [example](/docs/postman/collections/examples/) whenever you load the request. Click the **Examples** dropdown in the top right to view and select the saved examples.
 
-[![access saved responses](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/examplesDropdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/examplesDropdown.png)
+[![access saved responses](https://assets.postman.com/postman-docs/examplesDropdown.png)](https://assets.postman.com/postman-docs/examplesDropdown.png)
 
 ## Viewing responses
 
@@ -23,7 +23,7 @@ The Postman **Body** tab gives you several tools to help you understand the resp
 
 ### Pretty
 
-[![pretty view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58538803.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58538803.png)
+[![pretty view](https://assets.postman.com/postman-docs/58538803.png)](https://assets.postman.com/postman-docs/58538803.png)
 
 The pretty mode formats JSON or XML responses so they are easier to view. Nobody wants to scroll through a minified single line JSON response looking for that elusive string! Links inside the pretty mode are highlighted and clicking on them can load a GET request in Postman with the link URL. For navigating large responses, click on the down-pointing triangles (▼) on the left to collapse large sections of the response.
 
@@ -33,13 +33,13 @@ For Postman to automatically format the body, make sure the appropriate Content-
 
 ### Raw
 
-[![raw view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58538811.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58538811.png)
+[![raw view](https://assets.postman.com/postman-docs/58538811.png)](https://assets.postman.com/postman-docs/58538811.png)
 
 The raw view is a large text area with the response body. It can indicate whether your response is minified.
 
 ### Preview
 
-[![view as preview](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58538940.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58538940.png)
+[![view as preview](https://assets.postman.com/postman-docs/58538940.png)](https://assets.postman.com/postman-docs/58538940.png)
 
 The preview tab renders the response in a sandboxed iframe. Some web frameworks by default return HTML errors and the preview mode is especially helpful. Due to iframe sandbox restrictions, JavaScript and images are disabled in the iframe.
 
@@ -49,7 +49,7 @@ If your API endpoint returns an image, Postman will detect and render it automat
 
 ## Headers
 
-[![headers tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58539000.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58539000.png)
+[![headers tab](https://assets.postman.com/postman-docs/58539000.png)](https://assets.postman.com/postman-docs/58539000.png)
 
 Headers are displayed as key-value pairs under the **Headers** tab. Hovering over the header name can give you a description of the header according to the HTTP spec. If you are sending a HEAD request, Postman will show the headers tab by default.
 

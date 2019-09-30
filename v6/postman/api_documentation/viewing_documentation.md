@@ -18,17 +18,17 @@ You must be logged in to your Postman account to view private documentation. Pos
 
 In the Postman app, hover your cursor over your collection on the left-hand side, click the arrow (&#9656;), then click the **View in web** button.
 
-[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API_Docs_ViewinWeb.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API_Docs_ViewinWeb.png)
+[![collection details view](https://assets.postman.com/postman-docs/API_Docs_ViewinWeb.png)](https://assets.postman.com/postman-docs/API_Docs_ViewinWeb.png)
 
 In this private web view, you’ll be able to see each request in the collection, their descriptions, and code snippets generated from the environment and the language you’ve selected. You will also be able to post comments.
 
-[![view documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-viewing.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-viewing.png)
+[![view documentation](https://assets.postman.com/postman-docs/WS-docs-viewing.png)](https://assets.postman.com/postman-docs/WS-docs-viewing.png)
 
 **Note:** This private URL is only accessible to Postman users logged in with appropriate permissions — anyone without access to the collection itself receives an error message upon attempting to view it. To make this documentation available to others, you will need to publish it.
 
 You can also access the documentation section from the Browse View. In the Browse view, point your cursor to the collection name and click any collection name to go to the documentation section:
 
-[![Comments BrowseView](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments-Browse-View.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Comments-Browse-View.png)
+[![Comments BrowseView](https://assets.postman.com/postman-docs/Comments-Browse-View.png)](https://assets.postman.com/postman-docs/Comments-Browse-View.png)
 
 Alternatively, you can also point your cursor to any collection in your dashboard view and click it to go to the documentation section. A point to remember is clicking any collection from anywhere in Postman Dashboard will land you in the documentation section.
 
@@ -36,4 +36,4 @@ Alternatively, you can also point your cursor to any collection in your dashboar
 
 Public documentation is accessible through a URL that Postman generates at the time of publication. This link displays immediately, and can be found in your [Postman Dashboard](https://go.postman.co/). If you’ve opted to use a custom domain, you’ll find your published documentation link in the Postman Dashboard.
 
-[![public documentation link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-public-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-public-view.png)
+[![public documentation link](https://assets.postman.com/postman-docs/WS-docs-public-view.png)](https://assets.postman.com/postman-docs/WS-docs-public-view.png)

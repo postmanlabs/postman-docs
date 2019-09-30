@@ -9,7 +9,7 @@ warning: false
 
 In the header toolbar of the Postman app, click the wrench icon and select "Settings" to open the **SETTINGS** modal. You can also use the keyboard shortcut (**CMD/CTRL + ,**) to open the modal.
 
-[![settings dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-settings.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-settings.png)
+[![settings dropdown](https://assets.postman.com/postman-docs/WS-settings.png)](https://assets.postman.com/postman-docs/WS-settings.png)
 
 ### General Settings
 
@@ -27,13 +27,13 @@ Postman tries to minimize the number of settings you have to change, so we estab
    *   **Automatically follow redirects:** Prevent requests that return a 300-series response from being automatically redirected. 
    *   **Send anonymous usage data to Postman:** Option to disable sending basic anonymous usage data (button clicks and app events) to Postman. We use usage data to make Postman a better product.
 
-[![general settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58492184.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58492184.png)
+[![general settings](https://assets.postman.com/postman-docs/58492184.png)](https://assets.postman.com/postman-docs/58492184.png)
 
 ### Themes
 
 Pick your pleasure: choose a light or dark theme for the Postman app.
 
-[![themes in settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58492628.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58492628.png)
+[![themes in settings](https://assets.postman.com/postman-docs/58492628.png)](https://assets.postman.com/postman-docs/58492628.png)
 
 ### Keyboard Shortcuts
 

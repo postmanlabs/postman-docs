@@ -10,17 +10,17 @@ Postman users with public documentation can publish documentation on their own c
 
 In the Postman dashboard, select [Team Settings](https://go.postman.co/settings/team/general) in the Team tab.
 
-[![edit view for team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-team-settings2-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-team-settings2-1.png)
+[![edit view for team](https://assets.postman.com/postman-docs/WS-docs-team-settings2-1.png)](https://assets.postman.com/postman-docs/WS-docs-team-settings2-1.png)
 
 Scroll down to the "Custom Domains" section and click the **+ Add a new domain** button.
 
 Note that the "Custom Domains" section lists each domain and its verification status. You can also see additional details of each custom domain.
 
-[![custom domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-custom-domains-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-custom-domains-1.png)
+[![custom domain](https://assets.postman.com/postman-docs/WS-docs-custom-domains-1.png)](https://assets.postman.com/postman-docs/WS-docs-custom-domains-1.png)
 
 In the **Add a Custom Domain** page, enter the URL of the domain you want to add. Your custom domain can be a full domain or simply a subdomain. For example, you can use either `example.com` or `api.example.com` as your custom domain.
 
-[![enter custom domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-add-custom-domain-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-add-custom-domain-1.png)
+[![enter custom domain](https://assets.postman.com/postman-docs/WS-docs-add-custom-domain-1.png)](https://assets.postman.com/postman-docs/WS-docs-add-custom-domain-1.png)
 
 Click **Proceed** to verify the domain.
 
@@ -36,7 +36,7 @@ If you choose not to verify the domain now, click **Verify Later**.
 
 In addition, if you want to delete the custom domain, click the "Delete Custom Domain" link.
 
-[![verify_domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-verify-domain-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-docs-verify-domain-1.png)
+[![verify_domain](https://assets.postman.com/postman-docs/WS-docs-verify-domain-1.png)](https://assets.postman.com/postman-docs/WS-docs-verify-domain-1.png)
 
 **Note:** Occasionally, your DNS settings may not take effect immediately. If so, an error message appears. Try again after some time.
 
@@ -44,7 +44,7 @@ In addition, if you want to delete the custom domain, click the "Delete Custom D
 
 Adding a custom domain opens a modal that displays the DNS records required to verify domain ownership. The most important pieces of information in the modal below are the TXT and CNAME records. To verify you control the domain you're attempting to add, you must add these provided tokens as DNS records to your domain.
 
-[![see TXT and CNAME](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-verfication-tokens-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-verfication-tokens-1.png)
+[![see TXT and CNAME](https://assets.postman.com/postman-docs/WS-verfication-tokens-1.png)](https://assets.postman.com/postman-docs/WS-verfication-tokens-1.png)
 
 ## Add DNS records
 
@@ -57,6 +57,6 @@ For DNS records, verify the ownership with a DNS web service provider. In a sepa
 
 After the domain is verified, you can use this domain to publicly serve your API documentation. If you have a demo collection to publish, go to the Postman web view and publish your collection. You'll see a new option to select a custom domain.
 
-[![publish collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-collection-edit-1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-collection-edit-1.png)
+[![publish collection](https://assets.postman.com/postman-docs/WS-publish-collection-edit-1.png)](https://assets.postman.com/postman-docs/WS-publish-collection-edit-1.png)
 
 After publishing, go to your custom domain, and see the public documentation in all its glory!

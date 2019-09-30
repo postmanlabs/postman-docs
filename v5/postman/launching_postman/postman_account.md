@@ -20,14 +20,14 @@ Signing up is completely optional. Read our [EULA](https://www.getpostman.com/li
 
 1. If you haven't already, [download](https://www.getpostman.com/downloads/) the Postman app.
 2. Launch the app, and see a prompt to log in or sign up.
-    [![log in page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59135838.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59135838.png)  
+    [![log in page](https://assets.postman.com/postman-docs/59135838.png)](https://assets.postman.com/postman-docs/59135838.png)  
 3. Sign up with your email address or your Google account.
-    [![sign up with email or google](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signUp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signUp.png)  
+    [![sign up with email or google](https://assets.postman.com/postman-docs/signUp.png)](https://assets.postman.com/postman-docs/signUp.png)  
 4. Confirm your email.
 
 Once you are logged in, you will see the **IN SYNC** icon at the top telling you that you are connected to our servers. Postman uses WebSockets for real-time [syncing](/docs/postman/launching_postman/syncing). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us).
 
-[![header bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)
+[![header bar](https://assets.postman.com/postman-docs/WS-HeaderToolBar-new+button1.png)](https://assets.postman.com/postman-docs/WS-HeaderToolBar-new+button1.png)
 
 
 ### Switching multiple accounts
@@ -39,7 +39,7 @@ You can sign in to multiple accounts at the same time in the Postman app and the
 When you first open the Postman app, you can sign in as an existing user or create an account. 
 If you bypass the initial sign-in option, you can click the **Sign In** button on the top right corner of your screen at any time.
 
-[![signin icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-basic-white.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-basic-white.png)
+[![signin icon](https://assets.postman.com/postman-docs/WS-basic-white.png)](https://assets.postman.com/postman-docs/WS-basic-white.png)
 
 After you sign in, your profile image replaces the **Sign In** button.
 
@@ -51,7 +51,7 @@ After you sign in to another account, the drop down menu lists all your active s
 
 To switch back to your previous account, click on the account user name in the drop down menu.
 
-[![switch](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-switchProfiles-app-white1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-switchProfiles-app-white1.png)
+[![switch](https://assets.postman.com/postman-docs/WS-switchProfiles-app-white1.png)](https://assets.postman.com/postman-docs/WS-switchProfiles-app-white1.png)
 
 #### How to switch accounts in the Postman web view
 
@@ -63,7 +63,7 @@ To switch back to your previous account, click on the account user name in the d
 
 4. To switch back to your previous account, click on the account user name in the drop down menu.
 
-[![webdashboard icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-switchProfiles-webDashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-switchProfiles-webDashboard.png.png)
+[![webdashboard icon](https://assets.postman.com/postman-docs/WS-switchProfiles-webDashboard.png)](https://assets.postman.com/postman-docs/WS-switchProfiles-webDashboard.png.png)
 
 
 ### Security policies and standards
@@ -80,14 +80,14 @@ You can recover your username or reset your password from the [**Sign In**](http
 
 1. In the Sign In page, click “Trouble signing in?”.
 
-[![signIn page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SignInPage1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SignInPage1.png)
+[![signIn page](https://assets.postman.com/postman-docs/SignInPage1.png)](https://assets.postman.com/postman-docs/SignInPage1.png)
 
 <ol start="2">
   <li>In the Trouble signing in? page, enter your email address and click the <b>Submit</b> button.
    Check your email for instructions to recover your username or password.</li>
   </ol>
 
-[![trouble_signIn page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signIn_trouble.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/signIn_trouble.png)
+[![trouble_signIn page](https://assets.postman.com/postman-docs/signIn_trouble.png)](https://assets.postman.com/postman-docs/signIn_trouble.png)
 
 ### Adding your profile image
 
@@ -95,18 +95,18 @@ You can customize your Postman account with a profile picture, which will show y
 
 1.In your [Profile and Account](https://app.getpostman.com/dashboard/teams/edit)  page, hover over the image icon to display a Pencil (edit) icon.
 
-[![profile account](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/profile-account-page2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/profile-account-page2.png)
+[![profile account](https://assets.postman.com/postman-docs/profile-account-page2.png)](https://assets.postman.com/postman-docs/profile-account-page2.png)
 
   <ol start="2">
   <li>Click the Pencil icon.</li>
   <li>Upload or drag and drop the image you want for your profile from your computer and click the <b>Upload</b> button</li>
 </ol>
 
-[![upload](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/upload-image1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/upload-image1.png)
+[![upload](https://assets.postman.com/postman-docs/upload-image1.png)](https://assets.postman.com/postman-docs/upload-image1.png)
 
 The image you selected appears as your profile image.
 
-[![upload complete](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/profile-pic-complete1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/profile-pic-complete1.png)
+[![upload complete](https://assets.postman.com/postman-docs/profile-pic-complete1.png)](https://assets.postman.com/postman-docs/profile-pic-complete1.png)
 
 
 

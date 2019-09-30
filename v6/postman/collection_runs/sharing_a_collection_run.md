@@ -13,17 +13,17 @@ To export a collection run, click the download icon that appears when you hover 
 
 You can then save the generated JSON file wherever you want.
 
-[![export collection run](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Run_Export.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Run_Export.png)
+[![export collection run](https://assets.postman.com/postman-docs/Collection_Run_Export.png)](https://assets.postman.com/postman-docs/Collection_Run_Export.png)
 
 You also can select a collection run and click the **Export Results** button in the Runner's header. Then save the generated JSON file wherever you want.
 
-[![export results](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Run_Export_Results.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Run_Export_Results.png)
+[![export results](https://assets.postman.com/postman-docs/Collection_Run_Export_Results.png)](https://assets.postman.com/postman-docs/Collection_Run_Export_Results.png)
 
 ## Importing a run
 
 To import a run, click the orange **Import Test Run** button on the Runner's selection screen. This action opens an explorer you can use to navigate and import a JSON collection run.
 
-[![import collection run](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Run_Import_Results.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Run_Import_Results.png)
+[![import collection run](https://assets.postman.com/postman-docs/Collection_Run_Import_Results.png)](https://assets.postman.com/postman-docs/Collection_Run_Import_Results.png)
 
 ---
 For more information about collection runs, see:

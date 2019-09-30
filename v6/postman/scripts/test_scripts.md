@@ -7,13 +7,13 @@ warning: false
 
 With Postman you can write and run tests for each request using the JavaScript language.
 
-[![full tests](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/test_scripts/test_script_descriptions.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/test_scripts/test_script_descriptions.png)
+[![full tests](https://assets.postman.com/postman-docs/test_scripts/test_script_descriptions.png)](https://assets.postman.com/postman-docs/test_scripts/test_script_descriptions.png)
 
 ## Writing Postman tests
 
 A Postman test is essentially JavaScript code executed after the request is sent, allowing access to the `pm.response` object.
 
-[![pm.response](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script6.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script6.png)
+[![pm.response](https://assets.postman.com/postman-docs/Test_script6.png)](https://assets.postman.com/postman-docs/Test_script6.png)
 
 Here are some examples:
 
@@ -57,7 +57,7 @@ Postman tests run in a sandboxed environment, which is separate from the executi
 
 While there are very few things to remember when writing tests, Postman tries to make the process easier by listing commonly used snippets next to the editor. You can select the snippet you want to add and the appropriate code populates in the test editor. This is a great way to quickly build test cases.
 
-[![snippets](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script7.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script7.png)
+[![snippets](https://assets.postman.com/postman-docs/Test_script7.png)](https://assets.postman.com/postman-docs/Test_script7.png)
 
 ## Viewing results
 
@@ -73,6 +73,6 @@ You can add test scripts to a collection, a folder, or a single request within a
 
 Collection and folder scripts can be updated in the collection or folder details respectively. Click on the ellipsis (...) next to the collection or folder name, and select “Edit” to open the modal. Select the **Tests** tab to add and update the scripts. You can also add collection scripts when initially creating the collection.
 
-[![test scripts for folder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script8.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script8.png)
+[![test scripts for folder](https://assets.postman.com/postman-docs/Test_script8.png)](https://assets.postman.com/postman-docs/Test_script8.png)
 
 Read more about [the execution order of scripts](/docs/postman/scripts/intro_to_scripts/#execution-order-of-scripts).

@@ -10,7 +10,7 @@ You can manage personal and team Workspaces, and the Postman elements (collectio
 
 In the Postman app, click any Workspace that displays in the header bar. In the image below, it's "Team Workspace".
 
-[![manage workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-mainScreen-teamenu.png)
+[![manage workspaces](https://assets.postman.com/postman-docs/WS-mainScreen-teamenu.png)](https://assets.postman.com/postman-docs/WS-mainScreen-teamenu.png)
 
 Click "Manage" to display the [Workspaces dashboard](https://app.getpostman.com/dashboard) in your web browser.
 
@@ -18,7 +18,7 @@ Click "Manage" to display the [Workspaces dashboard](https://app.getpostman.com/
 
 By default, the personal Workspaces view appears. 
 
-[![add to workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-elipsis-menu-personal.png)
+[![add to workspaces](https://assets.postman.com/postman-docs/WS-elipsis-menu-personal.png)](https://assets.postman.com/postman-docs/WS-elipsis-menu-personal.png)
 
 In this view, click the **Add to workspace** button to [add collections or environments from another Workspace](/docs/postman/workspaces/using_workspaces/) to the selected Workspace. You can also perform this action in the team Workspace view.
 
@@ -62,7 +62,7 @@ If you click the **Share** button, you can [share this collection](/docs/postman
 
 If you click the ***Ellipsis (...)*** button, you can [remove any element](/docs/postman/workspaces/using_workspaces/#deleting-elements-in-a-workspace) from the Workspace, and [publish](/docs/postman/workspaces/using_workspaces/) collections.
 
-[![workspace elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-publish-or-removepWS.png)
+[![workspace elements](https://assets.postman.com/postman-docs/WS-publish-or-removepWS.png)](https://assets.postman.com/postman-docs/WS-publish-or-removepWS.png)
 
 Let's explore how to manage Workspace elements.
 

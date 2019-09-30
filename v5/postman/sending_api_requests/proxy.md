@@ -11,11 +11,11 @@ A proxy server acts as a security barrier between your internal network and the 
 
 In basic web speak, a client makes a request to the server, and the server sends back a response.
 
-[![standard request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy.request.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy.request.png)
+[![standard request](https://assets.postman.com/postman-docs/proxy.request.png)](https://assets.postman.com/postman-docs/proxy.request.png)
 
 A proxy server is an application or system that acts as an intermediary between your computer and the internet, or more specifically, the client and server. The proxy makes requests on your behalf to websites, servers, and other internet services.
 
-[![standard web proxy](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy.standard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy.standard.png)
+[![standard web proxy](https://assets.postman.com/postman-docs/proxy.standard.png)](https://assets.postman.com/postman-docs/proxy.standard.png)
 
 The proxy can reside on your local machine, somewhere in your network, or at any point between your client and the destination server on the internet.
 
@@ -50,7 +50,7 @@ Use the **system proxy** if all of your applications need to use the same proxy.
 
 To configure the proxy settings, click the wrench icon on the right side of the header toolbar, choose “Settings”, and select the **Proxy** tab.
 
-[![settings modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy_settings.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy_settings.png)
+[![settings modal](https://assets.postman.com/postman-docs/proxy_settings.png)](https://assets.postman.com/postman-docs/proxy_settings.png)
 
 ### Using custom proxy
 
@@ -60,7 +60,7 @@ Postman allows you to configure **custom proxy settings** that direct Postman to
 1. The proxy server sends the request to the server.
 1. The server returns a response back through the proxy server.
 
-[![custom proxy](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/custom.proxy2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/custom.proxy2.png)
+[![custom proxy](https://assets.postman.com/postman-docs/custom.proxy2.png)](https://assets.postman.com/postman-docs/custom.proxy2.png)
 
 Custom proxy settings are disabled by default and can be turned on using the toggle switch.
 
@@ -68,7 +68,7 @@ Choose the type of proxy server by checking the appropriate checkboxes. By defau
 
 In the first field under **Proxy Server**, enter the **host** or **IP address** (without protocol) of the proxy server. In the second field under **Proxy Server**, enter the **port** of the proxy server.
 
-[![custom proxy](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy_custom.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy_custom.png)
+[![custom proxy](https://assets.postman.com/postman-docs/proxy_custom.png)](https://assets.postman.com/postman-docs/proxy_custom.png)
 
 ### Using system proxy
 
@@ -78,12 +78,12 @@ If all of your applications need to use the same proxy, you might have a default
 1. The system proxy server sends the request to the server.
 1. The server returns a response back through the proxy server.
 
-[![system proxy](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/system-proxy2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/system-proxy2.png)
+[![system proxy](https://assets.postman.com/postman-docs/system-proxy2.png)](https://assets.postman.com/postman-docs/system-proxy2.png)
 
 System proxy settings are enabled by default. Any request made through Postman will go through the system proxy.
 
 You can turn this setting on and off using the toggle switch. When turned off, all the requests are made directly. However, regardless of the proxy setting in the app, Postman will still use the system proxy if there is an environment variable set. 
 
-[![system proxy](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy_system.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy_system.png)
+[![system proxy](https://assets.postman.com/postman-docs/proxy_system.png)](https://assets.postman.com/postman-docs/proxy_system.png)
 
 **NOTE:** If the **System Proxy** and the **Custom Proxy** are both turned on, then the **Custom Proxy** will take precedence.

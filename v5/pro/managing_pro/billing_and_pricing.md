@@ -23,7 +23,7 @@ Postman Pro teams can choose between 2 billing cycles:
 
 Annual teams can increase their team size to invite more users at any time. Head to the [teams page](https://go.postman.co/team), and click 'Add users'. If you have a saved card, you'll be able to select the number of paid slots you want to add, and have the changes take effect instantly. 
 
-  [![add users](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/addUsers.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/addUsers.jpg)
+  [![add users](https://assets.postman.com/postman-docs/addUsers.jpg)](https://assets.postman.com/postman-docs/addUsers.jpg)
 
 You'll be charged for the remainder of the billing cycle on a pro-rated basis. For example, if you add 3 more users 6 months into your billing cycle, you'll be charged ($37.5/user * 3 users) $112.50, since you're only using the additional 3 users for 6 months. If you don't have a saved card, you'll need to contact us for invoice-based payment.
 

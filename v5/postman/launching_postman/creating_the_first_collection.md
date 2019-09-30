@@ -14,6 +14,6 @@ Let's pick up where we left off after [sending our first request](/docs/postman/
 *   As an optional step, enter a request description in plain text or using [Markdown](/docs/postman/collections/using_markdown_for_descriptions/).
 *   Now, save this request to an existing collection, or create a new collection by entering a collection name, and then hit **Save**.
 
-[![save request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59063125.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59063125.png)
+[![save request](https://assets.postman.com/postman-docs/59063125.png)](https://assets.postman.com/postman-docs/59063125.png)
 
 Congratulations! You can see all of your collections under the **Collections** tab of the sidebar on the left.

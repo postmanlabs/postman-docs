@@ -8,7 +8,7 @@ warning: false
 
     The reports are not generated real-time. They may show you a lag of a few minutes to 24 hours. You can view the last updated time to know the time when the reports were last refreshed:
 
-    [![team api req](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-LastUpdated.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-LastUpdated.png)
+    [![team api req](https://assets.postman.com/postman-docs/Reports-LastUpdated.png)](https://assets.postman.com/postman-docs/Reports-LastUpdated.png)
 
 1. What kind of reports can I see now?
 
@@ -48,7 +48,7 @@ warning: false
 
         Team API requests are the count of requests sent over a period of time. The summary average is calculated by taking into account all the days (even if no request is sent during a day). Let's consider the following example:
 
-        [![team api req](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-TeamAPI.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-TeamAPI.png)
+        [![team api req](https://assets.postman.com/postman-docs/Reports-TeamAPI.png)](https://assets.postman.com/postman-docs/Reports-TeamAPI.png)
 
         In the example above, 15 requests were sent on Jun 12. Over the next six days, no requests were sent. The 7-day average is 2.14 (15/7).
 
@@ -56,7 +56,7 @@ warning: false
 
         The average response size is calculated based on the size of the response and the number of requests sent on a particular day. The following screen illustrates this:
 
-        [![team api req](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-AvgResp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-AvgResp.png)
+        [![team api req](https://assets.postman.com/postman-docs/Reports-AvgResp.png)](https://assets.postman.com/postman-docs/Reports-AvgResp.png)
 
         In the above screen, the response size is shown for Jun 12. No request is sent on other dates in the graph.
 
@@ -64,7 +64,7 @@ warning: false
 
         The average response time is calculated based on the time taken to return the response of the request and the number of requests sent on a particular day. The following screen illustrates this:
 
-        [![team api req](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-AvgRespTime.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Reports-AvgRespTime.png)
+        [![team api req](https://assets.postman.com/postman-docs/Reports-AvgRespTime.png)](https://assets.postman.com/postman-docs/Reports-AvgRespTime.png)
 
         In the above screen, the response time is shown for Jun 12. No response is received on other dates because no request is sent.
 
@@ -90,4 +90,4 @@ warning: false
 
     You must enable the setting **Save Responses** in the **History** tab. By default, it’s not enabled.
 
-    [![save response](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/History_Response_Jun18.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/History_Response_Jun18.png)
+    [![save response](https://assets.postman.com/postman-docs/History_Response_Jun18.png)](https://assets.postman.com/postman-docs/History_Response_Jun18.png)

@@ -28,13 +28,13 @@ Postman Pro and Enterprise users can use the Team Library to enhance collaborati
 
 To use your Team Library, open the Postman app and click the **Team Library** tab on the header bar.
 
-[![team library](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/team_library.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/team_library.png)
+[![team library](https://assets.postman.com/postman-docs/team_library.png)](https://assets.postman.com/postman-docs/team_library.png)
 
 ### New Postman Pro or Enterprise users
 
 If you are visiting the Team Library for the first time, you see this screen.
 
-[![team library first view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/team_library_first_view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/team_library_first_view.png)
+[![team library first view](https://assets.postman.com/postman-docs/team_library_first_view.png)](https://assets.postman.com/postman-docs/team_library_first_view.png)
 
 To set up your Team Library:
 
@@ -49,7 +49,7 @@ When you share your first collection, your 7-day Postman Pro trial is activated.
 
 If you are on a Postman [Pro](/docs/postman_pro/what_is_pro/) or [Enterprise](/docs/postman_enterprise/intro_to_enterprise/) team, or if you have activated your 7-day Postman Pro trial, you see this screen when you click the **Team Library** tab for the first time.
 
-[![team library first view for team](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/team_library_first_view_for_team.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/team_library_first_view_for_team.png)
+[![team library first view for team](https://assets.postman.com/postman-docs/team_library_first_view_for_team.png)](https://assets.postman.com/postman-docs/team_library_first_view_for_team.png)
 
 To set up your Team Library:
 
@@ -57,4 +57,4 @@ To set up your Team Library:
 1. Add the email addresses of the users you want to invite in the input field on top of the screen.
 1. Click the **Invite these users to your team** button to share collections and collaborate with your team more efficiently.
 
-[![team library view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/team_library_view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/team_library_view.png)
+[![team library view](https://assets.postman.com/postman-docs/team_library_view.png)](https://assets.postman.com/postman-docs/team_library_view.png)

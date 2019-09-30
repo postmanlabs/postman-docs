@@ -26,15 +26,15 @@ This section explains different ways of creating a team workspace and inviting o
 
 You can use the invite button displayed prominently adjacent to the Workspace Switcher. The Invite button is shown below:
 
-[![invite button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Invite-Button.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Invite-Button.png)
+[![invite button](https://assets.postman.com/postman-docs/Invite-Button.png)](https://assets.postman.com/postman-docs/Invite-Button.png)
 
 Click Invite. The following screen opens:
 
-[![invite team member](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/InvitetoTeam1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/InvitetoTeam1.png)
+[![invite team member](https://assets.postman.com/postman-docs/InvitetoTeam1.png)](https://assets.postman.com/postman-docs/InvitetoTeam1.png)
 
 Enter the email id of the person you’d like to invite to your team workspace and click Add. Once the email appears as shown below, click Invite to team button.
 
-[![add email](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Email_add.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Email_add.png)
+[![add email](https://assets.postman.com/postman-docs/Email_add.png)](https://assets.postman.com/postman-docs/Email_add.png)
 
 The invitee will be part of the team after accepting the invitation.
 
@@ -44,11 +44,11 @@ The invitee will be part of the team after accepting the invitation.
 
 You can straightaway create a team workspace using Create New option in the Workspace Switcher.
 
-[![create new workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/MyWorkspace1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/MyWorkspace1.png)
+[![create new workspace](https://assets.postman.com/postman-docs/MyWorkspace1.png)](https://assets.postman.com/postman-docs/MyWorkspace1.png)
 
 Click Create New in the above screen. The following screen opens:
 
-[![create workspace](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/CreateNewWorkspace.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/CreateNewWorkspace.png)
+[![create workspace](https://assets.postman.com/postman-docs/CreateNewWorkspace.png)](https://assets.postman.com/postman-docs/CreateNewWorkspace.png)
 
 Specify a name in the Name field. Input any details for Summary and select Team under Type. The Team option appears highlighted in orange color indicating its selection. Note that the Invite members to this workspace option is available only for Team workspaces.
 
@@ -68,11 +68,11 @@ Postman allows you to collaborate with other team members on up to 25 shared req
 
 You can check the number of requests you shared using some of the features in Postman like usage drop-down and through the Dashboard. The usage drop-down is accessible through the upgrade button on top right corner. It is shown below:
 
-[![usage drop-down](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Usage+drop-down.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Usage+drop-down.png)
+[![usage drop-down](https://assets.postman.com/postman-docs/Usage+drop-down.png)](https://assets.postman.com/postman-docs/Usage+drop-down.png)
 
 This section illustrates this procedure. Click the arrow next to upgrade button on top right corner of your Postman main screen. The following screen appears:
 
-[![usage info](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/UsageInfo1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/UsageInfo1.png)
+[![usage info](https://assets.postman.com/postman-docs/UsageInfo1.png)](https://assets.postman.com/postman-docs/UsageInfo1.png)
 
 The above screen provides you all the information related to your usage such as shared requests, history, mock usage and so on.
 
@@ -80,13 +80,13 @@ The above screen provides you all the information related to your usage such as 
 
  Postman archives your collections after you reach your usage limit just to enable you to keep sharing your important collections ensuring your work does not come to a complete standstill. Postman keeps notifying you from time to time as your collections get archived, something like this:
 
-[![archived message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ArchiveMsg1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ArchiveMsg1.png)  
+[![archived message](https://assets.postman.com/postman-docs/ArchiveMsg1.png)](https://assets.postman.com/postman-docs/ArchiveMsg1.png)  
 
 Let’s say you have four collections HealthCheckAPI, DNS Checker, Link Checker, Lunch Picker, and Github-Support-Issues-Alert with each having a set of requests. When you exceed your limit, Postman first analyzes your collections based on the oldest edited collection and archives the entire collection. Assuming HealthCheckAPI is the oldest edited collection (edited about four days ago) for instance, all requests related to HealthCheckAPI get archived.
 
 If you are still over the limit, Postman then analyzes the next oldest collection and archives Github-Support-Issues-Alert because it is the next oldest (edited about, let's say, three days ago). In an attempt to allow you to continuously share your work, Postman keeps a tab on the share limit to ensure your work is uninterrupted. Postman indicates the number of your archived collections at the bottom of the sidebar as illustrated in the screen below:
 
-[![archived message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ArchiveMsg2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ArchiveMsg2.png)  
+[![archived message](https://assets.postman.com/postman-docs/ArchiveMsg2.png)](https://assets.postman.com/postman-docs/ArchiveMsg2.png)  
 
 The above screen displays six archived collections.
 
@@ -94,23 +94,23 @@ The above screen displays six archived collections.
 
 As Postman archives your collections, you might want to recover your collections for your reference and use. To recover your collections, in the Postman main screen, click ARCHIVED COLLECTIONS, as illustrated below:
 
-[![archived message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ArchiveMsg2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ArchiveMsg2.png)  
+[![archived message](https://assets.postman.com/postman-docs/ArchiveMsg2.png)](https://assets.postman.com/postman-docs/ArchiveMsg2.png)  
 
 You are now redirected to the Postman web dashboard, as illustrated in the following screen:
 
-[![export data1](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Recovering_ArchivedCol1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Recovering_ArchivedCol1.png)
+[![export data1](https://assets.postman.com/postman-docs/Recovering_ArchivedCol1.png)](https://assets.postman.com/postman-docs/Recovering_ArchivedCol1.png)
 
 This screen lists all your archived collections. Click Download Your Data on top right corner to bring up the following screen:
 
-[![export data2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Recovering_ArchivedCol2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Recovering_ArchivedCol2.png)
+[![export data2](https://assets.postman.com/postman-docs/Recovering_ArchivedCol2.png)](https://assets.postman.com/postman-docs/Recovering_ArchivedCol2.png)
 
 Click Request data archive on top right corner. The following screen appears:
 
-[![request data archive](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Req_Data_Archive1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Req_Data_Archive1.png)  
+[![request data archive](https://assets.postman.com/postman-docs/Req_Data_Archive1.png)](https://assets.postman.com/postman-docs/Req_Data_Archive1.png)  
 
 Once you request, your request will be acknowledged and in due course your request appears under Requested Archives section from where you can click Download button and get your data, as illustrated here:
 
-[![Download Data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Download_Data1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Download_Data1.png)
+[![Download Data](https://assets.postman.com/postman-docs/Download_Data1.png)](https://assets.postman.com/postman-docs/Download_Data1.png)
 
 Alternatively, you can also download your archived data directly from the Postman App. To know more about this, refer to [Settings](/docs/postman/launching_postman/settings/) section.
 

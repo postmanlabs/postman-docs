@@ -216,11 +216,11 @@ pm.sendRequest("https://postman-echo.com/get", function (err, response) {
 
 JSON files are composed of key/value pairs.
 
-[Download JSON file](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/test_data_file.json)
+[Download JSON file](https://assets.postman.com/postman-docs/test_data_file.json)
 
 For CSV files, the top row needs to contain variable names.
 
-[Download CSV file](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/test_data_file.csv)
+[Download CSV file](https://assets.postman.com/postman-docs/test_data_file.csv)
 
 ---
 

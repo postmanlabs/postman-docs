@@ -19,11 +19,11 @@ This topic only covers how to create a mock with the **New** button and the Laun
 
 In the header toolbar, click the **New** button.
 
-[![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Header_Toolbar_New.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Header_Toolbar_New.png)
+[![new button](https://assets.postman.com/postman-docs/Header_Toolbar_New.png)](https://assets.postman.com/postman-docs/Header_Toolbar_New.png)
 
 The Create New tab appears.
 
-[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Create_New_Tab_Updated.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Create_New_Tab_Updated.png)
+[![create screen](https://assets.postman.com/postman-docs/Create_New_Tab_Updated.png)](https://assets.postman.com/postman-docs/Create_New_Tab_Updated.png)
 
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the Create New tab to display each time you open Postman.
 
@@ -31,7 +31,7 @@ Click "Mock Server".
 
 Select if you want to mock a new API or an existing or team collection. If you create a new API to mock, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection to mock, you must select a collection from a list of existing or team collections.
 
-[![config mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Create_New_Tab_Updated2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Create_New_Tab_Updated2.png)
+[![config mock](https://assets.postman.com/postman-docs/Create_New_Tab_Updated2.png)](https://assets.postman.com/postman-docs/Create_New_Tab_Updated2.png)
 
 After you select or create the request you want to mock, click the **Next** button.
 
@@ -44,13 +44,13 @@ In the Configure mock server tab, you must:
 
 **Note**: The number of calls made to mock servers might be limited by your Postman account. Check your [usage limits](https://go.postman.co/usage).
 
-[![configTab mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Mock-Collection-Version1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Mock-Collection-Version1.png)
+[![configTab mock](https://assets.postman.com/postman-docs/Mock-Collection-Version1.png)](https://assets.postman.com/postman-docs/Mock-Collection-Version1.png)
 
 Click the **Create** button.
 
 In the Next steps tab, see a list of suggested next steps to maximize the effectiveness of your mock server.
 
-[![next mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-next-steps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-next-steps.png)
+[![next mock](https://assets.postman.com/postman-docs/WS-next-steps.png)](https://assets.postman.com/postman-docs/WS-next-steps.png)
 
 ## Launch screen
 
@@ -89,21 +89,21 @@ You can edit existing Mock Servers in Postman since version `7.7.0`. These are t
 * Environment associated with the Mock Server
 * Make the Mock Server private or public
 
-![Postman Mock Server edit options](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mocks/mock-edit-modal.png)
+![Postman Mock Server edit options](https://assets.postman.com/postman-docs/mocks/mock-edit-modal.png)
 
 There are three ways you can edit a mock server. You can either edit a Mock Server from the Collection pane, through the Mock Server listing in Browse mode, or through the web dashboard of your Workspace's Mock Servers section.
 
 Editing Mocks in Build mode:
 
-![Postman Mock Server edit in Build mode](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mocks/mock-edit-build.png)
+![Postman Mock Server edit in Build mode](https://assets.postman.com/postman-docs/mocks/mock-edit-build.png)
 
 Editing Mocks in Browse mode:
 
-![Postman Mock Server edit in Browse mode](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mocks/mock-edit-browse.png)
+![Postman Mock Server edit in Browse mode](https://assets.postman.com/postman-docs/mocks/mock-edit-browse.png)
 
 Editing Mocks from the Web Dashboard:
 
-![Postman Mock Server edit in Build mode](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mocks/mock-edit-web-dashboard.png)
+![Postman Mock Server edit in Build mode](https://assets.postman.com/postman-docs/mocks/mock-edit-web-dashboard.png)
 
 ## Further reading
 

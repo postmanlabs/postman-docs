@@ -20,29 +20,29 @@ Postman can export and import the following formats as a file or generated URL.�
 
 ### Collections
 
-[![export collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view.png)
+[![export collection](https://assets.postman.com/postman-docs/WS-collections-view.png)](https://assets.postman.com/postman-docs/WS-collections-view.png)
 
 Postman can export collections in two formats - v1 and v2. Both Collection v1 and v2 download as JSON files; v2 is more versatile and the most-used choice. Learn more about the [v1 and v2 formats](https://blog.getpostman.com/2015/06/05/travelogue-of-postman-collection-format-v2/).
 
-[![select v1 or v2 format](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-export-collection1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-export-collection1.png)
+[![select v1 or v2 format](https://assets.postman.com/postman-docs/WS-export-collection1.png)](https://assets.postman.com/postman-docs/WS-export-collection1.png)
 
 ### Environments
 
 Environments can be exported from the **MANAGE ENVIRONMENTS** modal, and imported here as well.
 
-[![export environments](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-environments2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-environments2.png)
+[![export environments](https://assets.postman.com/postman-docs/WS-manage-environments2.png)](https://assets.postman.com/postman-docs/WS-manage-environments2.png)
 
 ### Data dumps
 
 From the **Data** tab of the **SETTINGS** modal, Postman allows you to export all collections, environments, globals and header presets into one JSON file. Postman does not export your history. You can import this data back into Postman.
 
-[![export all Postman data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-dumps-settings.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-dumps-settings.png)
+[![export all Postman data](https://assets.postman.com/postman-docs/WS-data-dumps-settings.png)](https://assets.postman.com/postman-docs/WS-data-dumps-settings.png)
 
 ## Importing Postman data
 
 Postman data can be imported from the **Data** tab of the **SETTINGS** modal, or using the **Import** button in the header toolbar. Import a collection, environment, data dump, curl command, or a RAML / WADL / OpenAPI (v1/v2) / Runscope file using the **IMPORT** modal.
 
-[![import data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-importButton.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-importButton.png)
+[![import data](https://assets.postman.com/postman-docs/WS-importButton.png)](https://assets.postman.com/postman-docs/WS-importButton.png)
 
 ## Importing cURL
 
@@ -77,17 +77,17 @@ A few commands which can be imported include:
 1. Clone the repository containing the RAML definition to your local machine, or save it locally as a folder.
 
 2. Click on the Import button, and choose the Import Folder tab.
-   [![import button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view-raml-1a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view-raml-1a.png)
+   [![import button](https://assets.postman.com/postman-docs/WS-collections-view-raml-1a.png)](https://assets.postman.com/postman-docs/WS-collections-view-raml-1a.png)
 
 3. Click on **Choose Files** and upload the RAML folder.
 
 You're done! Postman will detect all the RAML definitions and convert them internally to Postman and then show you an import success message.
 
-[![confirmation message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-format-raml-2a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-format-raml-2a.png)
+[![confirmation message](https://assets.postman.com/postman-docs/WS-data-format-raml-2a.png)](https://assets.postman.com/postman-docs/WS-data-format-raml-2a.png)
 
 ### Example RAML
 
-Download an example RAML file: [github-api-v3.raml](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/github-api-v3.raml)
+Download an example RAML file: [github-api-v3.raml](https://assets.postman.com/postman-docs/github-api-v3.raml)
 
 **Note:** RAML 1.0 support is coming soon!
 
@@ -100,13 +100,13 @@ An OpenAPI definition usually lives as a single file, so we only support imports
 1. Clone the repository containing the OpenAPI definition to your local machine. If you have it saved locally as file already, that's fine of course.
 
 1. Click on the Import button, and choose the Import File tab. If you have a lot of unrelated OpenAPI files in a folder, you can import those through the folder importer.
-   [![import button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view-raml-1a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-view-raml-1a.png)
+   [![import button](https://assets.postman.com/postman-docs/WS-collections-view-raml-1a.png)](https://assets.postman.com/postman-docs/WS-collections-view-raml-1a.png)
 
 1. Click on file and upload the OpenAPI file.
 
 You're done! Postman will detect all the OpenAPI definitions and convert them internally to Postman and then show you an import success message.
 
-[![confirmation message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-format-raml-2a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-data-format-raml-2a.png)
+[![confirmation message](https://assets.postman.com/postman-docs/WS-data-format-raml-2a.png)](https://assets.postman.com/postman-docs/WS-data-format-raml-2a.png)
 
 ### OpenAPI files
 

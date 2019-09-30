@@ -15,7 +15,7 @@ To create the Run in Postman button, start in the Postman app. Make sure you are
 
 1. Click on the ellipsis **(...)** next to the collection you would like to embed and select "Share".
 
-    [![share collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/shareCollectionDropdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/shareCollectionDropdown.png)
+    [![share collection](https://assets.postman.com/postman-docs/shareCollectionDropdown.png)](https://assets.postman.com/postman-docs/shareCollectionDropdown.png)
 
 1. Under the **Embed Button** tab, click the **Generate Code** button to upload the collection to the Postman servers.
 

@@ -15,11 +15,11 @@ To use the new search:
 
 2. Click the **Dashboard** button. You’ll see the search bar at the top of the page. You must be signed in to your Postman account to see the **Dashboard** button.
 
-[![search bar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-search-bar.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-search-bar.png)
+[![search bar](https://assets.postman.com/postman-docs/API-search-bar.png)](https://assets.postman.com/postman-docs/API-search-bar.png)
 
 After you enter your search term, you’ll notice the variety of results that display. For example, in the image below you see search results that include folders and requests.
 
-[![search results](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/results-search-dashboard.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/results-search-dashboard.png)
+[![search results](https://assets.postman.com/postman-docs/results-search-dashboard.png)](https://assets.postman.com/postman-docs/results-search-dashboard.png)
 
 **Note**: Postman’s search results can sometimes lag behind the changes made to collections, folders, and requests. If you make a change in the app to an element, such as a collection, you might not see that change appear immediately in your search results. Wait a few minutes for the change to be reflected in search results.
 

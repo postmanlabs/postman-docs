@@ -17,4 +17,4 @@ When all members of a team are not using Workspaces, all shared collections from
 
 You or another team member can click the **Share** button next to the Team Library collection and add it to a Workspace.
 
-[![workaround](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-workspaces-workaround-2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-workspaces-workaround-2.png)
+[![workaround](https://assets.postman.com/postman-docs/WS-workspaces-workaround-2.png)](https://assets.postman.com/postman-docs/WS-workspaces-workaround-2.png)

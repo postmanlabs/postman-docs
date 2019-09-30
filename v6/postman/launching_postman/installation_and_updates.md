@@ -11,7 +11,7 @@ Postman is available as a native app for macOS, Windows (32-bit and 64-bit), and
 
 To get the latest version of the Postman app, go to the [download page](https://www.getpostman.com/downloads/) and click **Download** for macOS / Windows / Linux depending on your platform.
 
-![Postman download page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Download_Screen1.png "Postman download page")
+![Postman download page](https://assets.postman.com/postman-docs/Download_Screen1.png "Postman download page")
 
 ## Postman native apps
 
@@ -19,7 +19,7 @@ To get the latest version of the Postman app, go to the [download page](https:/
 
 Once you’ve downloaded and unzipped the app, double click on Postman. You will be prompted to move file into the "Applications" folder. Click "Move to Applications Folder" to ensure future updates can be installed correctly. The app will open after the prompt.
 
-![Move to Applications Folder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Download_MoveFolder.png "Move to Applications Folder")
+![Move to Applications Folder](https://assets.postman.com/postman-docs/Download_MoveFolder.png "Move to Applications Folder")
 
 ### Windows installation
 
@@ -131,7 +131,7 @@ It's simple. [Sign in to your Postman account](https://app.getpostman.com/) aft
 
 Alternatively, if you don't want to sign in to your Postman account, you can bulk export your Postman data from the Chrome app, and then bulk import into the new native app.
 
-[![import data](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-export-data-settings.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-export-data-settings.png)  
+[![import data](https://assets.postman.com/postman-docs/WS-export-data-settings.png)](https://assets.postman.com/postman-docs/WS-export-data-settings.png)  
 
 ### Bulk export
 
@@ -147,28 +147,28 @@ From the same area in Postman settings, you can initiate a bulk import from a Po
 
 Postman's native apps will notify you when a major update is available. Other updates are indicated by a dot that appears on the settings icon. If the indicator is red instead of orange, it indicates a failed update.
 
-[![settings update indicator](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/39862921-c290dbd0-5462-11e8-85a7-cfaf4141f0d3+(1).png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/39862921-c290dbd0-5462-11e8-85a7-cfaf4141f0d3+(1).png)
+[![settings update indicator](https://assets.postman.com/postman-docs/39862921-c290dbd0-5462-11e8-85a7-cfaf4141f0d3+(1).png)](https://assets.postman.com/postman-docs/39862921-c290dbd0-5462-11e8-85a7-cfaf4141f0d3+(1).png)
 
 Click **Update** to download the latest update. You will be notified when the download is complete prompting you to restart the Postman app to apply the updates. If you're not ready to update yet, click **Later** to auto update after the next app launch.
 
 You can also configure your preferences to enable automatic download for major updates under the **Update** tab within the **SETTINGS** modal. Postman automatically downloads minor updates and bug fixes.
 
-[![set automatic updates in settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auto+update+enable.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/auto+update+enable.png)
+[![set automatic updates in settings](https://assets.postman.com/postman-docs/auto+update+enable.png)](https://assets.postman.com/postman-docs/auto+update+enable.png)
 
 ## Troubleshooting Postman Installation & Updates
 
 ### "Windows protected your PC" warning
 
-[![windows smartscreen warning](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/windows-certificate-issue/cert1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/windows-certificate-issue/cert1.png)
+[![windows smartscreen warning](https://assets.postman.com/postman-docs/windows-certificate-issue/cert1.png)](https://assets.postman.com/postman-docs/windows-certificate-issue/cert1.png)
 
 This warning is expected while installing Postman v7.6.0 and above. Please following the steps below to install the application if you get this warning:
 
 1. Click on "More info"
 2. Click on "Run anyway"
 
-[![step 1](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/windows-certificate-issue/cert2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/windows-certificate-issue/cert2.png)
+[![step 1](https://assets.postman.com/postman-docs/windows-certificate-issue/cert2.png)](https://assets.postman.com/postman-docs/windows-certificate-issue/cert2.png)
 
-[![step 2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/windows-certificate-issue/cert3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/windows-certificate-issue/cert3.png)
+[![step 2](https://assets.postman.com/postman-docs/windows-certificate-issue/cert3.png)](https://assets.postman.com/postman-docs/windows-certificate-issue/cert3.png)
 
 For more details on why this warning is shown by Windows Operating System, please refer [this post](https://community.getpostman.com/t/windows-protected-your-pc-warning-while-installing-postman-for-windows/7474) on our community forum.
 
@@ -180,11 +180,11 @@ Some users may encounter issues updating in the Windows version of Postman 6.1. 
 1. Navigate to `Environment Variables`
 1. Add a new system variable and save by click 'OK'.
 
-[![step 1](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Troubleshootwindows6.1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Troubleshootwindows6.1.png)
+[![step 1](https://assets.postman.com/postman-docs/Troubleshootwindows6.1.png)](https://assets.postman.com/postman-docs/Troubleshootwindows6.1.png)
 
-[![step 2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Troubleshootwindows6.12.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Troubleshootwindows6.12.png)
+[![step 2](https://assets.postman.com/postman-docs/Troubleshootwindows6.12.png)](https://assets.postman.com/postman-docs/Troubleshootwindows6.12.png)
 
-[![step 3](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Troubleshootwindows6.1+(1).png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Troubleshootwindows6.1+(1).png)
+[![step 3](https://assets.postman.com/postman-docs/Troubleshootwindows6.1+(1).png)](https://assets.postman.com/postman-docs/Troubleshootwindows6.1+(1).png)
 
 ## Postman Chrome App
 

@@ -19,7 +19,7 @@ An example is a tightly coupled request and response pair.
 
 For instance, as shown in the image below, '200 OK custom response' is the name of an example. To complete the example, you can mock an 'example request' and an 'example response'.
 
-[![whats an example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/what-is-example.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/what-is-example.jpg)
+[![whats an example](https://assets.postman.com/postman-docs/what-is-example.jpg)](https://assets.postman.com/postman-docs/what-is-example.jpg)
 
 Developers can mock a request and response in Postman before sending the actual request or setting up a single endpoint to return the response.
 
@@ -41,29 +41,29 @@ Developers can make requests to the mock endpoint and start front-end developmen
 
 Suppose you are working on a request that is saved in a [collection](/docs/postman/collections/creating_collections/). You can add examples to this request with a new custom response or the response from the server.
 
-[![start dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-add-examples.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collections-add-examples.png)
+[![start dropdown](https://assets.postman.com/postman-docs/WS-collections-add-examples.png)](https://assets.postman.com/postman-docs/WS-collections-add-examples.png)
 
 ### New custom response
 
 You can create examples that define how the response should look. The image below outlines the steps for creating an example with a new response. Note that the base request is loaded as an 'example request' in the Example editor.
 
-[![adding example with new response](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/add-example-new-response.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/add-example-new-response.jpg)
+[![adding example with new response](https://assets.postman.com/postman-docs/add-example-new-response.jpg)](https://assets.postman.com/postman-docs/add-example-new-response.jpg)
 
 ### Response from the server
 
 After you receive a response from a server, you might want to save the current request and response pair as an example. The steps to save the current request and response pair are similar to creating a new response from scratch. Note that the base request and the response from the server are loaded as the 'example request' and 'example response'.
 
-[![adding example with response from server](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/add-example-server-response.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/add-example-server-response.jpg)
+[![adding example with response from server](https://assets.postman.com/postman-docs/add-example-server-response.jpg)](https://assets.postman.com/postman-docs/add-example-server-response.jpg)
 
 Later you can return to your base request and resume by clicking on the request name in the upper left corner of the builder.
 
-[![going back to the base request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/going-back-to-the-base-request.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/going-back-to-the-base-request.png)
+[![going back to the base request](https://assets.postman.com/postman-docs/going-back-to-the-base-request.png)](https://assets.postman.com/postman-docs/going-back-to-the-base-request.png)
 
 ## Accessing your saved examples
 
 Click on the **Examples** dropdown in the upper right corner of the builder to access all your saved examples.
 
-[![accessing saved examples](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/accessing-saved-examples.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/accessing-saved-examples.jpg)
+[![accessing saved examples](https://assets.postman.com/postman-docs/accessing-saved-examples.jpg)](https://assets.postman.com/postman-docs/accessing-saved-examples.jpg)
 
 ## What happened to the 'Save Response' feature?
 
@@ -71,7 +71,7 @@ Click on the **Examples** dropdown in the upper right corner of the builder to a
 
 You can save responses as before, but now you can edit them whenever you want. To access previously saved responses, click the **Examples** dropdown.
 
-[![accessing saved examples](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/accessing-saved-examples-1.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/accessing-saved-examples-1.jpg)
+[![accessing saved examples](https://assets.postman.com/postman-docs/accessing-saved-examples-1.jpg)](https://assets.postman.com/postman-docs/accessing-saved-examples-1.jpg)
 
 ## How your examples appear in Postman documentation
 
@@ -79,6 +79,6 @@ You can publish Postman [API documentation](/docs/postman/api_documentation/intr
 
 You can edit these examples with real-time updates to the documentation!
 
-[![how examples appear in documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/in-documenter.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/in-documenter.gif)
+[![how examples appear in documentation](https://assets.postman.com/postman-docs/in-documenter.gif)](https://assets.postman.com/postman-docs/in-documenter.gif)
 
 This behavior allows teams to mock an example request and response, in addition to simulating the endpoint using [mock servers](/docs/postman/mock_servers/intro_to_mock_servers/). Front-end and back-end developers and testers can all begin working in parallel, based on the agreed-upon example.

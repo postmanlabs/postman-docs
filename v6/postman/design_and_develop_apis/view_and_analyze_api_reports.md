@@ -30,11 +30,11 @@ You can use Postman API reports to collect and review specific information about
 
 To launch the reporting dashboard, select the API from the APIs tab and click **Reports**. Reports of the selected API will be displayed. The following screen illustrates launching the reporting dashboard:
 
-![reports main(https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Report-Main.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Report-Main.png)
+![reports main(https://assets.postman.com/postman-docs/API-Report-Main.png)](https://assets.postman.com/postman-docs/API-Report-Main.png)
 
 Clicking the **Reports** button launches the following screen:
 
-![reports main(https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Report-Team1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Report-Team1.png)
+![reports main(https://assets.postman.com/postman-docs/API-Report-Team1.png)](https://assets.postman.com/postman-docs/API-Report-Team1.png)
 
 In the above screen, select **Overview** to display organization-level metrics. It provides a statistical overview of the number of new and active APIs, team-size, and active and empty workspaces within a team. Click the corresponding section in the above screen for a detailed overview.
 

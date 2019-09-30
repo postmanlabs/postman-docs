@@ -25,10 +25,10 @@ You can create documentation from the:
 
 1. In the header toolbar, click the **New** button.
 
-[![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-HeaderToolBar-new+button1.png)
+[![new button](https://assets.postman.com/postman-docs/WS-HeaderToolBar-new+button1.png)](https://assets.postman.com/postman-docs/WS-HeaderToolBar-new+button1.png)
 
 The **Create New** tab appears.
-[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-createnewTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-createnewTab.png)
+[![create screen](https://assets.postman.com/postman-docs/documentation-createnewTab.png)](https://assets.postman.com/postman-docs/documentation-createnewTab.png)
 
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
@@ -37,7 +37,7 @@ The **Create New** tab appears.
  <li>Select if you want to create documentation for a new API or an existing or team collection. If you create a new API to document, you must select a request method and enter the request URL, description, and status code. If you use an existing or team collection to document, you must select a collection from a list of existing or team collections.</li>
  </ol>
 
-[![configure docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configure.png)
+[![configure docs](https://assets.postman.com/postman-docs/documentation-configure.png)](https://assets.postman.com/postman-docs/documentation-configure.png)
 
 <ol start="4">
   <li>After you select or create the request you want to document, click the <b>Next</b> button.</li>
@@ -47,7 +47,7 @@ The **Create New** tab appears.
 * Enter the name of the documentation.
 * Add a description of the documentation. You can use markdown to add headings, lists, code snippets, and so on in your description.
 
-[![configureTab docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configureTab.png)
+[![configureTab docs](https://assets.postman.com/postman-docs/documentation-configureTab.png)](https://assets.postman.com/postman-docs/documentation-configureTab.png)
 
  <ol start="6">
   <li>Click the <b>Create</b> button.</li>
@@ -55,7 +55,7 @@ The **Create New** tab appears.
      
 In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your documentation.
 
-[![nextSteps docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-nextsteps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-nextsteps.png)
+[![nextSteps docs](https://assets.postman.com/postman-docs/documentation-nextsteps.png)](https://assets.postman.com/postman-docs/documentation-nextsteps.png)
      
 #### Launch screen
 
@@ -82,7 +82,7 @@ You can customize descriptions using [Markdown](/docs/postman/api_documentation
 
 We support GitHub flavored markdown so you can include tables. When including block elements, make sure you leave an empty line before and after to avoid any rendering issues.
 
-[![example of published documentation](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59167235.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59167235.png)
+[![example of published documentation](https://assets.postman.com/postman-docs/59167235.png)](https://assets.postman.com/postman-docs/59167235.png)
 
 ### Free documentation views with your Postman account
 

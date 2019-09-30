@@ -8,7 +8,7 @@ warning: false
 
 You can manage your billing from the [Billing Overview](https://go.postman.co/billing/overview) page.
 
-[![manage billing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-billing-overview-page.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-billing-overview-page.png)
+[![manage billing](https://assets.postman.com/postman-docs/WS-billing-overview-page.png)](https://assets.postman.com/postman-docs/WS-billing-overview-page.png)
 
 This section outlines how to set the monitoring block count, view your account history, and how to add your payment information.
 
@@ -30,7 +30,7 @@ Pre-purchased blocks of monitoring calls provide a discount, and allow you to se
 
 To set the number of monitoring blocks, click the “Set Monitoring Block Count” CTA in your billing overview or usage pages.
 
-[![monitor block count](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/managingyourbilling2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/managingyourbilling2.png)
+[![monitor block count](https://assets.postman.com/postman-docs/managingyourbilling2.png)](https://assets.postman.com/postman-docs/managingyourbilling2.png)
 
 To set the monitoring block count:
 
@@ -42,7 +42,7 @@ To set the monitoring block count:
 
 When you click the “Account History” link, you can see a chronological list of all your billing activity.
 
-[![monitor block count](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-account-history.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-account-history.png)
+[![monitor block count](https://assets.postman.com/postman-docs/WS-account-history.png)](https://assets.postman.com/postman-docs/WS-account-history.png)
 
 ## Payment Methods
 
@@ -73,7 +73,7 @@ Click the **Edit Invoice Details** button to go to your Team Settings.
 
 In the “Billing Details” section, you can change the email address, company name, address, or VAT, and then save the changes.
 
-[![billing details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/managingyourbilling4.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/managingyourbilling4.png)
+[![billing details](https://assets.postman.com/postman-docs/managingyourbilling4.png)](https://assets.postman.com/postman-docs/managingyourbilling4.png)
 
 ## How to get a copy of an existing invoice
 

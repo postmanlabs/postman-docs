@@ -10,13 +10,13 @@ Let's send our first API request! 
 *   Enter [`postman-echo.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) into the URL field. 
 *   Hit the **Send** button to send your request, and you will see the server response at the bottom with some JSON data. Notice that Postman has added [`postman-echo.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) under the **History** tab of the sidebar. 
 
-[![postman echo example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-first-request.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-first-request.png)
+[![postman echo example](https://assets.postman.com/postman-docs/WS-first-request.png)](https://assets.postman.com/postman-docs/WS-first-request.png)
 
 ### How does this work?
 
 Let's map the process with a simple illustration below:
 
-[![request and response illustration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/1-What+is+a+Request%402x.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/1-What+is+a+Request%402x.png)
+[![request and response illustration](https://assets.postman.com/postman-docs/1-What+is+a+Request%402x.png)](https://assets.postman.com/postman-docs/1-What+is+a+Request%402x.png)
 
 1.  Enter your request details (URL: `postman-echo.com/get`) in Postman, and hit the **Send** button.
 2.  The request is received by the API server (postman-echo.com), and it returns a response.

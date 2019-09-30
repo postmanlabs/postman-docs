@@ -11,13 +11,13 @@ warning: false
 
 *   Head to the [pricing page](https://www.getpostman.com/pricing) on the Postman website, and click "Buy Postman Pro".
 
-    [![buy pro](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pricing.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pricing.png)  
+    [![buy pro](https://assets.postman.com/postman-docs/pricing.png)](https://assets.postman.com/postman-docs/pricing.png)  
 
 *   Select the billing cycle (annual/monthly), and the number of paid users slots. Paid users can use collaboration features, but each team gets 2 free support accounts for admin/billing purposes.
 *   Enter your email, and choose the "billing role". This indicates that the activation email will go to the person entered in the "admin email" field.
 *   Confirm the details, and proceed to payment.
 
-    [![confirm plan details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59191661.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59191661.png)
+    [![confirm plan details](https://assets.postman.com/postman-docs/59191661.png)](https://assets.postman.com/postman-docs/59191661.png)
 
 *   You'll be prompted to enter your name, address, email, and credit card details. For security reasons, Postman does not store any credit card data. This data is stored only by Stripe, our payment provider, who has been audited by a PCI-certified auditor and is certified to PCI Service Provider Level 1, the most stringent level of certification available in the payments industry.
 *   **Remember** - your card will automatically be charged monthly/annually, depending on your billing cycle. Additional charges for your account, such as monitoring overages, will also be made to this card.
@@ -30,13 +30,13 @@ warning: false
 
 *   Head to the [pricing page](https://www.getpostman.com/pricing) on the Postman website, and click "Buy Postman Pro".
     
-    [![buy pro](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pricing.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pricing.png)  
+    [![buy pro](https://assets.postman.com/postman-docs/pricing.png)](https://assets.postman.com/postman-docs/pricing.png)  
 
 *   Select the billing cycle (annual/monthly), and the number of paid users slots. Paid users can use collaboration features, but each team gets 2 free support accounts for admin/billing purposes.
 *   Enter your email, and choose the "admin role".
 *   Confirm your details, and proceed to payment.
 
-    [![confirm plan details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59191782.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59191782.png)  
+    [![confirm plan details](https://assets.postman.com/postman-docs/59191782.png)](https://assets.postman.com/postman-docs/59191782.png)  
 
 *   You'll be prompted to enter your name, address, email, and credit card details. For security reasons, Postman does not store any credit card data. This data is stored only by Stripe, our payment provider, who has been audited by a PCI-certified auditor and is certified to PCI Service Provider Level 1, the most stringent level of certification available in the payments industry.
 *   **Remember** - your card will automatically be charged monthly/annually, depending on your billing cycle. Additional charges for your account, such as monitoring overages, will also be made to this card.
@@ -47,12 +47,12 @@ warning: false
 
 *   Head to the [team plans page](https://app.getpostman.com/dashboard/team-plans), and click "Upgrade to Pro".
     
-    [![upgrade to pro](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59191884.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59191884.png)
+    [![upgrade to pro](https://assets.postman.com/postman-docs/59191884.png)](https://assets.postman.com/postman-docs/59191884.png)
 
 *   Select the billing cycle (annual/monthly), and the number of paid users slots. Paid users can use collaboration features, but each team gets 2 free support accounts for admin/billing purposes.
 *   Enter your email, and proceed to payment.
 
-    [![confirm plan details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59191943.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59191943.png)
+    [![confirm plan details](https://assets.postman.com/postman-docs/59191943.png)](https://assets.postman.com/postman-docs/59191943.png)
 
 *   You'll be prompted to enter your name, address, email, and credit card details. For security reasons, Postman does not store any credit card data. This data is stored only by Stripe, our payment provider, who has been audited by a PCI-certified auditor and is certified to PCI Service Provider Level 1, the most stringent level of certification available in the payments industry.
 
@@ -62,4 +62,4 @@ warning: false
 
     *   Click "Invite Users" to start adding people to your Pro team!
 
-        [![invite users](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59192001.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59192001.png)
+        [![invite users](https://assets.postman.com/postman-docs/59192001.png)](https://assets.postman.com/postman-docs/59192001.png)

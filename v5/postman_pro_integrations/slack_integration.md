@@ -36,20 +36,20 @@ The Postman Monitor to Slack connection allows you to pipe any set of Monitoring
 
 From the [Integrations page][1], select the Slack Integration:
 
-[![Slack Integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/slackINT.png)][2]
+[![Slack Integration](https://assets.postman.com/postman-docs/slackINT.png)][2]
 
 Click `Add` next to the Integration you’d like to activate:
 
-[![Add Slack Integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/slack_add.png)][3]
+[![Add Slack Integration](https://assets.postman.com/postman-docs/slack_add.png)][3]
 
 Authenticate with Slack and if prompted, choose a Slack channel to post results to:
 
-[![Slack Authorization](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/slack_auth.png)][4]
+[![Slack Authorization](https://assets.postman.com/postman-docs/slack_auth.png)][4]
 
 And you’re done!
 
 [0]: http://blog.getpostman.com/2016/10/27/new-more-useful-activity-feed-in-postman-collections/
 [1]: https://app.getpostman.com/dashboard/integrations
-[2]: https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/slackINT.png
-[3]: https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/slack_add.png
-[4]: https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/slack_auth.png
+[2]: https://assets.postman.com/postman-docs/slackINT.png
+[3]: https://assets.postman.com/postman-docs/slack_add.png
+[4]: https://assets.postman.com/postman-docs/slack_auth.png

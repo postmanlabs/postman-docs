@@ -31,11 +31,11 @@ By default, members who set up the team for themselves will be granted all three
 
 An admin can modify the roles of other team members (except billing) in the [Team page](https://go.postman.co/team).
 
-  [![manage settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/New_InviteUsers.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/New_InviteUsers.png)
+  [![manage settings](https://assets.postman.com/postman-docs/New_InviteUsers.png)](https://assets.postman.com/postman-docs/New_InviteUsers.png)
 
 When an admin clicks the **Manage Roles** button, a list of team members appears. The admin selects a user and clicks the button for the new role. In the image below, the admin would click the **Billing** button to assign that role to the user. Then the admin clicks the **Done** button on the top of the page to complete the process.
 
-  [![manage settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-manageRoles.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-manageRoles.png)
+  [![manage settings](https://assets.postman.com/postman-docs/PRO-manageRoles.png)](https://assets.postman.com/postman-docs/PRO-manageRoles.png)
 
 Keep in mind a few restrictions:
 
@@ -53,23 +53,23 @@ In the [Team page](https://go.postman.co/team), click the **Invite Users** butto
 
 Enter the email address of the user you want to invite, and click the **Invite Users** to complete the process.
 
- [![invite users](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-invite-users3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/PRO-invite-users3.png)
+ [![invite users](https://assets.postman.com/postman-docs/PRO-invite-users3.png)](https://assets.postman.com/postman-docs/PRO-invite-users3.png)
 
 ### Inviting members to team Workspaces in Dashboard
 
 In the Workspace page, click on the ellipsis icon in the upper right corner. Select "Manage Members" and enter the email address or username of the user you want to **(...)** invite under the "Members" section, then press enter. When you are done adding users, click **Save Changes**. **Note:** Adding users outside the team will invite them to join the team.
 
-[![invite via Dashboard](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+5.23.20+PM.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+5.23.20+PM.png)
+[![invite via Dashboard](https://assets.postman.com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+5.23.20+PM.png)](https://assets.postman.com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+5.23.20+PM.png)
 
 ### Inviting members to team Workspaces in the Native App
 
 Under the Workspaces dropdown click on the ellipsis **(...)** icon that appears when hovering over a team workspace and select "Manage Members". If you are in **Browse** mode, the ellipsis **(...)** icon is located in the upper right corner of the Team Workspace page, similar to the Dashboard.
 
- [![invite via App](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+2.34.21+PM.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+2.34.21+PM.png)
+ [![invite via App](https://assets.postman.com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+2.34.21+PM.png)](https://assets.postman.com/postman-docs/docs6.1update/Screen+Shot+2018-05-09+at+2.34.21+PM.png)
 
 Enter the email address or username of the user you want to invite under the "Invite Members" section, then click **Add**. When you are done adding users, click **Save Changes**. **Note:** Adding users outside the team will invite them to join the team.
 
-[![invite via App Panel](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/emailinvitereshoot.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/emailinvitereshoot.png)
+[![invite via App Panel](https://assets.postman.com/postman-docs/emailinvitereshoot.png)](https://assets.postman.com/postman-docs/emailinvitereshoot.png)
 
 ### Canceling invitations
 

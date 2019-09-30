@@ -19,27 +19,27 @@ Create an account or use a preexisting one to log in to [PagerDuty](https://app.
 In the header toolbar, click "Configuration" and select "Services".  
 If you are creating a new service for this integration, click "Add New Service".
 
-[![pagerduty menu](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_menu.png)
+[![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty_menu.png)](https://assets.postman.com/postman-docs/pagerduty_menu.png)
 
 Enter your "Service Name" and choose Postman as the Integration Type.
 
 Click the "Add Service" link at the bottom of the page to create a new service.
 
-[![pagerduty service](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_service.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_service.png)
+[![pagerduty service](https://assets.postman.com/postman-docs/pagerduty_service.png)](https://assets.postman.com/postman-docs/pagerduty_service.png)
 
  Save the PagerDuty Integration Key to use later.
 
-[![pagerduty key](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_key.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_key.png)
+[![pagerduty key](https://assets.postman.com/postman-docs/pagerduty_key.png)](https://assets.postman.com/postman-docs/pagerduty_key.png)
 
 ## Configuring Postman Pro with PagerDuty
 
 1. In the [Integrations page](https://go.postman.co/workspaces), find PagerDuty from a list of Postman's 3rd party Integrations for Postman Pro users.
 
-  [![select pagerduty integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-pagerduty1.png)
+  [![select pagerduty integration](https://assets.postman.com/postman-docs/integrations-pagerduty1.png)](https://assets.postman.com/postman-docs/integrations-pagerduty1.png)
 
 1. Click the **View Details** button to see information about PagerDuty.
 
-   [![select pagerduty integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-pagerduty-details.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-pagerduty-details.png)
+   [![select pagerduty integration](https://assets.postman.com/postman-docs/WS-integrations-pagerduty-details.png)](https://assets.postman.com/postman-docs/WS-integrations-pagerduty-details.png)
 
    You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for PagerDuty, or view all integrations.
 
@@ -53,10 +53,10 @@ To add a team activity feed to PagerDuty:
 1. In the **Team Activity Feed** page, choose the Monitor you want to send to PagerDuty.
 1. Enter your Pagerduty Integration Key and click the **Add Integration** button.
 
-[![pagerduty monrun](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-pagerduty-monrun.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-pagerduty-monrun.png)
+[![pagerduty monrun](https://assets.postman.com/postman-docs/WS-integrations-pagerduty-monrun.png)](https://assets.postman.com/postman-docs/WS-integrations-pagerduty-monrun.png)
 
 ## Viewing PagerDuty results
 
 The PagerDuty console will continuously update to display any incidents that result from your Postman Monitors. If the selected Monitor fails, you’ll receive notifications on PagerDuty according to the formatting and business rules you’ve already set.
 
-[![pagerduty results](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_results.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/pagerduty_results.png)
+[![pagerduty results](https://assets.postman.com/postman-docs/pagerduty_results.png)](https://assets.postman.com/postman-docs/pagerduty_results.png)

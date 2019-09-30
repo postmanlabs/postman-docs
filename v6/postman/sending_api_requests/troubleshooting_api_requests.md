@@ -7,7 +7,7 @@ warning: false
 
 There might be cases when your API doesn't work, or exhibits unexpected behavior. If you're not getting any response, Postman will display a message about an error in connecting to the server.
 
-[![no response message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-troubleshooting-APIs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-troubleshooting-APIs.png)
+[![no response message](https://assets.postman.com/postman-docs/WS-troubleshooting-APIs.png)](https://assets.postman.com/postman-docs/WS-troubleshooting-APIs.png)
 
 For more details about the possible causes of the error, open [Postman Console](/docs/postman/sending_api_requests/debugging_and_logs/). It has detailed information about the failure.
 
@@ -55,4 +55,4 @@ If your server sends incorrect response encoding errors, or invalid headers, Pos
 
 If you still can't get your API working, help can frequently be found in the [Postman community](https://postmancommunity.slack.com) or [Stack Overflow](https://stackoverflow.com/questions/tagged/postman).
 
-If you've tried unsuccessfully troubleshooting the issue, search the [Postman issue tracker](https://github.com/postmanlabs/postman-app-support/issues) on GitHub to check if someone has already reported the issue and whether there is a known solution that you can use. If you're reporting a new issue, follow these [guidelines](https://github.com/postmanlabs/postman-app-support#user-content-guidelines-for-reporting-issues). If you wish to include confidential data, you can file a ticket via our [support center]({{https://support.getpostman.com/hc}}) and include the app’s [console logs](/docs/postman/sending_api_requests/debugging_and_logs/) in your report to provide some helpful data for troubleshooting.
+If you've tried unsuccessfully troubleshooting the issue, search the [Postman issue tracker](https://github.com/postmanlabs/postman-app-support/issues) on GitHub to check if someone has already reported the issue and whether there is a known solution that you can use. If you're reporting a new issue, follow these [guidelines](https://github.com/postmanlabs/postman-app-support#user-content-guidelines-for-reporting-issues). If you wish to include confidential data, you can file a ticket via our [support center](https://support.getpostman.com/hc) and include the app’s [console logs](/docs/postman/sending_api_requests/debugging_and_logs/) in your report to provide some helpful data for troubleshooting.

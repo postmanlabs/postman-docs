@@ -10,7 +10,7 @@ You can customize request methods in Postman to meet specific requirements. Once
 
 This feature lets you to save/delete your customized method and also enables you to delete default methods. Click in the request method dropdown area, type your method name and send/save it. You can also send a request without saving the customized method you created. The following screen illustrates this procedure.
 
-[![custom methods1](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/custom_methods5.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/custom_methods5.gif)
+[![custom methods1](https://assets.postman.com/postman-docs/custom_methods5.gif)](https://assets.postman.com/postman-docs/custom_methods5.gif)
 
 **Note:** You can save your customized methods locally, which means these are not synced to the Postman servers. This essentially means signing out will cause your data to be lost. Postman also allows you to use requests containing your customized methods that are not saved in the list. However, these will not appear in the request method drop-down.
 

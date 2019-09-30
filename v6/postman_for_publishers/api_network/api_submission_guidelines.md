@@ -21,7 +21,7 @@ To ensure your APIs have a wider adoption, your API documentation adhere to the 
 
    An appropriate name and a proper objective helps explain your API’s intended use. The following illustrates an example:
 
-   [![name and desc](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Name-Desc3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Name-Desc3.png)
+   [![name and desc](https://assets.postman.com/postman-docs/API-Network-Name-Desc3.png)](https://assets.postman.com/postman-docs/API-Network-Name-Desc3.png)
 
 #### 3. Authentication
 
@@ -29,7 +29,7 @@ To ensure your APIs have a wider adoption, your API documentation adhere to the 
 
    **Note:** If there are authorization tokens in the request headers replace them with a placeholder. This makes your documentation secure and readable. The following screen illustrates this:
 
-   [![authentication](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Auth.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Auth.png)
+   [![authentication](https://assets.postman.com/postman-docs/API-Network-Auth.png)](https://assets.postman.com/postman-docs/API-Network-Auth.png)
 
 #### 4. Formatting
 
@@ -39,7 +39,7 @@ To ensure your APIs have a wider adoption, your API documentation adhere to the 
 
    Ensure you document resource descriptions, endpoints and methods, and parameters clearly with examples. Specify request and response examples. The following screen illustrates an example of this:
 
-   [![request-response](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Req-Resp.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Req-Resp.png)
+   [![request-response](https://assets.postman.com/postman-docs/API-Network-Req-Resp.png)](https://assets.postman.com/postman-docs/API-Network-Req-Resp.png)
 
 **Note:** Do not submit examples containing localhost paths because they don't make sense for APIs in the API network.
 

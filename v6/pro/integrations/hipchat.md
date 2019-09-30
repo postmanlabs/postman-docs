@@ -14,11 +14,11 @@ This integration allows you to get real-time updates of what is happening in you
 
 1. In the [Integrations](https://go.postman.co/workspaces) page, find HipChat from a list of Postman’s 3rd party Integrations for Postman Pro users.
 
-[![select hipchat integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-hipchat.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-hipchat.png)
+[![select hipchat integration](https://assets.postman.com/postman-docs/integrations-hipchat.png)](https://assets.postman.com/postman-docs/integrations-hipchat.png)
 
 1. Click the **View Details** button to see information about HipChat.
 
-[![select hipchat integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-hipchat-confIntegrations.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-hipchat-confIntegrations.png)
+[![select hipchat integration](https://assets.postman.com/postman-docs/WS-integrations-hipchat-confIntegrations.png)](https://assets.postman.com/postman-docs/WS-integrations-hipchat-confIntegrations.png)
 
 You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for HipChat, or view all integrations.
 
@@ -31,11 +31,11 @@ To add a team activity feed to HipChat:
 1. Click the **Add Integration** button.
 1. In the **Team Activity Feed** page, enter your team's activity feed URL, and click the **Add Integration** button.
 
-   [![activity_feed](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-hipchat-teamactivityFeed.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-hipchat-teamactivityFeed.png)
+   [![activity_feed](https://assets.postman.com/postman-docs/WS-integrations-hipchat-teamactivityFeed.png)](https://assets.postman.com/postman-docs/WS-integrations-hipchat-teamactivityFeed.png)
 
    The **Configured Integrations** page appears with your team's activity feed.
 
-   [![configured_integrations](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-hipchat-configuredIntegrations.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-hipchat-configuredIntegrations.png)
+   [![configured_integrations](https://assets.postman.com/postman-docs/WS-integrations-hipchat-configuredIntegrations.png)](https://assets.postman.com/postman-docs/WS-integrations-hipchat-configuredIntegrations.png)
 
 ## Send monitor run results to HipChat
 
@@ -47,7 +47,7 @@ To send monitor run results to HipChat:
 1. In the **Monitor Run Results** page, select the monitor you want to send to HipChat, and enter the notification URL.
 1. Click the **Add Integration** button.
 
-  [![monitor run](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-hipchat-monitorRun1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-integrations-hipchat-monitorRun1.png)
+  [![monitor run](https://assets.postman.com/postman-docs/WS-integrations-hipchat-monitorRun1.png)](https://assets.postman.com/postman-docs/WS-integrations-hipchat-monitorRun1.png)
 
    You can also configure advanced options to alert you when a monitor run completes or when three failures occur and the first monitor run following those failures completes successfully.
 
@@ -57,26 +57,26 @@ To send monitor run results to HipChat:
 
 1. Click the **Add Integration** button on the right sidebar.
 
-   [![add hipchat integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58856804.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58856804.png)
+   [![add hipchat integration](https://assets.postman.com/postman-docs/58856804.png)](https://assets.postman.com/postman-docs/58856804.png)
 
 1. Select "Build your own Integration".
 
-   [![build your own integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58856838.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58856838.png)
+   [![build your own integration](https://assets.postman.com/postman-docs/58856838.png)](https://assets.postman.com/postman-docs/58856838.png)
 
 1. Enter a name and click the **Create** button.
 
-  [![create integration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58856857.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58856857.png)
+  [![create integration](https://assets.postman.com/postman-docs/58856857.png)](https://assets.postman.com/postman-docs/58856857.png)
 
 1. Save the URL to use later and click the **Save** button.
 
-  [![generate URL](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58856916.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58856916.png)
+  [![generate URL](https://assets.postman.com/postman-docs/58856916.png)](https://assets.postman.com/postman-docs/58856916.png)
 
 ## Viewing updates on HipChat
 
 Monitor run results on HipChat are color-coded based on the result of the monitor run. It shows the basic metrics of the run and also provides a link to go directly to the monitor.
 
-[![hipchat view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58857265.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58857265.png)
+[![hipchat view](https://assets.postman.com/postman-docs/58857265.png)](https://assets.postman.com/postman-docs/58857265.png)
 
 Similarly, the team activity feed integration consists of the links of the changed instance.
 
-[![activity feed](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/hipchat-activity-feed2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/hipchat-activity-feed2.png)
+[![activity feed](https://assets.postman.com/postman-docs/hipchat-activity-feed2.png)](https://assets.postman.com/postman-docs/hipchat-activity-feed2.png)

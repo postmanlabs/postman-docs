@@ -12,11 +12,11 @@ Only an Enterprise team administrator (admin) can configure single sign-on (SSO)
 
 Go to [Team Settings](https://app.getpostman.com/dashboard/teams/edit) for an enterprise plan. In the following screen, select **Authentication**.
 
-[![sso enable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SSO_Auth1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SSO_AdminEnable1.png)
+[![sso enable](https://assets.postman.com/postman-docs/SSO_Auth1.png)](https://assets.postman.com/postman-docs/SSO_AdminEnable1.png)
 
 Upon selecting *Authentication*, the following screen appears:
 
-[![sso enable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SSO_AdminEnable1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SSO_AdminEnable1.png)
+[![sso enable](https://assets.postman.com/postman-docs/SSO_AdminEnable1.png)](https://assets.postman.com/postman-docs/SSO_AdminEnable1.png)
 
 After configuring an SSO authentication for your Postman team, you can use the toggle option in Settings (as illustrated above) to turn on/off this SSO authentication. Click the button (circled above) to turn on/off your SSO authentication system. This is a team-level option which will enable/disable SSO for the whole team. To update the SSO settings, click **Edit**.
 
@@ -24,11 +24,11 @@ To configure a new authentication method, click **Add a new authentication metho
 
 In the **ADD AUTHENTICATION METHOD** modal, select the authentication type. Enter an authentication name that is easily identifiable to your team. Then click the **Proceed** button.
 
-[![authentication method](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-authentication-method-2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/ENT-add-authentication-method-2.png)
+[![authentication method](https://assets.postman.com/postman-docs/ENT-add-authentication-method-2.png)](https://assets.postman.com/postman-docs/ENT-add-authentication-method-2.png)
 
 **Note**: Always check with your authentication provider dashboard or your IT support staff for the correct information to complete a modal.
 
-   [![details](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta-IDP-Details1a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Okta1a-IDP-Details.png)
+   [![details](https://assets.postman.com/postman-docs/Okta-IDP-Details1a.png)](https://assets.postman.com/postman-docs/Okta1a-IDP-Details.png)
 
 In the "Service Provider Details (Postman)" screen, the Entity ID, and the URLs for the Login and ACS are already populated.
 

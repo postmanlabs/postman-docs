@@ -33,7 +33,7 @@ You can assign five types of variable scopes:
 
 You can view different kinds of buckets in which values reside. If a variable is in two different scopes, the scope with a higher priority takes precedence. Postman resolves scopes using this hierarchy progressing from broad to narrow scope.
 
-[![nested variable scopes](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Variables-Pic.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Variables-Pic.png)
+[![nested variable scopes](https://assets.postman.com/postman-docs/Variables-Pic.png)](https://assets.postman.com/postman-docs/Variables-Pic.png)
 
 If a variable from the currently active environment shares its name with a global variable, the environment variable will take precedence. In other words, global variables are overridden by environment variables, which are overridden by [data variables](https://blog.getpostman.com/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/) (only available in the [collection runner](/docs/postman/collection_runs/starting_a_collection_run/)).
 
@@ -47,7 +47,7 @@ For example, for an environment variable `url` with the current value `http://lo
 
 Since variables in the request builder are accessed using string substitution, they can be used everywhere in the request builder where you can add text. This includes the URL, URL parameters, headers, authorization, request body and header presets. Postman evaluates the variables according to scoping rules as discussed in the [Variable Scopes](/docs/postman/environments_and_globals/variables/) section and sends them to the server.
 
-[![variables used in request builder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals1.png)
+[![variables used in request builder](https://assets.postman.com/postman-docs/Env&Globals1.png)](https://assets.postman.com/postman-docs/Env&Globals1.png)
 
 ## Accessing variables through scripts
 
@@ -63,7 +63,7 @@ You can assign a current value when running your collection or a simple request 
 1. Setting a variable in a scope:
       * Environment variables can be accessed with the corresponding environments. Collection variables can be accessed from a request within the collection. Global variables can be accessed broadly regardless of the selected environment.
 
-[![variables used in script](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals2.png)
+[![variables used in script](https://assets.postman.com/postman-docs/Env&Globals2.png)](https://assets.postman.com/postman-docs/Env&Globals2.png)
 
 ## Defining collection variables
 
@@ -73,7 +73,7 @@ Collection variables can be defined by editing the collection details. Click ell
 
 Often while using variables in scripts, you will need to see the values they obtain. You can use the [Postman Console](/docs/postman/sending_api_requests/debugging_and_logs/) to do this easily. From the application menu, select "View" and then "Show Postman Console".  To log the value of a variable, you can use `console.log(foo);` in your script. When you send a request, the script will be evaluated and the value of the variable will be logged in the Postman Console.
 
-[![variables logged](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/var_logging.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/var_logging.png)
+[![variables logged](https://assets.postman.com/postman-docs/var_logging.png)](https://assets.postman.com/postman-docs/var_logging.png)
 
 ## Data variables
 
@@ -87,13 +87,13 @@ Variables inside the Postman UI are enclosed inside curly braces.
 
 For example, in the screenshot below, `{{username}}` and `{{password}}` inside URL parameters would be replaced by corresponding values from the data file:
 
-[![data variables in requests](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals3.png)
+[![data variables in requests](https://assets.postman.com/postman-docs/Env&Globals3.png)](https://assets.postman.com/postman-docs/Env&Globals3.png)
 
 ### Data variables in pre-request and test scripts
 
 Here's an example of Inside pre-request and test scripts. Let's say you have the `pm.iterationData.get("username")` method inside pre-request and test scripts. The method lets you access the value of the username variable from a data file.
 
-[![data variables in scripts](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals4.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals4.png)
+[![data variables in scripts](https://assets.postman.com/postman-docs/Env&Globals4.png)](https://assets.postman.com/postman-docs/Env&Globals4.png)
 
 Learn more about [working with data files](/docs/postman/collection_runs/working_with_data_files/).
 
@@ -109,7 +109,7 @@ Dynamic variables cannot be used in the Sandbox. You can only use them in the `
 
    For a complete list of dynamic variables, refer to the section [Dynamic Variables List](/docs/postman/scripts/postman_sandbox_api_reference/#dynamic-variables).
 
-[![dynamic variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals5.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals5.png)
+[![dynamic variables](https://assets.postman.com/postman-docs/Env&Globals5.png)](https://assets.postman.com/postman-docs/Env&Globals5.png)
 
 ## Quick Look for variables
 
@@ -117,7 +117,7 @@ Quick Look is a quick preview feature that displays all your environment and glo
 
 Click the "eye" icon in the top right to toggle the display, or type the keyboard shortcut **(CMD/CTRL + ALT + E)**.
 
-[![quick look](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environ_quick-look_Updated.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-environ_quick-look_Updated.png)
+[![quick look](https://assets.postman.com/postman-docs/WS-environ_quick-look_Updated.png)](https://assets.postman.com/postman-docs/WS-environ_quick-look_Updated.png)
 
 ## Autocomplete and tooltips for variables
 
@@ -125,7 +125,7 @@ Postman variables are very powerful, and two features - autocomplete and tool ti
 
 ### Autocomplete for variables
 
-[![autocomplete for variables](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Autocomp_tooltips1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Autocomp_tooltips1.png)
+[![autocomplete for variables](https://assets.postman.com/postman-docs/Autocomp_tooltips1.png)](https://assets.postman.com/postman-docs/Autocomp_tooltips1.png)
 
 Type an open curly bracket to bring up the autocomplete menu. For the pre-request and test scripts section, which [uses the data editor](/docs/postman/launching_postman/navigating_postman/), entering the first letter of a variable triggers autocomplete. The menu contains a list of all variables in the current environment, followed by globals. Navigating through the list also shows the initial value, current value and scope for each variable, along with feedback for overridden variables. If the request is saved in a collection, Postman also displays the collection variables in the list.
 
@@ -133,7 +133,7 @@ The following screen displays selection of Token1 with its initial and current v
 
 ### Variable highlighting and tooltip on hover
 
-[![variable highlighting and tooltips](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Autocomp_tooltips2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Autocomp_tooltips2.png)
+[![variable highlighting and tooltips](https://assets.postman.com/postman-docs/Autocomp_tooltips2.png)](https://assets.postman.com/postman-docs/Autocomp_tooltips2.png)
 
 Variables are highlighted in orange, with unresolved variables shown in red. Hovering over a variable shows its initial and current value and the scope. If a variable is unresolved - i.e., no value in the current environment - the tooltip shows appropriate feedback.
 

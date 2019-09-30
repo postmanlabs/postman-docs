@@ -19,13 +19,13 @@ An `API Key` is created for you automatically under the "APIs" tab. If you want,
 
 Save the API Key to use later.
 
-[![datadog integrations page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58830948.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58830948.png)
+[![datadog integrations page](https://assets.postman.com/postman-docs/58830948.png)](https://assets.postman.com/postman-docs/58830948.png)
 
 ### Configuring Postman Monitors
 
 1. In the [Integrations](https://go.postman.co/workspaces) page, find Datadog in the list of Postman’s 3rd party Integrations for Postman Pro users.
 
-[![datadog integrations page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_datadog2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_datadog2.png)
+[![datadog integrations page](https://assets.postman.com/postman-docs/integrations_datadog2.png)](https://assets.postman.com/postman-docs/integrations_datadog2.png)
 
 <ol start="2">
   <li>
@@ -34,14 +34,14 @@ Click the <b>View Details</b> button to see information about Datadog and how it
 
 You also can click the **Configured Integrations** tab to set up other integrations, view available integrations for Datadog, or view all integrations.
 
-[![datadog integrations page](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-datadog-configIntegrations1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations-datadog-configIntegrations1.png)
+[![datadog integrations page](https://assets.postman.com/postman-docs/integrations-datadog-configIntegrations1.png)](https://assets.postman.com/postman-docs/integrations-datadog-configIntegrations1.png)
 
 <ol start="3">
   <li>
 Click the <b>Add Integration</b> button to display the <b>Send Monitor Run Results</b> options.</li>
 </ol>
 
-[![datadog integrations add](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_datadog_sendMonitor.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/integrations_datadog_sendMonitor.png)
+[![datadog integrations add](https://assets.postman.com/postman-docs/integrations_datadog_sendMonitor.png)](https://assets.postman.com/postman-docs/integrations_datadog_sendMonitor.png)
 
 <ol start="4">
   <li>
@@ -62,8 +62,8 @@ Click the <b>Add Integration</b> button.</li>
 
 As soon as your monitor runs, the data will start flowing into Datadog. 
 
-[![view in datadog](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58831748.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58831748.png)
+[![view in datadog](https://assets.postman.com/postman-docs/58831748.png)](https://assets.postman.com/postman-docs/58831748.png)
 
 Once the data is present in Datadog, you can filter it based on the monitor name/uid, collection name/uid, user name/id, and even environment name/uid (if present). You can also combine different metrics to create a dashboard.
 
-[![datadog filters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58831776.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58831776.png)
+[![datadog filters](https://assets.postman.com/postman-docs/58831776.png)](https://assets.postman.com/postman-docs/58831776.png)

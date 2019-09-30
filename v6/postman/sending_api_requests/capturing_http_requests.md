@@ -22,11 +22,11 @@ Postman has a proxy in the Postman app that captures the HTTP request.
 1. The Postman proxy captures the request and forwards the request onward to the server.
 1. The server returns a response through the Postman proxy back to the client.
 
-[![postman capture proxy](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxymobile.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxymobile.png)
+[![postman capture proxy](https://assets.postman.com/postman-docs/proxymobile.png)](https://assets.postman.com/postman-docs/proxymobile.png)
 
 Similar to the [Interceptor Chrome extension](/docs/postman/sending_api_requests/interceptor_extension/), the Postman app proxy also INTERCEPTS and captures your requests. In this scenario, the Postman app is the proxy, and you can inspect HTTP communication going out from your phone like in the following example, and log all network requests under the History tab of the sidebar.
 
-[![proxy logs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-proxy.logs.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-proxy.logs.png)
+[![proxy logs](https://assets.postman.com/postman-docs/WS-proxy.logs.png)](https://assets.postman.com/postman-docs/WS-proxy.logs.png)
 
 ## Using Postman's proxy example
 
@@ -36,11 +36,11 @@ In this tutorial, we will use Postman's proxy feature to inspect HTTP communicat
 
 Open the **PROXY SETTINGS** modal in the Postman app (MacOS) by clicking the icon in the header toolbar.
 
-[![proxy icon in header](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-postman-proxy-settings-button.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-postman-proxy-settings-button.jpg)
+[![proxy icon in header](https://assets.postman.com/postman-docs/WS-postman-proxy-settings-button.jpg)](https://assets.postman.com/postman-docs/WS-postman-proxy-settings-button.jpg)
 
 Keep a note of the port mentioned in the proxy settings. In this case, let's keep it at the default port ``5555``. Set the target to "History". This will cause all your requests to be captured and stored in the History sidebar panel.
 
-[![proxy settings modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-Proxy1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-Proxy1.png)
+[![proxy settings modal](https://assets.postman.com/postman-docs/Interceptor-Proxy1.png)](https://assets.postman.com/postman-docs/Interceptor-Proxy1.png)
 
 ### Step 2: Note your computer's IP address
 
@@ -58,7 +58,7 @@ Set the proxy IP address of your device (an iPhone in this example) to the IP ad
 
 You are all set! Head over to the Postman app, and you will start seeing the network calls listed under the **History** tab of the sidebar. Open your device's web browser or your application and you will start seeing HTTP traffic passing through the app or the browser.
 
-[![requests under History tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-postman-proxy-history-sidebar.jpg)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-postman-proxy-history-sidebar.jpg)
+[![requests under History tab](https://assets.postman.com/postman-docs/WS-postman-proxy-history-sidebar.jpg)](https://assets.postman.com/postman-docs/WS-postman-proxy-history-sidebar.jpg)
 
 ## Connect to proxy for target devices
 
@@ -73,6 +73,6 @@ The broader development community has published some useful tutorials for settin
 
 You can capture the HTTP requests using the Postman Interceptor, and save them to History or a collection. The following screen illustrates this:
 
-[![request capture interceptor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-with-filters3.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Interceptor-with-filters3.gif)
+[![request capture interceptor](https://assets.postman.com/postman-docs/Interceptor-with-filters3.gif)](https://assets.postman.com/postman-docs/Interceptor-with-filters3.gif)
 
 You can save your request to **History**, add additional filters to the URL and even filter the requests for specific methods. The above screen specifies *Spotify* in the **URL** field and *Post* method in the **Methods** field. In this case, Postman looks for any URL containing *Spotify* string with a *Post* method and will save it to the History tab. You can also add the requests you capture to the **History** tab or any collection.

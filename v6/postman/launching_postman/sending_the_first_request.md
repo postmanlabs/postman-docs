@@ -12,7 +12,7 @@ Postman makes sending API requests simple. Instead of testing your APIs through 
 
 As you can see in the image below, when you enter a request in Postman and click the **Send** button, the server receives your request and returns a response that Postman displays in the interface.
 
-[![request and response illustration](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anatomy-of-a-request.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/anatomy-of-a-request.png)
+[![request and response illustration](https://assets.postman.com/postman-docs/anatomy-of-a-request.png)](https://assets.postman.com/postman-docs/anatomy-of-a-request.png)
 
 ## Sending a request
 
@@ -22,11 +22,11 @@ Enter [`postman-echo.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e
 
 Click the **Send** button to send your request.  Note the JSON data response from the server.
 
-[![request response](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Request-repsonse.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Request-repsonse.png)
+[![request response](https://assets.postman.com/postman-docs/Request-repsonse.png)](https://assets.postman.com/postman-docs/Request-repsonse.png)
 
 Notice that Postman adds [`postman-echo.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) under the History tab of the sidebar. You can click the **Save** button to save a request to use later.
 
-[![postman echo example](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SaveRequest.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/SaveRequest.png)
+[![postman echo example](https://assets.postman.com/postman-docs/SaveRequest.png)](https://assets.postman.com/postman-docs/SaveRequest.png)
 
 ## Postman Echo
 

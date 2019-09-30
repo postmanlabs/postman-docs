@@ -10,7 +10,7 @@ All requests you send using Postman are stored in the history which you can acce
 
 If you create an account and sign in to Postman, your history will be synced with our server, backed up in realtime, and retrievable across your devices. If you sign out of your Postman account, and then log back in, the last 10 requests will remain in your history. Postman Pro and Enterprise users will have access to the last 100 requests.  The same policy holds for collection runs. Remember that you can always save as many requests in [collections](/docs/postman/collections/creating_collections/) as you want.
 
-[![history sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-history.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-history.png)
+[![history sidebar](https://assets.postman.com/postman-docs/WS-history.png)](https://assets.postman.com/postman-docs/WS-history.png)
 
 From the **History** tab within the sidebar:
 
@@ -30,7 +30,7 @@ Hold down the **CMD** key (or **CTRL** on Windows), and click on each request th
 
 To organize commonly used requests, you can save them from your history to a collection. To save a single request to a collection, hover over it and click the plus icon (**+**) that displays next to it. When selecting multiple requests, the plus icon (**+**) will display at the top of the sidebar. Click on the plus icon (**+**). Select an existing collection, or create a new collection, to save the requests to a collection.
 
-[![save multiple requests](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/saveMultipleRequests.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/saveMultipleRequests.png)
+[![save multiple requests](https://assets.postman.com/postman-docs/saveMultipleRequests.png)](https://assets.postman.com/postman-docs/saveMultipleRequests.png)
 
 ##### **Delete requests**
 

@@ -15,15 +15,15 @@ This topic describes:
 
 To manage global variables, click the gear icon in the upper right corner of the Postman app and select "Manage Environments".
 
-[![manage environments](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage-environments4.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/manage-environments4.png)
+[![manage environments](https://assets.postman.com/postman-docs/manage-environments4.png)](https://assets.postman.com/postman-docs/manage-environments4.png)
 
 Click the **Globals** button at the bottom of the modal to bring up a key-value editor to add, edit, and delete global variables.
 
-[![globals button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/globals-button3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/globals-button3.png)
+[![globals button](https://assets.postman.com/postman-docs/globals-button3.png)](https://assets.postman.com/postman-docs/globals-button3.png)
 
 You also can download your global variables as a single JSON file.
 
-[![management environments modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals9.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals9.png)
+[![management environments modal](https://assets.postman.com/postman-docs/Env&Globals9.png)](https://assets.postman.com/postman-docs/Env&Globals9.png)
 
 ## Viewing global variables
 
@@ -31,7 +31,7 @@ To view global variables, click the Quick Look icon in the upper right corner of
 
 Clicking  "Edit" opens a modal for editing keys and values.
 
-[![quick look icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals10.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Env&Globals10.png)
+[![quick look icon](https://assets.postman.com/postman-docs/Env&Globals10.png)](https://assets.postman.com/postman-docs/Env&Globals10.png)
 
 ---
 For more information about globals, variables, and environments, see:

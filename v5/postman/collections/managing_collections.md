@@ -16,37 +16,37 @@ Click on a collection to show or hide the requests that comprise the collection.
 
 Expand the right angle bracket (**>**) to show the details view for the collection. Collapse the left angle bracket (**<**) to hide the details view. You can add metadata like name and description so that all the information a developer needs to use your API is available easily. 
 
-[![collection details view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collectionDetailsView.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-collectionDetailsView.png)
+[![collection details view](https://assets.postman.com/postman-docs/WS-collectionDetailsView.png)](https://assets.postman.com/postman-docs/WS-collectionDetailsView.png)
 
 ##### **Create a new collection**
 
 Click the "new collection" icon on the top right, or [save a current request to a new collection](/docs/postman/collections/creating_collections/).
 
-[![new collection icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154223.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154223.png)
+[![new collection icon](https://assets.postman.com/postman-docs/59154223.png)](https://assets.postman.com/postman-docs/59154223.png)
 
 ##### **Reorder collections**
 
 Collections can be sorted either alphabetically by name or by when they were last updated. To do this, select the "sort" icon on the top right and select `Sort by name` or `Sort by date`. 
 
-[![sort collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154251.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154251.png)
+[![sort collections](https://assets.postman.com/postman-docs/59154251.png)](https://assets.postman.com/postman-docs/59154251.png)
 
 ##### **Favoriting a collection**
 
 If you're working on a few collections in particular, you can click on the star icon to bring the collection(s) to the top of the list.
 
-[![favorite a collection](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154198.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154198.png)
+[![favorite a collection](https://assets.postman.com/postman-docs/59154198.png)](https://assets.postman.com/postman-docs/59154198.png)
 
 ##### **Filter collections**
 
 If you have a lot of collections, filter collections in the sidebar using the search input field.  
 
-[![filter collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154104.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154104.png)
+[![filter collections](https://assets.postman.com/postman-docs/59154104.png)](https://assets.postman.com/postman-docs/59154104.png)
 
 ##### **Delete a collection**
 
 Click the ellipsis (...)next to a collection, and select "Delete". If you didn't intend to delete the collection, you can click the **Undo** link in the notification that appears at the top of the Postman app.
 
-[![confirmation message](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154076.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59154076.png)
+[![confirmation message](https://assets.postman.com/postman-docs/59154076.png)](https://assets.postman.com/postman-docs/59154076.png)
 
 ##### **Share a collection** 
 
@@ -74,12 +74,12 @@ Requests stored inside a collection can contain [scripts](/docs/postman/scripts/
 
 Folders are a way to organize your API endpoints within a collection into intuitive and logical groups to mirror your workflow. Next to the collection to which you want to add a folder, click on the ellipsis (...) and select "Add Folder".
 
-[![add folder from dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-addFolderDropdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-addFolderDropdown.png)
+[![add folder from dropdown](https://assets.postman.com/postman-docs/WS-addFolderDropdown.png)](https://assets.postman.com/postman-docs/WS-addFolderDropdown.png)
 
 Add a name and description to the folder. Folders are initially ordered alphabetically by name, and the folder name and description will be reflected in your API documentation.
 
-[![add folder modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59183817.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59183817.png)
+[![add folder modal](https://assets.postman.com/postman-docs/59183817.png)](https://assets.postman.com/postman-docs/59183817.png)
 
 You can add deeper levels of nesting for folders. Drag and drop the folders to reorder them to create the ultimate customized folder structure.
 
-[![multi-level folders](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-multiLevelFolders.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-multiLevelFolders.png)
+[![multi-level folders](https://assets.postman.com/postman-docs/WS-multiLevelFolders.png)](https://assets.postman.com/postman-docs/WS-multiLevelFolders.png)

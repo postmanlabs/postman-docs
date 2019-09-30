@@ -29,7 +29,7 @@ This topic describes how to configure collection run parameters for:
 * [Run collection without using stored cookies](#run-collection-without-using-stored-cookies)
 * [Save cookies after collection run](#save-cookies-after-collection-run)
 
-[![collection run parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/starting_a_collection_run/collection_run_parameters.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/starting_a_collection_run/collection_run_parameters.png)
+[![collection run parameters](https://assets.postman.com/postman-docs/starting_a_collection_run/collection_run_parameters.png)](https://assets.postman.com/postman-docs/starting_a_collection_run/collection_run_parameters.png)
 
 ## Collection or folder
 

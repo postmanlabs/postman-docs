@@ -9,4 +9,4 @@ When you generate the embed code for a particular collection, the button will po
 
 From the **SHARE COLLECTION** modal in the Postman app, click the **Update Link** button to refresh the collection.
 
-[![Embed button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59020943.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/59020943.png)
+[![Embed button](https://assets.postman.com/postman-docs/59020943.png)](https://assets.postman.com/postman-docs/59020943.png)

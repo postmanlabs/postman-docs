@@ -11,7 +11,7 @@ If you create an account and sign in to Postman, your history will be synced wit
 
 **Note:** If you'd like to save responses to your requests in the history, you must turn on the setting 'Save Responses' under the History tab in the left sidebar, as illustrated in the screen below.
 
-[![History Updated](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/History_Response_New.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/History_Response_New.png)
+[![History Updated](https://assets.postman.com/postman-docs/History_Response_New.png)](https://assets.postman.com/postman-docs/History_Response_New.png)
 
 ## Sidebar History tab
 
@@ -33,7 +33,7 @@ To organize commonly used requests, you can save them from your history to a col
 
 When selecting multiple requests, the plus icon (**+**) will display at the top of the sidebar. Click on the plus icon (**+**). Select an existing collection, or create a new collection, to save the requests to a collection.
 
-[![save multiple requests](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-save-multi-requests.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-save-multi-requests.png)
+[![save multiple requests](https://assets.postman.com/postman-docs/WS-save-multi-requests.png)](https://assets.postman.com/postman-docs/WS-save-multi-requests.png)
 
 ### Delete requests
 

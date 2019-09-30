@@ -21,7 +21,7 @@ In your Postman builder view, click the **Runner** button in the left side of th
 
 In the Collection Runner, select "Postman Echo" and click the **Run Postman Echo** button. (You can also select the "Environment", "Iterations", "Delay" (time), "Log Repsonses", "Data", and "Persist Variables". But it's not necessary for this example.) The image below shows the results of the collection run.
 
-[![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58531976.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58531976.png)
+[![collection runner view](https://assets.postman.com/postman-docs/58531976.png)](https://assets.postman.com/postman-docs/58531976.png)
 
 In the `Delete Cookies` request, we expect a certain cookie to be returned by the server.
 
@@ -31,8 +31,8 @@ As you can see, this test is failing. Let's investigate why.
 
 ## Debugging using the Request and Response body
 
-[![tooltip for request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532000.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532000.png)
-[![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532254.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532254.png)
+[![tooltip for request](https://assets.postman.com/postman-docs/58532000.png)](https://assets.postman.com/postman-docs/58532000.png)
+[![collection runner view](https://assets.postman.com/postman-docs/58532254.png)](https://assets.postman.com/postman-docs/58532254.png)
 
 As the test says, we're expecting a cookie named `foo1` to be returned as part of the response.
 
@@ -52,7 +52,7 @@ Debugging using the Postman Console requires you to have the console open before
 
 For more information about the Postman Console, see [Debugging and logs](/docs/postman/sending_api_requests/debugging_and_logs/).
 
-[![postman console view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532402.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532402.png)
+[![postman console view](https://assets.postman.com/postman-docs/58532402.png)](https://assets.postman.com/postman-docs/58532402.png)
 
 The Postman Console records all requests and displays them in a list.
 

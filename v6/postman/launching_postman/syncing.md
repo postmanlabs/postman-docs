@@ -45,7 +45,7 @@ If you are not signed in to the app, you see **OFFLINE**.
 
 When you open the app or if your connection drops, it displays **CONNECTING** before it starts to sync.
 
-[![sync icon in header](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Sync-Screen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Sync-Screen.png)
+[![sync icon in header](https://assets.postman.com/postman-docs/Sync-Screen.png)](https://assets.postman.com/postman-docs/Sync-Screen.png)
 
 ## Sign Out
 
@@ -63,4 +63,4 @@ If you have a Postman account and are not part of a Postman team, you can [delet
 
 Otherwise, you can contact us at [help@getpostman.com](mailto:help@getpostman.com).
 
-[![delete account](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-syncing-deleteAccount.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-syncing-deleteAccount.png)
+[![delete account](https://assets.postman.com/postman-docs/WS-syncing-deleteAccount.png)](https://assets.postman.com/postman-docs/WS-syncing-deleteAccount.png)

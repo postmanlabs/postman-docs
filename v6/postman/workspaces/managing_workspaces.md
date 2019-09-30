@@ -8,7 +8,7 @@ You can manage workspaces and the Postman elements associated with a workspace, 
 
 In the Postman app, click the workspace that displays in the header bar.
 
-[![all workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/test-all-workspaces.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/test-all-workspaces.png)
+[![all workspaces](https://assets.postman.com/postman-docs/test-all-workspaces.png)](https://assets.postman.com/postman-docs/test-all-workspaces.png)
 
 Click "All workspaces" to display the [Workspaces dashboard](https://app.getpostman.com/dashboard) in your web browser.
 
@@ -16,7 +16,7 @@ Click "All workspaces" to display the [Workspaces dashboard](https://app.getpost
 
 From the [Workspaces dashboard](https://app.getpostman.com/dashboard) under the **Personal** tab, click the **Add to workspace** button to [add collections or environments from another workspace](/docs/postman/workspaces/using_workspaces/) to the selected workspace. You can also perform this action in the team workspace view.
 
-[![add to workspaces](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspace_rightclick_menu.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspace_rightclick_menu.png)
+[![add to workspaces](https://assets.postman.com/postman-docs/Workspace_rightclick_menu.png)](https://assets.postman.com/postman-docs/Workspace_rightclick_menu.png)
 
 Click the ellipsis **(...)** to [manage your personal workspaces](/docs/postman/workspaces/using_workspaces/):
 
@@ -32,7 +32,7 @@ You can also click the **Create a new workspace** button to [create a new person
 
 From the [Workspaces dashboard](https://app.getpostman.com/dashboard), you can manage your team workspaces under the **Team** tab.
 
-[![team workspaces dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/dashboard-team-dropdown.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/dashboard-team-dropdown.png)
+[![team workspaces dropdown](https://assets.postman.com/postman-docs/dashboard-team-dropdown.png)](https://assets.postman.com/postman-docs/dashboard-team-dropdown.png)
 
 Click the ellipsis **(...)** to [manage your team workspaces](/docs/postman/workspaces/using_workspaces/):
 
@@ -51,7 +51,7 @@ If you click the **Share** button, you can share this collection with another wo
 
 If you click the ellipsis **(...)**, you can remove any element from the workspace, publish collections, fork a copy and even merge your changes.
 
-[![workspace elements](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspace_Dashboard_Mainscreen.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Workspace_Dashboard_Mainscreen.png)
+[![workspace elements](https://assets.postman.com/postman-docs/Workspace_Dashboard_Mainscreen.png)](https://assets.postman.com/postman-docs/Workspace_Dashboard_Mainscreen.png)
 
 ### Collections
 

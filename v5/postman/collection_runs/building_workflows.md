@@ -7,7 +7,7 @@ warning: false
 
 ##### Download the collection used in this example:
  
-   * [collection.json](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793802.json)
+   * [collection.json](https://assets.postman.com/postman-docs/58793802.json)
 
 ### Basic usage
 
@@ -17,13 +17,13 @@ When you start a collection run, all requests are run in the order you see them 
 
 Let's assume that we have a collection with four requests. If you run this collection directly, the collection runner will run all four requests in order.
 
-[![setNextRequest in tests tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-building-workflows1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-building-workflows1.png)
-[![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793861.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793861.png)
+[![setNextRequest in tests tab](https://assets.postman.com/postman-docs/WS-building-workflows1.png)](https://assets.postman.com/postman-docs/WS-building-workflows1.png)
+[![collection runner view](https://assets.postman.com/postman-docs/58793861.png)](https://assets.postman.com/postman-docs/58793861.png)
 
 Let's now add `postman.setNextRequest()` to Request 1's test script, as shown. `postman.setNextRequest()` is a function with one argument, which is the name or ID of the request you want to run next. In the example, we're setting the next request to `Request 4` in the test script for `Request 1`. This means the execution will jump to `Request 4` after `Request 1` has completed. If we run the same collection now, you'll see that only two requests are run now.
 
-[![setNextRequest with request name as parameter](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-building-workflows1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-building-workflows1.png)
-[![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793875.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793875.png)
+[![setNextRequest with request name as parameter](https://assets.postman.com/postman-docs/WS-building-workflows1.png)](https://assets.postman.com/postman-docs/WS-building-workflows1.png)
+[![collection runner view](https://assets.postman.com/postman-docs/58793875.png)](https://assets.postman.com/postman-docs/58793875.png)
 
 Note that `setNextRequest()` will only work with the collection runner and Newman where the intent is to run a collection, as opposed to sending a single request.
 

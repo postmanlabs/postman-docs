@@ -13,7 +13,7 @@ Newman maintains feature parity with Postman and allows you to run collections j
 
 Newman resides in the [NPM registry](https://www.npmjs.org/package/newman) and on [GitHub](https://github.com/postmanlabs/newman).
 
-[![newman gif](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newman.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newman.gif)
+[![newman gif](https://assets.postman.com/postman-docs/newman.gif)](https://assets.postman.com/postman-docs/newman.gif)
 
 ### Getting Started on Linux, Windows, or Mac
 

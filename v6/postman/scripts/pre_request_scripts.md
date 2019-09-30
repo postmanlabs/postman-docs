@@ -9,11 +9,11 @@ Pre-request scripts are snippets of code associated with a collection request th
 
 For example, to include a timestamp in the request headers, you can set an environment variable with the value returned from a function.
 
-[![set environment variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script3_Updated2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script3_Updated2.png)
+[![set environment variable](https://assets.postman.com/postman-docs/Test_script3_Updated2.png)](https://assets.postman.com/postman-docs/Test_script3_Updated2.png)
 
 You can then access the **timestampHeader** variable in the header data editor by typing `{{timestampHeader}}`. When the request is sent, your pre-request script will be executed, and the value of timestampHeader will be sent in place of `{{timestampHeader}}`.
 
-[![timestampHeader variable](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script4_Updated3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script4_Updated3.png)
+[![timestampHeader variable](https://assets.postman.com/postman-docs/Test_script4_Updated3.png)](https://assets.postman.com/postman-docs/Test_script4_Updated3.png)
 
 **Note:** An environment should be an active one for environment variables to be set.
 
@@ -25,6 +25,6 @@ You can add pre-request scripts to a collection, a folder, or a single request w
 
 Collection and folder scripts can be updated in the collection or folder details respectively. Click on the ellipsis (...) next to the collection or folder name, and select “Edit” to open the modal. Select the **Pre-request Scripts** tab to add and update the scripts. You can also add collection scripts when initially creating the collection.  
 
-[![pre-request script for folder](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script5.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script5.png)
+[![pre-request script for folder](https://assets.postman.com/postman-docs/Test_script5.png)](https://assets.postman.com/postman-docs/Test_script5.png)
 
 Read more about [the execution order of scripts](/docs/postman/scripts/intro_to_scripts/#execution-order-of-scripts).

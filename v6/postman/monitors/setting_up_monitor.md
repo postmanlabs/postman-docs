@@ -20,7 +20,7 @@ You can create a monitor for an existing collection from the sidebar.
 
 1. In the Postman app, click on the ellipsis (…) next to the collection you want to monitor.
 
-   [![monitor dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitor-Collection1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitor-Collection1.png)
+   [![monitor dropdown](https://assets.postman.com/postman-docs/Monitor-Collection1.png)](https://assets.postman.com/postman-docs/Monitor-Collection1.png)
 
 1. Select "Monitor Collection".</li>
 1. In the **Monitor Collection** modal, you must:
@@ -35,7 +35,7 @@ You can create a monitor for an existing collection from the sidebar.
   
 1. Click **Create**.
 
-   [![monitor modal](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitor-Collection2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitor-Collection2.png)
+   [![monitor modal](https://assets.postman.com/postman-docs/Monitor-Collection2.png)](https://assets.postman.com/postman-docs/Monitor-Collection2.png)
 
 ## New button
 
@@ -48,11 +48,11 @@ Here's how to create a monitor with the **New** button.
 
 1. In the header toolbar, click the **New** button.
 
-   [![new button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Header_Toolbar_New.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Header_Toolbar_New.png)
+   [![new button](https://assets.postman.com/postman-docs/Header_Toolbar_New.png)](https://assets.postman.com/postman-docs/Header_Toolbar_New.png)
 
    The **Create New** tab appears.
 
-   [![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Create_New_Tab_Updated.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Create_New_Tab_Updated.png)
+   [![create screen](https://assets.postman.com/postman-docs/Create_New_Tab_Updated.png)](https://assets.postman.com/postman-docs/Create_New_Tab_Updated.png)
 
    **Note:** At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
@@ -60,7 +60,7 @@ Here's how to create a monitor with the **New** button.
 
 1. Select if you want to monitor a new API or an existing or team collection. If you create a new API to monitor, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection, you must select a collection from a list of existing or team collections.
 
-   [![request monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Create_New_Tab_Updated2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Create_New_Tab_Updated2.png)
+   [![request monitor](https://assets.postman.com/postman-docs/Create_New_Tab_Updated2.png)](https://assets.postman.com/postman-docs/Create_New_Tab_Updated2.png)
 
 1. After you select or create the request you want to monitor, click the **Next** button.
 1. In the **Configuration** tab, you must:
@@ -71,13 +71,13 @@ Here's how to create a monitor with the **New** button.
    * Set how frequently the monitor should run. For more information on how to schedule a monitor, see the “Monitoring schedule and region” section below.
    * Select one or more regions of the world from where you want to monitor your results.
 
-   [![configure monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitor-Collection2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitor-Collection2.png)  
+   [![configure monitor](https://assets.postman.com/postman-docs/Monitor-Collection2.png)](https://assets.postman.com/postman-docs/Monitor-Collection2.png)  
 
 1. Click **Create**.
 
    In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your monitor.
 
-   [![next monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Create_Monitor_New2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Create_Monitor_New2.png)
+   [![next monitor](https://assets.postman.com/postman-docs/Create_Monitor_New2.png)](https://assets.postman.com/postman-docs/Create_Monitor_New2.png)
 
 ## Launch screen
 
@@ -95,7 +95,7 @@ The **Create New** tab appears by default when you launch Postman.
 
 1. In the **Create Monitor** modal, select a collection, schedule the frequency of the run, enter a monitor name, specify a version tag, select the environment, and select the regions of the world from where you want to monitor your results. For more information on how to schedule a monitor, see the "Monitoring schedule and region" section below.
 
-   [![create monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitor-Collection3.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Monitor-Collection3.png)
+   [![create monitor](https://assets.postman.com/postman-docs/Monitor-Collection3.png)](https://assets.postman.com/postman-docs/Monitor-Collection3.png)
 
    **Note:** To select regions manually and to schedule your monitor runs using the minute timer, upgrade your plan to Postman Pro or Enterprise.
 

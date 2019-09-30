@@ -11,13 +11,13 @@ Running a collection is useful when you want to automate API testing. When you r
 
 When you use scripts, you can build integration test suites, pass data between API requests, and build workflows that mirror your actual use case of APIs.
 
-[![collection run parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Collection_Runs_pg1.png)
+[![collection run parameters](https://assets.postman.com/postman-docs/Collection_Runs_pg1.png)](https://assets.postman.com/postman-docs/Collection_Runs_pg1.png)
 
 To run collections, you can use:
 
 * Postman app collection runner in the header bar.
 
-[![runner button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Runner-button2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Runner-button2.png)
+[![runner button](https://assets.postman.com/postman-docs/Runner-button2.png)](https://assets.postman.com/postman-docs/Runner-button2.png)
 
 * [Newman](/docs/postman/collection_runs/command_line_integration_with_newman/) command line tool.
 

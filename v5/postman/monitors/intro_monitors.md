@@ -22,7 +22,7 @@ There are a few minor differences between running collections in a Postman monit
    *   Can't import existing global variables, but you can create new ones during a monitor run.
    *   Global and environment variables are not persisted. If you require persisting environment variables, we recommend adding a call to update the environment variable using the [Postman API](/docs/postman/postman_api/intro_api/). The following is an [example of how to update the environment variable](https://documenter.getpostman.com/view/218543/lunch-picker/6fWy4Ao#fe7e2416-4af9-fffc-02af-b8fc2c58a181) in this manner.
 
-   [![persist env in monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorPersistEnv.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitorPersistEnv.png)
+   [![persist env in monitor](https://assets.postman.com/postman-docs/monitorPersistEnv.png)](https://assets.postman.com/postman-docs/monitorPersistEnv.png)
 
 ##### **Console Output**
 

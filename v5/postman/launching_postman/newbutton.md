@@ -17,13 +17,13 @@ You can use the **New** button to initiate:
 
 The **New** button also provides access to [templates](#templates) and the [API_network](#API_network).
 
-[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headerToolbar-blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-headerToolbar-blk.png)
+[![new_button](https://assets.postman.com/postman-docs/WS-headerToolbar-blk.png)](https://assets.postman.com/postman-docs/WS-headerToolbar-blk.png)
 
 When you click the **New** button, the **Create New** tab appears as the default view. 
 
 In addition to the **Create New** tab, there are two other tabs: "Templates" and "API Network". For more information about these tabs, see the Templates and API Network sections below.
 
-[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create-new-blk-121317.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/create-new-blk-121317.png)
+[![new_button](https://assets.postman.com/postman-docs/create-new-blk-121317.png)](https://assets.postman.com/postman-docs/create-new-blk-121317.png)
 
 ### Create New  
 
@@ -35,7 +35,7 @@ In **ADVANCED**, create a new monitor, documentation, and a mock server.
 
 **Note**: You can directly create a new feature when you click the down arrow at the right side of the **New** button.
 
-[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-new-button-menu-blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-new-button-menu-blk.png)
+[![new_button](https://assets.postman.com/postman-docs/WS-new-button-menu-blk.png)](https://assets.postman.com/postman-docs/WS-new-button-menu-blk.png)
 
 ### BUILDING BLOCKS
 <h4 id="requests">Creating requests</h4>
@@ -48,7 +48,7 @@ You can create any kind of [HTTP request.](/docs/postman/sending_api_requests/re
 
 You can either create a new collection or select an existing one. After you save the request, you can add the URL, method, headers, and body to the request in the builder.
 
-[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_request_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_request_blk.png)
+[![new_button](https://assets.postman.com/postman-docs/newButton_request_blk.png)](https://assets.postman.com/postman-docs/newButton_request_blk.png)
 
 <h4 id="collections">Creating collections</h4>
 A [collection](/docs/postman/collections/creating_collections/) is a group of individual requests that you can organize into folders. 
@@ -65,7 +65,7 @@ A [collection](/docs/postman/collections/creating_collections/) is a group of in
 
 After creating the collection, you can save requests to the collection and add folders for better organization.
 
-[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-createcollectionmodal.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collections-createcollectionmodal.png)
+[![new_button](https://assets.postman.com/postman-docs/collections-createcollectionmodal.png)](https://assets.postman.com/postman-docs/collections-createcollectionmodal.png)
 
 <h4 id="environments">Creating environments</h4>
 While working with APIs, you often need different setups, such as your local machine, the development server, or the production API. [Environments](/docs/postman/environments_and_globals/manage_environments/) let you customize requests using variables. 
@@ -75,18 +75,18 @@ While working with APIs, you often need different setups, such as your local mac
 3. In the **MANAGE ENVIRONMENTS** modal, add the variables you want to save as key-value pairs.
 4. Click the **Add** button.
 
-[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_environment_blk.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newButton_environment_blk.png)
+[![new_button](https://assets.postman.com/postman-docs/newButton_environment_blk.png)](https://assets.postman.com/postman-docs/newButton_environment_blk.png)
 
 If you've created other environments, the **MANAGE ENVIRONMENTS** modal appears again and displays them. You can share, edit, download, or delete those environments. In addition, you can create global environments and download them as a JSON file, or import environment files from your computer.
 
-[![new_button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environments-secondWindow.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/environments-secondWindow.png)
+[![new_button](https://assets.postman.com/postman-docs/environments-secondWindow.png)](https://assets.postman.com/postman-docs/environments-secondWindow.png)
 
 
 ### ADVANCED
 <h4 id="monitors">Creating monitors</h4>
 A [monitor](/docs/postman/monitors/intro_monitors/) runs a collection periodically to check its performance and response. You can [set a monitor](/docs/postman/monitors/setting_up_monitor/) to run as frequently as every 5 minutes. 
 
-[![create screen](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/collection-create-new-screen2.png)
+[![create screen](https://assets.postman.com/postman-docs/collection-create-new-screen2.png)](https://assets.postman.com/postman-docs/collection-create-new-screen2.png)
 
 **Note**: At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
 
@@ -94,7 +94,7 @@ A [monitor](/docs/postman/monitors/intro_monitors/) runs a collection periodical
 2. In the **Create New** tab, click “Monitor”.
 3. Select if you want to monitor a new API or an existing or team collection. If you create a new API to monitor, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection, you must select a collection from a list of existing or team collections.
 
-[![request monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-select-requests.png)
+[![request monitor](https://assets.postman.com/postman-docs/monitor-select-requests.png)](https://assets.postman.com/postman-docs/monitor-select-requests.png)
  
 <ol start="4">
   <li>After you select or create the request you want to monitor, click the <b>Next</b> button. </li>
@@ -106,7 +106,7 @@ A [monitor](/docs/postman/monitors/intro_monitors/) runs a collection periodical
   * Set how frequently the monitor should run. 
   * Select one or more regions of the world from where you want to monitor your results.
     
-  [![configure monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-configure.png)  
+  [![configure monitor](https://assets.postman.com/postman-docs/monitor-configure.png)](https://assets.postman.com/postman-docs/monitor-configure.png)  
  
  <ol start="6">
   <li>Click the <b>Create</b>  button. </li>
@@ -114,7 +114,7 @@ A [monitor](/docs/postman/monitors/intro_monitors/) runs a collection periodical
 
 In the **Next steps** tab, see a list of suggested next steps to get the most out of your monitor.
     
-  [![next monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-next-steps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/monitor-next-steps.png)    
+  [![next monitor](https://assets.postman.com/postman-docs/monitor-next-steps.png)](https://assets.postman.com/postman-docs/monitor-next-steps.png)    
 
 <h4 id="documentation">Creating documentation</h4>
 You can create [public or private documentation](/docs/postman/api_documentation/intro_to_api_documentation) and share it in a web page. Postman generates and hosts browser-based documentation for your collections automatically in real-time. 
@@ -122,7 +122,7 @@ You can create [public or private documentation](/docs/postman/api_documentation
 1. In the header toolbar, click the **New** button.
 2. In the **Create New** tab, click "API Documentation".
 3. Select if you want to create documentation for a new API or an existing or team collection. If you create a new API to document, you must select a request method and enter the request URL, description, and status code. If you use an existing or team collection to document, you must select a collection from a list of existing or team collections.
-[![configure docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configure.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configure.png)
+[![configure docs](https://assets.postman.com/postman-docs/documentation-configure.png)](https://assets.postman.com/postman-docs/documentation-configure.png)
 
 <ol start="4">
   <li>After you select or create the request you want to document, click the <b>Next</b> button.</li>
@@ -132,7 +132,7 @@ You can create [public or private documentation](/docs/postman/api_documentation
 * Enter the name of the documentation.
 * Add a description of the documentation. You can use markdown to add headings, lists, code snippets, and so on in your description.
 
-[![configureTab docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-configureTab.png)
+[![configureTab docs](https://assets.postman.com/postman-docs/documentation-configureTab.png)](https://assets.postman.com/postman-docs/documentation-configureTab.png)
 
  <ol start="6">
   <li>Click the <b>Create</b> button.</li>
@@ -140,7 +140,7 @@ You can create [public or private documentation](/docs/postman/api_documentation
      
 In the **Next steps** tab, see a list of suggested next steps to get the most out of your documentation.
 
-[![nextSteps docs](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-nextsteps.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/documentation-nextsteps.png)
+[![nextSteps docs](https://assets.postman.com/postman-docs/documentation-nextsteps.png)](https://assets.postman.com/postman-docs/documentation-nextsteps.png)
 
 <h4 id="mock_servers">Creating mock servers</h4>
 A [mock server](/docs/postman/mock_servers/setting_up_mock/) simulates each endpoint in a Postman Collection. You can mock a request and response in Postman before you send the actual request or set up a single endpoint to return the response. 
@@ -149,7 +149,7 @@ A [mock server](/docs/postman/mock_servers/setting_up_mock/) simulates each endp
 2. In the **Create New** tab, click “Mock Server”.
 3. Select if you want to mock a new API or an existing or team collection. If you create a new API to mock, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection to mock, you must select a collection from a list of existing or team collections. 
 
-[![config mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-config.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-config.png) 
+[![config mock](https://assets.postman.com/postman-docs/mock-config.png)](https://assets.postman.com/postman-docs/mock-config.png) 
 
 <ol start="4">
   <li>After you select or create the request you want to mock, click the <b>Next</b> button.</li>
@@ -162,7 +162,7 @@ A [mock server](/docs/postman/mock_servers/setting_up_mock/) simulates each endp
 
 **Note**: The number of calls made to mock servers might be limited by your Postman account. Check your [usage limits](https://go.postman.co/usage).
      
- [![configTab mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png) 
+ [![configTab mock](https://assets.postman.com/postman-docs/mock-configureTab.png)](https://assets.postman.com/postman-docs/mock-configureTab.png) 
      
 <ol start="6">
   <li>Click the <b>Create</b> button.</li>
@@ -170,7 +170,7 @@ A [mock server](/docs/postman/mock_servers/setting_up_mock/) simulates each endp
 
 In the **Next steps** tab, see a list of suggested next steps to get the most out of your mock server.
 
- [![next mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-configureTab.png)  
+ [![next mock](https://assets.postman.com/postman-docs/mock-configureTab.png)](https://assets.postman.com/postman-docs/mock-configureTab.png)  
 
 ### Template and API Network tabs
 
@@ -180,7 +180,7 @@ You can select ‘Templates’ to help you: check links, track Github issues, ve
 
 You can view all the templates, or select to view them in the "Developer" or "DevOps" category.
 
-[![templates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/templates-tab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/templates-tab.png)
+[![templates](https://assets.postman.com/postman-docs/templates-tab.png)](https://assets.postman.com/postman-docs/templates-tab.png)
 
 To import a template:
 
@@ -188,7 +188,7 @@ To import a template:
 
 **Note**: Each template has a description that lists the values required to run the template. In this example, the Link Checker template requires a `start_url` and a `root_url`.
 
-[![linkCheckertemplates](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/linkchecker-template.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/linkchecker-template.png)
+[![linkCheckertemplates](https://assets.postman.com/postman-docs/linkchecker-template.png)](https://assets.postman.com/postman-docs/linkchecker-template.png)
 
 <ol start="2">
   <li>Click the <b>Use this template</b> button to summon the <b>Customization options</b> screen.</li>
@@ -207,7 +207,7 @@ The **Success!** screen displays what Postman created for you and suggests next 
   <li>Click the <b>Okay</b> button to exit the screen.</li>
 </ol>
 
-[![nextSteps](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/nextsteps-linkchecker.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/nextsteps-linkchecker.png)
+[![nextSteps](https://assets.postman.com/postman-docs/nextsteps-linkchecker.png)](https://assets.postman.com/postman-docs/nextsteps-linkchecker.png)
 
 <h4 id="API_network">API Network</h4>
 
@@ -217,13 +217,13 @@ On the left side of the screen, Postman groups the APIs categories such as Marke
 
 After you select an API from the list, you can import it into your collections.
 
-[![API_network](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork-tab.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork-tab.png)
+[![API_network](https://assets.postman.com/postman-docs/apiNetwork-tab.png)](https://assets.postman.com/postman-docs/apiNetwork-tab.png)
 
 To import an API in the API Network:
 
 1. Click an API in the API Network list. In this example, we're using the Auth0 API.
 
-[![API_networkExample](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork_authO.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/apiNetwork_authO.png)
+[![API_networkExample](https://assets.postman.com/postman-docs/apiNetwork_authO.png)](https://assets.postman.com/postman-docs/apiNetwork_authO.png)
 
 <ol start="2">
   <li>Click the <b>Run In Postman</b> button to import the the API's collection.</li>
@@ -231,6 +231,6 @@ To import an API in the API Network:
 
 You can see the API you imported in the [sidebar.](/docs/postman/launching_postman/navigating_postman/#sidebar)
 
-[![sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton-sidebar2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/newbutton-sidebar2.png)
+[![sidebar](https://assets.postman.com/postman-docs/newbutton-sidebar2.png)](https://assets.postman.com/postman-docs/newbutton-sidebar2.png)
 
 

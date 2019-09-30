@@ -16,21 +16,21 @@ Can’t find what you're looking for? [Publish your own community-contributed te
 
 For API publishers, you can add your API to the API Network when [publishing your collection](/docs/postman/api_documentation/publishing_public_docs), or while editing your Collection Discovery details. Ensure your API has an API name, summary, and description.
 
-[![api network categories](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add-to-API-Network.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add-to-API-Network.png)
+[![api network categories](https://assets.postman.com/postman-docs/Add-to-API-Network.png)](https://assets.postman.com/postman-docs/Add-to-API-Network.png)
 
 Select the categories that best describe your API and service. Once submitted, the Postman team will review the submission for approval before your API is accessible to millions of developers worldwide.
 
-[![api network categories](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add-to-API-Network2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Add-to-API-Network2.png)
+[![api network categories](https://assets.postman.com/postman-docs/Add-to-API-Network2.png)](https://assets.postman.com/postman-docs/Add-to-API-Network2.png)
 
 ### Update team public profile
 
 Under your [team settings](https://go.postman.co/settings/team/public), verify your team's public profile details including your team name, team description, organization logo, and favicon.
 
-[![team profile settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network/api-network-team-profile-settings.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network/api-network-team-profile-settings.png)
+[![team profile settings](https://assets.postman.com/postman-docs/api-network/api-network-team-profile-settings.png)](https://assets.postman.com/postman-docs/api-network/api-network-team-profile-settings.png)
 
 This information will be displayed to users on your team's profile page, along with a listing of your published APIs and templates.
 
-[![team profile display](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network/api-network-team-profile-display.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network/api-network-team-profile-display.png)
+[![team profile display](https://assets.postman.com/postman-docs/api-network/api-network-team-profile-display.png)](https://assets.postman.com/postman-docs/api-network/api-network-team-profile-display.png)
 
 If you choose to disable your team profile, you won't be able to publish any new collections to the Postman API Network or templates, and any previously published collections will be unpublished.
 
@@ -38,6 +38,6 @@ If you choose to disable your team profile, you won't be able to publish any new
 
 Under your [personal settings](https://go.postman.co/settings/me/public), verify your public profile details including your name, description and profile photo. Similar to your team's public profile, user information will be displayed on your user profile page, along with a listing of your published templates.
 
-[![user profile display](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network/api-network-user-profile-display.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-network/api-network-user-profile-display.png)
+[![user profile display](https://assets.postman.com/postman-docs/api-network/api-network-user-profile-display.png)](https://assets.postman.com/postman-docs/api-network/api-network-user-profile-display.png)
 
 If you choose to disable your user profile, you won't be able to publish any new templates and any previously published templates will be unpublished.

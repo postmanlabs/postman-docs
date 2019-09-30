@@ -13,11 +13,11 @@ You can only publish documentation for collections that you've created or have w
 
 In your [collection's](/docs/postman/api_documentation/viewing_documentation/) documentation page, click the **Publish** button at the top of the screen.
 
-[![publish button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-publish-button2.png) ](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-publish-button2.png)  
+[![publish button](https://assets.postman.com/postman-docs/docs-publish-button2.png) ](https://assets.postman.com/postman-docs/docs-publish-button2.png)  
 
 The **Edit Published Collection** page appears.
 
-[![public documentation link](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-public-view.png)
+[![public documentation link](https://assets.postman.com/postman-docs/docs-public-view.png)](https://assets.postman.com/postman-docs/docs-public-view.png)
 
 When signed in to Postman, you can select a [corresponding environment](/docs/postman/api_documentation/environments_and_environment_templates/) to publish the collection. Any references to variables like `{{url}}` in the collection will be replaced with the correct value from the environment. 
 
@@ -34,13 +34,13 @@ The public documentation link always has the most up-to-date content. You don’
 
 In the **Edit Published Collection** page, click the **Unpublish Collection** button at the bottom of the page.
 
-[![publish or unpublish](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-unpublish2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-unpublish2.png)
+[![publish or unpublish](https://assets.postman.com/postman-docs/docs-unpublish2.png)](https://assets.postman.com/postman-docs/docs-unpublish2.png)
 
 ### Custom domains
 
 Optionally, you can pick from a list of verified [custom domains](/docs/postman/api_documentation/adding_and_verifying_custom_domains/) to host your API documentation. You’ll be able to view documentation on your custom domain, as well as the Postman private documentation page. 
 
-[![custom domain](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-custom-domains.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-custom-domains.png)
+[![custom domain](https://assets.postman.com/postman-docs/docs-custom-domains.png)](https://assets.postman.com/postman-docs/docs-custom-domains.png)
 
 ### Custom styling options
 
@@ -48,4 +48,4 @@ Postman allows you to customize the appearance of your published documentation p
 
 You can update the custom styling options either before or after you publish your documentation. Click the **Show Custom Styling Options** link to expand the section and update your color palette.
 
-[![custom styling options](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-custom-styling.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/docs-custom-styling.png)
+[![custom styling options](https://assets.postman.com/postman-docs/docs-custom-styling.png)](https://assets.postman.com/postman-docs/docs-custom-styling.png)

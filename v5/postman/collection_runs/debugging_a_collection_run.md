@@ -9,7 +9,7 @@ Oftentimes, things don't go according to plan and your collection tests will fai
 
 In this example, we're running the [Postman Echo collection](https://docs.postman-echo.com/).
 
-[![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58531976.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58531976.png)
+[![collection runner view](https://assets.postman.com/postman-docs/58531976.png)](https://assets.postman.com/postman-docs/58531976.png)
 
 In the `Delete Cookies` request, we expect a certain cookie to be returned by the server, and this is what the test checks as well. Postman Echo's [Cookies](https://docs.postman-echo.com/#37368024-f6a8-0f70-85fc-7e876cde9e33) endpoint returns whatever cookies are sent to it. It also sends a JSON representation of these in the response body. This is what we're using to check if a certain cookie was returned.
 
@@ -17,8 +17,8 @@ As we can see, this test is failing. Let's investigate why.
 
 ### Debugging using the Request & Response body
 
-[![tooltip for request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532000.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532000.png)
-[![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532254.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532254.png)
+[![tooltip for request](https://assets.postman.com/postman-docs/58532000.png)](https://assets.postman.com/postman-docs/58532000.png)
+[![collection runner view](https://assets.postman.com/postman-docs/58532254.png)](https://assets.postman.com/postman-docs/58532254.png)
 
 As the test says, we're expecting a cookie named `foo1` to be returned as part of the response. 
 
@@ -31,7 +31,7 @@ You can control which bodies show up in this tooltip by using the `Log responses
 
 Debugging using the Postman Console requires you to have the console open before you start your run. You can read about the [Postman Console](/docs/postman/sending_api_requests/debugging_and_logs/).
 
-[![postman console view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532402.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58532402.png)
+[![postman console view](https://assets.postman.com/postman-docs/58532402.png)](https://assets.postman.com/postman-docs/58532402.png)
 
 The Postman Console will record all requests and display them in a list.
 

@@ -6,7 +6,7 @@ warning: false
 
 When running a collection, you can branch and loop across API requests in Postman using the `postman.setNextRequest("request_name");` function.
 
-[![set next request method](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script10.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Test_script10.png)
+[![set next request method](https://assets.postman.com/postman-docs/Test_script10.png)](https://assets.postman.com/postman-docs/Test_script10.png)
 
 ### Set the request to be executed next
 
@@ -18,7 +18,7 @@ postman.setNextRequest("request_name");
 
 Providing the name of current run to `setNextRequest` leads to Postman running the current request continuously.
 
-[![looping current request](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/branching_and_looping/branching_and_looping.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/branching_and_looping/branching_and_looping.png)
+[![looping current request](https://assets.postman.com/postman-docs/branching_and_looping/branching_and_looping.png)](https://assets.postman.com/postman-docs/branching_and_looping/branching_and_looping.png)
 
 **Note:** While looping over one request continuously, one should wrap `setNextRequest` in some logic so as to ensure that the request does not run indefinitely otherwise the collection runner would need to be force closed.
 

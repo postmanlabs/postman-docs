@@ -22,11 +22,11 @@ If you’re on the annual subscription of Postman Pro, you can:
 
 Click the **Change Plan** button. 
 
-[![change plan button](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/currentPlan-monthly.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/currentPlan-monthly.png)
+[![change plan button](https://assets.postman.com/postman-docs/currentPlan-monthly.png)](https://assets.postman.com/postman-docs/currentPlan-monthly.png)
 
 You can change the billing cycle of your subscription and the size of your Pro team. Your team size cannot be less than the number of users already in your Pro team.
 
-[![monthly](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/changePlan-monthly.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/changePlan-monthly.png)
+[![monthly](https://assets.postman.com/postman-docs/changePlan-monthly.png)](https://assets.postman.com/postman-docs/changePlan-monthly.png)
 
 **Note**: To reduce the size of your team, go to the Dashboard and click the “Team “dropdown menu. Then select the **View Team** button to remove users from the team.
 
@@ -56,17 +56,17 @@ If you’re on the annual Postman Pro subscription, you can:
 
 In the [Billing Overview](https://go.postman.co/billing/overview) page, click the **Add User Slots** button to increase the size of our team
 
-[![add slot](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/currentPlan-annual.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/currentPlan-annual.png)
+[![add slot](https://assets.postman.com/postman-docs/currentPlan-annual.png)](https://assets.postman.com/postman-docs/currentPlan-annual.png)
 
 Select the number of users to add to your existing team.
 
-[![add slot annual](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/addSlots-annual.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/addSlots-annual.png)
+[![add slot annual](https://assets.postman.com/postman-docs/addSlots-annual.png)](https://assets.postman.com/postman-docs/addSlots-annual.png)
 
 Click the **Proceed** button to confirm the details and proceed to payment. 
 
 Your saved card is charged the amount for your new users for the remainder of the billing cycle (Example: number of users added * days remaining in cycle/365 * cost of plan). You must have an existing payment method saved. 
 
-[![annual](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/changePlan-annual.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/changePlan-annual.png)
+[![annual](https://assets.postman.com/postman-docs/changePlan-annual.png)](https://assets.postman.com/postman-docs/changePlan-annual.png)
 
 If you do not have a credit card on file, click the “Payment Methods” link in the left navigation section. You can select the billing cycle and team size for the plan you want to switch to at the end of your existing billing cycle. 
 
@@ -76,11 +76,11 @@ Click the ellipsis (...) next to the **Add User Slots** button, and then select 
 
 In the Instructions page, click the **Edit Standing Instructions** button.
 
-[![annual set instructions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/setInstructions-annual.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/setInstructions-annual.png)
+[![annual set instructions](https://assets.postman.com/postman-docs/setInstructions-annual.png)](https://assets.postman.com/postman-docs/setInstructions-annual.png)
 
 In the dropdown menu, you can select “Continue on the same plan”, “Switch plan”, or “Cancel plan”.
 
-[![dropdown set instructions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/setInstructions-dropdown-annual.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/setInstructions-dropdown-annual.png)
+[![dropdown set instructions](https://assets.postman.com/postman-docs/setInstructions-dropdown-annual.png)](https://assets.postman.com/postman-docs/setInstructions-dropdown-annual.png)
 
 * If you select “Continue on the same plan”, click the **Save Changes** button.
 
@@ -88,7 +88,7 @@ In the dropdown menu, you can select “Continue on the same plan”, “Switch 
 
 * If you select “Cancel plan”, indicate why you want to cancel. 
 
-[![cancel survey](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/cancelPlan-survey-annual.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/cancelPlan-survey-annual.png)
+[![cancel survey](https://assets.postman.com/postman-docs/cancelPlan-survey-annual.png)](https://assets.postman.com/postman-docs/cancelPlan-survey-annual.png)
 
 After you make your selection, save your changes.
 
@@ -96,7 +96,7 @@ After you make your selection, save your changes.
 
 Click the ellipsis (...) next to the **Add User Slots** button, and then select “Cancel Plan”.
 
-[![cancel survey](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/cancelSetInstruction-annual.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/cancelSetInstruction-annual.png)
+[![cancel survey](https://assets.postman.com/postman-docs/cancelSetInstruction-annual.png)](https://assets.postman.com/postman-docs/cancelSetInstruction-annual.png)
 
 In the Cancel Plan page, indicate why you want to cancel. Then click the **Cancel Current Plan** button, or even better, click the **I’ve changed my mind** button.
 

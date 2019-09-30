@@ -29,15 +29,15 @@ To manage your collection revisions with specific API versions, you must adhere 
 
 Postman, by default, creates a *Draft* version the moment you create an API. You can then create new versions of your API based on an existing version or a completely new one from scratch. To create a new version of an API, click **Show All Versions**, as illustrated in the following screen:
 
-[![api all versions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create1-Showallversions1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create1-Showallversions1.png)
+[![api all versions](https://assets.postman.com/postman-docs/API-Create1-Showallversions1.png)](https://assets.postman.com/postman-docs/API-Create1-Showallversions1.png)
 
 The following screen appears:
 
-[![api create new version](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create1-NewVersion1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create1-NewVersion1.png)
+[![api create new version](https://assets.postman.com/postman-docs/API-Create1-NewVersion1.png)](https://assets.postman.com/postman-docs/API-Create1-NewVersion1.png)
 
 Click **Create another version** to go to the following screen:
 
-[![api create new version2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create1-NewVersion2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Create1-NewVersion2.png)
+[![api create new version2](https://assets.postman.com/postman-docs/API-Create1-NewVersion2.png)](https://assets.postman.com/postman-docs/API-Create1-NewVersion2.png)
 
 Specify a name for the new version of your API. In the **Carry over elements from a previous version** list, select a version if you want to carry over the elements. If you do not want to carry over any API elements, select **Don't carry over any elements** to create a new API version from scratch.
 
@@ -47,7 +47,7 @@ If you choose to **Carry over elements from a previous version**, then select th
 
 A default *Draft* version tag is associated with your API when you first create it in Postman. Postman allows you to rename the version tag based on your preference. To rename the API version tag, click **Show All Versions**. The following screen opens:
 
-[![api version rename](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Version-Rename1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Version-Rename1.png)
+[![api version rename](https://assets.postman.com/postman-docs/API-Version-Rename1.png)](https://assets.postman.com/postman-docs/API-Version-Rename1.png)
 
 In the above screen, click the ellipsis (...) and select **Rename** to specify a new version tag.
 
@@ -55,7 +55,7 @@ In the above screen, click the ellipsis (...) and select **Rename** to specify a
 
 You can also delete a specific version of your API. To delete a specific version of the API, click the ellipsis (...), as illustrated in the following screen and select **Delete**.
 
-[![api delete](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Delete-Version1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Delete-Version1.png)
+[![api delete](https://assets.postman.com/postman-docs/API-Delete-Version1.png)](https://assets.postman.com/postman-docs/API-Delete-Version1.png)
 
 **Note:** When you delete an existing API version, the corresponding version tag associated with the API version also gets deleted.
 
@@ -63,7 +63,7 @@ You can also delete a specific version of your API. To delete a specific version
 
 You can link collections or your collection revisions to an API or specific version of an API using version tagging. To link a collection to an API, add either documentation or a test suite to an API. When you add these elements, you are linking your collection to an API. This example illustrates adding documentation to link the corresponding collection to the *Moonwalk API*. The following screen illustrates this:
 
-[![api link collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collections4.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collections4.gif)
+[![api link collections](https://assets.postman.com/postman-docs/API-Link-Collections4.gif)](https://assets.postman.com/postman-docs/API-Link-Collections4.gif)
 
 **Note:** Whenever you add a mock or a monitor to an API, the underlying collection also gets linked to the API even though you are explicitly selecting only a mock or a monitor from the list.  
 
@@ -71,35 +71,35 @@ You can link collections or your collection revisions to an API or specific vers
 
 To link a collection to an API version, navigate to the **Collections** tab in the sidebar, expand the arrow (&#9656;) to show the details view for the collection, go to the **Changelog** tab, select a collection that you want to tag and click **Add Version Tag**. The following screen opens:
 
-[![Create new monitor](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-dev/API-Add-Version-Tag.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/api-dev/API-Add-Version-Tag.png)
+[![Create new monitor](https://assets.postman.com/postman-docs/api-dev/API-Add-Version-Tag.png)](https://assets.postman.com/postman-docs/api-dev/API-Add-Version-Tag.png)
 
 In the above screen, select an API, choose the version you want to tag to this collection and then link it as documentation, a test suite etc.
 
 The following screen illustrates adding a version tag to an API:
 
-[![api link collections](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collections-vTag.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Link-Collections1.gif)
+[![api link collections](https://assets.postman.com/postman-docs/API-Link-Collections-vTag.gif)](https://assets.postman.com/postman-docs/API-Link-Collections1.gif)
 
 You will also be able to add version tags to your collections from the Postman web dashboard. The following screen illustrates this:
 
-[![api link collections2](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Version-to-Collection2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Add-Version-to-Collection2.png)
+[![api link collections2](https://assets.postman.com/postman-docs/API-Add-Version-to-Collection2.png)](https://assets.postman.com/postman-docs/API-Add-Version-to-Collection2.png)
 
 ## Updating version tags with API version changes
 
 Postman automatically updates the version tags of your collections whenever an API version is renamed or updated. The example below illustrates this procedure. In this example, the API's *Draft* version is tagged to a collection first (you can see how *current* version of the collection changes to *draft* version of API). The API version is then renamed to 1.0. The example illustrates how Postman automatically updates the collection version tag to the 1.0 label.
 
-[![api link collection to API ver](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Updating-Ver-Tags1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Updating-Ver-Tags1.gif)
+[![api link collection to API ver](https://assets.postman.com/postman-docs/API-Updating-Ver-Tags1.gif)](https://assets.postman.com/postman-docs/API-Updating-Ver-Tags1.gif)
 
 ## Using version tags to map changes in your API
 
 You can tag your collection revisions to map changes in your API. Let's understand how to accomplish this with an example that illustrates the *PetStore* collection. The collection is first tagged to *PetStore API* version 1.0. Later, the schema is updated with a small change resulting in a revision of the collection. Because the schema and the collection both changed, you can now tag the collection to a new API version labeled, 2.0. You can also see the behavior of the version tag associated with documentation.
 
-[![api link collection revisions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-versiontags-map-api-changes1.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-versiontags-map-api-changes1.gif)
+[![api link collection revisions](https://assets.postman.com/postman-docs/API-versiontags-map-api-changes1.gif)](https://assets.postman.com/postman-docs/API-versiontags-map-api-changes1.gif)
 
 If you have collections with specific version tags, Postman will associate them with the appropriate API versions in the tab interface by default. Due to this automatic behavior, Postman does not allow you to manipulate the version tags of a collection linked with an API manually.
 
 Let's consider another example where an API version is incremented to 3.0 from 2.0 and the user chooses to *Carry over elements from a previous version*. In this case, the collection is not tagged to API version 3.0 yet. A warning will appear in Postman. Since the API version is bumped up to 3.0, Postman is unable to find an equivalent version tag on the collection corresponding to the API version 3.0. The following screen illustrates this:
 
-[![api link collection revisions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Version-Mismatch2.gif)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Version-Mismatch2.gif)
+[![api link collection revisions](https://assets.postman.com/postman-docs/API-Version-Mismatch2.gif)](https://assets.postman.com/postman-docs/API-Version-Mismatch2.gif)
 
 In such instances, you should add a corresponding version tag (in this case 3.0) to the collection and Postman then automatically resolves the issue.
 

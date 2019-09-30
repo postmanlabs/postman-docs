@@ -15,11 +15,11 @@ In this example:
 1. The Interceptor is listening for any calls made by the Chrome browser and captures the request, forwards the request onward, and also sends the request to Postman.
 1. The web server returns a response directly to the Chrome browser.
 
-[![interceptor workflow](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy.interceptor.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy.interceptor.png)
+[![interceptor workflow](https://assets.postman.com/postman-docs/proxy.interceptor.png)](https://assets.postman.com/postman-docs/proxy.interceptor.png)
 
 There is no need to install or configure a proxy. There are no code changes required either. You can filter requests according to the URL based on a regular expression. If you have a web app for which you don’t have a collection built already, or you just want to debug the APIs that your app is using, this can save a lot of time. The Postman Chrome app can be used in tandem with the Postman Interceptor extension to make and capture requests. It can also capture and manipulate cookies or set certain HTTP headers that are blocked on the Chrome platform by default.
 
-<a href="https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy.interceptExt.png"><img width="200" alt="interceptor-extension" src="https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/proxy.interceptExt.png"></a>
+<a href="https://assets.postman.com/postman-docs/proxy.interceptExt.png"><img width="200" alt="interceptor-extension" src="https://assets.postman.com/postman-docs/proxy.interceptExt.png"></a>
 
 ### Installing Interceptor
 

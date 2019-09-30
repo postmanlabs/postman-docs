@@ -9,7 +9,7 @@ warning: false
 
 In the header toolbar of the Postman app, click the wrench icon and select "Settings" to open the **SETTINGS** modal. You can also use the keyboard shortcut (**CMD/CTRL + ,**) to open the modal.
 
-[![settings dropdown](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-settings.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-settings.png)
+[![settings dropdown](https://assets.postman.com/postman-docs/WS-settings.png)](https://assets.postman.com/postman-docs/WS-settings.png)
 
 ## General Settings
 
@@ -42,13 +42,13 @@ Postman tries to minimize the number of settings you have to change, so we estab
     * **Max response size:** Option to limit the size of response (in Megabytes) that is rendered by Postman. If the limit is exceeded,
    Postman will inform the user that the received response is large (default limit: 50 MB) and provide options to increase the size limit or download the response. Note that rendering large responses can impact app performance.
 
-[![general settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Settings-Apr2019.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Settings_Apr2019.png)
+[![general settings](https://assets.postman.com/postman-docs/Settings-Apr2019.png)](https://assets.postman.com/postman-docs/Settings_Apr2019.png)
 
 ## Themes
 
 Pick your pleasure: choose a light or dark theme for the Postman app.
 
-[![themes in settings](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-themes-settings.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-themes-settings.png)
+[![themes in settings](https://assets.postman.com/postman-docs/WS-themes-settings.png)](https://assets.postman.com/postman-docs/WS-themes-settings.png)
 
 ## Keyboard Shortcuts
 

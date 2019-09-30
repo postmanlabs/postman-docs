@@ -17,7 +17,7 @@ To ensure your collections have a wider adoption, your collection documentation 
 
 Your template documentation must have an appropriate name.
 
-   [![name and desc](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates1.png)
+   [![name and desc](https://assets.postman.com/postman-docs/API-Network-Templates1.png)](https://assets.postman.com/postman-docs/API-Network-Templates1.png)
 
 ### 2. Introduction
 
@@ -27,17 +27,17 @@ Provide a proper introduction to your collection. Your collection may not find a
 
 Provide useful information about your collection and other prerequisites to jump-start your users to using the collection. Talk about the APIs used and how to authenticate them, if necessary. If you've used environments, then talk about them in detail. The following screen illustrates a very good example of a quick-start.
 
-[![quick start](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates2.png)
+[![quick start](https://assets.postman.com/postman-docs/API-Network-Templates2.png)](https://assets.postman.com/postman-docs/API-Network-Templates2.png)
 
 ### 4. Endpoints and params
 
 Be a bit magnanimous in describing your collection details. If possible, clearly document the resource descriptions, endpoints and methods, parameters, sample requests, sample responses and schemas. The following screens illustrate a clear description of endpoints and parameters.
 
-[![endpoints](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates3a.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates3a.png)
+[![endpoints](https://assets.postman.com/postman-docs/API-Network-Templates3a.png)](https://assets.postman.com/postman-docs/API-Network-Templates3a.png)
 
 **The Params:**
 
-[![params](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates4.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/API-Network-Templates4.png)
+[![params](https://assets.postman.com/postman-docs/API-Network-Templates4.png)](https://assets.postman.com/postman-docs/API-Network-Templates4.png)
 
 ### Good template submissions:
 
