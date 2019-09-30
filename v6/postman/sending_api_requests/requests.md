@@ -151,7 +151,7 @@ Postman allows specific configurations for individual requests via the request c
 
 The request configuration tab appears in the request editor bar.
 
-
+[![Request configuration](https://assets.postman.com/postman-docs/Request_config_screenshot.png)](https://assets.postman.com/postman-docs/Request_config_screenshot.png)
 
 Following is a list of options provided by request config tab:
 
