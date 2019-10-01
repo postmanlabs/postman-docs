@@ -38,11 +38,9 @@ You can view the full console output for every monitor run, including any errors
 
 ### Who can see my Monitors?
 
-Monitors are visible to all members of the workspace they were created in. If a collection is shared in both a personal and team workspace, but its monitor is created in the personal workspace, members of the team workspace will not be able to view or access that monitor.
+Monitors have the same permissions as Postman Collections. By default, your collections are private, so only you can see the collection and its monitors. If you share a collection, then other members of your Postman Pro or Enterprise team can see the collection and its monitors. If you grant ``View & Edit`` permissions, then your team members can add monitors to your collection.
 
-### Who can edit my Monitors?
-
-Monitors can be edited in their respective workspace by members who have been granted [Editor permissions](/docs/postman_pro/managing_postman_pro/roles_and_permissions/#collection-roles) on the associated collection.
+Each collection can have different permissions. As a result, you can choose to have some private monitors, some shared monitors that are view-only, and some monitors that are shared and editable.
 
 ### Can I delete a Monitor?
 
