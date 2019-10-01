@@ -145,15 +145,13 @@ Authoring and sending a GraphQL query in Postman is simple. The following screen
 
 To send a GraphQL query, ensure you're present in the *Body* tab and then select **GraphQL** (shown above in red circle). Enter your GraphQL query in the *Query* section and send your request. The GraphQL body type provides a rich user interface for authoring and sending requests. The Editor enables you to author both queries and variables separately, as illustrated in the above screen. Refer to the [Using GraphQL](/docs/postman/sending_api_requests/graphql/) section for more information on GraphQL and how to enable **Autocomplete** feature powered by Postman API schemas.
 
-## Request Configuration
+## Custom settings for requests
 
-Postman allows specific configurations for individual requests via the request configuration tab. It provides a number of settings that enable the user to send requests to non-standard API or requests that need logic not present in the request sending algorithm by selecting them from a set of options for every request.
+Postman allows specific configurations for individual requests via the "Settings" tab under request builder view. It provides a number of settings that enable the user to send requests to non-standard API or requests that need logic not present in the request sending algorithm by selecting them from a set of options for every request.
 
-The request configuration tab appears in the request editor bar.
+[![Request settings](https://assets.postman.com/postman-docs/Request_config_screenshot.png)](https://assets.postman.com/postman-docs/Request_config_screenshot.png)
 
-[![Request configuration](https://assets.postman.com/postman-docs/Request_config_screenshot.png)](https://assets.postman.com/postman-docs/Request_config_screenshot.png)
-
-Following is a list of options provided by request config tab:
+Following is a list of options provided by request settings tab:
 
 | Setting                                    | Description                              |
 |--------------------------------------------|------------------------------------------|
