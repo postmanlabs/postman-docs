@@ -57,7 +57,7 @@ Two consoles are available in Postman to see what's going on behind the scenes.
 
 Postman has its own console, which can be used to view all the HTTP requests and responses for the current session, along with any messages the user wants to log.
 
-**Note:** The new console comes with Postman app version 7.10 and later. Older version will **NOT** receive the new console. Also, once the app is updated to 7.10, is is **NOT** possible to revert.
+**Note:** The new console comes with Postman app version 7.10 and later. Older version will **NOT** receive the new console. Once the app is updated to 7.10, is is **NOT** possible to revert.
 
 The console can be opened in a number of ways:
 
