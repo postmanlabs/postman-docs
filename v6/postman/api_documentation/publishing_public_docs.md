@@ -52,7 +52,7 @@ You can update the custom styling options either before or after you publish you
 
 ---
 
-Here's an [example](https://documenter.getpostman.com/view/583/coopers-meal-plan/4u2) of a published collection.
+Here's an [example](https://documenter.getpostman.com/view/1372588/S1LsZqc9?version=latest&_ga=2.100325207.83554078.1571781933-1440465650.1557161057) of a published collection.
 
 > **IMPORTANT:**  Any confidential information in your environment, such as **passwords and access tokens**, might be publicly visible. Remove all such information from the environment before you publish documentation with an environment.
 
