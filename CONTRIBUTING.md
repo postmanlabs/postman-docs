@@ -15,7 +15,7 @@ We follow [Git Flow](https://guides.github.com/introduction/flow/) for changes t
 * Create a new branch for your work based on develop `git checkout -b <YOUR BRANCH NAME>` Your branch name should be something descriptive of the changes you wish to make, and include the Issue number this change is associated with. Example: `1234-update-mock-api-docs`
 * Run `npm install` to add all dependencies
 * Make your changes. The Learning Center's documentation is built from the `.md` files in the `v6` folder of the repo
-* Check your files against our markdown guidelines by running `npm run lint` and resolve any errors
+* Check your files against our markdown guidelines by running `npm run test:mdlint` and resolve any errors
 * When you're ready to apply your changes, push your changed files to your forked repo
     * `git add <FILENAMES OF CHANGED FILES>`
     * `git commit -m "<YOUR COMMIT MESSAGE>"` Your commit message should be descriptive of the changes you made
