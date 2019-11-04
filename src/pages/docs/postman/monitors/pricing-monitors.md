@@ -1,5 +1,6 @@
 ---
 title: "Pricing for monitors"
+order: 77
 page_id: "pricing_monitors"
 contextual_links:
   - type: section

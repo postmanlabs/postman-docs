@@ -97,7 +97,7 @@ const ConceptPage = () => (
     <IconCard
       icon={syncIcon}
       items="2 items"
-      title="Syncig"
+      title="Syncing"
       description="Back up and save your Postman data to the cloud."
       heading1="docs"
       link1="Sync changes to your Postman account"

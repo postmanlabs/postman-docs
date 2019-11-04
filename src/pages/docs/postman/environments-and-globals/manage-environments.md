@@ -1,5 +1,6 @@
 ---
 title: "Manage environments"
+order: 49
 page_id: "manage_environments"
 contextual_links:
   - type: section

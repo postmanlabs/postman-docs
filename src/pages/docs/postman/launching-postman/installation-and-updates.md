@@ -1,5 +1,6 @@
 ---
 title: "Installation and updates"
+order: 1
 page_id: "installation_and_updates"
 warning: false
 contextual_links:

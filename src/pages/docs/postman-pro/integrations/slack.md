@@ -1,5 +1,6 @@
 ---
 title: "Slack"
+order: 125
 page_id: "slack"
 tags: 
   - "pro"

@@ -1,5 +1,6 @@
 ---
 title: "Conflicts"
+order: 100
 page_id: "conflicts"
 contextual_links:
   - type: section

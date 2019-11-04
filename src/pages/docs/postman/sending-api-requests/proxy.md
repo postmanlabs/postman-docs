@@ -1,5 +1,6 @@
 ---
 title: "Proxy"
+order: 24
 page_id: "proxy"
 contextual_links:
   - type: section

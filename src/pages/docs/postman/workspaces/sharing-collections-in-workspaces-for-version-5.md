@@ -1,5 +1,6 @@
 ---
 title: "Sharing collections in Workspaces for version 5"
+order: 98
 page_id: "sharing_collections_in_workspaces_for_version_5"
 contextual_links:
   - type: section

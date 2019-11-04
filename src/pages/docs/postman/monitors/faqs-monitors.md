@@ -1,5 +1,6 @@
 ---
 title: "FAQs for monitors"
+order: 79
 page_id: "faqs_monitors"
 warning: false
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Collaboration"
+order: 10
 page_id: "collaboration"
 warning: false
 

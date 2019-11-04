@@ -1,5 +1,6 @@
 ---
 title: "Navigating Postman"
+order: 4
 page_id: "navigating_postman"
 contextual_links:
   - type: section

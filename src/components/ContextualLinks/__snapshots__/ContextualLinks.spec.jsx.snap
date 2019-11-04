@@ -20,7 +20,7 @@ exports[`ContextualLinks renders correctly 1`] = `
     </a>
   </div>
   <div
-    className="contextual-links__section"
+    className="contextual-links__subtitle"
   >
     Related Blog Posts
   </div>

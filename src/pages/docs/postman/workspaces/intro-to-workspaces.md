@@ -1,5 +1,6 @@
 ---
 title: "Intro to Workspaces"
+order: 94
 page_id: "intro_to_workspaces"
 contextual_links:
   - type: section

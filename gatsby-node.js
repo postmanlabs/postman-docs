@@ -1,7 +1,9 @@
 const path = require('path');
+const fs = require('fs');
 const { createFilePath } = require('gatsby-source-filesystem');
 const glob = require('glob');
 const uuidv4 = require('uuid/v4');
+const frontmatter = require('@github-docs/frontmatter');
 const redirects = require('./redirects');
 
 const ignorePaths = [
@@ -74,8 +76,14 @@ exports.sourceNodes = async ({
   const paths = getDirectories('./src/pages/docs')
     .filter((val) => val.slice(-3) === '.md')
     .map((val) => {
+      const { data } = frontmatter(fs.readFileSync(val));
+      const order = data.order || 200;
+      return [val, order];
+    })
+    .sort((a, b) => Number(a[1]) - Number(b[1]))
+    .map((val) => {
       let newVal = '';
-      newVal = val.replace(/\.\/src\/pages/g, '');
+      newVal = val[0].replace(/\.\/src\/pages/g, '');
       newVal = newVal.substring(0, newVal.length - 3);
       newVal = newVal.slice(-5) === 'index' ? newVal.substring(0, newVal.length - 5) : newVal;
       return `${newVal}/`;
@@ -84,7 +92,7 @@ exports.sourceNodes = async ({
 
   const output = {};
 
-  paths.sort().forEach((val) => {
+  paths.forEach((val) => {
     let split = val.split('/');
     split = split.filter((url) => url !== '');
 

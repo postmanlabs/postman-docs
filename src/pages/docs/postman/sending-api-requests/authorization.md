@@ -1,5 +1,6 @@
 ---
 title: "Authorization"
+order: 19
 page_id: "authorization"
 contextual_links:
   - type: section

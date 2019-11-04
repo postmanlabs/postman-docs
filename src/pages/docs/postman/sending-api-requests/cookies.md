@@ -1,5 +1,6 @@
 ---
 title: "Cookies"
+order: 20
 page_id: "cookies"
 contextual_links:
   - type: section

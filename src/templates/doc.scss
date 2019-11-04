@@ -1,7 +1,16 @@
 @import '../components/Shared/variables';
 
 .doc-page {
-  padding: 15px;
+  padding-left: 49px !important;
+  padding-top: 64px;
+    code {
+      font-size: 87.5%;
+      color: #282828;
+      word-break: break-word;
+      background-color: rgba(109, 127, 145, 0.2);
+      border-radius: 2px;
+      padding: 4px;
+    }
     a {
       color: $postman-orange;
       text-decoration: none;

@@ -1,5 +1,6 @@
 ---
 title: "Manage globals"
+order: 50
 page_id: "manage_globals"
 contextual_links:
   - type: section

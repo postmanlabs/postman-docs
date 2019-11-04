@@ -1,5 +1,6 @@
 ---
 title: "Purchasing Postman Enterprise"
+order: 128
 page_id: "purchasing_enterprise"
 tags: 
   - "enterprise"

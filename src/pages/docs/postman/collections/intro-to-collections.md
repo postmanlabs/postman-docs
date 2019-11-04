@@ -1,5 +1,6 @@
 ---
 title: "Intro to collections"
+order: 30
 page_id: "intro_to_collections"
 contextual_links:
   - type: section

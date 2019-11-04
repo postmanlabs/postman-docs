@@ -14,17 +14,31 @@ import { CustomHits } from '../Search/searchPreview';
 
 const ClickOutHandler = require('react-onclickout');
 
-const searchClient = algoliasearch('4A5N71XYH0', 'bf5cf4783437b12c2dca33724c9c04b0');
+const algoliaClient = algoliasearch('4A5N71XYH0', 'bf5cf4783437b12c2dca33724c9c04b0');
+
+// removes empty query searches from analytics
+const searchClient = {
+  search(requests) {
+    const newRequests = requests.map((request) => {
+      // test for empty string and change request parameter: analytics
+      if (!request.params.query || request.params.query.length === 0) {
+        request.params.analytics = false;
+      }
+      return request;
+    });
+    return algoliaClient.search(newRequests);
+  },
+};
 
 // changes button in navbar based on cookie presence
 const LoginCheck = (props) => {
   if (props !== 'getpostmanlogin') {
     return (
-      <a href="/" className="btn btn__primary">Login</a>
+      <a href="https://identity.getpostman.com/login" className="btn btn__primary">Login</a>
     );
   }
   return (
-    <a href="/" className="btn btn__primary">Dashboard</a>
+    <a href="https://app.getpostman.com/" className="btn btn__primary">Dashboard</a>
   );
 };
 
@@ -43,7 +57,7 @@ class Header extends React.Component {
 
   getCookie = (a) => {
     if (typeof document !== 'undefined') {
-      const b = document.cookie.match('(^|;)\\s*' + a + '\\s*=\\s*([^;]+)');
+      const b = document.cookie.match(`(^|;)\\s*${a}\\s*=\\s*([^;]+)`);
       return b ? b.pop() : '';
     }
     return false;
@@ -79,12 +93,12 @@ class Header extends React.Component {
     return (
       <header className="header text-center navbar navbar-expand-xl navbar-light">
         <div className="navbar-brand header__brand">
-          <img className="header__logo" src={postmanLogo} alt="postman logo" />
           <Link
-            className="header__title"
+            className="header__homelink"
             to="/"
           >
-            {HeaderJson.title}
+            <img className="header__logo" src={postmanLogo} alt="postman logo" />
+            <span className="header__title">{HeaderJson.title}</span>
           </Link>
         </div>
 

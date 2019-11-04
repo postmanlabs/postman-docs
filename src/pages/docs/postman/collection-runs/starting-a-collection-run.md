@@ -1,5 +1,6 @@
 ---
 title: "Starting a collection run"
+order: 54
 page_id: "starting_a_collection_run"
 contextual_links:
   - type: section

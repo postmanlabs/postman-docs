@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting In-app Issues"
+order: 11
 page_id: "troubleshooting_in_app"
 warning: false
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting monitors"
+order: 78
 page_id: "troubleshooting_monitors"
 contextual_links:
   - type: section

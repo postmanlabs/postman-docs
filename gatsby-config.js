@@ -7,11 +7,21 @@ require('dotenv').config({
 module.exports = {
   siteMetadata: {
     title: 'Postman Learning Center',
-    description: 'this is the v2 of the super cool postman learning center',
+    description: '',
     author: 'Postman',
     siteUrl: 'https://learning.getpostman.com',
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-google-tagmanager',
+      options: {
+        id: 'GTM-M42M5N',
+
+        // Include GTM in development.
+        // Defaults to false meaning GTM will only be loaded in production.
+        includeInDevelopment: true,
+      },
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-algolia',

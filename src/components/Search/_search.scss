@@ -1,3 +1,5 @@
+@import '../Shared/_variables.scss';
+
 .search-input {
   border: 0;
   padding: 13px 24px;
@@ -6,6 +8,11 @@
   font-size: 14px;
   font-weight: 600;
   width: 500px;
+}
+
+ais-highlight-0000000000 {
+  color: #02739D;
+  background-color: $light-blue;
 }
 
 .input-empty {
@@ -23,6 +30,7 @@
   margin-top: -10px;
   display: flex;
   text-align: left;
+  max-width: 600px;
 }
 
 .arrow-up {
@@ -43,6 +51,10 @@
     color: #fe6c37;
     text-decoration: none;
   }
+}
+
+.search-title {
+  font-weight: 700;
 }
 
 .ais-SearchBox-form {

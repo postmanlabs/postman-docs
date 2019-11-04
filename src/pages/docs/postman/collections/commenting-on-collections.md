@@ -1,5 +1,6 @@
 ---
 title: "Commenting on collections"
+order: 38
 page_id: "commenting_on_collections"
 warning: false
 ---

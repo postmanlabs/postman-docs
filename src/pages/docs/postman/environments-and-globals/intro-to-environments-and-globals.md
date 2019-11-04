@@ -1,5 +1,6 @@
 ---
 title: "Intro to environments and globals"
+order: 47
 page_id: "intro_to_environments_and_globals"
 contextual_links:
   - type: section

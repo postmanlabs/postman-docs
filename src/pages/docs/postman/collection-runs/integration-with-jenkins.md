@@ -1,5 +1,6 @@
 ---
 title: "Integration with Jenkins"
+order: 62
 page_id: "integration_with_jenkins"
 contextual_links:
   - type: section
@@ -63,7 +64,7 @@ $ npm install -g newman
 
 We assume you already have a Postman Collection with some tests. Run the collection in the Postman app. Here's an example of the output in Postman’s collection runner.
 
-[![collection runner](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_1.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_1.png)
+[![collection runner](https://assets.postman.com/postman-docs/integrating_with_jenkins_1.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_1.png)
 
 Some of the tests are failing intentionally in the screenshot so we can show you the instructions for troubleshooting.
 
@@ -71,21 +72,21 @@ Some of the tests are failing intentionally in the screenshot so we can show you
 
 Run this collection inside Newman, using the command below. If everything is set up nicely, you should see the output below.
 
-[![terminal output from collection run](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_2.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_2.png)
+[![terminal output from collection run](https://assets.postman.com/postman-docs/integrating_with_jenkins_2.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_2.png)
 
 ## Set up Jenkins
 
 Jenkins exposes an interface at `http://localhost:8080`.
 
-[![jenkins interface](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_3.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_3.png)
+[![jenkins interface](https://assets.postman.com/postman-docs/integrating_with_jenkins_3.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_3.png)
 
 Create a new job by clicking on the “New Item” link on the left sidebar > Select a “Freestyle Project” from the options > Name your project.
 
-[![new Jenkins job](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_4.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_4.png)
+[![new Jenkins job](https://assets.postman.com/postman-docs/integrating_with_jenkins_4.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_4.png)
 
 Add a build step in the project. The build step executes a Shell command.
 
-[![execute shell command](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_5.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_5.png)
+[![execute shell command](https://assets.postman.com/postman-docs/integrating_with_jenkins_5.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_5.png)
 
 Here is the command:
 
@@ -97,29 +98,29 @@ Note here that we are using the Newman command parameter “exitCode” with the
 
 Click the **Save** button to finish creating the project.
 
-[![source code management](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_6.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_6.png)
+[![source code management](https://assets.postman.com/postman-docs/integrating_with_jenkins_6.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_6.png)
 
 ## Troubleshooting
 
 Run this build test manually by clicking on the “Build Now” link in the sidebar.
 
-[![run build](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_7.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_7.png)
+[![run build](https://assets.postman.com/postman-docs/integrating_with_jenkins_7.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_7.png)
 
 Jenkins indicates that the build has failed with a red dot in the title. We can check why with the console output from Newman.
 
-[![build failed message](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_8.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_8.png)
+[![build failed message](https://assets.postman.com/postman-docs/integrating_with_jenkins_8.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_8.png)
 
 Click the “Console Output” link in the sidebar to see what Newman returned.
 
-[![console output](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_9.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_9.png)
+[![console output](https://assets.postman.com/postman-docs/integrating_with_jenkins_9.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_9.png)
 
 Fix these tests inside Postman and then try again.
 
-[![collection runner view](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_10.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_10.png)
+[![collection runner view](https://assets.postman.com/postman-docs/integrating_with_jenkins_10.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_10.png)
 
 You can move on once you see green pass icons for all your tests like the screenshot above.
 
-[![console output for all tests pass](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_11.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_11.png)
+[![console output for all tests pass](https://assets.postman.com/postman-docs/integrating_with_jenkins_11.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_11.png)
 
 Jenkins indicates that the build succeeded with a blue ball.
 
@@ -127,7 +128,7 @@ Jenkins indicates that the build succeeded with a blue ball.
 
 To set up the frequency with which Jenkins runs Newman, click on “Configure project” in the main project window and then scroll down.=. The syntax for setting the frequency is `H/(30) * * * *`.
 
-[![build triggers](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_12.png)](https://www.getpostman.com/img/v1/docs/integrating_with_jenkins/integrating_with_jenkins_12.png)
+[![build triggers](https://assets.postman.com/postman-docs/integrating_with_jenkins_12.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_12.png)
 
 **Note:** 30 can be replaced with another number.
 

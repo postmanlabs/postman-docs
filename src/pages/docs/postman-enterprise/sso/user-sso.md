@@ -1,5 +1,6 @@
 ---
 title: "Logging in to an SSO team"
+order: 132
 page_id: "user_sso"
 tags: 
   - "enterprise"

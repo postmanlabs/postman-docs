@@ -1,5 +1,6 @@
 ---
 title: "Setting a custom SAML in Azure AD"
+order: 134
 page_id: "saml_in_azure_ad"
 tags: 
   - "enterprise"

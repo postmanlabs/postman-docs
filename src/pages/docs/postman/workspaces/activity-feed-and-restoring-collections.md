@@ -1,5 +1,6 @@
 ---
 title: "Activity feed and restoring collections"
+order: 99
 page_id: "activity_feed_and_restoring_collections"
 contextual_links:
   - type: section

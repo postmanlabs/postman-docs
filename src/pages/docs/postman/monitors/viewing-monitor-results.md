@@ -1,5 +1,6 @@
 ---
 title: "Viewing monitor results"
+order: 74
 page_id: "viewing_monitor_results"
 contextual_links:
   - type: section

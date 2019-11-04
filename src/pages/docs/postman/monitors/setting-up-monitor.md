@@ -1,5 +1,6 @@
 ---
 title: "Setting up a monitor"
+order: 73
 page_id: "setting_up_monitor"
 contextual_links:
   - type: section

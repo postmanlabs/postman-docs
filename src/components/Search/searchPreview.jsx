@@ -19,21 +19,16 @@ const SearchBox = ({ currentRefinement, refine }) => (
 
 export const CustomSearchBox = connectSearchBox(SearchBox);
 
-// print out first and last characters of search term
-const getSnippet = (excerpt, match) => {
-  const index = excerpt.indexOf(match);
-  return excerpt.substring(index - 50, index + 50);
-};
-
 // on page load do not display
 const Hits = ({ hits }) => (
   // if parent component set is type, render, otherwise hide
   <ul className="style">
+    {hits.length < 1 ? <li>No search results found</li> : ''}
     {hits.map((hit) => (
       <li key={hit.title}>
         <a href={hit.fields.slug}>
-          {hit.title}
-          <p>{`...${getSnippet(hit.excerpt, hit._highlightResult.title.matchedWords[0])}...`}</p>
+          <span className="search-title" dangerouslySetInnerHTML={{ __html: hit._highlightResult.title.value }} />
+          <p dangerouslySetInnerHTML={{ __html: hit._snippetResult.excerpt.value }} />
         </a>
       </li>
 

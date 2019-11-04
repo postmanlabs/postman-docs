@@ -1,5 +1,6 @@
 ---
 title: "Set up integrations to receive alerts"
+order: 76
 page_id: "integrations_for_alerts"
 contextual_links:
   - type: section

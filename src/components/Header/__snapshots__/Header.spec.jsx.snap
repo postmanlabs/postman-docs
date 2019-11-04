@@ -7,16 +7,20 @@ exports[`renders correctly 1`] = `
   <div
     className="navbar-brand header__brand"
   >
-    <img
-      alt="postman logo"
-      className="header__logo"
-      src="test-file-stub"
-    />
     <a
-      className="header__title"
+      className="header__homelink"
       href="/"
     >
-      Learning Center
+      <img
+        alt="postman logo"
+        className="header__logo"
+        src="test-file-stub"
+      />
+      <span
+        className="header__title"
+      >
+        Learning Center
+      </span>
     </a>
   </div>
   <button
@@ -86,7 +90,11 @@ exports[`renders correctly 1`] = `
         >
           <ul
             className="style"
-          />
+          >
+            <li>
+              No search results found
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -134,10 +142,10 @@ exports[`renders correctly 1`] = `
       className="nav-item"
     >
       <a
-        className="dynamic-link__external btn btn__primary"
-        href="https://app.getpostman.com/"
+        className="btn btn__primary"
+        href="https://identity.getpostman.com/login"
       >
-        Dashboard
+        Login
       </a>
     </div>
   </div>

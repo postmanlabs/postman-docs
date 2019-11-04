@@ -1,5 +1,6 @@
 ---
 title: "Upgrading to Postman Pro from a trial team"
+order: 104
 page_id: "upgrading_to_pro"
 tags: 
   - "pro"

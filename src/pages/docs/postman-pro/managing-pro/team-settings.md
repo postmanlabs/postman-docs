@@ -1,5 +1,6 @@
 ---
 title: "Team Settings"
+order: 105
 page_id: "team_settings"
 tags: 
   - "pro"

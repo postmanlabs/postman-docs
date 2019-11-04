@@ -1,5 +1,6 @@
 ---
 title: "Test scripts"
+order: 42
 page_id: "test_scripts"
 contextual_links:
   - type: section

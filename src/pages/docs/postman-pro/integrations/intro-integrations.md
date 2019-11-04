@@ -1,5 +1,6 @@
 ---
 title: "Intro to Integrations"
+order: 111
 page_id: "intro_integrations"
 tags: 
   - "pro"

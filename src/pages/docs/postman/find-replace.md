@@ -1,5 +1,6 @@
 ---
 title: "Find and Replace"
+order: 13
 page_id: "findnreplace"
 warning: false
 ---

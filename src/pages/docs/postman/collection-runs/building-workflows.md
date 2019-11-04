@@ -1,5 +1,6 @@
 ---
 title: "Building workflows"
+order: 58
 page_id: "building_workflows"
 contextual_links:
   - type: section

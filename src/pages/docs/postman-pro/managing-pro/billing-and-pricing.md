@@ -1,5 +1,6 @@
 ---
 title: "Billing and pricing"
+order: 103
 page_id: "billing_and_pricing"
 tags: 
   - "pro"

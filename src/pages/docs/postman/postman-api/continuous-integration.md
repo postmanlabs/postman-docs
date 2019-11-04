@@ -1,5 +1,6 @@
 ---
 title: "Continuous Integration"
+order: 86
 page_id: "continuous_integration"
 contextual_links:
   - type: section

@@ -1,5 +1,6 @@
 ---
 title: "Template submission guidelines"
+order: 144
 page_id: "template_guidelines"
 warning: false
 

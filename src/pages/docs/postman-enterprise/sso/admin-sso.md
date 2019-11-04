@@ -1,5 +1,6 @@
 ---
 title: "Configuring SSO for a team"
+order: 131
 page_id: "admin_sso"
 tags: 
   - "enterprise"

@@ -1,5 +1,6 @@
 ---
 title: "Working with Tabs"
+order: 27
 page_id: "working_with_tabs"
 warning: false
 

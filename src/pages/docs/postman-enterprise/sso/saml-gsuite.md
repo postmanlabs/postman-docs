@@ -1,5 +1,6 @@
 ---
 title: "Setting up custom SAML in GSuite"
+order: 136
 page_id: "saml_gsuite"
 tags: 
   - "enterprise"

@@ -1,5 +1,6 @@
 ---
 title: "Managing your billing"
+order: 110
 page_id: "managing_your_billing"
 tags: 
   - "pro"

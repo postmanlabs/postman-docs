@@ -1,5 +1,6 @@
 ---
 title: "Certificates"
+order: 21
 page_id: "certificates"
 contextual_links:
   - type: section

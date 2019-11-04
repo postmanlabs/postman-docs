@@ -71,3 +71,7 @@ yarn-error.log
 # Environments
 .env.development
 .env.production
+
+# Jekyll
+.jekyll-metadata
+_site/

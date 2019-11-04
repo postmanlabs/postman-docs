@@ -1,5 +1,6 @@
 ---
 title: "Sharing APIs and managing roles"
+order: 90
 page_id: "sharing_apis"
 warning: false
 ---

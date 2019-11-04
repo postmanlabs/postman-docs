@@ -11,7 +11,7 @@ import Helmet from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
 
 function SEO({
-  description, lang, meta, title, slug,
+  lang, meta, title, slug,
 }) {
   const { site } = useStaticQuery(
     graphql`
@@ -27,8 +27,6 @@ function SEO({
     `,
   );
 
-  const metaDescription = description || site.siteMetadata.description;
-
   return (
     <Helmet
       htmlAttributes={{
@@ -38,16 +36,24 @@ function SEO({
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
         {
-          name: 'description',
-          content: metaDescription,
+          name: 'google-site-verification',
+          content: '58TM3lGyGn6c2Bj0PvPQSNzrd9_yBsHs2BjJ6KMHlRU',
+        },
+        {
+          property: 'og:url',
+          content: 'https://learning.getpostman.com',
         },
         {
           property: 'og:title',
           content: title,
         },
         {
-          property: 'og:description',
-          content: metaDescription,
+          property: 'og:site_name',
+          content: 'Postman Learning Center',
+        },
+        {
+          property: 'og:image',
+          content: 'https://www.getpostman.com/img/v2/logo-glyph.png',
         },
         {
           property: 'og:type',
@@ -66,8 +72,16 @@ function SEO({
           content: title,
         },
         {
-          name: 'twitter:description',
-          content: metaDescription,
+          property: 'twitter:domain',
+          content: 'https://learning.getpostman.com',
+        },
+        {
+          property: 'og:image',
+          content: 'https://www.getpostman.com/img/v2/logo-glyph.png',
+        },
+        {
+          property: 'twitter:site',
+          content: '@getpostman',
         },
       ].concat(meta)}
     >

@@ -1,5 +1,6 @@
 ---
 title: "History"
+order: 16
 page_id: "history"
 contextual_links:
   - type: section

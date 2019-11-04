@@ -1,5 +1,6 @@
 ---
 title: "Publishing public docs"
+order: 69
 page_id: "publishing_public_docs"
 contextual_links:
   - type: section

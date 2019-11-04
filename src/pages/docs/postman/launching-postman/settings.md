@@ -1,5 +1,6 @@
 ---
 title: "Settings"
+order: 8
 page_id: "settings"
 contextual_links:
   - type: section

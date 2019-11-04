@@ -1,5 +1,6 @@
 ---
 title: "Adding and verifying custom domains"
+order: 70
 page_id: "adding_and_verifying_custom_domains"
 contextual_links:
   - type: section

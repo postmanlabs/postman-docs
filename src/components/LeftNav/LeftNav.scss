@@ -10,6 +10,7 @@
   .active.root > .parent.currentUrl {
     background-color: inherit;
     color: inherit;
+    padding-left: 70px;
   }
   .root > .parent{
     button {
@@ -19,7 +20,6 @@
   .parent {
     list-style-type: none;
     margin-left: -10px;
-
     .caret {
       position: relative;
       top: 14px;
@@ -30,6 +30,7 @@
       -o-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
       transform: rotate(-90deg);
+      
 
       &.active-caret {
         transition: transform .2s ease;
@@ -56,7 +57,7 @@
       background-color: $postman-orange;
       color: $white;
       margin: 0 -8px 16px -80px;
-      padding: 8px 0 8px 50px;
+      padding: 8px 0 8px 70px;
     }
   }
 

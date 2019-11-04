@@ -1,5 +1,6 @@
 ---
 title: "Adding team name and logo"
+order: 71
 page_id: "adding_team_name_and_logo"
 contextual_links:
   - type: section

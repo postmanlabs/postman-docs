@@ -1,5 +1,6 @@
 ---
 title: "Intro to scripts"
+order: 40
 page_id: "intro_to_scripts"
 contextual_links:
   - type: section

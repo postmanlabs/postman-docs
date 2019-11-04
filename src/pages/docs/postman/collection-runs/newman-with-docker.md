@@ -1,5 +1,6 @@
 ---
 title: "Newman with Docker"
+order: 64
 page_id: "newman_with_docker"
 contextual_links:
   - type: section

@@ -1,5 +1,6 @@
 ---
 title: "Adding to Postman templates"
+order: 143
 page_id: "add_templates"
 warning: false
 

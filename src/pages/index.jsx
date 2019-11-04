@@ -39,7 +39,7 @@ const IndexPage = () => (
     <section className="hero" style={HeroStyle}>
       <div className="row" style={heroMargin}>
         <div className="col-lg-5 hero-text">
-          <h2>testing Postman Learning Center</h2>
+          <h2>Postman Learning Center</h2>
           <p>
 The Postman Learning Center has all of the resources you
           need to ramp up quickly and extend your skills.

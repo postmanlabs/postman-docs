@@ -1,5 +1,6 @@
 ---
 title: "Examples"
+order: 35
 page_id: "examples"
 contextual_links:
   - type: section

@@ -1,5 +1,6 @@
 ---
 title: "Interceptor extension"
+order: 23
 page_id: "interceptor_extension"
 contextual_links:
   - type: section

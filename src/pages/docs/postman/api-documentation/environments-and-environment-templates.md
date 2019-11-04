@@ -1,5 +1,6 @@
 ---
 title: "Local environments and shared environments"
+order: 67
 page_id: "environments_and_environment_templates"
 contextual_links:
   - type: section

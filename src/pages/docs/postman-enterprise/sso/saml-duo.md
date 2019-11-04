@@ -1,5 +1,6 @@
 ---
 title: "Setting up custom SAML in Duo"
+order: 135
 page_id: "saml_duo"
 tags: 
   - "enterprise"

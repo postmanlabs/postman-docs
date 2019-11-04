@@ -4,9 +4,6 @@ import SEO from '../components/seo';
 import errordog from '../images/error-dog.svg';
 import './404.scss';
 
-const browserBack = () => {
-  window.history.back();
-};
 
 class NotFoundPage extends React.Component {
   componentDidMount() {
@@ -29,7 +26,7 @@ class NotFoundPage extends React.Component {
               <div className="error-text">
                 <h1>404</h1>
                 <p>Oops! We can&apos;t find this page. It may have been moved or deleted.</p>
-                <p><button type="button" onClick={browserBack}>Back to previous</button></p>
+                <a href="/docs/" className="btn btn__primary">Back to Docs</a>
               </div>
             </div>
           </div>

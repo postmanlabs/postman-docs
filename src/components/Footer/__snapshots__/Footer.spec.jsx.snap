@@ -11,13 +11,13 @@ exports[`renders correctly 1`] = `
       className="row"
     >
       <div
-        className="footer-column col-sm"
+        className="footer-column col-6 col-sm-4 col-md-2"
       >
-        <h3
+        <h5
           className="footer-column__title"
         >
           Product
-        </h3>
+        </h5>
         <ul
           className="footer-column__list"
         >
@@ -78,15 +78,18 @@ exports[`renders correctly 1`] = `
             </a>
           </li>
         </ul>
+        <div
+          className="clearfix d-block"
+        />
       </div>
       <div
-        className="footer-column col-sm"
+        className="footer-column col-6 col-sm-4 col-md-2"
       >
-        <h3
+        <h5
           className="footer-column__title"
         >
           Resources
-        </h3>
+        </h5>
         <ul
           className="footer-column__list"
         >
@@ -139,15 +142,18 @@ exports[`renders correctly 1`] = `
             </a>
           </li>
         </ul>
+        <div
+          className="clearfix d-block"
+        />
       </div>
       <div
-        className="footer-column col-sm"
+        className="footer-column col-6 col-sm-4 col-md-2"
       >
-        <h3
+        <h5
           className="footer-column__title"
         >
           Use Cases
-        </h3>
+        </h5>
         <ul
           className="footer-column__list"
         >
@@ -184,15 +190,18 @@ exports[`renders correctly 1`] = `
             </a>
           </li>
         </ul>
+        <div
+          className="clearfix d-block"
+        />
       </div>
       <div
-        className="footer-column col-sm"
+        className="footer-column col-6 col-sm-4 col-md-2"
       >
-        <h3
+        <h5
           className="footer-column__title"
         >
           Pricing
-        </h3>
+        </h5>
         <ul
           className="footer-column__list"
         >
@@ -213,15 +222,18 @@ exports[`renders correctly 1`] = `
             </a>
           </li>
         </ul>
+        <div
+          className="clearfix d-block"
+        />
       </div>
       <div
-        className="footer-column col-sm"
+        className="footer-column col-6 col-sm-4 col-md-2"
       >
-        <h3
+        <h5
           className="footer-column__title"
         >
           Support
-        </h3>
+        </h5>
         <ul
           className="footer-column__list"
         >
@@ -274,15 +286,18 @@ exports[`renders correctly 1`] = `
             </a>
           </li>
         </ul>
+        <div
+          className="clearfix d-block"
+        />
       </div>
       <div
-        className="footer-column col-sm"
+        className="footer-column col-6 col-sm-4 col-md-2"
       >
-        <h3
+        <h5
           className="footer-column__title"
         >
           Company
-        </h3>
+        </h5>
         <ul
           className="footer-column__list"
         >
@@ -343,6 +358,9 @@ exports[`renders correctly 1`] = `
             </a>
           </li>
         </ul>
+        <div
+          className="clearfix d-block"
+        />
       </div>
     </div>
     <div

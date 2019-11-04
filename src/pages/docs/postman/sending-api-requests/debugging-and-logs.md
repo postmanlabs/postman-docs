@@ -1,5 +1,6 @@
 ---
 title: "Debugging and logs"
+order: 18
 page_id: "debugging_and_logs"
 contextual_links:
   - type: section

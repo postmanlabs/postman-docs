@@ -1,10 +1,10 @@
 {
   "sso": "Single sign-on (SSO)",
-  "api_documentation": "API documentation",
-  "design_and_develop_apis": "Design and Develop APIs",
-  "postman_api": "Postman API",
-  "sending_api_requests": "Sending API Requests",
-  "api_network": "API Network",
-  "public_api_documentation": "Public API Documentation",
-  "api_search": "API Search"
+  "api-documentation": "API documentation",
+  "design-and-develop-apis": "Design and Develop APIs",
+  "postman-api": "Postman API",
+  "sending-api-requests": "Sending API Requests",
+  "api-network": "API Network",
+  "public-api-documentation": "Public API Documentation",
+  "api-search": "API Search"
 }

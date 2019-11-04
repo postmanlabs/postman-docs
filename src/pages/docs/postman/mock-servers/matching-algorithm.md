@@ -1,5 +1,6 @@
 ---
 title: "Matching algorithm"
+order: 84
 page_id: "matching_algorithm"
 contextual_links:
   - type: section

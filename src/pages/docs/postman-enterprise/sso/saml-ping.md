@@ -1,5 +1,6 @@
 ---
 title: "Setting up custom SAML in Ping Identity"
+order: 139
 page_id: "saml_ping"
 tags: 
   - "enterprise"

@@ -24,3 +24,7 @@ jobs:
           exit 1; 
         else echo "no s3 references found"; 
         fi
+    - name: running unit tests
+      run: |
+        npm install
+        npm run test:update

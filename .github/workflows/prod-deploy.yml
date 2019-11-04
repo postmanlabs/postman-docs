@@ -1,0 +1,26 @@
+name: Prod Deploy
+
+on: 
+  push:
+    branches:
+    - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-node@master
+    - name: set AWS and Algolia Keys to environment
+      env:
+        GATSBY_ALGOLIA_APP_ID: ${{ secrets.GATSBY_ALGOLIA_APP_ID}}
+        GATSBY_ALGOLIA_SEARCH_KEY: ${{secrets.GATSBY_ALGOLIA_SEARCH_KEY}}
+        ALGOLIA_ADMIN_KEY: ${{secrets.ALGOLIA_ADMIN_KEY}}
+        AWS_ACCESS_KEY_ID: ${{secrets.PROD_AWS_ACCESS_KEY_ID}}
+        AWS_SECRET_ACCESS_KEY: ${{secrets.PROD_AWS_SECRET_ACCESS_KEY}}
+        DIST_ID: ${{secrets.PROD_DIST_ID}}
+      run: |
+        npm install
+        npm run build:prod && node_modules/s3-deploy/bin/s3-deploy './public/**' --cwd './public/' --bucket learning.getpostman.com --deleteRemoved --distId $DIST_ID --invalidate '/*'

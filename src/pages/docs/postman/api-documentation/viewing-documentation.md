@@ -1,5 +1,6 @@
 ---
 title: "Viewing documentation"
+order: 66
 page_id: "viewing_documentation"
 contextual_links:
   - type: section
