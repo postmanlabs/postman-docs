@@ -102,7 +102,7 @@ By default "No Auth" appears first on the drop down menu list. Use "No Auth" whe
   
 ## Bearer Token
 
-A bearer token is a security token. Any user with a bearer token can use it to access data resources without using a cryptographic key.
+A bearer token&mdash;such as the OAuth 2.0 JSON Web Token (JWT)&mdash;is a security token. Any user with a bearer token can use it to access data resources without using a cryptographic key.
 
 To use a bearer token:
 
