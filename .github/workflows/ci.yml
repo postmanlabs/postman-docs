@@ -28,3 +28,7 @@ jobs:
       run: |
         npm install
         npm run test:update
+    - name: Link Checker
+      uses: peter-evans/link-checker@v1.0.1
+      with:
+        args: -v -r ./src/pages
