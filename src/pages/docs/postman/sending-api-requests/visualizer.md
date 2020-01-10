@@ -169,11 +169,3 @@ The visualizer demo video walks through the process of building visualizations i
 [![Visualizer Demo Video](https://assets.postman.com/postman-docs/visualizer-demo-video.png)](https://www.youtube.com/watch?v=i1jU-kivApg)
 
 You can try experimenting with visualizations using the collections [listed above](#try-it-out) as a starting point and tweak the code to get the results you need for your own data. For more on how Postman provides access to your response data inside scripts, check out the [Test Examples](/docs/postman/scripts/test-examples/).
-
-
-
-
-
-
-
-  
