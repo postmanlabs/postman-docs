@@ -209,51 +209,51 @@ Newman also supports file uploads. For this to work correctly, upload the file i
 
 ```json
 {
-    "variables": [],
-    "info": {
-        "name": "file-upload",
-        "_postman_id": "9dbfcf22-fdf4-f328-e440-95dbd8e4cfbb",
-        "description": "A set of `POST` requests to upload files as form data fields",
-        "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
-    },
-    "item": [
-        {
-            "name": "Form data upload",
-            "event": [
-                {
-                    "listen": "test",
-                    "script": {
-                        "type": "text/javascript",
-                        "exec": [
-                            "var response = JSON.parse(responseBody).files[\"sample-file.txt\"];",
-                            "",
-                            "tests[\"Status code is 200\"] = responseCode.code === 200;",
-                            "tests[\"File was uploaded correctly\"] = /^data:application\\/octet-stream;base64/.test(response);",
-                            ""
-                        ]
-                    }
-                }
-            ],
-            "request": {
-                "url": "https://echo.getpostman.com/post",
-                "method": "POST",
-                "header": [],
-                "body": {
-                    "mode": "formdata",
-                    "formdata": [
-                        {
-                            "key": "file",
-                            "type": "file",
-                            "enabled": true,
-                            "src": "sample-file.txt"
-                        }
-                    ]
-                },
-                "description": "Uploads a file as a form data field to `https://echo.getpostman.com/post` via a `POST` request."
-            },
-            "response": []
-        }
-    ]
+ "variables": [],
+ "info": {
+  "name": "file-upload",
+  "_postman_id": "9dbfcf22-fdf4-f328-e440-95dbd8e4cfbb",
+  "description": "A set of `POST` requests to upload files as form data fields",
+  "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+  {
+   "name": "Form data upload",
+   "event": [
+   {
+    "listen": "test",
+    "script": {
+      "type": "text/javascript",
+      "exec": [
+       "var response = JSON.parse(responseBody).files[\"sample-file.txt\"];",
+       "",
+       "tests[\"Status code is 200\"] = responseCode.code === 200;",
+       "tests[\"File was uploaded correctly\"] = /^data:application\\/octet-stream;base64/.test(response);",
+       ""
+       ]
+      }
+    }
+  ],
+  "request": {
+   "url": "https://echo.getpostman.com/post",
+   "method": "POST",
+   "header": [],
+   "body": {
+   "mode": "formdata",
+   "formdata": [
+   {
+    "key": "file",
+    "type": "file",
+    "enabled": true,
+    "src": "sample-file.txt"
+   }
+   ]
+  },
+  "description": "Uploads a file as a form data field to `https://echo.getpostman.com/post` via a `POST` request."
+  },
+  "response": []
+  }
+  ]
 }
 ```
 
@@ -295,10 +295,12 @@ A custom reporter is a Node module with a name of the form `newman-reporter-<nam
 
 ```javascript
 function (emitter, reporterOptions, collectionRunOptions) {
-  // emitter is is an event emitter that triggers the following events: https://github.com/postmanlabs/newman#newmanrunevents
-  // reporterOptions is an object of the reporter specific options. See usage examples below for more details.
-  // collectionRunOptions is an object of all the collection run options:
-  // https://github.com/postmanlabs/newman#newmanrunoptions-object--callback-function--run-eventemitter
+// emitter is is an event emitter that triggers the following events:
+//https://github.com/postmanlabs/newman#newmanrunevents
+// reporterOptions is an object of the reporter specific options.
+//See usage examples below for more details.
+// collectionRunOptions is an object of all the collection run options:
+// https://github.com/postmanlabs/newman#newmanrunoptions-object--callback-function--run-eventemitter
 };
 ```
 
@@ -327,7 +329,8 @@ Scoped reporter packages must be specified with the scope prefix. For instance, 
 CLI:
 
 ```bash
-newman run /path/to/collection.json -r myreporter --reporter-myreporter-<option-name> <option-value> # The option is optional
+newman run /path/to/collection.json -r myreporter --reporter-myreporter-<option-name> <option-value>
+# The option is optional
 ```
 
 Programmatically:

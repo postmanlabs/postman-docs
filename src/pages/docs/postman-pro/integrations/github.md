@@ -53,10 +53,10 @@ Once that token is generated, copy it and save it somewhere for future use.
 
 [![select github integration](https://assets.postman.com/postman-docs/GitHub_Integrations1.png)](https://assets.postman.com/postman-docs/GitHub_Integrations1.png)
 
-    The above screen provides you the following two options:
+The above screen provides you the following two options:
 
-    * [Backup your Postman Collections to GitHub](#backup-collections-to-gitHub)
-    * [Backup your Postman Collections to GitHub on a custom domain](#backup-collections-to-gitHub-on-custom-domain)
+* [Backup your Postman Collections to GitHub](#backup-collections-to-gitHub)
+* [Backup your Postman Collections to GitHub on a custom domain](#backup-collections-to-gitHub-on-custom-domain)
 
 ## Backup Collections to GitHub
 
@@ -70,13 +70,11 @@ Once that token is generated, copy it and save it somewhere for future use.
 
 [![configure](https://assets.postman.com/postman-docs/WS-integrations-github-configure.png)](https://assets.postman.com/postman-docs/WS-integrations-github-configure.png)
 
-    * Select a collection to back up.
-    * Select the repository.
-    * Enter the directory where the collection will be pushed. If the directory does not exist, it will be created for you. 
-      If you do not specify anything, the default directory will be `Postman Collections`.
-    * Enter the file name of the collection in the repository.
-    * Enter the branch where the collection will be pushed. 
-      This branch should already exist in your repository. If you do not specify anything, it will be pushed to the default branch of the repository.
+* Select a collection to back up.
+ * Select the repository.
+ * Enter the directory where the collection will be pushed. If the directory does not exist, it will be created for you. If you do not specify anything, the default directory will be `Postman Collections`.
+* Enter the file name of the collection in the repository.
+* Enter the branch where the collection will be pushed. This branch should already exist in your repository. If you do not specify anything, it will be pushed to the default branch of the repository.
 
 1. Click the **Add Integration** button.
 
@@ -97,10 +95,8 @@ Your Collection is pushed to your GitHub project under the directory that you sp
 
 [![github integrations screen](https://assets.postman.com/postman-docs/Github_Integrations6.png)](https://assets.postman.com/postman-docs/Github_Integrations6.png)
 
-    Now every change that is saved to your Postman Collection automatically commits changes to your GitHub repository in real time. 
-    
-    Your Collections and code can exist in the same repository.
-
-    You can navigate to your GitHub repository and view your collections, as illustrated in the screen below:
+* Now every change that is saved to your Postman Collection automatically commits changes to your GitHub repository in real time.
+* Your Collections and code can exist in the same repository.
+* You can navigate to your GitHub repository and view your collections, as illustrated in the screen below:
 
 [![github integrations screen](https://assets.postman.com/postman-docs/Github_Integrations5.png)](https://assets.postman.com/postman-docs/Github_Integrations5.png)
