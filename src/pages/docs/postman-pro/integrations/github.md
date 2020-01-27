@@ -71,8 +71,8 @@ The above screen provides you the following two options:
 [![configure](https://assets.postman.com/postman-docs/WS-integrations-github-configure.png)](https://assets.postman.com/postman-docs/WS-integrations-github-configure.png)
 
 * Select a collection to back up.
- * Select the repository.
- * Enter the directory where the collection will be pushed. If the directory does not exist, it will be created for you. If you do not specify anything, the default directory will be `Postman Collections`.
+    * Select the repository.
+    * Enter the directory where the collection will be pushed. If the directory does not exist, it will be created for you. If you do not specify anything, the default directory will be `Postman Collections`.
 * Enter the file name of the collection in the repository.
 * Enter the branch where the collection will be pushed. This branch should already exist in your repository. If you do not specify anything, it will be pushed to the default branch of the repository.
 
