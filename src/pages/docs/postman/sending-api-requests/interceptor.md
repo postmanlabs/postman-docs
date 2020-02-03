@@ -121,6 +121,26 @@ You can find the current status of your Interceptor integration by selecting the
 * **Not connected**: Ensure Interceptor is installed correctly—refer to [Installing interceptor](#installing-interceptor).
 * **Dependencies not installed**: Postman will walk you through how to install the required dependencies.
 
+ During the installation process if you see installation or download errors then check the following error code specific manual resolution steps to resolve them:
+
+* **`CHROME_NOT_INSTALLED`**: Check whether chrome is installed and NativeMessagingHost folder exists at
+    * OS specific locations:
+        * **MacOS**: `~/Library/Google/Chrome/NativeMessagingHosts/`
+        * **LINUX**:  `~/.config/google-chrome/NativeMessagingHosts/`
+        * **WINDOWS** : `HKEY_CURRENT_USER\SOFTWARE\Google\Chrome\NativeMessagingHosts`
+* **`INTERNET_CONNECTIVITY`**:
+    * Check your internet connection.
+    * If you are sitting behind a firewall check your inbound, outbound policies.
+    * If you are using proxy check if it is properly configured.
+* **`REGISTRY_ACCESS_NEEDED`**:
+    * Check whether you have permissions to add registry key.
+    * Check `reg.exe` is added to system environment variables.
+* **`FILE_PERMISSIONS_REQUIRED`**:
+    * Check if there are permissions to create `.postman/InterceptorBridge` folders.
+    * Check in this path `.postman/InterceptorBridge` if you have permissions to delete, write and execute.
+    * Check if you have `~/Downloads` folder and write permissions to it[MacOs-only].
+    * If the above steps didn't work then close the chrome and app before retrying the installation.
+
  If you are unable to use the integration after completing the guided installation, you'll want to check the following items:
 
 * **[MacOS-only] Node is properly installed**: Node should be installed and available at `/usr/local/node` or `/usr/local/bin/node`, or you have the environment variable `NVM_BIN` set.
