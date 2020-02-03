@@ -123,22 +123,21 @@ You can find the current status of your Interceptor integration by selecting the
 
  During the installation process if you see installation or download errors then check the following error code specific manual resolution steps to resolve them:
 
-* **`CHROME_NOT_INSTALLED`**: Check whether chrome is installed and NativeMessagingHost folder exists at
-    * OS specific locations:
-        * **MacOS**: `~/Library/Google/Chrome/NativeMessagingHosts/`
-        * **LINUX**:  `~/.config/google-chrome/NativeMessagingHosts/`
-        * **WINDOWS** : `HKEY_CURRENT_USER\SOFTWARE\Google\Chrome\NativeMessagingHosts`
+* **`CHROME_NOT_INSTALLED`**: Check whether Chrome is installed and that the `NativeMessagingHosts` folder exists at the following location (depending on    your operating system):
+    * **MacOS**: `~/Library/Application Support/Google/Chrome/NativeMessagingHosts`
+    * **LINUX**:  `~/.config/google-chrome/NativeMessagingHosts`
+    * **WINDOWS** : `HKEY_CURRENT_USER\SOFTWARE\Google\Chrome\NativeMessagingHosts`
 * **`INTERNET_CONNECTIVITY`**:
     * Check your internet connection.
-    * If you are sitting behind a firewall check your inbound, outbound policies.
-    * If you are using proxy check if it is properly configured.
+    * If you are sitting behind a firewall check your inbound and outbound policies.
+    * If you are using a proxy, check that it is properly configured.
 * **`REGISTRY_ACCESS_NEEDED`**:
-    * Check whether you have permissions to add registry key.
-    * Check `reg.exe` is added to system environment variables.
+    * Verify that you have permissions to add a registry key.
+    * Verify that `reg.exe` is present in the system environment variables.
 * **`FILE_PERMISSIONS_REQUIRED`**:
-    * Check if there are permissions to create `.postman/InterceptorBridge` folders.
-    * Check in this path `.postman/InterceptorBridge` if you have permissions to delete, write and execute.
-    * Check if you have `~/Downloads` folder and write permissions to it[MacOs-only].
+    * Verify that you have permissions to create the `.postman/InterceptorBridge` folders.
+    * Verify that you have permissions to delete, write, and execute in the path `.postman/InterceptorBridge`.
+    * Verify that you have a `~/Downloads` folder and write permissions for it (Mac OS only).
     * If the above steps didn't work then close the chrome and app before retrying the installation.
 
  If you are unable to use the integration after completing the guided installation, you'll want to check the following items:
