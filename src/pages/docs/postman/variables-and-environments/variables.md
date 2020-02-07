@@ -243,6 +243,9 @@ You can use double curly braces to reference variables throughout the Postman ap
 ```js
 {{username}}
 ```
+## Using variables in requests
+
+You can use variables in request URLs, parameters, headers, authorization, body, and header presets.
 
 When you run a request, Postman will resolve the variable and replace it with it's current value.
 
@@ -251,14 +254,17 @@ For example, you could have a request URL referencing a variable as follows:
 ```
 http://pricey-trilby.glitch.me/customer?id={{cust_id}}
 ```
+You can access a variable from the request body by wrapping its reference in double-qoutes:
+
+```
+{ "customer_id" : "{{cust_id}}" }
+```
 
 Postman will send whatever value you currently have stored for the `cust_id` variable when the request runs. If `cust_id` is currently `3`, the request will be sent to the following URL including query parameter:
 
 ```
 http://pricey-trilby.glitch.me/customer?id=3
 ```
-
-You can use variables in request URLs, parameters, headers, authorization, body, and header presets.
 
 ![Variables in Request](https://assets.postman.com/postman-docs/vars-in-request.jpg)
 
@@ -274,7 +280,7 @@ If a variable is unresolved, Postman will highlight it in red.
 
 <img alt="Unresolved Variable" src="https://assets.postman.com/postman-docs/unresolved-var.jpg" width="250px"/>
 
-### Using variables in scripts
+## Using variables in scripts
 
 You can retrieve the current value of a variable in your scripts using the object representing the scope level and the `.get` method:
 
