@@ -49,7 +49,7 @@ To send your first API request, open Postman. Make sure __Build__ is selected at
 
 Enter `postman-echo.com/get` in the URL field.
 
-Click **Send**. You will see the JSON data response from the server in the lower pane.
+Click **Send**. You will see the JSON data response from the server in the lower panel.
 
 [![request response](https://assets.postman.com/postman-docs/Request-repsonse.png)](https://assets.postman.com/postman-docs/Request-repsonse.png)
 
