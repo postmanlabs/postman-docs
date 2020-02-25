@@ -5,3 +5,13 @@
 .hero-text {
   margin-top: 24px;
 }
+
+@media only screen and (max-width: 768px) {
+
+ .embed {
+ width:100px;
+ height:100px;
+ padding: 15px;
+ }
+
+  }
