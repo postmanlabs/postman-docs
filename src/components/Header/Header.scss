@@ -34,6 +34,48 @@
       }
     }
   }
+
+  .navbar-toggler {
+      font-size: 1rem;
+    padding: .2px;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+  
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.22em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+
+   .header__title {
+    vertical-align: middle;
+    margin-left: 13px;
+    color: #282828;
+    text-decoration: none;
+}
+
+  .navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    font-size: .99rem;
+    line-height: inherit;
+    white-space: nowrap;
+    margin-right: 0rem;
+}
+.header__brand {
+    min-width: 100px;
+}
+
   @media (max-width: 1200px) {
     .animate-close {
       animation-fill-mode: forwards;
