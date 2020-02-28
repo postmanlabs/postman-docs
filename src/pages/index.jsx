@@ -21,8 +21,8 @@ const heroMargin = {
   maxWidth: '1200px',
 };
 const videoStyle = {
-  padding: '0px 40px',
-  marginTop: '80px',
+  padding: '0px 15px',
+  marginTop: '60px',
 };
 const landingBottom = {
   padding: '40px',
