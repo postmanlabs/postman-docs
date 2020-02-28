@@ -12,7 +12,7 @@
     "babel-preset-gatsby": "^0.2.14",
     "dotenv": "^8.1.0",
     "eslint-plugin-jest": "^22.17.0",
-    "gatsby": "^2.15.21",
+    "gatsby": "^2.19.22",
     "gatsby-cli": "^2.8.23",
     "gatsby-image": "^2.2.20",
     "gatsby-plugin-algolia": "^0.3.4",
