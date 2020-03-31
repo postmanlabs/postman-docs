@@ -32,11 +32,11 @@ contextual_links:
 warning: false
 ---
 
-A workspace is a view of all the Postman features and elements that you use to build, test, and collaborate on your APIs: [collections](/docs/postman/collections/intro-to-collections/), [environments](/docs/postman/variables-and-environments/variables/), [mocks](/docs/postman/mock-servers/intro-to-mock-servers/), [monitors](/docs/postman/monitors/intro-monitors/), and more. Individuals can organize their work in personal workspaces and teams can collaborate in team workspaces.
+A workspace is a view of all the Postman elements that you use to build, test, and collaborate on your APIs. You can organize your own work in a personal workspace, and your team can collaborate in a team workspace.
+
+You can share elements across multiple team or personal workspaces. Workspace elements include [collections](/docs/postman/collections/intro-to-collections/), [environments](/docs/postman/variables-and-environments/variables/), [mocks](/docs/postman/mock-servers/intro-to-mock-servers/), and [monitors](/docs/postman/monitors/intro-monitors/).
 
 [![WS_mainScreen-basicMenu](https://assets.postman.com/postman-docs/Workspaces_Mainscreen.png)](https://assets.postman.com/postman-docs/Workspaces_Mainscreen.png)
-
-Regardless of the type of workspace, you can share elements in multiple workspaces at the same time. Workspace elements include collections, monitors, mocks, environments, and integrations.
 
 ## Personal workspaces
 
