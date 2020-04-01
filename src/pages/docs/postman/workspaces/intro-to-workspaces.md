@@ -56,7 +56,18 @@ For Postman Business and Enterprise teams, private workspaces are team workspace
 
 ## Seeing who's working in your workspace
 
-You can see all of the member of your team currently working in your team's workspace. The avatars of all team members that are currently active or have been active in the workspace in the last fifteen minutes will be displayed at the top of the screen in the Postman app and on the web Dashboard.  
+You can see all of your teammates that are currently working in your team's workspace. The avatars of all team members that are currently active or have been active in the workspace in the last fifteen minutes will be displayed at the top of the screen in the Postman app and on the web Dashboard.
+
+* **Brightly colored avatars**: These are people who are currently active in the workspace.
+* **Grayed-out avatars**: These are teammates who were active in the workspace in the last fifteen minutes.
+
+You can click on the avatars to see your teammates names.
+
+![Active user](https://assets.postman.com/postman-docs/Presence+active+members.jpg)
+
+ If more than three people are active, the fourth avatar will be a number representing how many more people are working in the workspace. Clicking on the numbered avatar will display a list of everyone currently or recently working in the workspace. The Active and Inactive user lists are collapsable.
+
+![Active user list](https://assets.postman.com/postman-docs/Presence+active+member+list.jpg)
 
 ## Workspace best practices
 
