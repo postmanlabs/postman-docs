@@ -127,7 +127,7 @@ Similarly, you can also join a workspace from the [Workspaces dashboard](https:/
 
 [![join by dashboard](https://assets.postman.com/postman-docs/dashboard-join.png)](https://assets.postman.com/postman-docs/dashboard-join.png)
 
-Once you've joined a workspace, you'll see avatars representing all of the workspace's members at the top of the screen in the Postman app and on the dashboard. You can hover over avatars to see individual workspace member names.
+Once you've joined a workspace, you'll see avatars representing all of the workspace's members at the top of the screen in the Postman app and on the Dashboard. You can hover over avatars to see individual workspace member names.
 
 ![Active user](https://assets.postman.com/postman-docs/Presence+active+members.jpg)
 
