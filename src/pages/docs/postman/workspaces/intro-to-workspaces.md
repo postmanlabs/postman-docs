@@ -54,20 +54,20 @@ As a Postman user, you can create team workspaces for ongoing development or sho
 
 For Postman Business and Enterprise teams, private workspaces are team workspaces that are only visible to the user who creates the workspace and team members who have been invited to join it. Private workspaces are a way for teams to restrict access to collections, environments, mocks, and monitors that are relevant only to a particular audience.
 
-## Seeing who's working in your workspace
+## Seeing who's in your workspace
 
-You can see everyone who's currently working in your team's workspace. The avatars of all team members that are currently active or have been active in the workspace in the last fifteen minutes will be displayed at the top of the screen in the Postman app and on the web Dashboard.
-
->You have to join a workspace to see all of the active team members. If you're looking through workspaces in Browse, you won't see anyone's avatar and no one on the team will see yours until you join the workspace.
+You can see everyone who's currently working in your team's workspace. Keep track of who's working on your APIs and make sure that all teammates who should be included in your workspace are there. The avatars of all workspace members will be displayed at the top of the screen in the Postman app and on the web Dashboard.
 
 * **Brightly colored avatars**: These are people who are currently active in the workspace.
-* **Grayed-out avatars**: These are teammates who were active in the workspace in the last fifteen minutes.
+* **Grayed-out avatars**: These are inactive members of the workspace. If a user is inactive for fifteen minutes, their avatar moves to the inactive state.
 
 Hover over the avatars to see your teammates names.
 
 ![Active user](https://assets.postman.com/postman-docs/Presence+active+members.jpg)
 
- If more than three people are active, the fourth avatar will be a number representing how many more people are working in the workspace. Click on the numbered avatar to see a list of everyone currently or recently working in the workspace.
+>You have to be a member of a workspace to see all of the active team members. If you're looking through workspaces in Browse, you won't see anyone's avatar and no one on the team will see yours until you join the workspace.
+
+ If more than three people are active, the fourth avatar will be a number representing how many more people are members the workspace. Click on the numbered avatar to see a list of everyone currently or recently working in the workspace.
 
 ![Active user list](https://assets.postman.com/postman-docs/Presence+active+member+list.jpg)
 
