@@ -107,7 +107,7 @@ Similarly, you can also delete elements from the [Workspaces dashboard](https://
 
 ## Joining a workspace
 
-A user can join a workspace to work on collections, environments, monitors, mocks, and integrations. Let's see how.
+A user can join a workspace to work on collections, environments, monitors, mocks, and integrations.
 
 In the Postman app, click the workspace in the header bar to open the workspaces menu dropdown.
 
@@ -126,6 +126,14 @@ In the confirmation message, click the **Start Building** button to complete the
 Similarly, you can also join a workspace from the [Workspaces dashboard](https://app.getpostman.com/dashboard) by clicking the **Join** button next to the workspace that you wish to join.
 
 [![join by dashboard](https://assets.postman.com/postman-docs/dashboard-join.png)](https://assets.postman.com/postman-docs/dashboard-join.png)
+
+Once you've joined a workspace, you'll see avatars representing all of the workspace's members at the top of the screen in the Postman app and on the dashboard. You can hover over avatars to see individual workspace member names.
+
+![Active user](https://assets.postman.com/postman-docs/Presence+active+members.jpg)
+
+If there are more than three people who are part of the workspace, there will be a fourth avatar with a number representing the remaining members. You can click on the numbered avatar to see a list of all the workspaces's members.
+
+![Active user list](https://assets.postman.com/postman-docs/Presence+active+member+list.jpg)
 
 ## Sharing a workspace
 
