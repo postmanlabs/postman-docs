@@ -9,6 +9,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
+import CookieAlert from './CookieAlert';
 import './layout.scss';
 
 const Layout = ({ children }) => (
@@ -17,6 +18,7 @@ const Layout = ({ children }) => (
     <div className="layout-wrapper">
       <Header />
       <main>{children}</main>
+      <CookieAlert />
       <Footer />
     </div>
   </>

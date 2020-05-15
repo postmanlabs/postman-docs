@@ -34,3 +34,25 @@ div.col-sm-7.doc-page {
   padding: 64px 72px;
 }
 
+// Cookie Consent
+.CookieWrapper {
+  width: 550px;
+  height: 180px;
+  position: fixed;
+  margin: 0 0 40px 40px;
+  bottom: 0;
+  left: 0;
+
+  @media (max-width: 991px) {
+    /* margin:0 40px 40px 40px; */
+    /* margin: 0 auto; */
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0 40px;
+  }
+}
+
