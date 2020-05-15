@@ -1,6 +1,6 @@
 ---
 title: "Managing Workspaces"
-order: 96
+order: 184
 page_id: "managing_workspaces"
 contextual_links:
   - type: section
@@ -14,12 +14,12 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "HotelBeds"
-    url: "https://www.getpostman.com/case-studies/Hotelbeds.pdf?_ga=2.127143115.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/Hotelbeds.pdf"
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Intro to environments and globals"
-    url: "/docs/postman/environments-and-globals/intro-to-environments-and-globals/"
+    name: "Variables"
+    url: "/docs/postman/variables-and-environments/variables/"
   - type: link
     name: "Intro to scripts"
     url: "/docs/postman/scripts/intro-to-scripts/"
@@ -27,7 +27,7 @@ contextual_links:
 warning: false
 ---
 
-You can manage workspaces and the Postman elements associated with a workspace, like [collections](/docs/postman/collections/intro-to-collections/), [environments](/docs/postman/environments-and-globals/intro-to-environments-and-globals/), [mocks](/docs/postman/mock-servers/intro-to-mock-servers/), [monitors](/docs/postman/monitors/intro-monitors/), and more. You can perform such tasks as editing names and descriptions, viewing details, or creating elements for workspaces.
+You can manage workspaces and the Postman elements associated with a workspace, like [collections](/docs/postman/collections/intro-to-collections/), [environments](/docs/postman/variables-and-environments/variables/), [mocks](/docs/postman/mock-servers/intro-to-mock-servers/), [monitors](/docs/postman/monitors/intro-monitors/), and more. You can perform such tasks as editing names and descriptions, viewing details, or creating elements for workspaces.
 
 In the Postman app, click the workspace that displays in the header bar.
 
@@ -82,7 +82,7 @@ If you click the ellipsis **(...)**, you can remove any element from the workspa
 
 ### Environments
 
-Add an existing environment to this workspace or [create a new environment](/docs/postman/environments-and-globals/manage-environments/). You can share an environment to multiple workspaces.
+Add an existing environment to this workspace or [create a new environment](/docs/postman/variables-and-environments/variables/#environments-in-postman). You can share an environment to multiple workspaces.
 
 ### Monitors
 
@@ -94,8 +94,8 @@ Add an existing environment to this workspace or [create a new environment](/doc
 
 ### Integrations
 
-View a list of current integrations or create a new one. Postman has [third party integrations](/docs/postman-pro/integrations/intro-integrations/) available to help you integrate with your existing workflow and tools. Integrations created within a workspace cannot be shared to other workspaces. If you want to create an integration with a collection that is shared in multiple workspaces, a new integration must be created in each of the other workspaces.
+View a list of current integrations or create a new one. Postman has [third party integrations](/docs/integrations/intro-integrations/) available to help you integrate with your existing workflow and tools. Integrations created within a workspace cannot be shared to other workspaces. If you want to create an integration with a collection that is shared in multiple workspaces, a new integration must be created in each of the other workspaces.
 
 ### Activity
 
-View a [list of activities](/docs/postman/workspaces/activity-feed-and-restoring-collections/) for this workspace.
+View a [list of activities](/docs/postman/workspaces/changelog-and-restoring-collections/) for this workspace.

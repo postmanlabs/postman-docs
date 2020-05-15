@@ -54,7 +54,7 @@ const GettingStartedPage = () => (
       </div>
       <div className="col-xs-12 col-sm-9 col-md-4" style={labeledStyle}>
         <LabeledCard
-          link="https://blog.getpostman.com/2018/04/25/how-postman-feeds-my-sushi-addiction"
+          link="https://blog.postman.com/2018/04/25/how-postman-feeds-my-sushi-addiction"
           label="Tutorial"
           title="How Postman Feeds My Sushi Addiction"
           description="Use Postman to create your very own restaurant selector."
@@ -96,7 +96,7 @@ const GettingStartedPage = () => (
           title="From Our Blog"
           description="Learn how Postman seamlessly integrates with your favorite platforms."
           cta="Read the Blog"
-          ctaLink="https://blog.getpostman.com"
+          ctaLink="https://blog.postman.com"
         />
 
         <SecondaryCard
@@ -110,7 +110,7 @@ const GettingStartedPage = () => (
           title="From Our Docs"
           description="Use the Postman sandbox to run tests and control your workflow."
           cta="Read the Docs"
-          ctaLink="https://learning.getpostman.com/docs/postman/scripts/postman-sandbox-api-reference/"
+          ctaLink="https://learning.postman.com/docs/postman/scripts/postman-sandbox-api-reference/"
         />
       </div>
     </section>

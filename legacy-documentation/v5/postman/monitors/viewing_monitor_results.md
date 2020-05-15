@@ -5,9 +5,9 @@ warning: false
 
 ---
 
-You can set up monitors to send daily or weekly emails with a summary for all your monitors. You can [turn off email notifications](https://learning.getpostman.com/docs/postman/monitors/setting_up_monitor/) in the settings. 
+You can set up monitors to send daily or weekly emails with a summary for all your monitors. You can [turn off email notifications](https://learning.postman.com/docs/postman/monitors/setting_up_monitor/) in the settings. 
 
-In addition, you can receive important notifications (both [in-app](https://learning.getpostman.com/docs/postman/notifications) and email) if a monitor fails.
+In addition, you can receive important notifications (both [in-app](https://learning.postman.com/docs/postman/notifications) and email) if a monitor fails.
 
 [![email summary of monitors](https://assets.postman.com/postman-docs/monitoring-email-results1.png)](https://assets.postman.com/postman-docs/monitoring-email-results1.png)
 
@@ -35,7 +35,7 @@ These visuals are a great way to measure performance improvements when you’ve 
 
 [![monitor perf](https://assets.postman.com/postman-docs/monitor-perf-page.png)](https://assets.postman.com/postman-docs/monitor-perf-page.png)
 
-The results section shows request-level details: test results, response code, response time, and the response size. Additionally, you can filter by region if you set up [monitors in multiple regions](https://learning.getpostman.com/docs/postman/monitors/intro_monitors/#monitoring-resources-in-multiple-regions).
+The results section shows request-level details: test results, response code, response time, and the response size. Additionally, you can filter by region if you set up [monitors in multiple regions](https://learning.postman.com/docs/postman/monitors/intro_monitors/#monitoring-resources-in-multiple-regions).
 
 [![monitor perf](https://assets.postman.com/postman-docs/monitor-results.png)](
 https://assets.postman.com/postman-docs/monitor-results.png)
@@ -44,4 +44,4 @@ You can also view the log when you click the **Console Log** tab.
 
 [![view logs](https://assets.postman.com/postman-docs/59042622.png)](https://assets.postman.com/postman-docs/59042622.png)
 
-The console log prints a detailed log of run events and 'console.log' statements that ran as part of your pre-request and test scripts. You can use them to [diagnose failures](https://learning.getpostman.com/docs/postman/monitors/troubleshooting_monitors).
+The console log prints a detailed log of run events and 'console.log' statements that ran as part of your pre-request and test scripts. You can use them to [diagnose failures](https://learning.postman.com/docs/postman/monitors/troubleshooting_monitors).

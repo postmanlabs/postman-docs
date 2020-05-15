@@ -32,8 +32,8 @@ function () {
 
 Note:
 
-*   The `env.create` action will return truth on success, false on failure.
-*   `env.create` cannot be used to create duplicate environments. Subsequent calls with an existing environment name will fail.
+* The `env.create` action will return truth on success, false on failure.
+* `env.create` cannot be used to create duplicate environments. Subsequent calls with an existing environment name will fail.
 
 ### Editing an existing environment
 
@@ -44,7 +44,6 @@ _pm('env.assign', 'environment_name', {key: new_value, new_key: value})
 ```
 
 For example, if you need to update the `API Keys` environment created in the last example:
-
 
 ```javascript
 function () {
@@ -61,9 +60,9 @@ function () {
 
 Note:
 
-*   The `env.assign` action will return truth on success, false on failure.
-*   `env.assign` cannot be used to create new environments. Calls to `_pm` using `env.assign` will fail if the environment doesn’t already exist.
-*   `env.assign` will allow assignment to environments created using `env.create` and inline environments from the button embed code.
+* The `env.assign` action will return truth on success, false on failure.
+* `env.assign` cannot be used to create new environments. Calls to `_pm` using `env.assign` will fail if the environment doesn’t already exist.
+* `env.assign` will allow assignment to environments created using `env.create` and inline environments from the button embed code.
 
 ### Replacing an existing environment
 
@@ -74,7 +73,6 @@ _pm('env.replace', 'environment_name', {key: value})
 ```
 
 For example, if you have the following environment and you need to replace it:
-
 
 ```javascript
 // Existing environment named 'user_data'
@@ -90,5 +88,5 @@ _pm('env.replace', 'user_data', {});
 
 Note:
 
-*   The `env.replace` method will return truth on success, false on failure.
-*   `env.replace` cannot be used to replace an environment which does not exist.
+* The `env.replace` method will return truth on success, false on failure.
+* `env.replace` cannot be used to replace an environment which does not exist.

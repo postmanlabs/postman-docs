@@ -20,7 +20,7 @@ When you select "Authorization" in the request builder, you see the **TYPE** dro
 * NTLM Authentication [Beta]
 
 
-**Note**: NTLM and Bearer token are only available in Postman native apps. All other authorization types are available in Postman native apps and the Chrome app. Note that the [Postman Chrome app is being deprecated](http://blog.getpostman.com/2017/11/01/goodbye-postman-chrome-app/).
+**Note**: NTLM and Bearer token are only available in Postman native apps. All other authorization types are available in Postman native apps and the Chrome app. Note that the [Postman Chrome app is being deprecated](https://blog.postman.com/2017/11/01/goodbye-postman-chrome-app/).
 
 [![auth menu](https://assets.postman.com/postman-docs/WS-authorization-menu.png)](https://assets.postman.com/postman-docs/WS-authorization-menu.png)
 
@@ -38,7 +38,7 @@ If you want to inspect the authorization headers and parameters that Postman gen
 
 #### Adding authorization to a collection or folder
 
-Suppose you [add a folder](https://learning.getpostman.com/docs/postman/collections/managing_collections#adding-folders) to a collection. Under the **Authorization** tab, the default authorization type is set to “Inherit auth from parent”. 
+Suppose you [add a folder](https://learning.postman.com/docs/postman/collections/managing_collections#adding-folders) to a collection. Under the **Authorization** tab, the default authorization type is set to “Inherit auth from parent”. 
 
 The “Inherit auth from parent” setting indicates that every request in this folder by default uses the authorization type from the parent. In this example, the collection is using “No Auth”, so the folder uses “No Auth”, meaning all requests in that folder will use “No Auth” .
 

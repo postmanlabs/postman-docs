@@ -10,13 +10,13 @@ warning: false
 
 Once you've finalized and saved your request in Postman, you might want to make the same request from your own application. Postman lets you generate snippets of code in various languages and frameworks that will help you do this. You'll need to click the **Generate Code** link under the blue Send button to access this feature.
 
-![](https://www.getpostman.com/img/v1/docs/source/snippets-1.png)
+![](https://www.postman.com/img/v1/docs/source/snippets-1.png)
 
 ### Selecting a language
 
 Use the dropdown menu to select a language. Some languages have multiple options - this lets you select different frameworks to make your request from.
 
-![](https://www.getpostman.com/img/v1/docs/source/snippets-2.png)
+![](https://www.postman.com/img/v1/docs/source/snippets-2.png)
 
 ### Supported languages/frameworks
 

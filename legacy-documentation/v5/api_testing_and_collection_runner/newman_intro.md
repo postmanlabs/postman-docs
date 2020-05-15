@@ -30,7 +30,7 @@ The easiest way to run Newman is to run it with a collection. You can run any co
 
 You can also pass a Postman Collection as a URL. Your collection probably uses environment variables. To provide an accompanying set of environment variables, [export them from Postman][4] and run them with the `-e` flag.
 
-    newman run https://www.getpostman.com/collections/cb208e7e64056f5294e5 -e dev_environment.json
+    newman run https://www.postman.com/collections/cb208e7e64056f5294e5 -e dev_environment.json
 
 ### Options
 
@@ -285,9 +285,9 @@ For the complete list of details, see the [Newman README][6].
 [0]: https://www.npmjs.org/package/newman
 [1]: https://github.com/postmanlabs/newman
 [2]: http://nodejs.org/download/
-[3]: http://www.getpostman.com/docs/collections
-[4]: http://www.getpostman.com/docs/environments
-[5]: http://www.getpostman.com/docs/jetpacks_sandbox
+[3]: http://www.postman.com/docs/collections
+[4]: http://www.postman.com/docs/environments
+[5]: http://www.postman.com/docs/jetpacks_sandbox
 [6]: https://github.com/postmanlabs/newman
 [7]: https://github.com/postmanlabs/newman#configuring-reporters
 [8]: https://github.com/postmanlabs/newman/tree/develop/lib/reporters

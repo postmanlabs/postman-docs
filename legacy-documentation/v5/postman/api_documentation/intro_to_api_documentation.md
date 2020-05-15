@@ -9,9 +9,9 @@ Postman's API documentation feature lets you share public or private API documen
 
 Postman generates and hosts browser-based API documentation for your collections automatically in real-time. Each collection has a private and public documentation view that Postman generates from synced data in the servers.
 
-To [access the private view](https://learning.getpostman.com/docs/postman/api-documentation/viewing-documentation/) that's available to your team, click "View in web" in the Postman app or in the "Team Library".
+To [access the private view](https://learning.postman.com/docs/postman/api-documentation/viewing-documentation/) that's available to your team, click "View in web" in the Postman app or in the "Team Library".
 
-When you [publish your documentation](https://learning.getpostman.com/docs/postman/api_documentation/publishing_public_docs/), you can use the public link to view the documentation. The public link displays after you publish your documentation. The documentation is also accessible in the "Published" dropdown in the private documentation view.
+When you [publish your documentation](https://learning.postman.com/docs/postman/api_documentation/publishing_public_docs/), you can use the public link to view the documentation. The public link displays after you publish your documentation. The documentation is also accessible in the "Published" dropdown in the private documentation view.
 
 ### Creating a documentation
 
@@ -78,7 +78,7 @@ Documentation for your API includes:
 
 Postman uses ordered requests and folders to organize documentation in sections to reflect the structure of your collection.
 
-You can customize descriptions using [Markdown](https://learning.getpostman.com/docs/postman/api_documentation/how_to_document_using_markdown/) styling with embedded graphics to complement your documentation.
+You can customize descriptions using [Markdown](https://learning.postman.com/docs/postman/api_documentation/how_to_document_using_markdown/) styling with embedded graphics to complement your documentation.
 
 We support GitHub flavored markdown so you can include tables. When including block elements, make sure you leave an empty line before and after to avoid any rendering issues.
 

@@ -6,6 +6,9 @@
   .header__logo {
     margin: auto;
     height: 50px;
+    @media (max-width: 414px) {
+      height: auto;
+    }
   }
 
   .header__title {
@@ -13,10 +16,13 @@
     margin-left: 20px;
     color: $gray-3;
     text-decoration: none;
+    @media (max-width: 414px) {
+      margin-left: 8px;
+    }
   }
 
   .header__right-links {
-    .nav-item{
+    .nav-item {
       .nav-link {
         text-decoration: none;
         color: $gray-3;
@@ -24,6 +30,7 @@
         font-weight: 600;
         text-transform: uppercase;
         white-space: nowrap;
+        padding: 16px;
       }
       .nav-link:hover {
         color: $postman-orange;

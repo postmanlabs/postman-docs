@@ -1,21 +1,24 @@
 ---
-title: "Public API documentation"
-order: 140
+title: "Publishing API documentation"
+order: 311
 page_id: "public_api_docs"
 warning: false
 contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Publishing public docs"
-    url: "https://learning.getpostman.com/docs/postman/api-documentation/publishing-public-docs"
+    name: "Documenting your API"
+    url:  "/docs/postman/api-documentation/documenting-your-api/"
+  - type: link
+    name: "Publishing your docs"
+    url: "/docs/postman/api-documentation/publishing-your-docs/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
     name: "Case Studies"
   - type: link
     name: "Imgur"
-    url: "https://www.getpostman.com/case-studies/Imgur.pdf?_ga=2.172782883.1078379737.1571761632-963694147.1565912089"
+    url: "https://www.postman.com/resources/case-studies/imgur/"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -25,32 +28,47 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Announcing the Postman API Network"
-    url: "https://blog.getpostman.com/2017/12/15/announcing-the-postman-api-network/?_ga=2.105714307.1078379737.1571761632-963694147.1565912089"
+    url: "https://blog.postman.com/2017/12/15/announcing-the-postman-api-network/"
   - type: section
     name: "Next Steps"
   - type: link
     name: "Creating the Run in Postman button"
-    url: "https://learning.getpostman.com/docs/postman-for-publishers/run-button/creating-run-button"
+    url: "/docs/postman-for-publishers/run-in-postman/creating-run-button/"
+  - type: link
+    name: "Adding to the API Network"
+    url:  "/docs/postman-for-publishers/api-network/add-api-network/"
+  - type: link
+    name: "Adding to Postman templates"
+    url:  "/docs/postman-for-publishers/postman-templates/add-templates/"
 ---
-API publishers require public API documentation and require easy-to-read examples and specifications. Postman publishes [our own API documentation](http://docs.api.getpostman.com) using Postman's documentation. Developers rely on this documentation for learning about the service, implementing their integrations, and debugging. Learn [how to publish your own public docs](/docs/postman/api-documentation/publishing-public-docs/).
 
-[![postman API docs](https://assets.postman.com/postman-docs/59189909.png)](https://assets.postman.com/postman-docs/59189909.png)  
+Effective API documentation explains the purpose of your API and provides information developers need to build their own workflows. API documentation is helpful to onboard developers more quickly, and encourages them to adopt your services.
 
-Postman automatically generates documentation for any of your collections. Publish public API documentation that is:
+[Auto-generate documentation](/docs/postman/api-documentation/documenting-your-api/) directly from a Postman collection, take some time to [add descriptions](/docs/postman/collections/using-markdown-for-descriptions/) to more thoroughly explain each endpoint or parameter, or [version your published documentation](/docs/postman/api-documentation/documenting-your-api/#versioning-your-docs).
 
-## **Complete**
+Your documentation will include both browsable information on the web, and the **Run in Postman** button so users can interact with your API directly in the Postman app. For example, check out the [Postman API documentation](http://docs.api.getpostman.com)—generated from a Postman collection.
 
-Your collections are documented with folders, [requests](/docs/postman/sending-api-requests/requests/), [responses](/docs/postman/sending-api-requests/responses/), [parameters](/docs/postman/sending-api-requests/requests/#url), [code snippets](/docs/postman/sending-api-requests/generate-code-snippets/), [environments](/docs/postman/environments-and-globals/manage-environments/), and [examples](/docs/postman/collections/examples/#what-is-an-example).
+[![postman API docs](https://i.imgur.com/jNF08qQ.png)](https://i.imgur.com/jNF08qQ.png)
 
-## **Customizable**
+In addition to private documentation accessible within your personal team, you can also share API documentation publicly with the Postman community. Sharing your API documentation within the [Postman API Network](/docs/postman-for-publishers/api-network/add-api-network/) or as a [Postman template](/docs/postman-for-publishers/postman-templates/add-templates/) helps the community discover new APIs and workflows.
 
-Create clear and elegant documentation [using Markdown](/docs/postman/api-documentation/how-to-document-using-markdown/) in your descriptions for collections, folders, and requests. Publish this documentation on your [custom domain](/docs/postman/api-documentation/adding-and-verifying-custom-domains/), and further customize the appearance of these pages according to your own brand guidelines.
+> **Don't have a public API?** Discover other APIs from the [Postman API Network](https://explore.postman.com/) to incorporate into your own projects. You can also search for industry better practices among the community-contributed [templates](https://explore.postman.com/templates).
 
-## **Easy**
+## Making your documentation discoverable
 
-Publish your API documentation with the click of a button. The pages are automatically generated, and updates are automatically synced. You will never have to host or manage servers for your API documentation ever again.
+When you publish public documentation, anyone with the URL can access it. By sharing your documentation with the API Network or as a template, you increase the visibility of your API to a wider range of consumers by leveraging the Postman community.
 
-## Examples of public APIs published using Postman's documentation
+Users can then access both the API Network and community templates via the __New__ button within the Postman app or [on the web](https://explore.postman.com).
 
-[![Travefy API docs](https://assets.postman.com/postman-docs/59189815.png)](https://assets.postman.com/postman-docs/59189815.png)
-[![Imgur API docs](https://assets.postman.com/postman-docs/59189801.png)](https://assets.postman.com/postman-docs/59189801.png)
+![Network and Templates](https://assets.postman.com/postman-docs/network-templates.jpg)
+
+Browse the API documentation and community templates to inspire your own.
+
+[![Imgur API docs](https://i.imgur.com/oXgXznt.png)](https://i.imgur.com/oXgXznt.png)
+
+> Your published docs can target specific [versions](/docs/postman/api-documentation/documenting-your-api/#versioning-your-docs) of your collections.
+
+## Next steps
+
+* If you are publishing docs for an API via your team, share them by [adding to the API Network](/docs/postman-for-publishers/api-network/add-api-network).
+* If you are publishing as an individual user, [share your collection docs via the templates](/docs/postman-for-publishers/postman-templates/add-templates).

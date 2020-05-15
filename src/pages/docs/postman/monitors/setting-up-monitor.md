@@ -1,6 +1,6 @@
 ---
 title: "Setting up a monitor"
-order: 73
+order: 162
 page_id: "setting_up_monitor"
 contextual_links:
   - type: section
@@ -11,11 +11,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Microsoft Education"
-    url: "https://www.getpostman.com/case-studies/Microsoft.pdf?_ga=2.201039976.754547870.1571851340-1454169035.1570491567"
-  - type: subtitle
     name: "Videos"
   - type: link
     name: "API monitoring with Postman"
@@ -23,133 +18,161 @@ contextual_links:
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
-    name: "Setting up multi region API tests in Postman"
-    url: "https://blog.getpostman.com/2017/08/17/setting-up-multi-region-api-tests-in-postman/?_ga=2.198460265.754547870.1571851340-1454169035.1570491567"
+    name: "How to monitor Postman Collections with APImetrics"
+    url: "https://blog.postman.com/2019/10/22/how-to-use-postman-apimetrics/"
   - type: link
     name: "Using a Postman monitor to water my plants"
-    url: "https://blog.getpostman.com/2017/11/08/using-a-postman-monitor-to-water-my-plants/?_ga=2.198460265.754547870.1571851340-1454169035.1570491567"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Intro to collection runs"
-    url: "/docs/postman/collection-runs/intro-to-collection-runs/"
+    url: "https://blog.postman.com/2017/11/08/using-a-postman-monitor-to-water-my-plants/"
 
 warning: false
 ---
 
+Postman Monitoring offers a number of configuration options when creating a monitor, allowing you to seamlessly integrate it into your team's API development workflow.
 
-Postman lets you monitor shared or private collections. If you choose to monitor a shared collection, your team can see the monitor. If you create a monitor on an unshared collection, the monitor is private and only visible to you.
+## Contents
 
-You can create a monitor from the:
+* [Creating a monitor](#creating-a-monitor)
 
-* Sidebar
-* **New** button
-* Launch screen
-* Postman web
+    * [Creating a monitor from Launchpad](#creating-a-monitor-from-launchpad)
 
-## Sidebar
+    * [Creating a monitor with the + New button](#creating-a-monitor-with-the--new-button)
 
-You can create a monitor for an existing collection from the sidebar.
+    * [Creating a monitor via a collection](#creating-a-monitor-via-a-collection)
 
-1. In the Postman app, click on the ellipsis (…) next to the collection you want to monitor.
+    * [Creating a monitor from history](#creating-a-monitor-from-history)
 
-   [![monitor dropdown](https://assets.postman.com/postman-docs/Monitor-Collection1.png)](https://assets.postman.com/postman-docs/Monitor-Collection1.png)
+    * [Creating a monitor in the web dashboard](#creating-a-monitor-in-the-web-dashboard)
 
-1. Select "Monitor Collection".</li>
-1. In the **Monitor Collection** modal, you must:
-  
-   * Enter the name of the monitor.
-   * Specify a version tag.
-   * Select an environment (optional).
-   * Set how frequently the monitor should run. For more information on how to schedule a monitor, see the “Monitoring schedule and region” section below.
-   * Select one or more regions of the world from where you want to monitor your results.
-  
-   You can also select advanced monitor options to receive email notifications for run failures and errors, request a timeout, request a delay, not follow redirects, and disable SSL validation.
-  
-1. Click **Create**.
+    * [Creating a monitor with the Postman API](#creating-a-monitor-with-the-postman-api)
 
-   [![monitor modal](https://assets.postman.com/postman-docs/Monitor-Collection2.png)](https://assets.postman.com/postman-docs/Monitor-Collection2.png)
+    * [The basics when creating a monitor](#the-basics-when-creating-a-monitor)
 
-## New button
+* [Configuring a monitor](#configuring-a-monitor)
 
-When you use the **New** button to create a monitor, Postman guides you on how to set up a monitor. The process requires you to select the requests to monitor and configures how you want to monitor the requests. Then Postman suggests steps to consider after you create the monitor.
+    * [Scheduling monitors](#scheduling-monitors)
 
-Postman makes a collection of the URLs and adds a script that checks the response time and response code for each URL.
-You receive notifications when either the response code doesn’t match or the response time falls below the expected values. You can also add method, headers, and body to the individual URLs in the request builder, as well as add custom test scripts.
+    * [Adding regions](#adding-regions)
 
-Here's how to create a monitor with the **New** button.
+    * [Using static IP](#using-static-ip)
 
-1. In the header toolbar, click the **New** button.
+    * [Updating email preferences](#updating-email-preferences)
 
-   [![new button](https://assets.postman.com/postman-docs/Header_Toolbar_New.png)](https://assets.postman.com/postman-docs/Header_Toolbar_New.png)
+    * [Using retry on failure](#using-retry-on-failure)
 
-   The **Create New** tab appears.
+    * [Adding request timeouts](#adding-request-timeouts)
 
-   [![create screen](https://assets.postman.com/postman-docs/Create_New_Tab_Updated.png)](https://assets.postman.com/postman-docs/Create_New_Tab_Updated.png)
+    * [Adding delays between requests](#adding-delays-between-requests)
 
-   **Note:** At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
+    * [Managing redirect behavior](#managing-redirect-behavior)
 
-1. Click "Monitor".
+    * [Disabling SSL validation](#disabling-ssl-validation)
 
-1. Select if you want to monitor a new API or an existing or team collection. If you create a new API to monitor, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection, you must select a collection from a list of existing or team collections.
+* [Next steps](#next-steps)
 
-   [![request monitor](https://assets.postman.com/postman-docs/Create_New_Tab_Updated2.png)](https://assets.postman.com/postman-docs/Create_New_Tab_Updated2.png)
+## Creating a monitor
 
-1. After you select or create the request you want to monitor, click the **Next** button.
-1. In the **Configuration** tab, you must:
-  
-   * Enter the name of the monitor
-   * Specify a version tag for the monitor
-   * Select an environment (optional).
-   * Set how frequently the monitor should run. For more information on how to schedule a monitor, see the “Monitoring schedule and region” section below.
-   * Select one or more regions of the world from where you want to monitor your results.
+You can create a Postman monitor using a number of flows both in and outside of the Postman app:
 
-   [![configure monitor](https://assets.postman.com/postman-docs/Monitor-Collection2.png)](https://assets.postman.com/postman-docs/Monitor-Collection2.png)  
+### Creating a monitor from Launchpad
 
-1. Click **Create**.
+Launchpad is automatically enabled in the Postman app (to disable, click the wrench icon > **Settings**). To create a monitor, select **... View More** > **Create a monitor**.
 
-   In the **Next steps** tab, see a list of suggested next steps to maximize the effectiveness of your monitor.
+### Creating a monitor with the + New button
 
-   [![next monitor](https://assets.postman.com/postman-docs/Create_Monitor_New2.png)](https://assets.postman.com/postman-docs/Create_Monitor_New2.png)
+In the Postman app, click **New** [![new button](https://assets.postman.com/postman-docs/newbutton1.png)](https://assets.postman.com/postman-docs/newbutton1.png) > **Monitor**.
 
-## Launch screen
+### Creating a monitor via a collection
 
-The **Create New** tab appears by default when you launch Postman.
+* **&#x25B6; button**: In the Postman app, hover over your collection and click the arrow button **&#x25B6;** > **Monitors** > **Create a monitor** or **+ Add monitor** (if you have an existing monitor).
 
-1. Open the Postman app.
-1. In the **Create New** tab, click "Monitor".
-1. Follow steps 3-6 in the previous **New** button section.
+* **... button**: In the Postman app, hover over your collection and select **...** > **Monitor Collection**.
 
-**Note:** At the bottom, you can select "Show this window at launch" to indicate whether you want the **Create New** tab to display each time you open Postman.
+### Creating a monitor from history
 
-## Postman web
+In the Postman app, select **History**, hover over your request, click **...** > **Monitor Request**.
 
-1. Go to [Workspaces dashboard](https://app.getpostman.com/dashboard) and click "Monitors" and click the **Monitor this collection** button.
+### Creating a monitor in the web dashboard:
 
-1. In the **Create Monitor** modal, select a collection, schedule the frequency of the run, enter a monitor name, specify a version tag, select the environment, and select the regions of the world from where you want to monitor your results. For more information on how to schedule a monitor, see the "Monitoring schedule and region" section below.
+* **Workspace**: In your [**web dashboard**](https://app.getpostman.com/), click into your workspace > **Monitors** > **Monitor a collection**.
 
-   [![create monitor](https://assets.postman.com/postman-docs/Monitor-Collection3.png)](https://assets.postman.com/postman-docs/Monitor-Collection3.png)
+* **Collection**: In your [**web dashboard**](https://app.getpostman.com/), click into your workspace > **Collections** > select your collection > **...** > **Monitor Collection**. Alternatively, you can click to open your collection > **Monitors** > **Add Monitor**.
 
-   **Note:** To select regions manually and to schedule your monitor runs using the minute timer, upgrade your plan to Postman Pro or Enterprise.
+### Creating a monitor with the Postman API
 
-   You can also select advanced monitor options to receive email notifications for run failures and errors, request a timeout, request a delay, not follow redirects, and disable SSL validation.
+You can create a monitor with a POST request to the Postman API. Visit the [API docs](https://docs.api.getpostman.com/) > **Monitors** > **Create Monitor** to learn how to do so.
 
-1. Click **Add Monitor**.
+### The basics when creating a monitor
 
-### Monitoring schedule and region
+You will need to give your new monitor a name and designate the collection you would like it to run, as well as the version. You can also add an environment here if you would like your monitor to use one.
 
-You must select the frequency of how often you want to run your monitor. Monitors can run as frequently as every 5 minutes. For example, you can run a monitor every 5 minutes or every Monday at 9:00 AM.
+![Create monitor page](https://assets.postman.com/postman-docs/create-monitor-1.jpg)
 
-When you specify a monitor to run in multiple regions, the monitor will run multiple times. As a result, if there is a side effect from running the monitor, it will also happen multiple times.
+> Postman maintains ceiling limits on various team and user actions, including monitor creation. For more information, see [Usage limits](/docs/postman/monitors/intro-monitors/#usage-limits).
 
-Postman Enterprise users interested in setting up dedicated IPs for their API monitoring should contact [help@getpostman.com](mailto:help@getpostman.com).
+From here, you can determine how you'd like to configure your monitor.
 
-### Additional preferences
+## Configuring a monitor
 
-| **Additional preferences** | **Description** |
-| --- | --- |
-| Email notifications | Gets notifications about failures on up to 5 email addresses. |
-| Request timeout | Specifies a time interval after which your request is considered to time-out. |
-| Delay between requests | Adds a time lag between subsequent requests. |
-| Don’t follow redirects | Disables all following redirects. |
-| Disable SSL validation | Disables validations performed on SSL certificates. Check this setting if you use self-signed certificates. Use with caution! |
+You can utilize a number of custom configuration options provided by Postman monitoring.
+
+### Scheduling monitors
+
+You can configure your monitor to run as often as you would like, automatically. This could be up to every five minutes for a status page or a basic check once a week on your endpoints.
+
+> Frequency affects how quickly your monitoring usage compounds. To learn more about usage limits and overages, see [Pricing](/docs/postman/monitors/intro-monitors/#pricing).
+
+### Adding regions
+
+You can allow Postman to auto-select a region for your monitor or you can opt to select your regions manually. Postman offers multiple regions to choose from, enabling you to accurately track uptime and reliability on a global scale, without the need to procure your own regional servers.
+
+> Servers in each selected region will run your monitor according to your schedule, counting towards your [monitoring usage](/docs/postman/monitors/intro-monitors/#viewing-monitor-usage).
+
+### Using static IP
+
+Static IPs are available on Postman Business and Enterprise plans. This option allows you to securely monitor private APIs using a direct channel to Postman.
+
+### Updating email preferences
+
+You will receive daily and weekly summaries of your active monitors in the app and via email.
+
+[![monitor summary](https://assets.postman.com/postman-docs/monitor-summary-1.jpg)](https://assets.postman.com/postman-docs/monitor-summary-1.jpg)
+
+You can opt out of daily and/or weekly summaries by navigating to your [web dashboard](https://app.getpostman.com/), selecting your avatar in the upper-right corner, and clicking **Notification Preferences**.
+
+When creating or editing a monitor, you can choose to receive email notifications for run failures and errors under **Show Additional Preferences**. You can define up to five recipients and configure when you would like to stop failure notifications for consecutive run failures.
+
+> Once the number of consecutive failures exceeds your defined notification limit, Postman will wait until your run succeeds to notify you. By default this limit is three.
+
+You can find detailed information on your monitor results by navigating to your [web dashboard](https://go.postman.co/), selecting a workspace > **Monitors**.
+
+> You can also utilize [Postman integrations](https://learning.postman.com/docs/integrations/intro-integrations/) to send monitor data and configure notifications using your desired platform, such as [Slack](https://learning.postman.com/docs/integrations/slack/) or [Datadog](https://learning.postman.com/docs/integrations/datadog/).
+
+### Using retry on failure
+
+You have the option to **Retry if run fails**. If this is enabled and a failure occurs during a run, Postman will automatically rerun the failed request to avoid false alarms due to transient issues. Postman will still log the initial failure, but will only notify you if the run continues to fail.
+
+> If you choose to enable this option, it will affect your monitoring usage and the resulting billing. For example, if a collection of three requests fails on the first request, but retries successfully, the run will count as four total requests.
+
+### Adding request timeouts
+
+You can configure a **Request timeout** if you'd like to make sure all of your requests run within a certain amount of time. By default, requests do not have a timeout value, however each monitor run has a timeout of five minutes. It is not possible to configure this at the request level.
+
+> Request timeout may not exceed five minutes (300000ms).
+
+### Adding delays between requests
+
+You can add a **Delay between requests** to your monitor. This will insert a delay between all requests in your collection. To configure this for individual requests, you can add a delay in your [pre-request or test scripts](/docs/postman/scripts/intro-to-scripts/) with setTimeout().
+
+> Delay between requests may not exceed five minutes (300000 ms), however note that five minutes is also the maximum run time for a monitor.
+
+### Managing redirect behavior
+
+You can use **Don't follow redirects** to reject URL redirection for requests run via a monitor.
+
+### Disabling SSL validation
+
+You can **Disable SSL validation** if you are using self-signed certicates to stop validations of SSL certificates. For more information, see [Certificates](/docs/postman/sending-api-requests/certificates/). To troubleshoot, see [Troubleshooting Self-signed SSL Certificate Issues](https://blog.postman.com/2019/07/17/self-signed-ssl-certificate-troubleshooting/).
+
+## Next steps
+
+Learn how to set up [integrations](/docs/integrations/intro-integrations/) for your monitoring results, and [how to monitor your APIs and websites](/docs/postman/monitors/monitoring-apis-websites/).

@@ -1,0 +1,1 @@
+13: result=$(grep -n '##' "$log")

@@ -21,4 +21,4 @@ To make SOAP requests using Postman,
 Check out an example [here][0].
 
 
-[0]: http://blog.getpostman.com/2014/08/22/making-soap-requests-using-postman/
+[0]: https://blog.postman.com/2014/08/22/making-soap-requests-using-postman/

@@ -1,6 +1,6 @@
 ---
 title: "Viewing documentation"
-order: 66
+order: 124
 page_id: "viewing_documentation"
 contextual_links:
   - type: section
@@ -14,7 +14,10 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Cisco DevNet"
-    url: "https://www.getpostman.com/case-studies/CiscoDevNet.pdf?_ga=2.200107496.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/resources/case-studies/cisco-devnet/"
+  - type: link
+    name: "Imgur"
+    url: "https://www.postman.com/resources/case-studies/imgur/"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -24,46 +27,79 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Simplifying API documentation for a great first user experience"
-    url: "https://blog.getpostman.com/2016/04/25/simplifying-api-documentation-for-a-great-first-user-experience/?_ga=2.202532055.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2016/04/25/simplifying-api-documentation-for-a-great-first-user-experience/"
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Publishing public docs"
-    url: "/docs/postman/api-documentation/publishing-public-docs/"
+    name: "Publishing your docs"
+    url: "/docs/postman/api-documentation/publishing-your-docs/"
 
 warning: false
 
 ---
-You can use two different web views while authoring documentation for your Postman Collections: private and public.
+You can view and comment on private documentation shared with you. Documentation for each collection is published privately by default—you can make documentation visible within a team workspace by sharing the collection. You can optionally choose to publish documentation, in which case anyone with the link can view it.
 
-All collections are initialized with the private view. However, you must explicitly opt to publish your documentation for it to be available publicly.
+> If you have edit access to a collection, you can edit its documentation while viewing it in the web browser.
 
-Private, unpublished collections are only available to the author, while collections shared in a workspace can be accessed by the entire team. Anyone with the URL can view a published collection.
+## Contents
 
-## Viewing Private Documentation
+* [Viewing private documentation](#viewing-private-documentation)
+    * [Commenting on documentation](#commenting-on-documentation)
+* [Viewing public documentation](#viewing-public-documentation)
+* [Next steps](#next-steps)
 
-Only the author can view private documentation unless the collection is shared within a [team workspace](/docs/postman/workspaces/intro-to-workspaces/).
+## Viewing private documentation
 
-You must be logged in to your Postman account to view private documentation. Postman Pro and Enterprise teammates with view permissions can oversee progress, while teammates with edit permissions can collaborate in writing, revising, and updating documentation.
+You can [view documentation for any collection that has been shared with you](/docs/postman/api-documentation/documenting-your-api). You must be logged in to your Postman account to view private documentation.
 
-In the Postman app, hover your cursor over your collection on the left-hand side, click the arrow (&#9656;), then click the **View in web** button.
+> Postman Team, Business, and Enterprise teammates with view permissions can comment on documentation, while teammates with edit permissions can write, revise, and update it.
 
-[![collection details view](https://assets.postman.com/postman-docs/API_Docs_ViewinWeb.png)](https://assets.postman.com/postman-docs/API_Docs_ViewinWeb.png)
+To view documentation for a collection you have access to in the Postman app, select the collection, click the arrow (&#9654;), and choose __View in web__. The collection documentation will open in your web browser.
 
-In this private web view, you’ll be able to see each request in the collection, their descriptions, and code snippets generated from the environment and the language you’ve selected. You will also be able to post comments.
+![View Docs](https://assets.postman.com/postman-docs/view-docs.jpg)
 
-[![view documentation](https://assets.postman.com/postman-docs/WS-docs-viewing.png)](https://assets.postman.com/postman-docs/WS-docs-viewing.png)
+At the top, you will see any environment shared with the documented collection, the sample code language, and the layout of the documentation. You can change the environment, language, and layout.
 
-**Note:** This private URL is only accessible to Postman users logged in with appropriate permissions — anyone without access to the collection itself receives an error message upon attempting to view it. To make this documentation available to others, you will need to publish it.
+![View Docs](https://assets.postman.com/postman-docs/SimpleKart+header+expanded+layout+menu.jpg)
 
-You can also access the documentation section from the Browse View. In the Browse view, point your cursor to the collection name and click any collection name to go to the documentation section:
+You will also see detail on each request, including sample code in various client languages, and an indicator of the method, URL, description, headers, request and response structures, and examples. Documentation authors can optionally include other details.
 
-[![Comments BrowseView](https://assets.postman.com/postman-docs/Comments-Browse-View.png)](https://assets.postman.com/postman-docs/Comments-Browse-View.png)
+![Public Documentation](https://assets.postman.com/postman-docs/Request+details+in+public+documentation.jpg)
 
-Alternatively, you can also point your cursor to any collection in your dashboard view and click it to go to the documentation section. A point to remember is clicking any collection from anywhere in Postman Dashboard will land you in the documentation section.
+> The private URL is only accessible to Postman users logged in with appropriate permissions. To make documentation viewable publicly, you can [publish it](/docs/postman/api-documentation/publishing-your-docs/).
 
-## Viewing Public Documentation
+You can alternatively access documentation by selecting the __Browse__ view in the app or opening the web dashboard, choosing __Collections__, and clicking a collection.
 
-Public documentation is accessible through a URL that Postman generates at the time of publication. This link displays immediately, and can be found in your [Postman Dashboard](https://go.postman.co/). If you’ve opted to use a custom domain, you’ll find your published documentation link in the Postman Dashboard.
+![Browse Collection](https://assets.postman.com/postman-docs/browse-collection.jpg)
 
-[![public documentation link](https://assets.postman.com/postman-docs/WS-docs-public-view.png)](https://assets.postman.com/postman-docs/WS-docs-public-view.png)
+If the documentation you are viewing has multiple versions published, you can select a specific version to view.
+
+<img alt="Docs Versions" src="https://assets.postman.com/postman-docs/docs-versions.jpg" width="400px"/>
+
+### Commenting on documentation
+
+You can view and post comments on your API documentation to collaborate with teammates. When you view the documentation for a collection, you will see any existing comments on it.
+
+![Documentation Comment](https://assets.postman.com/postman-docs/documentation-comment.jpg)
+
+You can add a comment to join in the discussion. Comments on documentation reflect [comments on the corresponding collection](/docs/postman/collections/commenting-on-collections/).
+
+> You can only comment on private documentation.
+
+## Viewing public documentation
+
+You can access [public documentation](/docs/postman/api-documentation/publishing-your-docs/) through a URL in your web browser. Postman generates the URL when the documentation is published—the URL is also accessible from the [web dashboard](https://web.postman.co/).
+
+![Public Doc Link](https://assets.postman.com/postman-docs/public-doc-link.jpg)
+
+When you view public documentation, you will see any shared environments, the layout, and the sample code language at the top. You can expand the menu of any of these details to change them.
+
+![View Docs](https://assets.postman.com/postman-docs/SimpleKart+header+expanded+layout+menu.jpg)
+
+For each request, you will see a description of the request, the method and URL, and any headers or parameters. On the right, you will see examples of requests and responses in the language selected.
+
+![Public Documentation](https://assets.postman.com/postman-docs/Request+details+in+public+documentation.jpg)
+
+## Next steps
+
+Learn more about [collaborating with your team](/docs/postman/collaboration/collaboration-intro/) in Postman.

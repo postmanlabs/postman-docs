@@ -29,7 +29,7 @@ Postman learners speak lots of different languages—but right now our docs are 
 
 ## Language style
 
-The documentation in the [learning center](https://learning.getpostman.com/docs) is intended to help people learn how to use Postman, so use practical instructional language wherever possible. Be specific, and "__show, don't tell__."
+The documentation in the [learning center](https://learning.postman.com/docs) is intended to help people learn how to use Postman, so use practical instructional language wherever possible. Be specific, and "__show, don't tell__."
 
 ---
 
@@ -140,7 +140,7 @@ In general, use active voice and try not to use passive structures:
 
 ---
 
-Try to keep your sentences as short as possible. Use commas to break the content of a sentence into smaller, more digstible chunks—use serial commas in sentences containing three or more clauses. If a sentence has multiple clauses and you're having to use lots of commas, semicolons etc, it may benefit from being broken into more than one sentence, or perhaps presented in a different format such as a list. Be as concise as you can, while still being specific and conveying the relevant info. :eyeglasses:
+Try to keep your sentences as short as possible. Use commas to break the content of a sentence into smaller, more digestible chunks—use serial commas in sentences containing three or more clauses. If a sentence has multiple clauses and you're having to use lots of commas, semicolons etc, it may benefit from being broken into more than one sentence, or perhaps presented in a different format such as a list. Be as concise as you can, while still being specific and conveying the relevant info. :eyeglasses:
 
 Help users to scan content, by indicating the purpose of a page, section, or sentence at the beginning. Introducing a sentence or section with a conditional clause lets learners know straight away whether it's relevant to them or not:
 
@@ -179,6 +179,8 @@ Use __bold__ to highlight names for parts of the software that the user interact
 :thumbsup::white_check_mark: Click __Send__
 
 ---
+
+> The only exception to this is where the UI element includes all upper case—only capitalize initial letters in the documentation.
 
 The first time you mention a generic Postman feature in a page, capitalize it and use its full name—later in the doc you can refer to it in shortened forms and without capitalizing:
 
@@ -270,7 +272,9 @@ In general, aim for the following structure:
     * Any info about carrying out the task using the Postman API
     * Links to relevant collections / templates
     * Debugging info
-* Links to relevant follow-up material
+* Links to relevant follow-up material in a Next Steps section
+
+Add any relevant supplementary links to the sidebar using the frontmatter at the top of each docs page.
 
 Use sentence case for headings and subheadings, only capitalizing the first word and any proper names:
 
@@ -298,15 +302,19 @@ Try to keep your images focused on what's relevant, but still show enough of you
 
 Include alternative text for images.
 
+Surround images with a 1px border dark grey, ideally `#4a4a4a`.
+
+Use JPG format for images, and optimize them to minimize file size.
+
 ## Links
 
 Use meaningful text for links, avoiding phrases such as "click here" when possible:
 
 ---
 
-:thumbsdown::no_entry_sign: Click [here](https://learning.getpostman.com/docs/postman/scripts/intro_to_scripts/) for more details on scripts.
+:thumbsdown::no_entry_sign: Click [here](https://learning.postman.com/docs/postman/scripts/intro_to_scripts/) for more details on scripts.
 
-:thumbsup::white_check_mark: For more on scripting in Postman, see [Intro to Scripts](https://learning.getpostman.com/docs/postman/scripts/intro_to_scripts/).
+:thumbsup::white_check_mark: For more on scripting in Postman, see [Intro to Scripts](https://learning.postman.com/docs/postman/scripts/intro_to_scripts/).
 
 ---
 
@@ -320,7 +328,7 @@ Don't display a raw URL in text, unless seeing the URL is essential to the learn
 
 ---
 
-:thumbsdown::no_entry_sign: Navigate to http://learning.getpostman.com
+:thumbsdown::no_entry_sign: Navigate to http://learning.postman.com
 
 :thumbsup::white_check_mark: Send a request to `https://postman-echo.com/get`
 

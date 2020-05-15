@@ -1,6 +1,6 @@
 ---
 title: "Generate code snippets"
-order: 25
+order: 29
 page_id: "generate_code_snippets"
 contextual_links:
   - type: section
@@ -14,7 +14,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Intuit"
-    url: "https://www.getpostman.com/case-studies/Intuit.pdf?_ga=2.164694905.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/resources/case-studies/intuit/"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -24,21 +24,33 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Writing front-end API code with Postman"
-    url: "https://blog.getpostman.com/2015/08/31/writing-front-end-api-code-with-postman/?_ga=2.164823161.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2015/08/31/writing-front-end-api-code-with-postman/"
 
 warning: false
 
 ---
 
-Once you’ve finalized and saved your request in Postman, you might want to make the same request from your own application. Postman lets you generate snippets of code in various languages and frameworks that will help you do this. You’ll need to click the** Code** link under the blue **Send** button to open the **GENERATE CODE SNIPPETS** modal.
+Once you’ve finalized and saved your request in Postman, you might want to make the same request from your own application. Postman lets you generate snippets of code in various languages and frameworks that will help you do this. Copy the code from Postman, and paste it into your own application.
+
+Click the **Code** link under the blue **Send** button to open the **GENERATE CODE SNIPPETS** modal.
 
 [![generate code link](https://assets.postman.com/postman-docs/58525940.png)](https://assets.postman.com/postman-docs/58525940.png)
 
 ## Selecting a language
 
-Use the dropdown menu to select a language - some languages have multiple options. This lets you select different frameworks from which to make your request.
+Use the dropdown menu to select a language or framework - some have multiple options to customize your code snippet.
 
 [![languages dropdown](https://assets.postman.com/postman-docs/WS-select-language.png)](https://assets.postman.com/postman-docs/WS-select-language.png)
+
+If you enable **New Code Generation Mode** under the [general settings](/docs/postman/launching-postman/settings), you will see an additional settings icon at the top of this modal.
+
+[![code gen settings](https://i.imgur.com/DngERAr.png)](https://i.imgur.com/DngERAr.png)
+
+These settings vary by programming language and allow you to customize the way Postman generates these code snippets. Configure these settings to accommodate a project's specific linting requirements, line continuation characters for your operating system, or to suit your personal preferences.
+
+[![code gen specifics](https://i.imgur.com/XRDe6aY.png)](https://i.imgur.com/XRDe6aY.png)
+
+Don't see your language of choice, or is there a setting missing that you'd find useful? Click **Contribute on GitHub** within this modal to contribute to [the open source project](https://github.com/postmanlabs/postman-code-generators).
 
 ## Supported languages/frameworks
 

@@ -1,7 +1,8 @@
 ---
 title: "FAQs for monitors"
-order: 79
+order: 168
 page_id: "faqs_monitors"
+search_keyword: "console.log, console.warn"
 warning: false
 ---
 
@@ -43,7 +44,7 @@ Monitors are visible to all members of the workspace they were created in. If a 
 
 ### Who can edit my Monitors?
 
-Monitors can be edited in their respective workspace by members who have been granted [Editor permissions](/docs/postman-pro/managing-pro/roles-and-permissions/#collection-roles) on the associated collection.
+Monitors can be edited in their respective workspace by members who have been granted [Editor permissions](/docs/postman/collaboration/roles-and-permissions/#collection-roles) on the associated collection.
 
 ### Can I delete a Monitor?
 
@@ -51,7 +52,7 @@ You can delete a monitor at any time. Once deleted, all run history for the moni
 
 ### Where do Monitors run?
 
-Monitors run on our cloud infrastructure, which is hosted by Amazon Web Services (AWS). More information about our cloud infrastructure is available at our [Security page](https://www.getpostman.com/security).
+Monitors run on Postman's cloud infrastructure, which is hosted by Amazon Web Services (AWS). More information about the cloud infrastructure is available on the [Security overview](https://www.postman.com/security).
 
 ### Can Monitors access private networks?
 
@@ -59,4 +60,4 @@ No. Monitors can only connect to URLs that are publicly-available on the Interne
 
 ### Will Monitors impact my API performance?
 
-You have full control over the behavior of your monitors. Not only can you determine which of your API endpoints are called, you can also determine how many and how often they are called. In addition, we restrict each monitor’s total run time to 5 minutes, to limit the number of requests it can perform.
+You have full control over the behavior of your monitors. Not only can you determine which of your API endpoints are called, you can also determine how many and how often they are called. In addition, Postman restricts each monitor’s total run time to 5 minutes, to limit the number of requests it can perform.

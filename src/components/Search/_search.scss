@@ -74,12 +74,30 @@ ais-highlight-0000000000 {
   font-size: 0.001px;
 }
 
+.navbar-brand {
+  @media (max-width: 414px) {
+    margin-right: 0px;
+    font-size: 1rem !important;
+  }
+  @media (max-width: 384px) {
+    margin-right: 0px;
+    font-size: 0.85rem !important;
+  }
+  @media (max-width: 320px) {
+    margin-right: 0px;
+    font-size: 0.75rem !important;
+  }
+}
 .header__brand {
   min-width: 330px;
+  @media (max-width: 414px) {
+    min-width: 0px;
+  }
 }
 
 .header__search {
   width: 100%;
+  padding: 0 16px;
   .ais-InstantSearch__root {
     width: 100%;
   }

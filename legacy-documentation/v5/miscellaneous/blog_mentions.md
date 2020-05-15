@@ -120,11 +120,11 @@ Codespread
 AIM Services
 
 
-[0]: http://blog.getpostman.com/index.php/2014/02/11/postman-v0-9-6-access-cookies-and-restricted-headers-plus-better-testing/
-[1]: http://blog.getpostman.com/index.php/2014/01/31/tip-how-to-launch-postman-really-quickly/
-[2]: http://blog.getpostman.com/index.php/2014/01/28/using-self-signed-certificates-with-postman/
-[3]: http://blog.getpostman.com/index.php/2014/01/27/enabling-chrome-developer-tools-inside-postman/
-[4]: http://blog.getpostman.com/index.php/2014/01/27/extracting-data-from-responses-and-chaining-requests/
+[0]: https://blog.postman.com/index.php/2014/02/11/postman-v0-9-6-access-cookies-and-restricted-headers-plus-better-testing/
+[1]: https://blog.postman.com/index.php/2014/01/31/tip-how-to-launch-postman-really-quickly/
+[2]: https://blog.postman.com/index.php/2014/01/28/using-self-signed-certificates-with-postman/
+[3]: https://blog.postman.com/index.php/2014/01/27/enabling-chrome-developer-tools-inside-postman/
+[4]: https://blog.postman.com/index.php/2014/01/27/extracting-data-from-responses-and-chaining-requests/
 [5]: http://cases.azoft.com/postman-rest-client-in-a-mobile-development-project/
 [6]: http://joemarini.blogspot.in/2013/11/tools-for-developing-on-chromeos.html
 [7]: http://www.andrewconnell.com/blog/my-favorite-sharepoint-development-utility-postman-chrome-extension

@@ -15,13 +15,13 @@ To test a request across different environments,
 1\. Create an environment
 
 * Click on "No environment" in the header.
-[![](https://www.getpostman.com/img/v1/docs/test_multi_environments/test_multi_environments_1.png)][0]
+[![](https://www.postman.com/img/v1/docs/test_multi_environments/test_multi_environments_1.png)][0]
 
 * Select "Manage environments" and then the "Add" button in the modal that comes up.
-[![](https://www.getpostman.com/img/v1/docs/test_multi_environments/test_multi_environments_2.png)][1]
+[![](https://www.postman.com/img/v1/docs/test_multi_environments/test_multi_environments_2.png)][1]
 
 * Fill in the values as shown in the screenshot below.
-[![](https://www.getpostman.com/img/v1/docs/test_multi_environments/test_multi_environments_3.png)][2]
+[![](https://www.postman.com/img/v1/docs/test_multi_environments/test_multi_environments_3.png)][2]
 
 * Press submit.
 
@@ -41,7 +41,7 @@ Variables can be used almost everywhere in Postman. They are available inside:
 * Helper fields
 
 To use a variable you need to enclose the variable name with double curly braces -- `{%raw%}{{my_variable_name}}{%endraw%}`.
-[![](https://www.getpostman.com/img/v1/docs/test_multi_environments/test_multi_environments_4.png)][3]
+[![](https://www.postman.com/img/v1/docs/test_multi_environments/test_multi_environments_4.png)][3]
 
 4\. Now select an environment from the environment selection dropdown.
 
@@ -55,8 +55,8 @@ Once an environment is selected, Postman will replace all instances of a variabl
 
 To see some examples of testing in multiple environments and other use cases for variables, check out [this blog post][4].
 
-[0]: https://www.getpostman.com/img/v1/docs/test_multi_environments/test_multi_environments_1.png
-[1]: https://www.getpostman.com/img/v1/docs/test_multi_environments/test_multi_environments_2.png
-[2]: https://www.getpostman.com/img/v1/docs/test_multi_environments/test_multi_environments_3.png
-[3]: https://www.getpostman.com/img/v1/docs/test_multi_environments/test_multi_environments_4.png
-[4]: http://blog.getpostman.com/2014/02/20/using-variables-inside-postman-and-collection-runner/
+[0]: https://www.postman.com/img/v1/docs/test_multi_environments/test_multi_environments_1.png
+[1]: https://www.postman.com/img/v1/docs/test_multi_environments/test_multi_environments_2.png
+[2]: https://www.postman.com/img/v1/docs/test_multi_environments/test_multi_environments_3.png
+[3]: https://www.postman.com/img/v1/docs/test_multi_environments/test_multi_environments_4.png
+[4]: https://blog.postman.com/2014/02/20/using-variables-inside-postman-and-collection-runner/

@@ -95,9 +95,9 @@ There is no limit to the number of requests, although the total run-time cannot 
 There is no limit to the amount of data that can be sent or received per request. However, large requests or responses will take longer to send/receive, so be sure that you can do everything within the 2-minute time limit.
 
 
-[0]: https://www.getpostman.com/#general
-[1]: https://www.getpostman.com/#security
-[2]: https://www.getpostman.com/#cost
-[3]: https://www.getpostman.com/licenses/postman_monitors_addendum
-[4]: https://www.getpostman.com/docs/writing_tests
-[6]: https://www.getpostman.com/security
+[0]: https://www.postman.com/#general
+[1]: https://www.postman.com/#security
+[2]: https://www.postman.com/#cost
+[3]: https://www.postman.com/licenses/postman_monitors_addendum
+[4]: https://www.postman.com/docs/writing_tests
+[6]: https://www.postman.com/security

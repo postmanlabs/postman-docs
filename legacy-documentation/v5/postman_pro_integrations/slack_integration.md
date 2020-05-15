@@ -48,7 +48,7 @@ Authenticate with Slack and if prompted, choose a Slack channel to post results 
 
 And you’re done!
 
-[0]: http://blog.getpostman.com/2016/10/27/new-more-useful-activity-feed-in-postman-collections/
+[0]: https://blog.postman.com/2016/10/27/new-more-useful-activity-feed-in-postman-collections/
 [1]: https://app.getpostman.com/dashboard/integrations
 [2]: https://assets.postman.com/postman-docs/slackINT.png
 [3]: https://assets.postman.com/postman-docs/slack_add.png

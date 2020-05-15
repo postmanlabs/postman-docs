@@ -1,6 +1,6 @@
 ---
 title: "Intro to Workspaces"
-order: 94
+order: 181
 page_id: "intro_to_workspaces"
 contextual_links:
   - type: section
@@ -11,11 +11,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Eureka"
-    url: "http://blog.getpostman.com/2018/03/27/the-eureka-team-counts-on-postman-pro-to-stay-in-sync/?_ga=2.196755690.754547870.1571851340-1454169035.1570491567"
-  - type: subtitle
     name: "Videos"
   - type: link
     name: "Team collaboration with Postman"
@@ -24,12 +19,12 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Workspaces! What are they good for?"
-    url: "https://blog.getpostman.com/2018/04/07/workspaces-the-biggest-thing-to-hit-postman-this-month/?_ga=2.195906026.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2018/04/07/workspaces-the-biggest-thing-to-hit-postman-this-month/"
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Intro to environments and globals"
-    url: "/docs/postman/environments-and-globals/intro-to-environments-and-globals/"
+    name: "Variables"
+    url: "/docs/postman/variables-and-environments/variables/"
   - type: link
     name: "Intro to scripts"
     url: "/docs/postman/scripts/intro-to-scripts/"
@@ -37,13 +32,19 @@ contextual_links:
 warning: false
 ---
 
-## What is a workspace?
-
-A workspace is a -view- of all the Postman things you've come to use: [collections](/docs/postman/collections/intro-to-collections/), [environments](/docs/postman/environments-and-globals/intro-to-environments-and-globals/), [mocks](/docs/postman/mock-servers/intro-to-mock-servers/), [monitors](/docs/postman/monitors/intro-monitors/), and more. Individuals can organize their work in personal workspaces and teams can collaborate in team workspaces.
+A workspace is a -view- of all the Postman things you've come to use: [collections](/docs/postman/collections/intro-to-collections/), [environments](/docs/postman/variables-and-environments/variables/), [mocks](/docs/postman/mock-servers/intro-to-mock-servers/), [monitors](/docs/postman/monitors/intro-monitors/), and more. Individuals can organize their work in personal workspaces and teams can collaborate in team workspaces.
 
 [![WS_mainScreen-basicMenu](https://assets.postman.com/postman-docs/Workspaces_Mainscreen.png)](https://assets.postman.com/postman-docs/Workspaces_Mainscreen.png)
 
 Regardless of the type of workspace, you can share elements in multiple workspaces at the same time. Workspace elements include collections, monitors, mocks, environments, and integrations.
+
+## Contents
+
+* [Personal workspaces](#personal-workspaces)
+* [Team workspaces](#team-workspaces)
+* [Private workspaces](#private-workspaces)
+* [Seeing who is in your workspace](#seeing-who-is-in-your-workspace)
+* [Why use workspaces](#why-use-workspaces)
 
 ## Personal workspaces
 
@@ -59,7 +60,28 @@ As a Postman user, you can create team workspaces for ongoing development or sho
 
 ## Private workspaces
 
-For Postman Enterprise teams, private workspaces are team workspaces only visible to the user who creates the workspace and team members who have been invited to join the workspace. Private workspaces are a way for Postman Enterprise teams to restrict access to collections, environments, mocks, and monitors that are relevant only to a particular audience.
+For Postman Business and Enterprise teams, private workspaces are team workspaces that are only visible to the user who creates the workspace and team members who have been invited to join it. Private workspaces are a way for teams to restrict access to collections, environments, mocks, and monitors that are relevant only to a particular audience.
+
+## Seeing who is in your workspace
+
+You can see all of the members of your workspace and keep track of who's working on your APIs at any given time. You can also make sure that all teammates who should be included in your workspace are there. The avatars of all workspace members will be displayed at the top of the screen in the Postman app and on the web Dashboard.
+
+* **Bright avatars**: These are people who are currently active in the workspace.
+* **Muted avatars**: These are inactive members of the workspace. If a user isn't active for fifteen to twenty seconds, their avatar moves to the inactive state.
+
+Hover over the avatars to see your teammates names.
+
+<img alt="Active user" src="https://assets.postman.com/postman-docs/Beesly+active+member.jpg" width="350px"/>
+
+>You can only see workspace members if you are also a member. To see member avatars, and to make your avatar visible to the team, [join the relevant workspace](/docs/postman/workspaces/using-workspaces/#joining-a-workspace).
+
+ If more than three people belong to a workspace, the fourth avatar will be a number representing the remaining members. Click the number to see a list of all active and inactive users.
+
+<img alt="Active user list" src="https://assets.postman.com/postman-docs/Active+members+Stanely+open+list.jpg" width="400px"/>
+
+The active and inactive user lists are collapsible. You can see all of your active and inactive teammates in both the Postman app and the web Dashboard.  
+
+<img alt="Active user list" src="https://assets.postman.com/postman-docs/Stanely+collapsed+list+w%3Aborder.jpg" width="400px"/>
 
 ## Why use workspaces?
 

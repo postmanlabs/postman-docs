@@ -11,7 +11,7 @@ warning: false
 
 ---
 
-Postman's [native apps](http://www.getpostman.com/downloads/) provide a SSL Certificate Manager that lets you view / set client certificates on a per domain basis.
+Postman's [native apps](http://www.postman.com/downloads/) provide a SSL Certificate Manager that lets you view / set client certificates on a per domain basis.
 
 To open the Certificate Manager, click the wrench icon on the top right, choose `Settings` (or use the shortcut `Cmd/Ctrl + ,`), then switch over to the `Certificates` tab.
 
@@ -46,7 +46,7 @@ Once your certificate is added, it should appear in the Certificate Manager list
 
 You do not have to perform any extra steps to use a client certificate if it is added to the `Certificate Manager`. If you make a request to a configured domain, the certificate will automatically be sent with the request. (Provided you make the request over HTTPS)
 
-You can verify this. To do so, open up your Postman Console (Cmd/Ctrl + Alt + C). You can read more about the Console [here](http://blog.getpostman.com/2016/08/26/the-postman-console/). A new window should open up.
+You can verify this. To do so, open up your Postman Console (Cmd/Ctrl + Alt + C). You can read more about the Console [here](https://blog.postman.com/2016/08/26/the-postman-console/). A new window should open up.
 
 Now, send a request to `https://echo.getpostman.com/get`, keeping the Postman Console open. Notice we're using `https` to make sure the certificate is sent. Once the response arrives, switch over to the Postman Console. You should see your request there. If you expand your request, you should be able to see which certificate was sent along with the request.
 

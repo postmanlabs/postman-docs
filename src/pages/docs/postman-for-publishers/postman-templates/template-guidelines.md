@@ -1,47 +1,62 @@
 ---
-title: "Template submission guidelines"
-order: 144
+title: "Template guidelines"
+order: 322
 page_id: "template_guidelines"
 warning: false
-
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Documenting your API"
+    url:  "/docs/postman/api-documentation/documenting-your-api/"
+  - type: link
+    name: "Publishing your docs"
+    url: "/docs/postman/api-documentation/publishing-your-docs/"
+  - type: link
+    name: "Adding to Postman templates"
+    url:  "/docs/postman-for-publishers/postman-templates/add-templates/"
 ---
 
-## Why adhere to guidelines?
+Adding your profile and docs to the Postman Templates can expose your collections to the Postman community, helping them to onboard with an API and to learn from your example requests. To get the best out of your template listing, follow a few tips that will aid discovery of your documentation, and make your collection templates as usable as possible.
 
-If you are authoring collections that can be consumed by public, you can publish them to Postman's templates and users can import them and then “Run in Postman”. Postman facilitates a way for you to share your collections with the community by way of its templates. One way is to share the collection as a template. Community-contributed templates might teach someone how to use an API, automate a tedious task, or just use public APIs to do something fun. These collections could be anything - a bunch of useful APIs or a way to automate a workflow. The idea is to allow you to share your collections documentation in different ways if you’re an author of a Postman collection.
+![Templates Homepage](https://assets.postman.com/postman-docs/templates-homepage.jpg)
 
-### Template format guidelines
+## Check your collection in the app
 
-To ensure your collections have a wider adoption, your collection documentation should adhere to the following guidelines:
+Your documentation represents a Postman collection, with both the textual information content—and the executable requests bundled via the Run in Postman button—pulled from your collection setup in Postman. For this reason, it's worth walking through the process of importing the collection yourself, checking the information that appears inside the Postman app as well as in the docs (for example [descriptions on the collection, requests, and parameters](/docs/postman/api-documentation/authoring-your-documentation/#documenting-with-descriptions)).
 
-### 1. Template name
+If your collection contains lots of requests, consider grouping them into folders to make the documentation and imported templates easier to navigate.
 
-Your template documentation must have an appropriate name.
+## Check your docs on the web
 
-   [![name and desc](https://assets.postman.com/postman-docs/API-Network-Templates1.png)](https://assets.postman.com/postman-docs/API-Network-Templates1.png)
+When you publish documentation for a Postman collection, you will [author the content](/docs/postman/api-documentation/authoring-your-documentation/) inside the Postman app in Markdown, but consumers will view it in the web browser as HTML. For this reason, it's essential to read through your docs in the browser to get a feel for how they will walk developers through the process of using your API, and to ensure your collection information is rendering as expected (this is particularly important if you're using [variables](/docs/postman/api-documentation/documenting-your-api/#documentation-environments) to populate some of the content).
 
-### 2. Introduction
+## Tailor your examples
 
-Provide a proper introduction to your collection. Your collection may not find adoption without necessary information about the collection details. These details provide a sense of direction to the user. The above screen illustrates an example of a good introduction.
+The sample code section in your docs will play a significant role in how effectively developers are able to onboard with your API or use your template requests. Your collection examples will automatically populate in the docs code, so it's worth taking the time to ensure that the [examples contain readable, prototypical usage of your API endpoints](/docs/postman/api-documentation/authoring-your-documentation/#using-examples-in-your-docs).
 
-### 3. Steps to quickly get started
+## Add contextual material
 
-Provide useful information about your collection and other prerequisites to jump-start your users to using the collection. Talk about the APIs used and how to authenticate them, if necessary. If you've used environments, then talk about them in detail. The following screen illustrates a very good example of a quick-start.
+When developers attempt to learn how to interact with an API, they need to understand more than just what each endpoint receives and returns. By introducing your template with contextual material explaining the purpose of the collection at a high level, and outlining how the different requests fit together (if relevant), you will help new users get off to a more effective start. Ideally include quickstart information that lets developers make a request as soon as possible.
 
-[![quick start](https://assets.postman.com/postman-docs/API-Network-Templates2.png)](https://assets.postman.com/postman-docs/API-Network-Templates2.png)
+If your template requires authentication, make sure you include instructions explaining what developers need to do to acquire and use credentials. Other top level info that applies across endpoints can appear in your collection description so that it renders at the top of your documentation page.
 
-### 4. Endpoints and params
+## Complete your profile
 
-Be a bit magnanimous in describing your collection details. If possible, clearly document the resource descriptions, endpoints and methods, parameters, sample requests, sample responses and schemas. The following screens illustrate a clear description of endpoints and parameters.
+When you publish to the Postman templates, potential users can see your profile if they search via the web. Taking the time to fill out your profile gives you a chance to introduce yourself to the people considering using your templates. [You can include your name, description, a photo, and customize your URL.](/docs/postman-for-publishers/postman-templates/add-templates/#setting-up-your-profile)
 
-[![endpoints](https://assets.postman.com/postman-docs/API-Network-Templates3a.png)](https://assets.postman.com/postman-docs/API-Network-Templates3a.png)
+## Complete your template listing
 
-**The Params:**
+Your template listing should provide the information developers need to know in order to decide whether they want to try the collection out or not. Try to choose a descriptive name that conveys the purpose of your template without users having to click it to find out more detail. In your description, try to include an overview of what the collection does, with enough detail for people to figure out whether it's of interest to them. [You can include a name, summary, description, and categories that will determine how your template is listed when users browse in the app or on the web.](/docs/postman-for-publishers/postman-templates/add-templates/#providing-template-detail)
 
-[![params](https://assets.postman.com/postman-docs/API-Network-Templates4.png)](https://assets.postman.com/postman-docs/API-Network-Templates4.png)
+## Sample template listings
 
-### Good template submissions:
+There are lots of inspiring templates already published that you can learn from. Check out the following notable examples:
 
-- [API Design Guide](https://documenter.getpostman.com/view/1372588/S1LsZqc9?version=latest)
-- [Databases](https://documenter.getpostman.com/view/5922408/RznJmGfn?version=latest)
-- [DNS Checker](https://documenter.getpostman.com/view/3967924/RW1bozWL?version=latest)
+* [Chaos Engineering](https://explore.postman.com/templates/3346/chaos-engineering)
+* [API Design Guide](https://explore.postman.com/templates/1902/api-design-guide)
+* [Databases](https://explore.postman.com/templates/1690/databases)
+* [CodeBase Visualizer Feature D3 Templates](https://explore.postman.com/templates/4424/codebase-visualizer-feature-d3-templates)
+* [Visualizer DIY Bar Chart](https://explore.postman.com/templates/4199/visualizer-diy-bar-chart)
+* [Reverse Engineering an API](https://explore.postman.com/templates/479/reverse-engineering-an-api)
+* [Postman Echo](https://explore.postman.com/templates/1358/postman-echo)

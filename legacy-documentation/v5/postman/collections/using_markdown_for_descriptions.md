@@ -5,7 +5,7 @@ warning: false
 
 ---
 
-Postman supports [Markdown](https://learning.getpostman.com/docs/postman/api_documentation/how_to_document_using_markdown/) as a way to style text descriptions for [requests](https://learning.getpostman.com/docs/postman/sending_api_requests/requests/), [collections](https://learning.getpostman.com/docs/postman/collections/creating_collections/), and [folders](https://learning.getpostman.com/docs/postman/collections/managing_collections/) in collections. You can also embed screenshots and other images for more descriptive flair.
+Postman supports [Markdown](https://learning.postman.com/docs/postman/api_documentation/how_to_document_using_markdown/) as a way to style text descriptions for [requests](https://learning.postman.com/docs/postman/sending_api_requests/requests/), [collections](https://learning.postman.com/docs/postman/collections/creating_collections/), and [folders](https://learning.postman.com/docs/postman/collections/managing_collections/) in collections. You can also embed screenshots and other images for more descriptive flair.
 
 For more information about Markdown, review the [reference for using Markdown](https://documenter.getpostman.com/view/33232/markdown-in-api-documentation/JsGc) for API documentation.
 
@@ -21,18 +21,18 @@ You can use Markdown to style descriptions for collections and folders.
 
 **Public or internal API documentation**
 
-Public or internal [API documentation](https://learning.getpostman.com/docs/postman/api_documentation/intro_to_api_documentation) can automatically generate API descriptions. You can use Markdown to style those descriptions. 
+Public or internal [API documentation](https://learning.postman.com/docs/postman/api_documentation/intro_to_api_documentation) can automatically generate API descriptions. You can use Markdown to style those descriptions. 
 [![automatically generated documentation](https://assets.postman.com/postman-docs/markdown-auto-docs.png)](https://assets.postman.com/postman-docs/markdown-auto-docs.png)
 
 ### Descriptions for request attributes
 
-The description column in the [data editor](https://learning.getpostman.com/docs/postman/launching_postman/navigating_postman/) makes your requests easier to understand. You can add comments and details for each of your query parameters, path variables, headers, and body (form-data and urlencoded) in the Postman app.
+The description column in the [data editor](https://learning.postman.com/docs/postman/launching_postman/navigating_postman/) makes your requests easier to understand. You can add comments and details for each of your query parameters, path variables, headers, and body (form-data and urlencoded) in the Postman app.
 
 For example, specify if an element is required or optional, indicate the accepted data type, or use alternative terminology to provide additional clarification for developers who work with your requests.
 
 [![data editor parameters](https://assets.postman.com/postman-docs/WS-collections-data-editor-params.png)](https://assets.postman.com/postman-docs/WS-collections-data-editor-params.png)
 
-For Postman users who publish internal or public API documentation, these descriptions display in the [automatically generated documentation](https://learning.getpostman.com/docs/postman/api_documentation/intro_to_api_documentation) for that collection.
+For Postman users who publish internal or public API documentation, these descriptions display in the [automatically generated documentation](https://learning.postman.com/docs/postman/api_documentation/intro_to_api_documentation) for that collection.
 
 [![parameters in automatically generated docs](https://assets.postman.com/postman-docs/WS-collections-auto-docs.png)](https://assets.postman.com/postman-docs/WS-collections-auto-docs.png)
 

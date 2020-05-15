@@ -1,8 +1,36 @@
 ---
 title: "Intro to mock servers"
-order: 80
+order: 141
 page_id: "intro_to_mock_servers"
+search_keyword: "x-api-key"
 warning: false
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Requests"
+    url: "/docs/postman/sending-api-requests/requests/"
+  - type: link
+    name: "Intro to collections"
+    url: "/docs/postman/collections/intro-to-collections/"
+  - type: link
+    name: "Intro to the Postman API"
+    url: "/docs/postman/postman-api/intro-api/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Gear4Music"
+    url: "https://www.postman.com/resources/case-studies/gear4music/"
+  - type: link
+    name: "Giant Machines"
+    url: "https://www.postman.com/resources/case-studies/giant-machines/"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Mock responses in Postman by using Examples"
+    url: "https://blog.postman.com/2017/05/17/mock-responses-in-postman-by-using-examples/"
 ---
 
 ## What are mock servers

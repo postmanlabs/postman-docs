@@ -16,7 +16,7 @@ Key benefits:
 
 All your team's APIs are grouped together in collections and shared. Any changes in the API are automatically reflected in Postman for all members. There is no chance anyone will miss the memo. This is an auto-updating source of truth for all your APIs.
 
-[![](https://www.getpostman.com/img/v1/docs/cloud_1.png)][0]
+[![](https://www.postman.com/img/v1/docs/cloud_1.png)][0]
 
 **2. Real-time communication**
 
@@ -44,5 +44,5 @@ The activity feed is a running list of the changes happening in the team library
 
 With Postman, you can get the solution that developers love, with the controls that big company structures need. If you are a team lead and purchasing Pro for your team, you can do so as an admin. If your organization has a billing team, they can also buy the product for your team and give you admin rights.
 
-[0]: https://www.getpostman.com/img/v1/docs/cloud_1.png
-[1]: https://www.getpostman.com/docs/creating_documentation
+[0]: https://www.postman.com/img/v1/docs/cloud_1.png
+[1]: https://www.postman.com/docs/creating_documentation

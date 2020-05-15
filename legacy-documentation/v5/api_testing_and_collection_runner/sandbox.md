@@ -45,7 +45,7 @@ Note: jQuery support has been discontinued since version 4.6.0, in favour of [ch
 Postman also has a few dynamic variables which you can use in your requests. This is primarily an experiment right now. More functions would be added soon. Note that dynamic variables cannot be used in the Sandbox. You can only use them in the `{{..}}` format in the request URL / headers / body.
 
 * `{{$guid}}`: Adds a v4 style guid
-* `{{$timestamp}}`: Adds the current timestamp.
+* `{{$timestamp}}`: Adds the current timestamp (Unix timestamp in seconds)
 * `{{$randomInt}}`: Adds a random integer between 0 and 1000
 
 ### Cookies
@@ -89,7 +89,7 @@ check out the [examples page][9].
 [3]: http://sugarjs.com/
 [4]: https://github.com/geraintluff/tv4
 [5]: https://code.google.com/p/crypto-js/
-[6]: https://www.getpostman.com/docs/capture#interceptor
-[7]: http://blog.getpostman.com/index.php/2014/11/28/using-the-interceptor-to-read-and-write-cookies/
-[8]: http://blog.getpostman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/
-[9]: https://www.getpostman.com/docs/jetpacks_examples
+[6]: https://www.postman.com/docs/capture#interceptor
+[7]: https://blog.postman.com/index.php/2014/11/28/using-the-interceptor-to-read-and-write-cookies/
+[8]: https://blog.postman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/
+[9]: https://www.postman.com/docs/jetpacks_examples

@@ -15,7 +15,7 @@ Postman can export and import the following formats as a file or generated URL.�
 
 [![export collection](https://assets.postman.com/postman-docs/WS-collections-view.png)](https://assets.postman.com/postman-docs/WS-collections-view.png)
 
-Postman can export collections in two formats - v1 and v2\. Both Collection v1 and v2 download as JSON files; v2 is more versatile and the most-used choice. Learn more about the [v1 and v2 formats](http://blog.getpostman.com/2015/06/05/travelogue-of-postman-collection-format-v2/). 
+Postman can export collections in two formats - v1 and v2\. Both Collection v1 and v2 download as JSON files; v2 is more versatile and the most-used choice. Learn more about the [v1 and v2 formats](https://blog.postman.com/2015/06/05/travelogue-of-postman-collection-format-v2/). 
 
 [![select v1 or v2 format](https://assets.postman.com/postman-docs/59163839.png)](https://assets.postman.com/postman-docs/59163839.png)
 
@@ -69,7 +69,7 @@ A few commands which can be imported include:
    2.  Click on the Import button, and choose the Import Folder tab. 
       [![import button](https://assets.postman.com/postman-docs/WS-collections-view-raml-1a.png)](https://assets.postman.com/postman-docs/WS-collections-view-raml-1a.png)
    3.  Click on **Choose Folders** and upload the RAML folder.
-      [![import folder modal](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_2.png)](https://www.getpostman.com/img/v1/docs/importing_folders/importing_folders_2.png)
+      [![import folder modal](https://www.postman.com/img/v1/docs/importing_folders/importing_folders_2.png)](https://www.postman.com/img/v1/docs/importing_folders/importing_folders_2.png)
     
    You’re done! Postman will detect all the RAML definitions and convert them internally to Postman and then show you an import success message.
     
@@ -144,4 +144,4 @@ To validate if a JSON file is in the correct collections format, you can use our
 * The schema file is located at [http://schema.getpostman.com/json/collection/v1.0.0/collection.json](http://schema.getpostman.com/json/collection/v1.0.0/collection.json).
 * The associated documentation can be found at [http://schema.getpostman.com/json/collection/v1.0.0/docs/index.html](http://schema.getpostman.com/json/collection/v1.0.0/docs/index.html).
 * Everything is neatly stored on GitHub [https://github.com/postmanlabs/schemas](https://github.com/postmanlabs/schemas).
-* To see an example of data validation using our schema and [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid) (a validator), check out [this blog post](http://blog.getpostman.com/2015/07/02/introducing-postman-collection-format-schema/).
+* To see an example of data validation using our schema and [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid) (a validator), check out [this blog post](https://blog.postman.com/2015/07/02/introducing-postman-collection-format-schema/).

@@ -36,4 +36,4 @@ If you've found a vulnerability in our service or website, or want additional in
 [0]: mailto:security@getpostman.com
 [1]: http://aws.amazon.com/security/
 [2]: http://aws.amazon.com/security/security-resources/
-[3]: https://www.getpostman.com/docs/environments
+[3]: https://www.postman.com/docs/environments

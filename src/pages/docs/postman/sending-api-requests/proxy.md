@@ -1,7 +1,8 @@
 ---
 title: "Proxy"
-order: 24
+order: 33
 page_id: "proxy"
+search_keyword: "HTTP_PROXY, NO_PROXY"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -14,7 +15,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Client proxy settings in Postman"
-    url: "https://blog.getpostman.com/2017/09/29/client-proxy-settings-in-postman/?_ga=2.206717013.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/09/29/client-proxy-settings-in-postman/"
 
 warning: false
 
@@ -50,7 +51,7 @@ In this analogy, the child forwards the information on behalf of each parent. Be
 * Security from direct attacks
 * DevOps load balancing
 
-A proxy acts like a go-between to perform various functions. Postman has a [built-in web proxy to capture API requests](/docs/postman/sending-api-requests/capturing-http-requests/), the [Postman Interceptor to intercept network traffic](/docs/postman/sending-api-requests/interceptor-extension/), and proxy settings to direct API requests.
+A proxy acts like a go-between to perform various functions. Postman has a [built-in web proxy to capture API requests](/docs/postman/sending-api-requests/capturing-http-requests/), the [Postman Interceptor to intercept network traffic](/docs/postman/sending-api-requests/interceptor/), and proxy settings to direct API requests.
 
 ### Configuring proxy settings
 

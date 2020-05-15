@@ -40,7 +40,7 @@ Unlike the Postman native apps, the Postman Chrome app is not equipped to handle
 
 Make sure the Interceptor is enabled in the Postman header toolbar.
 
-[![interceptor icon](https://www.getpostman.com/img/v1/docs/interceptor_cookies/interceptor_cookies_1.png)](https://www.getpostman.com/img/v1/docs/interceptor_cookies/interceptor_cookies_1.png)
+[![interceptor icon](https://www.postman.com/img/v1/docs/interceptor_cookies/interceptor_cookies_1.png)](https://www.postman.com/img/v1/docs/interceptor_cookies/interceptor_cookies_1.png)
 
 Under the **Tests** tab, you can use the “responseCookies” object. This will return an array of cookie objects. To retrieve a particular name, use “postman.getResponseCookie(cookieName)”. This will return a single cookie object. Each cookie object will contain the following properties: domain, hostOnly, httpOnly, name, path, secure, session, storeId, value.
 
@@ -78,7 +78,7 @@ Unfortunately some headers are restricted by Chrome and the XMLHttpRequest speci
 
 However sending these restricted headers is easy. Follow the steps below:
 
-[![interceptor icon](https://www.getpostman.com/img/v1/docs/thumbs/32.png)](https://www.getpostman.com/img/v1/docs/source/32.png)
+[![interceptor icon](https://www.postman.com/img/v1/docs/thumbs/32.png)](https://www.postman.com/img/v1/docs/source/32.png)
 
    *   Install the Interceptor extension either by clicking on the Interceptor icon in the Postman toolbar or through the [Chrome Web Store](https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo).
    *   Once it’s installed, click on the icon again in the Postman app and toggle it on.

@@ -12,7 +12,7 @@ While working with APIs, you will often need to have different setups. For examp
 Environments give you the ability to customize requests using variables. This way you can easily switch between different setups without changing your requests.
 You won't have to worry about remembering all those values once they are in Postman. Environments can be downloaded and saved as JSON files and uploaded later.
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/28.png)
+[![](https://www.postman.com/img/v1/docs/thumbs/28.png)
 ][0]
 
 Each environment is a set of key-value pairs. These can be edited using the [key-value editor][1]. They key is the variable name.
@@ -22,7 +22,7 @@ For example, for an environment variable 'url' with the value 'http://localhost'
 `{{url}}` will be replaced by http://localhost when the request is sent.
 
 Only variables from the currently selected environment will be available to you. Use the environment selector to select an environment:
-![](https://www.getpostman.com/img/v1/docs/env_selector.png)
+![](https://www.postman.com/img/v1/docs/env_selector.png)
 
 You can hover over the 'χ' icon (to the right of the environment selector) to view a list of currently active environment and global variables
 
@@ -49,11 +49,11 @@ Postman also has a few dynamic variables which you can use in your requests. Thi
 You can only use them in the `{{..}}` format in the request URL / headers / body.
 
 * `{{$guid}}`: Adds a v4 style guid
-* `{{$timestamp}}`: Adds the current timestamp
+* `{{$timestamp}}`: Adds the current timestamp (Unix timestamp in seconds)
 * `{{$randomInt}}`: Adds a random integer between 0 and 1000
 
 
-[0]: https://www.getpostman.com/img/v1/docs/source/28.png
-[1]: https://www.getpostman.com/docs/keyvalue_editor
-[2]: http://blog.getpostman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/
-[3]: https://www.getpostman.com/docs/jetpacks_running_collections
+[0]: https://www.postman.com/img/v1/docs/source/28.png
+[1]: https://www.postman.com/docs/keyvalue_editor
+[2]: https://blog.postman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/
+[3]: https://www.postman.com/docs/jetpacks_running_collections

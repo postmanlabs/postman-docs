@@ -1,106 +1,121 @@
 ---
 title: "Viewing and analyzing APIs"
 page_id: "viewing_and_analyzing_apis"
+order: 206
 warning: false
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Using the API Builder"
+    url: "/docs/postman/design-and-develop-apis/the-api-workflow/"
+  - type: link
+    name: "Managing and sharing APIs"
+    url: "/docs/postman/design-and-develop-apis/managing-apis/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Create APIs directly within the Postman app"
+    url: "https://blog.postman.com/2019/05/17/postman-7-1-create-apis-directly-within-the-postman-app/"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Validating APIs against schema"
+    url: "/docs/postman/design-and-develop-apis/validating-elements-against-schema/"
 ---
 
-Business integration with the system and adding features to provide better user experience ends up creating more APIs. Their interactions become complex and traction of those becomes difficult. With the API ecosystem broadening, the need for detailed API analytics has arisen to facilitate providing feedback to *Design, Plan, Develop & Test* teams. API analytics help CXOs, Product managers, and API Architects to understand how their digital initiatives are performing.
+> __[API reports are available on Postman Enterprise.](https://www.postman.com/pricing)__
 
-Postman's **Reporting** feature allows you to view data around the APIs created, collection executions, test failures and so on. Postman reports visualize your API data and provide insights to their use, their performance, troubleshooting, planning, and adherence to Service level agreements.
+You can access reports on your APIs in the [Postman web dashboard](https://app.getpostman.com/dashboard). API reports visualize data on API activities including creation, collection execution, test runs, and more, providing insights on performance, troubleshooting, and SLA adherence, as well as team and organization metrics.
 
-Postman also provides key API and organization-level metrics to help you understand the needs of your users.
+To generate reports in Postman, first ensure you have carried out the following steps:
 
-**Prerequisites:** To generate reports, you should:
+* [Share your API](/docs/postman/design-and-develop-apis/managing-apis/)
+* [Add a collection to the API](/docs/postman/design-and-develop-apis/the-api-workflow/#generating-a-collection)
+* Turn on __Save Responses__ in __History__ on the left of Postman
+* Send a request from the collection
 
-* Share your API
+To view reports, in __APIs__ on the left of the Postman app, select the API and click __Reports__.
 
-* Add a collection to an API
+![API Reports](https://assets.postman.com/postman-docs/api-reports-button.jpg)
 
-* Turn-on *Save Responses*
+The __Reports__ section of the web dashboard will open in your browser. Postman generates reports on [teams](#team-reports) and [APIs](#api-reports).
 
-* Send a request from request builder
+![Reports Dashboard](https://assets.postman.com/postman-docs/reports-dash.jpg)
 
-You can use Postman API reports to collect and review specific information about APIs or teams under a single view in the Postman web dashboard. This section describes the following topics:
+The __Team__ &gt; __Overview__ report provides organization level metrics, including new and active APIs, team size, and workspaces. Click to view more data on a particular metric.
 
-* [Launching the reporting dashboard](#launching-the-reporting-dashboard)
-* [Understanding team-level reports](#understanding-team-level-reports)
-* [Understanding API-level reports](#understanding-API-level-reports)
+## Team reports
 
-## Launching the reporting dashboard
+Team reports provide the following information:
 
-To launch the reporting dashboard, select the API from the APIs tab and click **Reports**. Reports of the selected API will be displayed. The following screen illustrates launching the reporting dashboard:
+* __Total number of APIs__ present in the team, including in private and public workspaces
+* __New APIs__ created within the team, not including new versions
+* __Active APIs__ having at least one request being sent through a linked collection in the Postman app request builder
+* __Team size__ as the number of user accounts in the team
+* __Empty workspaces__ with no collections in them
+* __Active workspaces__ with at least one revision during a recent period, not including personal workspaces
 
-![reports main(https://assets.postman.com/postman-docs/API-Report-Main.png)](https://assets.postman.com/postman-docs/API-Report-Main.png)
+Team API requests are the count of requests sent over a period of time. The summary average is calculated by taking into account all days (even if no request is sent during a day).
 
-Clicking the **Reports** button launches the following screen:
+[![team api req](https://assets.postman.com/postman-docs/Reports-TeamAPI.png)](https://assets.postman.com/postman-docs/Reports-TeamAPI.png)
 
-![reports main(https://assets.postman.com/postman-docs/API-Report-Team1.png)](https://assets.postman.com/postman-docs/API-Report-Team1.png)
+> In this example, 15 requests were sent on Jun 12. Over the next six days, no requests were sent. The 7-day average is 2.14 (15/7).
 
-In the above screen, select **Overview** to display organization-level metrics. It provides a statistical overview of the number of new and active APIs, team-size, and active and empty workspaces within a team. Click the corresponding section in the above screen for a detailed overview.
+## API reports
 
-## Understanding team-level reports
+API reports provide a graphical representation of data and enable you to filter the data by collection and duration (last 7 or 30 days). You can view reports for any individual collections you have linked to an API.
 
-Visibility into some of your most important team-level metrics helps you and your teams monitor the API usage over time and make necessary changes depending on the usage of APIs and addition and deletion of the APIs. Using the organization-level metrics dashboard, you can track changes in the APIs and take appropriate action.
+> Reports only track data from APIs you have shared to team workspaces. If your API is only shared to a personal workspace you will not see reports for it.
 
-It presents you the below reports:
+API reports provide the following information:
 
-* [Total number of APIs](#total-number-of-apis)
-* [New APIs](#new-apis)
-* [Active APIs](#active-apis)
-* [Team size](#team-size)
-* [Empty workspaces](#empty-workspaces)
-* [Active workspaces](#active-workspaces)
+* __Average response size__ of requests in bytes or kilobytes
+* __Average response time__ for your API to serve a request
+* __Number of error responses__ indicating error codes returned by your API
+* __Traffic in Postman__ indicating usage and API traffic for performance measurement
+* __Failed test runs__ indicating the number of failed tests in collection runs and monitors, for debugging and troubleshooting errors in your requests
 
-### Total number of APIs
+The average response size is calculated based on the size of the response and the number of requests sent on a particular day.
 
-Displays the total number of APIs present in the team. It displays a list of all APIs in both the private and public workspaces within the team
+[![team api req](https://assets.postman.com/postman-docs/Reports-AvgResp.png)](https://assets.postman.com/postman-docs/Reports-AvgResp.png)
 
-### New APIs
+> In this example, the response size is shown for Jun 12. No request is sent on other dates in the graph.
 
-Displays the number of new APIs created in the team. However, note that new versions of an API created are not accounted for.  
+The average response time is calculated based on the time taken to return the response of the request and the number of requests sent on a particular day.
 
-### Active APIs
+[![team api req](https://assets.postman.com/postman-docs/Reports-AvgRespTime.png)](https://assets.postman.com/postman-docs/Reports-AvgRespTime.png)
 
-Displays the number of active APIs in the team. Postman considers an API active if at least one request was sent through a collection linked to an API.
+> In this example, the response time is shown for Jun 12. No response is received on other dates because no request is sent.
+>
+> Summary average response size may not match the average of the graph, because raw data is accounted for when calculating averages. In order to determine an accurate average, Postman does not calculate averages using data from already derived averages.
 
-### Team size
+Failed test runs are the number of failed tests for collection runs during a period of time. The summary average is calculated by taking into account all of the days in that time period (even if no requests are sent on certain days).
 
-This view displays the number of users in the team.
+## Report detail
 
-### Empty workspaces
+Reports are not generated in realtime. You may experience a lag of a few minutes to 24 hours in report data being available. You can view the last updated time for reports.
 
-Displays a list of all empty workspaces within a team. Postman considers a workspace that has no collections created in it as an empty workspace.
+<img alt="Reports Update" src="https://assets.postman.com/postman-docs/reports-last-update.jpg" width="400px"/>
 
-### Active workspaces
+> You cannot currently download or export your reports.
 
-Displays a list of all active workspaces within a team. Personal workspaces are excluded from this list. Postman considers a workspace that has at least one revision made during a certain period as active.
+Postman reports track data sent only through the request builder, and not through Newman, collection runs, or monitors. However, failed test runs generate reports using collection runs.
 
-## Understanding API-level reports
+> You cannot view the details of entities you do not have access to.
 
-The API-level metrics allow you to determine the team usage, average response time, average response size, test failures and response codes. It provides a graphical representation of the data and enables you to filter the data by collections and duration (last 7 or 30 days). The API-level metrics dashboard presents you the below metrics:
+If you don't see any data in your reports, or your data is incomplete (for example you have empty response times or sizes) this may be due to one of the following reasons:
 
-* [Average response size](#average-response-size)
-* [Average response time](#average-response-time)
-* [Number of error responses](#number-of-error-responses)
-* [Traffic in Postman](#traffic-in-postman)
-* [Failed test runs](#failed-test-runs)
+* It's too early to check. The data refreshes every 24 hours.
+* You may not have linked a collection to your API.
+* You may not have sent a request—or you may have executed requests from monitoring, collection runs, or Newman, but not from the request builder in the Postman app.
+* You may not have enabled __Save Responses__ in the __History__ tab in the Postman app.
+* App sync is not successfully communicating with the Postman servers.
 
-### Average response size
+> If none of the above reasons apply and you can't see your data, please file a [GitHub issue](https://github.com/postmanlabs/).
 
-Gives you the average response size of your request in terms of bytes or kilobytes.
+## Next steps
 
-### Average response time
-
-Gives you the average response time of the API to serve the request.
-
-### Number of error responses
-
-Gives you the number of error response codes your API is returning so you can analyze the cause and take corrective measures.
-
-### Traffic in Postman
-
-Gives you insights into the usage and traffic of the API so you can measure the performance and take precautionary steps.
-
-### Failed test runs
-
-Provides you the number of failed test runs in collection runs and monitors so you can identify and debug the root cause of errors in the requests.
+You can use [monitors](/docs/postman/monitors/intro-monitors/) to gain detailed insight into your APIs.

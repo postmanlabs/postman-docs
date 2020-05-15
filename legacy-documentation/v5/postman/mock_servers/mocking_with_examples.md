@@ -5,7 +5,7 @@ warning: false
 
 ---
 
-Let's take a deep dive into how [mock servers](https://learning.getpostman.com/docs/postman/mock_servers/setting_up_mock/) and [examples](https://learning.getpostman.com/docs/postman/collections/examples/) work together, and how you can integrate them into your workflow for a more enhanced API experience with Postman.
+Let's take a deep dive into how [mock servers](https://learning.postman.com/docs/postman/mock_servers/setting_up_mock/) and [examples](https://learning.postman.com/docs/postman/collections/examples/) work together, and how you can integrate them into your workflow for a more enhanced API experience with Postman.
 
 1. Sending a request (R1)
 2. Saving the request (R1) to a collection (C1)
@@ -21,13 +21,13 @@ Before we get into the details of mocking, let’s start with setting up some ba
   
   From the Postman app, send a `GET` request to the URL `https://postman-echo.com/get?test=123`. This request hits the [Postman Echo](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) service which you can use to test out your REST clients and make sample API calls.
   
-  The resulting response can be seen on the right, and a record of this request will now be visible in your [history](https://learning.getpostman.com/docs/postman/sending_api_requests/responses/) on the left.
+  The resulting response can be seen on the right, and a record of this request will now be visible in your [history](https://learning.postman.com/docs/postman/sending_api_requests/responses/) on the left.
   
   [![sending request](https://assets.postman.com/postman-docs/WS-anuhyaMock1.png)](https://assets.postman.com/postman-docs/WS-anuhyaMock1.png)
 
 ##### **Step 2: Saving the request (R1) to a collection (C1)**
   
-  Hit the **Save** button to open the **SAVE REQUEST** modal. [Collections](https://learning.getpostman.com/docs/postman/collections/creating_collections/) are simply groups of requests that can be connected together to create APIs and workflows.
+  Hit the **Save** button to open the **SAVE REQUEST** modal. [Collections](https://learning.postman.com/docs/postman/collections/creating_collections/) are simply groups of requests that can be connected together to create APIs and workflows.
   
   [![save request button](https://assets.postman.com/postman-docs/WS-anuhyaMock2-1.png)](https://assets.postman.com/postman-docs/WS-anuhyaMock2-1.png)
   
@@ -35,7 +35,7 @@ Before we get into the details of mocking, let’s start with setting up some ba
   
   [![save request modal](https://assets.postman.com/postman-docs/anuhyaMock3.png)](https://assets.postman.com/postman-docs/anuhyaMock3.png)
   
-  Collection `C1` will now be accessible in the **Collections** tab in the application. We can do all sorts of things within the collection details view: [viewing API documentation](https://learning.getpostman.com/docs/postman/api_documentation/viewing_documentation/), [mocking a collection](/docs/postman/mock_servers/setting_up_mock/), [monitoring a collection](https://learning.getpostman.com/docs/postman/monitors/setting_up_monitor/), or [running the collection](https://learning.getpostman.com/docs/postman/collection_runs/starting_a_collection_run/).
+  Collection `C1` will now be accessible in the **Collections** tab in the application. We can do all sorts of things within the collection details view: [viewing API documentation](https://learning.postman.com/docs/postman/api_documentation/viewing_documentation/), [mocking a collection](/docs/postman/mock_servers/setting_up_mock/), [monitoring a collection](https://learning.postman.com/docs/postman/monitors/setting_up_monitor/), or [running the collection](https://learning.postman.com/docs/postman/collection_runs/starting_a_collection_run/).
 
   [![collection tab](https://assets.postman.com/postman-docs/WS-anuhyaMock4.png)](https://assets.postman.com/postman-docs/WS-anuhyaMock4.png)
   
@@ -59,7 +59,7 @@ In the previous steps, we prepared the collection, request, and example response
   
 ##### **Step 4: Creating a mock (M1) for the collection (C1)**
 
-  There are two ways to create a mock for our collection: 1) using the Postman app and 2) [using the Postman API](https://learning.getpostman.com/docs/postman/mock_servers/mock_with_api/). In this example, we will mock a collection using the Postman app.
+  There are two ways to create a mock for our collection: 1) using the Postman app and 2) [using the Postman API](https://learning.postman.com/docs/postman/mock_servers/mock_with_api/). In this example, we will mock a collection using the Postman app.
   
   From the Postman app, click on the right angle bracket (**>**) next to the collection you wish to mock to expand the collection details view. 
   
@@ -69,7 +69,7 @@ In the previous steps, we prepared the collection, request, and example response
   
   We are not using any environment variables in our single saved example (P1), therefore we are going to go ahead and create a mock with `No Environment` chosen. It’s important to note that if your saved example has an environment variable in the URL, for example, {% raw %}`{{base_url}}/my/path`{% endraw %} and you do not provide the corresponding environment when creating the mock, trying to mock that particular request will not work. 
   
-  Mocks are accessible to the public by default. If you check the box making the mock server private, Postman Pro and Enterprise users can [share the underlying collection](https://learning.getpostman.com/docs/postman/team_library/sharing/#sharing-collections) with the team or specific team members, and provide permissions to edit or view.
+  Mocks are accessible to the public by default. If you check the box making the mock server private, Postman Pro and Enterprise users can [share the underlying collection](https://learning.postman.com/docs/postman/team_library/sharing/#sharing-collections) with the team or specific team members, and provide permissions to edit or view.
   
   [![mock collection modal](https://assets.postman.com/postman-docs/anuhyaMock9.png)](https://assets.postman.com/postman-docs/anuhyaMock9.png)
   
@@ -108,6 +108,6 @@ In the previous steps, we prepared the collection, request, and example response
 
   Your examples might vary depending on the URL endpoint, request method type, or status code. If you have multiple examples saved to the same mock, you can choose to save each example under a unique URL endpoint like we saw in this example with `/get` and `/test`. Alternatively, if you have saved examples with different response status codes, you can send an authenticated request to the mock endpoint along with the `x-mock-response-code` header specifying which specifies which integer response code your returned response should match.
   
-  Learn more about the [matching algorithm](https://learning.getpostman.com/docs/postman/mock_servers/matching_algorithm/) for mocks.
+  Learn more about the [matching algorithm](https://learning.postman.com/docs/postman/mock_servers/matching_algorithm/) for mocks.
 
 And we're done! We have walked through how to create a collection, save requests, save examples, create a mock, and use a mock.

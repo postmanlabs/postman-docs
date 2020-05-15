@@ -1,6 +1,6 @@
 ---
 title: "Conflicts"
-order: 100
+order: 186
 page_id: "conflicts"
 contextual_links:
   - type: section
@@ -20,20 +20,22 @@ contextual_links:
 warning: false
 ---
 
-Postman's conflict management allows you to work collaboratively while you are offline. Your work will be safely synced when you're online—without any accidental changes to your teammates' work.
+By syncing your Postman data with an account, you can work between devices and as part of a team. If a conflict occurs between the data in your local app and the data synced to the Postman servers, you will see a prompt allowing you to choose which version to preserve.
 
-While syncing your changes, if you made a change that might overwrite your teammates' work, the **RESOLVE SYNC CONFLICTS** modal prompts you to choose which conflicting version to keep.
+For example, if a teammate makes a change to the same request you are currently working on, and their change syncs to the Postman servers while you are editing yours, then you attempt to save your changes, a conflict may arise.
 
-Here's an example of how to manage conflicts. Suppose you share a collection named "My API" with your team and permit your teammate, Bob, to edit the collection. Bob subscribes to this collection from the Team Library and starts working with this collection.
+If Postman encounters a conflict between your local app and the synced data for your account or team, you will see the __Resolve Sync Conflicts__ modal when your account attempts to sync.
 
-While you are offline, Bob is online and renames the collection to "Team API" and then renames the same collection to "Postman API".
+<img alt="Sync Conflicts" src="https://assets.postman.com/postman-docs/sync-conflict-tabs.jpg" width="600px"/>
 
-When you're online and sync your changes, Postman detects a conflicting change to the same data. Postman will display the **RESOLVE SYNC CONFLICTS** modal. You can review the conflicting versions and choose which version to keep and which to discard.
+You will see a tab for each collection affected by conflicts, and each conflict listed indicating the difference between the local and server version.
 
-[![resolve sync conflicts modal](https://assets.postman.com/postman-docs/59029599.png)](https://assets.postman.com/postman-docs/59029599.png)
+You can choose to preserve your local changes, or update your local version to match the synced version from the server. You will see an overview of each conflict and can choose __Local changes__ or __Server changes__ for each one.
 
-In the **RESOLVE SYNC CONFLICTS** modal, "Local Value" is the version currently on your local app and "Server Value" shows the version synced to Postman.
+Make your selections and click __Resolve Conflicts__ to update both your local version and the synced version of the projects you're working on. You will need to make selections for every collection affected and click __Resolve Conflicts__ to update each one. If you choose your local changes, other devices and team members will now see your changes whenever Postman syncs for them.
 
-To keep your changes and overwrite Bob's changes, check the "Local Value" and click the orange **Resync** button.
+If you update the conflict selections and want to revert to the original selections, which will be to use the server changes by default, click __Reset__.
 
-To discard your changes and keep Bob's change, check "Server Value". Then click the orange **Resync** button. Resyncing updates your local data and completes the sync to Postman.
+## Next steps
+
+You can use [version control](/docs/postman/collections/version-control-for-collections/) on your collections to manage changes within a team, for example by creating forks and opening pull requests to merge your changes.

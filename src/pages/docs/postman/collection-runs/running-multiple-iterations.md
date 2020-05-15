@@ -1,6 +1,6 @@
 ---
 title: "Running multiple iterations"
-order: 57
+order: 115
 page_id: "running_multiple_iterations"
 contextual_links:
   - type: section
@@ -19,9 +19,9 @@ This topic describes how to run multiple iterations of a Collection. It also des
 * [Debugging with multiple iterations](#debugging-with-multiple-iterations)
 * [Programmatically customize iteration data](#programmatically-customize-iteration-data)
 
-Before we start, download the [collection. json](https://assets.postman.com/postman-docs/59037885.json) file we'll use to explain multiple iterations.
+Before you start, download the [collection. json](https://assets.postman.com/postman-docs/59037885.json) file we'll use to explain multiple iterations.
 
-The iterations of a collection run reflect how many times the collection will run. Here we have a collection run with five iterations.
+The iterations of a collection run reflect how many times the collection will run. This example shows a collection run with five iterations.
 
 [![collection runner](https://assets.postman.com/postman-docs/running_multiple_iterations/collection_runner.png)](https://assets.postman.com/postman-docs/running_multiple_iterations/collection_runner.png)
 [![collection runner results](https://assets.postman.com/postman-docs/running_multiple_iterations/collection_runner_results.png)](https://assets.postman.com/postman-docs/running_multiple_iterations/collection_runner_results.png)

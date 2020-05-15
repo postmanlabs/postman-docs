@@ -21,4 +21,4 @@ To see an example of data validation using our schema and [is-my-json-valid][3] 
 [1]: https://schema.getpostman.com/json/collection/v1/docs/
 [2]: https://github.com/postmanlabs/schemas
 [3]: https://github.com/mafintosh/is-my-json-valid
-[4]: http://blog.getpostman.com/2015/07/02/introducing-postman-collection-format-schema/
+[4]: https://blog.postman.com/2015/07/02/introducing-postman-collection-format-schema/

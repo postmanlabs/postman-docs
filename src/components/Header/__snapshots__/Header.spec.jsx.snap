@@ -145,7 +145,7 @@ exports[`renders correctly 1`] = `
         className="btn btn__primary"
         href="https://identity.getpostman.com/login"
       >
-        Login
+        Sign In
       </a>
     </div>
   </div>

@@ -1,6 +1,6 @@
 ---
 title: "Continuous Integration"
-order: 86
+order: 222
 page_id: "continuous_integration"
 contextual_links:
   - type: section
@@ -17,7 +17,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Sikka"
-    url: "https://www.getpostman.com/case-studies/Sikka.pdf?_ga=2.205138390.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/resources/case-studies/sikka/"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
@@ -36,7 +36,7 @@ Continuous Integration (CI) is a development practice that requires developers t
 
 Let's access collections using the Postman API to run inside your Continuous Integration / Continuous Deployment (CI/CD) environments.
 
-Before we get started:
+Before you get started:
 
 * Ensure you have a CI system setup which can run shell commands and that you have access to modify the same.
 * If you don't already have a [Postman API key](https://docs.api.getpostman.com/#authentication), get one from the Integrations section in one of [your workspaces](https://go.postman.co/workspaces/).
@@ -67,5 +67,6 @@ newman run https://api.getpostman.com/collections/{{collection_uid}}?apikey={{po
 If you need to provide an environment to the collection, change the above command to the following:
 
 ```bash
-newman run https://api.getpostman.com/collections/{{collection_uid}}?apikey={{postman-api-key-here}} --environment https://api.getpostman.com/environments/{{environment_uid}}?apikey={{postman-api-key-here}}
+newman run https://api.getpostman.com/collections/{{collection_uid}}?apikey={{postman-api-key-here}}
+--environment https://api.getpostman.com/environments/{{environment_uid}}?apikey={{postman-api-key-here}}
 ```

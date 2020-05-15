@@ -93,5 +93,5 @@ For CSV files, the top row needs to contain variable names
 [Download CSV file][1]  
 
 
-[0]: http://www.getpostman.com/samples/test_data_file.json
-[1]: http://www.getpostman.com/samples/test_data_file.csv
+[0]: http://www.postman.com/samples/test_data_file.json
+[1]: http://www.postman.com/samples/test_data_file.csv

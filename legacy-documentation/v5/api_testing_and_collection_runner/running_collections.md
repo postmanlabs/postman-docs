@@ -9,7 +9,7 @@ warning: false
 ---
 
 The collection runner lets you run collections. Thousands of times if you want.
-![](https://www.getpostman.com/img/v1/docs/source/cr-1.png)
+![](https://www.postman.com/img/v1/docs/source/cr-1.png)
 
 The collection runner runs requests in a collection in the order in which you
 set them. It also runs tests for every request and gives you an aggregate summary of
@@ -43,7 +43,7 @@ the history.
 
 Clicking on any run in the sidebar brings up the stats for that run in a new
 tab, just in case you want to view a result while a run is ongoing.
-![](https://www.getpostman.com/img/v1/docs/source/cr-3.png)
+![](https://www.postman.com/img/v1/docs/source/cr-3.png)
 
 Postman displays the parameters you started the run with. It also shows you how many tests passed among all the tests that
 were executed. The average response time for the run is also displayed.
@@ -52,7 +52,7 @@ You can also see basic stats of all runs of the same type. You can compare how
 many tests passed previously and whether your API code is getting better.
 
 #### Requests
-![](https://www.getpostman.com/img/v1/docs/source/cr-2.png)
+![](https://www.postman.com/img/v1/docs/source/cr-2.png)
 
 The Requests tab shows you all the requests which were run in a collection
 along with response times, test results and the last received status code. This helps
@@ -60,10 +60,10 @@ you quickly get the state of the entire API. If any test fails while
 running multiple iterations, the entire test is marked as failed. If everything goes
 well, you should expect to see a lot of green. You don't
 need to have tests in a request to run a collection.
-![](https://www.getpostman.com/img/v1/docs/source/cr-7.png)
+![](https://www.postman.com/img/v1/docs/source/cr-7.png)
 
 You can get a more detailed per iteration view of the results by clicking the '\>' arrow when you hover over a request. This shows you a tabulated
 view of all the test iterations. If any test fails, you will see a red dot. You
 can pinpoint which iterations failed and which passed through the table.   
 More options coming soon!
-![](https://www.getpostman.com/img/v1/docs/source/cr-4.png)
+![](https://www.postman.com/img/v1/docs/source/cr-4.png)

@@ -1,6 +1,6 @@
 ---
 title: "Intro to collection runs"
-order: 53
+order: 111
 page_id: "intro_to_collection_runs"
 contextual_links:
   - type: section
@@ -14,10 +14,10 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Keep track of GitHub issues using a Postman collection"
-    url: "https://blog.getpostman.com/2017/08/15/keep-track-of-github-issues-using-a-postman-collection/?_ga=2.132983240.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/08/15/keep-track-of-github-issues-using-a-postman-collection/"
   - type: link
     name: "Postman's New Collection Runner"
-    url: "https://blog.getpostman.com/2016/11/22/postmans-new-collection-runner/?_ga=2.132983240.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2016/11/22/postmans-new-collection-runner/"
 
 warning: false
 

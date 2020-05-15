@@ -11,13 +11,13 @@ warning: false
 Postman uses the wonderful [Ace Editor][0] to render JavaScript, JSON, and XML. Here's all the places where it's used:
 
 * Pre-request scripts and test scripts
-![](https://www.getpostman.com/img/v1/docs/aceeditor-prscript.png)
+![](https://www.postman.com/img/v1/docs/aceeditor-prscript.png)
 
 * Raw body input
-![](https://www.getpostman.com/img/v1/docs/aceeditor-rawbody.png)
+![](https://www.postman.com/img/v1/docs/aceeditor-rawbody.png)
 
 * JSON/XML/HTML "Pretty view"
-![](https://www.getpostman.com/img/v1/docs/aceeditor-body.png)
+![](https://www.postman.com/img/v1/docs/aceeditor-body.png)
 
 ### Shortcuts
 

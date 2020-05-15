@@ -60,14 +60,14 @@ For Newman - you can file an issue on the [Newman issue tracker.][17]
 We offer native apps for Mac and Windows (available [here][18]). You can download the installer on a machine with an active internet connection, and transfer it to the target machine.
 
 
-[1]: https://www.getpostman.com/docs/environments
-[2]: https://www.getpostman.com/docs/collections
-[3]: https://www.getpostman.com/docs/newman_intro
-[4]: https://www.getpostman.com/docs/capture
-[6]: https://www.getpostman.com/docs/sync_overview
-[7]: https://www.getpostman.com/docs/migration
+[1]: https://www.postman.com/docs/environments
+[2]: https://www.postman.com/docs/collections
+[3]: https://www.postman.com/docs/newman_intro
+[4]: https://www.postman.com/docs/capture
+[6]: https://www.postman.com/docs/sync_overview
+[7]: https://www.postman.com/docs/migration
 [12]: https://www.npmjs.com/package/newman
-[14]: http://blog.getpostman.com/2014/01/27/enabling-chrome-developer-tools-inside-postman/
-[16]: https://www.getpostman.com/support
+[14]: https://blog.postman.com/2014/01/27/enabling-chrome-developer-tools-inside-postman/
+[16]: https://www.postman.com/support
 [17]: https://github.com/postmanlabs/newman/issues
-[18]: https://www.getpostman.com/downloads/
+[18]: https://www.postman.com/downloads/

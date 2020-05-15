@@ -2,4 +2,4 @@
 
 As contributors and maintainers of the Postman Docs project, we pledge to respect everyone who contributes.
 
-Please read our [Code of Conduct](https://community.getpostman.com/t/postman-code-of-conduct/5 "Postman's Code of Conduct") that covers all Postman communities.
+Please read our [Code of Conduct](https://www.postman.com/code-of-conduct "Postman's Code of Conduct") that covers all Postman communities.

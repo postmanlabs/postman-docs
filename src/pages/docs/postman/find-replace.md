@@ -1,13 +1,13 @@
 ---
 title: "Find and Replace"
-order: 13
+order: 233
 page_id: "findnreplace"
 warning: false
 ---
 
 ### Find and Replace in Postman
 
-Finding and replacing text in your API projects is quick and easy in Postman. The Postman app enables you to perform a global find and replace operation that works seamlessly across its various components like Collections, Environments, Globals, and Open tabs. This essentially means you have the power to scope your search only to your Collections, Environments, Globals and Tabs.
+Finding and replacing text in your API projects is quick and easy in Postman. The Postman app enables you to perform a global find and replace operation that works seamlessly across its various components like, Collections, Environments, Globals, and Open tabs. This essentially means you have the power to scope your search only to your Collections, Environments, Globals and Tabs.
 
 To launch the Find and replace panel, click the find icon at the bottom of the sidebar, as illustrated in the screen below:
 

@@ -9,7 +9,7 @@ warning: false
 
 ### Buying for someone else
 
-*   Head to the [pricing page](https://www.getpostman.com/pricing) on the Postman website, and click "Buy Postman Pro".
+*   Head to the [pricing page](https://www.postman.com/pricing) on the Postman website, and click "Buy Postman Pro".
 
     [![buy pro](https://assets.postman.com/postman-docs/pricing.png)](https://assets.postman.com/postman-docs/pricing.png)  
 
@@ -28,7 +28,7 @@ warning: false
 
 ##### **Not upgrading from a trial**
 
-*   Head to the [pricing page](https://www.getpostman.com/pricing) on the Postman website, and click "Buy Postman Pro".
+*   Head to the [pricing page](https://www.postman.com/pricing) on the Postman website, and click "Buy Postman Pro".
     
     [![buy pro](https://assets.postman.com/postman-docs/pricing.png)](https://assets.postman.com/postman-docs/pricing.png)  
 

@@ -1,6 +1,6 @@
 ---
 title: "Managing collections"
-order: 33
+order: 45
 page_id: "managing_collections"
 contextual_links:
   - type: section
@@ -11,10 +11,18 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "AMC Theatres"
+    url: "https://www.postman.com/resources/case-studies/amc-theatres/"
+  - type: link
+    name: "Ping Identity"
+    url: "https://www.postman.com/resources/case-studies/pingidentity/"
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Audit your AWS infrastructure with Postman"
-    url: "https://blog.getpostman.com/2017/12/19/audit-your-aws-infrastructure-with-postman/?_ga=2.124079308.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/12/19/audit-your-aws-infrastructure-with-postman/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -30,7 +38,6 @@ This topic describes the tasks you can perform from the Collections tab in the
 * [Navigate through collections](#navigate-through-collections)
 * [Edit and view collection details](#edit-and-view-collection-details)
 * [Create a new collection](#create-a-new-collection)
-* [Reorder collections](#reorder-collections)
 * [Favoriting a collection](#favoriting-a-collection)
 * [Filter collections](#filter-collections)
 * [Delete a collection](#delete-a-collection)
@@ -54,12 +61,6 @@ Expand the arrow (&#9656;) to show the details view for the collection. Collaps
 Click the "new collection" icon on the top right, or [save a current request to a new collection](/docs/postman/collections/creating-collections/).
 
 [![new collection icon](https://assets.postman.com/postman-docs/WS-create-new-collection-sidebar.png)](https://assets.postman.com/postman-docs/WS-create-new-collection-sidebar.png)
-
-## Reorder collections
-
-Collections can be sorted either alphabetically by name or by when they were last updated. To do this, select the "sort" icon on the top right and select `Sort by name` or `Sort by date`.
-
-[![sort collections](https://assets.postman.com/postman-docs/WS-reorder-collections-sidebar.png)](https://assets.postman.com/postman-docs/WS-reorder-collections-sidebar.png)
 
 ## Favoriting a collection
 
@@ -85,17 +86,15 @@ Collections deleted can be recovered via your [web dashboard](https://app.getpos
 
 The Trash feature is available only for the signed-in users. So, if you are not a registered user you'll still see the Trash option but as a disabled one.
 
-**Note:** Postman offers different recovery plans for Free, Pro and Enterprise users.
+Recovery options depend on your Postman plan:
 
-* Users on Postman Free license can recover one-day old collections.
-
-* Users on Postman Pro license can recover collections up to 15-days.
-
-* Users on Postman Enterprise license can recover collections up to 30-days.
+* With a free account you can recover collections up to one day old.
+* Team accounts can recover collections up to 30 days.
+* With Postman Business and Enterprise you can recover collections up to 90 days.
 
 If your collection seems deleted and you are not able to recover from your deleted collections list, it is possible it is removed from a workspace rather than deleted. To check, navigate back to the main page of the web dashboard, then click `View all collections`. If listed, you can click on its share icon to move it back into a personal or shared workspace.
 
-If you'd like to revert your collection to a previous state, you can do so by leveraging the collection's in-app [activity feed](/docs/postman/workspaces/activity-feed-and-restoring-collections/).
+If you'd like to revert your collection to a previous state, you can do so by leveraging the collection's in-app [activity feed](/docs/postman/workspaces/changelog-and-restoring-collections/).
 
 ## Share a collection
 

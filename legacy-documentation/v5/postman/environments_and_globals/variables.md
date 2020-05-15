@@ -36,7 +36,7 @@ Scopes can be viewed as different kinds of buckets in which values reside. If a 
 
 [![nested variable scopes](https://assets.postman.com/postman-docs/scopes.png)](https://assets.postman.com/postman-docs/scopes.png)
 
-If a variable from the currently active environment shares its name with a global variable, the environment variable will take priority. In other words, global variables are overridden by environment variables, which are overridden by [data variables](http://blog.getpostman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/) (only available in the [collection runner](https://learning.getpostman.com/docs/postman/collection_runs/starting_a_collection_run/)).
+If a variable from the currently active environment shares its name with a global variable, the environment variable will take priority. In other words, global variables are overridden by environment variables, which are overridden by [data variables](https://blog.postman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/) (only available in the [collection runner](https://learning.postman.com/docs/postman/collection_runs/starting_a_collection_run/)).
 
 ### Accessing variables in the request builder
 
@@ -51,7 +51,7 @@ Since variables in the request builder are accessed using string substitution, t
 Variables can also be used in pre-request and test scripts. Since these sections for scripts are written in JavaScript, you will initialize and retrieve these variables in a different manner. You can initialize variables in scripts and put them in a particular scope. 
 
   1.  Defining an environment or global variable in a script: 
-        *  To set a variable in a script, use the `pm.environment.set()` method or `pm.globals.set()` method depending on the desired scope. The method requires the variable key and value as parameters to set the variable.  When you send the request, the script will be evaluated and the value will be stored as the variable. Note that [defining a collection variable](https://learning.getpostman.com/docs/postman/environments_and_globals/variables/#defining-collection-variables) is a little different and can be done by editing the collection details.
+        *  To set a variable in a script, use the `pm.environment.set()` method or `pm.globals.set()` method depending on the desired scope. The method requires the variable key and value as parameters to set the variable.  When you send the request, the script will be evaluated and the value will be stored as the variable. Note that [defining a collection variable](https://learning.postman.com/docs/postman/environments_and_globals/variables/#defining-collection-variables) is a little different and can be done by editing the collection details.
   2.  Fetching a pre-defined variable: 
         *  Once a variable has been set, use the `pm.variables.get()` method or, alternatively, use the `pm.environment.get()` or `pm.globals.get()` method depending on the appropriate scope to fetch the variable. The method requires the variable name as a parameter to retrieve the stored value in a script.
   3.  Setting a variable in a scope: 
@@ -67,7 +67,7 @@ Collection variables can be defined by editing the collection details. Click on 
 
 ### Logging variables
 
-Often while using variables in scripts, you will need to see the values they obtain. You can use the [Postman Console](https://learning.getpostman.com/docs/postman/sending_api_requests/debugging_and_logs/) to do this easily. From the application menu, select "View" and then "Show Postman Console".  To log the value of a variable, you can use `console.log(foo);` in your script. When you send a request, the script will be evaluated and the value of the variable will be logged in the Postman Console.
+Often while using variables in scripts, you will need to see the values they obtain. You can use the [Postman Console](https://learning.postman.com/docs/postman/sending_api_requests/debugging_and_logs/) to do this easily. From the application menu, select "View" and then "Show Postman Console".  To log the value of a variable, you can use `console.log(foo);` in your script. When you send a request, the script will be evaluated and the value of the variable will be logged in the Postman Console.
 
 [![variables logged](https://assets.postman.com/postman-docs/var_logging.png)](https://assets.postman.com/postman-docs/var_logging.png)
 
@@ -87,14 +87,14 @@ Inside pre-request and test scripts, the `pm.iterationData.get("username")` me
 
 [![data variables in scripts](https://assets.postman.com/postman-docs/WS-var-data.png)](https://assets.postman.com/postman-docs/WS-var-data.png)
 
-Learn more about [working with data files](https://learning.getpostman.com/docs/postman/collection_runs/working_with_data_files/). 
+Learn more about [working with data files](https://learning.postman.com/docs/postman/collection_runs/working_with_data_files/). 
 
 ### Dynamic variables
 
 Postman has a few dynamic variables which you can use in your requests. Dynamic variables cannot be used in the Sandbox. You can only use them in the `{{..}}` format in the request URL / headers / body.
 
    *   {% raw %} `{{$guid}}`{% endraw %} : Adds a v4 style guid
-   *   {% raw %} `{{$timestamp}}`{% endraw %}: Adds the current timestamp
+   *   {% raw %} `{{$timestamp}}`{% endraw %}: Adds the current timestamp (Unix timestamp in seconds)
    *   {% raw %} `{{$randomInt}}`{% endraw %}: Adds a random integer between 0 and 1000
 
 [![dynamic variables](https://assets.postman.com/postman-docs/WS-var_dynamic.png)](https://assets.postman.com/postman-docs/WS-var_dynamic.png)

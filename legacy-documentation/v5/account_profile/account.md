@@ -12,7 +12,7 @@ Your [Postman Account Dashboard][0] is your starting point to configure your acc
 
 The activity feed shown below shows all updates to your collections, and collections you've subscribed to: 
 
-[![](https://www.getpostman.com/img/v1/docs/activityFeed.png)
+[![](https://www.postman.com/img/v1/docs/activityFeed.png)
 ][1]
 
 Use the menu on the left to access the navigation bar, for the following menu items:
@@ -74,5 +74,5 @@ Use this page to update your email, username, or display name.
 You can also change your password through this section.
 
 [0]: https://app.getpostman.com/dashboard
-[1]: https://www.getpostman.com/img/v1/docs/activityFeed.png
+[1]: https://www.postman.com/img/v1/docs/activityFeed.png
 [2]: https://www.stripe.com/

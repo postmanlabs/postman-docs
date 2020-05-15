@@ -1,7 +1,8 @@
 ---
 title: "Monitoring APIs and websites"
-order: 75
+order: 164
 page_id: "monitoring_apis_websites"
+search_keyword: "setEnvironmentVariable, postman.setEnvironmentVariable"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -14,7 +15,7 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "HarperDB"
-    url: "https://www.getpostman.com/case-studies/harperDB.pdf?_ga=2.128789322.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/harperDB.pdf"
   - type: subtitle
     name: "Videos"
   - type: link

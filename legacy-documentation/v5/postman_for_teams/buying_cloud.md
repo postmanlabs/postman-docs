@@ -12,7 +12,7 @@ To purchase Pro, follow these instructions. Team leads as well as purchasing dep
 
 1\. Getting started
 
-Go to [https://www.getpostman.com/pricing][0].
+Go to [https://www.postman.com/pricing][0].
 
 2\. Everyone who signs up for Postman gets the Basic plan and features are available as soon as you sign up. To buy the Pro plan, click Buy.
 
@@ -43,7 +43,7 @@ Postman uses https://stripe.com/ to process all payment data. Once you enter you
 
 You will then see a confirmation page with a transaction ID. You may store this number for any future communications with us.
 
-[![](https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_5.png)
+[![](https://www.postman.com/img/v1/docs/buying_cloud/buying_cloud_5.png)
 ][2]
 
 7\. Set up account
@@ -55,6 +55,6 @@ Click Setup account. You'll be asked to sign in (if you have an account) or crea
 Congrats on making the best decision ever :-)
 
 
-[0]: https://www.getpostman.com/pricing
+[0]: https://www.postman.com/pricing
 [1]: https://stripe.com/help/security
-[2]: https://www.getpostman.com/img/v1/docs/buying_cloud/buying_cloud_5.png
+[2]: https://www.postman.com/img/v1/docs/buying_cloud/buying_cloud_5.png

@@ -1,7 +1,8 @@
 ---
 title: "Matching algorithm"
-order: 84
+order: 145
 page_id: "matching_algorithm"
+search_keyword: "x-mock-response-name, x-mock-response-id, requestMethod, mockPath"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -23,11 +24,11 @@ To begin, let’s start with an example.
 
 [![create mock diagram](https://assets.postman.com/postman-docs/create_mock.jpg)](https://assets.postman.com/postman-docs/create_mock.jpg)
 
-When a mock is created using either the Postman API or the Postman app, a call is made to the Postman servers that associates a particular collection (and environment if you choose one) with a newly created mock. The collection `C1` that we just mocked is now associated with the new mock `M1`.
+When a mock is created using either the Postman API or the Postman app, a call is made to the Postman servers that associates a particular collection (and environment if you choose one) with a newly created mock. The collection `C1` that was just mocked is now associated with the new mock `M1`.
 
 [![show mock diagram](https://assets.postman.com/postman-docs/show_mock.jpg)](https://assets.postman.com/postman-docs/show_mock.jpg)
 
-When we use the mock `M1` via the mock URL `https://M1.mock.pstmn.io` in the Postman app, the mock service will retrieve all saved examples from the Postman servers for that particular collection before it begins the matching process.
+When you use the mock `M1` via the mock URL `https://M1.mock.pstmn.io` in the Postman app, the mock service will retrieve all saved examples from the Postman servers for that particular collection before it begins the matching process.
 
 [![use mock diagram](https://assets.postman.com/postman-docs/use_mock.jpg)](https://assets.postman.com/postman-docs/use_mock.jpg)
 
@@ -89,6 +90,8 @@ Keeping these various configurable elements in mind, let’s take a look at the 
 
     This will pass the value captured from the wildcard segment with the same variable name into the response.
 
+    > Wildcards in response bodies are not part of the matching algorithm.
+
 5. **Response code**
 
    If the `x-mock-response-code` header is explicitly provided, filter out all examples that do not have a matching response code.
@@ -97,4 +100,4 @@ Keeping these various configurable elements in mind, let’s take a look at the 
 
    Sort the remaining filtered responses in descending order and return the response with the highest threshold value.
 
-And there we have it! This is how the mock service finds and returns the appropriate response to a mock request.
+This is how the mock service finds and returns the appropriate response to a mock request.

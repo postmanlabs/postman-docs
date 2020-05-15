@@ -37,27 +37,27 @@ Pick your pleasure: choose a light or dark theme for the Postman app.
 
 ### Keyboard Shortcuts
 
-This is where you can view keyboard shortcuts available for your operating system here. Learn more about using these [shortcuts to increase your productivity](https://learning.getpostman.com/docs/postman/launching_postman/navigating_postman/).
+This is where you can view keyboard shortcuts available for your operating system here. Learn more about using these [shortcuts to increase your productivity](https://learning.postman.com/docs/postman/launching_postman/navigating_postman/).
 
 ### Data Import / Export
 
-Import and export data in bulk inside Postman.  This will overwrite your existing collections and environments so be a little careful. It always helps to take a backup before you are importing other files. Learn more about [importing and exporting data](https://learning.getpostman.com/docs/postman/collections/data_formats/) in Postman.
+Import and export data in bulk inside Postman.  This will overwrite your existing collections and environments so be a little careful. It always helps to take a backup before you are importing other files. Learn more about [importing and exporting data](https://learning.postman.com/docs/postman/collections/data_formats/) in Postman.
 
 ### Add-ons
 
-Download Newman, Postman's command line companion, to integrate Postman collections with your build system, or run automated tests for your API through a cron job. Learn more about [Newman](https://learning.getpostman.com/docs/postman/collection_runs/command_line_integration_with_newman/). 
+Download Newman, Postman's command line companion, to integrate Postman collections with your build system, or run automated tests for your API through a cron job. Learn more about [Newman](https://learning.postman.com/docs/postman/collection_runs/command_line_integration_with_newman/). 
 
 ### Sync
 
-If you are signed in to Postman, your data is synced with our server, making sure you have it all next time you use the app (and not just locally). You can force re-sync or disable it under **Settings**. Learn more about [syncing](https://learning.getpostman.com/docs/postman/launching_postman/syncing/).
+If you are signed in to Postman, your data is synced with our server, making sure you have it all next time you use the app (and not just locally). You can force re-sync or disable it under **Settings**. Learn more about [syncing](https://learning.postman.com/docs/postman/launching_postman/syncing/).
 
 ### Certificates
 
-Add and view client certificates on a per domain basis. Learn more about [setting certificates](https://learning.getpostman.com/docs/postman/sending_api_requests/certificates/).
+Add and view client certificates on a per domain basis. Learn more about [setting certificates](https://learning.postman.com/docs/postman/sending_api_requests/certificates/).
 
 ### Update
 
-Postman's native apps will notify you whenever a version update is available.  To force a check for updates, head to the **Update** tab of the **SETTINGS** modal. Learn about [updating the Postman app](https://learning.getpostman.com/docs/postman/launching_postman/installation_and_updates/).
+Postman's native apps will notify you whenever a version update is available.  To force a check for updates, head to the **Update** tab of the **SETTINGS** modal. Learn about [updating the Postman app](https://learning.postman.com/docs/postman/launching_postman/installation_and_updates/).
 
 ### About
 

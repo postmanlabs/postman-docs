@@ -1,111 +1,104 @@
 ---
-title: 'Managing APIs'
-order: 89
+title: 'Managing and Sharing APIs'
+order: 203
 page_id: 'managing_apis'
 warning: false
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Using the API Builder"
+    url: "/docs/postman/design-and-develop-apis/the-api-workflow/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Create APIs directly within the Postman app"
+    url: "https://blog.postman.com/2019/05/17/postman-7-1-create-apis-directly-within-the-postman-app/"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Versioning APIs"
+    url: "/docs/postman/design-and-develop-apis/versioning-an-api/"
+  - type: link
+    name: "Viewing and analyzing APIs"
+    url: "/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/"
 ---
 
-APIs reside in your workspace, just like your collections. This section walks you through how you can create, read, update, and delete APIs in Postman:
+When you [define your APIs](/docs/postman/design-and-develop-apis/the-api-workflow/) in Postman using the API Builder, each API is associated with a workspace. You can share access to your APIs, discuss them in comments, and view schema activity.
 
-- [Creating an API](#creating-an-api)
-- [Opening and viewing an API](#opening-and-viewing-an-API)
-- [Renaming an API](#renaming-an-api)
-- [Deleting an API](#deleting-an-api)
-- [Removing an API from a workspace](#removing-an-api-from-a-workspace)
+- [Sharing APIs](#sharing-apis)
 - [Commenting on APIs](#commenting-on-apis)
+- [Viewing API events](#viewing-api-events)
 
-## Creating an API
+## Sharing APIs
 
-You can create an API in the workspace from the sidebar in the Postman app and from the workspaces dashboard. To create an API in the Postman app when no APIs exist in the current workspace, click **Create an API** button in the sidebar, as illustrated in a red circle in the following screen:
+You can share an API via its workspace either in the Postman app or the [web dashboard](https://app.getpostman.com/dashboard). By sharing your workspace with collaborators, you can provide access to the API via [designated roles with specific permissions](/docs/postman/collaboration/roles-and-permissions/), including Viewer and Editor.
 
-[![api create4](https://assets.postman.com/postman-docs/API-Create4.png)](https://assets.postman.com/postman-docs/API-Create4.png)
+> The Viewer role is only available on certain [Postman plans](https://www.postman.com/pricing).
 
-If you already have created APIs in your workspace, click '+' in the sidebar, as indicated by the red arrow in the above screen. The following tab opens:
+If you share an API to a workspace, members of the workspace will have access to any shared elements linked to the API (for example documentation, test suites, monitors). Workspace members can view elements linked to an API but can only edit if an element is also shared within the workspace. If you delete the API or remove it from the workspace, members will still have access to those shared elements unless you remove them also.
 
-[![api create2](https://assets.postman.com/postman-docs/API-Create1.png)](https://assets.postman.com/postman-docs/API-Create1.png)
+In the Postman app, select an __API__ in the sidebar and click (__...__) to open the menu, choosing **Share API**.
 
-Specify a name for your API.
+<img alt="Edit API" src="https://assets.postman.com/postman-docs/api-edit-options.jpg" width="250px"/>
 
-**Note:** You can create an API only when you are signed in and online.
+Select a workspace and click __Share and Continue__.
 
-Alternatively, you can also create an API from your workspace in the web dashboard as illustrated in the following screen:
+![Share API to Workspace](https://assets.postman.com/postman-docs/share-api-to-workspace.jpg)
 
-[![api create3](https://assets.postman.com/postman-docs/API-Create3.png)](https://assets.postman.com/postman-docs/API-Create3.png)
+Configure access levels for collaborators in your workspace and click __Save Roles__.
 
-Navigate to the APIs tab and click **Create an API** button, shown in a red circle in the above screen. The following screen opens.
+![API Workspace Roles](https://assets.postman.com/postman-docs/api-workspace-roles.jpg)
 
-[![api create4](https://assets.postman.com/postman-docs/API-Create4-Dashboard.png)](https://assets.postman.com/postman-docs/API-Create4-Dashboard.png)
-
-Specify a name for your API and click the '&#9745;' adjacent to the name. Your API is created.
-
-You can create different API versions from a specific version of your API. For more information on this, refer to the section [Creating API versions](/docs/postman/design-and-develop-apis/versioning-an-api/).
-
-**Note:** Free users can create up to three APIs, Pro users up to 10, and Enterprise users up to 100.
-
-## Opening and viewing an API
-
-In the sidebar, click the API you want to open. If there are multiple versions of the API, Postman automatically opens the most recently created.
-
-[![open and view api](https://assets.postman.com/postman-docs/API-Open-and-View1.png)](https://assets.postman.com/postman-docs/API-Open-and-View1.png)
-
-Using the above interface, you can navigate and view various elements related to an API like mocks, monitors, documentation, and so on.
-
-## Renaming an API
-
-To rename an API, select the API in the sidebar. On the top right corner, click the ellipsis (...), as indicated by the red arrow below:
-
-[![api create3](https://assets.postman.com/postman-docs/API-Rename1.png)](https://assets.postman.com/postman-docs/API-Rename1.png)
-
-Specify a new name and press enter.
-
-You can also rename the versions associated with your APIs. For more information on this, refer to the section [Renaming API version tags](/docs/postman/design-and-develop-apis/versioning-an-api/).
-
-## Deleting an API
-
-Click the ellipsis (...) next to the API, and select **Delete API**, as indicated by the red arrow in the following screen:
-
-[![api delete](https://assets.postman.com/postman-docs/API-Delete1.png)](https://assets.postman.com/postman-docs/API-Delete1.png)
-
-A delete confirmation message appears:
-
-[![api delete2](https://assets.postman.com/postman-docs/API-Delete2.png)](https://assets.postman.com/postman-docs/API-Delete2.png)
-
-When you delete an API, the collections, monitors, mocks, and environments linked to it are not deleted. For a more detailed understanding on this topic, refer to [Sharing APIs](/docs/postman/design-and-develop-apis/sharing-apis/)
-
-You can also delete specific versions of your APIs. For more information on this, refer to the section [Deleting an API version](/docs/postman/design-and-develop-apis/versioning-an-api/).
-
-## Removing an API from a workspace
-
-From the Postman app, you can remove an API from the sidebar. Click the ellipsis (...) next to the API you would like to remove, select **Remove from workspace** and confirm that you would like to remove the API from the current workspace. The API will no longer be visible in the workspace.
-
-When you remove an API from a workspace, the collections, monitors, mocks, and environments linked to it are not removed. For a more detailed understanding on this topic, refer to [Sharing APIs](/docs/postman/design-and-develop-apis/sharing-apis/).
-
-You will be able to perform all these user actions even from the dashboard, as illustrated in the screen below:
-
-[![api create5](https://assets.postman.com/postman-docs/API-Create5-Dashboard.png)](https://assets.postman.com/postman-docs/API-Create5-Dashboard.png)
+> You can also share APIs in the web dashboard by navigating to __APIs__ and clicking __Share__ next to the API.
+>
+> ![Share API in Dashboard](https://assets.postman.com/postman-docs/share-api-dashboard.jpg)
 
 ## Commenting on APIs
 
-You can comment on your APIs the same way as you do on your collections. For more information on this, refer to [Commenting on Collections](/docs/postman/collections/commenting-on-collections/)
+You can discuss your APIs with collaborators in the Postman app or [web dashboard](https://app.getpostman.com), keeping the conversation in context and available to other stakeholders. Anyone with access can comment, and comments will be visible in both the app and the dashboard.
 
-## Schema changelog
+To leave a comment on an API using the Postman app, open __APIs__ in the left sidebar and select the API you want to comment on. Click **Comments** at the top-right, enter your comment, and **Add comment** to publish it.
 
-Postman v7.10 onwards,  you can see a changelog for API schemas by clicking on the  “View changelog” button in the “Design” tab of the API.
+[![api comment app](https://assets.postman.com/postman-docs/apicommentapp.gif)](https://assets.postman.com/postman-docs/apicommentapp.gif)
 
-![Click on the "View Changelog" button](https://assets.postman.com/postman-docs/schema-changelog-button.png)
+To comment on an API in the web dashboard, navigate to __APIs__, select the API you want to comment on, and click **Comments** at the top-right of the page. Enter your comment, and **Add comment** to publish it.
 
-The “Schema changelog” pane shows a list of all changes made to the API schema, with the most recent change on top. You can click on each entry to expand and show the entire changeset.
+[![api comment dashboard](https://assets.postman.com/postman-docs/apicommentdashboard.gif)](https://assets.postman.com/postman-docs/apicommentdashboard.gif)
 
-![The Schema Changelog pane](https://assets.postman.com/postman-docs/schema-changelog-pane.png)
+### Formatting comments
 
-You can also restore the schema to an older changeset by clicking the “Restore” link under each changelog entry. Restoring any changeset other than the most recent one creates a new entry in the changelog. Restoring that change is similar to undoing a merge.
+You can use Markdown in your comments—check out the [Markdown Cheatsheet on Github](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for tips on formatting.
 
-![A changelog entry is created when restoring older changes](https://assets.postman.com/postman-docs/schema-changelog-merge.png)
+If you want to call the attention of a collaborator in comment, you can tag them by typing `@` followed by their name—choose the person from the auto-suggested list. When you tag a member in your comment, Postman will send them a notification.
 
----
-For more information on APIs, see:
+### Editing and deleting comments
 
-- [Sharing an API](/docs/postman/design-and-develop-apis/sharing-apis/)
-- [Managing API workflow](/docs/postman/design-and-develop-apis/the-api-workflow/)
-- [Versioning an API](/docs/postman/design-and-develop-apis/versioning-an-api/)
-- [Introduction to APIs](/docs/postman/design-and-develop-apis/introduction-to-apis/)
+To edit or delete one of your comments, navigate to the comment section and hover over the comment you wish to manage. Click the pen icon to edit the comment, or the bin icon to delete.
+
+[![api comment manage](https://assets.postman.com/postman-docs/apicommentmanage.png)](https://assets.postman.com/postman-docs/apicommentmanage.png)
+
+> With Admin permissions you can delete comments made by any contributor, but you cannot update or modify comments.
+
+## Viewing API events
+
+You can view a changelog of your API schemas in __APIs__ &gt; __Design__. Click **View changelog**.
+
+![Schema Changelog Button](https://assets.postman.com/postman-docs/schema-changelog-button.jpg)
+
+<img alt="Schema Changelog" src="https://assets.postman.com/postman-docs/schema-changelog-list.jpg" width="400px"/>
+
+You will see a list of events on the schema and can click to expand each entry for more detail.
+
+You can use the __Restore__ link to revert the schema to a previous state.
+
+<img alt="Schema Restored" src="https://assets.postman.com/postman-docs/schema-restored.jpg" width="400px"/>
+
+## Next steps
+
+For more info on working with the API Builder in Postman, check out the following resources:
+
+- [Versioning APIs](/docs/postman/design-and-develop-apis/versioning-an-api/)
+- [Viewing and analyzing APIs](/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/)

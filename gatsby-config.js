@@ -9,7 +9,7 @@ module.exports = {
     title: 'Postman Learning Center',
     description: '',
     author: 'Postman',
-    siteUrl: 'https://learning.getpostman.com',
+    siteUrl: 'https://learning.postman.com',
   },
   plugins: [
     {
@@ -54,6 +54,33 @@ module.exports = {
       options: {
         plugins: [
           'gatsby-remark-autolink-headers',
+          {
+            resolve: 'gatsby-remark-embed-video',
+            options: {
+              width: 700,
+              ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
+              height: 400, // Optional: Overrides optional.ratio
+              // Optional: Will remove related videos from the end of an embedded YouTube video.
+              related: false,
+              noIframeBorder: true, // Optional: Disable insertion of <style> border: 0
+            },
+          },
+          'gatsby-remark-responsive-iframe',
+        ],
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-prefetch-google-fonts',
+      options: {
+        fonts: [
+          {
+            family: 'Roboto',
+            variants: ['400', '500'],
+          },
+          {
+            family: 'Open Sans',
+            variants: ['400', '700'],
+          },
         ],
       },
     },
@@ -77,8 +104,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://learning.getpostman.com',
-        sitemap: 'https://learning.getpostman.com/sitemap.xml',
+        host: 'https://learning.postman.com',
+        sitemap: 'https://learning.postman.com/sitemap.xml',
         resolveEnv: () => process.env.GATSBY_ACTIVE_ENV,
         env: {
           development: {
@@ -91,6 +118,7 @@ module.exports = {
       },
     },
     {
+<<<<<<< HEAD
       resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
         googleAnalytics: {
@@ -99,6 +127,19 @@ module.exports = {
         },
         environments: ['production', 'development']
       }
+=======
+      resolve: 'gatsby-plugin-sri',
+      options: {
+        hash: 'sha512', // 'sha256', 'sha384' or 'sha512' ('sha512' = default)
+        crossorigin: false, // Optional
+      },
+    },
+    {
+      resolve: `gatsby-plugin-env-variables`,
+      options: {
+        whitelist: ['MUNCHKIN_ID']
+      },
+>>>>>>> a1108be9200af8043b8631328321f4c79ea65b9f
     },
   ],
 };

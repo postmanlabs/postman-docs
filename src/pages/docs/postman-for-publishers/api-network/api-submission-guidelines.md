@@ -1,64 +1,59 @@
 ---
-title: "API Network submission guidelines"
-order: 142
+title: "API Network guidelines"
+order: 313
 page_id: "api_network_submission_guidelines"
 warning: false
-
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Documenting your API"
+    url:  "/docs/postman/api-documentation/documenting-your-api/"
+  - type: link
+    name: "Publishing your docs"
+    url: "/docs/postman/api-documentation/publishing-your-docs/"
+  - type: link
+    name: "Adding your API to the Network"
+    url:  "/docs/postman-for-publishers/api-network/add-api-network/"
 ---
 
-## Why adhere to guidelines?
+Adding your team profile and collection docs to the API Network can expose your services to more potential users and provide them with the tools to onboard and adopt your API. To get the best out of your API Network listing, follow a few tips that will aid discovery of your documentation, making it and your collection templates as usable as possible.
 
-Postman's API Network makes API consumption very easy. If you are building APIs that can be consumed by public, you can publish them to Postman's API network and users can directly import your collection through “Run in Postman”. To publish your API to Postman's API network, ensure your API documentation adheres to a set of guidelines outlined by Postman.
+![API Network Homepage](https://assets.postman.com/postman-docs/api-network-homepage.jpg)
 
-### API submission guidelines
+## Check your collection in the app
 
-To ensure your APIs have a wider adoption, your API documentation adhere to the following guidelines:
+Your documentation represents a Postman collection, with both the textual information content—and the executable requests bundled via the Run in Postman button—pulled from your collection setup in Postman. For this reason, it's worth walking through the process of importing the collection yourself, checking the information that appears inside the Postman app as well as in the docs (for example [descriptions on the collection, requests, and parameters](/docs/postman/api-documentation/authoring-your-documentation/#documenting-with-descriptions)).
 
-#### 1. Logo
+If your collection contains lots of requests, consider grouping them into folders to make the documentation and imported templates easier to navigate.
 
-   All teams submitting to API Network must have an updated logo. This logo will be displayed on your documentation. Logo gives you a better identity and helps users easily associate the API with your company.
+## Check your docs on the web
 
-#### 2. API Name & Objective
+When you publish documentation for a Postman collection, you will [author the content](/docs/postman/api-documentation/authoring-your-documentation/) inside the Postman app in Markdown, but consumers will view it in the web browser as HTML. For this reason, it's essential to read through your docs in the browser to get a feel for how they will walk developers through the process of using your API, and to ensure your collection information is rendering as expected (this is particularly important if you're using [variables](/docs/postman/api-documentation/documenting-your-api/#documentation-environments) to populate some of the content).
 
-   An appropriate name and a proper objective helps explain your API’s intended use. The following illustrates an example:
+## Tailor your examples
 
-   [![name and desc](https://assets.postman.com/postman-docs/API-Network-Name-Desc3.png)](https://assets.postman.com/postman-docs/API-Network-Name-Desc3.png)
+The sample code section in your docs will play a significant role in how effectively developers are able to onboard with your API. Your collection examples will automatically populate in the docs code, so it's worth taking the time to ensure that the [examples contain readable, prototypical usage of your API endpoints](/docs/postman/api-documentation/authoring-your-documentation/#using-examples-in-your-docs).
 
-#### 3. Authentication
+## Add contextual material
 
-   Your API documentation should clearly explain steps for authentication in detail. This helps your API users get started easily.
+When developers attempt to learn how to integrate with a third-party API, they need to understand more than just what each endpoint receives and returns. By introducing your API with contextual material explaining its purpose at a high level, and outlining how the different requests fit together to build client applications, you will help new users get off to a more effective start. Ideally include quickstart information that lets developers make a request to your API as soon as possible.
 
-   **Note:** If there are authorization tokens in the request headers replace them with a placeholder. This makes your documentation secure and readable. The following screen illustrates this:
+If your API requires authentication, make sure you include instructions explaining what developers need to do to acquire and use credentials. Other top level info such as rate limits, content types, or settings that apply across endpoints can appear in your collection description so that they render at the top of your documentation page.
 
-   [![authentication](https://assets.postman.com/postman-docs/API-Network-Auth.png)](https://assets.postman.com/postman-docs/API-Network-Auth.png)
+## Complete your profile
 
-#### 4. Formatting
+When you publish to the API Network, potential users will initially see your team profile, with APIs listed under it. Taking the time to fill out your team profile gives consumers a clear sense of who a collection is published by—helping them to decide whether to try it out or not. [You can include a team name, description, logo, and custom URL.](/docs/postman-for-publishers/api-network/add-api-network/#setting-up-your-team-profile)
 
-   Make sure your documentation is properly formatted. Ensure you maintain a systematic folder structure with items organized in folders and sub-folders.
+## Complete your API listing
 
-#### 5. Requests and Responses
+Your API listing in the network should provide the information developers need to know in order to decide whether they want to try the API out or not. Try to choose a descriptive name that conveys the purpose of your API without users having to click it to find out more detail. In your description, try to include an overview of what the API does, with enough detail for consumers to figure out whether it's likely to fit their use case. [You can include a name, summary, description, and categories that will determine how your API is listed when users browse the network.](/docs/postman-for-publishers/api-network/add-api-network/#providing-api-detail)
 
-   Ensure you document resource descriptions, endpoints and methods, and parameters clearly with examples. Specify request and response examples. The following screen illustrates an example of this:
+## Sample API Network listings
 
-   [![request-response](https://assets.postman.com/postman-docs/API-Network-Req-Resp.png)](https://assets.postman.com/postman-docs/API-Network-Req-Resp.png)
+The API Network includes lots of effective listings you can use for inspiration when building your own. Check out the following notable examples:
 
-**Note:** Do not submit examples containing localhost paths because they don't make sense for APIs in the API network.
-
-### Sample APIs for reference
-
-#### Good API submissions:
-
-- [Tradeprint](https://docs.sandbox.tradeprint.io/#06cc541c-cd0e-48dc-864a-3d32c6cf173f)
-- [Skore](https://docs.m2m.skore.io/)
-- [TelemetryTV](https://documenter.getpostman.com/view/6190915/RznHHxCP)
-- [Imgur](https://apidocs.imgur.com)
-
-### The submission process
-
-The submission process is quite simple. Adhere to the following 3-step process:
-
-1. Decide your API (or list of APIs) to be published to the Postman's API network.
-2. Adhere to the API submission requirements.
-3. Select the [API Network option](/docs/postman/api-documentation/publishing-public-docs/), fill appropriate details, and submit to the API network.
-
-The moderators at the Postman API network will review your APIs, may request additional changes and then approve them for publication to the API network.
+* [Cisco DevNet](https://explore.postman.com/team/ciscodevnet)
+* [Foursquare](https://explore.postman.com/team/351150)
+* [Kloudless](https://explore.postman.com/team/245532)
+* [Skore](https://explore.postman.com/team/201253)

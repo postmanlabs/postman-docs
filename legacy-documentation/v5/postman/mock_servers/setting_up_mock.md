@@ -12,7 +12,7 @@ Delays on the front- or back-end make it difficult for dependent teams to comple
 
 Front-end developers can create a mock server to simulate each endpoint and its corresponding environment in a Postman Collection, before sending the actual request. Developers can view potential responses, without spinning up a back end.
 
-Creating a [mock example](https://learning.getpostman.com/docs/postman/collections/examples/) during the earliest phase of API development fosters clear communication among team members and aligns their expectations. As a result, all teams in the development process can work in parallel; and dependent teams experience fewer delays.
+Creating a [mock example](https://learning.postman.com/docs/postman/collections/examples/) during the earliest phase of API development fosters clear communication among team members and aligns their expectations. As a result, all teams in the development process can work in parallel; and dependent teams experience fewer delays.
 
 ### Setting up a mock server 
 
@@ -20,12 +20,12 @@ You can create a mock in several ways:
 
 * **New** button
 * Launch screen
-* [Postman app](https://learning.getpostman.com/docs/postman/mock_servers/mocking_with_examples/)
-* [Postman API](https://learning.getpostman.com/docs/postman/mock_servers/mock_with_api/)
+* [Postman app](https://learning.postman.com/docs/postman/mock_servers/mocking_with_examples/)
+* [Postman API](https://learning.postman.com/docs/postman/mock_servers/mock_with_api/)
   
-Mocks are accessible to the public by default. If you create a mock and specify that it is only to be available privately, Postman Pro and Enterprise users can [share the underlying collection](https://learning.getpostman.com/docs/postman/team_library/sharing/#sharing-collections) with the team or specific team members, and provide permissions to edit or view.
+Mocks are accessible to the public by default. If you create a mock and specify that it is only to be available privately, Postman Pro and Enterprise users can [share the underlying collection](https://learning.postman.com/docs/postman/team_library/sharing/#sharing-collections) with the team or specific team members, and provide permissions to edit or view.
 
-**Note**: This topic only covers how to create a mock with the **New** button and the Launch screen. To learn how to create a mock with the [Postman app](https://learning.getpostman.com/docs/postman/mock_servers/mocking_with_examples/) or the [Postman API](https://learning.getpostman.com/docs/postman/mock_servers/mock_with_api), click its link for detailed information.
+**Note**: This topic only covers how to create a mock with the **New** button and the Launch screen. To learn how to create a mock with the [Postman app](https://learning.postman.com/docs/postman/mock_servers/mocking_with_examples/) or the [Postman API](https://learning.postman.com/docs/postman/mock_servers/mock_with_api), click its link for detailed information.
 
 #### New button
 

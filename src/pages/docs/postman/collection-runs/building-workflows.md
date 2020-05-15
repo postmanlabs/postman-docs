@@ -1,7 +1,8 @@
 ---
 title: "Building workflows"
-order: 58
+order: 114
 page_id: "building_workflows"
+search_keyword: "postman.setNextRequest, setNextRequest"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -14,7 +15,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Check for broken links on your website using a Postman Collection"
-    url: "https://blog.getpostman.com/2017/06/23/check-for-broken-links-on-your-website-using-a-postman-collection/?_ga=2.199902312.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/06/23/check-for-broken-links-on-your-website-using-a-postman-collection/"
 
 warning: false
 
@@ -32,11 +33,11 @@ Let's look at a sample collection to understand this function.
 
 ## Getting started
 
-Before you start, download and [import](/docs/postman/collections/data-formats/) [collection.json](https://assets.postman.com/postman-docs/58793802.json) for the example we'll discuss in this topic.
+Before you start, download and [import](/docs/postman/collections/importing-and-exporting-data/#importing-postman-data) [collection.json](https://assets.postman.com/postman-docs/58793802.json) for the example we'll discuss in this topic.
 
 ## Basic workflow
 
-Let's assume that we have a collection with four requests. If you run this collection directly, the collection runner runs all four requests in order.
+If you run an example collection containing four requests directly, the collection runner runs all four requests in order.
 
 [![setNextRequest in tests tab](https://assets.postman.com/postman-docs/Collection_Runs_pg23.png)](https://assets.postman.com/postman-docs/Collection_Runs_pg23.png)
 
@@ -44,7 +45,7 @@ Let's assume that we have a collection with four requests. If you run this colle
 
 Let's now add `postman.setNextRequest()` to Request 1's test script, as shown. `postman.setNextRequest()` is a function with one argument, which is the name or ID of the request you want to run next.
 
-In the example, we're setting the next request to Request 4 in the test script for Request 1. So the execution jumps to Request 4 after Request 1 has completed. If we run the same collection now, you'll see that only two requests are run now.
+In the example, we're setting the next request to Request 4 in the test script for Request 1. So the execution jumps to Request 4 after Request 1 has completed. If you run the same collection now, you'll see that only two requests are run now.
 
 [![setNextRequest with request name as parameter](https://assets.postman.com/postman-docs/Collection_Runs_pg24.png)](https://assets.postman.com/postman-docs/Collection_Runs_pg24.png)
 
@@ -54,11 +55,11 @@ Note that `postman.setNextRequest()` only works with the collection runner and N
 
 ## Advanced workflow
 
-Now that we have a good understanding of how `setNextRequest()` works, we can perform advanced actions.
+Once you're comfortable using `setNextRequest()`, you can progress to more advanced actions.
 
 Since you are no longer restricted by the order in which you define your requests, you can jump around your collection, establish conditional logic, or skip unnecessary requests.
 
-This [blog post](https://blog.getpostman.com/2016/11/09/generate-spotify-playlists-using-a-postman-collection/) explains how you can write a collection that will generate Spotify playlists for you based on your favorite musical artists.
+This [blog post](https://blog.postman.com/2016/11/09/generate-spotify-playlists-using-a-postman-collection/) explains how you can write a collection that will generate Spotify playlists for you based on your favorite musical artists.
 
 Remember these two facts as you use this workflow:
 

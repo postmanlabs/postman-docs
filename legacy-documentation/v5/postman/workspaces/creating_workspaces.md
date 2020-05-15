@@ -16,7 +16,7 @@ Click any Workspace that displays in the header bar. For example, in the image b
  
 **Personal**
 
-If you select "Personal", enter the name and description of the Workspace. If you decide instead to create a team Workspace, select "Team" in the Type menu. Click the **Create Workspace** button to see or add existing collections, or [create a collection](https://learning.getpostman.com/docs/postman/collections/creating_collections/).
+If you select "Personal", enter the name and description of the Workspace. If you decide instead to create a team Workspace, select "Team" in the Type menu. Click the **Create Workspace** button to see or add existing collections, or [create a collection](https://learning.postman.com/docs/postman/collections/creating_collections/).
 
 [![create new personal workspace](https://assets.postman.com/postman-docs/WS-create-new-personal.png)](https://assets.postman.com/postman-docs/WS-create-new-personal.png)
  

@@ -1,25 +1,22 @@
 ---
 title: "Setting up a team library"
 page_id: "setting_up_team_library"
-tags: 
-  - "pro"
-  - "enterprise"
 warning: false
 ---
 
- **NOTE**: **Team Library is only available for versions 5.0 and below.**
+> __This page is deprecated. Team Library is only available for versions 5.0 and below.__
 
-Postman Pro and Enterprise users can use the Team Library to enhance collaboration among teammates. This feature enhances collaboration among teammates in several ways.
+Postman users with paid plans can use the Team Library to enhance collaboration among teammates. This feature enhances collaboration among teammates in several ways.
 
 * **Share collections**
   
   You can [share collections](/docs/postman/team-library/sharing/#sharing-collections) with your team. Collections contain groups of API requests you can organize, add descriptions, attach test scripts, and build conditional workflows.
 * **Share environments**
   
-  Teams can use [environments](/docs/postman/api-documentation/environments-and-environment-templates/) to create and [share a snapshot of a local environment](/docs/postman/team-library/sharing/#sharing-environments). Users might have different environment variable values, so updates to these values are not synced between shared environments.
+  Teams can use [environments](/docs/postman/api-documentation/documenting-your-api/#documentation-environments) to create and [share a snapshot of a local environment](/docs/postman/team-library/sharing/#sharing-environments). Users might have different environment variable values, so updates to these values are not synced between shared environments.
 * **See the activity feed in the Team Library**
   
-  You can see changes to shared collections in the [activity feed](/docs/postman/workspaces/activity-feed-and-restoring-collections/).
+  You can see changes to shared collections in the [activity feed](/docs/postman/workspaces/changelog-and-restoring-collections/).
 * **Subscribe to shared collections**
   
   When you [subscribe to a collection](/docs/postman/team-library/sharing/), you get a synced copy of this collection in your Postman app. If you have edit permissions for the collection, you can make changes that other subscribers to the collection can see.
@@ -30,7 +27,7 @@ To use your Team Library, open the Postman app and click the **Team Library** ta
 
 [![team library](https://assets.postman.com/postman-docs/team_library.png)](https://assets.postman.com/postman-docs/team_library.png)
 
-### New Postman Pro or Enterprise users
+### New users
 
 If you are visiting the Team Library for the first time, you see this screen.
 
@@ -40,14 +37,14 @@ To set up your Team Library:
 
 1. Select the API requests you want to share and save them in collections.
 1. Select the collections you want to share.
-1. Add the email addresses of the users you want to invite to your Postman Pro team.
+1. Add the email addresses of the users you want to invite to your team.
 1. Click the **Activate your trial and share these collections** button.
 
-When you share your first collection, your 7-day Postman Pro trial is activated.
+When you share your first collection, your trial is activated.
 
-### Existing Postman Pro or Enterprise users
+### Existing users
 
-If you are on a Postman [Pro](/docs/postman-pro/what-is-pro/) or [Enterprise](/docs/postman-enterprise/intro-to-enterprise/) team, or if you have activated your 7-day Postman Pro trial, you see this screen when you click the **Team Library** tab for the first time.
+If you are on a paid Postman team, you see this screen when you click the **Team Library** tab for the first time.
 
 [![team library first view for team](https://assets.postman.com/postman-docs/team_library_first_view_for_team.png)](https://assets.postman.com/postman-docs/team_library_first_view_for_team.png)
 

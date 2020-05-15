@@ -1,7 +1,8 @@
 ---
 title: "Test examples"
-order: 43
+order: 94
 page_id: "test_examples"
+search_keyword: "setEnvironmentVariable, postman.getEnvironmentVariable, getEnvironmentVariable, pm.environment.unset, collectionVariables.set, pm.collectionVariables.set, pm.collectionVariables.get, collectionVariables.get, pm.collectionVariables.unset, collectionVariables.unset, pm.globals.set, globals.set, pm.globals.get, globals.get, pm.globals.unset, globals.unset, variables.get, pm.variables.get, pm.test, pm.expect, pm.response.json, pm.sendRequest, response.json"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -10,17 +11,17 @@ contextual_links:
     url: "/docs/postman/sending-api-requests/requests/"
   - type: link
     name: "Variables"
-    url: "/docs/postman/environments-and-globals/variables/"
+    url: "/docs/postman/variables-and-environments/variables/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
     name: "Case Studies"
   - type: link
     name: "Lucid"
-    url: "https://www.getpostman.com/case-studies/Lucid.pdf?_ga=2.167456632.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/case-studies/Lucid.pdf"
   - type: link
-    name: "Movember"
-    url: "https://www.getpostman.com/case-studies/movember.pdf?_ga=2.167456632.754547870.1571851340-1454169035.1570491567"
+    name: "Movember Foundation"
+    url: "https://www.postman.com/resources/case-studies/movember-foundation/"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -33,10 +34,10 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Building and testing APIs with LoopBack and Postman"
-    url: "https://blog.getpostman.com/2018/01/12/building-and-testing-apis-with-loopback-and-postman/?_ga=2.173879141.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2018/01/12/building-and-testing-apis-with-loopback-and-postman/"
   - type: link
-    name: "Writing a bejavior driven API testing environment with Postman"
-    url: "https://blog.getpostman.com/2015/09/29/writing-a-behaviour-driven-api-testing-environment-within-postman/?_ga=2.173879141.754547870.1571851340-1454169035.1570491567"
+    name: "Writing a behavior driven API testing environment with Postman"
+    url: "https://blog.postman.com/2015/09/29/writing-a-behaviour-driven-api-testing-environment-within-postman/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -88,6 +89,26 @@ var obj = JSON.parse(pm.environment.get("obj"));
 
 ```js
 pm.environment.unset("variable_key");
+```
+
+## Collection
+
+### Setting an collection variable
+
+```js
+pm.collectionVariables.set(variableName:String, variableValue:String);
+```
+
+### Get a collection variable
+
+```js
+pm.collectionVariables.get(variableName:String);
+```
+
+### Clear a collection variable
+
+```js
+pm.collectionVariables.unset(variableName:String);
 ```
 
 ## Globals
@@ -554,7 +575,9 @@ tests["Your test name"] = data.value === 100;
 ### Content-Type is present (Case-insensitive checking) (deprecated)
 
 ```js
-tests["Content-Type is present"] = postman.getResponseHeader("Content-Type"); //Note: the getResponseHeader() method returns the header value, if it exists.
+tests["Content-Type is present"] = postman.getResponseHeader("Content-Type");
+tests["Content-Type is present"] = postman.getResponseHeader("Content-Type");
+//Note: the getResponseHeader() method returns the header value, if it exists.
 ```
 
 ### Content-Type is present (Case-sensitive) (deprecated)
@@ -572,7 +595,8 @@ tests["Response time is less than 200ms"] = responseTime < 200;
 ### Response time is within a specific range (lower bound inclusive, upper bound exclusive) (deprecated)
 
 ```js
-tests["Response time is acceptable"] = _.inRange(responseTime, 100, 1001); // _ is the inbuilt Lodash v3.10.1 object, documented at https://lodash.com/docs/3.10.1
+tests["Response time is acceptable"] = _.inRange(responseTime, 100, 1001);
+// _ is the inbuilt Lodash v3.10.1 object, documented at https://lodash.com/docs/3.10.1
 ```
 
 ### Status code is 200 (deprecated)
@@ -616,6 +640,7 @@ var intermediate,
     base64Content, // assume this has a base64 encoded value
     rawContent = base64Content.slice('data:application/octet-stream;base64,'.length);
 
-intermediate = CryptoJS.enc.Base64.parse(base64content); // CryptoJS is an inbuilt object, documented here: https://www.npmjs.com/package/crypto-js
+intermediate = CryptoJS.enc.Base64.parse(base64content);
+// CryptoJS is an inbuilt object, documented here: https://www.npmjs.com/package/crypto-js
 tests["Contents are valid"] = CryptoJS.enc.Utf8.stringify(intermediate); // a check for non-emptiness
 ```

@@ -1,6 +1,6 @@
 ---
 title: "Using Markdown for descriptions"
-order: 34
+order: 47
 page_id: "using_markdown_for_descriptions"
 contextual_links:
   - type: section
@@ -14,25 +14,25 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Imgur"
-    url: "https://www.getpostman.com/case-studies/Imgur.pdf?_ga=2.199967976.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/resources/case-studies/imgur/"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Building a Restaurant Discovery Service with Postman"
-    url: "https://blog.getpostman.com/2017/07/19/building-a-restaurant-discovery-service-with-postman/?_ga=2.199967976.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/07/19/building-a-restaurant-discovery-service-with-postman/"
   - type: link
     name: "Descriptions for request attributes in Postman"
-    url: "https://blog.getpostman.com/2017/06/03/descriptions-for-request-attributes-in-postman/?_ga=2.161623290.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/06/03/descriptions-for-request-attributes-in-postman/"
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Intro to API documentation"
-    url: "/docs/postman/api-documentation/intro-to-api-documentation/"
+    name: "Documenting your API"
+    url: "/docs/postman/api-documentation/documenting-your-api/"
 
 warning: false
 ---
 
-Postman supports [Markdown](/docs/postman/api-documentation/how-to-document-using-markdown/) as a way to style text descriptions for [requests](/docs/postman/sending-api-requests/requests/), [collections](/docs/postman/collections/creating-collections/), and [folders](/docs/postman/collections/managing-collections/) in collections. You can also embed screenshots and other images for more descriptive flair.
+Postman supports [Markdown](/docs/postman/api-documentation/authoring-your-documentation/) as a way to style text descriptions for [requests](/docs/postman/sending-api-requests/requests/), [collections](/docs/postman/collections/creating-collections/), and [folders](/docs/postman/collections/managing-collections/) in collections. You can also embed screenshots and other images for more descriptive flair.
 
 For more information about Markdown, review the [reference for using Markdown](https://documenter.getpostman.com/view/33232/markdown-in-api-documentation/JsGc) for API documentation.
 
@@ -54,7 +54,7 @@ You can use Markdown to style descriptions for collections and folders.
 
 ## Public or internal API documentation
 
-Public or internal [API documentation](/docs/postman/api-documentation/intro-to-api-documentation/) can automatically generate API descriptions.
+Public or internal [API documentation](/docs/postman/api-documentation/documenting-your-api) can automatically generate API descriptions.
 
 You can use Markdown to style those descriptions.
 [![automatically generated documentation](https://assets.postman.com/postman-docs/WS-markdown-auto-docs.png)](https://assets.postman.com/postman-docs/WS-markdown-auto-docs.png)
@@ -67,7 +67,7 @@ For example, specify if an element is required or optional, indicate the accepte
 
 [![data editor parameters](https://assets.postman.com/postman-docs/WS-collections-data-editor-params.png)](https://assets.postman.com/postman-docs/WS-collections-data-editor-params.png)
 
-For Postman users who publish internal or public API documentation, these descriptions display in the [automatically generated documentation](/docs/postman/api-documentation/intro-to-api-documentation/) for that collection.
+For Postman users who publish internal or public API documentation, these descriptions display in the [automatically generated documentation](/docs/postman/api-documentation/documenting-your-api) for that collection.
 
 [![parameters in automatically generated docs](https://assets.postman.com/postman-docs/WS-collections-auto-docs.png)](https://assets.postman.com/postman-docs/WS-collections-auto-docs.png)
 

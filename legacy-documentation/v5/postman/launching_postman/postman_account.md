@@ -9,23 +9,23 @@ warning: false
 
 When you sign up for a free Postman account, you can:
 
-   *   [Sync](https://learning.getpostman.com/docs/postman/launching_postman/syncing/) and back up your history, collections, environments, and header presets.
+   *   [Sync](https://learning.postman.com/docs/postman/launching_postman/syncing/) and back up your history, collections, environments, and header presets.
    *   Easily work on multiple Postman instances from different machines.
-   *   Create [collection links](https://learning.getpostman.com/docs/postman/collections/sharing_collections/) to send to other developers.
+   *   Create [collection links](https://learning.postman.com/docs/postman/collections/sharing_collections/) to send to other developers.
 
-Signing up is completely optional. Read our [EULA](https://www.getpostman.com/licenses/postman_base_app), [security page](https://www.getpostman.com/security), and [privacy page](https://www.getpostman.com/licenses/privacy) to know more.
+Signing up is completely optional. Read our [EULA](https://www.postman.com/licenses/postman_base_app), [security page](https://www.postman.com/security), and [privacy page](https://www.postman.com/licenses/privacy) to know more.
 
 
 ### Signing up for a Postman account
 
-1. If you haven't already, [download](https://www.getpostman.com/downloads/) the Postman app.
+1. If you haven't already, [download](https://www.postman.com/downloads/) the Postman app.
 2. Launch the app, and see a prompt to log in or sign up.
     [![log in page](https://assets.postman.com/postman-docs/59135838.png)](https://assets.postman.com/postman-docs/59135838.png)  
 3. Sign up with your email address or your Google account.
     [![sign up with email or google](https://assets.postman.com/postman-docs/signUp.png)](https://assets.postman.com/postman-docs/signUp.png)  
 4. Confirm your email.
 
-Once you are logged in, you will see the **IN SYNC** icon at the top telling you that you are connected to our servers. Postman uses WebSockets for real-time [syncing](https://learning.getpostman.com/docs/postman/launching_postman/syncing). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us).
+Once you are logged in, you will see the **IN SYNC** icon at the top telling you that you are connected to our servers. Postman uses WebSockets for real-time [syncing](https://learning.postman.com/docs/postman/launching_postman/syncing). If you are experiencing issues with syncing, you can file an issue with our [support center](https://support.getpostman.com/hc/en-us).
 
 [![header bar](https://assets.postman.com/postman-docs/WS-HeaderToolBar-new+button1.png)](https://assets.postman.com/postman-docs/WS-HeaderToolBar-new+button1.png)
 
@@ -68,7 +68,7 @@ To switch back to your previous account, click on the account user name in the d
 
 ### Security policies and standards
 
-Postman uses several technologies to ensure that your data is safe and secure. For more details, visit our [security page](https://www.getpostman.com/security).
+Postman uses several technologies to ensure that your data is safe and secure. For more details, visit our [security page](https://www.postman.com/security).
 
    *   Communication with Postman servers only happens through HTTPS and Secure WebSockets.
    *   Environment and global variables are encrypted so that only you can view them.

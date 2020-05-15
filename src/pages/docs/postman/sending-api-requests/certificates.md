@@ -1,6 +1,6 @@
 ---
 title: "Certificates"
-order: 21
+order: 28
 page_id: "certificates"
 contextual_links:
   - type: section
@@ -14,7 +14,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Set and view SSL certificates with Postman"
-    url: "https://blog.getpostman.com/2017/12/05/set-and-view-ssl-certificates-with-postman/?_ga=2.204162902.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/12/05/set-and-view-ssl-certificates-with-postman/"
 
 warning: false
 
@@ -34,17 +34,17 @@ In the **Host** field, enter the domain (without protocol) of the request URL f
 
 You can also specify a custom port to associate with this domain in the **Port** field. This is optional. If left empty, the default HTTPS port (443) will be used.
 
-Choose your client certificate file in the **CRT file** field. Currently, we only support the CRT format. Support for other formats (like PFX) will come soon.
+Choose your client certificate file in the **CRT file** field. Currently, Postman only supports the CRT format. Support for other formats (like PFX) will come soon.
 
 Choose your client certificate key file in the **KEY file** field.
 
 If you used a passphrase while generating the client certificate, you’ll need to supply the passphrase in the **Passphrase** field. Otherwise, leave it blank.
 
-[![add certificate](https://cloud.githubusercontent.com/assets/7689783/19721093/75d764c8-9b8e-11e6-85c2-feff9eea4345.png)](https://cloud.githubusercontent.com/assets/7689783/19721093/75d764c8-9b8e-11e6-85c2-feff9eea4345.png)
+[![add certificate](https://assets.postman.com/postman-docs/addcertificate.png)](https://assets.postman.com/postman-docs/addcertificate.png)
 
 Once your certificate is added, it should appear in the client certificates list.
 
-[![client certificates list](https://cloud.githubusercontent.com/assets/7689783/19721340/7a071024-9b8f-11e6-97d2-814aa3075c80.png)](https://cloud.githubusercontent.com/assets/7689783/19721340/7a071024-9b8f-11e6-97d2-814aa3075c80.png)
+[![client certificates list](https://assets.postman.com/postman-docs/clientcertificateslist.png)](https://assets.postman.com/postman-docs/clientcertificateslist.png)
 
 **NOTE:** You should not have multiple certificates set for the same domain. If you have multiple ones set, only the last one added will be used.
 
@@ -56,13 +56,13 @@ You can verify this. To do so, open up your Postman console (**CMD/CTRL + ALT + 
 
 Now, send a request to [`https://echo.getpostman.com/get`](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722). Keep the Postman Console open if Postman version is lower than `v7.10`. Notice we’re using `https` to make sure the certificate is sent. Once the response arrives, switch over to the Postman console to see your request. If you expand your request, you will be able to see which certificate was sent along with the request.
 
-[![Postman console view](https://cloud.githubusercontent.com/assets/7689783/19721699/0ccdeada-9b91-11e6-98af-eb08f8e68f5b.png)](https://cloud.githubusercontent.com/assets/7689783/19721699/0ccdeada-9b91-11e6-98af-eb08f8e68f5b.png)
+[![Postman console view](https://assets.postman.com/postman-docs/postmanconsoleviewcertificates.png)](https://assets.postman.com/postman-docs/postmanconsoleviewcertificates.png)
 
 ## Removing a Certificate
 
 To remove a certificate, use the **Remove** link next to the certificate under the **Certificates** tab in the Settings.
 
-[![remove certificate](https://cloud.githubusercontent.com/assets/7689783/19721340/7a071024-9b8f-11e6-97d2-814aa3075c80.png)](https://cloud.githubusercontent.com/assets/7689783/19721340/7a071024-9b8f-11e6-97d2-814aa3075c80.png)
+[![remove certificate](https://assets.postman.com/postman-docs/removecertificate.png)](https://assets.postman.com/postman-docs/removecertificate.png)
 
 ## Editing a Certificate
 

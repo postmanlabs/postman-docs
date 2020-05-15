@@ -1,29 +1,37 @@
 ---
 title: "Using environments in collection runs"
-order: 55
+order: 113
 page_id: "using_environments_in_collection_runs"
 contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Intro to environments and globals"
-    url: "/docs/postman/environments-and-globals/intro-to-environments-and-globals/"
+    name: "Variables"
+    url: "/docs/postman/variables-and-environments/variables/"
   - type: section
     name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Ping Identity"
+    url: "https://www.postman.com/resources/case-studies/pingidentity/"
+  - type: link
+    name: "AMC Theatres"
+    url: "https://www.postman.com/resources/case-studies/amc-theatres/"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Generate Spotify Playlists using a Postman Collection"
-    url: "https://blog.getpostman.com/2016/11/09/generate-spotify-playlists-using-a-postman-collection/?_ga=2.191709420.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2016/11/09/generate-spotify-playlists-using-a-postman-collection/"
 
 warning: false
 ---
 
-Environments enables you to create robust requests that you can reuse. For more information about using variables and environments, see [Variables](/docs/postman/environments-and-globals/variables/). You also can use environments in the Collection Runner.
+Environments enables you to create robust requests that you can reuse. For more information about using variables and environments, see [Variables](/docs/postman/variables-and-environments/variables/). You also can use environments in the Collection Runner.
 
 Let's look at an example collection with one POST request that uses environment variables in its URL, body, and test script.
 
-* [Gettting started](#getting-started)
+* [Getting started](#getting-started)
 * [Running the sample collection](#running-the-sample-collection)
 
 ## Getting started
@@ -62,7 +70,7 @@ In the Collection Runner, select the test environment from the environment dropd
 
 If you switch back to the main Postman app window and check the value of the variable `foo`, you'll see that it is now `bar2`.
 
-By default, any variable changes in the environment (or globals) in the Collection Runner shows in the main Postman app window because `Persist Variables` is checked in the options. If you run the collection once again, you'll see that it now fails, since we changed the value of the variable `foo`.
+By default, any variable changes in the environment (or globals) in the Collection Runner shows in the main Postman app window because `Persist Variables` is checked in the options. If you run the collection once again, you'll see that it now fails, since you changed the value of the variable `foo`.
 
 [![collection runner results](https://assets.postman.com/postman-docs/using_environment_in_collection_runs/collection_runner_results.png)](https://assets.postman.com/postman-docs/using_environment_in_collection_runs/collection_runner_results.png)
 

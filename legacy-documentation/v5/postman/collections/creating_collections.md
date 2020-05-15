@@ -174,4 +174,4 @@ The  **Create New** tab appears by default when you launch Postman.
   <li> Select "Duplicate" from the menu.</li>
 </ol>
 
-Learn how to [share collections](docs/postman/collections/sharing_collections/), [import and export collections](https://learning.getpostman.com/docs/postman/collections/data_formats/), and [use other collection features](https://learning.getpostman.com/docs/postman/collections/managing_collections/).  
+Learn how to [share collections](docs/postman/collections/sharing_collections/), [import and export collections](https://learning.postman.com/docs/postman/collections/data_formats/), and [use other collection features](https://learning.postman.com/docs/postman/collections/managing_collections/).  

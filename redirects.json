@@ -1,18 +1,582 @@
 [
-  {
-    "from": "/docs/",
-    "to": "/docs/postman/launching-postman/installation-and-updates/"
-  },
-  {
-    "from": "https://learning.getpostman.com/docs/postman_pro/managing_postman_pro/migrating_to_v7/#download-latest-postman-v6-app",
-    "to": "https://learning.getpostman.com/docs/postman-pro/managing-pro/migrating-to-v7/#download-latest-postman-v6-app"
-  },
-  {
-    "from": "https://learning.getpostman.com/docs/postman_pro/managing_postman_pro/roles_and_permissions/",
-    "to": "https://learning.getpostman.com/docs/postman-pro/managing-pro/roles-and-permissions/"
-  },
-  {
-    "from": "https://learning.getpostman.com/docs/postman-pro/managing-pro/inviting-and-managing/",
-    "to": "ttps://learning.getpostman.com/docs/postman-pro/managing-pro/managing-your-team/"
-  }
+    {
+        "from": "/docs/",
+        "to": "/docs/postman/launching-postman/introduction/"
+    },
+    {
+        "from": "/docs/postman/scripts/postman-sandbox/",
+        "to": "/docs/postman/scripts/postman-sandbox-api-reference/"
+    },
+    {
+        "from": "/docs/postman/scripts/postman_sandbox/",
+        "to": "/docs/postman/scripts/postman-sandbox-api-reference/"
+    },
+    {
+        "from": "/docs/api_testing_and_collection_runner/writing_tests",
+        "to": "/docs/postman/scripts/test-scripts/"
+    },
+    {
+        "from": "/docs/postman-enterprise/audit-logs/",
+        "to": "/docs/postman/collaboration/audit-logs/"
+    },
+    {
+        "from": "/docs/postman-enterprise/intro-to-enterprise/",
+        "to": "/docs/administration/buying/"
+    },
+    {
+        "from": "/docs/postman-enterprise/purchasing-enterprise/",
+        "to": "/docs/administration/buying/"
+    },
+    {
+        "from": "/docs/postman-enterprise/sso/admin-sso/",
+        "to": "/docs/administration/sso/admin-sso/"
+    },
+    {
+        "from": "/docs/postman-enterprise/sso/intro-sso/",
+        "to": "/docs/administration/sso/intro-sso/"
+    },
+    {
+        "from": "/docs/postman-enterprise/sso/microsoft-adfs/",
+        "to": "/docs/administration/sso/microsoft-adfs/"
+    },
+    {
+        "from": "/docs/postman-enterprise/sso/saml-duo/",
+        "to": "/docs/administration/sso/saml-duo/"
+    },
+    {
+        "from": "/docs/postman-enterprise/sso/saml-gsuite/",
+        "to": "/docs/administration/sso/saml-gsuite/"
+    },
+    {
+        "from": "/docs/postman-enterprise/sso/saml-in-azure-ad/",
+        "to": "/docs/administration/sso/saml-in-azure-ad/"
+    },
+    {
+        "from": "/docs/postman-enterprise/sso/saml-okta/",
+        "to": "/docs/administration/sso/saml-okta/"
+    },
+    {
+        "from": "/docs/postman-enterprise/sso/saml-onelogin/",
+        "to": "/docs/administration/sso/saml-onelogin/"
+    },
+    {
+        "from": "/docs/postman-enterprise/sso/saml-ping/",
+        "to": "/docs/administration/sso/saml-ping/"
+    },
+    {
+        "from": "/docs/postman-enterprise/sso/user-sso/",
+        "to": "/docs/administration/sso/user-sso/"
+    },
+    {
+        "from": "/docs/postman-enterprise/using-static-IPs-to-monitor/",
+        "to": "/docs/postman/monitors/using-static-IPs-to-monitor/"
+    },
+    {
+        "from": "/docs/postman-for-publishers/run-button/collections-run-button/",
+        "to": "/docs/postman-for-publishers/run-in-postman/collections-run-button/"
+    },
+    {
+        "from": "/docs/postman-for-publishers/run-button/environments-run-button/",
+        "to": "/docs/postman-for-publishers/run-in-postman/environments-run-button/"
+    },
+    {
+        "from": "/docs/postman-for-publishers/run-button/run-button-API/",
+        "to": "/docs/postman-for-publishers/run-in-postman/run-button-API/"
+    },
+    {
+        "from": "/docs/postman-for-publishers/run-button/security/",
+        "to": "/docs/postman-for-publishers/run-in-postman/security/"
+    },
+    {
+        "from": "/docs/postman-for-publishers/run-button/using-run-button/",
+        "to": "/docs/postman-for-publishers/run-in-postman/using-run-button/"
+    },
+    {
+        "from": "/docs/postman-pro/integrations/apimatic/",
+        "to": "/docs/integrations/apimatic/"
+    },
+    {
+        "from": "/docs/postman-pro/integrations/bigpanda/",
+        "to": "/docs/integrations/bigpanda/"
+    },
+    {
+        "from": "/docs/postman-pro/integrations/coralogix/",
+        "to": "/docs/integrations/coralogix/"
+    },
+    {
+        "from": "/docs/postman-pro/integrations/datadog/",
+        "to": "/docs/integrations/datadog/"
+    },
+    {
+        "from": "/docs/postman-pro/integrations/dropbox/",
+        "to": "/docs/integrations/dropbox/"
+    },
+    {
+        "from": "/docs/postman-pro/integrations/github/",
+        "to": "/docs/integrations/github/"
+    },
+    {
+        "from": "/docs/postman-pro/integrations/gitlab/",
+        "to": "/docs/integrations/gitlab/"
+    },
+    {
+        "from": "/docs/postman-pro/integrations/hipchat/",
+        "to": "/docs/integrations/gitlab/"
+    },
+    {
+        "from": "/docs/postman-pro/integrations/intro-integrations/",
+        "to": "/docs/integrations/hipchat/"
+    },
+    {
+        "from": "/docs/postman-pro/integrations/keen/",
+        "to": "/docs/integrations/keen/"
+    },
+    {
+        "from": "/docs/postman-pro/integrations/microsoft-flow/",
+        "to": "/docs/integrations/microsoft-flow/"
+    },
+    {
+        "from": "/docs/postman-pro/integrations/microsoft-teams/",
+        "to": "/docs/integrations/microsoft-teams/"
+    },
+    {
+        "from": "/docs/postman-pro/integrations/pagerduty/",
+        "to": "/docs/integrations/pagerduty/"
+    },
+    {
+        "from": "/docs/postman-pro/integrations/slack/",
+        "to": "/docs/integrations/slack/"
+    },
+    {
+        "from": "/docs/postman-pro/integrations/victorops/",
+        "to": "/docs/integrations/victorops/"
+    },
+    {
+        "from": "/docs/postman-pro/integrations/webhooks/",
+        "to": "/docs/integrations/webhooks/"
+    },
+    {
+        "from": "/docs/postman-pro/managing-pro/billing-and-pricing/",
+        "to": "/docs/administration/billing/"
+    },
+    {
+        "from": "/docs/postman-pro/managing-pro/billing/",
+        "to": "/docs/administration/billing/"
+    },
+    {
+        "from": "/docs/postman-pro/managing-pro/buying/",
+        "to": "/docs/administration/buying/"
+    },
+    {
+        "from": "/docs/postman-pro/managing-pro/changing-your-plan/",
+        "to": "/docs/administration/billing/"
+    },
+    {
+        "from": "/docs/postman-pro/managing-pro/inviting-and-managing/",
+        "to": "/docs/postman/collaboration/managing-your-team/"
+    },
+    {
+        "from": "/docs/postman-pro/managing-pro/managing-your-billing/",
+        "to": "/docs/administration/billing/"
+    },
+    {
+        "from": "/docs/postman-pro/managing-pro/managing-your-team/",
+        "to": "/docs/postman/collaboration/managing-your-team/"
+    },
+    {
+        "from": "/docs/postman-pro/managing-pro/migrating-to-v7/",
+        "to": "/docs/administration/migrating-to-v7"
+    },
+    {
+        "from": "/docs/postman-pro/managing-pro/purchasing-pro/",
+        "to": "/docs/administration/buying/"
+    },
+    {
+        "from": "/docs/postman-pro/managing-pro/roles-and-permissions/",
+        "to": "/docs/postman/collaboration/roles-and-permissions/"
+    },
+    {
+        "from": "/docs/postman-pro/managing-pro/team-settings/",
+        "to": "/docs/postman/collaboration/team-settings/"
+    },
+    {
+        "from": "/docs/postman-pro/managing-pro/upgrading-to-postman-pro-from-a-trial-team/",
+        "to": "/docs/administration/buying/"
+    },
+    {
+        "from": "/docs/postman-pro/what-is-pro/",
+        "to": "/docs/administration/buying/"
+    },
+    {
+        "from": "/docs/postman/api-documentation/adding-and-verifying-custom-domains/",
+        "to": "/docs/postman/api-documentation/custom-doc-domains/"
+    },
+    {
+        "from": "/docs/postman/api-documentation/adding-team-name-and-logo/",
+        "to": "/docs/postman/api-documentation/publishing-your-docs/"
+    },
+    {
+        "from": "/docs/postman/api-documentation/environments-and-environment-templates/",
+        "to": "/docs/postman/api-documentation/documenting-your-api/"
+    },
+    {
+        "from": "/docs/postman/api-documentation/how-to-document-using-markdown/",
+        "to": "/docs/postman/api-documentation/authoring-your-documentation/"
+    },
+    {
+        "from": "/docs/postman/api-documentation/intro-to-api-documentation/",
+        "to": "/docs/postman/api-documentation/documenting-your-api/"
+    },
+    {
+        "from": "/docs/postman/api-documentation/publishing-public-docs/",
+        "to": "/docs/postman/api-documentation/publishing-your-docs/"
+    },
+    {
+        "from": "/docs/postman/api_documentation/adding_and_verifying_custom_domains/",
+        "to": "/docs/postman/api-documentation/custom-doc-domains/"
+    },
+    {
+        "from": "/docs/postman/api_documentation/adding_team_name_and_logo/",
+        "to": "/docs/postman/api-documentation/publishing-your-docs/"
+    },
+    {
+        "from": "/docs/postman/api_documentation/environments_and_environment_templates/",
+        "to": "/docs/postman/api-documentation/documenting-your-api/"
+    },
+    {
+        "from": "/docs/postman/api_documentation/how_to_document_using_markdown/",
+        "to": "/docs/postman/api-documentation/authoring-your-documentation/"
+    },
+    {
+        "from": "/docs/postman/api_documentation/intro_to_api_documentation/",
+        "to": "/docs/postman/api-documentation/documenting-your-api"
+    },
+    {
+        "from": "/docs/postman/api_documentation/publishing_public_docs/",
+        "to": "/docs/postman/api-documentation/publishing-your-docs/"
+    },
+    {
+        "from": "/docs/postman/collections/requesting-access-to-collections/",
+        "to": "/docs/postman/collaboration/requesting-access-to-collections/"
+    },
+    {
+        "from": "/docs/postman/design-and-develop-apis/introduction-to-apis/",
+        "to": "/docs/postman/design-and-develop-apis/the-api-workflow/"
+    },
+    {
+        "from": "/docs/postman/design-and-develop-apis/reporting-faqs/",
+        "to": "/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/"
+    },
+    {
+        "from": "/docs/postman/design-and-develop-apis/sharing-apis/",
+        "to": "/docs/postman/design-and-develop-apis/managing-apis/"
+    },
+    {
+        "from": "/docs/postman/design_and_develop_apis/introduction_to_apis/",
+        "to": "/docs/postman/design-and-develop-apis/the-api-workflow/"
+    },
+    {
+        "from": "/docs/postman/design_and_develop_apis/reporting_faqs/",
+        "to": "/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/"
+    },
+    {
+        "from": "/docs/postman/design_and_develop_apis/sharing_apis/",
+        "to": "/docs/postman/design-and-develop-apis/managing-apis/"
+    },
+    {
+        "from": "/docs/postman/environments-and-globals/intro-to-environments-and-globals/",
+        "to": "/docs/postman/variables-and-environments/variables/"
+    },
+    {
+        "from": "/docs/postman/environments-and-globals/manage-environments/",
+        "to": "/docs/postman/variables-and-environments/variables/"
+    },
+    {
+        "from": "/docs/postman/environments-and-globals/manage-globals/",
+        "to": "/docs/postman/variables-and-environments/variables/"
+    },
+    {
+        "from": "/docs/postman/environments-and-globals/sessions/",
+        "to": "/docs/postman/variables-and-environments/variables/#sessions-in-postman"
+    },
+    {
+        "from": "/docs/postman/environments-and-globals/variables-complete-reference/",
+        "to": "/docs/postman/variables-and-environments-and-globals/variables/"
+    },
+    {
+        "from": "/docs/postman/environments-and-globals/variables-list/",
+        "to": "/docs/postman/variables-and-environments/variables-list/"
+    },
+    {
+        "from": "/docs/postman/environments_and_globals/intro_to_environments_and_globals/",
+        "to": "/docs/postman/variables-and-environments/variables/"
+    },
+    {
+        "from": "/docs/postman/environments_and_globals/manage_environments/",
+        "to": "/docs/postman/variables-and-environments/variables/"
+    },
+    {
+        "from": "/docs/postman/environments_and_globals/manage_globals/",
+        "to": "/docs/postman/variables-and-environments/variables/"
+    },
+    {
+        "from": "/docs/postman/environments_and_globals/variables/",
+        "to": "/docs/postman/variables-and-environments/variables/"
+    },
+    {
+        "from": "/docs/postman/environments_and_globals/variables_complete_reference/",
+        "to": "/docs/postman/variables-and-environments-and-globals/variables/"
+    },
+    {
+        "from": "/docs/postman/environments_and_globals/variables_list/",
+        "to": "/docs/postman/variables-and-environments/variables-list/"
+    },
+    {
+        "from": "/docs/postman/launching-postman/collaboration/",
+        "to": "/docs/postman/collaboration/collaboration-intro/"
+    },
+    {
+        "from": "/docs/postman/launching_postman/collaboration/",
+        "to": "/docs/postman/collaboration/collaboration-intro/"
+    },
+    {
+        "from": "/docs/postman/monitors/pricing-monitors/",
+        "to": "/docs/postman/monitors/intro-monitors/"
+    },
+    {
+        "from": "/docs/postman/monitors/pricing_monitors/",
+        "to": "/docs/postman/monitors/intro-monitors/"
+    },
+    {
+        "from": "/docs/postman/sending-api-requests/interceptor-extension/",
+        "to": "/docs/postman/sending-api-requests/interceptor/"
+    },
+    {
+        "from": "/docs/postman/sending_api_requests/interceptor_extension/",
+        "to": "/docs/postman/sending-api-requests/interceptor/"
+    },
+    {
+        "from": "/docs/postman/workspaces/activity-feed-and-restoring-collections/",
+        "to": "/docs/postman/workspaces/changelog-and-restoring-collections/"
+    },
+    {
+        "from": "/docs/postman/workspaces/activity_feed_and_restoring_collections/",
+        "to": "/docs/postman/workspaces/changelog-and-restoring-collections/"
+    },
+    {
+        "from": "/docs/postman/workspaces/sharing-collections-in-workspaces-for-version-5/",
+        "to": "/docs/postman/team-library/sharing-collections-in-workspaces-for-version-5/"
+    },
+    {
+        "from": "/docs/postman/workspaces/sharing_collections_in_workspaces_for_version_5/",
+        "to": "/docs/postman/team-library/sharing-collections-in-workspaces-for-version-5/"
+    },
+    {
+        "from": "/docs/postman_enterprise/audit_logs/",
+        "to": "/docs/postman/collaboration/audit-logs/"
+    },
+    {
+        "from": "/docs/postman_enterprise/intro_to_enterprise/",
+        "to": "/docs/administration/buying/"
+    },
+    {
+        "from": "/docs/postman_enterprise/purchasing_enterprise/",
+        "to": "/docs/administration/buying/"
+    },
+    {
+        "from": "/docs/postman_enterprise/sso/admin_sso/",
+        "to": "/docs/administration/sso/admin-sso/"
+    },
+    {
+        "from": "/docs/enterprise/sso/admin_sso/",
+        "to": "/docs/administration/sso/admin-sso/"
+    },
+    {
+        "from": "/docs/postman_enterprise/sso/intro_sso/",
+        "to": "/docs/administration/sso/intro-sso/"
+    },
+    {
+        "from": "/docs/postman_enterprise/sso/microsoft_adfs/",
+        "to": "/docs/administration/sso/microsoft-adfs/"
+    },
+    {
+        "from": "/docs/postman_enterprise/sso/saml_duo/",
+        "to": "/docs/administration/sso/saml-duo/"
+    },
+    {
+        "from": "/docs/postman_enterprise/sso/saml_gsuite/",
+        "to": "/docs/administration/sso/saml-gsuite/"
+    },
+    {
+        "from": "/docs/postman_enterprise/sso/saml_in_azure_ad/",
+        "to": "/docs/administration/sso/saml-in-azure-ad/"
+    },
+    {
+        "from": "/docs/postman_enterprise/sso/saml_okta/",
+        "to": "/docs/administration/sso/saml-okta/"
+    },
+    {
+        "from": "/docs/postman_enterprise/sso/saml_onelogin/",
+        "to": "/docs/administration/sso/saml-onelogin/"
+    },
+    {
+        "from": "/docs/postman_enterprise/sso/saml_ping/",
+        "to": "/docs/administration/sso/saml-ping/"
+    },
+    {
+        "from": "/docs/postman_enterprise/sso/user_sso/",
+        "to": "/docs/administration/sso/user-sso/"
+    },
+    {
+        "from": "/docs/postman_enterprise/using_static_IPs_to_monitor/",
+        "to": "/docs/postman/monitors/using-static-IPs-to-monitor/"
+    },
+    {
+        "from": "/docs/postman_for_publishers/run_button/collections_run_button/",
+        "to": "/docs/postman-for-publishers/run-in-postman/collections-run-button/"
+    },
+    {
+        "from": "/docs/postman_for_publishers/run_button/environments_run_button/",
+        "to": "/docs/postman-for-publishers/run-in-postman/environments-run-button/"
+    },
+    {
+        "from": "/docs/postman_for_publishers/run_button/run_button_API/",
+        "to": "/docs/postman-for-publishers/run-in-postman/run-button-API/"
+    },
+    {
+        "from": "/docs/postman_for_publishers/run_button/security/",
+        "to": "/docs/postman-for-publishers/run-in-postman/security/"
+    },
+    {
+        "from": "/docs/postman_for_publishers/run_button/using_run_button/",
+        "to": "/docs/postman-for-publishers/run-in-postman/using-run-button/"
+    },
+    {
+        "from": "/docs/postman_pro/integrations/apimatic/",
+        "to": "/docs/integrations/apimatic/"
+    },
+    {
+        "from": "/docs/postman_pro/integrations/bigpanda/",
+        "to": "/docs/integrations/bigpanda/"
+    },
+    {
+        "from": "/docs/postman_pro/integrations/coralogix/",
+        "to": "/docs/integrations/coralogix/"
+    },
+    {
+        "from": "/docs/postman_pro/integrations/custom_webhooks/",
+        "to": "/docs/integrations/webhooks/"
+    },
+    {
+        "from": "/docs/postman_pro/integrations/datadog/",
+        "to": "/docs/integrations/datadog/"
+    },
+    {
+        "from": "/docs/postman_pro/integrations/dropbox/",
+        "to": "/docs/integrations/dropbox/"
+    },
+    {
+        "from": "/docs/postman_pro/integrations/github/",
+        "to": "/docs/integrations/github/"
+    },
+    {
+        "from": "/docs/postman_pro/integrations/gitlab/",
+        "to": "/docs/integrations/gitlab/"
+    },
+    {
+        "from": "/docs/postman_pro/integrations/hipchat/",
+        "to": "/docs/integrations/hipchat/"
+    },
+    {
+        "from": "/docs/postman_pro/integrations/intro_integrations/",
+        "to": "/docs/integrations/intro-integrations/"
+    },
+    {
+        "from": "/docs/postman_pro/integrations/keen/",
+        "to": "/docs/integrations/keen/"
+    },
+    {
+        "from": "/docs/postman_pro/integrations/microsoft_flow/",
+        "to": "/docs/integrations/microsoft-flow/"
+    },
+    {
+        "from": "/docs/postman_pro/integrations/microsoft_teams/",
+        "to": "/docs/integrations/microsoft-teams/"
+    },
+    {
+        "from": "/docs/postman_pro/integrations/pagerduty/",
+        "to": "/docs/integrations/pagerduty/"
+    },
+    {
+        "from": "/docs/postman_pro/integrations/slack/",
+        "to": "/docs/integrations/slack/"
+    },
+    {
+        "from": "/docs/postman_pro/integrations/victorops/",
+        "to": "/docs/integrations/victorops/"
+    },
+    {
+        "from": "/docs/postman_pro/integrations/webhooks/",
+        "to": "/docs/integrations/webhooks/"
+    },
+    {
+        "from": "/docs/postman_pro/managing_postman_pro/managing_your_team/",
+        "to": "/docs/postman/collaboration/managing-your-team/"
+    },
+    {
+        "from": "/docs/postman_pro/managing_postman_pro/migrating_to_v7/",
+        "to": "/docs/administration/migrating-to-v7/"
+    },
+    {
+        "from": "/docs/postman_pro/managing_postman_pro/roles_and_permissions/",
+        "to": "/docs/postman/collaboration/roles-and-permissions/"
+    },
+    {
+        "from": "/docs/postman_pro/managing_pro/billing_and_pricing/",
+        "to": "/docs/administration/billing/"
+    },
+    {
+        "from": "/docs/postman_pro/managing_pro/buying/",
+        "to": "/docs/administration/buying/"
+    },
+    {
+        "from": "/docs/postman_pro/managing_pro/changing_your_plan/",
+        "to": "/docs/administration/billing/"
+    },
+    {
+        "from": "/docs/postman_pro/managing_pro/inviting_and_managing",
+        "to": "/docs/postman/collaboration/managing-your-team/"
+    },
+    {
+        "from": "/docs/postman_pro/managing_pro/managing_your_billing/",
+        "to": "/docs/administration/billing/"
+    },
+    {
+        "from": "/docs/postman_pro/managing_pro/managing_your_team/",
+        "to": "/docs/postman/collaboration/managing-your-team/"
+    },
+    {
+        "from": "/docs/postman_pro/managing_pro/purchasing_pro/",
+        "to": "/docs/administration/buying/"
+    },
+    {
+        "from": "/docs/postman_pro/managing_pro/team_settings/",
+        "to": "/docs/postman/collaboration/team-settings/"
+    },
+    {
+        "from": "/docs/postman_pro/managing_pro/upgrading_to_postman_pro_from_a_trial_team/",
+        "to": "/docs/administration/buying/"
+    },
+    {
+        "from": "/docs/postman_pro/what_is_pro/",
+        "to": "/docs/administration/buying/"
+    },
+    {
+        "from": "/docs/v6/postman/sending_api_requests/authorization",
+        "to": "/docs/postman/sending-api-requests/authorization/"
+    },
+    {
+        "from": "/docs/postman/collections/data-formats/",
+        "to": "/docs/postman/collections/importing-and-exporting-data/"
+    }
 ]

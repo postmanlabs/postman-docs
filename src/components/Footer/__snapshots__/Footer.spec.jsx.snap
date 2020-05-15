@@ -24,7 +24,7 @@ exports[`renders correctly 1`] = `
           <li>
             <a
               className="dynamic-link__external footer-column__link"
-              href="https://www.getpostman.com/product/api-client"
+              href="https://www.postman.com/product/api-client"
             >
               API Client
             </a>
@@ -32,7 +32,7 @@ exports[`renders correctly 1`] = `
           <li>
             <a
               className="dynamic-link__external footer-column__link"
-              href="https://www.getpostman.com/automated-testing"
+              href="https://www.postman.com/automated-testing"
             >
               Automated Testing
             </a>
@@ -40,7 +40,7 @@ exports[`renders correctly 1`] = `
           <li>
             <a
               className="dynamic-link__external footer-column__link"
-              href="https://www.getpostman.com/features/mock-api"
+              href="https://www.postman.com/features/mock-api"
             >
               Design & Mock
             </a>
@@ -48,7 +48,7 @@ exports[`renders correctly 1`] = `
           <li>
             <a
               className="dynamic-link__external footer-column__link"
-              href="https://www.getpostman.com/api-documentation-generator"
+              href="https://www.postman.com/api-documentation-generator"
             >
               Documentation
             </a>
@@ -56,7 +56,7 @@ exports[`renders correctly 1`] = `
           <li>
             <a
               className="dynamic-link__external footer-column__link"
-              href="https://www.getpostman.com/api-monitor"
+              href="https://www.postman.com/api-monitor"
             >
               Monitors
             </a>
@@ -64,7 +64,7 @@ exports[`renders correctly 1`] = `
           <li>
             <a
               className="dynamic-link__external footer-column__link"
-              href="https://www.getpostman.com/product/api-versioning"
+              href="https://www.postman.com/product/api-versioning"
             >
               Version Control
             </a>
@@ -72,7 +72,7 @@ exports[`renders correctly 1`] = `
           <li>
             <a
               className="dynamic-link__external footer-column__link"
-              href="https://www.getpostman.com/product/workspaces"
+              href="https://www.postman.com/product/workspaces"
             >
               Workspaces
             </a>
@@ -96,7 +96,7 @@ exports[`renders correctly 1`] = `
           <li>
             <a
               className="dynamic-link__external footer-column__link"
-              href="https://www.getpostman.com/downloads/"
+              href="https://www.postman.com/downloads/"
             >
               Download the App
             </a>
@@ -104,7 +104,7 @@ exports[`renders correctly 1`] = `
           <li>
             <a
               className="dynamic-link__external footer-column__link"
-              href="https://www.getpostman.com/downloads/release-notes"
+              href="https://www.postman.com/downloads/release-notes"
             >
               Release Notes
             </a>
@@ -112,7 +112,7 @@ exports[`renders correctly 1`] = `
           <li>
             <a
               className="dynamic-link__external footer-column__link"
-              href="https://www.getpostman.com/integrations/"
+              href="https://www.postman.com/integrations/"
             >
               Integrations
             </a>
@@ -176,7 +176,7 @@ exports[`renders correctly 1`] = `
           <li>
             <a
               className="dynamic-link__external footer-column__link"
-              href="https://www.getpostman.com/use-cases/api-testing"
+              href="https://www.postman.com/use-cases/api-testing"
             >
               Testing
             </a>
@@ -184,7 +184,7 @@ exports[`renders correctly 1`] = `
           <li>
             <a
               className="dynamic-link__external footer-column__link"
-              href="https://www.getpostman.com/use-cases/product-management"
+              href="https://www.postman.com/use-cases/product-management"
             >
               Product Management
             </a>
@@ -208,7 +208,7 @@ exports[`renders correctly 1`] = `
           <li>
             <a
               className="dynamic-link__external footer-column__link"
-              href="https://www.getpostman.com/pricing"
+              href="https://www.postman.com/pricing"
             >
               Overview
             </a>
@@ -216,7 +216,7 @@ exports[`renders correctly 1`] = `
           <li>
             <a
               className="dynamic-link__external footer-column__link"
-              href="https://www.getpostman.com/postman-enterprise"
+              href="https://www.postman.com/postman-enterprise"
             >
               Postman Enterprise
             </a>
@@ -240,7 +240,7 @@ exports[`renders correctly 1`] = `
           <li>
             <a
               className="dynamic-link__external footer-column__link"
-              href="https://www.getpostman.com/support"
+              href="https://www.postman.com/support"
             >
               Support
             </a>
@@ -264,7 +264,7 @@ exports[`renders correctly 1`] = `
           <li>
             <a
               className="dynamic-link__external footer-column__link"
-              href="https://www.getpostman.com/resources/videos-tutorials/"
+              href="https://www.postman.com/resources/videos-tutorials/"
             >
               Videos & Tutorials
             </a>
@@ -272,7 +272,7 @@ exports[`renders correctly 1`] = `
           <li>
             <a
               className="dynamic-link__external footer-column__link"
-              href="https://www.getpostman.com/community"
+              href="https://www.postman.com/community"
             >
               Community Content
             </a>
@@ -280,7 +280,7 @@ exports[`renders correctly 1`] = `
           <li>
             <a
               className="dynamic-link__external footer-column__link"
-              href="https://community.getpostman.com/"
+              href="https://community.postman.com/"
             >
               Postman Community
             </a>
@@ -304,7 +304,7 @@ exports[`renders correctly 1`] = `
           <li>
             <a
               className="dynamic-link__external footer-column__link"
-              href="https://www.getpostman.com/about-postman"
+              href="https://www.postman.com/about-postman"
             >
               About
             </a>
@@ -312,7 +312,7 @@ exports[`renders correctly 1`] = `
           <li>
             <a
               className="dynamic-link__external footer-column__link"
-              href="https://www.getpostman.com/jobs/"
+              href="https://www.postman.com/jobs/"
             >
               Jobs
             </a>
@@ -320,7 +320,7 @@ exports[`renders correctly 1`] = `
           <li>
             <a
               className="dynamic-link__external footer-column__link"
-              href="https://www.getpostman.com/contact"
+              href="https://www.postman.com/contact"
             >
               Contact
             </a>
@@ -328,7 +328,7 @@ exports[`renders correctly 1`] = `
           <li>
             <a
               className="dynamic-link__external footer-column__link"
-              href="https://blog.getpostman.com/"
+              href="https://blog.postman.com/"
             >
               Blog
             </a>
@@ -336,7 +336,7 @@ exports[`renders correctly 1`] = `
           <li>
             <a
               className="dynamic-link__external footer-column__link"
-              href="https://www.getpostman.com/resources/press-releases/"
+              href="https://www.postman.com/resources/press-releases/"
             >
               Resources
             </a>
@@ -352,7 +352,7 @@ exports[`renders correctly 1`] = `
           <li>
             <a
               className="dynamic-link__external footer-column__link"
-              href="https://www.getpostman.com/post-con-2019"
+              href="https://www.postman.com/post-con-2019"
             >
               POST/CON 2019
             </a>
@@ -501,7 +501,7 @@ exports[`renders correctly 1`] = `
               className="list-inline-item"
             >
               <a
-                href="https://www.getpostman.com/security"
+                href="https://www.postman.com/security"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -516,7 +516,7 @@ exports[`renders correctly 1`] = `
               className="list-inline-item"
             >
               <a
-                href="https://www.getpostman.com/licenses/privacy"
+                href="https://www.postman.com/licenses/privacy"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -531,7 +531,7 @@ exports[`renders correctly 1`] = `
               className="list-inline-item"
             >
               <a
-                href="https://www.getpostman.com/licenses/postman_eula"
+                href="https://www.postman.com/licenses/postman_eula"
                 rel="noopener noreferrer"
                 target="_blank"
               >

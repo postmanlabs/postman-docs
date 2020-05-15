@@ -1,11 +1,10 @@
-import { Link } from 'gatsby';
+import { useStaticQuery, graphql, Link } from 'gatsby';
 import React from 'react';
 import './Header.scss';
 import algoliasearch from 'algoliasearch/lite';
 import {
   InstantSearch, SearchBox, Hits, Configure,
 } from 'react-instantsearch-dom';
-import HeaderJson from './Header.data.json';
 import DynamicLink from '../Shared/DynamicLink';
 import postmanLogo from '../../images/postman-logo-horizontal-orange.svg';
 
@@ -32,23 +31,26 @@ const searchClient = {
 
 // changes button in navbar based on cookie presence
 const LoginCheck = (props) => {
-  if (props !== 'getpostmanlogin') {
+  const { cookie } = props;
+  if (cookie !== 'yes') {
     return (
       <a href="https://identity.getpostman.com/login" className="btn btn__primary">Sign In</a>
     );
   }
   return (
-    <a href="https://app.getpostman.com/" className="btn btn__primary">Dashboard</a>
+    <a href="https://app.getpostman.com" className="btn btn__primary">Dashboard</a>
   );
 };
 
-class Header extends React.Component {
+class HeaderComponent extends React.Component {
   constructor(props) {
     super(props);
 
     this.getCookie = this.getCookie.bind(this);
+    const { data } = this.props;
 
     this.state = {
+      data: JSON.parse(data),
       isToggledOn: 'unset',
       hasInput: false,
       refresh: false,
@@ -86,10 +88,9 @@ class Header extends React.Component {
   }
 
   render() {
-    const { isToggledOn } = this.state;
-    const { refresh } = this.state;
-    const { hasInput } = this.state;
-
+    const {
+      isToggledOn, refresh, hasInput, data,
+    } = this.state;
     return (
       <header className="header text-center navbar navbar-expand-xl navbar-light">
         <div className="navbar-brand header__brand">
@@ -98,7 +99,7 @@ class Header extends React.Component {
             to="/"
           >
             <img className="header__logo" src={postmanLogo} alt="postman logo" />
-            <span className="header__title">{HeaderJson.title}</span>
+            <span className="header__title">{data.title}</span>
           </Link>
         </div>
 
@@ -147,7 +148,7 @@ class Header extends React.Component {
               </InstantSearch>
             </ClickOutHandler>
           </div>
-          {HeaderJson.links.map((link) => (
+          {data.links.map((link) => (
             <div className="nav-item" key={link.name}>
               {link.cta ? <LoginCheck cookie={this.getCookie('getpostmanlogin')} /> : <DynamicLink className="nav-link" url={link.url} name={link.name} />}
             </div>
@@ -157,5 +158,17 @@ class Header extends React.Component {
     );
   }
 }
+
+const Header = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      headerLinks {
+        value
+      }
+    }`);
+  return (
+    <HeaderComponent data={data.headerLinks.value} />
+  );
+};
 
 export default Header;

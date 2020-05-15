@@ -124,9 +124,9 @@ You must select the frequency of how often you want to run your monitor. Monitor
 
 When you specify a monitor to run in multiple regions, the monitor will run multiple times. As a result, if there is a side effect from running the monitor, it will also happen multiple times.
 
-Postman Enterprise users interested in setting up dedicated IPs for their API monitoring should contact [help@getpostman.com](mailto:help@getpostman.com).
+Postman Enterprise users interested in setting up dedicated IPs for their API monitoring should contact [help@postman.com](mailto:help@postman.com).
 
-Postman Enterprise users interested in setting up dedicated IPs for their API monitoring should contact [help@getpostman.com](mailto:help@getpostman.com).
+Postman Enterprise users interested in setting up dedicated IPs for their API monitoring should contact [help@postman.com](mailto:help@postman.com).
 
 ### Additional preferences
 

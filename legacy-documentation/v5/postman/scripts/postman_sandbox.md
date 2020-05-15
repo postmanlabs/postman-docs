@@ -40,13 +40,13 @@ Note: jQuery support has been discontinued since version 4.6.0, in favor of [ch
 Postman also has a few dynamic variables which you can use in your requests. This is primarily an experiment right now. More functions would be added soon. Note that dynamic variables cannot be used in the Sandbox. You can only use them in the `{{..}}` format in the request URL / headers / body.
 
 *   `{{$guid}}`: Adds a v4 style guid
-*   `{{$timestamp}}`: Adds the current timestamp.
+*   `{{$timestamp}}`: Adds the current timestamp (Unix timestamp in seconds)
 *   `{{$randomInt}}`: Adds a random integer between 0 and 1000
 
 ### Cookies
 
 *   `responseCookies {array}` Postman-only: Gets all cookies set for the domain. You will need to enable the [Interceptor](/docs/postman/sending_api_requests/interceptor_extension/) for this to work.
-*   `postman.getResponseCookie(cookieName)` Postman-only: Gets the response cookie with the given name. You will need to enable the interceptor for this to work. Check out the [blog post](http://blog.getpostman.com/index.php/2014/11/28/using-the-interceptor-to-read-and-write-cookies/).
+*   `postman.getResponseCookie(cookieName)` Postman-only: Gets the response cookie with the given name. You will need to enable the interceptor for this to work. Check out the [blog post](https://blog.postman.com/index.php/2014/11/28/using-the-interceptor-to-read-and-write-cookies/).
 
 ### Request/response related properties
 
@@ -69,8 +69,8 @@ Postman also has a few dynamic variables which you can use in your requests. Thi
 
 ### Data files
 
-If you’re using [data files](http://blog.getpostman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/) in the Collection Runner or in Newman, you’ll have access to a `data` object, which is a dictionary of data values in the current test run.
+If you’re using [data files](https://blog.postman.com/index.php/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/) in the Collection Runner or in Newman, you’ll have access to a `data` object, which is a dictionary of data values in the current test run.
 
 ### pm.* APIs
 
-Review [Postman Sandbox API Reference](https://learning.getpostman.com/docs/postman/scripts/postman_sandbox_api_reference/).
+Review [Postman Sandbox API Reference](https://learning.postman.com/docs/postman/scripts/postman_sandbox_api_reference/).

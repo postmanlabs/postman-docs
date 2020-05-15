@@ -5,9 +5,17 @@ const glob = require('glob');
 const uuidv4 = require('uuid/v4');
 const frontmatter = require('@github-docs/frontmatter');
 const redirects = require('./redirects');
+const HeaderJson = require('./src/components/Header/Header.data.json');
+const FooterJson = require('./src/components/Footer/Footer.data.json');
 
 const ignorePaths = [
-  '/docs/postman-pro/api-search/searching-apis/',
+  '/docs/postman/team-library/activity-feed-and-restoring-collections/',
+  '/docs/postman/team-library/searching/',
+  '/docs/postman/team-library/setting-up-team-library/',
+  '/docs/postman/team-library/sharing/',
+  '/docs/postman/team-library/conflicts/',
+  '/docs/postman/team-library/sharing-collections-in-workspaces-for-version-5/',
+  '/docs/administration/migrating-to-v7/',
 ];
 
 
@@ -49,13 +57,16 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `);
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-    const underscoreSlug = node.fields.slug.replace(/-/g, '_');
-    createRedirect({
-      fromPath: underscoreSlug,
-      isPermanent: true,
-      redirectInBrowser: true,
-      toPath: node.fields.slug,
-    });
+    if (node.fields.slug.includes('-')) {
+      const underscoreSlug = node.fields.slug.replace(/-/g, '_');
+
+      createRedirect({
+        fromPath: underscoreSlug,
+        isPermanent: true,
+        redirectInBrowser: true,
+        toPath: node.fields.slug,
+      });
+    }
     createPage({
       path: node.fields.slug,
       component: path.resolve('./src/templates/doc.jsx'),
@@ -72,6 +83,28 @@ exports.sourceNodes = async ({
   createNodeId,
   createContentDigest,
 }) => {
+  const prepareNode = (obj, name) => {
+    const data = {
+      key: uuidv4(),
+      value: JSON.stringify(obj),
+    };
+    const node = JSON.stringify(data);
+    const nodeMeta = {
+      id: createNodeId(`my-data-${data.key}`),
+      parent: null,
+      children: [],
+      internal: {
+        type: name,
+        mediaType: 'text/json',
+        content: node,
+        contentDigest: createContentDigest(data),
+      },
+    };
+
+    const output = { ...data, ...nodeMeta };
+    return output;
+  };
+
   const getDirectories = (src) => glob.sync(`${src}/**/*`);
   const paths = getDirectories('./src/pages/docs')
     .filter((val) => val.slice(-3) === '.md')
@@ -107,25 +140,7 @@ exports.sourceNodes = async ({
 
   const { createNode } = actions;
 
-  const myData = {
-    key: uuidv4(),
-    paths: JSON.stringify(output.docs),
-  };
-
-  const nodeContent = JSON.stringify(myData);
-
-  const nodeMeta = {
-    id: createNodeId(`my-data-${myData.key}`),
-    parent: null,
-    children: [],
-    internal: {
-      type: 'leftNavLinks',
-      mediaType: 'text/html',
-      content: nodeContent,
-      contentDigest: createContentDigest(myData),
-    },
-  };
-
-  const node = { ...myData, ...nodeMeta };
-  createNode(node);
+  createNode(prepareNode(output.docs, 'leftNavLinks'));
+  createNode(prepareNode(HeaderJson, 'headerLinks'));
+  createNode(prepareNode(FooterJson, 'FooterLinks'));
 };

@@ -7,13 +7,22 @@
   padding: 80px 40px;
 
   .footer-column {
-    margin-top: 40px;
-
+    margin: 0px 0px 8px;
+    padding: 0px 15px;
+    
+    a.span {
+      color: $footer-color !important;
+      &:hover {
+        color: $bright-orange !important;
+      }
+    }
+   
     .footer-column__title {
       font-size: 16px;
       text-transform: uppercase;
-      margin-top: 10px;
-      margin-bottom: 24px;
+      padding: 0px 0px 16px;
+      font-family: 'Open Sans', 'Segoe UI', Tahoma, sans-serif;
+      font-weight: 700;
     }
 
     .footer-column__list {
@@ -25,6 +34,8 @@
 
       .footer-column__link {
         color: white;
+        font-family: 'Open Sans', 'Segoe UI', Tahoma, sans-serif;
+        padding: 8px 8px 8px 0px;
 
         &:hover {
           color: $bright-orange;
@@ -73,9 +84,7 @@
 
   .column__links {
     list-style-type: none;
-    margin-bottom: 15px;
-    margin-top: 32px;
-    margin-right: 24px;
+    margin: 0px 0px 16px;
     padding-left: 0;
     font-size: 14px;
 
@@ -93,6 +102,11 @@
       line-height: 1.6;
       padding: 8px 8px 8px 0;
       text-decoration: none;
+
+      &:hover {
+        color: $bright-orange;
+        border-bottom: 1px solid;
+      }
 
       /* for social icons */
       svg {
@@ -138,7 +152,7 @@
 
     li {
       font-size: 14px;
-      line-height: 28px;
+      line-height: 1.6;
       
       &.column-item--add-bottom-spacer {
         margin-bottom: 15px;

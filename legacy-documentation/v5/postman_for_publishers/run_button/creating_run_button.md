@@ -5,7 +5,7 @@ warning: false
 
 ---
 
-The Run in Postman button is a way to [share your Postman Collection](https://learning.getpostman.com/docs/postman/collections/sharing_collections/) and integrate your API documentation or developer portal directly with the Postman app. Keep in mind, Run in Postman works well with API description formats like Swagger and RAML too. Just convert your file to a collection by [importing it into Postman](https://learning.getpostman.com/docs/postman/collections/data_formats/).
+The Run in Postman button is a way to [share your Postman Collection](https://learning.postman.com/docs/postman/collections/sharing_collections/) and integrate your API documentation or developer portal directly with the Postman app. Keep in mind, Run in Postman works well with API description formats like Swagger and RAML too. Just convert your file to a collection by [importing it into Postman](https://learning.postman.com/docs/postman/collections/data_formats/).
 
 The Run in Postman button imports and opens a collection of API endpoints directly in the user’s Postman app. You can embed the button in your API documentation or your GitHub's README to help developers get up to speed on your API faster.
 
@@ -31,13 +31,13 @@ To create the Run in Postman button, start in the Postman app. Make sure you are
 Here’s an example markdown snippet:
 
 ```
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/:collection_id)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/run-collection/:collection_id)
 ```
 
 Here’s an example HTML snippet:
 
 ```
-<a href="https://www.getpostman.com/run-collection/:collection_id" target="_blank"><img src="https://run.pstmn.io/button.svg" alt="Run in Postman"></a>
+<a href="https://www.postman.com/run-collection/:collection_id" target="_blank"><img src="https://run.pstmn.io/button.svg" alt="Run in Postman"></a>
 ```
 
 The `:collection_id` is a placeholder here and will be auto-filled in the markdown snippet.

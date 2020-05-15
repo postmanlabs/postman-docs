@@ -20,47 +20,47 @@ By default, the personal Workspaces view appears.
 
 [![add to workspaces](https://assets.postman.com/postman-docs/WS-elipsis-menu-personal.png)](https://assets.postman.com/postman-docs/WS-elipsis-menu-personal.png)
 
-In this view, click the **Add to workspace** button to [add collections or environments from another Workspace](https://learning.getpostman.com/docs/postman/workspaces/using_workspaces/) to the selected Workspace. You can also perform this action in the team Workspace view.
+In this view, click the **Add to workspace** button to [add collections or environments from another Workspace](https://learning.postman.com/docs/postman/workspaces/using_workspaces/) to the selected Workspace. You can also perform this action in the team Workspace view.
 
 Click the ***Ellipsis (...)*** button to:
 
-* [Share personal Workspaces with other users](https://learning.getpostman.com/docs/postman/workspaces/using_workspaces/).
+* [Share personal Workspaces with other users](https://learning.postman.com/docs/postman/workspaces/using_workspaces/).
 
-* [View details about personal Workspaces](https://learning.getpostman.com/docs/postman/workspaces/using_workspaces/).
+* [View details about personal Workspaces](https://learning.postman.com/docs/postman/workspaces/using_workspaces/).
 
-* [Rename personal Workspaces](https://learning.getpostman.com/docs/postman/workspaces/using_workspaces/).
+* [Rename personal Workspaces](https://learning.postman.com/docs/postman/workspaces/using_workspaces/).
 
-* [Edit descriptions of personal Workspaces](https://learning.getpostman.com/docs/postman/workspaces/using_workspaces/).
+* [Edit descriptions of personal Workspaces](https://learning.postman.com/docs/postman/workspaces/using_workspaces/).
 
-* [Delete personal Workspaces](https://learning.getpostman.com/docs/postman/workspaces/using_workspaces/).
+* [Delete personal Workspaces](https://learning.postman.com/docs/postman/workspaces/using_workspaces/).
 
-You can also click the **Create a new workplace** button to [create a new personal or team Workspace](https://learning.getpostman.com/docs/postman/workspaces/creating_workspaces/).
+You can also click the **Create a new workplace** button to [create a new personal or team Workspace](https://learning.postman.com/docs/postman/workspaces/creating_workspaces/).
 
 
 ### Managing team Workspaces
 
 In the team Workspaces view, click the ***Ellipsis (...)*** button to:
 
-* [View details about team Workspaces](https://learning.getpostman.com/docs/postman/workspaces/using_workspaces/#viewing-details-of-a-workspace).
+* [View details about team Workspaces](https://learning.postman.com/docs/postman/workspaces/using_workspaces/#viewing-details-of-a-workspace).
 
-* [Rename team Workspaces](https://learning.getpostman.com/docs/postman/workspaces/using_workspaces/#renaming-a-workspace).
+* [Rename team Workspaces](https://learning.postman.com/docs/postman/workspaces/using_workspaces/#renaming-a-workspace).
 
-* [Edit descriptions of team Workspaces](https://learning.getpostman.com/docs/postman/workspaces/using_workspaces/#editing-a-description-of-a-workspace).
+* [Edit descriptions of team Workspaces](https://learning.postman.com/docs/postman/workspaces/using_workspaces/#editing-a-description-of-a-workspace).
 
-* [Manage members of team Workspaces](https://learning.getpostman.com/docs/postman/workspaces/using_workspaces/#managing-members-of-a-team-workspace).
+* [Manage members of team Workspaces](https://learning.postman.com/docs/postman/workspaces/using_workspaces/#managing-members-of-a-team-workspace).
 
-* [Leave team Workspaces ](https://learning.getpostman.com/docs/postman/workspaces/using_workspaces/#leaving-a-workspace).
+* [Leave team Workspaces ](https://learning.postman.com/docs/postman/workspaces/using_workspaces/#leaving-a-workspace).
 
-* [Delete team Workspaces](https://learning.getpostman.com/docs/postman/workspaces/using_workspaces/#deleting-a-workspace). 
+* [Delete team Workspaces](https://learning.postman.com/docs/postman/workspaces/using_workspaces/#deleting-a-workspace). 
 
 
 ### Managing Workspace elements
 
 When you click a personal or team Workspace, you can see all the elements and activity of that Workspace.  
 
-If you click the **Share** button, you can [share this collection](https://learning.getpostman.com/docs/postman/workspaces/using_workspaces/#sharing-a-workspace) with another Workspace. 
+If you click the **Share** button, you can [share this collection](https://learning.postman.com/docs/postman/workspaces/using_workspaces/#sharing-a-workspace) with another Workspace. 
 
-If you click the ***Ellipsis (...)*** button, you can [remove any element](https://learning.getpostman.com/docs/postman/workspaces/using_workspaces/#deleting-elements-in-a-workspace) from the Workspace, and [publish](https://learning.getpostman.com/docs/postman/workspaces/using_workspaces/) collections.
+If you click the ***Ellipsis (...)*** button, you can [remove any element](https://learning.postman.com/docs/postman/workspaces/using_workspaces/#deleting-elements-in-a-workspace) from the Workspace, and [publish](https://learning.postman.com/docs/postman/workspaces/using_workspaces/) collections.
 
 [![workspace elements](https://assets.postman.com/postman-docs/WS-publish-or-removepWS.png)](https://assets.postman.com/postman-docs/WS-publish-or-removepWS.png)
 
@@ -68,23 +68,23 @@ Let's explore how to manage Workspace elements.
 
 **Collections**
 
-[Add collections to this Workspace](/docs/postman/workspaces/using_workspaces/) or [create collections](https://learning.getpostman.com/docs/postman/workspaces/creating_workspaces/) in the Postman app. Collections is the default view.
+[Add collections to this Workspace](/docs/postman/workspaces/using_workspaces/) or [create collections](https://learning.postman.com/docs/postman/workspaces/creating_workspaces/) in the Postman app. Collections is the default view.
 
 **Environments**
 
-Add environments to this Workspace or [create environments](https://learning.getpostman.com/docs/postman/environments_and_globals/manage_environments/) in the Postman app. After you add environments, you can share them with other Workspaces.
+Add environments to this Workspace or [create environments](https://learning.postman.com/docs/postman/environments_and_globals/manage_environments/) in the Postman app. After you add environments, you can share them with other Workspaces.
 
 **Monitors**
 
-[Create monitors](https://learning.getpostman.com/docs/postman/monitors/setting_up_monitor/) to track the performance of collections in a Workspace. You can wait to see performanance results at the scheduled run time, or click the **Run** button to see performance results now.
+[Create monitors](https://learning.postman.com/docs/postman/monitors/setting_up_monitor/) to track the performance of collections in a Workspace. You can wait to see performanance results at the scheduled run time, or click the **Run** button to see performance results now.
 
 **Mocks**
 
-[Create a mock server](https://learning.getpostman.com/docs/postman/mock_servers/setting_up_mock/) to simulate each endpoint and its corresponding environment in a collection, before sending the actual request. Postman redirects you to the app to create the mock server.
+[Create a mock server](https://learning.postman.com/docs/postman/mock_servers/setting_up_mock/) to simulate each endpoint and its corresponding environment in a collection, before sending the actual request. Postman redirects you to the app to create the mock server.
 
 **Integrations**
 
-View a list of current integrations or create Workspace integrations. If you create an integration, Postman provides a list of [third party integration apps](https://learning.getpostman.com/docs/postman_pro/integrations/intro_integrations/) to help you create the type of integration you want.
+View a list of current integrations or create Workspace integrations. If you create an integration, Postman provides a list of [third party integration apps](https://learning.postman.com/docs/postman_pro/integrations/intro_integrations/) to help you create the type of integration you want.
 
 **Activity** 
 

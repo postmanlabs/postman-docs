@@ -32,4 +32,4 @@ You should extract values from the response and save it inside an environment or
 Check out [this example][0] for more details.
 
 
-[0]: http://blog.getpostman.com/2014/01/27/extracting-data-from-responses-and-chaining-requests/
+[0]: https://blog.postman.com/2014/01/27/extracting-data-from-responses-and-chaining-requests/

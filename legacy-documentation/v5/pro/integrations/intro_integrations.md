@@ -32,5 +32,5 @@ In the Dashboard page, click ["Integrations"](https://go.postman.co/workspaces)
 The Integrations page lists all the currently available integrations for Postman Pro users.
   <br>
   <br>
-[![list of integrations](http://blog.getpostman.com/wp-content/uploads/2017/02/gif-highfps-1.gif)](http://blog.getpostman.com/wp-content/uploads/2017/02/gif-highfps-1.gif)
+[![list of integrations](https://blog.postman.com/wp-content/uploads/2017/02/gif-highfps-1.gif)](https://blog.postman.com/wp-content/uploads/2017/02/gif-highfps-1.gif)
 

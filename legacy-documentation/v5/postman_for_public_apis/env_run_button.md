@@ -15,7 +15,7 @@ There are 2 ways to achieve this:
 
 #### While generating the Embed Code
 
-![](https://www.getpostman.com/img/v2/docs/environments/share_select_env.png)
+![](https://www.postman.com/img/v2/docs/environments/share_select_env.png)
 
 Select the environment name from the dropdown, as shown in the screenshot above. The environment is now embedded within the generated HTML/Markdown and will be imported when your user clicks the button.
 

@@ -17,12 +17,12 @@ Postman’s vision is to help you build a super fast and smooth workflow for API
 
 Enterprise includes all the advanced capability of Postman Pro, plus features available only to Enterprise customers with solutions that satisfy each of the questions above. 
 
-*   Team [collaboration](https://learning.getpostman.com/docs/postman/team_library/sharing/) for the single source of truth about your API, or review historical versions and the latest updates.
-*   API [documentation](https://learning.getpostman.com/docs/postman/api_documentation/intro_to_api_documentation) to share public or private documentation, beautifully viewable via a web page.
-*   Powerful [mock servers](https://learning.getpostman.com/docs/postman/mock_servers/intro_to_mock_servers/) to simulate the real API and decouple teams.
-*   Collection [monitoring](https://learning.getpostman.com/docs/postman/monitors/intro_monitors/) to check for the performance, uptime and correctness of your API.
-*   [Out-of-the-box integrations](https://learning.getpostman.com/docs/postman_pro/integrations/intro_integrations/) and the [Postman API](https://learning.getpostman.com/docs/postman/postman_api/intro_api/) to connect your different tools.
-*   [Dedicated IP addresses](https://learning.getpostman.com/docs/postman/monitors/intro_monitors/#monitoring-resources-in-multiple-regions) for API monitoring.
+*   Team [collaboration](https://learning.postman.com/docs/postman/team_library/sharing/) for the single source of truth about your API, or review historical versions and the latest updates.
+*   API [documentation](https://learning.postman.com/docs/postman/api_documentation/intro_to_api_documentation) to share public or private documentation, beautifully viewable via a web page.
+*   Powerful [mock servers](https://learning.postman.com/docs/postman/mock_servers/intro_to_mock_servers/) to simulate the real API and decouple teams.
+*   Collection [monitoring](https://learning.postman.com/docs/postman/monitors/intro_monitors/) to check for the performance, uptime and correctness of your API.
+*   [Out-of-the-box integrations](https://learning.postman.com/docs/postman_pro/integrations/intro_integrations/) and the [Postman API](https://learning.postman.com/docs/postman/postman_api/intro_api/) to connect your different tools.
+*   [Dedicated IP addresses](https://learning.postman.com/docs/postman/monitors/intro_monitors/#monitoring-resources-in-multiple-regions) for API monitoring.
 
 As an Enterprise customer, you’ll have exclusive access to single sign-on, priority support from our dedicated Enterprise Support Team, and flexible billing. 
 

@@ -27,7 +27,7 @@ For example, if the monitor failed because Postman was unable to contact the ser
 #### Debugging local run attempts
 
 *   Run the failing monitor's collection with its environment in the Postman app or Newman to see if it works correctly.
-*   If a local run passes, [ensure the sync is enabled](https://learning.getpostman.com/docs/postman/launching_postman/syncing/) in the toolbar header of the Postman app to persist any local changes.  
+*   If a local run passes, [ensure the sync is enabled](https://learning.postman.com/docs/postman/launching_postman/syncing/) in the toolbar header of the Postman app to persist any local changes.  
     
     [![enable sync](https://assets.postman.com/postman-docs/WS-HeaderToolBar-insync.png)](https://assets.postman.com/postman-docs/WS-HeaderToolBar-insync.png)
     

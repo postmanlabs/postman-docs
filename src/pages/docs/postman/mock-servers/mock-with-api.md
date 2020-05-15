@@ -1,7 +1,8 @@
 ---
 title: "Mocking with the Postman API"
-order: 83
+order: 144
 page_id: "mock_with_api"
+search_keyword: "x-mock-response-code, x-mock-response-name, x-mock-response-id, x-mock-match-request-body, x-mock-match-request-headers"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -17,10 +18,18 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Gear4Music"
+    url: "https://www.postman.com/resources/case-studies/gear4music/"
+  - type: link
+    name: "Giant Machines"
+    url: "https://www.postman.com/resources/case-studies/giant-machines/"
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Mock responses in Postman by using Examples"
-    url: "https://blog.getpostman.com/2017/05/17/mock-responses-in-postman-by-using-examples/?_ga=2.125542604.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/05/17/mock-responses-in-postman-by-using-examples/"
 
 warning: false
 ---
@@ -31,7 +40,7 @@ You can [mock a collection](/docs/postman/mock-servers/setting-up-mock/) directl
 
 In this example, we have a Collection `testAPI` with corresponding environment `testAPIEnv`.  Let's set up a mock service to enable your front-end team to simulate each endpoint in `testAPI` and view the various responses.
 
-Navigate to every request in the Collection `testAPI` that you would like to include in this simulation, and [save responses](/docs/postman/sending-api-requests/responses/) with details about the response body, header or status codes that you would like to see returned by that endpoint. In this example, we will save 2 responses with status codes of 200 and 401 for this particular request.  Once you save the desired responses, the Collection is ready for mocking.
+Navigate to every request in the Collection `testAPI` that you would like to include in this simulation, and [save responses](/docs/postman/sending-api-requests/responses/) with details about the response body, header or status codes that you would like to see returned by that endpoint. This example saves two responses with status codes of 200 and 401 for this particular request.  Once you save the desired responses, the Collection is ready for mocking.
 
 **Note**: In addition to mocking a collection with a saved response, you can also [mock a request and response using examples](/docs/postman/collections/examples/).
 
@@ -84,4 +93,4 @@ https://{{mockId}}.mock.pstmn.io/{{mockPath}}
 
 ## Mock requests and responses with examples
 
-In the previous example, we used a saved response to mock our collection. You can also [mock a request and response using examples](/docs/postman/collections/examples/) in Postman before sending the actual request or setting up a single endpoint to return the response. With examples, you can mock raw responses and save them. Then, you’ll be able to generate a mock endpoint for each of them using Postman’s mock service.
+In the previous example, a saved response was used to mock a collection. You can also [mock a request and response using examples](/docs/postman/collections/examples/) in Postman before sending the actual request or setting up a single endpoint to return the response. With examples, you can mock raw responses and save them. Then, you’ll be able to generate a mock endpoint for each of them using Postman’s mock service.

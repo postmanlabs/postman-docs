@@ -16,7 +16,7 @@ Unlike the native apps, the Chrome app is not equipped to handle cookies by itse
 
 1\. Make sure the interceptor is enabled in Postman -- Check the top-right corner.
 
-[![](https://www.getpostman.com/img/v1/docs/interceptor_cookies/interceptor_cookies_1.png)
+[![](https://www.postman.com/img/v1/docs/interceptor_cookies/interceptor_cookies_1.png)
 ][1]
 
 2\. In the tests section, you can use the "responseCookies" object. This will return an array of cookie objects. To retrieve a particular name, use "postman.getResponseCookie(cookieName)". This will return a single cookie object. Each cookie object will contain the following properties:
@@ -34,5 +34,5 @@ eg. Cookie: name=value; name2=value2
 3\. Send the request. The cookies you set will be sent by Chrome along with your request.
 
 
-[0]: http://www.getpostman.com/docs/capture
-[1]: https://www.getpostman.com/img/v1/docs/interceptor_cookies/interceptor_cookies_1.png
+[0]: http://www.postman.com/docs/capture
+[1]: https://www.postman.com/img/v1/docs/interceptor_cookies/interceptor_cookies_1.png

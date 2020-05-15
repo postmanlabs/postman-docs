@@ -10,7 +10,7 @@ warning: false
 
 The Postman interface is divided into two areas. The sidebar on the left and the request builder on the right. The request builder lets you create almost any kind of request quickly. The four parts of an HTTP request are the URL, method, headers, and the body. Postman gives you tools to work with each of these parts.
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/2.png)
+[![](https://www.postman.com/img/v1/docs/thumbs/2.png)
 ][0]
 
 ### URL
@@ -20,7 +20,7 @@ Clicking on the **URL params** button will open up the [key-value editor][1] for
 
 > Parameters you enter in the URL bar or in the key/value editor will **not** automatically be URL-encoded. Right click on a piece of selected text, and click **EncodeURIComponent** to manually encode the parameter value.
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/3.png)
+[![](https://www.postman.com/img/v1/docs/thumbs/3.png)
 ][2]
 
 You can individually add key/value pairs and Postman will combine everything together. If your URL already has parameters - for example, if you are pasting a URL from some other source, Postman will split the URL into pairs automatically.
@@ -39,7 +39,7 @@ For example, **`:entity`** can be "user" or "membership" or "book" in this speci
 
 Clicking on the headers toggle will show the headers [key-value editor][1]. You can set any string as the header name. Common headers part of the HTTP spec are available in an auto-complete drop down when you begin typing the header name. Values for the "Content-Type" header are also available in an auto-complete drop down.
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/4.png)
+[![](https://www.postman.com/img/v1/docs/thumbs/4.png)
 ][3]
 
 #### Restricted headers and cookies
@@ -70,7 +70,7 @@ Unfortunately some headers are restricted by Chrome and the XMLHttpRequest speci
 
 With Postman version v0.9.6 onwards, sending restricted headers becomes trivial. Follow the steps below:
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/32.png)
+[![](https://www.postman.com/img/v1/docs/thumbs/32.png)
 ][4]
   
   
@@ -92,7 +92,7 @@ response is returned. Check out out [blog post][7] for more.
 
 #### Header presets
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/6.png)
+[![](https://www.postman.com/img/v1/docs/thumbs/6.png)
 ][8]
 
 You can save commonly used headers together in a header preset. You can add a header preset to your request by clicking the "Add preset" button or by selecting the preset from the header dropdown.
@@ -111,7 +111,7 @@ While constructing requests, you would be dealing with the request body editor a
 
 #### form-data
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/10.png)
+[![](https://www.postman.com/img/v1/docs/thumbs/10.png)
 ][9]
 
 `multipart/form-data` is the default encoding a web form uses to transfer data. This simulates filling a form on a website, and submitting it.
@@ -119,38 +119,38 @@ The form-data editor lets you set key/value pairs (using the [key-value editor][
 
 #### urlencoded
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/7.png)
+[![](https://www.postman.com/img/v1/docs/thumbs/7.png)
 ][10]
 
 This encoding is the same as the one used in URL parameters. You just need to enter key/value pairs and Postman will encode the keys and values properly. Note that you can not upload files through this encoding mode. There might be some confusion between form-data and urlencoded so make sure to check with your API first.
 
 #### raw
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/8.png)
+[![](https://www.postman.com/img/v1/docs/thumbs/8.png)
 ][11]
 
 A raw request can contain anything. Postman doesn't touch the string entered in the raw editor except replacing [environment variables][12]. Whatever you put in the text area gets sent with the request. The raw editor lets you set the formatting type along with the correct header that you should send with the raw body. You can set the Content-Type header manually as well. Normally, you would be sending XML or JSON data here. Get more info about the JSON/XML editor [here][13].
 
 #### binary
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/9.png)
+[![](https://www.postman.com/img/v1/docs/thumbs/9.png)
 ][14]
 
 binary data allows you to send things which you can not enter in Postman. For example, image, audio or video files. You can send text files as well. As mentioned earlier in the form-data section, you would have to reattach a file if you are loading a request through the history or the collection.
 
 
-[0]: https://www.getpostman.com/img/v1/docs/source/2.png
-[1]: https://www.getpostman.com/docs/keyvalue_editor
-[2]: https://www.getpostman.com/img/v1/docs/source/3.png
-[3]: https://www.getpostman.com/img/v1/docs/source/4.png
-[4]: https://www.getpostman.com/img/v1/docs/source/32.png
+[0]: https://www.postman.com/img/v1/docs/source/2.png
+[1]: https://www.postman.com/docs/keyvalue_editor
+[2]: https://www.postman.com/img/v1/docs/source/3.png
+[3]: https://www.postman.com/img/v1/docs/source/4.png
+[4]: https://www.postman.com/img/v1/docs/source/32.png
 [5]: https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo
-[6]: http://blog.getpostman.com/index.php/2014/02/11/postman-v0-9-6-access-cookies-and-restricted-headers-plus-better-testing/
-[7]: http://blog.getpostman.com/index.php/2014/11/28/using-the-interceptor-to-read-and-write-cookies/
-[8]: https://www.getpostman.com/img/v1/docs/source/6.png
-[9]: https://www.getpostman.com/img/v1/docs/source/10.png
-[10]: https://www.getpostman.com/img/v1/docs/source/7.png
-[11]: https://www.getpostman.com/img/v1/docs/source/8.png
-[12]: https://www.getpostman.com/docs/environments
-[13]: https://www.getpostman.com/docs/texteditor
-[14]: https://www.getpostman.com/img/v1/docs/source/9.png
+[6]: https://blog.postman.com/index.php/2014/02/11/postman-v0-9-6-access-cookies-and-restricted-headers-plus-better-testing/
+[7]: https://blog.postman.com/index.php/2014/11/28/using-the-interceptor-to-read-and-write-cookies/
+[8]: https://www.postman.com/img/v1/docs/source/6.png
+[9]: https://www.postman.com/img/v1/docs/source/10.png
+[10]: https://www.postman.com/img/v1/docs/source/7.png
+[11]: https://www.postman.com/img/v1/docs/source/8.png
+[12]: https://www.postman.com/docs/environments
+[13]: https://www.postman.com/docs/texteditor
+[14]: https://www.postman.com/img/v1/docs/source/9.png

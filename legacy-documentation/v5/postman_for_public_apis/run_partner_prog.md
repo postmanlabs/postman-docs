@@ -24,11 +24,11 @@ What you need to do to partner with us,
 
 1. Implement the Run in Postman button on any of your external API documentation whether it is on a webpage or a repo readme.
 2. 
-Reach out to us with your interest - [help@getpostman.com][0].
+Reach out to us with your interest - [help@postman.com][0].
 3. 
 Tweet about the button with a link to your documentation on launch day.
 4. 
 Optional - Blog about your experience with the run button. We will definitely be cross-posting this one. 
 
 
-[0]: mailto:help@getpostman.com
+[0]: mailto:help@postman.com

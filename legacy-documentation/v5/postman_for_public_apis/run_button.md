@@ -35,11 +35,11 @@ The markdown option works if you need to add the button to a markdown document, 
 
 Here's an example markdown snippet
 
-    [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/:collection_id)
+    [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/run-collection/:collection_id)
 
 Converted to HTML
 
-    <a href="https://www.getpostman.com/run-collection/:collection_id" target="_blank"><img src="https://run.pstmn.io/button.svg" alt="Run in Postman"></a>
+    <a href="https://www.postman.com/run-collection/:collection_id" target="_blank"><img src="https://run.pstmn.io/button.svg" alt="Run in Postman"></a>
 
 The `:collection_id` is a placeholder here and will be auto-filled in the markdown snippet.
 
@@ -47,5 +47,5 @@ The `:collection_id` is a placeholder here and will be auto-filled in the markdo
 
 **Important** - Once you generate the embed code for a particular collection, the button will point to the collection at that point in time. To update the collection users see when they use the Run button, you'll need to update the collection link `(Collection menu > Share > Embed Button > Update)`. 
 
-[0]: https://www.getpostman.com/docs/collections
-[1]: https://www.getpostman.com/docs/importing_folders
+[0]: https://www.postman.com/docs/collections
+[1]: https://www.postman.com/docs/importing_folders

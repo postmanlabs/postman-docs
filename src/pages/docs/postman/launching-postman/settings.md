@@ -1,6 +1,6 @@
 ---
 title: "Settings"
-order: 8
+order: 9
 page_id: "settings"
 contextual_links:
   - type: section
@@ -14,11 +14,11 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Speeding up workflows with keyboard shortcuts"
-    url: "https://blog.getpostman.com/2017/05/03/speeding-up-workflows-with-keyboard-shortcuts/?_ga=2.233131480.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/05/03/speeding-up-workflows-with-keyboard-shortcuts/"
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Sending the first request"
+    name: "Sending your first request"
     url: "/docs/postman/launching-postman/sending-the-first-request/"
 
 warning: false
@@ -33,15 +33,16 @@ In the header toolbar of the Postman app, click the wrench icon and select "Sett
 
 ## General Settings
 
-Postman tries to minimize the number of settings you have to change, so we established some defaults. However, given the diversity of use cases, if you need to make adjustments, here's how:
+Postman tries to minimize the number of settings you have to change, so some defaults are automatically set. However, given the diversity of use cases, if you need to make adjustments, here's how:
 
 * **Trim keys and values in request body:** If you’re using the form-data or url-encoded modes to send data to the server, switching this to "ON" will cause any parameters to be trimmed.
+* **New Code Generation Mode:** If you’re generating code snippets via the **Code** link, switching this to "ON" enables custom settings by programming language.
 * **SSL certificate verification** (native apps only): Prevents the app from checking validity of SSL certificates while making a request.
 * **Always open requests in new tab:** Set this option to ON to open requests in a new tab. This option is, by default, set to OFF. Which means each time you click a request in the side bar, Postman opens the request in the preview tab. Refer to the section [Working with tabs](/docs/postman/sending-api-requests/working-with-tabs/) for a clear understanding of this feature.
-* **Always ask when closing unsaved tabs:** If you set this option to OFF, Postman does not prompt you to save changes in your unsaved tabs. By default, this option is set to 'ON'.  
+* **Always ask when closing unsaved tabs:** If you set this option to OFF, Postman does not prompt you to save changes in your unsaved tabs. By default, this option is set to "ON".
 * **Language detection:** Setting this to JSON will force a JSON rendering, irrespective of the response Content-Type header.
 * **Request Timeout in ms (0 for infinity):**  Set how long the app should wait for a response before saying that the server isn’t responding. A value of 0 indicates infinity - Postman will wait for a response forever.
-* **Automatically persist variable values:** Enabling this will persist the current value of variables to the initial value at the end of every request execution. This option is by default off for new users. For old users upgrading to the newest versions, this option is turned on. These settings apply only when assigning current values using scripts, for instance pre-request or test scripts. For detailed information on how this feature works in tandem with another option, refer to the section [Keep Variable Values](/docs/postman/collection-runs/using-environments-in-collection-runs/#configuring-the-collection-runner).
+* **Automatically persist variable values:** Enabling this will persist the current value of variables to the initial value at the end of every request execution. This option is by default off for new users. For old users upgrading to the newest versions, this option is turned on. These settings apply only when assigning current values using scripts, for instance pre-request or test scripts. For more detail, refer to [sessions in Postman](/docs/postman/variables-and-environments/variables/#sessions-in-postman).
 * **Working Directory:** If you want Postman to persist your file paths, then you must save your files in Postman's default working directory. When you work with files in form-data request body and binary file body, save them in this directory to let Postman persist your file's path relative to the working directory. This means your files loaded from within the working directory run smoothly across devices if other users use the same files on their devices. Postman flags a warning for files that are not stored in this directory.
 
   However, delimiting the working directory can have some unintended security issues as follows:
@@ -58,11 +59,11 @@ Postman tries to minimize the number of settings you have to change, so we estab
     * **Send Postman Token header:** This is primarily used to bypass a bug in Chrome. If an XmlHttpRequest is pending and. another request is sent with the same parameters then Chrome returns the same response for both of them. Sending a random token avoids this issue. This can also help you distinguish between request on the server side.
     * **Retain headers when clicking on links:** If you click on a link in a response, Postman creates a new GET request with that URL. If you want to retain the headers that you set in the previous request set "ON" here. This is useful if you are accessing mainly protected resources.
     * **Automatically follow redirects:** Prevent requests that return a 300-series response from being automatically redirected.
-    * **Send anonymous usage data to Postman:** Option to disable sending basic anonymous usage data (button clicks and app events) to Postman. We use usage data to make Postman a better product.
+    * **Send anonymous usage data to Postman:** Option to disable sending basic anonymous usage data (button clicks and app events) to Postman. Postman uses usage data to make a better product.
     * **Max response size:** Option to limit the size of response (in Megabytes) that is rendered by Postman. If the limit is exceeded,
    Postman will inform the user that the received response is large (default limit: 50 MB) and provide options to increase the size limit or download the response. Note that rendering large responses can impact app performance.
 
-[![general settings](https://assets.postman.com/postman-docs/Settings-Apr2019.png)](https://assets.postman.com/postman-docs/Settings-Apr2019.png)
+[![general settings](https://i.imgur.com/kqMc0Pq.png)](https://i.imgur.com/kqMc0Pq.png)
 
 ## Themes
 
@@ -76,7 +77,7 @@ This is where you can view keyboard shortcuts available for your operating syste
 
 ## Data Import / Export
 
-Import and export data in bulk inside Postman.  This will overwrite your existing collections and environments so be a little careful. It always helps to take a backup before you are importing other files. Learn more about [importing and exporting data](/docs/postman/collections/data-formats/) in Postman.
+Import and export data in bulk inside Postman.  This will overwrite your existing collections and environments so be a little careful. It always helps to take a backup before you are importing other files. Learn more about [importing and exporting data](/docs/postman/collections/importing-and-exporting-data/) in Postman.
 
 ## Add-ons
 
@@ -84,7 +85,7 @@ Download Newman, Postman's command line companion, to integrate Postman collect
 
 ## Sync
 
-If you are signed in to Postman, your data is synced with our server, making sure you have it all next time you use the app (and not just locally). You can also manually perform sync using the Sync icon in the header toolbar of Postman app. Learn more about [syncing](/docs/postman/launching-postman/syncing/).
+If you are signed in to Postman, your data is synced with the server, making sure you have it all next time you use the app (and not just locally). You can also manually perform sync using the Sync icon in the header toolbar of Postman app. Learn more about [syncing](/docs/postman/launching-postman/syncing/).
 
 ## Certificates
 

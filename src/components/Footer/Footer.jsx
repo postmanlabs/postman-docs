@@ -1,28 +1,38 @@
+import { useStaticQuery, graphql } from 'gatsby';
 import React from 'react';
 import DynamicLink from '../Shared/DynamicLink';
 import './Footer.scss';
-import FooterJson from './Footer.data.json';
 
-const FooterColumn = () => (
-  FooterJson.columns.map((col) => {
-    const title = <h5 className="footer-column__title">{col.name}</h5>;
-    const links = col.children.map((link) => (
-      <li key={link.name}>
-        <DynamicLink className="footer-column__link" url={link.url} name={link.name} />
-      </li>
-    ));
+const FooterColumn = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      footerLinks {
+        value
+      }
+    }`);
 
-    return (
-      <div className="footer-column col-6 col-sm-4 col-md-2" key={col.name}>
-        {title}
-        <ul className="footer-column__list">
-          {links}
-        </ul>
-        <div className="clearfix d-block" />
-      </div>
-    );
-  })
-);
+  return (
+    JSON.parse(data.footerLinks.value).columns.map((col) => {
+      const title = <h5 className="footer-column__title">{col.name}</h5>;
+      const links = col.children.map((link) => (
+        <li key={link.name}>
+          <DynamicLink className="footer-column__link" url={link.url} name={link.name} />
+          <span><a className="span" href="https://www.postman.com/jobs/">{link.span}</a></span>
+        </li>
+      ));
+
+      return (
+        <div className="footer-column col-6 col-sm-4 col-md-2" key={col.name}>
+          {title}
+          <ul className="footer-column__list">
+            {links}
+          </ul>
+          <div className="clearfix d-block" />
+        </div>
+      );
+    })
+  );
+};
 
 const Footer = () => (
   <footer className="footer">
@@ -144,12 +154,12 @@ const Footer = () => (
                 {' '}
                 <span id="current-year" />
                 {' '}
-Postman, Inc. All rights
+2020 Postman, Inc. All rights
                 reserved
               </li>
               <li className="list-inline-item">
                 <a
-                  href="https://www.getpostman.com/security"
+                  href="https://www.postman.com/security"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -158,7 +168,7 @@ Postman, Inc. All rights
               </li>
               <li className="list-inline-item">
                 <a
-                  href="https://www.getpostman.com/licenses/privacy"
+                  href="https://www.postman.com/licenses/privacy"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -167,7 +177,7 @@ Postman, Inc. All rights
               </li>
               <li className="list-inline-item">
                 <a
-                  href="https://www.getpostman.com/licenses/postman_eula"
+                  href="https://www.postman.com/licenses/postman_eula"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

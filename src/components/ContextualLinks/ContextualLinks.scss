@@ -1,8 +1,7 @@
 @import '../Shared/_variables.scss';
 
 .contextual-links {
-  max-width: 267px;
-  margin: 80px 15px;
+  margin: 12px 16px;
   border-top: 5px solid $postman-orange;
   
   .contextual-links__section {
@@ -32,7 +31,15 @@
     }
   }
 
-  @media (min-width: 575px) and (max-width: 988px){
-    min-width: 267px;
+  // tablet view
+  @media (min-width: 767px) and (max-width: 990px) {
+      padding-bottom: 80px;
+      margin-left: 32px;
+  }
+
+
+  // mobile view
+  @media (max-width: 767px) {
+    padding-bottom: 80px;
   }
 }

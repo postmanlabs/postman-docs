@@ -16,6 +16,7 @@ exports[`ContextualLinks renders correctly 1`] = `
       <img
         alt=""
         className="caret"
+        onClick={[Function]}
         src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3IiBoZWlnaHQ9IjQiIHZpZXdCb3g9IjAgMCA3IDQiPgogICAgPHBhdGggZmlsbD0iIzI4MjgyOCIgZmlsbC1vcGFjaXR5PSIuOCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNyAwTDMuNSA0IDAgMHoiLz4KPC9zdmc+Cg=="
       />
       <button
@@ -38,6 +39,7 @@ exports[`ContextualLinks renders correctly 1`] = `
         <img
           alt=""
           className="caret"
+          onClick={[Function]}
           src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3IiBoZWlnaHQ9IjQiIHZpZXdCb3g9IjAgMCA3IDQiPgogICAgPHBhdGggZmlsbD0iIzI4MjgyOCIgZmlsbC1vcGFjaXR5PSIuOCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNyAwTDMuNSA0IDAgMHoiLz4KPC9zdmc+Cg=="
         />
         <button
@@ -72,6 +74,7 @@ exports[`ContextualLinks renders correctly 1`] = `
           <img
             alt=""
             className="caret"
+            onClick={[Function]}
             src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3IiBoZWlnaHQ9IjQiIHZpZXdCb3g9IjAgMCA3IDQiPgogICAgPHBhdGggZmlsbD0iIzI4MjgyOCIgZmlsbC1vcGFjaXR5PSIuOCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNyAwTDMuNSA0IDAgMHoiLz4KPC9zdmc+Cg=="
           />
           <button
@@ -108,6 +111,7 @@ exports[`ContextualLinks renders correctly 1`] = `
         <img
           alt=""
           className="caret"
+          onClick={[Function]}
           src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3IiBoZWlnaHQ9IjQiIHZpZXdCb3g9IjAgMCA3IDQiPgogICAgPHBhdGggZmlsbD0iIzI4MjgyOCIgZmlsbC1vcGFjaXR5PSIuOCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNyAwTDMuNSA0IDAgMHoiLz4KPC9zdmc+Cg=="
         />
         <button

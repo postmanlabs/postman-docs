@@ -17,7 +17,7 @@ You can then access the **timestampHeader** variable in the header data editor
 
 **Note:** An environment will have to be active for environment variables to be set.
 
-Pre-request scripts are written in JavaScript, and the syntax is exactly like that of [test scripts](https://learning.getpostman.com/docs/postman/scripts/test_scripts/) except that the response object is not present.
+Pre-request scripts are written in JavaScript, and the syntax is exactly like that of [test scripts](https://learning.postman.com/docs/postman/scripts/test_scripts/) except that the response object is not present.
 
 ### Adding a pre-request script to a collection or folder
 
@@ -27,4 +27,4 @@ Collection and folder scripts can be updated in the collection or folder details
 
 [![pre-request script for folder](https://assets.postman.com/postman-docs/folder-pre-request.png)](https://assets.postman.com/postman-docs/folder-pre-request.png)
 
-Read more about [the execution order of scripts](https://learning.getpostman.com/docs/postman/scripts/intro_to_scripts/#execution-order-of-scripts).
+Read more about [the execution order of scripts](https://learning.postman.com/docs/postman/scripts/intro_to_scripts/#execution-order-of-scripts).

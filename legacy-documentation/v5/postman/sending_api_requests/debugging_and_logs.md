@@ -5,7 +5,7 @@ warning: false
 
 ---
 
-Postman apps go through extensive testing and beta builds before we ship. That said, there might be cases when the app crashes, or exhibits unexpected behavior. If you've been unable to [troubleshoot](https://learning.getpostman.com/docs/postman/sending_api_requests/troubleshooting_api_requests/) the issue on your own, you can file an issue in the [GitHub tracker](https://github.com/postmanlabs/postman-app-support/issues), or visit our [support center](https://support.getpostman.com/hc) if you wish to include confidential data. Including the app’s console logs in your report will provide some helpful data for troubleshooting.
+Postman apps go through extensive testing and beta builds before we ship. That said, there might be cases when the app crashes, or exhibits unexpected behavior. If you've been unable to [troubleshoot](https://learning.postman.com/docs/postman/sending_api_requests/troubleshooting_api_requests/) the issue on your own, you can file an issue in the [GitHub tracker](https://github.com/postmanlabs/postman-app-support/issues), or visit our [support center](https://support.getpostman.com/hc) if you wish to include confidential data. Including the app’s console logs in your report will provide some helpful data for troubleshooting.
 
 The Postman Console is analogous to a browser’s developer console, except that it’s tuned for API development. If an API or API test is not behaving as you expect, this would be the place where you will go to deep dive while debugging. As long as the console window is open, all your API activities will be logged here to see what’s going on under the hood. 
 
@@ -28,14 +28,14 @@ To access the console logs, follow these steps:
 * Head to `View` in the application menu, and click on "Show DevTools".
 * In the DevTools window, clicking on the top level Console tab should show the app’s debug logs.
   
-  [![DevTools view of logs](https://www.getpostman.com/img/v1/docs/errors_console.png)](https://www.getpostman.com/img/v1/docs/errors_console.png)
+  [![DevTools view of logs](https://www.postman.com/img/v1/docs/errors_console.png)](https://www.postman.com/img/v1/docs/errors_console.png)
   
 ##### **For the Chrome app**
 
 * Type `chrome://flags/#debug-packed-apps` in the URL bar in your Chrome browser window.
 * Search for “packed” or try to find the “Enable debugging for packed apps” setting.
 * Enable the setting.  
-      [![enable in chrome settings](https://www.getpostman.com/img/v1/docs/flags.png)](https://assets.postman.com/postman-docs/flags.png)  
+      [![enable in chrome settings](https://www.postman.com/img/v1/docs/flags.png)](https://assets.postman.com/postman-docs/flags.png)  
 * Restart Chrome. Once this is done, you can access the Developer Tools window by right clicking anywhere inside Postman and selecting “inspect element”. You can also go to `chrome://inspect/#apps` and then click “inspect” just below requester.html under the Postman heading.
 
 ### Network Calls with Postman Console
@@ -50,4 +50,4 @@ Head to `View` in the application menu, and click on "Show Postman Console" or 
 
 You can also use the DevTools window to inspect the request and response payloads. If the Interceptor is disabled, switch to the Network tab, and you should see each call as it’s made. Clicking on this will let you view the headers and payloads for the requests and responses:
 
-  [![show DevTools console](https://www.getpostman.com/img/v1/docs/errors_network.png)](https://www.getpostman.com/img/v1/docs/errors_network.png)
+  [![show DevTools console](https://www.postman.com/img/v1/docs/errors_network.png)](https://www.postman.com/img/v1/docs/errors_network.png)

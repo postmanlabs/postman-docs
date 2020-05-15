@@ -1,6 +1,6 @@
 ---
 title: "Integration with Travis CI"
-order: 63
+order: 121
 page_id: "integration_with_travis"
 contextual_links:
   - type: section
@@ -14,15 +14,15 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Sikka"
-    url: "https://www.getpostman.com/case-studies/Sikka.pdf?_ga=2.237284166.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/resources/case-studies/sikka/"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Integrate API tests with Postman, Newman, and Travis CI"
-    url: "https://blog.getpostman.com/2017/08/23/integrate-api-tests-with-postman-newman-and-travis-ci/?_ga=2.237284166.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/08/23/integrate-api-tests-with-postman-newman-and-travis-ci/"
   - type: link
     name: "Integrations: how Postman plays with some of your favorite tools"
-    url: "https://blog.getpostman.com/2018/04/13/integrations-how-postman-plays-with-some-of-your-favorite-tools/?_ga=2.237284166.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2018/04/13/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -61,16 +61,16 @@ Let's learn more about integration with Travis:
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/b79dc2835758549eed7e#?env%5Btests%5D=W3siZW5hYmxlZCI6dHJ1ZSwia2V5IjoibGFzdERheSIsInZhbHVlIjoiMjAxNy0wOC0xMFQwMDowMzo1OS45MThaIiwidHlwZSI6InRleHQifV0=)
 
 1. **Select a Postman collection with tests**: For now, let’s assume you already have a Postman collection with tests. Download the sample collection and environment by clicking the Run in Postman button if you want to follow this example.
-1. **Set up a GitHub repository**: Travis CI is free for open source projects on GitHub. In this example, we keep our Postman tests in a public GitHub repo.
+1. **Set up a GitHub repository**: Travis CI is free for open source projects on GitHub. This example keeps Postman tests in a public GitHub repo.
 1. **Set up Travis CI**: Follow the [Travis CI getting started guide](https://docs.travis-ci.com/user/getting-started) for the complete walk through.
 
    [Sign in to Travis CI](https://travis-ci.org/auth) with your GitHub account.
 
-   Go to your [profile page](https://travis-ci.org/profile) and enable Travis CI for the public GitHub repo we set up in the previous step.
+   Go to your [profile page](https://travis-ci.org/profile) and enable Travis CI for the public GitHub repo set up in the previous step.
 
 ## Hooking up Postman to Travis CI
 
-1. [Export the Postman Collection as a JSON file](/docs/postman/collections/data-formats/#exporting-and-importing-postman-data) and move the file to your project directory. If you’re using an environment such as this example, [download the Postman environment as a JSON file](/docs/postman/environments-and-globals/manage-environments/#manage-environments) and move the file to your project directory as well.
+1. [Export the Postman Collection as a JSON file](/docs/postman/collections/importing-and-exporting-data/#exporting-collections) and move the file to your project directory. If you’re using an environment such as this example, [download the Postman environment as a JSON file](/docs/postman/variables-and-environments/variables/#environments-in-postman) and move the file to your project directory as well.
 
     In this example, we've moved both files into a directory called `tests` placed in the root of the project repository.
 
@@ -115,21 +115,21 @@ Let’s try it out. The Travis CI [build status page](https://travis-ci.org/) 
   
 [![travis fail](https://assets.postman.com/postman-docs/travis_fail.png)](https://assets.postman.com/postman-docs/travis_fail.png)
 
-   Travis CI is running our Newman command, but we see a failed exit code (1). Boo.
+   Travis CI is running the Newman command, but you see a failed exit code (1). Boo.
 
-   Stay calm. Let’s review the logs in Travis CI. Newman ran our tests, we see the first and second tests passed, but the last test `Updated in the last day` failed.
+   Stay calm. Let’s review the logs in Travis CI. Newman ran the tests, you see the first and second tests passed, but the last test `Updated in the last day` failed.
 
 [![travis log fail](https://assets.postman.com/postman-docs/travis_log_fail.png)](https://assets.postman.com/postman-docs/travis_log_fail.png)
 
-   Let’s go back to our Postman collection and fix our `Updated in the last day` test.
+   Let’s go back to the Postman collection and fix the `Updated in the last day` test.
 
 [![PM test script](https://assets.postman.com/postman-docs/WS-get-information95.png)](https://assets.postman.com/postman-docs/WS-get-information95.png)
 
-   Once we fix the mistake in our test, let’s save the changes, update the repo with the latest collection file, and then trigger a Travis CI build once again by committing and pushing the change.  
+   Once you fix the mistake in the test, let’s save the changes, update the repo with the latest collection file, and then trigger a Travis CI build once again by committing and pushing the change.  
 
 [![travis log success](https://assets.postman.com/postman-docs/travis_log_success.png)](https://assets.postman.com/postman-docs/travis_log_success.png)
 
- And it's working! All our tests passed and the command exited with a successful exit code (0).
+ And it's working! All the tests passed and the command exited with a successful exit code (0).
 
 ---
 For more information about collection runs, see:

@@ -41,7 +41,7 @@ function SEO({
         },
         {
           property: 'og:url',
-          content: 'https://learning.getpostman.com',
+          content: 'https://learning.postman.com',
         },
         {
           property: 'og:title',
@@ -53,7 +53,7 @@ function SEO({
         },
         {
           property: 'og:image',
-          content: 'https://www.getpostman.com/img/v2/logo-glyph.png',
+          content: 'https://www.postman.com/img/v2/logo-glyph.png',
         },
         {
           property: 'og:type',
@@ -73,11 +73,11 @@ function SEO({
         },
         {
           property: 'twitter:domain',
-          content: 'https://learning.getpostman.com',
+          content: 'https://learning.postman.com',
         },
         {
           property: 'og:image',
-          content: 'https://www.getpostman.com/img/v2/logo-glyph.png',
+          content: 'https://www.postman.com/img/v2/logo-glyph.png',
         },
         {
           property: 'twitter:site',
@@ -88,7 +88,7 @@ function SEO({
       {/* fonts */}
       <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet" />
       <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossOrigin="anonymous" />
-      <link rel="canonical" href={`https://learning.getpostman.com${slug}`} />
+      <link rel="canonical" href={`https://learning.postman.com${slug}`} />
       {/* Algolia IE11 support */}
       <script src="https://polyfill.io/v3/polyfill.min.js?features=default,Array.prototype.find,Array.prototype.includes" />
     </Helmet>

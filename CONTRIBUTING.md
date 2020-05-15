@@ -2,13 +2,14 @@
 
 When contributing to this repository, please first discuss the change you wish to make via [Issues](https://github.com/postmanlabs/postman-docs/issues).
 
-Please note we have a [code of conduct](https://community.getpostman.com/t/postman-code-of-conduct/5), please follow it in all your interactions with the project.
+Please note we have a [code of conduct](https://www.postman.com/code-of-conduct), please follow it in all your interactions with the project.
 
 ## Development Process
 
 We follow [Git Flow](https://guides.github.com/introduction/flow/) for changes to this repository.
 
 * Fork this repo to create a copy hosted on your github account. The Fork button is in the top right of the page.
+    * If you're a collaborator on the repo you can instead just create a branch.
 * Clone down your copy of this repo onto your local machine: `git clone <YOUR GITHUB REPO URL>`
 * Navigate to the new directory git created. `cd postman-docs`
 * Checkout the `develop` branch. `git checkout develop`
@@ -38,7 +39,9 @@ When your PR is opened it will run GitHub Actions which will lint the markdown f
 
 Upon approval your PR will be merged into develop for further verification and then merged into master upon final approval.
 
-[homepage]: https://learning.getpostman.com
+[homepage]: https://learning.postman.com
+
+> __Staff and Repo Collaborators__: Please only push to `develop` when changes are ready to publish. The `develop` branch is intended only as a last check to see edits live on the web in a production type build environment before publishing—changes shouldn't sit on the `develop` branch for long before pushing to `master`.
 
 ## Adding/Editing Images
 

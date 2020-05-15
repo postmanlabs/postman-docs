@@ -38,11 +38,11 @@ In this analogy, the child forwards the information on behalf of each parent. Be
 * Security from direct attacks
 * DevOps load balancing
 
-A proxy acts like a go-between to perform various functions. Postman has a [built-in web proxy to capture API requests](https://learning.getpostman.com/docs/postman/sending_api_requests/capturing_http_requests/), the [Postman Interceptor to intercept network traffic](https://learning.getpostman.com/docs/postman/sending_api_requests/interceptor_extension/), and proxy settings to direct API requests.
+A proxy acts like a go-between to perform various functions. Postman has a [built-in web proxy to capture API requests](https://learning.postman.com/docs/postman/sending_api_requests/capturing_http_requests/), the [Postman Interceptor to intercept network traffic](https://learning.postman.com/docs/postman/sending_api_requests/interceptor_extension/), and proxy settings to direct API requests.
 
 ### Configuring proxy settings
 
-This article describes how to configure the proxy settings in Postman to direct all requests made in the Postman app to route through a proxy server. This is different from [capturing network traffic](https://learning.getpostman.com/docs/postman/sending_api_requests/capturing_http_requests/) with the built-in proxy which allows Postman to intercept network traffic. 
+This article describes how to configure the proxy settings in Postman to direct all requests made in the Postman app to route through a proxy server. This is different from [capturing network traffic](https://learning.postman.com/docs/postman/sending_api_requests/capturing_http_requests/) with the built-in proxy which allows Postman to intercept network traffic. 
 
 Postman's native apps for Mac, Windows, and Linux support configuring proxies. You can either specify to use a **custom proxy** or to use the **system proxy** defined in the operating system.
 

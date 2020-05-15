@@ -1,6 +1,6 @@
 ---
 title: "Responses"
-order: 15
+order: 24
 page_id: "responses"
 contextual_links:
   - type: section
@@ -13,13 +13,13 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Intro to Postman Cloud"
-    url: "https://www.youtube.com/watch?v=ccdxr0oJR-I"
+    name: "HTTP protocol explained"
+    url:  "https://www.youtube.com/watch?v=FAnuh0_BU4c&list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Inspecting Postman Requests"
-    url: "https://blog.getpostman.com/2015/06/13/debugging-postman-requests/?_ga=2.128216138.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2015/06/13/debugging-postman-requests/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -88,7 +88,7 @@ Postman breaks down the response size into body and headers. The response sizes 
 
 ## Cookies
 
-Cookies sent by the server are visible in a dedicated tab. To [manage cookies](/docs/postman/sending-api-requests/cookies/) in Postman the native apps, use the **MANAGE COOKIES** modal. If you're working in the Postman Chrome app, you can use the [Interceptor extension](/docs/postman/sending-api-requests/interceptor-extension/) to help manage cookies.
+Cookies sent by the server are visible in a dedicated tab. To [manage cookies](/docs/postman/sending-api-requests/cookies/) in Postman the native apps, use the **MANAGE COOKIES** modal. If you're working in the Postman Chrome app, you can use the [Interceptor extension](/docs/postman/sending-api-requests/interceptor/) to help manage cookies.
 
 ## Tests
 

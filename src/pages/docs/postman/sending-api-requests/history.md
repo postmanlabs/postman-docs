@@ -1,6 +1,6 @@
 ---
 title: "History"
-order: 16
+order: 26
 page_id: "history"
 contextual_links:
   - type: section
@@ -20,7 +20,7 @@ warning: false
 
 Postman stores all requests you send in the "History" view in the left sidebar. You can also choose to save the responses you get when you send your requests. You can use history to experiment with variations of requests quickly without wasting time building a request from scratch. You can also load a previous request by clicking on the request name.
 
-If you create an account and sign in to Postman, your history will be synced with our server, backed up in real-time, and retrievable across your devices.
+If you create an account and sign in to Postman, your history will be synced with the server, backed up in real-time, and retrievable across your devices.
 
 **Note:** If you'd like to save responses to your requests in the history, you must turn on the setting 'Save Responses' under the History tab in the left sidebar, as illustrated in the screen below.
 
@@ -38,7 +38,7 @@ The requests are ordered by time, with the most recent requests displayed at the
 
 ### Multi-selecting requests
 
-Hold down the **CMD** key (or **CTRL** on Windows), and click on each request that you want to select. You can initiate actions like [saving](/docs/postman/collections/creating-collections/), [sharing](/docs/postman/collections/sharing-collections/), [documenting](/docs/postman/api-documentation/intro-to-api-documentation), [mocking](/docs/postman/mock-servers/intro-to-mock-servers/), [monitoring](/docs/postman/monitors/intro-monitors/), or deleting on these requests through actions at the top of the list.
+Hold down the **CMD** key (or **CTRL** on Windows), and click each request that you want to select. You can initiate actions like [saving](/docs/postman/collections/creating-collections/), [sharing](/docs/postman/collections/sharing-collections/), [documenting](/docs/postman/api-documentation/documenting-your-api/), [mocking](/docs/postman/mock-servers/intro-to-mock-servers/), [monitoring](/docs/postman/monitors/intro-monitors/), or deleting requests through actions at the top of the list.
 
 ### Save requests to a collection
 

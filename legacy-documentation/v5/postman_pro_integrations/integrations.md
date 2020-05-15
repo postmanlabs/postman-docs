@@ -24,7 +24,7 @@ Check out the growing list of Postman 3rd party Integrations.
 
 [![Integration Directory](https://assets.postman.com/postman-docs/integration_directory.gif)][4]
 
-[0]: https://www.getpostman.com/ 
+[0]: https://www.postman.com/ 
 [1]: https://app.getpostman.com/dashboard/integrations
 [2]: https://assets.postman.com/postman-docs/dashboard_link.jpg
 [3]: https://assets.postman.com/postman-docs/integration_link.jpg

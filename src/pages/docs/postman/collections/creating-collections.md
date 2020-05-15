@@ -1,6 +1,6 @@
 ---
 title: "Creating collections"
-order: 31
+order: 42
 page_id: "creating_collections"
 contextual_links:
   - type: section
@@ -13,11 +13,14 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Raygun"
-    url: "https://www.getpostman.com/case-studies/raygun.pdf?_ga=2.170542182.754547870.1571851340-1454169035.1570491567"
+    name: "Ping Identity"
+    url: "https://www.postman.com/resources/case-studies/pingidentity/"
+  - type: link
+    name: "AMC Theatres"
+    url: "https://www.postman.com/resources/case-studies/amc-theatres/"
   - type: link
     name: "BetterCloud"
-    url: "https://www.getpostman.com/case-studies/BetterCloud.pdf?_ga=2.194292587.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/resources/case-studies/bettercloud/"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -27,10 +30,10 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Keep track of GitHub issues using a Postman collection"
-    url: "https://blog.getpostman.com/2017/08/15/keep-track-of-github-issues-using-a-postman-collection/?_ga=2.164833401.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/08/15/keep-track-of-github-issues-using-a-postman-collection/"
   - type: link
     name: "Multi-level folders and folder reordering"
-    url: "https://blog.getpostman.com/2017/05/19/multi-level-folders-and-folder-reordering/?_ga=2.133907912.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/05/19/multi-level-folders-and-folder-reordering/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -200,7 +203,7 @@ Click the ellipsis (...) to expand the control dropdown.
 
 Select "Duplicate" from the menu.
 
-Learn how to [share collections](/docs/postman/collections/sharing-collections/), [import and export collections](/docs/postman/collections/data-formats/), and [use other collection features](/docs/postman/collections/managing-collections/).  
+Learn how to [share collections](/docs/postman/collections/sharing-collections/), [import and export collections](/docs/postman/collections/importing-and-exporting-data/), and [use other collection features](/docs/postman/collections/managing-collections/).  
 
 ---
 For more information on collections, see:

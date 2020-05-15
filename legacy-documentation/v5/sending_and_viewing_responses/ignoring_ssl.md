@@ -16,8 +16,8 @@ In the native apps, you have the option of ignoring SSL certificates altogether.
 2. Change the `SSL certificate verification` setting to Off.
 3. Restart the app.
 
-[![](https://www.getpostman.com/img/v1/docs/self_signed_certs/ignoring_1.png)][0]
+[![](https://www.postman.com/img/v1/docs/self_signed_certs/ignoring_1.png)][0]
 
 
-[0]: https://www.getpostman.com/img/v1/docs/self_signed_certs/ignoring_1.png
-[1]: http://blog.getpostman.com/2014/01/28/using-self-signed-certificates-with-postman/
+[0]: https://www.postman.com/img/v1/docs/self_signed_certs/ignoring_1.png
+[1]: https://blog.postman.com/2014/01/28/using-self-signed-certificates-with-postman/

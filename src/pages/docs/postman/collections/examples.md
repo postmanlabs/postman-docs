@@ -1,6 +1,6 @@
 ---
 title: "Examples"
-order: 35
+order: 48
 page_id: "examples"
 contextual_links:
   - type: section
@@ -14,12 +14,12 @@ contextual_links:
     name: "Case Studies"
   - type: link
     name: "Ingur"
-    url: "https://www.getpostman.com/case-studies/Imgur.pdf?_ga=2.233654104.754547870.1571851340-1454169035.1570491567"
+    url: "https://www.postman.com/resources/case-studies/imgur/"
   - type: section
     name: "Next Steps"
   - type: link
     name: "Intro to API documentation"
-    url: "/docs/postman/api-documentation/intro-to-api-documentation/"
+    url: "/docs/postman/api-documentation/documenting-your-api/"
   - type: link
     name: "Intro to mock servers"
     url: "/docs/postman/mock-servers/intro-to-mock-servers/"
@@ -90,7 +90,7 @@ Click on the **Examples** dropdown in the upper right corner of the builder to a
 
 ## What happened to the 'Save Response' feature?
 
-[Saving responses](/docs/postman/sending-api-requests/responses/) has been a Postman feature for a long time. Over time our users wanted to edit responses before saving them, and add new responses. We created Examples to provide that functionality.
+[Saving responses](/docs/postman/sending-api-requests/responses/) has been a Postman feature for a long time. Over time users wanted to edit responses before saving them, and add new responses. Examples provides that functionality.
 
 You can save responses as before, but now you can edit them whenever you want. To access previously saved responses, click the **Examples** dropdown.
 
@@ -98,7 +98,7 @@ You can save responses as before, but now you can edit them whenever you want. T
 
 ## How your examples appear in Postman documentation
 
-You can publish Postman [API documentation](/docs/postman/api-documentation/intro-to-api-documentation/) to the web with a single click. Examples display in your API documentation and provide additional details and clarification for your API.
+You can publish Postman [API documentation](/docs/postman/api-documentation/documenting-your-api/) to the web with a single click. Examples display in your API documentation and provide additional details and clarification for your API.
 
 You can edit these examples with real-time updates to the documentation!
 

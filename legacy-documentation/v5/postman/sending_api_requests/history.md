@@ -8,7 +8,7 @@ warning: false
 
 All requests you send using Postman are stored in the history which you can access using the left sidebar. The history lets you experiment with variations of requests quickly without wasting time building a request from scratch. You can load a previous request by clicking on the request name.
 
-If you create an account and sign in to Postman, your history will be synced with our server, backed up in realtime, and retrievable across your devices. If you sign out of your Postman account, and then log back in, the last 10 requests will remain in your history. Postman Pro and Enterprise users will have access to the last 100 requests.  The same policy holds for collection runs. Remember that you can always save as many requests in [collections](https://learning.getpostman.com/docs/postman/collections/creating_collections/) as you want.
+If you create an account and sign in to Postman, your history will be synced with our server, backed up in realtime, and retrievable across your devices. If you sign out of your Postman account, and then log back in, the last 10 requests will remain in your history. Postman Pro and Enterprise users will have access to the last 100 requests.  The same policy holds for collection runs. Remember that you can always save as many requests in [collections](https://learning.postman.com/docs/postman/collections/creating_collections/) as you want.
 
 [![history sidebar](https://assets.postman.com/postman-docs/WS-history.png)](https://assets.postman.com/postman-docs/WS-history.png)
 
@@ -24,7 +24,7 @@ The requests are ordered by time, with the most recent requests displayed at the
 
 ##### **Multi-selecting requests**
 
-Hold down the **CMD** key (or **CTRL** on Windows), and click on each request that you want to select. You can initiate actions like [saving](https://learning.getpostman.com/docs/postman/collections/creating_collections/), [sharing](https://learning.getpostman.com/docs/postman/collections/sharing_collections/), [documenting](https://learning.getpostman.com/docs/postman/api_documentation/intro_to_api_documentation), [mocking](https://learning.getpostman.com/docs/postman/mock_servers/intro_to_mock_servers/), [monitoring](https://learning.getpostman.com/docs/postman/monitors/intro_monitors/), or deleting on these requests through actions at the top of the list.
+Hold down the **CMD** key (or **CTRL** on Windows), and click on each request that you want to select. You can initiate actions like [saving](https://learning.postman.com/docs/postman/collections/creating_collections/), [sharing](https://learning.postman.com/docs/postman/collections/sharing_collections/), [documenting](https://learning.postman.com/docs/postman/api_documentation/intro_to_api_documentation), [mocking](https://learning.postman.com/docs/postman/mock_servers/intro_to_mock_servers/), [monitoring](https://learning.postman.com/docs/postman/monitors/intro_monitors/), or deleting on these requests through actions at the top of the list.
 
 ##### **Save requests to a collection**
 

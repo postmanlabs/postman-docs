@@ -45,7 +45,7 @@ Keep in mind a few restrictions:
 
 An invite is an invitation that you send to new people to add them to a team. These can only be managed by members with the admin role.
 
-**From the Postman app:** To invite people to join the team with a user role, click on "Invite Users" from the **Team Library** tab. You can also invite users when [setting up the team library](https://learning.getpostman.com/docs/postman/team_library/setting_up_team_library).
+**From the Postman app:** To invite people to join the team with a user role, click on "Invite Users" from the **Team Library** tab. You can also invite users when [setting up the team library](https://learning.postman.com/docs/postman/team_library/setting_up_team_library).
 
   [![invite users from app](https://assets.postman.com/postman-docs/invite_users_from_app.png)](https://assets.postman.com/postman-docs/invite_users_from_app.png)
 

@@ -29,7 +29,7 @@ An API Key tells our servers that the request it received came from you. Everyth
 
 An API Key is required to be sent as part of every request to the Postman API, in a header called `X-Api-Key`. If you are unable to set headers for a request, you can add your API Key in the `apikey` query parameter.
 
-For ease of use inside Postman, you could store your API key in an [environment variable][3] called \`postman\_api\_key\` and this Collection\](https://www.getpostman.com/docs/collections) will automatically use it to make API calls.
+For ease of use inside Postman, you could store your API key in an [environment variable][3] called \`postman\_api\_key\` and this Collection\](https://www.postman.com/docs/collections) will automatically use it to make API calls.
 
 If an API Key is missing, malformed, or invalid, you will receive a `401 Unauthorised` response code and the following JSON response:
 
@@ -69,7 +69,7 @@ Every user is permitted to create upto 10 keys. To increase this limit, please c
 
 ### Getting Help
 
-For help regarding accessing the Postman API, feel free to discuss it in the `#cloudapi` channel of our [Slack Community][5] ([get invite][6]). You can also drop in a line at [help@getpostman.com](mailto:help@getpostman.com).
+For help regarding accessing the Postman API, feel free to discuss it in the `#cloudapi` channel of our [Slack Community][5] ([get invite][6]). You can also drop in a line at [help@postman.com](mailto:help@postman.com).
 In the event you receive a `503` response from our servers, it implies that we have hit an unexpected spike in API access traffic and would usually be operational within the next 5 minutes. If the outage persists, or your receive any other form of `5XX` error, kindly let us know.
 
 ### API Reference
@@ -83,10 +83,10 @@ For information on API terms of use and privacy, refer to our [policy document][
 
 [0]: https://en.wikipedia.org/wiki/JSON
 [1]: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
-[2]: https://www.getpostman.com/dashboard/integrations
-[3]: https://www.getpostman.com/docs/environments
+[2]: https://www.postman.com/dashboard/integrations
+[3]: https://www.postman.com/docs/environments
 [4]: https://support.getpostman.com/hc
 [5]: http://postmancommunity.slack.com/
-[6]: https://www.getpostman.com/slack-invite
+[6]: https://www.postman.com/slack-invite
 [7]: https://api.getpostman.com/
-[8]: https://www.getpostman.com/licenses/privacy
+[8]: https://www.postman.com/licenses/privacy

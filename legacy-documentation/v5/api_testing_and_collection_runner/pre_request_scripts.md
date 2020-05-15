@@ -27,5 +27,5 @@ The syntax of pre-requests scripts is exactly like that of [test scripts][0] exc
 To check what is available in the pre-request script sandbox, take a look at the [Sandbox documentation][1].
 
 
-[0]: https://www.getpostman.com/docs/jetpacks_writing_tests
-[1]: https://www.getpostman.com/docs/jetpacks_sandbox
+[0]: https://www.postman.com/docs/jetpacks_writing_tests
+[1]: https://www.postman.com/docs/jetpacks_sandbox

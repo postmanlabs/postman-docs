@@ -42,15 +42,15 @@ We won't delete any of your data or collections. Only the creators will have acc
 
 ### We can't pay by credit card. Can you invoice my company?
 
-We can invoice large teams who subscribe to a yearly plan. Contact us at [help@getpostman.com][0] to arrange this. All monthly plans must be paid by credit card.
+We can invoice large teams who subscribe to a yearly plan. Contact us at [help@postman.com][0] to arrange this. All monthly plans must be paid by credit card.
 
 ### I'm not the billing contact for our company. Can I have billing statements automatically sent to someone else?
 
-You can set up a billing contact email address when you get started on Pro. If you have already gotten started and not put that in, you can email us at [help@getpostman.com][0].
+You can set up a billing contact email address when you get started on Pro. If you have already gotten started and not put that in, you can email us at [help@postman.com][0].
 
 ### My accounting department requires some additional information on invoices. How can I customize our invoice and billing statements?
 
-Message us at [help@getpostman.com][0] and we'll do our best to help.
+Message us at [help@postman.com][0] and we'll do our best to help.
 
 ### I referred a new team. Can I get credit?
 
@@ -58,11 +58,11 @@ We're working out a referrals program. Until then, send us an email with the tea
 
 ### My team is a nonprofit organization. Is there special Postman pricing available for nonprofits or charitable organizations?
 
-Nothing yet. But message us at [help@getpostman.com][0] and we'll see what we can do!
+Nothing yet. But message us at [help@postman.com][0] and we'll see what we can do!
 
 ### My team is an education institution or student group. Is there special Postman pricing available for my organization?
 
-Nothing yet. But we plan to offer something for qualified nonprofit or accredited K-12 or higher education institutions, or student groups associated with those institutions on annual plans. Message us at [help@getpostman.com][0] and we'll see what we can do!
+Nothing yet. But we plan to offer something for qualified nonprofit or accredited K-12 or higher education institutions, or student groups associated with those institutions on annual plans. Message us at [help@postman.com][0] and we'll see what we can do!
 
 
-[0]: mailto:help@getpostman.com
+[0]: mailto:help@postman.com

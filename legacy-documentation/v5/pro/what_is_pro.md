@@ -17,8 +17,8 @@ Postman’s vision is to help you build a super fast and smooth workflow for API
 
 Postman Pro offers solutions that satisfy each of the questions above. 
 
-*   Team [collaboration](https://learning.getpostman.com/docs/postman/team_library/sharing/) for the single source of truth about your API, or review historical versions and the latest updates.
-*   API [documentation](https://learning.getpostman.com/docs/postman/api_documentation/intro_to_api_documentation) to share public or private documentation, beautifully viewable via a web page.
-*   Powerful [mock servers](https://learning.getpostman.com/docs/postman/mock_servers) to simulate the real API and decouple teams.
-*   Collection [monitoring](https://learning.getpostman.com/docs/postman/monitors/intro_monitors/) to check for the performance, uptime and correctness of your API.
-*   [Out-of-the-box integrations](https://learning.getpostman.com/docs/postman_pro/integrations/intro_integrations/) and the [Postman API](/docs/postman/postman_api/intro_api/) to connect your different tools.
+*   Team [collaboration](https://learning.postman.com/docs/postman/team_library/sharing/) for the single source of truth about your API, or review historical versions and the latest updates.
+*   API [documentation](https://learning.postman.com/docs/postman/api_documentation/intro_to_api_documentation) to share public or private documentation, beautifully viewable via a web page.
+*   Powerful [mock servers](https://learning.postman.com/docs/postman/mock_servers) to simulate the real API and decouple teams.
+*   Collection [monitoring](https://learning.postman.com/docs/postman/monitors/intro_monitors/) to check for the performance, uptime and correctness of your API.
+*   [Out-of-the-box integrations](https://learning.postman.com/docs/postman_pro/integrations/intro_integrations/) and the [Postman API](/docs/postman/postman_api/intro_api/) to connect your different tools.

@@ -1,6 +1,6 @@
 ---
 title: "Intro to collections"
-order: 30
+order: 41
 page_id: "intro_to_collections"
 contextual_links:
   - type: section
@@ -13,11 +13,14 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Raygun"
-    url: "https://www.getpostman.com/case-studies/raygun.pdf?_ga=2.170542182.754547870.1571851340-1454169035.1570491567"
+    name: "AMC Theatres"
+    url: "https://www.postman.com/resources/case-studies/amc-theatres/"
   - type: link
-    name: "BetterCloud"
-    url: "https://www.getpostman.com/case-studies/BetterCloud.pdf?_ga=2.194292587.754547870.1571851340-1454169035.1570491567"
+    name: "Ping Identity"
+    url: "https://www.postman.com/resources/case-studies/pingidentity/"
+  - type: link
+    name: "iQmetrix"
+    url: "https://www.postman.com/resources/case-studies/iqmetrix/"
   - type: subtitle
     name: "Videos"
   - type: link
@@ -27,10 +30,10 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "The Good Collection"
-    url: "https://blog.getpostman.com/2018/03/08/the-good-collection/?_ga=2.169017831.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2018/03/08/the-good-collection/"
   - type: link
     name: "Not your Grandma's Postman"
-    url: "https://blog.getpostman.com/2017/05/27/not-your-grandmas-postman/?_ga=2.169017831.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/05/27/not-your-grandmas-postman/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -57,7 +60,7 @@ You can group together requests into folders and collections, so that you don't 
 
 ### Documentation
 
-You can add a name and descriptions to requests, folders, and collections. In Postman, you can use the collection browser to view the documentation. In Postman Pro, you can create and publish beautiful API documentation pages.
+You can add a name and descriptions to requests, folders, and collections. In Postman, you can use the collection browser to view the documentation.
 
 ### Test suites
 

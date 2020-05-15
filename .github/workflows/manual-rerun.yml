@@ -1,0 +1,27 @@
+  
+name: manually re-running actions
+
+on: repository_dispatch
+
+jobs:
+  manual_deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-node@master
+    - name: lint all markdownfiles
+      run: |
+        npm install
+        node_modules/.bin/markdownlint ./ --ignore node_modules --ignore legacy-documentation
+    - name: check for image url
+      run: |
+        if grep -lri 's3.amazonaws.com/postman-static-getpostman-com' ./src/pages/docs ; 
+        then echo "Invalid s3 references found. Please use format 'https://assets.postman.com/postman-docs/[filename-in-s3]'"; 
+          exit 1; 
+        else echo "no s3 references found"; 
+        fi
+    - name: running unit tests
+      run: |
+        npm install
+        npm run clean
+        npm run test:update

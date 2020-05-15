@@ -16,7 +16,7 @@ Mostly it will be the default description as mandated by the HTTP spec but API a
 
 ### Saving responses
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/33.png)
+[![](https://www.postman.com/img/v1/docs/thumbs/33.png)
 ][0]
 
 If a request has been saved in a [collection][1], you can save responses for that request. Once the response has been received, click the "Save response" button. You'll be able to save the response with a name. All responses saved for a request will be available whenever you load the request (above the request URL).
@@ -28,7 +28,7 @@ The Postman body tab gives you several tools to help you make sense of things qu
 
 #### Pretty
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/31.png)
+[![](https://www.postman.com/img/v1/docs/thumbs/31.png)
 ][2]
 
 The pretty mode formats JSON or XML responses so that they are easier to look at. Nobody wants to scroll through a minified single line JSON response looking for that elusive string!
@@ -40,14 +40,14 @@ Note: You can use Cmd+F / Ctrl+F to open the search bar, and Cmd+G / Ctrl+G to s
 
 #### Raw
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/11.png)
+[![](https://www.postman.com/img/v1/docs/thumbs/11.png)
 ][4]
 
 The raw view is just a big text area with the response body. It can help to tell whether your response is minified or not.
 
 #### Preview
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/12.png)
+[![](https://www.postman.com/img/v1/docs/thumbs/12.png)
 ][5]
 
 The preview tab renders the response in a sandboxed iframe. Some web frameworks by default return HTML errors and the preview mode is especially helpful there. Due to iframe sandbox restrictions, Javascript and images are disabled in the iframe.
@@ -58,7 +58,7 @@ If your API endpoint returns an image, Postman will detect and render it automat
 
 ### Headers
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/13.png)
+[![](https://www.postman.com/img/v1/docs/thumbs/13.png)
 ][6]
 
 Headers are displayed as key/value pairs in the header tab. Hovering over the header name can give you a description of the header according to the HTTP spec. If you are sending a HEAD request, Postman will show the headers tab by default.
@@ -70,12 +70,12 @@ For the packaged app, you'll need to enable the [Interceptor][7]. You can then v
 Refer to the [sandbox documentation][8] for info on how to access cookies in the pre-request/test scripts
 
 
-[0]: https://www.getpostman.com/img/v1/docs/source/33.png
-[1]: https://www.getpostman.com/docs/collections
-[2]: https://www.getpostman.com/img/v1/docs/source/31.png
-[3]: https://www.getpostman.com/docs/texteditor
-[4]: https://www.getpostman.com/img/v1/docs/source/11.png
-[5]: https://www.getpostman.com/img/v1/docs/source/12.png
-[6]: https://www.getpostman.com/img/v1/docs/source/13.png
-[7]: https://www.getpostman.com/docs/capture#interceptor
-[8]: https://www.getpostman.com/docs/jetpacks_sandbox
+[0]: https://www.postman.com/img/v1/docs/source/33.png
+[1]: https://www.postman.com/docs/collections
+[2]: https://www.postman.com/img/v1/docs/source/31.png
+[3]: https://www.postman.com/docs/texteditor
+[4]: https://www.postman.com/img/v1/docs/source/11.png
+[5]: https://www.postman.com/img/v1/docs/source/12.png
+[6]: https://www.postman.com/img/v1/docs/source/13.png
+[7]: https://www.postman.com/docs/capture#interceptor
+[8]: https://www.postman.com/docs/jetpacks_sandbox

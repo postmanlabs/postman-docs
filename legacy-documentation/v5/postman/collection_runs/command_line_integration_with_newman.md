@@ -25,16 +25,16 @@ Once Node.js is installed, Newman is just a command away. Install Newman from np
 $ npm install -g newman
 ```
 
-The easiest way to run Newman is to run it with a collection. You can run any collection file from your file system. Refer to the [collection documentation](https://learning.getpostman.com/docs/postman/collections/sharing-collections/) to learn how to export collections to share as a file.
+The easiest way to run Newman is to run it with a collection. You can run any collection file from your file system. Refer to the [collection documentation](https://learning.postman.com/docs/postman/collections/sharing-collections/) to learn how to export collections to share as a file.
 
 ```bash
 $ newman run mycollection.json
 ```
 
-You can also pass a collection as a URL. Refer to the [collection documentation](https://learning.getpostman.com/docs/postman/collections/sharing-collections/) to learn how to share a file as a URL. Your collection probably uses environment variables. To provide an accompanying set of environment variables, [export the template](https://learning.getpostman.com/docs/postman/environments_and_globals/manage_environments/) from Postman and run them with the `-e` flag.
+You can also pass a collection as a URL. Refer to the [collection documentation](https://learning.postman.com/docs/postman/collections/sharing-collections/) to learn how to share a file as a URL. Your collection probably uses environment variables. To provide an accompanying set of environment variables, [export the template](https://learning.postman.com/docs/postman/environments_and_globals/manage_environments/) from Postman and run them with the `-e` flag.
 
 ```bash
-$ newman run https://www.getpostman.com/collections/cb208e7e64056f5294e5 -e dev_environment.json
+$ newman run https://www.postman.com/collections/cb208e7e64056f5294e5 -e dev_environment.json
 ```
 
 ### Options
@@ -153,7 +153,7 @@ The results of all tests and requests can be exported into a file and later impo
 $ newman run mycollection.json --reporters cli,json --reporter-json-export outputfile.json
 ```
 
-**Note:** Newman allows you to use all [libraries and objects](https://learning.getpostman.com/docs/postman/scripts/postman_sandbox/) that Postman supports to run tests and pre-request scripts.
+**Note:** Newman allows you to use all [libraries and objects](https://learning.postman.com/docs/postman/scripts/postman_sandbox/) that Postman supports to run tests and pre-request scripts.
 
 ### File uploads
 
@@ -303,9 +303,9 @@ For the complete list of details, see the [Newman README](https://github.com/po
 [0]: https://www.npmjs.org/package/newman
 [1]: https://github.com/postmanlabs/newman
 [2]: http://nodejs.org/download/
-[3]: http://www.getpostman.com/docs/collections
-[4]: http://www.getpostman.com/docs/environments
-[5]: http://www.getpostman.com/docs/jetpacks_sandbox
+[3]: http://www.postman.com/docs/collections
+[4]: http://www.postman.com/docs/environments
+[5]: http://www.postman.com/docs/jetpacks_sandbox
 [6]: https://github.com/postmanlabs/newman
 [7]: https://github.com/postmanlabs/newman#configuring-reporters
 [8]: https://github.com/postmanlabs/newman/tree/develop/lib/reporters

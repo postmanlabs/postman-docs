@@ -25,11 +25,11 @@ As the test says, we're expecting a cookie named `foo1` to be returned as part o
 If you click on any request name in your collection run, you'll notice a tooltip appear. This has useful information pertaining to your request, information you might need when figuring out what went wrong. Expanding the `Response Body` section, we can see clearly that the response does not contain the cookie we expect. Moreover, upon expanding the `Response Headers` section, we see that the cookie was not sent at all. We infer that something must be wrong with the way Postman Echo handles cookies. We can now go ahead and patch this up in our API and try again.
 
 Note that only response bodies less than 300KBs are attempted to be displayed. Your response headers and bodies are never synced for security reasons.  
-You can control which bodies show up in this tooltip by using the `Log responses` dropdown when [starting a collection run](https://learning.getpostman.com/docs/postman/collection-runs/starting-a-collection-run/).
+You can control which bodies show up in this tooltip by using the `Log responses` dropdown when [starting a collection run](https://learning.postman.com/docs/postman/collection-runs/starting-a-collection-run/).
 
 ### Debugging using the Postman Console
 
-Debugging using the Postman Console requires you to have the console open before you start your run. You can read about the [Postman Console](https://learning.getpostman.com/docs/postman/sending-api-requests/debugging-and-logs/).
+Debugging using the Postman Console requires you to have the console open before you start your run. You can read about the [Postman Console](https://learning.postman.com/docs/postman/sending-api-requests/debugging-and-logs/).
 
 [![postman console view](https://assets.postman.com/postman-docs/58532402.png)](https://assets.postman.com/postman-docs/58532402.png)
 

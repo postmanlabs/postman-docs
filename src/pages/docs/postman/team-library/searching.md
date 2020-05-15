@@ -5,7 +5,7 @@ warning: false
 
 ---
 
- **Note: Team Library is only available for versions 5.0 and below.**
+> __This page is deprecated. Team Library is only available for versions 5.0 and below.__
 
 When you search in Postman, you can:
 
@@ -97,4 +97,4 @@ You can re-order collections in the Team Library by "Name", "Last Modified", "Ow
 
 ## Search with the Slack Bot
 
-You can integrate the Postman Pro Search Slack bot and get more detailed search results too. This feature will be available in the Team Library soon. Read more about the [Slack Bot](http://blog.getpostman.com/2015/09/24/api-integrations-using-postman-building-a-slack-channel-bot/).
+You can integrate the Search Slack bot and get more detailed search results too. This feature will be available in the Team Library soon. Read more about the [Slack Bot](https://blog.postman.com/2015/09/24/api-integrations-using-postman-building-a-slack-channel-bot/).

@@ -14,12 +14,12 @@ You can manage your billing from the [Billing Overview](https://go.postman.co/bi
 
 From this page, you can:
 
-* [Change your plan (Pro Monthly)](https://learning.getpostman.com/docs/pro/managing_pro/changing_your_plan)
-* [Add user slots to your plan (Pro Annual)](https://learning.getpostman.com/docs/pro/managing_pro/changing_your_plan)
-* [Set instructions for next billing cycle](https://learning.getpostman.com/docs/pro/managing_pro/changing_your_plan)
+* [Change your plan (Pro Monthly)](https://learning.postman.com/docs/pro/managing_pro/changing_your_plan)
+* [Add user slots to your plan (Pro Annual)](https://learning.postman.com/docs/pro/managing_pro/changing_your_plan)
+* [Set instructions for next billing cycle](https://learning.postman.com/docs/pro/managing_pro/changing_your_plan)
 * [Set the monitoring block count](#set)
 * [Manage your invoices](#invoices)
-* [Cancel your plan](https://learning.getpostman.com/docs/pro/managing_pro/changing_your_plan)
+* [Cancel your plan](https://learning.postman.com/docs/pro/managing_pro/changing_your_plan)
 
 
 In this topic, we discuss how to set the monitoring block count, view your account history, and how to add your payment information.
@@ -49,7 +49,7 @@ To set the monitoring block count:
 
 When you click the “Account History” link, you can see a chronological list of all your billing activity.
 
-[![monitor block count](https://assets.postman.com/postman-docs/account-history+.png)](https://assets.postman.com/postman-docs/account-history+.png)
+[![monitor block count](https://assets.postman.com/postman-docs/account-history.jpg)](https://assets.postman.com/postman-docs/account-history.jpg)
 
 ### Payment Methods
 

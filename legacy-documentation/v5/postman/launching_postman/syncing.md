@@ -25,7 +25,7 @@ These entities can sync with our server and be saved to the cloud:
 
 ## How do I Sync between computers?
 
-Install the [Postman app](https://www.getpostman.com/downloads/) and sign in with the same email address or username on all your devices.
+Install the [Postman app](https://www.postman.com/downloads/) and sign in with the same email address or username on all your devices.
 
 If you forget your username or password, you can recover your username and reset your password when you click the links near the signin prompt.
 
@@ -59,6 +59,6 @@ When you reload the app, Postman automatically retrieves the most recent and up-
 
 If you have a Postman account, are not currently part of a paid Postman Pro or Enterprise team, and have never participated in a Postman Pro trial team, you can [delete your account](https://go.postman.co/settings/me).
 
-Otherwise, you can contact us at [help@getpostman.com](mailto:help@getpostman.com).
+Otherwise, you can contact us at [help@postman.com](mailto:help@postman.com).
 
 [![delete account](https://assets.postman.com/postman-docs/syncing-deleteAccount.png)](https://assets.postman.com/postman-docs/syncing-deleteAccount.png)

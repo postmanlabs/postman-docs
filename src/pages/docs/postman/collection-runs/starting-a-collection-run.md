@@ -1,7 +1,8 @@
 ---
 title: "Starting a collection run"
-order: 54
+order: 112
 page_id: "starting_a_collection_run"
+search_keyword: "postman.setNextRequest, setNextRequest"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -22,7 +23,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Building a Restaurant Discover Service with Postman"
-    url: "https://blog.getpostman.com/2017/07/19/building-a-restaurant-discovery-service-with-postman/?_ga=2.125594060.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/07/19/building-a-restaurant-discovery-service-with-postman/"
 
 warning: false
 

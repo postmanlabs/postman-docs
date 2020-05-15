@@ -1,6 +1,6 @@
 ---
 title: "Notifications"
-order: 87
+order: 232
 page_id: "notifications"
 warning: false
 ---

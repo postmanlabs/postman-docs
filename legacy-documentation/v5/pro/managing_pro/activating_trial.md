@@ -11,7 +11,7 @@ You must have a Postman account to activate your Postman Pro trial.
 
 ### If you have a Postman account
 
-1. In the Postman [home page,](https://www.getpostman.com/) sign in to your Postman account. 
+1. In the Postman [home page,](https://www.postman.com/) sign in to your Postman account. 
 2. In the [Dashboard](https://go.postman.co/workspaces), click "Activate trial".
         [![activate](https://assets.postman.com/postman-docs/activate_trial.png)](https://assets.postman.com/postman-docs/activate_trial.png)  
 
@@ -23,8 +23,8 @@ To try the new beta dashboard, click the **Try the data dashboard** button. Note
 
 ### If you don't already have a Postman account
 
-1. In the Postman [pricing page](https://www.getpostman.com/pricing#cloud-free-trial-7), click the "Start a Free Trial" link in the Postman Pro offer. You'll be prompted to create a Postman account.
+1. In the Postman [pricing page](https://www.postman.com/pricing#cloud-free-trial-7), click the "Start a Free Trial" link in the Postman Pro offer. You'll be prompted to create a Postman account.
 2. Complete the sign up process.
 
-You're now the administrator of a Postman Pro team, with a free 7-day trial. Go to the Postman [team page](https://app.getpostman.com/dashboard/teams) and [invite users](https://learning.getpostman.com/docs/pro/managing_pro/inviting_and_managing) or [set up your team library](https://learning.getpostman.com/docs/postman/team_library/setting_up_team_library)!
+You're now the administrator of a Postman Pro team, with a free 7-day trial. Go to the Postman [team page](https://app.getpostman.com/dashboard/teams) and [invite users](https://learning.postman.com/docs/pro/managing_pro/inviting_and_managing) or [set up your team library](https://learning.postman.com/docs/postman/team_library/setting_up_team_library)!
 

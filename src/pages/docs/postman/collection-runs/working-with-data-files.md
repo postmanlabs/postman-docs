@@ -1,6 +1,6 @@
 ---
 title: "Working with data files"
-order: 56
+order: 117
 page_id: "working_with_data_files"
 contextual_links:
   - type: section
@@ -14,117 +14,67 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Looping through a data file in the Postman Collection Runner"
-    url: "https://blog.getpostman.com/2018/04/11/looping-through-a-data-file-in-the-postman-collection-runner/?_ga=2.199429224.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2018/04/11/looping-through-a-data-file-in-the-postman-collection-runner/"
   - type: link
     name: "Read and write to REST-enabled databases"
-    url: "https://blog.getpostman.com/2018/02/09/read-and-write-to-rest-enabled-databases/?_ga=2.199429224.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2018/02/09/read-and-write-to-rest-enabled-databases/"
   - type: link
     name: "Write to your local file system using a Postman Collection"
-    url: "https://blog.getpostman.com/2017/09/01/write-to-your-local-file-system-using-a-postman-collection/?_ga=2.199429224.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/09/01/write-to-your-local-file-system-using-a-postman-collection/"
 
 warning: false
 
 ---
 
-Using data files is a powerful way to test the behavior of APIs with varying data in unexpected circumstances. We can think of data files as parameters for each iteration of a collection run.
+You can use data files to pass Postman sets of values to use in a collection run. By selecting a JSON or CSV data file in the Collection Runner, you can test your requests with multiple different values as part of a single run.
 
-Let’s walk through an example.
+## Running collections with data files
 
-* [Getting started](#getting-started)
-* [Working with the sample files](#working-with-the-sample-files)
+When you [initiate a collection run](/docs/postman/collection-runs/starting-a-collection-run/) you will see an option to select a data file. Click __Runner__ at the top left of the Postman app. Select your collection, and click __Select File__ next to __Data__.
 
-## Getting started
+![Setup Collection Run](https://assets.postman.com/postman-docs/data-file-run-setup.png)
 
-Before we begin, download the following collection and data files we'll use in this example.
+Select your data file. You will see an option to __Preview__ the data in the file before starting the run.
 
-* [Collection.json](https://assets.postman.com/postman-docs/58533790.json)
-* [JSON](https://assets.postman.com/postman-docs/58702589.json)
-* [CSV](https://assets.postman.com/postman-docs/58702574.csv)
+![Data File Preview](https://assets.postman.com/postman-docs/data-file-preview.png)
 
-### Importing sample collection files
+Click __Run using data files__ to begin the run with the values from the file.
 
-To import the collection files in Postman, click the **Import** button in the header bar. In the **IMPORT** modal, select the sample files to upload. You can only import collection and environment files. We'll use data files like .JSON and .CSV for analysis.
+> * You can try out the steps in this page by first importing [the sample collection](https://assets.postman.com/postman-docs/58533790.json)—download and import it into Postman using the __Import__ button at the top left of the app.
+> ![Import Collection](https://assets.postman.com/postman-docs/collection-import-file.png)
+> * In the Collection Runner, choose the collection you imported. Download [the sample data file](https://assets.postman.com/postman-docs/58702589.json) and select it in the __Runner__ also.
+> * Note that the sample collection contains a `POST` request which uses a `path` variable in the URL. This path variable is specified in each record in the data file. The request also uses a `value` variable in the body which is also pulled from the data file for each iteration. _The example request is to the [Postman Echo API](https://docs.postman-echo.com/), a learning resource that returns the data you send it._
 
-**Note:** You cannot import data files; you can only select them at the start of a collection run.
+The Collection Runner will run the collection requests for each iteration in the data file. The output you see will indicate the results for any tests you have defined in your collection requests.
 
-[![import sample](https://assets.postman.com/postman-docs/working_with_datafiles/import_sample.png)](https://assets.postman.com/postman-docs/working_with_datafiles/import_sample.png)
+![Tests](https://assets.postman.com/postman-docs/data-file-tests-tab.png)
 
-You should see your collection with a request you just imported in the sidebar as shown in the image below.
+Click a request in the Collection Runner __Run Results__ to see more detail on its data.
 
-[![post request](https://assets.postman.com/postman-docs/working_with_datafiles/post_request.png)](https://assets.postman.com/postman-docs/working_with_datafiles/post_request.png)
+![Collection Run Results](https://assets.postman.com/postman-docs/data-file-collection-run.png)
 
-### Importing sample data files
+Any data you have defined in the requests will be used when the collection runs, and your request data can reference values defined in the data file.
 
-To select data files, you should go to the collection runner. To learn more about running collections and how to get to the Collection Runner screen, see [Intro to Collection Runs](/docs/postman/collection-runs/intro-to-collection-runs/)
+![Data File Value](https://assets.postman.com/postman-docs/request-body-data-run.png)
 
-Once you get to the Collection Runner screen, the screen appears as illustrated below:
+## Accessing data file values
 
-[![import data file](https://assets.postman.com/postman-docs/working_with_datafiles/collection_runner_open.png)](https://assets.postman.com/postman-docs/working_with_datafiles/collection_runner_open.png)
+You can reference values defined in the data file throughout your requests, however to access them in scripts, you need to use a different technique. To use values from the data file in your __Tests__ or __Pre-request Script__ code, use the `iterationData`, which provides access to the current data file record being used to run the request.
 
-See the red-circled highlighted area in the above screen. Use this option to select your data files.
-
-## Working with the sample files
-
-Here, we have a simple collection with a single POST request. If you open up this request, you'll see two variables used in the request, `path` (in the URL) & `value` in the request body.
-
-Use these variables in the same way as environment variables. We'll supply the value to these variables using the environment and data variables.
-
-When you open the test script, you'll see we're using some variables in the test script -`data` specifically, which isn't defined in the script itself.
-
-The Postman Sandbox initializes the data variable from the CSV files that we'll select in the collection run.
-
-[![using the data variable](https://assets.postman.com/postman-docs/working_with_datafiles/using_the_data_variable.png)](https://assets.postman.com/postman-docs/working_with_datafiles/using_the_data_variable.png)
-
-Let's investigate the data files first. We currently support JSON and CSV files. This examples talks only about .CSV data file.
-
-Here's the CSV data file:
-
-```bash
-    path, value
-    post, 1
-    post, 2
-    post, 3
-    post, 4
+```js
+//get the 'value' field from the data file for this request run
+pm.iterationData.get("value")
 ```
 
-In typical CSV fashion, the first row represents all variable names, and subsequent rows represent values for these variables for each iteration. For iteration 1, `path` has value `post`, and `value` is `1`. For the second iteration, `path` is still `post`, but `value` is `2`.
+See the [Sandbox Reference](/docs/postman/scripts/postman-sandbox-api-reference/#pmiterationdata) for more on what you can do with iteration data.
 
-Note that you can only use one data file for one run.
+## Next steps
 
-Now that you understand how to construct data files, let's supply this data file to a Collection Run.
+To continue learning to leverage collection runs, check out the following resources:
 
-Click "Select File" in the Runner, and select one of these files. You can also preview what values each variable has in each iteration by clicking "Preview" next to the file name.
-
-[![collection runner view](https://assets.postman.com/postman-docs/working_with_datafiles/collection_runner_view.png)](https://assets.postman.com/postman-docs/working_with_datafiles/collection_runner_view.png)
-
-[![preview data](https://assets.postman.com/postman-docs/working_with_datafiles/preview_data.png)](https://assets.postman.com/postman-docs/working_with_datafiles/preview_data.png)
-
-Let's run our collection now. You'll see that all tests pass now.
-
-If you open up the request debug tooltip, and expand "Request Body", you'll see that the variable `{{value}}` was replaced by the value, as dictated by the data file.
-
-Read more about [debugging requests](/docs/postman/collection-runs/debugging-a-collection-run/). In fact, for different iterations, this value is different. This way, we've thrown different kinds of data to our API and have ensured that it works correctly for each case.
-
-[![request debug tooltip](https://assets.postman.com/postman-docs/working_with_datafiles/request_debug_tooltip.png)](https://assets.postman.com/postman-docs/working_with_datafiles/request_debug_tooltip.png)
-
-Let's also take a look at our test scripts once again. The variable `data` is a predefined variable that gets the values from the data file.
-
-With each iteration, its value is updated with new data from our file. `data` is an object with all variables you defined in your file as its keys.
-
-Since this API echoes back whatever is sent to it, we're asserting that the returned value from Echo is the same as the one dictated by our file.
-
-You can use data variables in all places and in the exact way you can use environment variables, except in pre-request and test scripts.
-
----
-For more information about collection runs, see:
-
-* [Starting a collection run](/docs/postman/collection-runs/starting-a-collection-run/)
+* [Running multiple iterations](https://learning.postman.com/docs/postman/collection-runs/running-multiple-iterations/)
 * [Using environments in collection runs](/docs/postman/collection-runs/using-environments-in-collection-runs/)
-* [Running multiple iterations](/docs/postman/collection-runs/running-multiple-iterations/)
 * [Building workflows](/docs/postman/collection-runs/building-workflows/)
 * [Sharing a collection run](/docs/postman/collection-runs/sharing-a-collection-run/)
 * [Debugging a collection run](/docs/postman/collection-runs/debugging-a-collection-run/)
 * [Command line integration with Newman](/docs/postman/collection-runs/command-line-integration-with-newman/)
-* [Integration with Jenkins](/docs/postman/collection-runs/integration-with-jenkins/)
-* [Integration with Travis CI](/docs/postman/collection-runs/integration-with-travis/)
-* [Newman with Docker](/docs/postman/collection-runs/newman-with-docker/)

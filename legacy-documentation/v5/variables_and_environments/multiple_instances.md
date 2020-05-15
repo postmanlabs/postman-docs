@@ -14,12 +14,12 @@ You can use data variables in the [collection runner][0] to run a collection wit
 
 Variables inside the Postman UI are enclosed inside curly braces. For example, `{{username}}` and `{{password}}` inside URL parameters would be replaced by corresponding values from the data file.
 
-[![](https://www.getpostman.com/img/v1/docs/multiple_instances/multiple_instances_1.png)
+[![](https://www.postman.com/img/v1/docs/multiple_instances/multiple_instances_1.png)
 ][2]
 
 Inside pre-request and test scripts, the special data dictionary contains values loaded from the data file for a specific iteration. For example data.username or data\['username'\] would let you access the value of the username variable from a data file.
 
-[![](https://www.getpostman.com/img/v1/docs/multiple_instances/multiple_instances_2.png)
+[![](https://www.postman.com/img/v1/docs/multiple_instances/multiple_instances_2.png)
 ][3]
 
 2\. Next, get your file of variables you want to run ready. This can be a CSV or JSON file.
@@ -32,27 +32,27 @@ For JSON files, you need to make sure that the file has an array of key/value pa
 
 4\. Select "Choose files" from the file selection area to load the data file. If the data file was loaded successfully, you can preview the values within the Collection Runner.
 
-[![](https://www.getpostman.com/img/v1/docs/multiple_instances/multiple_instances_3.png)
+[![](https://www.postman.com/img/v1/docs/multiple_instances/multiple_instances_3.png)
 ][4]
 
 5\. Set up the iteration count. The iteration count is the number of times you want the collection or folder to run. Each iteration will use one row from your data file. If the iteration count is more than the number of rows in the data file, then the last row values are repeated.
 
-[![](https://www.getpostman.com/img/v1/docs/multiple_instances/multiple_instances_4.png)
+[![](https://www.postman.com/img/v1/docs/multiple_instances/multiple_instances_4.png)
 ][5]
 
 6\. Run the collection and observe the result.
 
-[![](https://www.getpostman.com/img/v1/docs/multiple_instances/multiple_instances_5.png)
+[![](https://www.postman.com/img/v1/docs/multiple_instances/multiple_instances_5.png)
 ][6]
 
 Testing your API using the Collection Runner and data files would make it more robust by testing for hundreds of variations instead of a couple of use cases. To learn by example, check out [this blog post.][7]
 
 
-[0]: http://www.getpostman.com/docs/running_collections
-[1]: http://www.getpostman.com/docs/environments
-[2]: https://www.getpostman.com/img/v1/docs/multiple_instances/multiple_instances_1.png
-[3]: https://www.getpostman.com/img/v1/docs/multiple_instances/multiple_instances_2.png
-[4]: https://www.getpostman.com/img/v1/docs/multiple_instances/multiple_instances_3.png
-[5]: https://www.getpostman.com/img/v1/docs/multiple_instances/multiple_instances_4.png
-[6]: https://www.getpostman.com/img/v1/docs/multiple_instances/multiple_instances_5.png
-[7]: http://blog.getpostman.com/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/
+[0]: http://www.postman.com/docs/running_collections
+[1]: http://www.postman.com/docs/environments
+[2]: https://www.postman.com/img/v1/docs/multiple_instances/multiple_instances_1.png
+[3]: https://www.postman.com/img/v1/docs/multiple_instances/multiple_instances_2.png
+[4]: https://www.postman.com/img/v1/docs/multiple_instances/multiple_instances_3.png
+[5]: https://www.postman.com/img/v1/docs/multiple_instances/multiple_instances_4.png
+[6]: https://www.postman.com/img/v1/docs/multiple_instances/multiple_instances_5.png
+[7]: https://blog.postman.com/2014/10/28/using-csv-and-json-files-in-the-postman-collection-runner/

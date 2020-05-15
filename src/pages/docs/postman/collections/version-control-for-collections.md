@@ -1,67 +1,132 @@
 ---
 title: "Version Control for Collections"
-order: 39
+order: 46
 page_id: "version_control_for_collections"
 warning: false
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Sharing Collections"
+    url: "/docs/postman/collections/managing-collections/"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Versioning APIs"
+    url: "/docs/postman/design-and-develop-apis/versioning-an-api/"
 ---
 
-Version control provides more control over collaborative flows by allowing users to work on different "forks" of the same collection. They can later merge and pull changes between these forks to keep the collections up to date with each other.
-
-You can 'fork' a collection in a personal or a team workspace. To fork a collection, either the workspace must belong to you or you should be a member of a team workspace. In Postman, the fork whose changes you want to merge into a parent is the source, and the parent itself is the destination.
-
-This section describes the following topics:
+You can use version control with your Postman collections, forking and merging using a standard pull request process. Version control allows you to collaborate with teammates, working on different forks of the same collection, updating forks from the parent collection, and merging changes when you're ready. You can tag collaborators to review pull requests and resolve conflicts to manage collection versions.
 
 * [Forking a collection](#forking-a-collection)
-* [Pulling changes](#pulling-changes)
+* [Creating pull requests](#creating-pull-requests)
 * [Merging changes](#merging-changes)
+* [Pulling updates](#pulling-updates)
+* [Reviewing pull requests](#reviewing-pull-requests)
 * [Resolving conflicts](#resolving-conflicts)
 
 ## Forking a collection
 
-You can fork a collection from the Postman app as well as Postman dashboard. To fork a collection, go to your Postman app, click (...) adjacent to a collection and select 'Create a Fork'. Specify a label for this fork, select a workspace and click 'Fork Collection'. Let's consider an example where HealthAPICheck collection belongs to a personal workspace. A fork of this is created in Team-Cobras workspace. The following screen illustrates this:
+You can fork a collection from the Postman app or the [web dashboard](https://go.postman.co/). To fork a collection in the Postman app, select the collection in the __Collections__ sidebar and click the __View more actions__ (__...__) button. Select __Create a Fork__.
+
+<img src="https://assets.postman.com/postman-docs/create-collection-fork.jpg" alt="Create Fork" width="250px"/>
+
+Enter a label for your fork, and select a workspace to save it to. Click __Fork collection__.
+
+<img src="https://assets.postman.com/postman-docs/fork-name.jpg" alt="Create Fork" width="350px"/>
+
+Your fork will be created in the selected workspace.
 
 [![fork collection](https://assets.postman.com/postman-docs/Forking_a_Collection.gif)](https://assets.postman.com/postman-docs/Forking_a_Collection.gif)
 
-**Note:** If there are any mocks or monitors associated with a collection, they will not be available with the forked collection. You will have to create the mocks and monitors again.  
+> If there are any mocks or monitors associated with a collection, they will not be available with the forked collection. You will need to create mocks and monitors specifically for the fork if you need them.
 
-## Pulling changes
+## Creating pull requests
 
-After forking a collection, the parent collection may be updated by others. If that happens, your fork will no longer be the same as the parent. In such circumstances, Postman notifies you about this change and allows you to pull these changes. As discussed in the previous section, the HealthAPICheck collection is forked in Team-Cobras. This collection is now updated in the personal workspace making the forked and base collection out of sync. In this case, you may want to pull the changes. The following screen illustrates this:
+You can merge changes from a collection fork (the _source_) into the parent (the _destination_) using a pull request process, tagging reviewers who can comment on your changes and decide to merge or not. In the Postman app or web dashboard, open the menu for a collection and select __Create pull request__.
 
-[![pull changes](https://assets.postman.com/postman-docs/Fork_Pull_Changes.gif)](https://assets.postman.com/postman-docs/Fork_Pull_Changes.gif)
+<img alt="Create Pull Request" src="https://assets.postman.com/postman-docs/create-collection-pull-request.jpg" width="250px"/>
+
+You can overview the source, destination, and changes that will be included in the pull request.
+
+![Pull Request Changes](https://assets.postman.com/postman-docs/pull-request-changes.jpg)
+
+> If the parent collection has any changes since you last updated your fork, you can [pull those changes](#pulling-updates) before merging.
+
+If there are any conflicts, they will be highlighted so that you can [resolve them](#resolving-conflicts).
+
+If your pull request has no conflicts, you can go ahead and open it for review. Enter a title and description, and select up to three reviewers from the dropdown list. Reviewers will need edit access to the collection in order to merge your changes. Click __Create Pull Request__.
+
+<img alt="Create Pull Request" src="https://assets.postman.com/postman-docs/pull-request-detail.jpg" width="350px"/>
+
+Reviewers can [comment on your pull request or decide to merge](#reviewing-pull-requests) your changes into the parent collection.
 
 ## Merging changes
 
-It's easy to view changes, review them and then merge. This section describes how to merge changes made in your fork with the parent collection. Let's change the name of the forked collection in the above example to HealthAPICheck - Forked Collection which is part of Team-Cobras workspace.
+You can merge changes on a fork (the _source_) into the parent fork (the _destination_). It is recommended that you use the [pull request process](#creating-pull-requests) instead of merging straight away—which you can only do if you have edit access to the original collection. If you do not have permissions to edit the parent collection, you will need to [open a pull request](#creating-pull-requests) so that someone with edit access can merge your changes.
 
-The base collection - HealthAPICheck has four request R1, R2, R3, and R4. All of them are 'Get' requests. A copy of this collection now exists in Team-Cobras workspace. All four requests are updated in Team-Cobras workspace and those changes are merged in the base collection. The following screen illustrates this:
+When you merge changes from a fork into its parent collection, you have a chance to review the "diff" first. Select __Merge changes__ on the fork in the Postman app or web dashboard.
 
-[![merging changes](https://assets.postman.com/postman-docs/Forking_n_Merging.gif)](https://assets.postman.com/postman-docs/Forking_n_Merging.gif)
+Postman will display an overview of the changes you are attempting to merge.
 
-When you attempt to merge the changes by clicking 'Merge all changes', Postman provides the following three options, as illustrated:
+![Merge Fork](https://assets.postman.com/postman-docs/merge-fork-collection.jpg)
 
-[![merge all changes](https://assets.postman.com/postman-docs/Merge_All_Changes.png)](https://assets.postman.com/postman-docs/Merge_All_Changes.png)
+> If the parent collection has any changes since you last updated your fork, you can [pull those changes](#pulling-updates) before merging.
 
-The 'Confirm merge' dialog offers the following choices:
+If there are no [conflicts](#resolving-conflicts) you can review the changes and click __Merge all changes__ when you are ready.
 
-* **Merge changes:** Changes made in your fork will be merged into the parent.
-* **Merge changes and update source:** Changes made in your fork will be merged into the parent and the fork is updated.
-* **Merge changes and delete source:** Changes made in your fork will be merged into the parent and the fork is deleted.
+<img src="https://assets.postman.com/postman-docs/merge-fork-options.jpg" alt="Merge Fork Options" width="300px"/>
 
-Choose either of the options and click 'Merge'.
+You can merge all changes from the fork into the parent, merge into the parent and update the fork, or merge in the parent and delete the fork. Make a selection and click __Merge__.
+
+## Pulling updates
+
+You can keep your forked collections up to date with any changes in the parent, for example if another team member has merged changes into the parent collection.
+
+To compare your fork to its parent, choose __Merge Changes__ in the forked collection (in the Postman app or web dashboard).
+
+<img src="https://assets.postman.com/postman-docs/merge-fork-changes.jpg" alt="Merge Fork" width="250px"/>
+
+Postman will warn you before you attempt to merge a fork whose parent has changed since you last updated it. Click __Pull Changes__ to update your fork with the changes in the parent collection.
+
+![Update Fork](https://assets.postman.com/postman-docs/update-fork.jpg)
+
+## Reviewing pull requests
+
+If you're tagged as a reviewer on a pull request, you can view the changes, comment, and merge the forked collection into the parent (or decline the pull request) when you are ready.
+
+You can see a list of pull request for any collection in the web dashboard __Pull Requests__ tab.
+
+![Open Pull Request](https://assets.postman.com/postman-docs/open-pull-request-list.jpg)
+
+Each pull request includes status, which will be `OPEN` for any that have not been merged or declined.
+
+Select an open pull request from the list to review it. You can comment to have a discussion or request changes.
+
+![Pull Request Comments](https://assets.postman.com/postman-docs/pull-request-comments.jpg)
+
+You can choose to __Edit__ or __Decline__ the pull request.
+
+If you are ready to merge, click __Approve and Merge__. [Choose a merge option](#merging-changes) and click __Merge__.
+
+The pull request will be listed as merged in the Collection __Pull Requests__ list.
+
+![Merged PR](https://assets.postman.com/postman-docs/merged-pull-request.jpg)
+
+You can view the detail on any merged pull request by selecting it.
+
+![Merged PR Detail](https://assets.postman.com/postman-docs/merged-pr-detail.jpg)
 
 ## Resolving conflicts
 
-A conflict occurs in Postman when two or more users make different changes to the same request/folder/examples simultaneously. In such a scenario, Postman will not be able to decide which of these changes to retain.
+If you encounter conflicts when you attempt to merge a forked collection, you will need to decide how you want to resolve them before continuing. A conflict will occur when you are attempting to merge changes into a request, folder, or example that has changed since you updated your fork.
 
-When conflicts arise, Postman uses color legends to illustrate and help users take decisions. The following screen illustrates the color legends:
+> Merge conflicts can involve changes in multiple workspaces.
 
-[![color legends](https://assets.postman.com/postman-docs/Fork_UI_Convention.png)](https://assets.postman.com/postman-docs/Fork_UI_Convention.png)
+![Merge Conflicts](https://assets.postman.com/postman-docs/merge-conflicts.jpg)
 
-As shown in the above screen, the source is displayed in Orange color which indicates the changes you made. The destination is shown in Blue color which indicates the changes made by someone else. Click *Use this* to make the selection to resolve the conflict.
+The __Source__ will indicate the changes on your fork, with the __Destination__ representing the changes on the parent branch. Click __Use this__ next to the version you want to include when you merge. When conflicts are resolved, the __Merge all changes__ or __Approve and Merge__ button will be enabled and you can [merge your fork](#merging-changes).
 
-**Note:** Clicking *Use this* button only makes the selection of your choice. You still need to merge the changes by clicking **Merge all changes** button and then making the selection thereafter.
+## Next steps
 
-This section illustrates how you can resolve conflicts when changes happen in more than a single workspace. The Request R2 gets changed in both the workspaces - personal and Team-Cobras. Postman notifies the conflict and prompts you to resolve them. The following screen illustrates this:
-
-[![resolving conflicts](https://assets.postman.com/postman-docs/Fork_Resolve_Conflicts.gif)](https://assets.postman.com/postman-docs/Fork_Resolve_Conflicts.gif)
+You can also use [version control on APIs](/docs/postman/design-and-develop-apis/versioning-an-api/) you design and build in Postman.

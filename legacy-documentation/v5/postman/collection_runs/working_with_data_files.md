@@ -62,7 +62,7 @@ Now that you understand how to construct data files, let's supply this data file
 
 [![preview data](https://assets.postman.com/postman-docs/58703253.png)](https://assets.postman.com/postman-docs/58703253.png)
 
-Let's run our collection now. You'll see that all tests pass now. If you open up the request debug tooltip, and expand `Request Body`, you'll see that the variable `{{value}}` was replaced by the value, as dictated by the data file. Read more about [debugging requests](https://learning.getpostman.com/docs/postman/collection_runs/debugging_a_collection_run/). In fact, for different iterations, this value is different. This way, we've thrown different kinds of data to our API and have ensured that it works correctly for each case.
+Let's run our collection now. You'll see that all tests pass now. If you open up the request debug tooltip, and expand `Request Body`, you'll see that the variable `{{value}}` was replaced by the value, as dictated by the data file. Read more about [debugging requests](https://learning.postman.com/docs/postman/collection_runs/debugging_a_collection_run/). In fact, for different iterations, this value is different. This way, we've thrown different kinds of data to our API and have ensured that it works correctly for each case.
 
 [![request debug tooltip](https://assets.postman.com/postman-docs/58702708.png)](https://assets.postman.com/postman-docs/58702708.png)
 

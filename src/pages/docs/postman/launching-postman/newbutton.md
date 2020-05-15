@@ -1,6 +1,6 @@
 ---
 title: "New button"
-order: 9
+order: 5
 page_id: "newbutton"
 contextual_links:
   - type: section
@@ -14,11 +14,11 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Create collections, documentation, and more with Postman's NEW button"
-    url: "https://blog.getpostman.com/2017/10/10/create-collections-documentation-and-more-with-postmans-new-button/?_ga=2.164841593.754547870.1571851340-1454169035.1570491567"
+    url: "https://blog.postman.com/2017/10/10/create-collections-documentation-and-more-with-postmans-new-button/"
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Sending the first request"
+    name: "Sending your first request"
     url: "/docs/postman/launching-postman/sending-the-first-request"
 
 warning: false
@@ -90,7 +90,7 @@ After creating the collection, you can save more requests to the collection and 
 
 ## Create an environment
 
-Under **BUILDING BLOCKS**, you can create an [environment](/docs/postman/environments-and-globals/manage-environments/). Environments are a portable scope for variables. While working with APIs, you often need different setups, such as your local machine, the development server, or the production API.
+Under **BUILDING BLOCKS**, you can create an [environment](/docs/postman/variables-and-environments/variables/#environments-in-postman). Environments are a portable scope for variables. While working with APIs, you often need different setups, such as your local machine, the development server, or the production API.
 
 1. In the header toolbar, click the **New** button.
 1. In the **Create New** tab, click "Environment".
@@ -129,7 +129,7 @@ In the **Next steps** tab, see a list of suggested next steps to get the most ou
 
 ## Create documentation
 
-Under **ADVANCED**, you can create [public or private documentation](/docs/postman/api-documentation/intro-to-api-documentation/) and share it in a web page. Postman generates browser-based documentation for your collections, that can be updated automatically in real-time.
+Under **ADVANCED**, you can create [public or private documentation](/docs/postman/api-documentation/documenting-your-api/) and share it in a web page. Postman generates browser-based documentation for your collections, that can be updated automatically in real-time.
 
 1. In the header toolbar, click the **New** button.
 1. In the **Create New** tab, click "API Documentation".
@@ -173,13 +173,13 @@ In the **Next steps** tab, see a list of suggested next steps to get the most ou
 
 An API allows you to manage all aspects of API design, development, and testing from within Postman. APIs can only be created if you are signed in to Postman and online.
 
-Note: Free users can create up to 3 APIs, Pro users up to 10, and Enterprise users up to 100.
+> The number of APIs you can create is dependent on your [Postman plan](https://www.postman.com/pricing).
 
 As soon as you click on 'API' under Advanced section, a new "Untitled API" is created for you in the current workspace.
 
 [![New API](https://assets.postman.com/postman-docs/new-api.png)](https://assets.postman.com/postman-docs/new-api.png)
 
-Look at the [API Workflow](https://learning.getpostman.com/docs/postman/design-and-develop-apis/the-api-workflow/) to get the most out of your API.
+Use the [API Builder](/docs/postman/design-and-develop-apis/the-api-workflow/) to make best use of Postman on your API development projects.
 
 ## Templates
 
@@ -200,7 +200,7 @@ To import a template:
 
 ## API Network
 
-The [Postman API Network](https://www.getpostman.com/api-network/) provides the most authentic and actionable directory of public APIs available. Every API listed in this network includes a complete Postman collection, created by the API's publisher. Postman specifically designed the API list to onboard developers quickly and effectively.
+The [Postman API Network](https://www.postman.com/api-network/) provides the most authentic and actionable directory of public APIs available. Every API listed in this network includes a complete Postman collection, created by the API's publisher. Postman specifically designed the API list to onboard developers quickly and effectively.
 
 From the Postman app, click the orange **New** button and select the **API Network** tab. Search for an API, or browse by a particular category. Postman groups the APIs by category such as Marketing, Financial Services, E-commerce, and so on. You can filter by category to find an API, or directly search for the name of the API. After you select an API from the list, you can import it into the Postman app.
 

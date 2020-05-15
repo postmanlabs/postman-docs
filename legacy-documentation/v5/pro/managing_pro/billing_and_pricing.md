@@ -37,4 +37,4 @@ We refund any payments made within 30 days, no questions asked. We greatly appr
 
 ### Pricing for Monitors
 
-Review details about [pricing for monitors](https://learning.getpostman.com/docs/postman/monitors/pricing_monitors). 
+Review details about [pricing for monitors](https://learning.postman.com/docs/postman/monitors/pricing_monitors). 

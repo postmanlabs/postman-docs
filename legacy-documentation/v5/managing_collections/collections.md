@@ -15,7 +15,7 @@ Requests can also store sample responses when saved in a collection.
 You can add metadata like name and description too so that all the information that a developer needs to use your API is available easily.
 Collections are listed in the sidebar alphabetically. You can search through collection requests using the search form for quick access.
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/20.png)
+[![](https://www.postman.com/img/v1/docs/thumbs/20.png)
 ][0]
 
 You can also reorder requests inside a collection by dragging and reordering through the sidebar itself. The request order is also preserved for requests that are in folders.
@@ -25,11 +25,11 @@ The order of folders inside a collection, however, is alphabetical and cannot be
 
 To create a collection, click on "new collection" button under the collections side bar tab. 
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/34.png)
+[![](https://www.postman.com/img/v1/docs/thumbs/34.png)
 ][1]
 In the modal that comes up, enter the collection name and description and press create. 
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/35.png)
+[![](https://www.postman.com/img/v1/docs/thumbs/35.png)
 ][2]
 
 Collections are also created - 
@@ -41,14 +41,14 @@ Collections are also created -
 
 #### Editing
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/22.png)
+[![](https://www.postman.com/img/v1/docs/thumbs/22.png)
 ][3]
 
 Editing a collection is quite simple. Hover over the collection name and click on the edit icon to change the collection name and description.
 
 #### Sharing a collection
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/23.png)
+[![](https://www.postman.com/img/v1/docs/thumbs/23.png)
 ][4]
 
 Collections can be downloaded as a JSON file which you can share with others or shared through your Postman account. You can also share collections anonymously but it is strongly recommended to create a Postman account when uploading collections. This will let you update your existing collection, make it public or delete it later.
@@ -61,7 +61,7 @@ Deleting a collection from the sidebar deletes the local copy of the collection.
 
 #### Adding a folder
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/24.png)
+[![](https://www.postman.com/img/v1/docs/thumbs/24.png)
 ][5]
 
 Folders are basically sub-collections. You can have as many folders as you want in a collection.
@@ -71,7 +71,7 @@ Right now you can have only one level of folders inside a collection.
 
 #### Saving requests inside a collection
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/25.png)
+[![](https://www.postman.com/img/v1/docs/thumbs/25.png)
 ][6]
 
 To save a request inside a collection click the "Add to collection" button and select the target collection. You can add a request name and description to help your collection users get more information about the request right inside Postman.
@@ -109,10 +109,10 @@ Duplicating will create a copy of the folder/request. The new folder/request wil
 Note: Deleting a folder will delete its constituent requests, and deleting a request will delete any responses saved with the request.
 
 
-[0]: https://www.getpostman.com/img/v1/docs/source/20.png
-[1]: https://www.getpostman.com/img/v1/docs/source/34.png
-[2]: https://www.getpostman.com/img/v1/docs/source/35.png
-[3]: https://www.getpostman.com/img/v1/docs/source/22.png
-[4]: https://www.getpostman.com/img/v1/docs/source/23.png
-[5]: https://www.getpostman.com/img/v1/docs/source/24.png
-[6]: https://www.getpostman.com/img/v1/docs/source/25.png
+[0]: https://www.postman.com/img/v1/docs/source/20.png
+[1]: https://www.postman.com/img/v1/docs/source/34.png
+[2]: https://www.postman.com/img/v1/docs/source/35.png
+[3]: https://www.postman.com/img/v1/docs/source/22.png
+[4]: https://www.postman.com/img/v1/docs/source/23.png
+[5]: https://www.postman.com/img/v1/docs/source/24.png
+[6]: https://www.postman.com/img/v1/docs/source/25.png

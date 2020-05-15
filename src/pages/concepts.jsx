@@ -22,31 +22,28 @@ const ConceptPage = () => (
     <Hero title=" Postman Concepts" text="Get easy, API-First solutions with the industry’s only Complete API Development Environment." />
     <IconCard
       icon={newToPostman}
-      items="3 items"
+      items="2 items"
       title="New to Postman"
-      description="Postman is the only complete API development environment used by 5 million developers."
+      description="Postman is the only complete API development environment used by 10 million developers."
       heading1="Blog"
-      link1="First 5 things to try if youre new to Postman"
-      href1="/"
+      link1="First 5 things to try if you're new to Postman"
+      href1="https://www.youtube.com/watch?v=YKalL1rVDOE&list=PLM-7VG-sgbtBsenu0CM-UF3NZj3hQFs7E"
       heading2="Blog"
       link2="How Postman feeds my sushi addiction"
-      href2="/"
-      heading3="Video"
-      link3="New to Postman? First 5 things to try"
-      href3="/"
+      href2="https://blog.postman.com/2018/04/25/how-postman-feeds-my-sushi-addiction"
     />
 
     <IconCard
       icon={workspaces}
       items="2 items"
       title="Postman Workspaces"
-      description="Personal and team workspacesUse Postman Workspaces to organize your work and manage collaboration with the rest of your team."
+      description="Use Postman Workspaces to organize your work and manage collaboration with the rest of your team."
       heading1="Blog"
       link1="Personal and team workspaces"
-      href1="/"
-      heading2="Video"
-      link2="Collaboration with others"
-      href2="/"
+      href1="https://blog.postman.com/2019/07/23/postman-team-workspaces-and-permissions/"
+      heading2="Docs"
+      link2="Intro to workspaces"
+      href2="https://learning.postman.com/docs/postman/workspaces/intro-to-workspaces/"
     />
 
     <IconCard
@@ -56,26 +53,23 @@ const ConceptPage = () => (
       description="Postman Collections are executable descriptions of your API. Go ahead and organize your requests and mirror your specific workflows."
       heading1="Blog"
       link1="The Good Collection"
-      href1="/"
+      href1="https://blog.postman.com/2018/03/08/the-good-collection/"
       heading2="Docs"
       link2="Creating, sharing, and managing collections"
-      href2="/"
+      href2="https://learning.postman.com/docs/postman/collections/intro-to-collections/"
     />
 
     <IconCard
       icon={environmentsIcon}
-      items="3 items"
+      items="2 items"
       title="Postman Environments"
       description="Make assertions about the correctness of your API responses, pass data between requests, and add dynamic behavior to requests and collections."
       heading1="Blog"
-      link1="Using environments and variables"
-      href1="/"
+      link1="10 tips for working with Postman variables"
+      href1="https://blog.postman.com/2017/12/29/10-tips-for-working-with-postman-variables/"
       heading2="docs"
-      link2="Variable syntax and scope"
-      href2="/"
-      heading3="docs"
-      link3="Creating, sharing, and managing environments"
-      href3="/"
+      link2="Using variables"
+      href2="https://learning.postman.com/docs/postman/variables-and-environments/variables/"
     />
 
     <IconCard
@@ -85,13 +79,13 @@ const ConceptPage = () => (
       description="Postman Environments are a convenient way to share your team’s server configurations, replicate user credentials for testing, or hide your personal secrets."
       heading1="Blog"
       link1="Writing tests"
-      href1="http://blog.getpostman.com/2017/10/25/writing-tests-in-postman/"
+      href1="https://blog.postman.com/2017/10/25/writing-tests-in-postman/"
       heading2="Blog"
       link2="Chaining requests"
-      href2="http://blog.getpostman.com/2018/03/19/how-to-make-money-using-postman-chaining-requests/"
+      href2="https://blog.postman.com/2018/03/19/how-to-make-money-using-postman-chaining-requests/"
       heading3="Blog"
       link3="Test automation"
-      href3="http://blog.getpostman.com/2017/08/23/integrate-api-tests-with-postman-newman-and-travis-ci/"
+      href3="https://blog.postman.com/2017/08/23/integrate-api-tests-with-postman-newman-and-travis-ci/"
     />
 
     <IconCard
@@ -101,26 +95,23 @@ const ConceptPage = () => (
       description="Back up and save your Postman data to the cloud."
       heading1="docs"
       link1="Sync changes to your Postman account"
-      href1="https://learning.getpostman.com/docs/postman/launching-postman/syncing/"
+      href1="https://learning.postman.com/docs/postman/launching-postman/syncing/"
       heading2="docs"
       link2="Sync changes with your Postman team"
-      href2="https://learning.getpostman.com/docs/postman/workspaces/using-workspaces/"
+      href2="https://learning.postman.com/docs/postman/workspaces/using-workspaces/"
     />
 
     <IconCard
       icon={runIcon}
-      items="3 items"
+      items="2 items"
       title="Running a Collection"
       description="Run a collection as a series of requests against a corresponding environment."
       heading1="docs"
       link1="Run locally in the Postman app with the Collection Runner"
-      href1="https://learning.getpostman.com/docs/postman/collection-runs/starting-a-collection-run/"
+      href1="https://learning.postman.com/docs/postman/collection-runs/starting-a-collection-run/"
       heading2="docs"
       link2="Run locally with the open-source Newman CLI"
-      href2="https://learning.getpostman.com/docs/postman/collection-runs/command-line-integration-with-newman/"
-      heading3="video"
-      link3="Run on Postman cloud with Postman Monitors"
-      href3="https://youtu.be/3nOP_TYTuA8"
+      href2="https://learning.postman.com/docs/postman/collection-runs/command-line-integration-with-newman/"
     />
 
     <IconCard
@@ -130,7 +121,7 @@ const ConceptPage = () => (
       description="Use a Postman mock server to simulate a server response before building out the real endpoint."
       heading1="website"
       link1="Browse the API Network to see who’s running in Postman"
-      href1="hhttps://www.getpostman.com/api-network/"
+      href1="https://explore.postman.com/"
       heading2="video"
       link2="API documentation with Postman"
       href2="https://youtu.be/Ayo_KdLLcTA"
@@ -143,10 +134,10 @@ const ConceptPage = () => (
       description="Run a collection as a series of requests against a corresponding environment."
       heading1="blog"
       link1="Mock responses with examples"
-      href1="http://blog.getpostman.com/2017/05/17/mock-responses-in-postman-by-using-examples/"
+      href1="https://blog.postman.com/2017/05/17/mock-responses-in-postman-by-using-examples/"
       heading2="docs"
       link2="Intro to mock servers"
-      href2="https://learning.getpostman.com/docs/postman/mock-servers/intro-to-mock-servers/"
+      href2="https://learning.postman.com/docs/postman/mock-servers/intro-to-mock-servers/"
       heading3="video"
       link3="Fake APIs for real developers"
       href3="https://youtu.be/fgtDZPOPzLU"

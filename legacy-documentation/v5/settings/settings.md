@@ -10,7 +10,7 @@ warning: false
 
 Postman tries to minimize the number of settings you have to change, but considering the diverse use cases which come up, some settings have to be present.
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/29-1.png)][0]
+[![](https://www.postman.com/img/v1/docs/thumbs/29-1.png)][0]
 
 * **Trim keys and values in request body**
 If you're using the form-data or url-encoded modes to send data to the server, setting this to yes will cause any parameters to be trimmed.
@@ -55,7 +55,7 @@ This is a list of all shortcuts you can use inside Postman.
 
 ### Data
 
-[![](https://www.getpostman.com/img/v1/docs/thumbs/29-2.png)
+[![](https://www.postman.com/img/v1/docs/thumbs/29-2.png)
 ][2]
 
 You can import and export data in bulk inside Postman now. This will overwrite your existing collections and environments so be a little careful. Always helps to take a backup before you are importing other files.
@@ -71,8 +71,8 @@ You can import and export data in bulk inside Postman now. This will overwrite y
 If you have signed in to Postman your data is synced with our server, making sure you have it all next time you use the app (and not just locally). You can force sync or disable it in settings. This applies for Pro users as well.
 
 
-[0]: https://www.getpostman.com/img/v1/docs/source/29-1.png
-[1]: https://www.getpostman.com/docs/ignoring_ssl
-[2]: https://www.getpostman.com/img/v1/docs/source/29-2.png
+[0]: https://www.postman.com/img/v1/docs/source/29-1.png
+[1]: https://www.postman.com/docs/ignoring_ssl
+[2]: https://www.postman.com/img/v1/docs/source/29-2.png
 [3]: https://github.com/postmanlabs/postman-chrome-interceptor
 [4]: https://github.com/postmanlabs/postman-app-support/wiki/Postman-Proxy
