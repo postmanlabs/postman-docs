@@ -118,16 +118,16 @@ module.exports = {
       },
     },
     {
-<<<<<<< HEAD
-      resolve: `gatsby-plugin-gdpr-cookies`,
+      resolve: 'gatsby-plugin-gdpr-cookies',
       options: {
         googleAnalytics: {
           trackingId: 'UA-43979731-4',
-          anonymize: true
+          anonymize: true,
         },
-        environments: ['production', 'development']
-      }
-=======
+        environments: ['production', 'development'],
+      },
+    },
+    {
       resolve: 'gatsby-plugin-sri',
       options: {
         hash: 'sha512', // 'sha256', 'sha384' or 'sha512' ('sha512' = default)
@@ -135,11 +135,10 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-env-variables`,
+      resolve: 'gatsby-plugin-env-variables',
       options: {
-        whitelist: ['MUNCHKIN_ID']
+        whitelist: ['MUNCHKIN_ID'],
       },
->>>>>>> a1108be9200af8043b8631328321f4c79ea65b9f
     },
   ],
 };
