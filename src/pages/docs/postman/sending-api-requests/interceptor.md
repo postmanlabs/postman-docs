@@ -220,3 +220,17 @@ To use Interceptor with Postman Chrome, you can take the following steps:
 3. Open Postman, click on the Interceptor icon in the toolbar, and toggle to **On**.
 
 You can then browse your app or website and monitor requests as they stream in to your Postman history.
+
+## Using the Interceptor with other flavours of Chromium
+
+Trying to use Postman Interceptor with Chromium, Brave or Edge will result in the error **`CHROME_NOT_INSTALLED`**. To solve this, you can take the following steps:
+
+1. Create the expected `NativeMessagingHosts` directory (refer to [Troubleshooting tips](#troubleshooting-tips)).
+2. Install the Interceptor Bridge (refer to [Installing interceptor](#installing-interceptor)).
+3. Move the Bridge into the `NativeMessagingHosts` directory of your browser.
+
+For example, to use the Interceptor with Chromium on Linux:
+
+1. `mkdir -p $HOME/.config/google-chrome/NativeMessagingHosts`.
+2. Install the Interceptor Bridge.
+3. `mv $HOME/.config/google-chrome/NativeMessagingHosts/com.postman.postmanapp.json $HOME/.config/chromium/NativeMessagingHosts`.
