@@ -573,6 +573,7 @@ exports[`renders correctly 1`] = `
               className="list-inline-item"
             >
               <a
+                className="social-icon"
                 href="https://www.facebook.com/getpostman/"
                 id="facebook_icon"
                 rel="noopener noreferrer"
@@ -598,6 +599,7 @@ exports[`renders correctly 1`] = `
               className="list-inline-item"
             >
               <a
+                className="social-icon"
                 href="https://twitter.com/getpostman"
                 id="twitter_icon"
                 rel="noopener noreferrer"
@@ -620,6 +622,7 @@ exports[`renders correctly 1`] = `
               className="list-inline-item"
             >
               <a
+                className="social-icon"
                 href="https://www.linkedin.com/company/postman-api-tools"
                 id="linkedin_icon"
                 rel="noopener noreferrer"
@@ -642,6 +645,7 @@ exports[`renders correctly 1`] = `
               className="list-inline-item"
             >
               <a
+                className="social-icon"
                 href="https://github.com/postmanlabs"
                 id="github_icon"
                 rel="noopener noreferrer"
@@ -661,6 +665,60 @@ exports[`renders correctly 1`] = `
                     fill="#ffffff"
                     fillRule="evenodd"
                   />
+                </svg>
+              </a>
+            </li>
+            <li
+              className="list-inline-item"
+            >
+              <a
+                className="social-icon"
+                href="https://www.twitch.tv/getpostman"
+                id="twitch_icon"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <svg
+                  height="25"
+                  id="Layer_1"
+                  space="preserve"
+                  style={
+                    Object {
+                      "enableBackground": "new 0 0 2400 2800",
+                    }
+                  }
+                  version="1.1"
+                  viewBox="0 0 2400 2800"
+                  width="25"
+                  x="0px"
+                  xlink="http://www.w3.org/1999/xlink"
+                  xmlns="http://www.w3.org/2000/svg"
+                  y="0px"
+                >
+                  <g>
+                    <g
+                      id="Layer_1-2"
+                    >
+                      <path
+                        className="st0"
+                        d="M500,0L0,500v1800h600v500l500-500h400l900-900V0H500z M2200,1300l-400,400h-400l-350,350v-350H600V200h1600V1300z"
+                      />
+                      <rect
+                        className="st0"
+                        height="600"
+                        width="200"
+                        x="1700"
+                        y="550"
+                      />
+                      <rect
+                        className="st0"
+                        height="600"
+                        width="200"
+                        x="1150"
+                        y="550"
+                      />
+                    </g>
+                  </g>
                 </svg>
               </a>
             </li>

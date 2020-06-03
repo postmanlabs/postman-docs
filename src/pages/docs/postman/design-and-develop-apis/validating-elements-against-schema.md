@@ -56,7 +56,7 @@ You can also trigger a new validation of your element manually in the following 
 
 You can do so by navigating to your element (eg. **Test Suite**), clicking the validation status, then **Validate Again**.
 
-[![re validating element](https://assets.postman.com/postman-docs/revalidatingelement.gif)](https://assets.postman.com/postman-docs/WS-certificates.gif)
+[![re validating element](https://assets.postman.com/postman-docs/revalidatingelement.gif)](https://assets.postman.com/postman-docs/WS-certificates.png)
 
 You can also trigger a validation from the issues list by clicking **Validate again** at the top-right of the page.
 
