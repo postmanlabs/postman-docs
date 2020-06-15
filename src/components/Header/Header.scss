@@ -2,6 +2,7 @@
 
 .header {
   box-shadow: 0 5px 16px 0 rgba(0,0,0,.11);
+  z-index: 1;
   .header__logo {
     margin: auto;
     height: 50px;
@@ -86,78 +87,16 @@
     display: none;
   }
 }
-.browse {
-  background-color: $gray-1;
-  border: none;
-  // margin: 8px 16px;
-  padding: 12px;
-  width: 100%;
-  font-size: 16px;
-  color: $gray-2;
-}
 
-.ReactModal__Content.ReactModal__Content--after-open {
-  top: 0px !important;
-  right: 0px !important;
-  left: 0px !important;
-  bottom: 400px !important;
-  padding: 40px 20px !important;
-  box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.11);
-  border: none;
-  animation: fadein 2s !important;
-  position: initial !important;
+// .algolia-autocomplete {
+//   display: block !important;
 
-  .trending {
-   margin-top: 56px;
-    p {
-      font-weight: 700;
-      font-size: 16px;
-      color: $gray-2;
-    }
-    ul {
-      margin-left: 0;
-    }
-    li {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      font-size: 14px;
-      letter-spacing: .3px; 
-      font-weight: 400;
-      line-height: 1.7;
-      a {
-        text-decoration: none;
-        color: $gray-2;
-        display: block;
-        padding: 4px 0;
-        &:hover {
-          color: $postman-orange
-        }
-      }
-    }
-  }
-  input {
-    border: none;
-    border-bottom: 1px solid rgba(102, 102, 102, .5);  
-    color: $gray-2;
-    width: 100%;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 1.3;
-  }
-  button:focus, input:focus{
-    outline: none !important;
-  }
+//   @media (min-width: 1225px) {
+//     display: inline-block;
+//   }
 
-  button {
-    border: none;
-    border-bottom: none; 
-    padding: 12.5px; 
-    font-weight: 600;
-    font-size: .6875rem;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: $gray-2;  
-  }
-}
-
+//   .ds-dropdown-menu {
+//     min-width: 0 !important;
+//     max-width: unset !important;
+//   }
+// }

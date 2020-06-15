@@ -1,11 +1,33 @@
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import React from 'react';
-import ReactModal from 'react-modal';
-import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
+import './Header.scss';
+import algoliasearch from 'algoliasearch/lite';
+import {
+  InstantSearch, SearchBox, Hits, Configure,
+} from 'react-instantsearch-dom';
 import DynamicLink from '../Shared/DynamicLink';
 import postmanLogo from '../../images/postman-logo-horizontal-orange.svg';
-import './Header.scss';
 
+import { CustomHits } from '../Search/searchPreview';
+
+
+const ClickOutHandler = require('react-onclickout');
+
+const algoliaClient = algoliasearch('4A5N71XYH0', 'bf5cf4783437b12c2dca33724c9c04b0');
+
+// removes empty query searches from analytics
+const searchClient = {
+  search(requests) {
+    const newRequests = requests.map((request) => {
+      // test for empty string and change request parameter: analytics
+      if (!request.params.query || request.params.query.length === 0) {
+        request.params.analytics = false;
+      }
+      return request;
+    });
+    return algoliaClient.search(newRequests);
+  },
+};
 
 // changes button in navbar based on cookie presence
 const LoginCheck = (props) => {
@@ -30,28 +52,9 @@ class HeaderComponent extends React.Component {
     this.state = {
       data: JSON.parse(data),
       isToggledOn: 'unset',
-      isModalOpen: false,
+      hasInput: false,
+      refresh: false,
     };
-  }
-
-  componentDidMount() {
-    // Unit test will complain if process is not checked
-    if (process.env.NODE_ENV !== 'test') ReactModal.setAppElement('#main');
-  }
-
-  /* Helper functions
-  /******************************************************** */
-  handleModalOpen = () => {
-    this.setState({ isModalOpen: true });
-  }
-
-  handleModalClose = () => {
-    this.setState({ isModalOpen: false });
-  }
-
-  handleModalChange = (e) => {
-    const updateSearch = e.target.value;
-    this.setState({ searchTerm: updateSearch });
   }
 
   getCookie = (a) => {
@@ -76,12 +79,18 @@ class HeaderComponent extends React.Component {
     });
   }
 
+  // click out search results box
+  onClickOut = () => {
+    document.getElementsByClassName('ais-SearchBox-input')[0].value = '';
+    this.setState(() => ({
+      hasInput: false,
+    }));
+  }
+
   render() {
     const {
-      isToggledOn, data,
+      isToggledOn, refresh, hasInput, data,
     } = this.state;
-    const { trend } = this.props;
-
     return (
       <header className="header text-center navbar navbar-expand-xl navbar-light">
         <div className="navbar-brand header__brand">
@@ -107,70 +116,38 @@ class HeaderComponent extends React.Component {
             `}
           id="navbarSupportedContent"
         >
-          <div id="main" className="col">
-            <button type="button" className="browse text-sm-left" onClick={this.handleModalOpen}>
-              What are you looking for?
-            </button>
-          </div>
+          {/* Aloglia Widgets */}
+          <div className="form-inline header__search">
+            <ClickOutHandler onClickOut={this.onClickOut}>
+              <InstantSearch
+                searchClient={searchClient}
+                indexName="docs"
+                refresh={refresh}
+              >
+                <Configure hitsPerPage={5} />
 
-          <div className="modal">
-            <ReactModal
-              /* eslint-disable */
-              isOpen={this.state.isModalOpen}
-              onRequestClose={this.handleModalClose}
-              contentLabel="Search Modal"
-              ariaHideApp={false}
-            >
-              <div className="container">
-                <div className="row">
-                  <div className="col-sm-10">
-                    <form action="/search?query=">
-                      <input
-                        ref={(input) => input && input.focus()}
-                        type="text"
-                        name="query"
-                        placeholder="Search Postman"
-                        value={this.state.searchTerm}
-                        onChange={(event) => this.handleModalChange(event)}
-                        /* eslint-ensable */
-                      />
-                    </form>
-                    <div className="trending">
-                      <p>Trending Searches on Postman Learning Center</p>
-                       <ul>
-                        {  
-                          trend.edges.map((trend) =>  (
-                            <li key={Math.random()}>
-                              <a 
-                                href={`/search/?query=${JSON.parse(trend.node.value).search}`}
-                                onClick={ () => {
-                                  trackCustomEvent({
-                                    // string - required - The object that was interacted with
-                                    category: "Learning Center Trending Searches",
-                                    // string - required - Type of interaction
-                                    action: "Click",
-                                    // string - optional - Useful for categorizing events
-                                    label: "Postman LC Trending Searches",
-                                })
-                              }}
-                              >
-                                { JSON.parse(trend.node.value).search }
-                              </a>
-                            </li>
-                          ))
-                        }
-                       </ul> 
-                    </div>
-                  </div>
-                  <div className="col-sm-2 text-right">
-                    <button type="button" onClick={this.handleModalClose}>Close</button>
-                  </div>
+                {/* forcefeed className because component does not accept natively as prop */}
+                <SearchBox
+                  className="searchbox"
+                  class="ais-SearchBox-input"
+                  submit={<></>}
+                  reset={<></>}
+                  translations={{
+                    placeholder: 'Search Postman Docs',
+                  }}
+                  onKeyUp={(event) => {
+                    this.setState({
+                      hasInput: event.currentTarget.value !== '',
+                    });
+                  }}
+                />
+
+                <div className={!hasInput ? 'input-empty' : 'input-value'}>
+                  <CustomHits hitComponent={Hits} />
                 </div>
-              </div>
-
-            </ReactModal>
+              </InstantSearch>
+            </ClickOutHandler>
           </div>
-
           {data.links.map((link) => (
             <div className="nav-item" key={link.name}>
               {link.cta ? <LoginCheck cookie={this.getCookie('getpostmanlogin')} /> : <DynamicLink className="nav-link" url={link.url} name={link.name} />}
@@ -185,19 +162,12 @@ class HeaderComponent extends React.Component {
 const Header = () => {
   const data = useStaticQuery(graphql`
     query {
-      allTrendingSearches {
-        edges {
-          node {
-            value
-          }
-        }
-      }
       headerLinks {
         value
       }
     }`);
   return (
-    <HeaderComponent data={data.headerLinks.value} trend={data.allTrendingSearches}/>
+    <HeaderComponent data={data.headerLinks.value} />
   );
 };
 

@@ -43,15 +43,6 @@ module.exports = {
         },
       ],
     },
-    allTrendingSearches: {
-      edges: [
-        {
-          node: {
-            value: '{"search":"variables","count":41,"nbHits":16}',
-          },
-        },
-      ],
-    },
     leftNavLinks: {
       value: '{"docs":{"foo":{"slug":{"url":"/docs/foo/slug/"},"nested":{"nestedslug":{"url":"/docs/foo/nested/nestedslug/"}}},"bar":{"otherslug":{"url":"/docs/bar/otherslug/"}}}}',
     },

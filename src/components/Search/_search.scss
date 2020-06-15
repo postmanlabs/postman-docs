@@ -1,35 +1,5 @@
 @import '../Shared/_variables.scss';
 
-
-.searchbox {
-  width: 100%;
-  margin-bottom: 24px;
-  input {
-    // background-color:#f5f5f5;
-    background-color: transparent;
-    border: 0;
-    border-bottom: 1px solid rgba(102, 102, 102, .5);  
-    padding: 13px 24px 13px 0;
-    border-radius: 3px;
-    width: 100%;
-    font-size: 36px;
-    color: #02739D;
-    font-family: 'Open Sans', 'Segoe UI', Tahoma, sans-serif;
-    &:hover {
-      background-color: rgb(219, 233, 242);
-      cursor: text;
-    }
-  }
-  ::placeholder {
-    color: #1c272b;
-    font-size: 14px;
-    font-weight: 600;
-  }
-  .ais-SearchBox-submit, .ais-SearchBox-reset {
-    display: none;
-  }
-}
-
 .search-input {
   border: 0;
   padding: 13px 24px;
@@ -49,55 +19,18 @@ ais-highlight-0000000000 {
   display: none;
 }
 
-.wrapper-search-results {
-  box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.11);
+.input-value {
   position: absolute;
   z-index: 3;
   background-color: white;
   border: 1px solid #d9d9d9;
   background: #fff;
   border-radius: 4px;
-  padding: 24px 9px;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  margin-top: -24px;
-  @media (max-width: 1200px) {
-    margin-top: -13px;
-  }
-  
+  padding-right: 24px;
+  margin-top: -10px;
   display: flex;
   text-align: left;
   max-width: 600px;
-  top: 90px;
-  @media (max-width: 1200px) {
-    top:136px;
-  }
-  ul {
-    margin-left: 0;
-  }
-}
-
-.results-blog {
-  & ul {
-    border-bottom: 1px solid #d9d9d9;
-    padding-bottom: 16px;
-  }
-}
-.results-www {
-  & ul {
-    border-bottom: 1px solid #d9d9d9;
-    @media (min-width: 768px) {
-      border-bottom: none;
-    }
-    padding-bottom: 16px;
-  }
-}
-.results-lc,
-.results-blog,
-.results-www {
-  word-break: break-all;
-  overflow-wrap: break-word;
-  hyphens: manual;
 }
 
 .arrow-up {
@@ -111,7 +44,6 @@ ais-highlight-0000000000 {
 .style {
   list-style: none;
   padding-top: 20px;
-  margin-left: 0;
   a {
     color: #757575;
   }
@@ -142,10 +74,23 @@ ais-highlight-0000000000 {
   font-size: 0.001px;
 }
 
+.navbar-brand {
+  @media (max-width: 414px) {
+    margin-right: 0px;
+    font-size: 1rem !important;
+  }
+  @media (max-width: 384px) {
+    margin-right: 0px;
+    font-size: 0.85rem !important;
+  }
+  @media (max-width: 320px) {
+    margin-right: 0px;
+    font-size: 0.75rem !important;
+  }
+}
 .header__brand {
   min-width: 330px;
-
-  @media (max-width: 411px) {
+  @media (max-width: 414px) {
     min-width: 0px;
   }
 }
@@ -157,4 +102,3 @@ ais-highlight-0000000000 {
     width: 100%;
   }
 }
-
