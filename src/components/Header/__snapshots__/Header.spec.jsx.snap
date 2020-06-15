@@ -41,20 +41,63 @@ exports[`renders correctly 1`] = `
     id="navbarSupportedContent"
   >
     <div
-      className="col"
-      id="main"
+      className="form-inline header__search"
     >
-      <button
-        className="browse text-sm-left"
-        onClick={[Function]}
-        type="button"
+      <div
+        className="ais-InstantSearch__root"
       >
-        What are you looking for?
-      </button>
+        <div
+          className="ais-SearchBox searchbox"
+        >
+          <form
+            action=""
+            className="ais-SearchBox-form"
+            noValidate={true}
+            onReset={[Function]}
+            onSubmit={[Function]}
+            role="search"
+          >
+            <input
+              autoCapitalize="off"
+              autoComplete="off"
+              autoCorrect="off"
+              autoFocus={false}
+              className="ais-SearchBox-input"
+              maxLength="512"
+              onChange={[Function]}
+              onKeyUp={[Function]}
+              placeholder="Search Postman Docs"
+              required={true}
+              spellCheck="false"
+              type="search"
+              value=""
+            />
+            <button
+              className="ais-SearchBox-submit"
+              title="Submit your search query."
+              type="submit"
+            />
+            <button
+              className="ais-SearchBox-reset"
+              hidden={true}
+              title="Clear the search query."
+              type="reset"
+            />
+          </form>
+        </div>
+        <div
+          className="input-empty"
+        >
+          <ul
+            className="style"
+          >
+            <li>
+              No search results found
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div
-      className="modal"
-    />
     <div
       className="nav-item"
     >
