@@ -164,7 +164,7 @@ In Postman, all variables conform to a specific hierarchy. All variables defined
 
 * `pm.variables.has(variableName:String):function → Boolean`: Check if there is a local variable in the current scope.
 * `pm.variables.get(variableName:String):function → *`: Get the value of the local variable with the specified name.
-* `pm.variables.set(variableName:String, variableValue:String"):function → void`: Set a local variable with the given value.
+* `pm.variables.set(variableName:String, variableValue:String):function → void`: Set a local variable with the given value.
 * `pm.variables.replaceIn(variableName:String):function`: Replaces the dynamic variable `{{variable_name}}` syntax with its actual resolved value.
 * `pm.variables.toObject():function → Object`: Returns an object containing all the variables in the local scope.
 
