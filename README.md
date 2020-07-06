@@ -14,6 +14,8 @@ We would love for you to contribute to the Learning Center! To contribute to thi
 
 **NOTE:** We have added a new Markdown linter with GitHub Actions. When making a pull request, it will run against this linter. Your changed files are required to pass linting before they will be merged. More information on this can be found in the [contribution guidelines](CONTRIBUTING.md).
 
+To say thank you for your contribution, we’d love to send you exclusive Contributor swag. Fill out the [Contributor Submission form](https://forms.gle/kcPHd59EBmhU9XC98) and we’ll send you a token of our gratitude. 
+
 ## Build the Learning Center locally
 
 ```
