@@ -30,11 +30,11 @@ contextual_links:
 warning: false
 ---
 
-You can make requests to APIs in Postman. An API request allows you to retrieve data from a data source, or to send data. APIs run on web servers, and expose enpdoints to support the operations client applications use to provide their functionality.
+You can make requests to APIs in Postman. An API request allows you to retrieve data from a data source, or to send data. APIs run on web servers, and expose endpoints to support the operations client applications use to provide their functionality.
 
 Each API request uses an HTTP method. The most common methods are `GET`, `POST`, `PATCH`, `PUT`, and `DELETE`.
 
-* `GET` methods retrieve data from an API.
+* `GET` methods to retrieve data from an API.
 * `POST` sends new data to an API.
 * `PATCH` and `PUT` methods update existing data.
 * `DELETE` removes existing data.
@@ -45,7 +45,7 @@ In Postman you can make API requests and examine the responses without using a t
 
 ## Sending a request
 
-To send your first API request, open Postman. Make sure __Build__ is selected at the bottom right. Click the __+__ plus button to open a new tab.
+To send your first API request, open Postman. Make sure **Build** is selected at the bottom right. Click the **+** plus button to open a new tab.
 
 Enter `postman-echo.com/get` in the URL field.
 
