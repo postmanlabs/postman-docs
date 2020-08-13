@@ -18,7 +18,7 @@ contextual_links:
     url: "https://blog.postman.com/2018/04/13/integrations-how-postman-plays-with-some-of-your-favorite-tools/" 
 ---
 
-> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
+> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)__
 
 Postman provides an API development toolchain aimed at integrating with your workflow.
 

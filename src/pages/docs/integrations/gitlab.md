@@ -11,7 +11,7 @@ contextual_links:
     url: "https://learning.postman.com/docs/postman/collections/intro-to-collections"
 ---
 
-> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
+> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)__
 
 Back up and synchronize your Postman Collections on GitLab (an open source Git repository manager) and on any of your custom domains. Your Collections are all tucked in safe and sound with the latest Postman to GitLab integration.
 

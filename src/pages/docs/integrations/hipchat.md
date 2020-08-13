@@ -11,7 +11,7 @@ contextual_links:
     url: "https://learning.postman.com/docs/postman/collections/intro-to-collections"
 ---
 
-> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
+> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)__
 
 HipChat is an instant messaging app built for businesses. The team chat tool lets you share files and discuss tasks in real-time with colleagues, project collaborators, and even clients through unlimited chat rooms.
 

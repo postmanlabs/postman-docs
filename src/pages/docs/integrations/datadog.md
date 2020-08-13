@@ -11,7 +11,7 @@ contextual_links:
     url: "https://learning.postman.com/docs/postman/collections/intro-to-collections"
 ---
 
-> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
+> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)__
 
 Datadog is a monitoring service for cloud-scale applications. It combines data from servers, databases, tools, and services to present a unified view of an entire stack. This integration allows you to configure your Postman Monitors to send metrics to Datadog where you can visualize and compare them with other metrics.
 
