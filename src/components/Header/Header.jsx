@@ -136,9 +136,13 @@ class HeaderComponent extends React.Component {
                     placeholder: 'Search Postman Docs',
                   }}
                   onKeyUp={(event) => {
-                    this.setState({
-                      hasInput: event.currentTarget.value !== '',
-                    });
+                    event.currentTarget.value.length>=3?
+                      this.setState({
+                      hasInput: event.currentTarget.value,
+                    })
+                      :this.setState({
+                        hasInput: false,
+                      })
                   }}
                 />
 
