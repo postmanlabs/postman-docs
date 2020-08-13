@@ -14,7 +14,7 @@ contextual_links:
     url: "https://learning.postman.com/docs/postman/monitors/intro-monitors"
 ---
 
-> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
+> __[Integrations are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)__
 
 VictorOps is a real-time incident management platform that combines the power of people and data to handle incidents as they occur and prepare for the next one.
 

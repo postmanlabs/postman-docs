@@ -18,7 +18,7 @@ contextual_links:
     url: "https://blog.postman.com/2017/03/10/backup-and-sync-your-postman-collections-on-github/"
 ---
 
-> __[Syncing API Schemas on GitHub is available with a free Postman account. You can back up your collections to GitHub on Postman Team, Business, and Enterprise plans.](https://www.getpostman.com/pricing)__
+> __[Syncing API Schemas on GitHub is available with a free Postman account. You can back up your collections to GitHub on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)__
 
 Postman allows you to back up your collections (for paid plans only) or synchronize your APIs schemas on GitHub. For each of these integrations, you'll need to [generate a GitHub personal access token](#generating-a-github-personal-access-token).
 
