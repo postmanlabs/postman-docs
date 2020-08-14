@@ -18,6 +18,11 @@ contextual_links:
   - type: link
     name: "Working with GraphQL template"
     url: "https://explore.postman.com/templates/1692/working-with-graphql"
+  - type: subtitle
+    name: "Video"
+  - type: link
+    name: "Working with GraphQL in Postman"
+    url: "https://youtu.be/7pUbezVADQs"
   - type: section
     name: "Next Steps"
   - type: link
