@@ -13,7 +13,7 @@
     "dotenv": "^8.1.0",
     "eslint-plugin-jest": "^22.17.0",
     "gatsby": "^2.22.17",
-    "gatsby-cli": "^2.12.42",
+    "gatsby-cli": "^2.12.91",
     "gatsby-image": "^2.2.20",
     "gatsby-plugin-algolia": "^0.3.4",
     "gatsby-plugin-env-variables": "^1.0.2",
