@@ -116,11 +116,15 @@ After enabling the watch option, you will get a pop-up notification stating "__Y
 
 ![Watch API](https://assets.postman.com/postman-docs/watch-api.jpg)
 
-Being a watcher, you will be notified whenever the API schema is modified. Imagine you have an account A where you have enabled the watch option. Now you have a different account B from hich you update the schema. After updating, click the __save__ button to save the changes.
+Being a watcher, you will be notified whenever the API schema is modified. Imagine you have an account A where you have enabled the watch option. Now, from a different account B you update the schema. After updating, click the __save__ button to save the changes.
 
 Now, you will have a notification for account A. Click the bell icon on the top right corner to see the watch notification. The popup will indicate further information about the updated schema.
 
 ![Notification Watch API](https://assets.postman.com/postman-docs/notification-watch-api.jpg)
+
+An email will be triggered to you with the information regarding who has made the change, what was the change and when was the change made. Click the __View Schema__ button to see the API in the web dashboard.
+
+![Email Notification](https://assets.postman.com/postman-docs/email-notification.jpg)
 
 ## Developing an API
 
