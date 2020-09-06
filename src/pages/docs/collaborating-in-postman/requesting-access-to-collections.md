@@ -71,7 +71,7 @@ This will trigger an email to the person you requested access from. When they ap
 
 ## Requesting access to APIs
 
-You can request a viewer or editor role on an API.
+You can request a viewer or an editor role on an API.
 
 ### Requesting viewer role on an API
 
