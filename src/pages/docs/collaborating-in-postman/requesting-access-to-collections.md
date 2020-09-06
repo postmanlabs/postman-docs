@@ -1,3 +1,5 @@
+
+
 ---
 title: "Requesting access"
 order: 73
@@ -67,11 +69,11 @@ You can request the Editor role on this collection:
 
 4. Complete your request by clicking **Request Access**.
 
-This will trigger an email to the person you requested access from. When they approve your request, you will be notified by email. Your request will expire in 15 days, but you can make additional requests on the same collection after that period.
+This will trigger an email to the person you requested access to. When they approve your request, you will be notified by email. Your request will expire in 15 days, but you can make additional requests on the same collection after that period.
 
 ## Requesting access to APIs
 
-You can request a viewer or an editor role on an API.
+You can request a viewer or editor role on an API.
 
 ### Requesting viewer role on an API
 
@@ -88,7 +90,7 @@ You can request viewer access to a team member's API or a private API in your te
 
 ![Complete Request Access by Clicking Request Access Button](https://assets.postman.com/postman-docs/requestaccess2.gif)
 
-This will trigger an email to the person you requested access from. When they approve your request, you will be notified by email. Your request will expire in 15 days, but you can make additional requests on the same API after that period.
+This will trigger an email to the person you requested access to. When they approve your request, you will be notified by email. Your request will expire in 15 days, but you can make additional requests on the same API after that period.
 
 ### Requesting editor role on an API
 
@@ -108,7 +110,7 @@ You can request the Editor role on this API:
 
 ![Request Access to Collection](https://assets.postman.com/postman-docs/requestaccesstocollections.gif)
 
-This will trigger an email to the person you requested access from. When they approve your request, you will be notified by email. Your request will expire in 15 days, but you can make additional requests on the same API after that period.
+This will trigger an email to the person you requested access to. When they approve your request, you will be notified by email. Your request will expire in 15 days, but you can make additional requests on the same API after that period.
 
 ### Approving requests for access
 
