@@ -30,11 +30,11 @@ You can request edit access to a team member's personal or private collection / 
 
 ## Requesting access to collections
 
-You can request viewer or editor role on a collection.
+You can request a viewer or editor role on a collection.
 
 ### Requesting viewer role on a collection
 
-You can request viewer access to a team member's personal collection or a private collection in your team if you have a link to the collection.
+You can request viewer access to a team member's collection or a private collection in your team if you have a link to the collection.
 
 1. Open the collection link in Postman.
 
@@ -46,7 +46,7 @@ You can request viewer access to a team member's personal collection or a privat
 
 4. Complete your request by clicking **Request Access**.
 
-This will trigger an email to the person you requested access from. When they approve your request, you will be notified by email. Your request will expire in 15 days, but you can make additional requests on the same collection after that period.
+This will trigger an email to the person you requested access to. When they approve your request, you will be notified by email. Your request will expire in 15 days, but you can make additional requests on the same collection after that period.
 
 ### Requesting editor role on a collection
 
@@ -71,11 +71,11 @@ This will trigger an email to the person you requested access from. When they ap
 
 ## Requesting access to APIs
 
-You can request viewer or editor role on an API.
+You can request a viewer or editor role on an API.
 
 ### Requesting viewer role on an API
 
-You can request viewer access to a team member's personal API or a private API in your team if you have a link to the API.
+You can request viewer access to a team member's API or a private API in your team if you have a link to the API.
 
 1. Open the API link in your browser.
 
@@ -120,9 +120,9 @@ Your team members can request access from you in the following cases:
 
 > The Viewer role is available depending on your [Postman plan](https://www.postman.com/pricing).
 
-You will receive an email detailing the request for access.
+You will receive an email detailing the access request.
 ![Request Detail Email](https://assets.postman.com/postman-docs/requestdetailemail.png)
 
-Click **Approve Request** if you want to grant access to the collection or API. If you do not wish to give access, you can ignore the request. A request for access will expire in 15 days.
+Click **Approve Request** if you want to grant access to the collection or API. If you do not wish to give access, you can ignore the request. An access request will expire in 15 days.
 
 To learn more about how you can collaborate with your team in Postman, see [Working with your team](/docs/collaborating-in-postman/collaboration-intro/).
