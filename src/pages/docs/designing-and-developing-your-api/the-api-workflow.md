@@ -122,11 +122,11 @@ Now, you will receive a notification for account A. Click the bell icon on the t
 
 ![Notification Watch API](https://assets.postman.com/postman-docs/notification-watch-api.jpg)
 
-An email will be triggered to you with the information regarding who has made the change, what was the change and when was the change made.
+In addition to this, you will receive an email with the information regarding who has made the change, what was the change and when was the change made.
 
 ![Email Notification](https://assets.postman.com/postman-docs/email-notification.jpg)
 
-Click the __View Schema__ button to see the API in the web dashboard.
+Click the __View Schema__ button to view the API in the web dashboard.
 
 ![View Schema](https://assets.postman.com/postman-docs/watch-api-view-schema.jpg)
 
