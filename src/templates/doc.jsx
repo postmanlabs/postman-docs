@@ -63,3 +63,5 @@ export const query = graphql`
   }
 `;
 /* eslint-enaable */
+
+/* eslint linebreak-style: ["error", "windows"] */

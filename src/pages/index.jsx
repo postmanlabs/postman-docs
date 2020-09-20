@@ -24,7 +24,7 @@ const heroMargin = {
 };
 const landingBottom = {
   padding: '40px',
-  backgroundColor: '#eaf2f8',
+  backgroundColor: window.matchMedia('(prefers-color-scheme: light)').matches ? '#eaf2f8' : '#1E2122',
   marginTop: '80px',
 };
 // const landingBottomContent = {

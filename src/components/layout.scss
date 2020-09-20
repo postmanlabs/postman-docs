@@ -52,9 +52,9 @@ div.col-sm-7.doc-page {
   @media (max-width: 991px) {
     /* margin:0 40px 40px 40px; */
     /* margin: 0 auto; */
-    text-align:center;
-    display:flex;
-    justify-content:center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
     width: auto;
     max-width: 100%;
     height: auto;
@@ -68,7 +68,7 @@ div.col-sm-7.doc-page {
   min-height: 44px;
 }
 
-.hellobar__text { 
+.hellobar__text {
   min-height: 100%;
   margin-bottom: 0px;
   text-align: center;
@@ -82,16 +82,16 @@ div.col-sm-7.doc-page {
   right: 20px;
   top: 8px;
   background-repeat: no-repeat;
-  cursor: pointer; 
+  cursor: pointer;
   -webkit-appearance: none !important;
-  
+
 }
 
 .hellobar__postman-link {
   height: 24px;
   font-weight: 700;
   color: #282828;
-  background-image: linear-gradient(180deg, transparent 50%, rgba(249,157,120,.5) 0);
+  background-image: linear-gradient(180deg, transparent 50%, rgba(249, 157, 120, .5) 0);
   padding-right: 4px;
   padding-bottom: 2px;
   background-position-y: 2px;
@@ -108,4 +108,15 @@ div.col-sm-7.doc-page {
     text-decoration: none;
     background-image: linear-gradient(180deg, transparent 60%, rgba(249, 157, 120, 1) 0);
   }
+}
+
+
+
+@media(prefers-color-scheme: dark) {
+
+  main {
+    background-color: #181A1B;
+    color: #E6E2DB;
+  }
+
 }

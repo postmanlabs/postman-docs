@@ -86,3 +86,5 @@ class Layout extends React.Component {
 }
 
 export default Layout;
+
+/* eslint linebreak-style: ["error", "windows"] */

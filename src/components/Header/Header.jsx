@@ -96,6 +96,7 @@ class HeaderComponent extends React.Component {
       hasInput: false,
       refresh: false,
       visibleHelloBar: 0,
+
     };
   }
 
@@ -143,7 +144,8 @@ class HeaderComponent extends React.Component {
       isToggledOn, refresh, hasInput, data, visibleHelloBar,
     } = this.state;
     return (
-      <header className="header text-center navbar navbar-expand-xl navbar-light">
+      <header className={`header text-center navbar navbar-expand-xl 
+        ${window.matchMedia('(prefers-color-scheme:light)').matches ? 'navbar-light' : 'navbar-dark'}`}>
         <div className="navbar-brand header__brand">
           <Link
             className="header__homelink"
@@ -156,7 +158,7 @@ class HeaderComponent extends React.Component {
 
         {/* hamburger toggle */}
         <button className="navbar-toggler" type="button" onClick={this.toggleMenu}>
-          <span className="navbar-toggler-icon" />
+          <span className="navbar-toggler-icon " />
         </button>
 
         <div
@@ -237,3 +239,5 @@ const Header = () => {
 };
 
 export default Header;
+
+/* eslint linebreak-style: ["error", "windows"] */

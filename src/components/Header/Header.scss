@@ -1,11 +1,13 @@
 @import '../Shared/_variables.scss';
 
 .header {
-  box-shadow: 0 5px 16px 0 rgba(0,0,0,.11);
+  box-shadow: 0 5px 16px 0 rgba(0, 0, 0, .11);
   z-index: 1;
+
   .header__logo {
     margin: auto;
     height: 50px;
+
     @media (max-width: 414px) {
       height: auto;
     }
@@ -16,6 +18,7 @@
     margin-left: 20px;
     color: $gray-3;
     text-decoration: none;
+
     @media (max-width: 414px) {
       margin-left: 8px;
     }
@@ -32,58 +35,76 @@
         white-space: nowrap;
         padding: 16px;
       }
+
       .nav-link:hover {
         color: $postman-orange;
       }
+
       .btn {
         margin-bottom: 0;
       }
     }
   }
+
   @media (max-width: 1200px) {
     .animate-close {
       animation-fill-mode: forwards;
       overflow: hidden;
       animation-name: closeMenu;
-      animation-duration: 0.5s;  
+      animation-duration: 0.5s;
     }
+
     .closed {
       overflow: hidden;
       max-height: 0px;
     }
   }
+
   .animate-open {
     overflow: hidden;
     animation-name: openMenu;
-    animation-duration: 0.5s;  
-  } 
+    animation-duration: 0.5s;
+  }
 }
 
 @keyframes openMenu {
-  0%   {max-height: 0px;}
-  100% {max-height: 300px;}
+  0% {
+    max-height: 0px;
+  }
+
+  100% {
+    max-height: 300px;
+  }
 }
 
 @keyframes closeMenu {
-  0%   {max-height: 300px;}
-  100% {max-height: 0px;}
+  0% {
+    max-height: 300px;
+  }
+
+  100% {
+    max-height: 0px;
+  }
 }
 
 
 .searchbox {
   input {
-    background-color:#f5f5f5;
+    background-color: #f5f5f5;
     border: 0;
     padding: 13px 24px;
     border-radius: 3px;
     width: 100%;
   }
+
   ::placeholder {
     color: #1c272b;
     font-size: 14px;
     font-weight: 600;
   }
-  .ais-SearchBox-submit, .ais-SearchBox-reset {
+
+  .ais-SearchBox-submit,
+  .ais-SearchBox-reset {
     display: none;
   }
 }
@@ -91,9 +112,11 @@
 .ais-Pagination-list {
   list-style: none;
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
+
   a {
     color: $gray-2;
+
     &:hover {
       color: $postman-orange;
     }
@@ -102,7 +125,45 @@
   li {
     padding: 5px;
   }
+
   .ais-Pagination-link--selected {
     color: $postman-orange;
+  }
+}
+
+
+@media(prefers-color-scheme: dark) {
+  .header {
+    background-color: #181A1B;
+    color: #E6E2DB;
+
+    .header__title {
+      color: #E6E2DB
+    }
+
+    .header__right-links {
+      .nav-item {
+        .nav-link {
+
+          color: #E6E2DB;
+
+        }
+      }
+    }
+
+    .searchbox {
+      input {
+        background-color: #1E2021;
+        color: #E6E2DB;
+        border: 0;
+        padding: 13px 24px;
+        border-radius: 3px;
+        width: 100%;
+      }
+
+      ::placeholder {
+        color: #818181;
+      }
+    }
   }
 }

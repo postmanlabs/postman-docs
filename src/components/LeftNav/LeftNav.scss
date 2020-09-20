@@ -7,24 +7,29 @@
   font-size: 16px;
   line-height: 1.5em;
   padding: 32px 8px 8px 20px;
-  .active.root > .parent.currentUrl {
+
+  .active.root>.parent.currentUrl {
     background-color: inherit;
     color: inherit;
     padding-left: 70px;
+
     & button {
-      &:hover{
+      &:hover {
         color: $postman-orange;
       }
     }
   }
-  .root > .parent{
+
+  .root>.parent {
     button {
       font-weight: 700;
     }
   }
+
   .parent {
     list-style-type: none;
     margin-left: -10px;
+
     .caret {
       position: relative;
       top: 14px;
@@ -35,7 +40,7 @@
       -o-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
       transform: rotate(-90deg);
-      
+
       &.active-caret {
         transition: transform .2s ease;
         -webkit-transform: rotate(0deg);
@@ -56,7 +61,8 @@
       cursor: pointer;
       outline: inherit;
       text-transform: capitalize;
-      &:hover{
+
+      &:hover {
         color: $postman-orange;
       }
     }
@@ -66,6 +72,7 @@
       color: $white;
       margin: 0 -8px 16px -80px;
       padding: 8px 0 8px 70px;
+
       & button {
         &:hover {
           color: $white;
@@ -78,11 +85,11 @@
     margin-left: 28px;
     margin-bottom: 24px;
 
-    &.currentUrl{
+    &.currentUrl {
       font-weight: 700;
       margin-left: 23px;
 
-      > * {
+      >* {
         vertical-align: middle;
       }
 
@@ -101,22 +108,35 @@
         margin-left: 5px;
       }
     }
-    
+
     a {
       display: block;
       text-decoration: none;
       color: inherit;
+
       &:hover {
         color: $postman-orange;
       }
     }
   }
 
-  ul.active > .child, ul.active > .parent, ul.active > ul.inactive, ul.inactive.root {
+  ul.active>.child,
+  ul.active>.parent,
+  ul.active>ul.inactive,
+  ul.inactive.root {
     display: block;
   }
 
-  ul.inactive > .child, ul.inactive > ul {
+  ul.inactive>.child,
+  ul.inactive>ul {
     display: none;
+  }
+}
+
+
+@media(prefers-color-scheme: dark) {
+  .leftNav {
+    background-color: #1B1C1D;
+    border-right: 1px solid #C7C3BD;
   }
 }

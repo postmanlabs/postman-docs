@@ -3,3 +3,12 @@
   padding: 80px;
   margin-bottom: 80px;
 }
+
+@media(prefers-color-scheme: dark) {
+  .hero {
+    background-color: #202324;
+    color: #E6E2DB;
+  }
+
+
+}

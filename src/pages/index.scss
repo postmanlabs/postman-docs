@@ -1,5 +1,5 @@
 .hero-image {
-    margin: 0px;
+  margin: 0px;
 }
 
 .hero-text {
@@ -16,5 +16,17 @@
 
   @media (min-width: 376px) and (max-width: 425px) {
     padding: 0px 35px;
+  }
+}
+
+
+@media(prefers-color-scheme: dark) {
+  .btn.btn__secondary-light {
+    color: #c7c4be;
+    background-color: #17191a;
+    background-image: none;
+    border-color: #2e3133;
+
+
   }
 }

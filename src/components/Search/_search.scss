@@ -34,8 +34,8 @@ ais-highlight-0000000000 {
 }
 
 .arrow-up {
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-bottom: 5px solid black;
@@ -44,9 +44,11 @@ ais-highlight-0000000000 {
 .style {
   list-style: none;
   padding-top: 20px;
+
   a {
     color: #757575;
   }
+
   a:hover {
     color: #fe6c37;
     text-decoration: none;
@@ -58,9 +60,9 @@ ais-highlight-0000000000 {
 }
 
 .ais-SearchBox-form {
-    margin-bottom: 0px;
-    flex-grow: 2;
-  }
+  margin-bottom: 0px;
+  flex-grow: 2;
+}
 
 .ais-SearchBox-submit {
   width: 0.1px;
@@ -79,17 +81,21 @@ ais-highlight-0000000000 {
     margin-right: 0px;
     font-size: 1rem !important;
   }
+
   @media (max-width: 384px) {
     margin-right: 0px;
     font-size: 0.85rem !important;
   }
+
   @media (max-width: 320px) {
     margin-right: 0px;
     font-size: 0.75rem !important;
   }
 }
+
 .header__brand {
   min-width: 330px;
+
   @media (max-width: 414px) {
     min-width: 0px;
   }
@@ -98,7 +104,29 @@ ais-highlight-0000000000 {
 .header__search {
   width: 100%;
   padding: 0 16px;
+
   .ais-InstantSearch__root {
     width: 100%;
+  }
+}
+
+@media(prefers-color-scheme: dark) {
+  .input-value {
+    position: absolute;
+    z-index: 3;
+    background-color: #181A1B;
+    border: 1px solid #3B4042;
+    background: #181A1B;
+    border-radius: 4px;
+    padding-right: 24px;
+    margin-top: -10px;
+    display: flex;
+    text-align: left;
+    max-width: 600px;
+  }
+
+  ais-highlight-0000000000 {
+    color: #5FD2FD;
+    background-color: #26292B;
   }
 }
