@@ -4,6 +4,7 @@
   padding-left: 49px !important;
   padding-top: 32px;
   padding-bottom: 40px;
+
   // pre {
   //   background-color: rgba(109, 127, 145, 0.2);
   //   border-radius: 2px;
@@ -24,6 +25,7 @@
   a {
     color: $postman-orange;
     text-decoration: none;
+
     &:hover {
       color: $gray-3;
     }
@@ -52,6 +54,7 @@ blockquote {
 .edit-button {
   margin-top: 32px;
   margin-left: 12px;
+
   @media (min-width:767px) and (max-width: 990px) {
     padding-left: 16px;
   }
@@ -59,8 +62,8 @@ blockquote {
 
 @media (max-width: 990px) {
   .right-colum {
-  padding-bottom: 80px;
-  padding-left: 16px;
+    padding-bottom: 80px;
+    padding-left: 16px;
   }
 }
 
@@ -70,10 +73,10 @@ tr:hover {
 
 th:first-child,
 td:first-child {
- padding-left:10px;
+  padding-left: 10px;
 }
 
-thead:first-child:hover tr{
+thead:first-child:hover tr {
   background-color: white;
 }
 
@@ -81,7 +84,7 @@ thead:first-child:hover tr{
 /**
 * add syntax highlighting
 */
-:not(pre) > code[class*="language-"] {
+:not(pre)>code[class*="language-"] {
   font-family: monospace !important;
   background-color: lightgray !important;
   color: $gray-3;
@@ -108,7 +111,7 @@ code[class*="language-"] {
   // max-width: 600px;
 
   code[class*="language-"],
-  .token.comment, 
+  .token.comment,
   .token.string,
   .token.number,
   .token.boolean,
@@ -165,5 +168,14 @@ code[class*="language-"] {
     //     padding-left: 0.75em;
     //   }
     // }
+  }
+}
+
+
+@media(prefers-color-scheme: dark) {
+  .edit-button {
+    path {
+      fill: #C7C3BD
+    }
   }
 }
