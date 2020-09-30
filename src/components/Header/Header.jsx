@@ -62,8 +62,6 @@ const LoginCheck = (props) => {
     <a
       href="https://go.postman.co/build"
       className="btn btn__primary"
-      target="_blank"
-      rel="noreferrer"
       onClick={() => {
         // To stop the page reloading
         // e.preventDefault()
