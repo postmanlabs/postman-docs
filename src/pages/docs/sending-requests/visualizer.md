@@ -19,6 +19,9 @@ contextual_links:
   - type: link
     name: "Visualizer demo"
     url: "https://www.youtube.com/watch?v=Qj7j3QsY2ok"
+  - type: link
+    name: "How to visualize data in Postman"
+    url: "https://youtu.be/KTmeZ5cSVSg?list=PL6yYBvW22vbqiyhb_U-RWfxuZNv0DKBP8"
   - type: subtitle
     name: "Templates"
   - type: link
@@ -30,6 +33,11 @@ contextual_links:
   - type: link
     name: "Visualizer D3 examples"
     url: "https://explore.postman.com/templates/4424/"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Graphing COVID time series data using Chart.js and Postman"
+    url: "https://medium.com/better-practices/graphing-covid-time-series-data-using-chart-js-and-postman-5d13eff44761"
 
 ---
 
