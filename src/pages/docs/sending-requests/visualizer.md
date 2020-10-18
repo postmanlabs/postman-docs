@@ -34,7 +34,7 @@ contextual_links:
     name: "Visualizer D3 examples"
     url: "https://explore.postman.com/templates/4424/"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Related Blog Posts"
   - type: link
     name: "Graphing COVID time series data using Chart.js and Postman"
     url: "https://medium.com/better-practices/graphing-covid-time-series-data-using-chart-js-and-postman-5d13eff44761"
