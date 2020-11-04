@@ -78,11 +78,11 @@ You will see the selected environment status at the top-right of Postman. Any _a
 
 The quick look lists variables for the active environment, and any global variables you have declared (or that are shared via your workspace).
 
-![Environment Quick Look](https://assets.postman.com/postman-docs/environment-quick-look-open.jpg)
+![Environment Quick Look](https://user-images.githubusercontent.com/64157226/98108776-8b085580-1ec2-11eb-8230-ffcea3a323c6.jpg)
 
 To create a new environment, click __Manage environments__ at the top right of Postman.
 
-<img src="https://assets.postman.com/postman-docs/manage-environments-buttons.jpg" alt="Manage environments" width="250px"/>
+<img src="https://user-images.githubusercontent.com/64157226/98108992-dcb0e000-1ec2-11eb-8eca-8558a6bb8baa.jpg" alt="Manage environments" width="250px"/>
 
 You will see the list of existing environments in your workspace.
 
@@ -104,7 +104,7 @@ Click __Add__ to create your environment.
 
 You can add variables to an active (currently selected) environment by opening the environment quick look using the eye button at the top right of Postman, and clicking __Edit__.
 
-<img src="https://assets.postman.com/postman-docs/edit-environment-quick.jpg" alt="Edit environment" width="300px"/>
+<img src="https://user-images.githubusercontent.com/64157226/98108958-ce62c400-1ec2-11eb-8c74-b9d28b482371.jpg" alt="Edit environment" width="300px"/>
 
 Alternatively, click __Manage Environments__ and select the environment.
 
