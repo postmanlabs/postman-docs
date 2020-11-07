@@ -74,7 +74,7 @@ You can use the current value of your environment variables to ensure that sensi
 
 ## Creating environments
 
-You will see the selected environment status at the top-right of Postman. Any _active_ environment will be selected in the drop-down, and to the right you will see the __Environment quick look__ (eye) and __Manage environments__ (gear) buttons.
+You will see the selected environment status at the top-right of Postman. Any _active_ environment will be selected in the drop-down, and to the right you will see the __Environment quick look__ (eye) and __Manage environments__ (settings) buttons.
 
 The quick look lists variables for the active environment, and any global variables you have declared (or that are shared via your workspace).
 
@@ -125,7 +125,7 @@ To update the synced variable with your local value, set the initial value to th
 
 You can access your environment variables from the Postman UI and from your request elements, including the URL, parameters, body data, and test scripts.
 
-To see all of your environments, click __Manage Environments__ (gear button) at the top right of Postman.
+To see all of your environments, click __Manage Environments__ (settings button) at the top right of Postman.
 
 ![Manage Environments](https://user-images.githubusercontent.com/64157226/98452361-c336bf00-2174-11eb-81d0-93a64069e2a0.png)
 
@@ -212,7 +212,7 @@ When you collaborate with your team in a shared workspace, any global variables 
 
 By specifying role-based access to your environments, you can achieve a finer grained control level over your variable values. You can choose to share an environment within your workspace to make it available to team members—and specify access levels for each individual.
 
-To share an environment to your workspace, click __Manage Environments__ (gear button) at the top right of Postman. Click __Share__ next to the environment.
+To share an environment to your workspace, click __Manage Environments__ (settings button) at the top right of Postman. Click __Share__ next to the environment.
 
 ![Share environment](https://user-images.githubusercontent.com/64157226/98452404-0ee96880-2175-11eb-94b4-e4121aba6f59.png)
 
@@ -252,7 +252,7 @@ If you are using sensitive data like API credentials, it's safer to use the curr
 
 #### Requesting environment access
 
-If you need to update the initial value of a variable in an environment you have readonly access to, you can request edit access. Click __Manage Environments__ (gear button) at the top right of Postman and click the environment name to open it. Click __Request Access__.
+If you need to update the initial value of a variable in an environment you have readonly access to, you can request edit access. Click __Manage Environments__ (settings button) at the top right of Postman and click the environment name to open it. Click __Request Access__.
 
 ![Request access on environment](https://assets.postman.com/postman-docs/request-access-viewer.jpg)
 
