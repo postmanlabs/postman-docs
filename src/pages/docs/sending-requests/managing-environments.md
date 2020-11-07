@@ -78,25 +78,25 @@ You will see the selected environment status at the top-right of Postman. Any _a
 
 The quick look lists variables for the active environment, and any global variables you have declared (or that are shared via your workspace).
 
-![Environment Quick Look](https://assets.postman.com/postman-docs/environment-quick-look-open.jpg)
+![Environment Quick Look](https://user-images.githubusercontent.com/64157226/98452197-1e67b200-2173-11eb-84fe-daac52507bed.png)
 
 To create a new environment, click __Manage environments__ at the top right of Postman.
 
-<img src="https://assets.postman.com/postman-docs/manage-environments-buttons.jpg" alt="Manage environments" width="250px"/>
+<img src="https://user-images.githubusercontent.com/64157226/98452347-8ff43000-2174-11eb-9736-33b53ed4194a.png" alt="Manage environments" width="250px"/>
 
 You will see the list of existing environments in your workspace.
 
-![Manage Environments](https://assets.postman.com/postman-docs/manage-environments-open.jpg)
+![Manage Environments](https://user-images.githubusercontent.com/64157226/98452361-c336bf00-2174-11eb-81d0-93a64069e2a0.png)
 
 Click __Add__.
 
 Alternatively, select __No Environment__ from the drop-down, open the __Environment quick look__, and click __Add__.
 
-![No Active Environment](https://assets.postman.com/postman-docs/no-active-environment.jpg)
+![No Active Environment](https://user-images.githubusercontent.com/64157226/98452369-dfd2f700-2174-11eb-85db-cf9a920b22e3.png)
 
 Enter a name for your environment, and initialize it with any variables you need—you can alternatively specify variables for the environment later.
 
-![Add Environment](https://assets.postman.com/postman-docs/add-new-environment.jpg)
+![Add Environment](https://user-images.githubusercontent.com/64157226/98452391-0729c400-2175-11eb-9466-cbffbaf9a16b.png)
 
 Click __Add__ to create your environment.
 
@@ -104,11 +104,11 @@ Click __Add__ to create your environment.
 
 You can add variables to an active (currently selected) environment by opening the environment quick look using the eye button at the top right of Postman, and clicking __Edit__.
 
-<img src="https://assets.postman.com/postman-docs/edit-environment-quick.jpg" alt="Edit environment" width="300px"/>
+<img src="https://user-images.githubusercontent.com/64157226/98452393-085af100-2175-11eb-9dbd-e8c59991bdb0.png" alt="Edit environment" width="300px"/>
 
 Alternatively, click __Manage Environments__ and select the environment.
 
-![Edit Environment](https://assets.postman.com/postman-docs/edit-environment-vars.jpg)
+![Edit Environment](https://user-images.githubusercontent.com/64157226/98452394-098c1e00-2175-11eb-997b-377d406ab806.png)
 
 > If you are working with environment variables as part of a team, you will only be able to change initial values if you have [edit access to the environment](#managing-environment-roles). You can access all variables in environments shared with you, but may have readonly access to initial values if you have viewer role.
 
@@ -119,7 +119,7 @@ Enter a name for your variable, and specify __Initial__ and __Current__ values f
 
 To update the synced variable with your local value, set the initial value to the current value by clicking __...__ to the right of the variable row and choosing __Persist__. To reset your local (current) value with the synced value shared with your workspace / collaborators, click __Reset__. You can persist or reset all values in the environment using __Persist All__ and __Reset All__.
 
-![Persist or Reset Environment](https://assets.postman.com/postman-docs/persist-reset-environment.jpg)
+![Persist or Reset Environment](https://user-images.githubusercontent.com/64157226/98452465-a64ebb80-2175-11eb-95cd-24ed66471dd3.png)
 
 ## Accessing environments
 
@@ -127,13 +127,13 @@ You can access your environment variables from the Postman UI and from your requ
 
 To see all of your environments, click __Manage Environments__ (gear button) at the top right of Postman.
 
-![Manage Environments](https://assets.postman.com/postman-docs/manage-environments-open.jpg)
+![Manage Environments](https://user-images.githubusercontent.com/64157226/98452361-c336bf00-2174-11eb-81d0-93a64069e2a0.png)
 
 Here you can add, share, duplicate, download, manage access, delete, and remove a shared environment from a workspace. You can also access your global variables by clicking __Globals__.
 
 To view the variables in an environment, click its name. You can edit, add, and remove variables from the environment here.
 
-![Edit environment](https://assets.postman.com/postman-docs/edit-environment-name.jpg)
+![Edit environment](https://user-images.githubusercontent.com/64157226/98452396-0abd4b00-2175-11eb-9303-efb3b18f504b.png)
 
 > You can also view your environments in __Browse__ mode—in __Environments__ or __Activity__, click an environment name to see the variables within it in the web dashboard.
 
@@ -141,7 +141,7 @@ To view the variables in an environment, click its name. You can edit, add, and 
 
 To use the variables in an environment, select it from the drop-down list at the top right of Postman.
 
-<img src="https://assets.postman.com/postman-docs/environment-dropdown-list.jpg" alt="Environment Dropdown" width="300px"/>
+<img src="https://user-images.githubusercontent.com/64157226/98452397-0b55e180-2175-11eb-9e9b-1725f1149858.png" alt="Environment Dropdown" width="300px"/>
 
 To check a variable value at a glance, use the __quick look__ (eye button).
 
@@ -155,12 +155,12 @@ To use an environment variable value in a request, reference it by name, surroun
 
 You can use the same variable notation in request URLs, parameters, headers, and body data.
 
-![Environment var reference](https://assets.postman.com/postman-docs/environment-variable-referenced.jpg)
+![Environment var reference](https://user-images.githubusercontent.com/64157226/98452398-0bee7800-2175-11eb-844d-95d8694e9e46.png)
 
 Hover over a variable reference to see its current value.
 
 > If more than one variable with the same name is available to a request, Postman will use the value from the variable with narrowest [scope](/docs/sending-requests/variables/#variable-scopes). This means that if you have an environment variable with the same name as a collection or global variable, Postman will use the environment variable, but local and data variable values will supersede environment values. The value of any overridden variables will display with a strikethrough.
-> ![Overridden value](https://assets.postman.com/postman-docs/overridden-environment-variable.jpg)
+> ![Overridden value](https://user-images.githubusercontent.com/64157226/98452400-0c870e80-2175-11eb-89ae-e99eb0ad5ce8.png)
 
 You can access current environment variable values in your __Pre-request__ and __Tests__ code.
 
@@ -176,17 +176,17 @@ You can edit variables by opening the environment quick look (eye button) at the
 
 > You will only be able to edit environments where you have [editor access](#requesting-environment-access).
 
-![Edit environment](https://assets.postman.com/postman-docs/edit-environment-name.jpg)
+![Edit environment](https://user-images.githubusercontent.com/64157226/98452396-0abd4b00-2175-11eb-9303-efb3b18f504b.png)
 
 Edit the environment name, or the names and values of your variables, bearing in mind that __Values__ will be synced with your Postman account and shared with any collaborators who have access to the environment. Click __Update__ when your edits are complete.
 
-![Viewer role on environment](https://assets.postman.com/postman-docs/viewer-role-environment.jpg)
+![Viewer role on environment](https://user-images.githubusercontent.com/64157226/98452401-0db83b80-2175-11eb-9077-f0060a34cd8e.png)
 
 If you have viewer access to an environment, you will see a padlock icon next to the name to indicate that it is readonly, and you will only be able to edit the current value, which is visible only to you and not synced with your Postman account or workspace. To edit initial values you will need editor role on the environment.
 
 > You can edit current values for variables in an active (currently selected) environment directly via the environment quick look. Click the pencil icon to edit your chosen value.
 
-![Edit environment variable](https://assets.postman.com/postman-docs/edit-pencil-icon-var.jpg)
+![Edit environment variable](https://user-images.githubusercontent.com/64157226/98452402-0e50d200-2175-11eb-8c8f-b3014615509c.png)
 
 You can also update environment variable values from your test scripts.
 
@@ -214,15 +214,15 @@ By specifying role-based access to your environments, you can achieve a finer gr
 
 To share an environment to your workspace, click __Manage Environments__ (gear button) at the top right of Postman. Click __Share__ next to the environment.
 
-![Share environment](https://assets.postman.com/postman-docs/share-environment-button.jpg)
+![Share environment](https://user-images.githubusercontent.com/64157226/98452404-0ee96880-2175-11eb-94b4-e4121aba6f59.png)
 
 Select the workspace you want to share the environment to. Click __Share and Continue__.
 
-![Share environment detail](https://assets.postman.com/postman-docs/share-environment-detail.jpg)
+![Share environment detail](https://user-images.githubusercontent.com/64157226/98452405-0f81ff00-2175-11eb-8b78-147ab54e1132.png)
 
 You can assign the same role to everyone in the workspace, or can configure access levels on an individual basis.
 
-![Shared environment roles](https://assets.postman.com/postman-docs/shared-environment-roles.jpg)
+![Shared environment roles](https://user-images.githubusercontent.com/64157226/98452389-04c76a00-2175-11eb-9895-db122740ea39.png)
 
 > You can access the role control at any time from __Manage environments__ &gt; __Manage roles__ from the __...__ overflow menu.
 
