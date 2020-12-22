@@ -138,6 +138,15 @@ The usage menu allows you to review limits for APIs, shared requests and history
 
 [![usage info](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11 at%205.38.16%20PM.png)](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.38.16%20PM.png)
 
+### Usage limit for free users
+
+For free users, the team usage is limited by the number of requests: each free team can collaborate on up to 25 Postman requests. Each workspace also has a shared history — requests sent by members of a team will be saved in a team’s shared history which also has a limit of 25 shared history requests. Shared requests and shared history requests can be split across any number of team workspaces.
+
+If your team collectively creates more than 25 requests, don’t worry, you won’t lose any of your collections, but the collection containing the oldest requests will be archived to make room for newer ones. You’ll be notified within the app when your team is close to exceeding 25 requests, and again when your collections have been archived.
+If your team goes over 25 shared history requests, your oldest 10 requests will be archived to make room for newer ones.
+
+To compare the usage limit for each plan type, check out [Plan Comparison](https://www.postman.com/pricing/).
+
 ### How archiving works
 
  Postman archives collections when a free team's collaboration exceeds usage limits. Archived collections cannot be collaborated on, however they are still accessible to users. You will receive an in-app notification when a collection is archived.
