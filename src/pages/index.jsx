@@ -126,10 +126,10 @@ const IndexPage = () => (
           <strong>February 11<sup>th</sup> -</strong> <OutboundLink href="https://www.youtube.com/watch?v=To7drfoIoqg">Stalking your favorite band</OutboundLink>: Joyce welcomes Michael Bettendorf, Editor in Chief at Postman and devoted Deadhead. They explore Michael's favorite band and drop acid on this special livestream.
         </p>
         <p>
-          <strong>February 25<sup>th</sup> -</strong> <OutboundLink href="https://www.youtube.com/watch?v=OO7MhWwaayE">Spinning up a microsite in Postman with Contentful</OutboundLink>: Arlemi welcomes Shy, Developer Evangelist at Contentful, to explore how you can build a microsite directly in Postman using Visualizers on the frontend and Contentful in the backend.
+          <strong>February 18<sup>th</sup> -</strong> <OutboundLink href="https://www.youtube.com/watch?v=g2pqCIhXQ3k">From zero to Async API</OutboundLink>: Kevin Swiber welcomes Fran Mendez (founder of Async API) and Kin Lane (Chief Evangelist at Postman) as they chat about Asynchronous APIs. Learn how to build an event-driven architecture.
         </p>
         <p>
-          <strong>February 28<sup>th</sup> -</strong> <OutboundLink href="https://www.youtube.com/watch?v=g2pqCIhXQ3k">From zero to Async API</OutboundLink>: Kevin Swiber welcomes Fran Mendez (founder of Async API) and Kin Lane (Chief Evangelist at Postman) as they chat about Asynchronous APIs. Learn how to build an event-driven architecture.
+          <strong>February 25<sup>th</sup> -</strong> <OutboundLink href="https://www.youtube.com/watch?v=OO7MhWwaayE">Spinning up a microsite in Postman with Contentful</OutboundLink>: Arlemi welcomes Shy, Developer Evangelist at Contentful, to explore how you can build a microsite directly in Postman using Visualizers on the frontend and Contentful in the backend.
         </p>
       </div>
     </section>
