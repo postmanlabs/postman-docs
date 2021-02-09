@@ -116,23 +116,20 @@ const IndexPage = () => (
     <section className="row section">
       <div className="col-md-4">
         <h2>Upcoming Postman Livestreams</h2>
-        <p>Check out the lineup for January 2021.</p>
+        <p>Check out the lineup for February 2021.</p>
         <p>
           <a href="https://www.twitch.tv/getpostman">Follow us</a> on Twitch or <a href="https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw">subscribe</a> to our YouTube channel so you don’t miss when we go live.
         </p>
       </div>
       <div className="col-md-8">
         <p>
-          <strong>January 6<sup>th</sup> -</strong> <OutboundLink href="https://youtu.be/7ZLefbZC_ik">The Postman Hack</OutboundLink>: Postman Chief Evangelist, Kin Lane , and Mario Tapia, Director of Product Marketing, announce The Postman Hack. Learn the rules, pick up some tips, and win $100K.
+          <strong>February 11<sup>th</sup> -</strong> <OutboundLink href="https://www.youtube.com/watch?v=To7drfoIoqg">Stalking your favorite band</OutboundLink>: Joyce welcomes Michael Bettendorf, Editor in Chief at Postman and devoted Deadhead. They explore Michael's favorite band and drop acid on this special livestream.
         </p>
         <p>
-          <strong>January 14<sup>th</sup> -</strong> <OutboundLink href="https://youtu.be/4DRyeCUcjFg">Making AI Art</OutboundLink>: Arlemi and Kin Lane team up again to create custom photography effects using Artificial Intelligence.
+          <strong>February 25<sup>th</sup> -</strong> <OutboundLink href="https://www.youtube.com/watch?v=OO7MhWwaayE">Spinning up a microsite in Postman with Contentful</OutboundLink>: Arlemi welcomes Shy, Developer Evangelist at Contentful, to explore how you can build a microsite directly in Postman using Visualizers on the frontend and Contentful in the backend.
         </p>
         <p>
-          <strong>January 21<sup>st</sup> -</strong> <OutboundLink href="https://youtu.be/c-5UMf6sWk4">How to Break an API</OutboundLink>: Joyce welcomes Trent (Quality Engineering Manager at Postman) and Evan Lindsey (Lead SDET) to show her how to break an API. This is an episode about negative testing.
-        </p>
-        <p>
-          <strong>January 28<sup>th</sup> -</strong> <OutboundLink href="https://youtu.be/QyBZaDww-xY">Interactive Code Game for Beginners</OutboundLink>: Arlemi welcomes Daniel Kim, Senior DevRel Engineer at New Relic and founder of Bit Project, to play an interactive code game designed to make tech accessible to all developers.
+          <strong>February 28<sup>th</sup> -</strong> <OutboundLink href="https://www.youtube.com/watch?v=g2pqCIhXQ3k">From zero to Async API</OutboundLink>: Kevin Swiber welcomes Fran Mendez (founder of Async API) and Kin Lane (Chief Evangelist at Postman) as they chat about Asynchronous APIs. Learn how to build an event-driven architecture.
         </p>
       </div>
     </section>
