@@ -1,5 +1,4 @@
 import React from 'react';
-import './Hero.scss';
 
 const Hero = ({ title, text }) => (
   <div className="row text-center hero">

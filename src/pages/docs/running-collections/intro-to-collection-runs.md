@@ -19,11 +19,9 @@ contextual_links:
   - type: link
     name: "Running a collection"
     url: "https://www.youtube.com/watch?v=la0LqQwwKAA"
-  - type: subtitle
+  - type: dynamic_blog
     name: "Related Blog Posts"
-  - type: link
-    name: "Keep track of GitHub issues using a Postman collection"
-    url: "https://blog.postman.com/keep-track-of-github-issues-using-a-postman-collection/"
+    blog_tag: "collections"
 warning: false
 
 ---

@@ -54,6 +54,7 @@ export const query = graphql`
           type
           name
           url
+          blog_tag
         }
       }
       fields {

@@ -8,6 +8,9 @@ contextual_links:
   - type: link
     name: "Using the Collection Runner"
     url: "/docs/running-collections/intro-to-collection-runs/"
+  - type: dynamic_blog
+    name: "Related Blog Posts"
+    blog_tag: "monitors"
 
 warning: false
 ---

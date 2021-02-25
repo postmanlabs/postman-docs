@@ -78,3 +78,6 @@ _site/
 
 
 auth.json
+
+# Ignore temporary bff data used for build
+bff-data/

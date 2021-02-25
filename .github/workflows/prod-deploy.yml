@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - uses: actions/setup-node@master
-    - name: set AWS and Algolia Keys to environment
+    - name: set AWS, BFF and Algolia Keys to environment
       env:
         GATSBY_ALGOLIA_APP_ID: ${{ secrets.GATSBY_ALGOLIA_APP_ID}}
         GATSBY_ALGOLIA_SEARCH_KEY: ${{secrets.GATSBY_ALGOLIA_SEARCH_KEY}}
@@ -22,6 +22,8 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{secrets.PROD_AWS_SECRET_ACCESS_KEY}}
         DIST_ID: ${{secrets.PROD_DIST_ID}}
         MUNCHKIN_ID: ${{ secrets.MUNCHKIN_ID}}
+        BFF_BLOG_URL: ${{ secrets.BFF_BLOG_URL }}
+        BFF_PING_WEBHOOK_URL: $ {{ secrets.BFF_PING_WEBHOOK_URL }}
       run: |
         npm install
         npm run clean
