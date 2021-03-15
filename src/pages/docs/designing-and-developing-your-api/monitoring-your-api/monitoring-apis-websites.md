@@ -19,7 +19,7 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "API mentoring with Postman"
+    name: "API monitoring"
     url: "https://www.youtube.com/watch?v=3nOP_TYTuA8"
   - type: section
     name: "Next Steps"
