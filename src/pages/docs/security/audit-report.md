@@ -1,6 +1,6 @@
 ---
 title: "Audit Report Scanner"
-order: 2
+order: 116
 page_id: "audit-report"
-search_keyword: "password security, secret scanning, secret, api key security"
+search_keyword: "security report, audit, password security, secret scanning, secret, api key security"
 ---

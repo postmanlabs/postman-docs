@@ -1,6 +1,6 @@
 ---
 title: "Token Scanner"
-order: 1
+order: 115
 page_id: "token-scanner"
 search_keyword: "password security, secret scanning, secret, api key security"
 ---
@@ -58,3 +58,5 @@ To add custom alerts,
 1. Go to **Team Settings** > **Token Scanner**.
 2. Click **Add alerts** button under Custom alerts section.
 3. In the Add Alert page, define the custom token.
+
+![add-custom-alert-page]()
