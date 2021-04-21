@@ -11,7 +11,7 @@ contextual_links:
     url: "/docs/collaborating-in-postman/collaboration-intro/"
   - type: link
     name: "Managing your team"
-    url: "/docs/administration/managing-your-team/"
+    url: "/docs/administration/managing-your-team/managing-your-team/"
 
 ---
 
@@ -80,7 +80,7 @@ See [Configuring SSO for a team](/docs/administration/sso/admin-sso/) for detail
 
 Select **Roles and Permissions** from the left-hand menu to view a complete list of permissions for team members' roles at a team, collection, workspace, API, and mock server level.
 
-View [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/) for more information on roles you can assign to members of your team and [Managing your team](/docs/administration/managing-your-team/) for an overview of managing roles and users within your Postman team.
+View [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/) for more information on roles you can assign to members of your team and [Managing your team](/docs/administration/managing-your-team/managing-your-team/) for an overview of managing roles and users within your Postman team.
 
 <img alt="Roles and permissions descriptions" src="https://assets.postman.com/postman-docs/ts-roles-and-permissions.jpg"/>
 

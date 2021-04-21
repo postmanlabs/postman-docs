@@ -25,6 +25,12 @@ jobs:
         BFF_BLOG_URL: ${{ secrets.BFF_BLOG_URL }}
         BFF_EVENTS_URL: ${{ secrets.BFF_EVENTS_URL }}
         BFF_PING_WEBHOOK_URL: $ {{ secrets.BFF_PING_WEBHOOK_URL }}
+        RELIC_ACCOUNT_ID: ${{ secrets.RELIC_ACCOUNT_ID }}
+        RELIC_TRUST_KEY: ${{ secrets.RELIC_TRUST_KEY }}
+        RELIC_LICENSE_KEY: ${{ secrets.RELIC_LICENSE_KEY }}
+        RELIC_PRODUCTION_AGENT_ID: ${{ secrets.RELIC_PRODUCTION_AGENT_ID }}
+        RELIC_PRODUCTION_APPLICATION_ID: ${{ secrets.RELIC_PRODUCTION_APPLICATION_ID }}
+
       run: |
         npm install
         npm run clean

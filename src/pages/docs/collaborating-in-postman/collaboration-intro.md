@@ -28,7 +28,7 @@ contextual_links:
 
 Postman allows all users to collaborate with their teams through Team Workspaces. Using this feature, you can easily collaborate and share your collections, environments, integrations, history, mocks, monitors, and more.
 
-Postman will alert you with notifications when activities occur within your team and workspace.
+Postman will alert you with notifications when activities occur within your team and workspace. You can view and opt in or out notifications by selecting your avatar in the upper-right corner of Postman and clicking **Notification Preferences**.
 
 > Each account can be on one Postman team at a time. Multi-team collaboration and guest accounts are [on Postman's roadmap](https://trello.com/b/4N7PnHAz/postman-roadmap-for-developers).
 
@@ -68,11 +68,11 @@ In Postman, select **Invite**.
 
 [![Invite button](https://assets.postman.com/postman-docs/invite-button-v8.jpg)](https://assets.postman.com/postman-docs/invite-button-v8.jpg)
 
-Enter the email address of the individual you’d like to invite to your team workspace, click **Add** > **Send Invitations**.
+Enter the email address of the individual you would like to invite to your team workspace or the [group](/docs/administration/managing-your-team/user-groups/) name, then click **Add** > **Send Invitations**.
 
-[![Invite team workspace](https://assets.postman.com/postman-docs/invite-team-members-v8.jpg)](https://assets.postman.com/postman-docs/invite-team-members-v8.jpg)
+<img alt="Invite users" src="https://assets.postman.com/postman-docs/invite-user-and-group-to-workspace.jpg"/>
 
-The individual will be added to the team once they accept their invitation.
+The individual or group will be added to the team once they accept their invitation.
 
 You can also use the **Copy Invite Link** and send it to people you would like to join your workspace.
 
@@ -146,13 +146,13 @@ The usage menu allows you to review limits for APIs, shared requests and history
 
  Postman archives collections when a free team's collaboration exceeds usage limits. Archived collections cannot be collaborated on, however they are still accessible to users. You will receive an in-app notification when a collection is archived.
 
-[![archived message](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.44.36%20PM.png)](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.44.36%20PM.png)  
+[![archived message](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.44.36%20PM.png)](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.44.36%20PM.png)
 
 Postman chooses which collection(s) to archive based on last edit date. The collections that have gone the longest without a revision will be archived in order to bring your team within usage limits.
 
 Postman indicates the number of archived collections at the bottom of the left sidebar.
 
-[![archived message](https://assets.postman.com/postman-docs/ArchiveMsg2.png)](https://assets.postman.com/postman-docs/ArchiveMsg2.png)  
+[![archived message](https://assets.postman.com/postman-docs/ArchiveMsg2.png)](https://assets.postman.com/postman-docs/ArchiveMsg2.png)
 
 ### Recovering your archived collections
 
@@ -164,6 +164,8 @@ You will then be directed to your dashboard, where you can click **Download your
 You will then be able to select **Download** to retrieve your archived data.
 
 [![Download Data](https://assets.postman.com/postman-docs/Download_Data1.png)](https://assets.postman.com/postman-docs/Download_Data1.png)
+
+> The `archive.json` inside the downloaded ZIP archive is not a Postman collection that can be imported; it is simply an index of files present in the archive. A collections folder contains all the files that can be imported.
 
 Alternatively, you can download your archived data directly within Postman. To learn how, refer to [Settings](/docs/getting-started/settings/).
 

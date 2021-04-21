@@ -133,7 +133,7 @@ You will receive daily and weekly summaries of your active monitors in Postman a
 
 [![monitor summary](https://assets.postman.com/postman-docs/monitor-summary-email.jpg)](https://assets.postman.com/postman-docs/monitor-summary-email.jpg)
 
-You can opt out of daily and/or weekly summaries by selecting your avatar in the upper-right corner of Postman and clicking **Notification Preferences**.
+You can opt out of daily or weekly summaries by selecting your avatar in the upper-right corner of Postman and clicking **Notification Preferences**.
 
 When creating or editing a monitor, you can choose to receive email notifications for run failures and errors under **Show Additional Preferences**. You can define up to five recipients and configure when you would like to stop failure notifications for consecutive run failures.
 

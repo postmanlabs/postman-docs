@@ -11,7 +11,7 @@ contextual_links:
     url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
   - type: link
     name: "Managing your team"
-    url: "/docs/administration/managing-your-team/"
+    url: "/docs/administration/managing-your-team/managing-your-team/"
 ---
 
 > __[Audit logs are available on Postman Business and Enterprise plans.](https://www.postman.com/pricing)__

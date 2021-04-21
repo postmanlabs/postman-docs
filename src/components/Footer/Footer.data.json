@@ -44,7 +44,7 @@
     {"name": "Support",
       "children": [
         { "url": "https://www.postman.com/support/", "name": "Support Center", "id": "support-center", "category": "global-footer", "label": "support-center"},
-        { "url": "https://pages.getpostman.com/Resellers-Support.html", "name": "Resellers Support", "id": "resellers-support", "category": "global-footer", "label": "resellers-support"}
+        { "url": "https://www.postman.com/support/resellers-support/", "name": "Resellers Support", "id": "resellers-support", "category": "global-footer", "label": "resellers-support"}
       ]
     },
 
@@ -79,7 +79,7 @@
     },
     {
       "type": "link",
-      "url": "https://www.postman.com/legal/eula/",
+      "url": "https://www.postman.com/legal/terms/",
       "name": "Terms"
     },
     {

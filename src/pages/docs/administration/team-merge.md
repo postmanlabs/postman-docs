@@ -11,7 +11,7 @@ contextual_links:
     url: "/docs/administration/sso/admin-sso/"
   - type: link
     name: "Managing your team"
-    url: "/docs/administration/managing-your-team/"
+    url: "/docs/administration/managing-your-team/managing-your-team/"
   - type: link
     name: "Manage Large Teams in Postman with Workspaces, Permissions, and Version Control"
     url: "/docs/administration/sso/admin-sso/"
@@ -147,4 +147,4 @@ All collections in your personal workspace and any workspaces that you have join
 
 [Configure SSO](/docs/administration/sso/admin-sso/) if you are subscribed to a Postman Business or Enterprise plan.
 
-Learn how to [manage your team roles, invite team members to workspaces, and adjust your team size](/docs/administration/managing-your-team/).
+Learn how to [manage your team roles, invite team members to workspaces, and adjust your team size](/docs/administration/managing-your-team/managing-your-team/).

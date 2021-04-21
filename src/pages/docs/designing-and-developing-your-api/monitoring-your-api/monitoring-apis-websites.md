@@ -21,6 +21,11 @@ contextual_links:
   - type: link
     name: "API monitoring with Postman"
     url: "https://www.youtube.com/watch?v=3nOP_TYTuA8"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "6 Steps to Enhance Your Audio with a Dolby API and Postman Monitors"
+    url:  "https://blog.postman.com/6-steps-enhance-audio-dolby-api/"   
   - type: section
     name: "Next Steps"
   - type: link

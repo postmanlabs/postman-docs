@@ -97,11 +97,10 @@ If you happen to be on Postman v8 or below and would like to downgrade to Postma
 
 Please use the following links to download the latest Postman v7 version for your platform.
 
-* [Download Postman v7 for macOS 64-bit](https://dl.pstmn.io/download/latest/osx)
-* [Download Postman v7 for Windows 64-bit](https://dl.pstmn.io/download/latest/win64)
-* [Download Postman v7 for Windows 32-bit](https://dl.pstmn.io/download/latest/win32)
-* [Download Postman v7 for Linux 64-bit](https://dl.pstmn.io/download/latest/linux64)
-* [Download Postman v7 for Linux 32-bit](https://dl.pstmn.io/download/latest/linux32)
+* [Download Postman v7 for macOS 64-bit](https://go.pstmn.io/dl-macos64-v7-latest)
+* [Download Postman v7 for Windows 64-bit](https://go.pstmn.io/dl-win64-v7-latest)
+* [Download Postman v7 for Windows 32-bit](https://go.pstmn.io/dl-win32-v7-latest)
+* [Download Postman v7 for Linux 64-bit](https://go.pstmn.io/dl-linux64-v7-latest)
 
 **Note:** If you are using Postman for Linux, and had installed the app via 'Ubuntu Software Center' or 'Snap Store', please use the following commands to switch to Postman v7.
 

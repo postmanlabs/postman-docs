@@ -50,15 +50,15 @@ Newman allows you to run and test a Postman Collection. Newman and Jenkins are a
 
 ## Installation
 
-[Install Jenkins](https://www.jenkins.io/doc/book/installing/#debian-ubuntu).
+1. Install and start Jenkins. For more information, see the Jenkins documentation at [https://www.jenkins.io](https://www.jenkins.io).
 
-Install NodeJS and npm. Newman is written in NodeJS and the official copy is available through npm. Install [nodejs and npm for Linux](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+1. Install NodeJS and npm. Newman is written in NodeJS and the official copy is available through npm. Install [nodejs and npm for Linux](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
-Install Newman globally, to set up Newman as a command line tool in Ubuntu.
+1. Install Newman globally, to set up Newman as a command line tool in Ubuntu.
 
-```bash
-$ npm install -g newman
-```
+    ```bash
+    $ npm install -g newman
+    ```
 
 ## Run a collection in Postman
 
@@ -76,35 +76,36 @@ Run this collection inside Newman, using the command below. If everything is set
 
 ## Set up Jenkins
 
-Jenkins exposes an interface at `http://localhost:8080`.
+After you have started Jenkins, it exposes an interface at `http://localhost:8080`. Click the **New Item** link on the left sidebar to create a new job.
 
-[![jenkins interface](https://assets.postman.com/postman-docs/integrating_with_jenkins_3.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_3.png)
+[![jenkins interface](https://assets.postman.com/postman-docs/integrating_with_jenkins_3.jpg)](https://assets.postman.com/postman-docs/integrating_with_jenkins_3.jpg)
 
-Create a new job by clicking on the “New Item” link on the left sidebar > Select a “Freestyle Project” from the options > Name your project.
+Select a “Freestyle Project” from the options. Name your project, and click **OK**.
 
-[![new Jenkins job](https://assets.postman.com/postman-docs/integrating_with_jenkins_4.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_4.png)
+[![new Jenkins job](https://assets.postman.com/postman-docs/integrating_with_jenkins_4.jpg)](https://assets.postman.com/postman-docs/integrating_with_jenkins_4.jpg)
 
-Add a build step in the project. The build step executes a Shell command.
+Add a build step in the project. The build step executes a shell command.
 
 [![execute shell command](https://assets.postman.com/postman-docs/integrating_with_jenkins_5.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_5.png)
 
-Here is the command:
+Here is an example command:
 
 ```bash
-$ newman run jenkins_demo.postman_collection --suppress-exit-code 1
+$ newman run /path/to/jenkins_demo.postman_collection.json --suppress-exit-code 1
 ```
 
-Note here that the Newman command parameter ”suppress-exit-code” uses the value `1`. This denotes that Newman is going to exit with this code that will tell Jenkins that everything did not go well.
+Note here that the Newman command parameter `suppress-exit-code` uses the value `1`. This denotes that Newman is going to exit with this code that will tell Jenkins that everything did not go well.
 
-Click the **Save** button to finish creating the project.
+Click **Save** to finish creating the project.
 
-[![source code management](https://assets.postman.com/postman-docs/integrating_with_jenkins_6.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_6.png)
+[![Jenkins build shell command](https://assets.postman.com/postman-docs/integrating_with_jenkins_6.jpg)](https://assets.postman.com/postman-docs/integrating_with_jenkins_6.jpg)
 
 ## Troubleshooting
 
-Run this build test manually by clicking on the “Build Now” link in the sidebar.
+Run this build test manually by clicking on the **Build Now** link in the sidebar.
 
-[![run build](https://assets.postman.com/postman-docs/integrating_with_jenkins_7.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_7.png)
+![run build](https://assets.postman.com/postman-docs/integrating_with_jenkins_build_now-2.jpg
+)
 
 Jenkins indicates that the build has failed with a red dot in the title. You can check why with the console output from Newman.
 

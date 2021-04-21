@@ -9,7 +9,7 @@
 	},
 	{
 		"from": "/docs/administration/",
-		"to": "/docs/administration/managing-your-team/"
+		"to": "/docs/administration/managing-your-team/managing-your-team/"
 	},
 	{
 		"from": "/docs/administration/migrating_to_v7/",
@@ -361,7 +361,7 @@
 	},
 	{
 		"from": "/docs/postman-pro/managing-pro/inviting-and-managing/",
-		"to": "/docs/administration/managing-your-team/"
+		"to": "/docs/administration/managing-your-team/managing-your-team/"
 	},
 	{
 		"from": "/docs/postman-pro/managing-pro/managing-your-billing/",
@@ -369,7 +369,7 @@
 	},
 	{
 		"from": "/docs/postman-pro/managing-pro/managing-your-team/",
-		"to": "/docs/administration/managing-your-team/"
+		"to": "/docs/administration/managing-your-team/managing-your-team/"
 	},
 	{
 		"from": "/docs/postman-pro/managing-pro/migrating-to-v7/",
@@ -509,11 +509,11 @@
 	},
 	{
 		"from": "/docs/postman/collaboration/managing-your-team/",
-		"to": "/docs/administration/managing-your-team/"
+		"to": "/docs/administration/managing-your-team/managing-your-team/"
 	},
 	{
 		"from": "/docs/postman/collaboration/managing_your_team/",
-		"to": "/docs/administration/managing-your-team/"
+		"to": "/docs/administration/managing-your-team/managing-your-team/"
 	},
 	{
 		"from": "/docs/postman/collaboration/requesting-access-to-collections/",
@@ -1625,7 +1625,7 @@
 	},
 	{
 		"from": "/docs/postman_pro/managing_postman_pro/managing_your_team/",
-		"to": "/docs/administration/managing-your-team/"
+		"to": "/docs/administration/managing-your-team/managing-your-team/"
 	},
 	{
 		"from": "/docs/postman_pro/managing_postman_pro/migrating_to_v7/",
@@ -1653,7 +1653,7 @@
 	},
 	{
 		"from": "/docs/postman_pro/managing_pro/inviting_and_managing/",
-		"to": "/docs/administration/managing-your-team/"
+		"to": "/docs/administration/managing-your-team/managing-your-team/"
 	},
 	{
 		"from": "/docs/postman_pro/managing_pro/managing_your_billing/",
@@ -1661,7 +1661,7 @@
 	},
 	{
 		"from": "/docs/postman_pro/managing_pro/managing_your_team/",
-		"to": "/docs/administration/managing-your-team/"
+		"to": "/docs/administration/managing-your-team/managing-your-team/"
 	},
 	{
 		"from": "/docs/postman_pro/managing_pro/migrating_to_v7/",
@@ -1794,5 +1794,9 @@
 	{
 		"from": "/docs/administration/migrating-to-v7/",
 		"to": "/docs/administration/upgrading-to-v8/"
+	},
+	{
+		"from": "/docs/administration/managing-your-team/",
+		"to": "/docs/administration/managing-your-team/managing-your-team/"
 	}
 ]
