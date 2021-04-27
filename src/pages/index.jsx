@@ -62,9 +62,9 @@ class IndexPage extends React.Component {
         <SEO title="Home" slug="/" />
         <section className="row section" style={heroBackground}>
           <div className="col-sm-12 col-md-5 col-lg-6 align-self-center">
-            <h1>Postman Learning Center</h1>
+            <h1>Postman学习中心</h1>
             <p>
-              Learn how to use Postman.
+              了解如何使用Postman.
               {' '}
               <br />
               Check out the docs and support resources!
