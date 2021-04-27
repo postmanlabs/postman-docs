@@ -57,5 +57,5 @@ Custom alerts can be used to scan your team's proprietary third-party app tokens
 To add custom alerts:
 
 1. Go to **Team Settings** > **Token Scanner**.
-2. In the **Custom alerts** section, click the **Add alerts** button .
+2. In the **Custom alerts** section, click the **Add alerts** button.
 3. In the **Add Alert** page, define the custom token.
