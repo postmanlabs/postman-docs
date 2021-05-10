@@ -38,6 +38,8 @@ You can capture the HTTP requests using the following two ways:
 * [Built-in proxy](#built-in-proxy)
 * [Interceptor](#interceptor)
 
+This document contains instructions for how to use the built-in proxy with external devices such as phones and different operating systems.
+
 ## Built-in proxy
 
 Postman has a built-in proxy in the Postman app that captures the HTTP request.
@@ -92,6 +94,8 @@ The broader development community has published some useful tutorials for settin
 * [Linux](https://www.shellhacks.com/linux-proxy-server-settings-set-proxy-command-line/)
 * [macOS](https://support.apple.com/en-gb/guide/mac-help/mchlp2591/mac)
 * [Android](https://www.howtogeek.com/295048/how-to-configure-a-proxy-server-on-android/)
+
+Read on to find out how to capture HTTPs traffic for different operating systems.
 
 ## Capture HTTPS traffic with Postman's built-in proxy
 
