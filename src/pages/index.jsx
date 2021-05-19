@@ -164,7 +164,7 @@ class IndexPage extends React.Component {
         {/* Livestream Section */}
         <section className="row section">
           <div className="col-md-12 text-center mb-3">
-            <h2 id="upcoming-postman-livestreams">Upcoming Postman Livestreams</h2>
+            <h2 id="upcoming-livestreams">Upcoming Postman Livestreams</h2>
             <p>
               <a href="https://www.twitch.tv/getpostman" target="_blank" rel="noopener noreferrer">
                 Follow us
