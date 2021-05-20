@@ -794,15 +794,17 @@ exports[`renders correctly 1`] = `
       <div
         className="col-12 text-center footer__copyright"
       >
-        <li
-          className="copyright-notice list-inline-item"
-        >
-          ©
-          <span
+        <ul>
+          <li
+            className="copyright-notice list-inline-item"
+          >
+            ©
+            <span
             id="current-year"
-          />
-          2021 Postman, Inc. All rights reserved
-        </li>
+            />
+            2021 Postman, Inc. All rights reserved
+          </li>
+        </ul>
       </div>
     </div>
   </div>
