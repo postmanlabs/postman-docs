@@ -16,6 +16,10 @@ We would love for you to contribute to the Learning Center! To contribute to thi
 
 > To say thank you for your contribution, we’d love to send you exclusive Contributor swag. Fill out the [Contributor Submission form](https://docs.google.com/forms/d/e/1FAIpQLSfbLAcxl-IOiv3NmgEaWw7FleOaXnIyIoIrY_zn6U4JvjQBGA/viewform?usp=send_form) and we’ll send you a token of our gratitude.
 
+## Contributor over time
+
+[![Contributor over time](https://contributor-graph-api.apiseven.com/contributors-svg?chart=contributorOverTime&repo=postmanlabs/postman-docs)](https://www.apiseven.com/en/contributor-graph?chart=contributorOverTime&repo=postmanlabs/postman-docs)
+
 ## Build the Learning Center locally
 
 ```
