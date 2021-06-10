@@ -57,18 +57,20 @@ A proxy acts like a go-between to perform various functions. Postman has a [buil
 
 This article describes how to configure the proxy settings in Postman to direct all requests made in the Postman app to route through a proxy server. This is different from [capturing network traffic](/docs/sending-requests/capturing-request-data/capturing-http-requests/) with the built-in proxy which allows Postman to intercept network traffic.
 
-Postman's native apps for Mac, Windows, and Linux support configuring proxies. You can either specify to use a custom **Global proxy** or to use the **system proxy** defined in the operating system.
+Postman's native apps for Mac, Windows, and Linux support configuring proxies. You can either specify to use a **custom proxy** or to use the **system proxy** defined in the operating system.
 
-Use the **Global proxy** if all of your applications need to use the same proxy. Turn **Global proxy** _on_ if you want to direct the requests from Postman go through a custom proxy server. Turning it off will direct the
+Use the **custom proxy** if all of your applications need to use the same proxy. Turn **custom proxy** _on_ if you want to direct the requests from Postman go through a custom proxy server. Turning it off will direct the
 requests to not use the proxy server.
 
 To configure the proxy settings, click the gear icon on the right side of the header toolbar, choose **Settings**, and select the **Proxy** tab.
 
 [![settings modal](https://assets.postman.com/postman-docs/WS-proxy_settings-a.png)](https://assets.postman.com/postman-docs/WS-proxy_settings-a.png)
 
-### Using Global proxy
+> Postman uses the system's proxy configurations by default. To send API requests, select the option "This proxy requires authentication."
 
-Postman allows you to configure **Global Proxy Configuration** that direct Postman to forward your HTTP or HTTPS requests through a proxy server. In other words, this will route all requests sent via the Postman app through a proxy server of your choosing.
+### Using Custom proxy
+
+Postman allows you to configure **Custom Proxy Configuration** that direct Postman to forward your HTTP or HTTPS requests through a proxy server. In other words, this will route all requests sent via the Postman app through a proxy server of your choosing.
 
 1. The Postman app is the client that sends a request through the selected proxy.
 1. The proxy server sends the request to the server.
@@ -76,20 +78,17 @@ Postman allows you to configure **Global Proxy Configuration** that direct Postm
 
 [![custom proxy](https://assets.postman.com/postman-docs/custom.proxy2.png)](https://assets.postman.com/postman-docs/custom.proxy2.png)
 
-Global proxy settings are disabled by default and can be turned on using the toggle switch.
+The **Use the system proxy** option allows Postman to use the system's default proxy configuration. It contains an option to use `HTTP_PROXY`, `HTTPS_PROXY`, and `NO_PROXY` environment variables of the said system.
+
+Custom proxy settings are disabled by default and can be turned on using the toggle switch.
 
 Choose the type of proxy server by checking the appropriate checkboxes beside **Proxy Type**. By default, both `HTTP` and `HTTPS` are checked. This means that both HTTP and HTTPS requests will go through the proxy server.
 
 The first field under **Proxy Type** is **Proxy Server**. Here, enter the **host** or **IP address** (without protocol) of the proxy server. The next field to **Proxy Server** is where the **port** of the proxy server is provided.
 
-The Field below **Proxy Server** is **Proxy Auth**, turning this on makes the requests use Basic Authentication
-method, which requires a username and a password.
+The field below **Proxy Server** is **Proxy Auth**, turning this on makes the requests use Basic Authentication method, which requires a username and a password.
 
-The **Proxy Bypass** setting lies below the **Proxy Server** option. A number of comma separated hosts can be
-provided here for which the requests do not use the proxy settings.
-
-The **Use System Proxy** option allows Postman to use the system's default proxy configuration. It contains an
-option to use `HTTP_PROXY`, `HTTPS_PROXY`, and `NO_PROXY` environment variables of the said system.
+The **Proxy Bypass** setting lies below the **Proxy Server** option. A number of comma separated hosts can be provided here for which the requests do not use the proxy settings.
 
 [![custom proxy](https://assets.postman.com/postman-docs/proxy_global.png)](https://assets.postman.com/postman-docs/proxy_global.png)
 
