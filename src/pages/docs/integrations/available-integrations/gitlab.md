@@ -88,7 +88,7 @@ Select **Add Integration**.
 
 Your collection is pushed to your GitLab project under the directory that you specified and saved as a single JSON file.
 
-![file in Gitlab project](https://assets.postman.com/postman-docs/Gitlab_CustomDomain_Collection1_gray2.jpg)
+![file in Gitlab project](https://assets.postman.com/postman-docs/Gitlab_CustomDomain_Collection1_gray3.jpg)
 
 Now every change that is saved to your Postman Collection automatically commits changes to your GitLab project in real time. Your Collections and code can exist in the same repository.
 
