@@ -104,4 +104,4 @@ Select **Add Integrations**.
 
 Now, you can go to your Gitlab domain and view your backed-up collections, as illustrated in the screen below:
 
-![gitlab advanced options](https://assets.postman.com/postman-docs/Gitlab_repo1_gray2.jpg)
+![gitlab advanced options](https://assets.postman.com/postman-docs/Gitlab_repo1_gray3.jpg)
