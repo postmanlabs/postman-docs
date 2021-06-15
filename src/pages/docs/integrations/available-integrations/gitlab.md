@@ -88,20 +88,21 @@ Select **Add Integration**.
 
 Your collection is pushed to your GitLab project under the directory that you specified and saved as a single JSON file.
 
-<img src="https://assets.postman.com/postman-docs/Gitlab_CustomDomain_Collection1_gray2.png" alt="file in Gitlab project">
+<img src="https://assets.postman.com/postman-docs/Gitlab_CustomDomain_Collection1_gray2.jpg" alt="file in Gitlab project">
 
 Now every change that is saved to your Postman Collection automatically commits changes to your GitLab project in real time. Your Collections and code can exist in the same repository.
 
-<img src="https://assets.postman.com/postman-docs/WS-integrations-gitlab-backupPostToken2_gray2.png" alt="backup">
+<img src="
+" alt="backup">
 
 In "Advanced Options" you can enter a custom directory name or leave "Postman Collections" as the default. You can specify a branch for commit or the default branch of the repository will be used. Make sure you have write access to the branch you are trying to push your changes.
 
 > Note that the branch you want to back up your collection to must already exist.
 
-<img src="https://assets.postman.com/postman-docs/integrations-gitlab-advOptions1_gray2.png" alt="gitlab advanced options">
+<img src="https://assets.postman.com/postman-docs/integrations-gitlab-advOptions1_gray2.jpg" alt="gitlab advanced options">
 
 Select **Add Integrations**.
 
 Now, you can go to your Gitlab domain and view your backed-up collections, as illustrated in the screen below:
 
-<img src="https://assets.postman.com/postman-docs/Gitlab_repo1_gray2.png" alt="gitlab advanced options">
+<img src="https://assets.postman.com/postman-docs/Gitlab_repo1_gray2.jpg" alt="gitlab advanced options">
