@@ -92,8 +92,7 @@ Your collection is pushed to your GitLab project under the directory that you sp
 
 Now every change that is saved to your Postman Collection automatically commits changes to your GitLab project in real time. Your Collections and code can exist in the same repository.
 
-<img src="
-" alt="backup">
+![gitlab backup](https://assets.postman.com/postman-docs/WS-integrations-gitlab-backupPostToken2_gray2.jpg)
 
 In "Advanced Options" you can enter a custom directory name or leave "Postman Collections" as the default. You can specify a branch for commit or the default branch of the repository will be used. Make sure you have write access to the branch you are trying to push your changes.
 
