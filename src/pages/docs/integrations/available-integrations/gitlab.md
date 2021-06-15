@@ -35,9 +35,9 @@ From the [Integrations search page](https://go.postman.co/integrations/browse?ca
 
 ![gitlab dashboard](https://assets.postman.com/postman-docs/gitlab-search-all-bb.jpg)
 
-You can select `View` or `View All`to see all integrations created by your team.
+You can select **View** or **View All** to see all integrations created by your team.
 
-![gitlab dashboard](https://assets.postman.com/postman-docs/gitlab-add-integration.jpg)
+![gitlab add integration](https://assets.postman.com/postman-docs/gitlab-add-integration.jpg)
 
     The above screen provides you the following two options:
 
