@@ -7,7 +7,7 @@ import '../../styles/config/_pm-icons.css';
 import upcomingEvents from '../../bff-data/events.json';
 
 import HeroImage from '../assets/postman-workspaces-personal-postmanaut.png';
-import AdminImage from '../assets/team-collaboration-postmanaut-pic.png';
+import TeachImage from '../assets/teaching-spaceman.svg';
 import ResourceImage from '../assets/integrations-intro-pic.png';
 import LearnImage from '../assets/postmanaut-intro-pic.png';
 
@@ -105,11 +105,11 @@ class IndexPage extends React.Component {
               </div>
               <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
                 <LandingCard
-                  title="Admin"
-                  description="Administer your account and set up your team for success."
-                  link="/docs/administration/managing-your-team/managing-your-team/"
-                  cta="Manage Postman"
-                  icon={AdminImage}
+                  title="30 Days of Postman"
+                  description="Tackle a new challenge each day with these developer tutorials."
+                  link="https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
+                  cta="Start Challenge"
+                  icon={TeachImage}
                 />
               </div>
             </div>
@@ -125,8 +125,8 @@ class IndexPage extends React.Component {
               <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
                 <SecondaryCard
                   title="Postman Network"
-                  description="Find templates, workspaces, and APIs you can interact with inside Postman."
-                  cta="Browse Postman"
+                  description="Browse APIs, workspaces, and collections inside Postman."
+                  cta="Explore Postman"
                   ctaLink="https://www.postman.com/explore"
                 />
               </div>
