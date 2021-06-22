@@ -7,7 +7,7 @@ import '../../styles/config/_pm-icons.css';
 import upcomingEvents from '../../bff-data/events.json';
 
 import HeroImage from '../assets/postman-workspaces-personal-postmanaut.png';
-import TeachImage from '../assets/teaching-spaceman.svg';
+import TeamCollaborationImage from '../assets/team-collaboration-postmanaut-pic.png';
 import ResourceImage from '../assets/integrations-intro-pic.png';
 import LearnImage from '../assets/postmanaut-intro-pic.png';
 
@@ -109,7 +109,7 @@ class IndexPage extends React.Component {
                   description="Tackle a new challenge each day with these developer tutorials."
                   link="https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
                   cta="Start Challenge"
-                  icon={TeachImage}
+                  icon={TeamCollaborationImage}
                 />
               </div>
             </div>
