@@ -111,7 +111,7 @@ class IndexPage extends React.Component {
               <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
                 <SecondaryCard
                   title="Postman Space Camp"
-                  description="See upcoming educational webinars."
+                  description="See previous and upcoming educational webinars."
                   cta="See Webinars"
                   ctaLink="https://www.postman.com/events/postman-space-camp/"
                 />
@@ -275,7 +275,7 @@ class IndexPage extends React.Component {
           <div className="col-md-6 col-lg-4 mb-3 mb-md-4">
             <SecondaryCard
               title="Community"
-              description="Connect to the Postman community on our forum."
+              description="Join the Postman community."
               cta="Visit Forum"
               ctaLink="https://community.postman.com/"
             />
