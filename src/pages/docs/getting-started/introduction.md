@@ -38,6 +38,7 @@ If you're just starting to learn about APIs and Postman, you can use a variety o
 
 * [__Send your first request!__](/docs/getting-started/sending-the-first-request/)
 * Use the __Bootcamp__ to work through lessons inside Postman—open it at the bottom right of the app.
+* Take a look at the [Postman overview](/docs/getting-started/using-launchpad/) to explore the dashboard view and get started with Postman.
 * Explore [workspaces, collections, and more](https://www.postman.com/explore) that you can try out inside Postman, like the following:
     * [**Learn by API**](https://www.postman.com/postman/workspace/published-postman-templates/collection/9065401-ff29b3be-af69-4442-91e0-c1158b620fc2?ctx=documentation)–walk through beginner API concepts.
     * [**Postman Training**](https://www.postman.com/postman/workspace/postman-galaxy-training/overview)–Learn APIs 101, Testing and Automation, API Adoption, and API First, earning [Postman badges](https://badgr.com/public/issuers/BC0x4AQaQPC7lFilsBP_tQ/badges).
