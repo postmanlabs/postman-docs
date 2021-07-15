@@ -122,6 +122,8 @@ Postman directly supports importing the following formats:
 
 * RAML [0.8](https://github.com/postmanlabs/raml-to-postman) and [1.0](https://github.com/postmanlabs/raml1-to-postman)
 
+* [WSDL 1.1 and 2.0](https://github.com/postmanlabs/wsdl-to-postman)
+
 * [GraphQL](https://github.com/postmanlabs/graphql-to-postman)
 
 * WADL

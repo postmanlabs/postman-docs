@@ -53,9 +53,9 @@ Click __New__, then select __API__ or click __+__.
 
 ![New API](https://assets.postman.com/postman-docs/v8-create-api-modal2.jpg)
 
-Enter a name and a version, then select a schema type and format for your API. You can optionally import an API specification directly at this stage—if you don't, Postman will populate your API with a sample specification you can edit at any time.
+Enter a name and a version, then select a schema type and format for your API. You can optionally import an API specification directly at this stage. If you don't, Postman will populate your API with a sample specification you can edit at any time.
 
-> Postman currently supports OpenAPI (versions 1.0, 2.0, and 3.0), RAML (0.8 and 1.0), and GraphQL. Your schema can be defined in JSON, YAML, XML, or GraphQL SDL. Multi-file variants of schemas are currently not supported.
+> Postman currently supports OpenAPI (versions 1.0, 2.0, and 3.0), RAML (0.8 and 1.0), GraphQL, or WSDL (1.1 and 2.0). OpenAPI schemas can be defined in JSON or YAML. RAML schemas must be YAML. GraphQL schemas can be JSON or GraphQL SDL. WSDL schemas must be XML. Multi-file variants of schemas are currently not supported.
 
 You can rename, delete, or remove the API from the workspace using the __View more actions__ (__...__) menu in the left sidebar.
 

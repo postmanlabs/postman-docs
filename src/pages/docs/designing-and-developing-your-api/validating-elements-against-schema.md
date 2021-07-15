@@ -28,7 +28,7 @@ contextual_links:
 
 You can validate your API schema in Postman, and validate your elements (documentation, tests, mock servers, monitors) against a schema. This helps keep your API well-defined and ensure that your elements are in sync with your schema. If there is a validation error on the schema or elements do not match it, Postman will present a list of issues that have been found, as well as fixes for these issues. You can then apply fixes to the API elements and revalidate them.
 
-> Validation is available for OpenAPI 3.0 schemas.
+> Validation is available for OpenAPI 2.0 and 3.0 and WSDL 1.1 and 2.0 schemas.
 
 * [Validating schema](#validating-schema)
 * [Validating elements](#validating-elements)
@@ -62,12 +62,12 @@ If there are no errors, Postman will indicate that your schema is valid.
 
 ## Validating elements
 
-This section outlines the pre-requisites for validating your elements against an API schema, when validations are triggered, and how to trigger one manually.
+This section outlines the prerequisites for validating your elements against an API schema, when validations are triggered, and how to trigger one manually.
 
 For validations to execute, you need the following elements in place:
 
 * An API schema - see [Defining an API](/docs/designing-and-developing-your-api/the-api-workflow/#defining-an-api)
-* API element(s) - this can be a [mock server](/docs/designing-and-developing-your-api/the-api-workflow/#adding-a-mock-server), [documentation](/docs/designing-and-developing-your-api/the-api-workflow/#adding-documentation), [tests](/docs/designing-and-developing-your-api/the-api-workflow/#testing-an-api), or a [monitor](/docs/designing-and-developing-your-api/the-api-workflow/#observing-an-api)
+* API elements - this can be a [mock server](/docs/designing-and-developing-your-api/the-api-workflow/#adding-a-mock-server), [documentation](/docs/designing-and-developing-your-api/the-api-workflow/#adding-documentation), [tests](/docs/designing-and-developing-your-api/the-api-workflow/#testing-an-api), or a [monitor](/docs/designing-and-developing-your-api/the-api-workflow/#observing-an-api)
 
 > Once the validation is complete, a status will appear next to the element indicating a checkmark if no issues have been found, or a warning message stating `Issues found`.
 
@@ -80,7 +80,7 @@ You can also trigger a new validation of your element manually in the following 
 * Re-validating after editing your schema and/or your linked element
 * Adding a new schema to an API that already has elements linked to it
 
-You can do so by navigating to your element (eg. **Test Suite**), clicking the validation status, then **Validate Again**.
+You can do so by navigating to your element (such as **Test Suite**), clicking the validation status, then **Validate Again**.
 
 [![re validating element](https://assets.postman.com/postman-docs/apidev15-revalidate-element.gif)](https://assets.postman.com/postman-docs/apidev15-revalidate-element.gif)
 
@@ -142,7 +142,7 @@ The left sidebar gives you a summary of issues and allows you to navigate betwee
 
 [![review issues sidebar](https://assets.postman.com/postman-docs/apidev15-sidebar.gif)](https://assets.postman.com/postman-docs/apidev15-sidebar.gif)
 
-> You can click on the request name or the request element to navigate directly to the corresponding issue(s).
+> You can click on the request name or the request element to navigate directly to the corresponding issues.
 
 The right-hand side of the review contains details on what changes need to be made for the API element to be in sync with the schema again. Elements highlighted in red will be removed from the collection. Elements highlighted in green will be added.
 
