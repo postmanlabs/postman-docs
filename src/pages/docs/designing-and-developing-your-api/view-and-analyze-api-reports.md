@@ -26,7 +26,7 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
 ---
 
-> [__API reporting is available on Postman Enterprise and Business plans.__](https://www.postman.com/pricing)
+> [__API reporting is available on all Postman Enterprise and select Postman Business* plans.__](https://www.postman.com/pricing)
 
 You can access reports on your APIs in your [Postman dashboard](https://go.postman.co/reports/team). API reports visualize data on API activities including creation, collection execution, test runs, and more, providing insights on performance, troubleshooting, and SLA adherence, as well as team and organization metrics.
 
@@ -44,6 +44,8 @@ To view reports, in __APIs__ on the left of Postman, select the API and click __
 The __Reports__ section of the web dashboard will open in your browser. Postman generates reports on [teams](#team-reports) and [APIs](#api-reports).
 
 Your API reports will include different information if you're on an [Enterprise](#enterprise-reports) or [Business](#business-reports) plan.
+
+> *Business plans commencing early 2021 and thereafter do not benefit from API reports. To upgrade to Postman Enterprise, [contact Postman's sales team](mailto:sales@postman.com).
 
 ## Enterprise reports
 
