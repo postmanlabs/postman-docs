@@ -31,58 +31,70 @@ warning: false
 
 ---
 
-If you are using APIs to build client-side applications - mobile apps, websites or desktop applications - you might want to see the actual HTTP and HTTPS request traffic that's being sent and received in the application. Sometimes you might discover APIs that aren't even documented. Postman gives you tools to see and capture this network traffic. You can use the built-in proxy in the Postman native apps or use the [Interceptor extension](/docs/sending-requests/capturing-request-data/interceptor/) for the Postman app.
+If you are using APIs to build client-side applications - mobile apps, websites, or desktop applications - you might want to see the actual HTTP and HTTPS request traffic that's being sent and received in the application. Sometimes you might discover APIs that aren't even documented. Postman gives you tools to see and capture this network traffic.
 
-You can capture the HTTP requests using the following two ways:
+When using the Postman app, you can capture the HTTP traffic in one of two ways:
 
 * [Built-in proxy](#built-in-proxy)
 * [Interceptor](#use-interceptor-to-capture-requests)
 
 ## Built-in proxy
 
-The Postman app has a built-in proxy that can capture HTTP requests:
+The Postman app has a built-in proxy that can capture HTTP traffic:
 
 1. The Postman app listens for any calls made by the client app or device.
 1. The Postman proxy captures the request and forwards it to the server.
-1. The server returns a response through the Postman proxy back to the client.
+1. The server returns a response to the Postman proxy, where it can also be saved.
+1. The response is returned back to the client.
 
 [![postman capture proxy](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)
 
-Similar to the [Interceptor Chrome extension](/docs/sending-requests/capturing-request-data/interceptor/), the Postman app proxy also intercepts and captures your requests. In this scenario, the Postman app is the proxy, and you can inspect HTTP communication going out from your phone like in the following example, and log all network requests under the History tab of the sidebar.
-
-[![proxy logs](https://assets.postman.com/postman-docs/WS-proxy.logs-aa.jpeg)](https://assets.postman.com/postman-docs/WS-proxy.logs-aa.jpeg)
+Similar to the [Interceptor Chrome extension](/docs/sending-requests/capturing-request-data/interceptor/), the Postman app proxy also intercepts and captures your requests. Additionally, it can capture responses. You can log all network requests and responses under the History tab in the sidebar, or in a collection.
 
 ## Using Postman's proxy example
 
-In this tutorial, you will use Postman's proxy feature to inspect HTTP communication going out from your phone. To get started, make sure your computer and phone are connected to the same local wireless network.
+In this tutorial, you will use Postman's proxy feature to inspect HTTP communication going to and from your phone. To get started, make sure your computer and phone are connected to the same local wireless network.
 
 ### Step 1: Set up the proxy in Postman
 
-Open the **PROXY SETTINGS** modal in the Postman app (macOS) by clicking the icon in the header toolbar.
+1. Open the **Capture requests and cookies** modal in the Postman app by clicking the icon in the header toolbar.<br/><br/>
+    <img src="https://assets.postman.com/postman-docs/postman-proxy-settings-button.jpg" alt="Capture requests and cookies icon" width="300px"/>
+1. In the **Requests** tab, set **Source** to **Proxy**.
+1. Make note of the port mentioned in the proxy settings. In this example, it's set for the default port ``5555``.
+1. Set **Save requests to** to **History** to store requests in the History sidebar panel. You can also select a collection from the list and save the requests there.
+    <img alt="proxy settings modal" src="https://assets.postman.com/postman-docs/postman-capture-request-modal.jpg" width="350px"/>
+1. Select **Save responses** to also save each request's responses. They will be saved alongside the requests in the same collection or history.
+    > In responses with a `content-type` containing images, audio, or video, content is intercepted but not captured. The only information captured is response headers, time taken, and the status code.
+1. There are additional filters you can use to limit the requests and responses captured. You can do the following:
+    * Exclude requests with image, JS, or CSS responses.
+    * Only capture URLs containing a string or a regular expression.
+    * Not capture URLs containing a string or a regular expression.
+    * Only capture the methods specified in a comma-separated list.
 
-[![proxy icon in header](https://assets.postman.com/postman-docs/WS-postman-proxy-settings-button.jpg)](https://assets.postman.com/postman-docs/WS-postman-proxy-settings-button.jpg)
+#### Grouping requests and responses
 
-Keep a note of the port mentioned in the proxy settings. In this example, it's set for the default port ``5555``. Set the target to **History**. This will cause all your requests to be captured and stored in the History sidebar panel.
+By default, requests and responses will be saved chronologically. If you save them to a collection, you can also store them grouped by domain name, endpoints, or both.
 
-[![proxy settings modal](https://assets.postman.com/postman-docs/Interceptor-Proxy1-aa.jpeg)](https://assets.postman.com/postman-docs/Interceptor-Proxy1-aa.jpeg)
+1. In **Save requests to**, specify a collection to store requests and responses.
+1. Under **Organize requests by**, select **Domain name**, **Endpoints**, or both. Your requests and responses will be organized in folders in the selected collection.
 
-### Step 2: Note your computer's IP address
+### Step 2: Find your computer's IP address
 
-On macOS, the computer's IP address can be found in _System Preferences > Network_. The IP address of your system will be something like the example here `192.168.0.101`.
+On macOS, the computer's IP address can be found in **System Preferences > Network**. The IP address of your system will be something like the example here `192.168.0.101`.
 
 [![system preferences](https://assets.postman.com/postman-docs/osx-network-settings-aa.jpeg)](https://assets.postman.com/postman-docs/osx-network-settings-aa.jpeg)
 
 ### Step 3: Configure HTTP proxy on your mobile device
 
-Open the wireless settings of your mobile device and update the configuration of the wireless connection to use HTTP Proxy. Set the IP address with the IP you retrieved from your computer in the second step. Set the port with the port you established in Postman in **Step 1**.
+1. Open the wireless settings of your mobile device and update the configuration of the wireless connection to use HTTP Proxy. Set the IP address with the IP you retrieved from your computer in the second step. Set the port with the port you established in Postman in **Step 1**.
 
-<img src="https://assets.postman.com/postman-docs/ios-http-proxy-settings-aa.jpeg" alt="wireless settings on mobile device" width="350">
+    <img src="https://assets.postman.com/postman-docs/ios-http-proxy-settings-aa.jpeg" alt="wireless settings on mobile device" width="350">
 
-Set the proxy IP address of your device (an iPhone in this example) to the IP address you obtained from your system and port ``5555``.
+1. Set the proxy IP address of your device (an iPhone in this example) to the IP address you obtained from your system and port ``5555``.
 
-You are all set! Head over to the Postman app, and you will start seeing the network calls listed under the **History** tab of the sidebar. Open your device's web browser or your application and you will start seeing HTTP traffic passing through the app or the browser.
+You are all set! Head over to the Postman app, and you will start seeing the network calls listed under the **History** tab of the sidebar, or the collection you specified. Open your device's web browser or your application and you will start seeing HTTP traffic passing through the app or the browser.
 
-[![requests under History tab](https://assets.postman.com/postman-docs/WS-postman-proxy-history-sidebar-aa.jpg)](https://assets.postman.com/postman-docs/WS-postman-proxy-history-sidebar-aa.jpg)
+<img src="https://assets.postman.com/postman-docs/postman-proxy-responses-collection.jpg" alt="requests under collection" width="350px"/>
 
 ## Connect to proxy for target devices
 
@@ -131,8 +143,8 @@ You can use the Postman's proxy to inspect HTTPS communication from your Android
 
 ### macOS
 
-1. Go to the following location: **~/Library/Application Support/Postman/proxy**
-1. Double click on **postman-proxy-ca.crt**
+1. Go to the following location: `~/Library/Application Support/Postman/proxy`.
+1. Double click on `postman-proxy-ca.crt`.
 1. Choose **System** from the keychain option and then select **OK**.
   [![Select System keychains](https://assets.postman.com/postman-docs/mac-install-crt-aa.jpeg)](https://assets.postman.com/postman-docs/mac-install-crt-aa.jpeg)
 1. Select and open the imported Postman certificate. Then select **Always Trust**. You can change this setting after you have completed the testing for your application.
@@ -166,7 +178,7 @@ After these steps, you will be able to capture HTTPS Requests with the Postman p
 
 ### CentOS and Red Hat Enterprise Linux distros
 
-1. Copy the **postman-proxy-ca.crt** certificate file from **~/.config/Postman/proxy** to the **/etc/pki/ca-trust/source/anchors/** directory.
+1. Copy the `postman-proxy-ca.crt` certificate file from `~/.config/Postman/proxy` to the `/etc/pki/ca-trust/source/anchors/` directory.
 
     `sudo cp ~/.config/Postman/proxy/postman-proxy-ca.crt /etc/pki/ca-trust/source/anchors/`
 1. Run the command below in terminal to complete the installation:
@@ -178,7 +190,7 @@ After these steps, you will be able to capture HTTPS Requests with the Postman p
 1. Create the directory for the CA certificate with the command below.
 
     `sudo mkdir -p /usr/share/ca-certificates/extra`
-1. Copy postman-proxy-ca.crt to the new folder with the command below.
+1. Copy `postman-proxy-ca.crt` to the new folder with the command below.
 
     `sudo cp ~/.config/Postman/proxy/postman-proxy-ca.crt /usr/share/ca-certificates/extra/postman-proxy-ca.crt`
 1. Add the certificate to the system with the two commands below.
@@ -189,7 +201,7 @@ After these steps, you will be able to capture HTTPS Requests with the Postman p
 
 ### Install the certificate for use with Mozilla Firefox Browsers
 
-1. Open Firefox and click on the **burger** menu and select **Preferences**.
+1. In Firefox and click the application menu and select **Preferences**.
     [![Select Firefox Preferences](https://assets.postman.com/postman-docs/firefox-crt-preference-aa.jpeg)](https://assets.postman.com/postman-docs/firefox-crt-preference-aa.jpeg)
 1. Select **Privacy & Security**, scroll down to **Certificates** and select **View Certificates**. This opens Firefox’s Certificate Manager.
     [![Select Firefox privacy settings](https://assets.postman.com/postman-docs/firefox-privacy-settings-aa.jpeg)](https://assets.postman.com/postman-docs/firefox-privacy-settings-aa.jpeg)
@@ -204,7 +216,7 @@ After these steps, you will be able to capture HTTPS Requests with the Postman p
 
 ### iOS
 
-1. Download the certificate to the iOS device.
+1. Download the `postman-proxy-ca.crt` certificate to the iOS device.
 
     <img src="https://assets.postman.com/postman-docs/ios-transfer-cert-aa.jpeg" alt="transfer crt to iOS device" width="350">
 1. Go to **Settings > Profile Downloaded**.
